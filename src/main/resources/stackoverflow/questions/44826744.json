@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826744,
+  "title" : "How to use unique function in R with variable having &quot;words in series",
+  "body" : "<p>New to R language and stackoverflow.  I am working on a csv. file.  I need to extract unique genres from the variable \"Genre\" in R.  The content of the variable is</p>\n\n<p>Genre\n Action, Thriller\n Drama, Romance\n Comedy, Drama\n Action, Thriller\n Comedy, Drama, Romance\n Comedy, Drama, Romance\n Crime, Drama, Thriller\n Comedy, Drama, Romance\n Drama, Romance\n Biography, Crime, Drama\n Drama\n Drama, Horror\n Drama, Romance\n Drama, Romance\n Horror</p>\n\n<p>which goes on for more than 3000 in numbers</p>\n\n<p>Can I get R codes for the said thing.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826744/how-to-use-unique-function-in-r-with-variable-having-words-in-series",
+  "owner" : {
+    "user_id" : 8231893,
+    "user_type" : "registered",
+    "display_name" : "Sohan Singh",
+    "profile_image" : "https://graph.facebook.com/1727769917241065/picture?type=large",
+    "link" : "https://stackoverflow.com/users/8231893/sohan-singh",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743483,
+  "last_activity_date" : 1498743483,
+  "tags" : [
+    "unique"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

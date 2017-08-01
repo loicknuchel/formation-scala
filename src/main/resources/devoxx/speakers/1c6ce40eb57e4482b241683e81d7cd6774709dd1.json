@@ -1,0 +1,37 @@
+{
+  "uuid" : "1c6ce40eb57e4482b241683e81d7cd6774709dd1",
+  "bioAsHtml" : "<p>Architecte Technique &quot;Data Management&quot;, passionné des systèmes distribuées et de la gestion de la données.\nEx développeur .Net et ex participant de la communauté ALT.Net, passionné par l&#x27;OpenSource  (petites participations), développeur pluri-language.\nAdorateur des méthodes agiles, approche Lean Startup, TDD/BDD, DDD et autres trigrammes :)\nC&#x27;est en tant que passionné de Big Data que je me présente aujourd&#x27;hui.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/FGB-3240",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8afbf53e07d46197854f422b4f7f41a860a2b89b",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Alexis Slawny"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1c6ce40eb57e4482b241683e81d7cd6774709dd1",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Mathias kluba"
+        }
+      ],
+      "id" : "FGB-3240",
+      "title" : "Big Binouze : Le Big Data, de la récolte jusqu'à la production à grande échelle !"
+    }
+  ],
+  "company" : "Société Générale",
+  "bio" : "Architecte Technique \"Data Management\", passionné des systèmes distribuées et de la gestion de la données.\r\nEx développeur .Net et ex participant de la communauté ALT.Net, passionné par l'OpenSource  (petites participations), développeur pluri-language.\r\nAdorateur des méthodes agiles, approche Lean Startup, TDD/BDD, DDD et autres trigrammes :)\r\nC'est en tant que passionné de Big Data que je me présente aujourd'hui.",
+  "lastName" : "kluba",
+  "firstName" : "mathias",
+  "blog" : "https://grozeille.wordpress.com",
+  "avatarURL" : "https://lh6.googleusercontent.com/-09qEvyzMBdQ/AAAAAAAAAAI/AAAAAAAAIeI/tiCFbCuhldo/photo.jpg",
+  "twitter" : "@mathiaskluba",
+  "lang" : "fr-FR"
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Quickie",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>\"Les Observables sont des flux d’événements paresseux qui peuvent émettre 0 ou N éléments et qui peuvent ou non se terminer.\"</p>\n<p>C’est la définition qu’en donne <a href=\"https://cycle.js.org/\">Cycle.js</a>, un framework JS qui propose de développer des applications fonctionnelles et réactives en manipulant des Observables.</p>\n<p>Sans entrer dans le détail de Cycle.js, je vais vous présenter ce qu’est un Observable, à quoi ça sert et comment on peut les manipuler avec des librairies telles que <a href=\"http://reactivex.io/\">Rx.js</a>.</p>\n",
+  "id" : "RQI-7908",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/bb6c9e891a6b98e0fa9b3ab10ae86965f2ef1b03",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Nicolas Carlo"
+      },
+      "name" : "Nicolas Carlo"
+    }
+  ],
+  "title" : "À la découverte des Observables",
+  "lang" : "fr",
+  "summary" : "\"Les Observables sont des flux d’événements paresseux qui peuvent émettre 0 ou N éléments et qui peuvent ou non se terminer.\"\r\n\r\nC’est la définition qu’en donne [Cycle.js](https://cycle.js.org/), un framework JS qui propose de développer des applications fonctionnelles et réactives en manipulant des Observables.\r\n\r\nSans entrer dans le détail de Cycle.js, je vais vous présenter ce qu’est un Observable, à quoi ça sert et comment on peut les manipuler avec des librairies telles que [Rx.js](http://reactivex.io/)."
+}

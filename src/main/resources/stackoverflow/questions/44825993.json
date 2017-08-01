@@ -1,0 +1,27 @@
+{
+  "question_id" : 44825993,
+  "title" : "How to export SQL queries to Excel where the Excel file does not yet exists?",
+  "body" : "<p>I did an intensive search and could not seem to find an answer.</p>\n\n<p>I want to export SQL queries to Excel and return it (the excel) to the client. (think about a similar concept like <code>FOR XML</code> but instead return binary Excel data) </p>\n\n<p>I tested this (after a long struggle) and it finally works fine:</p>\n\n<pre><code>INSERT INTO OPENROWSET('Microsoft.ACE.OLEDB.12.0', \n'Excel 12.0;Database=D:\\1.xls;', \n'SELECT * FROM [Sheet1$]') \nSELECT TOP 5 ID, ItemName FROM dbo.MyItems\n</code></pre>\n\n<p>And return it to the clients:</p>\n\n<pre><code>SELECT * FROM OPENROWSET(BULK N'D:\\1.xls', SINGLE_BLOB) rs\n</code></pre>\n\n<p>BUT, The file <code>D:\\1.xls</code> must <strong>exists</strong> already in advanced. \nI have read this accepted answer: <a href=\"https://stackoverflow.com/a/9086889/3906993\">T-SQL: Export to new Excel file</a></p>\n\n<blockquote>\n  <p>4 If you dont want to create an EXCEL file in advance and want to\n  export data to it, use <code>EXEC sp_makewebtask</code></p>\n</blockquote>\n\n<p><code>sp_makewebtask</code> is deprecated. </p>\n\n<p>Is there a way I could do this task without having an already existing file? or to at least dynamically create a suitable file before the export? or even better: <em>not use any files at all</em>? </p>\n\n<p>Thanks.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825993/how-to-export-sql-queries-to-excel-where-the-excel-file-does-not-yet-exists",
+  "owner" : {
+    "user_id" : 3906993,
+    "user_type" : "registered",
+    "display_name" : "zig",
+    "profile_image" : "https://www.gravatar.com/avatar/06287ecff73df4e81411426495b7d9fc?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/3906993/zig",
+    "reputation" : 1048,
+    "accept_rate" : 93
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741507,
+  "last_activity_date" : 1498741507,
+  "tags" : [
+    "sql-server",
+    "excel",
+    "sql-server-2008",
+    "tsql"
+  ],
+  "score" : 1,
+  "view_count" : 22,
+  "answer_count" : 0
+}

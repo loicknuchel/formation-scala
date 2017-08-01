@@ -1,0 +1,136 @@
+{
+  "uuid" : "419d72a808d490afdf5721dc44e29c64fa02524c",
+  "bioAsHtml" : "<p>Travaille pour Red Hat en tant qu&#x27;architecte plate-forme.\nContribue à Hibernate ORM, Search, Validator et se concentre particulièrement sur Hibernate OGM - en open source évidemment.\nCôté non code, participe activement au JCP (lead de Bean Validation et membre de JPA).\nCo-anime les podcasts Les Cast Codeurs et JBoss Community Asylum.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/EHB-2573",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/419d72a808d490afdf5721dc44e29c64fa02524c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Emmanuel Bernard"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a155ad6f93b3ce5d20a72c893a9b17b4e007b9a2",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Vincent Massol"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/2b935a5bfa04635d2e4c196afa7385ee2d254dde",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Antonio Goncalves"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a4aa19fa64372b927a62ff039428f4b4aafc687d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Arnaud Héritier"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3bb736546aa9cc376293b607a165b60c4233e704",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Guillaume Laforge"
+        }
+      ],
+      "id" : "EHB-2573",
+      "title" : "Les Cast Codeurs Podcast : tu prends ta bière(*), tu tends les jambes sous la chaise de ton voisin et tu te relaxes"
+    },
+    {
+      "talkType" : "Conference",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/UKK-0693",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/419d72a808d490afdf5721dc44e29c64fa02524c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Emmanuel Bernard"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ba82dfb0cd56f32a8507cbb7c0a9677dabb4ce71",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Galder Zamarreño"
+        }
+      ],
+      "id" : "UKK-0693",
+      "title" : "Architecture par la pratique: patterns d’utilisation de systèmes in-memory - WD-40 entre vos données et vos applis"
+    },
+    {
+      "talkType" : "Quickie",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/YXC-4443",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/419d72a808d490afdf5721dc44e29c64fa02524c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Emmanuel Bernard"
+        }
+      ],
+      "id" : "YXC-4443",
+      "title" : "Bean Validation 2.0 - t'as foutu tes annotations partout !"
+    },
+    {
+      "talkType" : "Conference",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/QFM-7860",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/68082da635ce5c02b0325170cd42af87fda5dfe0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Johanne Ulloa"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a97dc1739cca5a4d6b1dd2ca06fe1c69fbe405b8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Nicolas RUFF"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/419d72a808d490afdf5721dc44e29c64fa02524c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Emmanuel Bernard"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/efe86825ed18e3ac9a3a895fc0acb9702c5a99c3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Hervé Schauer"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/daeacb58322e0c2098becde15aa8d52562f23e7d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sébastien Gioria"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/303c50d69c22284f37665fb4cefb5490a8ee616f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "V׀adimіr Kο׀׀a"
+        }
+      ],
+      "id" : "QFM-7860",
+      "title" : "Dev et Sécu : c'est fromage ou dessert ?"
+    }
+  ],
+  "company" : "Red Hat",
+  "bio" : "Travaille pour Red Hat en tant qu'architecte plate-forme.\r\nContribue à Hibernate ORM, Search, Validator et se concentre particulièrement sur Hibernate OGM - en open source évidemment.\r\nCôté non code, participe activement au JCP (lead de Bean Validation et membre de JPA).\r\nCo-anime les podcasts Les Cast Codeurs et JBoss Community Asylum.",
+  "lastName" : "Bernard",
+  "firstName" : "Emmanuel",
+  "blog" : "http://emmanuelbernard.com/blog/",
+  "avatarURL" : "http://www.gravatar.com/avatar/9d09f05d50ce6624040126d9eaf727b8",
+  "twitter" : "@emmanuelbernard",
+  "lang" : "en"
+}

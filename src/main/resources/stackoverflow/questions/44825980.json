@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825980,
+  "title" : "password encryption and saving the salt in database",
+  "body" : "<p>I am trying to save the salt in database along with the password. But every time i retrieve the salt from database i am not getting the same salt. for eg: if ia m trying to save it in database as \"[B@14c31a0d\" its getting saved as \"56C2BB24C393EFBFBDC3B1E280A23718E2809A622DE28093C3A913EFBFBDC3A87DC39E20\" and when i retrieve the password i am not getting the same salt. instead of that i am getting as \"[B@25m25a0d\". i am saving the salt as varchar in database.</p>\n\n<p>please tell me how to save the salt in database so that i can get the same salt back.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825980/password-encryption-and-saving-the-salt-in-database",
+  "owner" : {
+    "user_id" : 8186856,
+    "user_type" : "registered",
+    "display_name" : "Lalit Chilka",
+    "profile_image" : "https://www.gravatar.com/avatar/7059c5738d5d1dc8f51683ee036d726e?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8186856/lalit-chilka",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741487,
+  "last_activity_date" : 1498741487,
+  "tags" : [
+    "java",
+    "mysql"
+  ],
+  "score" : -1,
+  "view_count" : 21,
+  "answer_count" : 0
+}

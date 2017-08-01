@@ -1,0 +1,37 @@
+{
+  "uuid" : "3186f484d55542f33dae60858498ee862337e9d9",
+  "bioAsHtml" : "<p>Je suis un codeur enthousiaste depuis 15 ans en Java, Groovy, Ruby, JS, Scala ... et tout ce qui me passe sous la main.\nJe vis à Nantes et en ce moment je m&#x27;intéresse aux sujet DevOps, aux blockchains et à la &quot;cybersécurité&quot; et, occasionnellement, je donne un coup de main aux copains qui proposent un code lab à Devoxx.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/MRU-6314",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3186f484d55542f33dae60858498ee862337e9d9",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "François Kha"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b7240ad81654b077a47f6ee931d8267845bbbde3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Benjamin Fontaine"
+        }
+      ],
+      "id" : "MRU-6314",
+      "title" : "Développer une application de pari en ligne avec la blockchain Ethereum"
+    }
+  ],
+  "company" : null,
+  "bio" : "Je suis un codeur enthousiaste depuis 15 ans en Java, Groovy, Ruby, JS, Scala ... et tout ce qui me passe sous la main.\r\nJe vis à Nantes et en ce moment je m'intéresse aux sujet DevOps, aux blockchains et à la \"cybersécurité\" et, occasionnellement, je donne un coup de main aux copains qui proposent un code lab à Devoxx.\r\n",
+  "lastName" : "Kha",
+  "firstName" : "François",
+  "blog" : "https://plus.google.com/104376651352069351501",
+  "avatarURL" : "https://lh6.googleusercontent.com/-o9xuHCLExiQ/AAAAAAAAAAI/AAAAAAAAHk0/deHeYZlNOwU/photo.jpg",
+  "twitter" : "@fanchok",
+  "lang" : "fr"
+}

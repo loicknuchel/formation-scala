@@ -1,0 +1,32 @@
+{
+  "uuid" : "f9ae5c77a7e8598f3974c083790994c3b7587ae8",
+  "bioAsHtml" : "<p>Suite à 6 ans d&#x27;expériences en Java/JEE, je suis devenu Data Engineer chez Ebiznext . Je travaille sur des projets Big Data en utilisant principalement le langage Scala et son écosystème.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/MUT-4861",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f9ae5c77a7e8598f3974c083790994c3b7587ae8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Bounkong KHAMPHOUSONE"
+        }
+      ],
+      "id" : "MUT-4861",
+      "title" : "L’enfer de l’objet Date JS"
+    }
+  ],
+  "company" : "Ebiznext",
+  "bio" : "Suite à 6 ans d'expériences en Java/JEE, je suis devenu Data Engineer chez Ebiznext . Je travaille sur des projets Big Data en utilisant principalement le langage Scala et son écosystème.",
+  "lastName" : "KHAMPHOUSONE",
+  "firstName" : "Bounkong",
+  "blog" : "https://plus.google.com/105154359932123570782",
+  "avatarURL" : "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/005/06f/351/05872be.jpg",
+  "twitter" : "@tibounk",
+  "lang" : "fr"
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "future",
+  "talkType" : "Keynote",
+  "track" : "Future, Robotique",
+  "summaryAsHtml" : "<p>Lire, parler et comprendre une autre langue que la sienne a toujours été un défi ou un obstacle.</p>\n<p>Aujourd’hui, les enjeux stratégiques de la recherche en Intelligence Artificielle permettent de débloquer des moyens considérables de R&amp;D pour le développement d'outils dans le traitement du langage. Des machines ont maintenant la capacité d'accomplir des tâches normalement réservées à l'être humain.</p>\n<p>Je vais vous parler de l'impact de cette automatisation croissante autour de quatre axes : la reconnaissance vocale, la traduction automatique, la synthèse vocale et le traitement automatique du langage naturel appliqués à la vidéo.</p>\n<p>Dans ce domaine, la révolution de l’apprentissage profond est amorcée mais la perfection n'est pas encore au rendez-vous. Les langues résistent à l'automatisation complète des mécanismes par leur diversité et leur complexité. Chaque langue est un monde et une culture.</p>\n<p>Chez MediaWen International, nous nous intéressons à cette pluralité des langues. Nous utilisons et développons des outils d'Intelligence Artificielle pour optimiser le travail des transcripteurs et des traducteurs et pour permettre à tous de mieux communiquer, chacun dans sa langue.</p>\n",
+  "id" : "JYF-9046",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e2dbc13a07d376bca4f512c2fe4dd3f801e84cce",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Philippe Anel"
+      },
+      "name" : "Philippe Anel"
+    }
+  ],
+  "title" : "La disruption des langues a commencé.",
+  "lang" : "fr",
+  "summary" : "Lire, parler et comprendre une autre langue que la sienne a toujours été un défi ou un obstacle.\r\n\r\nAujourd’hui, les enjeux stratégiques de la recherche en Intelligence Artificielle permettent de débloquer des moyens considérables de R&D pour le développement d'outils dans le traitement du langage. Des machines ont maintenant la capacité d'accomplir des tâches normalement réservées à l'être humain.\r\n\r\nJe vais vous parler de l'impact de cette automatisation croissante autour de quatre axes : la reconnaissance vocale, la traduction automatique, la synthèse vocale et le traitement automatique du langage naturel appliqués à la vidéo.\r\n\r\nDans ce domaine, la révolution de l’apprentissage profond est amorcée mais la perfection n'est pas encore au rendez-vous. Les langues résistent à l'automatisation complète des mécanismes par leur diversité et leur complexité. Chaque langue est un monde et une culture.\r\n\r\nChez MediaWen International, nous nous intéressons à cette pluralité des langues. Nous utilisons et développons des outils d'Intelligence Artificielle pour optimiser le travail des transcripteurs et des traducteurs et pour permettre à tous de mieux communiquer, chacun dans sa langue.\r\n"
+}

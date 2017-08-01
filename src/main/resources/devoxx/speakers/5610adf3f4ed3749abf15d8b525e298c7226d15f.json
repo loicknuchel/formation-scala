@@ -1,0 +1,37 @@
+{
+  "uuid" : "5610adf3f4ed3749abf15d8b525e298c7226d15f",
+  "bioAsHtml" : "<p>Ryan Knight has 15 years of experience with building and architecting large-scale distributed systems and data centric applications with Cassandra, Spark, Kafka, Java, Scala and Akka. He frequently does training and presentations at conferences around the world, such as JavaOne, Devoxx, JavaZone, Cassandra Summit and many other meetups and has spoken in over 15 countries. He first started Java Consulting in 1999 at the Sun Java Center and has since worked at a wide variety of companies such as DataStax, Typesafe (now LightBend), Oracle, IBM, Intel, Tomax, Family Search and Riot Games. He now works as an Enterprise Architect for Starbucks.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/XWT-0731",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3cbed7d55e2def048db43b6b16af816285e54686",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "James Ward"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5610adf3f4ed3749abf15d8b525e298c7226d15f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Ryan Knight"
+        }
+      ],
+      "id" : "XWT-0731",
+      "title" : "Large Scale Data Pipelines with Kafka, Spark Streaming and Cassandra"
+    }
+  ],
+  "company" : "Starbucks",
+  "bio" : "Ryan Knight has 15 years of experience with building and architecting large-scale distributed systems and data centric applications with Cassandra, Spark, Kafka, Java, Scala and Akka. He frequently does training and presentations at conferences around the world, such as JavaOne, Devoxx, JavaZone, Cassandra Summit and many other meetups and has spoken in over 15 countries. He first started Java Consulting in 1999 at the Sun Java Center and has since worked at a wide variety of companies such as DataStax, Typesafe (now LightBend), Oracle, IBM, Intel, Tomax, Family Search and Riot Games. He now works as an Enterprise Architect for Starbucks.",
+  "lastName" : "Knight",
+  "firstName" : "Ryan",
+  "blog" : "http://starbucks.com/",
+  "avatarURL" : "https://pbs.twimg.com/profile_images/563754138706522113/nBJ77Heo.jpeg",
+  "twitter" : "@knight_cloud",
+  "lang" : "fr"
+}

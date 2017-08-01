@@ -1,0 +1,32 @@
+{
+  "uuid" : "b2c690f9fd417fd4d7104bcf0fdd7a1b8d97c6e8",
+  "bioAsHtml" : "<p>Philippe De Ryck is a professional speaker and trainer on software security and web security. Since he obtained his PhD at the imec-DistriNet research group (KU Leuven, Belgium), he has been running the group&#x27;s Web Security Training program, which ensures a sustainable knowledge transfer of the group’s security expertise towards practitioners.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/TKY-6103",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b2c690f9fd417fd4d7104bcf0fdd7a1b8d97c6e8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Philippe De Ryck"
+        }
+      ],
+      "id" : "TKY-6103",
+      "title" : "Building Secure Angular Applications"
+    }
+  ],
+  "company" : "imec-DistriNet, KU Leuven",
+  "bio" : "Philippe De Ryck is a professional speaker and trainer on software security and web security. Since he obtained his PhD at the imec-DistriNet research group (KU Leuven, Belgium), he has been running the group's Web Security Training program, which ensures a sustainable knowledge transfer of the group’s security expertise towards practitioners.\r\n",
+  "lastName" : "De Ryck",
+  "firstName" : "Philippe",
+  "blog" : "https://www.websec.be",
+  "avatarURL" : "https://people.cs.kuleuven.be/~philippe.deryck/PhilippeDeRyck.jpg",
+  "twitter" : "@PhilippeDeRyck",
+  "lang" : "fr"
+}

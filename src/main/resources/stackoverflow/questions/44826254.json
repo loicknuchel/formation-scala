@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826254,
+  "title" : "How to store and query huge object in mongodb (without gridfs)",
+  "body" : "<p>Assume there is huge JSON-like document of <strong>arbitrary format</strong> and arbitrary nesting level. Creation of document isn't under our control, for simplicity consider that it is given by third-party function.\nThere are mandatory conditions: </p>\n\n<ul>\n<li>document is several orders <strong>more than 16 MB</strong>, for example, typical\nsizing begins from tens gigabytes</li>\n<li>document has an <strong>indivisible logical structure</strong> - it is not the list which could be broken into several parts</li>\n<li>this document should be saved in mongodb </li>\n<li>should be possibile to <strong>retrieve any subset of an object</strong></li>\n</ul>\n\n<p>Syntax for a slice/retrieve object parts does not matter, it can be variant of <strong>find()</strong> function or be <strong>JsonPath</strong> string, which returns custom collection of custom object subtree with custom sliced fields.\n<strong>Result</strong> slices object <strong>is very small</strong>, some megabytes, for example.</p>\n\n<p>Whether there is what known decision for this task? Usually by search of a question of saving in mongodb of large volumes of data, GridFS is offered to use. It essentially doesn't approach - a required object is not a monolithic binary entity, but the tree-like JSON document requiring selection and, ideally, also modifications of internal elements.</p>\n\n<p>At the moment two basic decisions seem.</p>\n\n<ol>\n<li><p>Smart driver for mongodb which in attempt of saving a big object,\nautomatically splits it on small parts, each of which is\nappropriated a unique identifier, and saves it in such look in the\ndatabase. When reading the driver follows links, and by means of\nselection function, a ready object returns. Shortcomings of such\napproach are obvious - it is a set of addressing the database from\nthe receiver. For each object it is necessary to receive the list of\nlinks and to request them separately and so on in the recursive way.</p></li>\n<li><p>Data storage by means of GridFS in the form of the monolithic\nunit, with adding on server side of mongodb of the specific\nprocedure which can execute stream reading the difficult JSON\ndocument and creation of result. Unfortunately, similar\nfunctionality wasn't.</p></li>\n</ol>\n\n<p><strong>The question</strong> - whether is some known solutions of the designated question? Or whether decisions for <strong>automatic partition of a difficult freeform</strong> object on a set small with check of addressing and installation of mutual links are at least known? Thanks in advance.</p>\n\n<p>P.S. Please, avoid answers which contradict mandatory points from the first paragraph. Once again - object is certainly huge and selection it's conditional slice is required. Consider that server has unlimited memory, let it be several tens of gigqbytes</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826254/how-to-store-and-query-huge-object-in-mongodb-without-gridfs",
+  "owner" : {
+    "user_id" : 7878274,
+    "user_type" : "registered",
+    "display_name" : "Vladislav Ihost",
+    "profile_image" : "https://i.stack.imgur.com/ytmzN.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/7878274/vladislav-ihost",
+    "reputation" : 121,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742264,
+  "last_activity_date" : 1498742264,
+  "tags" : [
+    "json",
+    "node.js",
+    "mongodb",
+    "event-sourcing"
+  ],
+  "score" : 0,
+  "view_count" : 10,
+  "answer_count" : 0
+}

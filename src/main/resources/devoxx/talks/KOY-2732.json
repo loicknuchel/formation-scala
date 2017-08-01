@@ -1,0 +1,20 @@
+{
+  "trackId" : "lang",
+  "talkType" : "Conference",
+  "track" : "Langages alternatifs",
+  "summaryAsHtml" : "<p>Depuis quelques années, de nombreux outils sont apparus pour nous permettre de structurer au mieux nos applications front-end. Des bibliothèques, comme React, des architectures de gestion d'états, comme Redux, et même des surcouches au langage comme TypeScript.</p>\n<p>Et si nous pouvions repenser JavaScript de zéro, et créer un langage adapté au développement web tel qu'on le pratique aujourd'hui, en tenant compte de toutes ces bonnes pratiques découvertes sur la route ?</p>\n<p>C'est de là qu'est né Elm, un langage fonctionnel qui se compile en JavaScript et qui certifie l'absence d'erreurs au runtime (fini les undefined is not a function!), dont les messages d'erreur à la compilation sont limpides et les performances excellentes. En court : si ça compile, c'est que ça marche !</p>\n<p>Je vous propose de découvrir ce qui fait de ce langage l'un des plus productifs et confortables que j'ai pu utiliser à travers sa syntaxe, et je vous montrerai ensuite qu'il est extrêmement simple d'ajouter progressivement des briques Elm à une application JavaScript standard ! Nous finirons enfin par un live-coding pour mettre en pratique ces connaissances nouvellement acquises.</p>\n",
+  "id" : "KOY-2732",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4b38a67eff705fba5e5f1057df889e024d0d6e64",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Jordane Grenat"
+      },
+      "name" : "Jordane Grenat"
+    }
+  ],
+  "title" : "Un langage que tout le monde Elm !",
+  "lang" : "fr",
+  "summary" : "Depuis quelques années, de nombreux outils sont apparus pour nous permettre de structurer au mieux nos applications front-end. Des bibliothèques, comme React, des architectures de gestion d'états, comme Redux, et même des surcouches au langage comme TypeScript.\r\n\r\nEt si nous pouvions repenser JavaScript de zéro, et créer un langage adapté au développement web tel qu'on le pratique aujourd'hui, en tenant compte de toutes ces bonnes pratiques découvertes sur la route ?\r\n\r\nC'est de là qu'est né Elm, un langage fonctionnel qui se compile en JavaScript et qui certifie l'absence d'erreurs au runtime (fini les undefined is not a function!), dont les messages d'erreur à la compilation sont limpides et les performances excellentes. En court : si ça compile, c'est que ça marche !\r\n\r\nJe vous propose de découvrir ce qui fait de ce langage l'un des plus productifs et confortables que j'ai pu utiliser à travers sa syntaxe, et je vous montrerai ensuite qu'il est extrêmement simple d'ajouter progressivement des briques Elm à une application JavaScript standard ! Nous finirons enfin par un live-coding pour mettre en pratique ces connaissances nouvellement acquises."
+}

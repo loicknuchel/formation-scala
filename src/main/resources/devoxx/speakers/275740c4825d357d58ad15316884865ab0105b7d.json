@@ -1,0 +1,32 @@
+{
+  "uuid" : "275740c4825d357d58ad15316884865ab0105b7d",
+  "bioAsHtml" : "<p>I&#x27;m Restlet&#x27;s API Mad Scientist, and also a product manager. We build tools to help developers deliver APIs as quickly and easily as possible. In previous roles I was a developer and also a researcher on formal concurrency models.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/CIW-5996",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/275740c4825d357d58ad15316884865ab0105b7d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jonathan Michaux"
+        }
+      ],
+      "id" : "CIW-5996",
+      "title" : "Pourquoi j’ai essayé de faire une API de détection de trolls"
+    }
+  ],
+  "company" : "Restlet",
+  "bio" : "I'm Restlet's API Mad Scientist, and also a product manager. We build tools to help developers deliver APIs as quickly and easily as possible. In previous roles I was a developer and also a researcher on formal concurrency models. ",
+  "lastName" : "Michaux",
+  "firstName" : "Jonathan",
+  "blog" : "https://plus.google.com/116548511416924843751",
+  "avatarURL" : "https://restlet.com/media/photologue/photos/Jonathan.png",
+  "twitter" : "@j_michaux",
+  "lang" : "fr"
+}

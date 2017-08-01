@@ -1,0 +1,28 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Conference",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Une entreprise sans bons développeurs, c'est comme du code sans test unitaire : à un moment ou à un autre, ça ne fonctionnera plus.</p>\n<p>Aussi devient-il impératif, sinon vital, d'attirer les meilleurs d'entre eux, mais également de savoir les garder au sein de son entreprise.\nSi cela est simple à dire, réussir à le faire correctement et à maintenir un tel contexte attractif n'est pas chose facile.</p>\n<p>Vous vous interrogez sur la façon de créer un environnement de développement qui incite les développeurs à donner le meilleur d'eux-mêmes et à progresser chaque jour ?\nVous voulez également vous assurer de la cohérence des évolutions technologiques tout en permettant aux équipes de tester les dernières nouveautés et en ayant une roadmap technologique à suivre ?</p>\n<p>Au sein de nos entreprises respectives, nous avons pu prendre une part active à l'animation des communautés de développeurs et à la mise en mouvement de leur environnement de travail. Nous souhaitons partager nos découvertes, nos expériences et nos convictions.</p>\n",
+  "id" : "MQX-7143",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b66b20ac13dca6d08b7edd4495765f43812ad042",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Cyril Lakech"
+      },
+      "name" : "Cyril Lakech"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/711dcb0a9f5922fe8eb81e458ffb65dcc337cd9e",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Romain Linsolas"
+      },
+      "name" : "Romain Linsolas"
+    }
+  ],
+  "title" : "10 méthodes pour rendre heureux les développeurs, la 7e va vous étonner !",
+  "lang" : "fr",
+  "summary" : "Une entreprise sans bons développeurs, c'est comme du code sans test unitaire : à un moment ou à un autre, ça ne fonctionnera plus.\r\n\r\nAussi devient-il impératif, sinon vital, d'attirer les meilleurs d'entre eux, mais également de savoir les garder au sein de son entreprise.\r\nSi cela est simple à dire, réussir à le faire correctement et à maintenir un tel contexte attractif n'est pas chose facile.\r\n\r\nVous vous interrogez sur la façon de créer un environnement de développement qui incite les développeurs à donner le meilleur d'eux-mêmes et à progresser chaque jour ?\r\nVous voulez également vous assurer de la cohérence des évolutions technologiques tout en permettant aux équipes de tester les dernières nouveautés et en ayant une roadmap technologique à suivre ?\r\n\r\nAu sein de nos entreprises respectives, nous avons pu prendre une part active à l'animation des communautés de développeurs et à la mise en mouvement de leur environnement de travail. Nous souhaitons partager nos découvertes, nos expériences et nos convictions.\r\n"
+}

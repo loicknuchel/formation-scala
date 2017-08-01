@@ -1,0 +1,42 @@
+{
+  "uuid" : "4c653281ee1b4ac170732db9768b7ddf9bdbd33f",
+  "bioAsHtml" : "<p>Antonin Stefanutti travaille comme ingénieur logiciel chez Red Hat. Au sein de l&#x27;équipe JBoss Fuse, il contribue régulièrement aux projets open source tel que Apache Camel, HawtIO, ainsi qu&#x27;à la spécification CDI et son implémentation JBoss Weld.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/LPW-4412",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1454e2d0a6c2fa871454dab3dbf66f5e16b61980",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sebastien Blanc"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4f411ec38191b55d2ca0558eb1cb8642d48eeb14",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Antoine Sabot-Durand"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4c653281ee1b4ac170732db9768b7ddf9bdbd33f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Antonin Stefanutti"
+        }
+      ],
+      "id" : "LPW-4412",
+      "title" : "Créer une application Java EE 7 compatible MicroProfile et sécurisée avec WildFly Swarm,  Forge et KeyCloak"
+    }
+  ],
+  "company" : "Red Hat",
+  "bio" : "Antonin Stefanutti travaille comme ingénieur logiciel chez Red Hat. Au sein de l'équipe JBoss Fuse, il contribue régulièrement aux projets open source tel que Apache Camel, HawtIO, ainsi qu'à la spécification CDI et son implémentation JBoss Weld.",
+  "lastName" : "Stefanutti",
+  "firstName" : "Antonin",
+  "blog" : "https://github.com/astefanutti",
+  "avatarURL" : "http://www.gravatar.com/avatar/5521a2464817fc8e7ffff08e96b7bb9c",
+  "twitter" : "@astefanut",
+  "lang" : "en-US"
+}

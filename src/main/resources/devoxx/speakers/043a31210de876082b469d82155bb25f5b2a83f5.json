@@ -1,0 +1,65 @@
+{
+  "uuid" : "043a31210de876082b469d82155bb25f5b2a83f5",
+  "bioAsHtml" : "<p>Développeur depuis le bug de l&#x27;an 2000, adepte des technos non mainstream et des projets concrets. J&#x27;ai pratiqué plusieurs langages professionnellement. Aujourd&#x27;hui, c&#x27;est Erlang. J&#x27;en fait quotidiennement depuis 3 ans.\nDisclaimer : je suis membre du comité de programme de Devoxx</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/CIF-0264",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/043a31210de876082b469d82155bb25f5b2a83f5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Gabriel Kastenbaum"
+        }
+      ],
+      "id" : "CIF-0264",
+      "title" : "Startup Driven Development"
+    },
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/DDW-1785",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f5526d5115b7aa4734dee1f48c060055e3e93193",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Golang Paris"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/043a31210de876082b469d82155bb25f5b2a83f5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Gabriel Kastenbaum"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6396ff66c271b3819a1d3dea2d9ac0789a0bcc2a",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Diana Ortega"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d24ae2a0eb8be7230bf170df9c4883fc6c73d31e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Thomas Solignac"
+        }
+      ],
+      "id" : "DDW-1785",
+      "title" : "BOF Go des meetups Women Who Go & Golang Paris"
+    }
+  ],
+  "company" : "corporama",
+  "bio" : "Développeur depuis le bug de l'an 2000, adepte des technos non mainstream et des projets concrets. J'ai pratiqué plusieurs langages professionnellement. Aujourd'hui, c'est Erlang. J'en fait quotidiennement depuis 3 ans.\r\nDisclaimer : je suis membre du comité de programme de Devoxx",
+  "lastName" : "Kastenbaum",
+  "firstName" : "Gabriel",
+  "blog" : "http://github.com/gabrielkast",
+  "avatarURL" : "https://lh5.googleusercontent.com/-D6s0kEDgF_s/AAAAAAAAAAI/AAAAAAAAAaU/q4B3aY7M9yM/photo.jpg",
+  "twitter" : "@lambdadevfr",
+  "lang" : "fr"
+}

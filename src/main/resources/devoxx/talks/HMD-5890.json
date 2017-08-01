@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "Conference",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>2017 sera l’année des Reactive Streams en Java : RxJava est largement utilisé sur Android ou côté backend à travers Hystrix. RxJava 2 vient tout juste de sortir et va pouvoir profiter du chemin déjà tracé par sa précédente version. Pivotal pousse Reactor qui sera disponible dans le framework Spring version 5.</p>\n<p>Qu’apportes ces différentes implémentations, en terme d’API ou de performances ? En quoi sont-elles différentes ? Faut-il migrer sur RxJava 2 tout de suite ? Reactor va-t’il remplacer RxJava et se limite t'il au framework Spring ?</p>\n<p>Cette conférence fera un bref historique des ces bibliothèques avant de faire une comparaison des APIs, performances et cas d’utilisation de ces Reactive Streams.</p>\n",
+  "id" : "HMD-5890",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b8cfc2c5b0d9f98410ec6cc7b51c47419cb634dd",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "David Wursteisen"
+      },
+      "name" : "David Wursteisen"
+    }
+  ],
+  "title" : "RxJava, RxJava 2, Reactor : Etat de l’art des Reactive Streams en Java",
+  "lang" : "fr",
+  "summary" : "2017 sera l’année des Reactive Streams en Java : RxJava est largement utilisé sur Android ou côté backend à travers Hystrix. RxJava 2 vient tout juste de sortir et va pouvoir profiter du chemin déjà tracé par sa précédente version. Pivotal pousse Reactor qui sera disponible dans le framework Spring version 5.\r\n\r\nQu’apportes ces différentes implémentations, en terme d’API ou de performances ? En quoi sont-elles différentes ? Faut-il migrer sur RxJava 2 tout de suite ? Reactor va-t’il remplacer RxJava et se limite t'il au framework Spring ?\r\n\r\n\r\nCette conférence fera un bref historique des ces bibliothèques avant de faire une comparaison des APIs, performances et cas d’utilisation de ces Reactive Streams."
+}

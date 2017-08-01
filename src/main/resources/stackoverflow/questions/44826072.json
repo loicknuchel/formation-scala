@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826072,
+  "title" : "Geocoder Module results not in the right country",
+  "body" : "<p>So I'm using this geocoder module: <a href=\"https://pypi.python.org/pypi/geocoder\" rel=\"nofollow noreferrer\">https://pypi.python.org/pypi/geocoder</a>\nto gather the latitude and longitude of a whole bunch of addresses situated in Ontario, Canada. For whatever reason when I plot the points onto google earth I'm getting pins as far as Florida in the US, which means the geocodes I'm getting are not right.</p>\n\n<p>Obviously this is not what I want, so I was wondering if anyone is familiar with this module and can help me out or knows of one where I would be able to specify the country.</p>\n\n<p>Note: adding CAN or Canada to the end of the address did nothing to change the geocode.</p>\n\n<p>Example: Entering the address 11 SANDY POINT, TORRANCE, ON on google maps will bring up a pin in Ontario (where it's supposed to be) yet the geocode created from this address is situated in Pennsylvania, USA</p>\n\n<p>Thanks in advance!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826072/geocoder-module-results-not-in-the-right-country",
+  "owner" : {
+    "user_id" : 4096339,
+    "user_type" : "registered",
+    "display_name" : "ThatOneCanadian",
+    "profile_image" : "https://www.gravatar.com/avatar/7d5e11929ad4835ab1f733f03b8707d8?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4096339/thatonecanadian",
+    "reputation" : 14,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741758,
+  "last_activity_date" : 1498741758,
+  "tags" : [
+    "python-2.7",
+    "google-geocoder"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "uuid" : "df99375da7969259cf8d11aa131c9adfc5b06d9c",
+  "bioAsHtml" : "<p>Ray is a Developer Advocate for the Google Cloud Platform. Ray had extensive hands on cross-industry enterprise systems integration delivery and management experiences during his time at Accenture, managed full stack application development, DevOps, and ITOps. Ray specialized in middleware, big data, and PaaS products during his time at Red Hat while contributing to open source projects, such as Infinispan. Aside from technology, Ray enjoys traveling and adventures.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/HNZ-9627",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/df99375da7969259cf8d11aa131c9adfc5b06d9c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Ray Tsang"
+        }
+      ],
+      "id" : "HNZ-9627",
+      "title" : "From Laptop to the World - Global deployment at your fingertip w/ Kubernetes"
+    }
+  ],
+  "company" : "Google",
+  "bio" : "Ray is a Developer Advocate for the Google Cloud Platform. Ray had extensive hands on cross-industry enterprise systems integration delivery and management experiences during his time at Accenture, managed full stack application development, DevOps, and ITOps. Ray specialized in middleware, big data, and PaaS products during his time at Red Hat while contributing to open source projects, such as Infinispan. Aside from technology, Ray enjoys traveling and adventures.",
+  "lastName" : "Tsang",
+  "firstName" : "Ray",
+  "blog" : "https://twitter.com/saturnism",
+  "avatarURL" : "https://farm2.staticflickr.com/1434/936509581_63a0e3c97f_b.jpg",
+  "twitter" : "@saturnism",
+  "lang" : "en"
+}

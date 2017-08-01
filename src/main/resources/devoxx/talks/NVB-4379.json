@@ -1,0 +1,20 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Quickie",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Retour d'experience très personnel sur l'utilisation des Feature Flags, ces indicateurs qui permettent d'activer ou de désactiver des fonctionnalités dans vos applications, compagnons quasi-indispensables pour faire du Continuous Delivery ou Continuous Deployement.</p>\n",
+  "id" : "NVB-4379",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/894b4349cb690a30170208d632137d1164763c8c",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "David Bernard"
+      },
+      "name" : "David Bernard"
+    }
+  ],
+  "title" : "Feature Flags, Oui mais...",
+  "lang" : "fr",
+  "summary" : "Retour d'experience très personnel sur l'utilisation des Feature Flags, ces indicateurs qui permettent d'activer ou de désactiver des fonctionnalités dans vos applications, compagnons quasi-indispensables pour faire du Continuous Delivery ou Continuous Deployement. "
+}

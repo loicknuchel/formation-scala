@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826227,
+  "title" : "NSDocument Open Recent macOS Swift3",
+  "body" : "<p>This application can't reopen autosaved com.adobe.pdf files.</p>\n\n<pre><code>[NSDocumentController reopenDocumentForURL:withContentsOfURL:display:completionHandler:] \n</code></pre>\n\n<p>failed during state restoration. \nHere's the error:\nError Domain=NSCocoaErrorDomain Code=256 \"The autosaved document “Machine Learning for iOS.pdf” could not be reopened. Squeezit cannot open files in the “Apple PDF pasteboard type” format.\" UserInfo={NSLocalizedFailureReason=Squeezit cannot open files in the “Apple PDF pasteboard type” format.}</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826227/nsdocument-open-recent-macos-swift3",
+  "owner" : {
+    "user_id" : 2870356,
+    "user_type" : "registered",
+    "display_name" : "issam",
+    "profile_image" : "https://www.gravatar.com/avatar/0a4f253ee71ca6c2ee03e3ae7987da36?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/2870356/issam",
+    "reputation" : 141,
+    "accept_rate" : 17
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742185,
+  "last_activity_date" : 1498742185,
+  "tags" : [
+    "swift",
+    "osx",
+    "cocoa",
+    "macos-sierra",
+    "nsdocument"
+  ],
+  "score" : 0,
+  "view_count" : 9,
+  "answer_count" : 0
+}

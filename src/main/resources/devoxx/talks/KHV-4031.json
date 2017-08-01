@@ -1,0 +1,28 @@
+{
+  "trackId" : "java",
+  "talkType" : "University",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>La principale nouveauté de Java 9 viendra du coté de la modularité. Et qu'on le veuille ou non il faudra tenir compte de ce changement et s'y préparer.</p>\n<p>Dans la première partie de cette présentation, nous expliquerons ce qui a motivé cette évolution, puis nous verrons les principaux concepts sous-jacents.</p>\n<p>Dans la deuxième partie, nous verrons comment migrer une application vers java 9. Le premier objectif sera de faire fonctionner notre application avec un minimum d'effort, puis nous verrons y intégrer de la modularité.</p>\n<p>Dans la troisième partie, nous aborderons les aspects avancés de Jigsaw qui seront utiles pour le développement de nouvelles applications.</p>\n",
+  "id" : "KHV-4031",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/98d890f4f5c499fdd36d1efbc8aa041e8c30d50e",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Alexis Hassler"
+      },
+      "name" : "Alexis Hassler"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b967a0dc26fb6feaaa8795f375103b0d7aff319e",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Remi Forax"
+      },
+      "name" : "Remi Forax"
+    }
+  ],
+  "title" : "Préparez-vous à la modularité selon Java 9",
+  "lang" : "fr",
+  "summary" : "La principale nouveauté de Java 9 viendra du coté de la modularité. Et qu'on le veuille ou non il faudra tenir compte de ce changement et s'y préparer.\r\n\r\nDans la première partie de cette présentation, nous expliquerons ce qui a motivé cette évolution, puis nous verrons les principaux concepts sous-jacents.\r\n\r\nDans la deuxième partie, nous verrons comment migrer une application vers java 9. Le premier objectif sera de faire fonctionner notre application avec un minimum d'effort, puis nous verrons y intégrer de la modularité.\r\n\r\nDans la troisième partie, nous aborderons les aspects avancés de Jigsaw qui seront utiles pour le développement de nouvelles applications."
+}

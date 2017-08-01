@@ -1,0 +1,108 @@
+{
+  "uuid" : "9d77f0e35092ee25dacf9f9b6f9cc0fc695be416",
+  "bioAsHtml" : "<p>Señor software engineer at Pivotal Labs, ex-Criteo, Spring Meetup &amp; Papers We Love Paris co-founder, Hackergarten org and F/OSS lover, Florent Biville strives for producing simple and robust software within great teams.</p>\n<p>Involved for several years with Neo4j, Florent is an official Neo4j Ambassador and an independent trainer.</p>\n<p>He also enjoys giving back the time he borrowed while using F/OSS software by contributing patches and sometimes whole new projects such as Liquigraph.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Autres formats de conférence",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/TSC-2377",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9d77f0e35092ee25dacf9f9b6f9cc0fc695be416",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Florent Biville"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/daa9b2a9c9a0130cda0888e8e76dba4d44ae2321",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Mathilde Lemée"
+        }
+      ],
+      "id" : "TSC-2377",
+      "title" : "Hackergarten"
+    },
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/HUA-2052",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9d77f0e35092ee25dacf9f9b6f9cc0fc695be416",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Florent Biville"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6edfe70ee7621dc90e256afe05ee9bd1bdb9cf73",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Marouane Gazanayi"
+        }
+      ],
+      "id" : "HUA-2052",
+      "title" : "Hands on Neo4j : la base de données graphe pour tous !"
+    },
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/HBJ-3604",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7ee8911b3983bb10774f99ed3b3da60b1854c839",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Stéphane Nicoll"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e8c67e2df13f82a0e69b26b1274d11fec44b0122",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Brian Clozel"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9d77f0e35092ee25dacf9f9b6f9cc0fc695be416",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Florent Biville"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6edfe70ee7621dc90e256afe05ee9bd1bdb9cf73",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Marouane Gazanayi"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d84b817a907825ede4a9d5a74665bc23be072608",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sebastien Deleuze"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/89a849add91029107d06f2981979f4c8d857ece3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Simon Baslé"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7e7ce8659844ad917a72243cf0d07465aa9ed3e7",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yoann HENRY"
+        }
+      ],
+      "id" : "HBJ-3604",
+      "title" : "The Spring BOF"
+    }
+  ],
+  "company" : "Pivotal",
+  "bio" : "Señor software engineer at Pivotal Labs, ex-Criteo, Spring Meetup & Papers We Love Paris co-founder, Hackergarten org and F/OSS lover, Florent Biville strives for producing simple and robust software within great teams.\r\n\r\nInvolved for several years with Neo4j, Florent is an official Neo4j Ambassador and an independent trainer.\r\n\r\nHe also enjoys giving back the time he borrowed while using F/OSS software by contributing patches and sometimes whole new projects such as Liquigraph.",
+  "lastName" : "Biville",
+  "firstName" : "Florent",
+  "blog" : "http://fbiville.github.io",
+  "avatarURL" : "https://pbs.twimg.com/profile_images/790562624937295873/aqQpsE6H.jpg",
+  "twitter" : "@fbiville",
+  "lang" : "fr-FR"
+}

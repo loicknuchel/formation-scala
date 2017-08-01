@@ -1,0 +1,37 @@
+{
+  "uuid" : "3f12729c30fd8a457c3c89fe430d7e83aa88cdd0",
+  "bioAsHtml" : "<p>Développeur depuis maintenant plus de neuf ans, je suis actuellement indépendant. Mes langages de prédilection sont Java, Scala et Javascript.</p>\n<p>Je réalise pour mes clients le backend d&#x27;applications web et mobile se fondant sur des frameworks traditionnels (Spring Boot, Play, Node.js, ..) et de nombreux composants (ElasticSearch, MongoDB, RabbitMQ,  ...) déployées dans le Cloud ou pas.</p>\n<p>J’aide aussi à organiser le Paris Scala User Group, meetup permettant aux utilisateurs de Scala de se réunir et de partager autour de ce langage et de la programmation fonctionnelle.</p>\n<p>Notre métier étant fondé sur le partage (et pas uniquement sur le code source), j&#x27;ai décidé de me lancer et de contribuer à mon tour en proposant mes présentatations</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/NHQ-4531",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3f12729c30fd8a457c3c89fe430d7e83aa88cdd0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Etienne Peiniau"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6a40c4bfc259d51ddf34fe093f7ca013785d969f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Frédéric Boulet"
+        }
+      ],
+      "id" : "NHQ-4531",
+      "title" : "Serverless, le framework que votre lambda AWS attendait"
+    }
+  ],
+  "company" : "A-propos",
+  "bio" : "Développeur depuis maintenant plus de neuf ans, je suis actuellement indépendant. Mes langages de prédilection sont Java, Scala et Javascript. \r\n\r\nJe réalise pour mes clients le backend d'applications web et mobile se fondant sur des frameworks traditionnels (Spring Boot, Play, Node.js, ..) et de nombreux composants (ElasticSearch, MongoDB, RabbitMQ,  ...) déployées dans le Cloud ou pas.\r\n\r\nJ’aide aussi à organiser le Paris Scala User Group, meetup permettant aux utilisateurs de Scala de se réunir et de partager autour de ce langage et de la programmation fonctionnelle.\r\n\r\nNotre métier étant fondé sur le partage (et pas uniquement sur le code source), j'ai décidé de me lancer et de contribuer à mon tour en proposant mes présentatations",
+  "lastName" : "Peiniau",
+  "firstName" : "Etienne",
+  "blog" : "https://github.com/etiennepeiniau/",
+  "avatarURL" : "https://dl.dropboxusercontent.com/u/793418/Etienne-Peiniau-cropped.png",
+  "twitter" : "@etiennepeiniau",
+  "lang" : "fr"
+}

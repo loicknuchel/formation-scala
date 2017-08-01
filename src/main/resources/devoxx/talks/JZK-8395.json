@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Quickie",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Graphite est une <em>timeseries database</em> opensource très répandue pour suivre des indicateurs divers : infra, réseau, données applicatives, KPIs métier, mesures météo, etc. Au-delà des graphes et des dashboards, la multiplication des métriques rend analyses automatiques et alertes de plus en plus indispensables.</p>\n<p>On verra qu'on peut créer des alarmes relativement élaborées avec les fonctions Graphite et des outils comme Grafana, Seyren ou Cerebro.</p>\n<p>Au programme :</p>\n<ul>\n<li>dashboards vs. alertes,</li>\n<li>limites de la détection classique à base de seuils et d'écarts,</li>\n<li>techniques de détection d'anomalies avec Graphite (lissage, prise en compte de l'historique, algorithmes).</li>\n</ul>\n",
+  "id" : "JZK-8395",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e1d32a4ceae776d38a72a01e2334ced07f5c7dff",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Francois NOLLEN"
+      },
+      "name" : "Francois NOLLEN"
+    }
+  ],
+  "title" : "Introduction à la détection d'anomalies avec Graphite",
+  "lang" : "fr",
+  "summary" : "Graphite est une _timeseries database_ opensource très répandue pour suivre des indicateurs divers : infra, réseau, données applicatives, KPIs métier, mesures météo, etc. Au-delà des graphes et des dashboards, la multiplication des métriques rend analyses automatiques et alertes de plus en plus indispensables.\r\n\r\nOn verra qu'on peut créer des alarmes relativement élaborées avec les fonctions Graphite et des outils comme Grafana, Seyren ou Cerebro.\r\n\r\nAu programme :\r\n\r\n* dashboards vs. alertes,\r\n* limites de la détection classique à base de seuils et d'écarts,\r\n* techniques de détection d'anomalies avec Graphite (lissage, prise en compte de l'historique, algorithmes)."
+}

@@ -1,0 +1,28 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Hands-on Labs",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>In this workshop we will walk through building this type of large scale, mission critical data pipeline using Kafka, Spark Streaming and Cassandra.   The workshop will start by looking at the individual technologies that make up the data pipeline.  Then we will discuss the overall architecture of the data pipeline and how to address these core principles.  Attendees will get hands on with exercises that walk through each of the pieces of the architecture.</p>\n",
+  "id" : "XWT-0731",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3cbed7d55e2def048db43b6b16af816285e54686",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "James Ward"
+      },
+      "name" : "James Ward"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5610adf3f4ed3749abf15d8b525e298c7226d15f",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Ryan Knight"
+      },
+      "name" : "Ryan Knight"
+    }
+  ],
+  "title" : "Large Scale Data Pipelines with Kafka, Spark Streaming and Cassandra",
+  "lang" : "en",
+  "summary" : "In this workshop we will walk through building this type of large scale, mission critical data pipeline using Kafka, Spark Streaming and Cassandra.   The workshop will start by looking at the individual technologies that make up the data pipeline.  Then we will discuss the overall architecture of the data pipeline and how to address these core principles.  Attendees will get hands on with exercises that walk through each of the pieces of the architecture."
+}

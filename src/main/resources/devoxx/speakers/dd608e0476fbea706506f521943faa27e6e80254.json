@@ -1,0 +1,42 @@
+{
+  "uuid" : "dd608e0476fbea706506f521943faa27e6e80254",
+  "bioAsHtml" : "<p>With 15 years on the IT clock as operator, linux sys admin, ..., I still define myself as a tinkerer. My only motivation is learning new stuff!</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "University",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/USW-7521",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a2eec3d78572a5e31b354127520841d753284c1d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Pierre-Antoine Grégoire"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/dd608e0476fbea706506f521943faa27e6e80254",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Olivier Robert"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b10898f52ef88fce9964324a4cfb1bf667587492",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Nicolas Helleringer"
+        }
+      ],
+      "id" : "USW-7521",
+      "title" : "Linux est ton meilleur ami"
+    }
+  ],
+  "company" : "Agile Partner",
+  "bio" : "With 15 years on the IT clock as operator, linux sys admin, ..., I still define myself as a tinkerer. My only motivation is learning new stuff! ",
+  "lastName" : "Robert",
+  "firstName" : "Olivier",
+  "blog" : "https://plus.google.com/113044134547418043702",
+  "avatarURL" : "https://lh4.googleusercontent.com/-92RwUtZcYIA/AAAAAAAAAAI/AAAAAAAAAfQ/ENzj5YqFQJc/photo.jpg",
+  "twitter" : "@XwaldRob",
+  "lang" : "en"
+}

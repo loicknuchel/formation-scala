@@ -1,0 +1,32 @@
+{
+  "uuid" : "01a9da7c0fdc07b8cd0b36a59dd0326a8142480a",
+  "bioAsHtml" : "<p>Endless conversation — with friends &amp; compilers — on art, crafts, dialectic, paradigm jump, serendipity.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/WCZ-8377",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/01a9da7c0fdc07b8cd0b36a59dd0326a8142480a",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Romeu MOURA"
+        }
+      ],
+      "id" : "WCZ-8377",
+      "title" : "Le Kata Kebab"
+    }
+  ],
+  "company" : "@ArollaFr",
+  "bio" : "Endless conversation — with friends & compilers — on art, crafts, dialectic, paradigm jump, serendipity.",
+  "lastName" : "MOURA",
+  "firstName" : "Romeu",
+  "blog" : "http://www.arolla.fr/",
+  "avatarURL" : "https://lh4.googleusercontent.com/-aYY_848kBjY/AAAAAAAAAAI/AAAAAAAAAvc/akMTdMlfdqE/photo.jpg",
+  "twitter" : "@malk_zameth",
+  "lang" : "fr"
+}

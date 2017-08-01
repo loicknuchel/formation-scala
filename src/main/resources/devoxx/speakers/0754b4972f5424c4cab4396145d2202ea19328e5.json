@@ -1,0 +1,32 @@
+{
+  "uuid" : "0754b4972f5424c4cab4396145d2202ea19328e5",
+  "bioAsHtml" : "<p>Front End développeur chez doyoubuzz, j&#x27;ai été en charge de la refonte complète du front end de l&#x27;éditeur de CV.</p>\n<p>Je m&#x27;amuse beaucoup avec JavaScript et j&#x27;adore appliquer les principes de programmation fonctionnelle à tout bout de code que je produis.</p>\n<p>Je suis aussi un grand fan de Cycle.js et je suis convaincu que les interfaces devraient être construites comme des fonctions des signaux qu&#x27;elles reçoivent.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/OBS-3785",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0754b4972f5424c4cab4396145d2202ea19328e5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Thomas Belin"
+        }
+      ],
+      "id" : "OBS-3785",
+      "title" : "Les interfaces utilisateurs comme fonctions pures du temps"
+    }
+  ],
+  "company" : "doyoubuzz",
+  "bio" : "Front End développeur chez doyoubuzz, j'ai été en charge de la refonte complète du front end de l'éditeur de CV.\r\n\r\nJe m'amuse beaucoup avec JavaScript et j'adore appliquer les principes de programmation fonctionnelle à tout bout de code que je produis. \r\n\r\nJe suis aussi un grand fan de Cycle.js et je suis convaincu que les interfaces devraient être construites comme des fonctions des signaux qu'elles reçoivent.",
+  "lastName" : "Belin",
+  "firstName" : "Thomas",
+  "blog" : "blog.thomasbelin.fr",
+  "avatarURL" : "http://www.gravatar.com/avatar/c5d46dc46bc787186a37d7a54bac0a56",
+  "twitter" : "@atomrc",
+  "lang" : "fr"
+}

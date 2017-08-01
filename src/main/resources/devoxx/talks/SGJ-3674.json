@@ -1,0 +1,28 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Hands-on Labs",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>De plus en plus, le web est utilisé sur mobile. Mais est-ce que les sites web sont optimisés pour cela ? Nous ne parlons pas de Responsive Design, qui, à notre avis, est une pratique connue et utilisée, peut-être de la mauvaise façon dans certains cas.</p>\n<p>Lors de ce codelab, les participants auront la possibilité de mettre en place sur une application existante tous les concepts permettant de rendre l'expérience utilisateur d'un site web aussi fluide qu'une application native.</p>\n<p>Au programme, nous allons parler performance, cache, service workers, notification et comment les PWA vont révolutionner le web mobile.</p>\n<p><strong>Pré-requis: clonez le projet https://github.com/Gillespie59/devoxx-progressive-webapp et installer les pré-requis décris dans le <a href=\"https://github.com/Gillespie59/devoxx-progressive-webapp/blob/master/README.md\">README</a></strong></p>\n",
+  "id" : "SGJ-3674",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9a0499cb7699c4d6f32a5d248e814f423a7d611b",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Emmanuel DEMEY"
+      },
+      "name" : "Emmanuel DEMEY"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3da55fee2b0e6fbb180bc3335c6b805dded4fcd5",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Angela Ricci"
+      },
+      "name" : "Angela Ricci"
+    }
+  ],
+  "title" : "Les Progressive Webapps en pratique",
+  "lang" : "fr",
+  "summary" : "De plus en plus, le web est utilisé sur mobile. Mais est-ce que les sites web sont optimisés pour cela ? Nous ne parlons pas de Responsive Design, qui, à notre avis, est une pratique connue et utilisée, peut-être de la mauvaise façon dans certains cas. \r\n\r\nLors de ce codelab, les participants auront la possibilité de mettre en place sur une application existante tous les concepts permettant de rendre l'expérience utilisateur d'un site web aussi fluide qu'une application native. \r\n\r\nAu programme, nous allons parler performance, cache, service workers, notification et comment les PWA vont révolutionner le web mobile.\r\n\r\n**Pré-requis: clonez le projet https://github.com/Gillespie59/devoxx-progressive-webapp et installer les pré-requis décris dans le [README](https://github.com/Gillespie59/devoxx-progressive-webapp/blob/master/README.md)**"
+}

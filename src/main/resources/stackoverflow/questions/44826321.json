@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826321,
+  "title" : "Start application with VBS whos path is different between users",
+  "body" : "<p>All,  I am attempting to script the start of an application whose path is different between each user.  Is there any way to find the true path of the app (per user) and then start the program with the scripting below?  </p>\n\n<p>Also, what is the best way to run the application as the logged in user i.e. <code>%username%</code>.  I have tried the scripting below (for this issue), but doesn't seem to work.  </p>\n\n<pre><code>on error resume next\ntheDir = \"C:\\Users\\\" &amp; createobject(\"wscript.shell\").expandenvironmentstrings(\"%username%\") &amp; \"\\AppData\\Local\\Apps\\2.0\\ZJVRE3RK.4TQ\\VLGML47Q.TPN\\2rin..tion_5bfb425a74ceb3d8_0003.0004_c52ddbfe44f7690b\"\n\ntheCmd = \"2RingIPPSClient.exe\"\n\nSet objSh = WScript.CreateObject(\"WScript.Shell\")\n\nobjSh.CurrentDirectory = theDir\n\nobjSh.Run theCmd\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826321/start-application-with-vbs-whos-path-is-different-between-users",
+  "owner" : {
+    "user_id" : 8231912,
+    "user_type" : "registered",
+    "display_name" : "Bryan",
+    "profile_image" : "https://www.gravatar.com/avatar/902c10f8099b401880d7e0e310a5ab39?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8231912/bryan",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742433,
+  "last_activity_date" : 1498742998,
+  "tags" : [
+    "vbscript",
+    "scripting"
+  ],
+  "score" : 0,
+  "view_count" : 8,
+  "answer_count" : 0
+}

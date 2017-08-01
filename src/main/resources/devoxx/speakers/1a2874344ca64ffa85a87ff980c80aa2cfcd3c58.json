@@ -1,0 +1,32 @@
+{
+  "uuid" : "1a2874344ca64ffa85a87ff980c80aa2cfcd3c58",
+  "bioAsHtml" : "<p>Alex is a Lead Engineer at Shopify, Montreal. He works on a Ruby Virtual Machine that enables merchants to run their code on the Shopify platform. Prior to that he worked on Ehcache, Quartz and the platform in general at Terracotta. He&#x27;s been part of the internal working group on JSR107 at Terracotta, an expert on JSR347 and one of the representative for Software AG on the JCP Executive Committee.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "University",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/KGN-4315",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1a2874344ca64ffa85a87ff980c80aa2cfcd3c58",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Alex Snaps"
+        }
+      ],
+      "id" : "KGN-4315",
+      "title" : "Execution de code — mais que se passe-t-il vraiment?"
+    }
+  ],
+  "company" : "Shopify",
+  "bio" : "Alex is a Lead Engineer at Shopify, Montreal. He works on a Ruby Virtual Machine that enables merchants to run their code on the Shopify platform. Prior to that he worked on Ehcache, Quartz and the platform in general at Terracotta. He's been part of the internal working group on JSR107 at Terracotta, an expert on JSR347 and one of the representative for Software AG on the JCP Executive Committee. ",
+  "lastName" : "Snaps",
+  "firstName" : "Alex",
+  "blog" : "http://www.codespot.net",
+  "avatarURL" : "https://lh3.googleusercontent.com/-_rlaw1FMFqo/AAAAAAAAAAI/AAAAAAAABUw/JjtOhomrfnM/photo.jpg",
+  "twitter" : "@alexsnaps",
+  "lang" : "en"
+}

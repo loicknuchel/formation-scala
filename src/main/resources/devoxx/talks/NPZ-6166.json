@@ -1,0 +1,20 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Conference",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Personne n’aime les builds lentes. Combien de fois par jour compilez-vous votre application ? Combien de fois cliquez vous le bouton « run » dans votre IDE ? Combien de fois avez-vous maudit <em>Maven</em>, <em>SBT</em>, <em>Ant</em>, <em>Grunt</em> (et peut-être même <em>Gradle</em> ?) pour leur lenteur désespérante ? Peut-être même certains d’entre vous lancent systématiquement un clean, comme réflexe conditionné à un outil de build cassé ? Avec Gradle, on vise la <em>build happiness</em> : il n’y a aucune raison de ne pas attendre les mêmes <strong>standards de qualité</strong> entre votre développement et votre process de build.</p>\n<p>Les builds sont importantes, et mêmes cruciales pour la productivité des développeurs. En ce sens, elles se doivent d’être <strong>optimisées pour la performance</strong>. Gradle offre différents moyens de le faire: builds incrémentales, builds continues, le daemon, <strong>cache de builds distribué</strong>, les build scans, … Nous avons largement travaillé avec Gradle 3 et 4 à améliorer significativement les performances, suffisamment pour en faire un game changer. Venez apprendre comment rendre vos builds significativement plus rapides. Réclamez votre CPU pour coder, pas pour builder!</p>\n",
+  "id" : "NPZ-6166",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/461c61f74a62966ae1a3fbb31bbfc1f85034eedb",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Cédric Champeau"
+      },
+      "name" : "Cédric Champeau"
+    }
+  ],
+  "title" : "Des builds incroyablement rapides avec Gradle 4",
+  "lang" : "fr",
+  "summary" : "Personne n’aime les builds lentes. Combien de fois par jour compilez-vous votre application ? Combien de fois cliquez vous le bouton « run » dans votre IDE ? Combien de fois avez-vous maudit _Maven_, _SBT_, _Ant_, _Grunt_ (et peut-être même _Gradle_ ?) pour leur lenteur désespérante ? Peut-être même certains d’entre vous lancent systématiquement un clean, comme réflexe conditionné à un outil de build cassé ? Avec Gradle, on vise la _build happiness_ : il n’y a aucune raison de ne pas attendre les mêmes **standards de qualité** entre votre développement et votre process de build. \r\n\r\nLes builds sont importantes, et mêmes cruciales pour la productivité des développeurs. En ce sens, elles se doivent d’être **optimisées pour la performance**. Gradle offre différents moyens de le faire: builds incrémentales, builds continues, le daemon, **cache de builds distribué**, les build scans, … Nous avons largement travaillé avec Gradle 3 et 4 à améliorer significativement les performances, suffisamment pour en faire un game changer. Venez apprendre comment rendre vos builds significativement plus rapides. Réclamez votre CPU pour coder, pas pour builder! "
+}

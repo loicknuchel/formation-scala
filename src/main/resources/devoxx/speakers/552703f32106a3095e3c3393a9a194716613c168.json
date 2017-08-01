@@ -1,0 +1,32 @@
+{
+  "uuid" : "552703f32106a3095e3c3393a9a194716613c168",
+  "bioAsHtml" : "<p>David Delabassee is a Software Evangelist working in the GlassFish and Java EE Team at Oracle. Prior to that, he spent the last 10 years at Sun Microsystems focusing on Java end-to-end (from the smart card to the high end server), all the related technologies, and the developer tools. He has been involved in Java projects since the early days of this technology. David is a steering member of Devoxx Belgium.</p>\n<p>In his spare time, he enjoy tinkering and playing with technologies such as Java, Arduino, Processing, Linux, etc.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/KAS-7912",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/552703f32106a3095e3c3393a9a194716613c168",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "David Delabassee"
+        }
+      ],
+      "id" : "KAS-7912",
+      "title" : "Java EE 8? Ah ben non peut-être!"
+    }
+  ],
+  "company" : "Oracle",
+  "bio" : "David Delabassee is a Software Evangelist working in the GlassFish and Java EE Team at Oracle. Prior to that, he spent the last 10 years at Sun Microsystems focusing on Java end-to-end (from the smart card to the high end server), all the related technologies, and the developer tools. He has been involved in Java projects since the early days of this technology. David is a steering member of Devoxx Belgium.\r\n\r\nIn his spare time, he enjoy tinkering and playing with technologies such as Java, Arduino, Processing, Linux, etc.",
+  "lastName" : "Delabassee",
+  "firstName" : "David",
+  "blog" : "http://delabassee.com",
+  "avatarURL" : "https://pbs.twimg.com/profile_images/775375590199324672/oBJHFlcT.jpg",
+  "twitter" : "@delabassee",
+  "lang" : "fr"
+}

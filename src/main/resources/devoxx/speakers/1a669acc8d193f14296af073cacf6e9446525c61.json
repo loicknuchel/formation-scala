@@ -1,0 +1,37 @@
+{
+  "uuid" : "1a669acc8d193f14296af073cacf6e9446525c61",
+  "bioAsHtml" : "<p>Je suis développeur full-stack passionné depuis douze ans. Je touche à tout: backend, frontend, mobile, data, dev-ops, le tout en Javascript, Java et Scala.</p>\n<p>Je travaille chez Fluo à révolutionner le monde de l&#x27;assurance depuis janvier 2016. J&#x27;aime écrire de belles applications qui changent la vie des utilisateurs !</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Mobile, IoT",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/KXN-1864",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1a669acc8d193f14296af073cacf6e9446525c61",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Florent Le Gall"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/87e03893af48cf11409cc4f7375993399a8af521",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Thierry Abaléa"
+        }
+      ],
+      "id" : "KXN-1864",
+      "title" : "React Native ou comment faire une application iOS & Android quand on est développeur web"
+    }
+  ],
+  "company" : "Fluo",
+  "bio" : "Je suis développeur full-stack passionné depuis douze ans. Je touche à tout: backend, frontend, mobile, data, dev-ops, le tout en Javascript, Java et Scala.\r\n\r\nJe travaille chez Fluo à révolutionner le monde de l'assurance depuis janvier 2016. J'aime écrire de belles applications qui changent la vie des utilisateurs !",
+  "lastName" : "Le Gall",
+  "firstName" : "Florent",
+  "blog" : "www.fluo.com",
+  "avatarURL" : "https://s.gravatar.com/avatar/8cc61eee42a916ef4f511624442c622d?s=800",
+  "twitter" : "@flornt",
+  "lang" : "en-US"
+}

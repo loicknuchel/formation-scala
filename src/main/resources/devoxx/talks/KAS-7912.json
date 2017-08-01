@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "Conference",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>Java EE 8 devrait être finalisé cet été. A quelques semaines de sa sortie, cette session se propose donc de faire le point sur cette mise à niveau de la plateforme.</p>\n<p>Durant cette conférence, nous allons aborder les principales nouvelles fonctionnalités de Java EE 8 tels que JAX-RS et sa nouvelle API client ‘Reactive’, l’API Servlet 4 et son support http/2, la nouvelle API JSON-B, les différentes améliorations liées à la sécurité. Nous allons aussi voir ce qu’apporte Bean Validation 2.0, CDI 2.0, JSON-P 1.1, etc.</p>\n",
+  "id" : "KAS-7912",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/552703f32106a3095e3c3393a9a194716613c168",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "David Delabassee"
+      },
+      "name" : "David Delabassee"
+    }
+  ],
+  "title" : "Java EE 8? Ah ben non peut-être!",
+  "lang" : "fr",
+  "summary" : "Java EE 8 devrait être finalisé cet été. A quelques semaines de sa sortie, cette session se propose donc de faire le point sur cette mise à niveau de la plateforme. \r\n\r\nDurant cette conférence, nous allons aborder les principales nouvelles fonctionnalités de Java EE 8 tels que JAX-RS et sa nouvelle API client ‘Reactive’, l’API Servlet 4 et son support http/2, la nouvelle API JSON-B, les différentes améliorations liées à la sécurité. Nous allons aussi voir ce qu’apporte Bean Validation 2.0, CDI 2.0, JSON-P 1.1, etc."
+}

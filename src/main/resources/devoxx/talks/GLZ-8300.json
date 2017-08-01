@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Conference",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Le Data Lake pour l'analyse de comportement d'utilisateurs vit peut-être ses derniers instants. L'industrie prend brutalement conscience aujourd'hui de la toxicité de disposer de données individuelles brutes.</p>\n<p>La confidentialité différentielle permet de couvrir une partie du spectre, lorsque le nombre d'utilisateurs atteint cinq chiffres, mais est sans réponse pour les plus petites populations.</p>\n<p>Avec SDA, nous proposons une implémentation de collecte de statistiques reposant sur le partage de secret qui s'adapte à des populations de quelques centaines d'utilisateurs. De façon très classique, SDA permet à un développeur d'application d'obtenir la somme des contributions individuelles de chacun de ses utilisateurs. Néanmoins, à aucun moment, ni le développeur ni aucune tierce partie n'est en possession de donnée brute exploitable.</p>\n<p>SDA est formé d'une librairie pour instrumenter l'application (y compris mobiles, iOS comme Android), et d'un serveur. La librairie comme le serveur sont codés en Rust. Des interfaces haut-niveau en Swift et en Java pour la librairie sont disponibles.</p>\n",
+  "id" : "GLZ-8300",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/84328f9962469e7fff8a0bf96634f9dc4079dd3e",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Mathieu Poumeyrol"
+      },
+      "name" : "Mathieu Poumeyrol"
+    }
+  ],
+  "title" : "Statistiques ou vie privée ? Les deux !",
+  "lang" : "fr",
+  "summary" : "Le Data Lake pour l'analyse de comportement d'utilisateurs vit peut-être ses derniers instants. L'industrie prend brutalement conscience aujourd'hui de la toxicité de disposer de données individuelles brutes.\r\n\r\nLa confidentialité différentielle permet de couvrir une partie du spectre, lorsque le nombre d'utilisateurs atteint cinq chiffres, mais est sans réponse pour les plus petites populations.\r\n\r\nAvec SDA, nous proposons une implémentation de collecte de statistiques reposant sur le partage de secret qui s'adapte à des populations de quelques centaines d'utilisateurs. De façon très classique, SDA permet à un développeur d'application d'obtenir la somme des contributions individuelles de chacun de ses utilisateurs. Néanmoins, à aucun moment, ni le développeur ni aucune tierce partie n'est en possession de donnée brute exploitable.\r\n\r\nSDA est formé d'une librairie pour instrumenter l'application (y compris mobiles, iOS comme Android), et d'un serveur. La librairie comme le serveur sont codés en Rust. Des interfaces haut-niveau en Swift et en Java pour la librairie sont disponibles."
+}

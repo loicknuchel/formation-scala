@@ -1,0 +1,32 @@
+{
+  "uuid" : "b800a8a13a35cf87947f7b22344d05e12fca36f3",
+  "bioAsHtml" : "<p>Je travaille chez Ullink en tant qu&#x27;architecte performance sur des applications de trading requérant une très faible latence. De l&#x27;optimisation du code java jusqu&#x27;au réglage très fin du système d&#x27;exploitation et du matériel, toute la chaîne d’exécution de l&#x27;application est prise en compte pour grappiller des micro-secondes sur le traitement des ordres.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/QAE-8670",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b800a8a13a35cf87947f7b22344d05e12fca36f3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Philippe Bempel"
+        }
+      ],
+      "id" : "QAE-8670",
+      "title" : "Le guide de dépannage de la JVM"
+    }
+  ],
+  "company" : "Ullink",
+  "bio" : "Je travaille chez Ullink en tant qu'architecte performance sur des applications de trading requérant une très faible latence. De l'optimisation du code java jusqu'au réglage très fin du système d'exploitation et du matériel, toute la chaîne d’exécution de l'application est prise en compte pour grappiller des micro-secondes sur le traitement des ordres.",
+  "lastName" : "Bempel",
+  "firstName" : "Jean-Philippe",
+  "blog" : "http://jpbempel.blogspot.com",
+  "avatarURL" : "https://lh5.googleusercontent.com/-LTVFWnsuGlY/ThnyQs5VZjI/AAAAAAAABUY/7gQusBbS-1I/s207-p-no/Fifounet1.JPG",
+  "twitter" : "@jpbempel",
+  "lang" : "en-US"
+}

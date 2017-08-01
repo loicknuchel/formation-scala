@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Quickie",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>C'est le dernier d'une longue liste: npm, bower, jspm... Alors qu'est-ce qui se cache derrière <strong>YARN</strong>, le package-manager JavaScript récemment open-sourcé par Facebook.</p>\n<p>Au cours de cette session, nous essaierons de comprendre les raisons de sa création, comment il fonctionne et ce qu'il apporte de plus (ou de moins). Et finalement de répondre à LA question: Faut-il l'installer dès lundi matin, en rentrant de #DevoxxFR ?</p>\n",
+  "id" : "GKQ-4568",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f487d23e3cea22f9193b9b372a295e2e403a1d42",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Erwan Deruelle"
+      },
+      "name" : "Erwan Deruelle"
+    }
+  ],
+  "title" : "Yarn, encore un package-manager ?",
+  "lang" : "fr",
+  "summary" : "C'est le dernier d'une longue liste: npm, bower, jspm... Alors qu'est-ce qui se cache derrière **YARN**, le package-manager JavaScript récemment open-sourcé par Facebook.\r\n\r\nAu cours de cette session, nous essaierons de comprendre les raisons de sa création, comment il fonctionne et ce qu'il apporte de plus (ou de moins). Et finalement de répondre à LA question: Faut-il l'installer dès lundi matin, en rentrant de #DevoxxFR ? \r\n"
+}

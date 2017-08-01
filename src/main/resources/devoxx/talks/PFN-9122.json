@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Hands-on Labs",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>When it’s time to choose the database technology for your app, the choices can be overwhelming. Should you choose SQL or NoSQL? Open source or proprietary? Self-hosted or hosted? If you’re not already familiar with graph databases, you might be tempted to ignore them as an option. But that could be a mistake.</p>\n<p>In this hands-on lab, we'll discuss the benefits of graph databases and the basics of how to use one.  Then we'll open our laptops and begin coding!  We'll explore an existing app that leverages a hosted version of the open-source graph computing framework Apache TinkerPop.  We'll discover how we can use APIs and the Gremlin graph traversal language to perform CRUD (create, read, update, and delete) operations.  Then we'll write our own code to perform a CRUD operation and explore the graph.  Most exciting of all, we'll write code to generate recommendations (one of the biggest strengths of graph databases!) for the app's users.</p>\n<p>So bring your laptop with a modern web browser installed, and get ready to graph!  You'll leave with an understanding of when you should choose a graph database and how to use one.</p>\n",
+  "id" : "PFN-9122",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f43c4c85ed0f8734f49678d00c81a2f6f55139f2",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Lauren Schaefer"
+      },
+      "name" : "Lauren Schaefer"
+    }
+  ],
+  "title" : "Intro to Graph Databases",
+  "lang" : "en",
+  "summary" : "When it’s time to choose the database technology for your app, the choices can be overwhelming. Should you choose SQL or NoSQL? Open source or proprietary? Self-hosted or hosted? If you’re not already familiar with graph databases, you might be tempted to ignore them as an option. But that could be a mistake.\r\n\r\nIn this hands-on lab, we'll discuss the benefits of graph databases and the basics of how to use one.  Then we'll open our laptops and begin coding!  We'll explore an existing app that leverages a hosted version of the open-source graph computing framework Apache TinkerPop.  We'll discover how we can use APIs and the Gremlin graph traversal language to perform CRUD (create, read, update, and delete) operations.  Then we'll write our own code to perform a CRUD operation and explore the graph.  Most exciting of all, we'll write code to generate recommendations (one of the biggest strengths of graph databases!) for the app's users.\r\n\r\nSo bring your laptop with a modern web browser installed, and get ready to graph!  You'll leave with an understanding of when you should choose a graph database and how to use one."
+}

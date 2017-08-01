@@ -1,0 +1,37 @@
+{
+  "uuid" : "adedff2cfbf0c9cba5d9ad21bc011202474fa464",
+  "bioAsHtml" : "<p>Daniel Deogun is a Coder and Quality Defender who brings order to a chaotic world of bits and bytes using good design and clean code. He fights security &quot;trolls&quot; on a daily basis with magic spells from DDD and an overall security mindset. He started to play with Java in 1997 and his extensive experience ranges from patient critical pacemaker systems to web applications to high performant software in the gaming industry. Combining this with his passion for tech has made him a frequent speaker at international conferences.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/LUC-5770",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/adedff2cfbf0c9cba5d9ad21bc011202474fa464",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Daniel Deogun"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/04532795d2a426b9d5200839d9ecf31210d97474",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Dan Bergh Johnsson"
+        }
+      ],
+      "id" : "LUC-5770",
+      "title" : "Domain Driven Security"
+    }
+  ],
+  "company" : "Omegapoint",
+  "bio" : "Daniel Deogun is a Coder and Quality Defender who brings order to a chaotic world of bits and bytes using good design and clean code. He fights security \"trolls\" on a daily basis with magic spells from DDD and an overall security mindset. He started to play with Java in 1997 and his extensive experience ranges from patient critical pacemaker systems to web applications to high performant software in the gaming industry. Combining this with his passion for tech has made him a frequent speaker at international conferences.",
+  "lastName" : "Deogun",
+  "firstName" : "Daniel",
+  "blog" : "https://www.omegapoint.se",
+  "avatarURL" : "http://www.gravatar.com/avatar/3c27b5b24d863153d2a146cc267a5f19",
+  "twitter" : "@DanielDeogun",
+  "lang" : "fr"
+}

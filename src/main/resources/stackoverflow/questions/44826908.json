@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826908,
+  "title" : "More than one domain on one server",
+  "body" : "<p>beside the following two files at <em>/etc/apache2/sites-available</em></p>\n\n<pre><code>example.com.conf\nexample.com-le-ssl.conf\n</code></pre>\n\n<p>is there anywhere else besides the <em>.htaccess</em> files That I would input rewrite rules?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826908/more-than-one-domain-on-one-server",
+  "owner" : {
+    "user_id" : 7441661,
+    "user_type" : "registered",
+    "display_name" : "denski",
+    "profile_image" : "https://www.gravatar.com/avatar/c825bb88ec292cfb52eb1bfde4db1f57?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7441661/denski",
+    "reputation" : 140,
+    "accept_rate" : 78
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743854,
+  "last_activity_date" : 1498743854,
+  "tags" : [
+    "php",
+    "apache",
+    "url-rewriting"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

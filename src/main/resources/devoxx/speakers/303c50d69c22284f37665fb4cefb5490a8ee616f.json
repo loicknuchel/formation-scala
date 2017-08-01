@@ -1,0 +1,57 @@
+{
+  "uuid" : "303c50d69c22284f37665fb4cefb5490a8ee616f",
+  "bioAsHtml" : "<p>Vladimir is a CyberSecurity specialist at NetXP, OSSIR&#x27;s board member (Non-profit organization focused on cybersecurity) and speaker of the monthly review of security news.</p>\n<p>He likes to browse the deep dark marianas web on his falcighol derivation quantum computer made from raspberry pi. He also likes to deride fake information.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/QFM-7860",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/68082da635ce5c02b0325170cd42af87fda5dfe0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Johanne Ulloa"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a97dc1739cca5a4d6b1dd2ca06fe1c69fbe405b8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Nicolas RUFF"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/419d72a808d490afdf5721dc44e29c64fa02524c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Emmanuel Bernard"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/efe86825ed18e3ac9a3a895fc0acb9702c5a99c3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Hervé Schauer"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/daeacb58322e0c2098becde15aa8d52562f23e7d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sébastien Gioria"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/303c50d69c22284f37665fb4cefb5490a8ee616f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "V׀adimіr Kο׀׀a"
+        }
+      ],
+      "id" : "QFM-7860",
+      "title" : "Dev et Sécu : c'est fromage ou dessert ?"
+    }
+  ],
+  "company" : "NetXP",
+  "bio" : "Vladimir is a CyberSecurity specialist at NetXP, OSSIR's board member (Non-profit organization focused on cybersecurity) and speaker of the monthly review of security news.\r\n\r\nHe likes to browse the deep dark marianas web on his falcighol derivation quantum computer made from raspberry pi. He also likes to deride fake information.\r\n",
+  "lastName" : "Kο׀׀a",
+  "firstName" : "V׀adimіr",
+  "blog" : "https://www.netxp.fr",
+  "avatarURL" : "http://i.imgur.com/J8Zmxb5.jpg",
+  "twitter" : "@mynameisv__",
+  "lang" : "en"
+}

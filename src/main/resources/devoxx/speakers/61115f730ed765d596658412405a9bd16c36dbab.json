@@ -1,0 +1,37 @@
+{
+  "uuid" : "61115f730ed765d596658412405a9bd16c36dbab",
+  "bioAsHtml" : "<p>Développeur touche à tout depuis plus de 10 ans, il travaille actuellement à Zenika Nantes. Ses sujets du moment sont le Cloud, Golang, l’industrialisation du JS, Electron et Docker. Il est formateur officiel Docker et co-organisateur du Docker Meetup Nantes.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/VGQ-1820",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/61115f730ed765d596658412405a9bd16c36dbab",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Eric Briand"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4db7d896c9715985dcc81c9551faa95c38f38296",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yvonnick Frin"
+        }
+      ],
+      "id" : "VGQ-1820",
+      "title" : "Développez des applications web desktop avec Electron de Github"
+    }
+  ],
+  "company" : "Zenika",
+  "bio" : "Développeur touche à tout depuis plus de 10 ans, il travaille actuellement à Zenika Nantes. Ses sujets du moment sont le Cloud, Golang, l’industrialisation du JS, Electron et Docker. Il est formateur officiel Docker et co-organisateur du Docker Meetup Nantes.",
+  "lastName" : "Briand",
+  "firstName" : "Eric",
+  "blog" : null,
+  "avatarURL" : "http://www.gravatar.com/avatar/d8475326bb94197fab3f6962d110bac3?size=400",
+  "twitter" : "@eric_briand",
+  "lang" : "en-US"
+}

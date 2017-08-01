@@ -1,0 +1,32 @@
+{
+  "uuid" : "486707fecdcb7c8cfbb10974e855389d5132a787",
+  "bioAsHtml" : "<p>I work @ Red Hat on Open Source Integration technology.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/CUN-7261",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/486707fecdcb7c8cfbb10974e855389d5132a787",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Abdellatif BOUCHAMA"
+        }
+      ],
+      "id" : "CUN-7261",
+      "title" : "Integration in a #Microservices Style"
+    }
+  ],
+  "company" : "Red Hat",
+  "bio" : "I work @ Red Hat on Open Source Integration technology. ",
+  "lastName" : "BOUCHAMA",
+  "firstName" : "Abdellatif",
+  "blog" : "http://bushorn.com/author/a_bouchama/",
+  "avatarURL" : "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAlYAAAAJDRkNTY0M2I5LTg3NTktNGI0Zi04ZjgzLTFhNjk5NzRmNWM1OQ.jpg",
+  "twitter" : "@a_bouchama",
+  "lang" : "fr-FR"
+}

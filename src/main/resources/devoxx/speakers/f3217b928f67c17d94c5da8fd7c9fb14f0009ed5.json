@@ -1,0 +1,70 @@
+{
+  "uuid" : "f3217b928f67c17d94c5da8fd7c9fb14f0009ed5",
+  "bioAsHtml" : "<p>Yannick Grenzinger est un développeur passionné depuis plus de 10 ans tant côté back que front.</p>\n<p>Son objectif est d&#x27;aider les entreprises à créer des produits exceptionnels ! Pour cela,  il continue à progresser sur l&#x27;expertise technique en tant que &quot;Software Craftsman&quot; tout en se formant sur la psychologie, l&#x27;expérience utilisateur, le marketing, le business ou encore l&#x27;innovation.</p>\n<p>Yannick est actuellement Technical Officer dans la société Carbon IT.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/TJI-4584",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9ca4adb955901a692a096161b51997d346d007bf",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Anne Gabrillagues"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/341ff3dc19b831ea24193dc1218debd921e6c528",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Dimitri BAELI"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/815c0c15a6796e465b21163604d6254d88871af0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Nils Lesieur"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f3217b928f67c17d94c5da8fd7c9fb14f0009ed5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yannick grenzinger"
+        }
+      ],
+      "id" : "TJI-4584",
+      "title" : "BoF Lean Kanban France : laissez vous surprendre."
+    },
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/ZXG-8799",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f3217b928f67c17d94c5da8fd7c9fb14f0009ed5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yannick grenzinger"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/fdfbf388398df259eeace0dd029420ee945593cf",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sékou Bougadar Diarra"
+        }
+      ],
+      "id" : "ZXG-8799",
+      "title" : "Fleet et etcd : des outils simples mais efficaces pour orchestrer vos services"
+    }
+  ],
+  "company" : "Carbon IT",
+  "bio" : "Yannick Grenzinger est un développeur passionné depuis plus de 10 ans tant côté back que front. \r\n\r\nSon objectif est d'aider les entreprises à créer des produits exceptionnels ! Pour cela,  il continue à progresser sur l'expertise technique en tant que \"Software Craftsman\" tout en se formant sur la psychologie, l'expérience utilisateur, le marketing, le business ou encore l'innovation.\r\n\r\nYannick est actuellement Technical Officer dans la société Carbon IT.",
+  "lastName" : "grenzinger",
+  "firstName" : "yannick",
+  "blog" : "http://about.me/yannick.grenzinger",
+  "avatarURL" : "https://pbs.twimg.com/profile_images/668349256932171776/7Ma808uw_400x400.png",
+  "twitter" : "@ygrenzinger",
+  "lang" : "fr"
+}

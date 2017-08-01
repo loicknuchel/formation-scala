@@ -1,0 +1,42 @@
+{
+  "uuid" : "36240f860ac768bbe44736a2f8c028b7651fb949",
+  "bioAsHtml" : "<p>Craftsman</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/BWC-1026",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7f72bec97e79afd0f742fc87c486bd2a30d29fea",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Florent Pellet"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/36240f860ac768bbe44736a2f8c028b7651fb949",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Clement Bouillier"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/71088009efb094754d81152df165eba94cd3dac4",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Emilien Pecoul"
+        }
+      ],
+      "id" : "BWC-1026",
+      "title" : "Agilité par le code grâce à CQRS et EventSourcing"
+    }
+  ],
+  "company" : "DevLyon",
+  "bio" : "Craftsman ",
+  "lastName" : "Bouillier",
+  "firstName" : "Clement",
+  "blog" : null,
+  "avatarURL" : "https://media.licdn.com/mpr/mprx/0_uBxCSyXtcgiWPCK629jlS0vYcRvFPC36aKwjS0v_HOT9u69Qhl7mix3SJvzJr5hoSNgyCZw-Z3cg",
+  "twitter" : "@clem_bouillier",
+  "lang" : "en"
+}

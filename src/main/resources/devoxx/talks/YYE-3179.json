@@ -1,0 +1,28 @@
+{
+  "trackId" : "lang",
+  "talkType" : "Conference",
+  "track" : "Langages alternatifs",
+  "summaryAsHtml" : "<p>Vous aimez les concepts de haut niveau, comme les fonctions d’ordre supérieur, un système de typage fort, immutabilité par défaut, closures et des génériques réifiés ?\nLa gestion manuelle de la mémoire n’est pas votre fort ; vous ne voulez pas d’un ramasse miette, ni de pauses dans votre application ?</p>\n<p>Rust est fait pour vous !</p>\n<p>C’est un langage de programmation assez récent, développé par Mozilla qui expose des concepts de haut niveau tout en permettant d’atteindre un niveau de contrôle similaire au C/C++.</p>\n<p>Sa devise est: “Performance, Sécurité, Productivité, choisissez en trois.“</p>\n<p>Il propose une gestion automatique de la mémoire sans ramasse miettes, ni comptage de référence mais les développeur adeptes du bas niveau ne sont pas en reste, avec la possibilité d’en avoir le contrôle. Le langage Rust permet de très bonnes performances via sa gestion de la mémoire faite au niveau du compilateur et une compilation native.</p>\n<p>A travers du live coding, nous illustrerons les concepts de Rust: borrowing, ownership, lifetimes, mutabilitée et génériques.</p>\n",
+  "id" : "YYE-3179",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b8ab596bf883613acb6b90ee1f46fc806882254e",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Olivier Bourgain"
+      },
+      "name" : "Olivier Bourgain"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/22aa46639b9a92b1d2d28dbe70556f3cac2231b8",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Jean-Baptiste PETIT"
+      },
+      "name" : "Jean-Baptiste PETIT"
+    }
+  ],
+  "title" : "Introduction à Rust",
+  "lang" : "fr",
+  "summary" : "Vous aimez les concepts de haut niveau, comme les fonctions d’ordre supérieur, un système de typage fort, immutabilité par défaut, closures et des génériques réifiés ?\r\nLa gestion manuelle de la mémoire n’est pas votre fort ; vous ne voulez pas d’un ramasse miette, ni de pauses dans votre application ?\r\n\r\nRust est fait pour vous !\r\n\r\nC’est un langage de programmation assez récent, développé par Mozilla qui expose des concepts de haut niveau tout en permettant d’atteindre un niveau de contrôle similaire au C/C++.\r\n\r\nSa devise est: “Performance, Sécurité, Productivité, choisissez en trois.“ \r\n\r\nIl propose une gestion automatique de la mémoire sans ramasse miettes, ni comptage de référence mais les développeur adeptes du bas niveau ne sont pas en reste, avec la possibilité d’en avoir le contrôle. Le langage Rust permet de très bonnes performances via sa gestion de la mémoire faite au niveau du compilateur et une compilation native.\r\n\r\nA travers du live coding, nous illustrerons les concepts de Rust: borrowing, ownership, lifetimes, mutabilitée et génériques."
+}

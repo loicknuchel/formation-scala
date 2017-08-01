@@ -1,0 +1,26 @@
+{
+  "question_id" : 44805984,
+  "title" : "Golang interface to struct",
+  "body" : "<p>I have a function that has a parameter with the type interface{}, something like:</p>\n\n<pre><code>func LoadTemplate(templateData interface{}) {\n</code></pre>\n\n<p>In my case, templateData is a struct, but each time it has a different structure. I used the type \"interface{}\" because it allows me to send all kind of data.</p>\n\n<p>I'm using this templateData to send the data to the template:</p>\n\n<pre><code>err := tmpl.ExecuteTemplate(w, baseTemplateName, templateData)\n</code></pre>\n\n<p>But now I want to append some new data and I don't know how to do it because the \"interface\" type doesn't allow me to add/append anything. </p>\n\n<p>I tried to convert the interface to a struct, but I don't know how to append data to a struct with an unknown structure. </p>\n\n<p>If I use the following function I can see the interface's data:</p>\n\n<pre><code>templateData = appendAssetsToTemplateData(templateData)\n\nfunc appendAssetsToTemplateData(t interface{}) interface{} {\n    switch reflect.TypeOf(t).Kind() {\n    case reflect.Struct:\n        fmt.Println(\"struct\")\n        s := reflect.ValueOf(t)\n        fmt.Println(s)\n\n        //create a new struct based on current interface data\n    }\n\n    return t\n}\n</code></pre>\n\n<p>Any idea how can I append a child to the initial interface parameter (templateData)? Or how can I transform it to a struct or something else in order to append the new child/data?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44805984/golang-interface-to-struct",
+  "owner" : {
+    "user_id" : 1564840,
+    "user_type" : "registered",
+    "display_name" : "Pascut",
+    "profile_image" : "https://www.gravatar.com/avatar/7374a0927a35e40deae799aa83977a1e?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1564840/pascut",
+    "reputation" : 816,
+    "accept_rate" : 81
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661624,
+  "last_activity_date" : 1498661939,
+  "tags" : [
+    "go",
+    "struct",
+    "interface"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 1
+}

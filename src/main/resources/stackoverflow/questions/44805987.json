@@ -1,0 +1,25 @@
+{
+  "question_id" : 44805987,
+  "title" : "How easy is to steal something left out for garbage collection?",
+  "body" : "<blockquote>\n  <p><a href=\"https://stackoverflow.com/q/10443308/2408342\">Why <code>getText()</code> in JPasswordField was deprecated?</a></p>\n</blockquote>\n\n<p>According to <a href=\"https://stackoverflow.com/a/10443361/2408342\">this answer</a> for the above question, what I understood was that creating a <code>String</code> object containing the password is a <strong>security threat because it may remain in the memory for a while</strong> and it is immutable.</p>\n\n<p>So I was wondering,</p>\n\n<ul>\n<li><p>How easy it is to <strong>retrieve something which has been hanging around\nin the memory</strong>, without a reference or left out for garbage collection?</p></li>\n<li><p>And how do you do it?</p></li>\n</ul>\n",
+  "link" : "https://stackoverflow.com/questions/44805987/how-easy-is-to-steal-something-left-out-for-garbage-collection",
+  "owner" : {
+    "user_id" : 2408342,
+    "user_type" : "registered",
+    "display_name" : "Roshana Pitigala",
+    "profile_image" : "https://i.stack.imgur.com/sgN7o.png?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/2408342/roshana-pitigala",
+    "reputation" : 501,
+    "accept_rate" : 100
+  },
+  "is_answered" : true,
+  "creation_date" : 1498661628,
+  "last_activity_date" : 1498661853,
+  "tags" : [
+    "java",
+    "garbage-collection"
+  ],
+  "score" : 4,
+  "view_count" : 21,
+  "answer_count" : 1
+}

@@ -1,0 +1,32 @@
+{
+  "uuid" : "0c15fff028d0d015fd98a53ded3d6ab77aefb332",
+  "bioAsHtml" : "<p>Écrivain et philosophe, Éric Sadin est l’un des penseurs majeurs du numérique et de son impact sur nos vies et nos sociétés.\nIl a publié plusieurs ouvrages, notamment : Surveillance Globale – Enquête sur les nouvelles formes de contrôle (Climats/Flammarion, 2009) ; La Société de l’anticipation (Inculte, 2011) ; L’Humanité Augmentée – L’administration numérique du monde (L’échappée, 2013) (Prix Hub Awards 2013 de l&#x27;&quot;Essai le plus influent sur le digital&quot;) ; La Vie algorithmique – Critique de la raison numérique (L’échappée, 2015) ; La Silicolonisation du monde – L’irrésistible expansion du libéralisme numérique (L’échappée, octobre 2016).\nSes livres rencontrent un accueil enthousiaste de la part de la critique et du public et sont de plus en plus lus et commentés.\nIl publie régulièrement des tribunes dans Le Monde, Libération, Les Inrockuptibles, Die Zeit et donne des conférences dans le monde entier.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Keynote",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/JAM-0695",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0c15fff028d0d015fd98a53ded3d6ab77aefb332",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Eric  Sadin"
+        }
+      ],
+      "id" : "JAM-0695",
+      "title" : "De la responsabilité des ingénieurs"
+    }
+  ],
+  "company" : null,
+  "bio" : "Écrivain et philosophe, Éric Sadin est l’un des penseurs majeurs du numérique et de son impact sur nos vies et nos sociétés. \r\nIl a publié plusieurs ouvrages, notamment : Surveillance Globale – Enquête sur les nouvelles formes de contrôle (Climats/Flammarion, 2009) ; La Société de l’anticipation (Inculte, 2011) ; L’Humanité Augmentée – L’administration numérique du monde (L’échappée, 2013) (Prix Hub Awards 2013 de l'\"Essai le plus influent sur le digital\") ; La Vie algorithmique – Critique de la raison numérique (L’échappée, 2015) ; La Silicolonisation du monde – L’irrésistible expansion du libéralisme numérique (L’échappée, octobre 2016). \r\nSes livres rencontrent un accueil enthousiaste de la part de la critique et du public et sont de plus en plus lus et commentés.\r\nIl publie régulièrement des tribunes dans Le Monde, Libération, Les Inrockuptibles, Die Zeit et donne des conférences dans le monde entier.",
+  "lastName" : "Sadin",
+  "firstName" : "Eric ",
+  "blog" : null,
+  "avatarURL" : "http://www.pol-editeur.com/photos/aut-sadin-eric.jpg",
+  "twitter" : null,
+  "lang" : "fr"
+}

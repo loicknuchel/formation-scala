@@ -1,0 +1,32 @@
+{
+  "uuid" : "cb5891baa07247eb11df130701f0f3902a6fcd41",
+  "bioAsHtml" : "<p>Duchess France est un groupe destiné à mettre en relation les femmes de l’IT. Initialement ce groupe vient de la communauté Java, mais est totalement ouvert aux autres langages de programmation.\nSon but est de donner plus de visibilité aux femmes de ce secteur, les inciter à participer à des\nconférences, à se rencontrer et à coopérer sur des projets d’auto-formation et de partage des\nbonnes pratiques.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "Future, Robotique",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/YZL-8520",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/cb5891baa07247eb11df130701f0f3902a6fcd41",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Duchess France"
+        }
+      ],
+      "id" : "YZL-8520",
+      "title" : "BOF Duchess France"
+    }
+  ],
+  "company" : null,
+  "bio" : "Duchess France est un groupe destiné à mettre en relation les femmes de l’IT. Initialement ce groupe vient de la communauté Java, mais est totalement ouvert aux autres langages de programmation.\r\nSon but est de donner plus de visibilité aux femmes de ce secteur, les inciter à participer à des\r\nconférences, à se rencontrer et à coopérer sur des projets d’auto-formation et de partage des\r\nbonnes pratiques.",
+  "lastName" : "France",
+  "firstName" : "Duchess",
+  "blog" : "http://www.duchess-france.org",
+  "avatarURL" : "https://lh6.googleusercontent.com/-K40OGPuLrHc/AAAAAAAAAAI/AAAAAAAABwo/aAH2HEm1zHU/photo.jpg?sz=50",
+  "twitter" : "@duchessfr",
+  "lang" : "en"
+}

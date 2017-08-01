@@ -1,0 +1,32 @@
+{
+  "uuid" : "a11b40a676eb476bc5bfa563010f7a72746ba661",
+  "bioAsHtml" : "<p>Xavier Raffin est Chief Software Architect chez Sigfox à Toulouse.\nSpécialisé sur des systèmes distribués à très forte charge et avec contraintes temps réel, il est aussi concepteur d&#x27;APIs publiques dans le domaine de l&#x27;IoT et de l&#x27;OpenData.\nIl est également contributeur à des logiciels libres (Navitia, SYNTHESE, TimeTable, TID, ...) ainsi qu&#x27;au mouvement OpenData (OpenStreetMap et OpenData Toulouse).</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Mobile, IoT",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/JPP-4595",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a11b40a676eb476bc5bfa563010f7a72746ba661",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Xavier Raffin"
+        }
+      ],
+      "id" : "JPP-4595",
+      "title" : "IoT, la transformation d'internet par la frugalité"
+    }
+  ],
+  "company" : "Sigfox",
+  "bio" : "Xavier Raffin est Chief Software Architect chez Sigfox à Toulouse. \r\nSpécialisé sur des systèmes distribués à très forte charge et avec contraintes temps réel, il est aussi concepteur d'APIs publiques dans le domaine de l'IoT et de l'OpenData.\r\nIl est également contributeur à des logiciels libres (Navitia, SYNTHESE, TimeTable, TID, ...) ainsi qu'au mouvement OpenData (OpenStreetMap et OpenData Toulouse).",
+  "lastName" : "Raffin",
+  "firstName" : "Xavier",
+  "blog" : "http://xavierraffin.com",
+  "avatarURL" : "http://xavierraffin.com/public/XavierRaffin150.jpeg",
+  "twitter" : "@xavierraffin",
+  "lang" : "fr-FR"
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Quickie",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Tu aimerais travailler dans une Startup ? Mais qui contacter ?<br  />\nComment s'y prendre quand on est perdu dans cette jungle ?\nTu penses que ton salaire de startupeur va être divisé par 3 ?\nTu penses que ta vie de famille est incompatible avec le rythme des startups ?\nFAUX</p>\n<p>Tu es  un étudiant en fin de parcours, un employé en apnée, optimiste en recherche ou salarié désireux de devenir meilleur ? tu préfères travailler pour une mission qui ait du sens à tes yeux?</p>\n<p>Viens découvrir le programme Lion by TheFamily. Pendant cette conférence de 15 minutes, on te présentera ce que tu peux tirer du programme en terme de réseaux, connaissances et tips.</p>\n",
+  "id" : "NBA-7402",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/632d06bc8f44426697046192c88907ebc66098c8",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Megane Dreyfuss"
+      },
+      "name" : "Megane Dreyfuss"
+    }
+  ],
+  "title" : "Toi aussi tu peux rejoindre une des meilleurs startups",
+  "lang" : "fr",
+  "summary" : "Tu aimerais travailler dans une Startup ? Mais qui contacter ?  \r\nComment s'y prendre quand on est perdu dans cette jungle ?\r\nTu penses que ton salaire de startupeur va être divisé par 3 ?\r\nTu penses que ta vie de famille est incompatible avec le rythme des startups ?\r\nFAUX\r\n\r\nTu es  un étudiant en fin de parcours, un employé en apnée, optimiste en recherche ou salarié désireux de devenir meilleur ? tu préfères travailler pour une mission qui ait du sens à tes yeux? \r\n\r\nViens découvrir le programme Lion by TheFamily. Pendant cette conférence de 15 minutes, on te présentera ce que tu peux tirer du programme en terme de réseaux, connaissances et tips."
+}

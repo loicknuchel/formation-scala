@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Conference",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Nous savons que l’animation est essentielle pour l'interaction avec nos utilisateurs. Mais aujourd'hui l'interactivité ne peut plus se résumer à l’UX. Twitter, Waze, Slack … toutes les applications à succès utilisent le temps réel pour rendre leurs utilisateurs addicts.\nMais comment faire pour transformer votre API statique en un flux de données temps-réel ? Du pull ? Du push ? Des Webhooks ? Vous connaissez sûrement les Web-Sockets, mais avez vous déjà entendu parler de Server-Sent Events ?</p>\n<p>Dans ce talk nous comparerons ces technologies pour comprendre dans quel cas elles s'appliquent le mieux avant de voir comment on peut aller encore plus loin en réduisant la quantité de données échangées. Et parce qu'il n'y a pas que le web qui a besoin de temps réel (et parce que c'est bien plus fun), je vous montrerai comment faire danser des drones sur des APIs streamées.</p>\n",
+  "id" : "IRE-9013",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f4aea1c9996bf4e307a68c3080915b7a14cd1579",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Audrey Neveu"
+      },
+      "name" : "Audrey Neveu"
+    }
+  ],
+  "title" : "Le Streaming d'API : pourquoi et comment transformer vos APIs statiques en données temps réel ?",
+  "lang" : "fr",
+  "summary" : "Nous savons que l’animation est essentielle pour l'interaction avec nos utilisateurs. Mais aujourd'hui l'interactivité ne peut plus se résumer à l’UX. Twitter, Waze, Slack … toutes les applications à succès utilisent le temps réel pour rendre leurs utilisateurs addicts.\r\nMais comment faire pour transformer votre API statique en un flux de données temps-réel ? Du pull ? Du push ? Des Webhooks ? Vous connaissez sûrement les Web-Sockets, mais avez vous déjà entendu parler de Server-Sent Events ?\r\n\r\nDans ce talk nous comparerons ces technologies pour comprendre dans quel cas elles s'appliquent le mieux avant de voir comment on peut aller encore plus loin en réduisant la quantité de données échangées. Et parce qu'il n'y a pas que le web qui a besoin de temps réel (et parce que c'est bien plus fun), je vous montrerai comment faire danser des drones sur des APIs streamées."
+}

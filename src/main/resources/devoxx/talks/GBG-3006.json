@@ -1,0 +1,28 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "BOF (Bird of a Feather)",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>Le Performance User Group (Perfug)[http://perfug.github.io/] offre depuis bientôt 4 ans un lieu d'échanges pour toutes les personnes intéressées par l'optimisation et la performance, quel que soit leur niveau.\nNous vous offrons ce soir une rétrospective de 35 sessions en 35 minutes.</p>\n",
+  "id" : "GBG-3006",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c0de4311c70c85f320209e2612aa274aa47a9984",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Marc Bojoly"
+      },
+      "name" : "Marc Bojoly"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/db02ea2e74f6c7618b9e887b0d721d5439fbeb42",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Borémi Toch"
+      },
+      "name" : "Borémi Toch"
+    }
+  ],
+  "title" : "35 sessions de Perfug en 35 minutes",
+  "lang" : "fr",
+  "summary" : "Le Performance User Group (Perfug)[http://perfug.github.io/] offre depuis bientôt 4 ans un lieu d'échanges pour toutes les personnes intéressées par l'optimisation et la performance, quel que soit leur niveau.\r\nNous vous offrons ce soir une rétrospective de 35 sessions en 35 minutes."
+}

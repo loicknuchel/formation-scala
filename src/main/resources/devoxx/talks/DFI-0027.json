@@ -1,0 +1,20 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "Conference",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>Venez découvrir comment Voyages-SNCF a supprimé le dernier intermédiaire entre ses applications et ses internautes.</p>\n<p>En mettant en place son propre CDN, c'est à dire en construisant un réseau de serveurs de cache déployés dans de multiples datacenters, Voyages-SNCF a construit une solution qui correspond parfaitement à son besoin avec des coûts totalement maitrisés.</p>\n<p>Le CDN permet à Voyages-SNCF d'optimiser le temps d'affichage de ses sites et d'optimiser la consommation de bande passante vers ses datacenters.\nLa solution se repose sur des techno open sources réputées : haproxy, nginx, varnish, ansible.</p>\n",
+  "id" : "DFI-0027",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0f88688187c62cc384f7cf5477403a022849c8fa",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Antonin Mellier"
+      },
+      "name" : "Antonin Mellier"
+    }
+  ],
+  "title" : "Kate CDN: Comment reprendre les derniers km qui nous séparent des internautes ?",
+  "lang" : "fr",
+  "summary" : "Venez découvrir comment Voyages-SNCF a supprimé le dernier intermédiaire entre ses applications et ses internautes. \r\n\r\nEn mettant en place son propre CDN, c'est à dire en construisant un réseau de serveurs de cache déployés dans de multiples datacenters, Voyages-SNCF a construit une solution qui correspond parfaitement à son besoin avec des coûts totalement maitrisés. \r\n\r\nLe CDN permet à Voyages-SNCF d'optimiser le temps d'affichage de ses sites et d'optimiser la consommation de bande passante vers ses datacenters.\r\nLa solution se repose sur des techno open sources réputées : haproxy, nginx, varnish, ansible."
+}

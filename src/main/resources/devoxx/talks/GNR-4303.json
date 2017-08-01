@@ -1,0 +1,28 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "University",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>Et si la complexité d'un logiciel reflétait la complexité fonctionnelle et non technique ?</p>\n<p>Le but de ce livecode est de vous montrer une méthode de développement qui se focalise sur les problématiques métiers et non technique. Pas besoin d'un langage de programmation ou d'un Framework spécifique.\nNous ferons émerger une petite application « twitterlike » pendant la session. Et nous verrons comment l'Event Sourcing et CQRS se présentent d’eux même pour supprimer les problématiques techniques que nous rencontrons souvent dans une application en couche, même de petite taille.</p>\n",
+  "id" : "GNR-4303",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/71088009efb094754d81152df165eba94cd3dac4",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Emilien Pecoul"
+      },
+      "name" : "Emilien Pecoul"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7f72bec97e79afd0f742fc87c486bd2a30d29fea",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Florent Pellet"
+      },
+      "name" : "Florent Pellet"
+    }
+  ],
+  "title" : "CQRS/ES from scratch",
+  "lang" : "fr",
+  "summary" : "Et si la complexité d'un logiciel reflétait la complexité fonctionnelle et non technique ? \r\n\r\nLe but de ce livecode est de vous montrer une méthode de développement qui se focalise sur les problématiques métiers et non technique. Pas besoin d'un langage de programmation ou d'un Framework spécifique.\r\nNous ferons émerger une petite application « twitterlike » pendant la session. Et nous verrons comment l'Event Sourcing et CQRS se présentent d’eux même pour supprimer les problématiques techniques que nous rencontrons souvent dans une application en couche, même de petite taille.\r\n"
+}

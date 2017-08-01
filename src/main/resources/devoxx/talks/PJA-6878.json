@@ -1,0 +1,28 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Conference",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>In this session, you’ll learn how to build microservices with Spring, deploy them to the cloud and expose their functionality with an progressive web application that can run offline. You’ll learn how to “build to fail” and create a quality, resilient application. Live coding will show how to use: Spring Boot, Spring Cloud, Spring Security, Cloud Foundry, IntelliJ IDEA, Angular, JWT, Stormpath, and Progressive Web Apps.</p>\n",
+  "id" : "PJA-6878",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f387c127f51cd63fec084d5c55d5e111fa4ece93",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Matt Raible"
+      },
+      "name" : "Matt Raible"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/28d78da3c37996c37f7d02bfc2e7baf189d8f90f",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Josh Long"
+      },
+      "name" : "Josh Long"
+    }
+  ],
+  "title" : "Building Cloud Native Progressive Web Apps - Part 2",
+  "lang" : "en",
+  "summary" : "In this session, you’ll learn how to build microservices with Spring, deploy them to the cloud and expose their functionality with an progressive web application that can run offline. You’ll learn how to “build to fail” and create a quality, resilient application. Live coding will show how to use: Spring Boot, Spring Cloud, Spring Security, Cloud Foundry, IntelliJ IDEA, Angular, JWT, Stormpath, and Progressive Web Apps. "
+}

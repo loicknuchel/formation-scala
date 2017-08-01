@@ -1,0 +1,37 @@
+{
+  "uuid" : "a3b944e4c133a014fdea3d5bc7217572a34792ce",
+  "bioAsHtml" : "<p>Je fais du soft en tant que &quot;Boss&quot; depuis près de 20 ans.\nJ&#x27;adore construire des équipes pour améliorer en continu l&#x27;expérience de nos utilisateurs.\nJ&#x27;aime la techno qui fait avancer ce sujet ce qui me pousse à être sponsor #1 d&#x27;un projet comme #JHipster.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/HQL-1106",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/de3da7575830a16e641d43204cab18b671809dec",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Julien Dubois"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a3b944e4c133a014fdea3d5bc7217572a34792ce",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Geoffray Gruel"
+        }
+      ],
+      "id" : "HQL-1106",
+      "title" : "Open Source depuis les tranchées : 4 ans de JHipster @Ippon"
+    }
+  ],
+  "company" : "Ippon",
+  "bio" : "Je fais du soft en tant que \"Boss\" depuis près de 20 ans.\r\nJ'adore construire des équipes pour améliorer en continu l'expérience de nos utilisateurs.\r\nJ'aime la techno qui fait avancer ce sujet ce qui me pousse à être sponsor #1 d'un projet comme #JHipster.",
+  "lastName" : "Gruel",
+  "firstName" : "Geoffray",
+  "blog" : "http://www.ippon.fr/",
+  "avatarURL" : "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/005/05c/22a/2548baa.jpg",
+  "twitter" : "@geoffray_ippon",
+  "lang" : "fr"
+}

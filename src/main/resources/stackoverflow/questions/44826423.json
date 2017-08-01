@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826423,
+  "title" : "Another instance of Derby may have already booted the database /home/cloudera/metastore_db",
+  "body" : "<p>I am trying to load data into Hive table using Spark. Below are the first two lines I wrote.</p>\n\n<pre><code>val warehouseLocation = \"file:${system:user.dir}/spark-warehouse\"\nval spark = SparkSession\n   .builder()\n   .appName(\"SparkSessionZipsExample\")\n   .config(\"spark.sql.warehouse.dir\", warehouseLocation)\n   .enableHiveSupport()\n   .getOrCreate()\n</code></pre>\n\n<p>But the second line is giving me the below error.</p>\n\n<pre><code>Caused by: ERROR XJ040: Failed to start database 'metastore_db' with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@1cf369f7, see the next exception for details.\n    at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)\n    at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)\n    ... 155 more\nCaused by: ERROR XSDB6: Another instance of Derby may have already booted the database /home/cloudera/metastore_db.\n</code></pre>\n\n<p>This is the ConnectionURL parameter from my Hive-Site.xml</p>\n\n<pre><code>&lt;property&gt;\n    &lt;name&gt;javax.jdo.option.ConnectionURL&lt;/name&gt;\n    &lt;value&gt;jdbc:mysql://127.0.0.1/metastore?createDatabaseIfNotExist=true&lt;/value&gt;\n    &lt;description&gt;JDBC connect string for a JDBC metastore&lt;/description&gt;\n  &lt;/property&gt;\n</code></pre>\n\n<p>I copied the hive-site.xml to the '/usr/lib/spark/conf' But still the error exists. I am using Spark version: 2.1.1. Could anyone tell me what are the changes I need to do in Hive-site.xml ?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826423/another-instance-of-derby-may-have-already-booted-the-database-home-cloudera-me",
+  "owner" : {
+    "user_id" : 7119501,
+    "user_type" : "registered",
+    "display_name" : "Sidhartha",
+    "profile_image" : "https://www.gravatar.com/avatar/4197ed0b6882d960d8c47289c241d812?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7119501/sidhartha",
+    "reputation" : 130,
+    "accept_rate" : 73
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742722,
+  "last_activity_date" : 1498742722,
+  "tags" : [
+    "apache-spark",
+    "hive"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

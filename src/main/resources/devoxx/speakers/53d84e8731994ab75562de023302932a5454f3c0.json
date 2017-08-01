@@ -1,0 +1,65 @@
+{
+  "uuid" : "53d84e8731994ab75562de023302932a5454f3c0",
+  "bioAsHtml" : "<p>Fabien est le CTO de <strong>Zelros</strong>. C’est un passionné de la data depuis 5 ans.</p>\n<p>Il développe des assistants conversationnels (chatbot) qui aident ses clients à mieux comprendre leurs données et à anticiper le futur !</p>\n<p>Stack: AngularJS 2 / Node.js / Python / PostgreSQL / RabbitMQ / Docker</p>\n<p>C’est aussi un expert en <strong>data extraction</strong> (webscraping). Il développe le proxy open source Scrapoxy (http://scrapoxy.io): un proxy dédié aux scrapers.</p>\n<p>Son prochain challenge ? Démarrer un cloud de 300 IPs en moins de 5 minutes.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/TYJ-1671",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/53d84e8731994ab75562de023302932a5454f3c0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Fabien Vauchelles"
+        }
+      ],
+      "id" : "TYJ-1671",
+      "title" : "Devenir un expert en Data Extraction (webscraping)"
+    },
+    {
+      "talkType" : "University",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/IAW-7890",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/96409f05d7b7849b819376e797097b7822d762ac",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Youen Chéné"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/53d84e8731994ab75562de023302932a5454f3c0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Fabien Vauchelles"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5f3b5c7e2d3de6aa8d621dda5add4b222cde9ed5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Romain Picot-Clémente"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8840d491628893d4dcedbdec02c8126da649ffa0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sébastien Collet"
+        }
+      ],
+      "id" : "IAW-7890",
+      "title" : "Université de la datascience"
+    }
+  ],
+  "company" : "Zelros",
+  "bio" : "Fabien est le CTO de **Zelros**. C’est un passionné de la data depuis 5 ans.\r\n\r\nIl développe des assistants conversationnels (chatbot) qui aident ses clients à mieux comprendre leurs données et à anticiper le futur !\r\n\r\nStack: AngularJS 2 / Node.js / Python / PostgreSQL / RabbitMQ / Docker\r\n\r\nC’est aussi un expert en **data extraction** (webscraping). Il développe le proxy open source Scrapoxy (http://scrapoxy.io): un proxy dédié aux scrapers.\r\n\r\nSon prochain challenge ? Démarrer un cloud de 300 IPs en moins de 5 minutes.",
+  "lastName" : "Vauchelles",
+  "firstName" : "Fabien",
+  "blog" : "http://www.zelros.com",
+  "avatarURL" : "http://www.gravatar.com/avatar/a775e033308c1bfbd0bbc86b298e4e06",
+  "twitter" : "@fabienv",
+  "lang" : "fr-FR"
+}

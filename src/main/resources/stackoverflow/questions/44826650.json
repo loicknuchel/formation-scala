@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826650,
+  "title" : "Adapt project of android studio to multiple screens",
+  "body" : "<p>The problem is the following I am trying to do a project but I want to adjust it so that it looks good in several screen sizes, when I create the <code>xml</code> file with the size in<code>dp</code> defined, in <code>prewiew</code> it looks good but When I run the emulator does not look good.</p>\n\n<p>What other method is there?</p>\n\n<p>The problem is that I create the different folders with the different resolutions in dp but when I run the emulator always comes out in layout for 4 inches.And I'm adapting it for multiple screens.</p>\n\n<p><a href=\"https://i.stack.imgur.com/6nbgi.png\" rel=\"nofollow noreferrer\">enter image description here</a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44826650/adapt-project-of-android-studio-to-multiple-screens",
+  "owner" : {
+    "user_id" : 7767739,
+    "user_type" : "registered",
+    "display_name" : "Liantony Pozo",
+    "profile_image" : "https://lh4.googleusercontent.com/-xwm6rog9dSo/AAAAAAAAAAI/AAAAAAAATW8/9lTJw0wO3rk/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/7767739/liantony-pozo",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743275,
+  "last_activity_date" : 1498743275,
+  "tags" : [
+    "android",
+    "android-layout"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

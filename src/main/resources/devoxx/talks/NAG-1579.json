@@ -1,0 +1,52 @@
+{
+  "trackId" : "lang",
+  "talkType" : "Conference",
+  "track" : "Langages alternatifs",
+  "summaryAsHtml" : "<p>Un jour, 3 drôles de barbus 🦁🐻🐼, un dessinateur plein d'humour 🐨 (qui comprend le geek), un entrepreneur un peu barré 🐯 (idole des geeks) se retrouvent à une terrasse de café:</p>\n<h2>ACTE I - Scène première</h2>\n<ul>\n<li>🐯 : N'empêche que le nom \"Scalafistes\" ça vous va super bien!  <code>#trollinside</code></li>\n<li>🦁 : Non. mec, tu prends des raccourcis ...</li>\n<li>🐻 : Ah moi j'aime bien aussi, je revendique même!  Je suis un Scalafiste de l'extrême, et Play vaincra!!!</li>\n<li>🦁 : Là, mecs,  vous \"vendez\" une vision totalement réductrice du paysage fonctionnel, Il n'y a pas que Scala dans la vie, prend Haskell et la beauté des théories mathématiques associées, l'intelligence du système de types de Rust qui te propose des monades Option en retour de fonction, le ...</li>\n<li>🐼 : Vous me faites marrer avec vos types, si tu sais coder, tu peux faire du fonctionnel en JavaScript <code>#trollinside</code> <code>#oupas</code></li>\n<li>🐻 : MDR 🐼, moi je fais du Play Scala tous les jours pour des cas d'usage de ouf et je suis sûr que avec ton Node tu feras que de la 💩</li>\n<li>🐨 : <code>#defi</code> est-ce que vous vous croyez capables de m'expliquer ces concepts en termes simples?</li>\n<li>🐯 : Oh oui 🐨, dessine nous une monade!</li>\n<li>🐼 : Quelqu'un reprend un 🍷?</li>\n<li>🦁🐻🐨🐯 👍</li>\n</ul>\n",
+  "id" : "NAG-1579",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5ec0b5afa0f1ef5a7e180acf4f7c6b3a611fcbb7",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Philippe Charrière"
+      },
+      "name" : "Philippe Charrière"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e1bf9c5d86660b3e68499599d0f1ea363ea14ac6",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Nicolas Leroux"
+      },
+      "name" : "Nicolas Leroux"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/21a8485bd433270f91ccc4a31e276392667ded7f",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Etienne Issartial"
+      },
+      "name" : "Etienne Issartial"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e0ce87f40a638c59e9da24231ef05da65aa355f3",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Quentin Adam"
+      },
+      "name" : "Quentin Adam"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/51358f99956c451e76f031bc965c4d25c73dc124",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Thomas Guenoux"
+      },
+      "name" : "Thomas Guenoux"
+    }
+  ],
+  "title" : "Apéro fonctionnel",
+  "lang" : "fr",
+  "summary" : "Un jour, 3 drôles de barbus 🦁🐻🐼, un dessinateur plein d'humour 🐨 (qui comprend le geek), un entrepreneur un peu barré 🐯 (idole des geeks) se retrouvent à une terrasse de café:\r\n\r\n## ACTE I - Scène première\r\n\r\n- 🐯 : N'empêche que le nom \"Scalafistes\" ça vous va super bien!  `#trollinside`\r\n- 🦁 : Non. mec, tu prends des raccourcis ...\r\n- 🐻 : Ah moi j'aime bien aussi, je revendique même!  Je suis un Scalafiste de l'extrême, et Play vaincra!!!\r\n- 🦁 : Là, mecs,  vous \"vendez\" une vision totalement réductrice du paysage fonctionnel, Il n'y a pas que Scala dans la vie, prend Haskell et la beauté des théories mathématiques associées, l'intelligence du système de types de Rust qui te propose des monades Option en retour de fonction, le ...\r\n- 🐼 : Vous me faites marrer avec vos types, si tu sais coder, tu peux faire du fonctionnel en JavaScript `#trollinside` `#oupas`\r\n- 🐻 : MDR 🐼, moi je fais du Play Scala tous les jours pour des cas d'usage de ouf et je suis sûr que avec ton Node tu feras que de la 💩\r\n- 🐨 : `#defi` est-ce que vous vous croyez capables de m'expliquer ces concepts en termes simples?\r\n- 🐯 : Oh oui 🐨, dessine nous une monade!\r\n- 🐼 : Quelqu'un reprend un 🍷?\r\n- 🦁🐻🐨🐯 👍\r\n"
+}

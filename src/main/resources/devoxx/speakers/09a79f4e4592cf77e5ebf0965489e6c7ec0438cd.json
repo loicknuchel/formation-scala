@@ -1,0 +1,42 @@
+{
+  "uuid" : "09a79f4e4592cf77e5ebf0965489e6c7ec0438cd",
+  "bioAsHtml" : "<p>Développeur Scala chez Criteo, je participe activement à la communauté tech parisienne. J&#x27;organise les HumanTalks Paris, propose des BBL et assiste à de nombreux meetups.\nGrand fan de programmation fonctionnelle, je me consacre à Scala et Play framework mais aussi Angular, React et Ionic.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/XPI-0919",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/09a79f4e4592cf77e5ebf0965489e6c7ec0438cd",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Loïc KNUCHEL"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1693d28c079e6c28269b9aa86ae04a4549ad3074",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Fabrice Sznajderman"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d167a51898267ed3b5913c1789f1ae6110a6ecf5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Walid chergui"
+        }
+      ],
+      "id" : "XPI-0919",
+      "title" : "Scala class, bien démarrer avec Scala"
+    }
+  ],
+  "company" : "Criteo",
+  "bio" : "Développeur Scala chez Criteo, je participe activement à la communauté tech parisienne. J'organise les HumanTalks Paris, propose des BBL et assiste à de nombreux meetups.\r\nGrand fan de programmation fonctionnelle, je me consacre à Scala et Play framework mais aussi Angular, React et Ionic.",
+  "lastName" : "KNUCHEL",
+  "firstName" : "Loïc",
+  "blog" : "http://loic.knuchel.org/blog/",
+  "avatarURL" : "https://fr.gravatar.com/userimage/23389258/9f5fb6d79f01d634495e2765659c7648.jpg?size=200",
+  "twitter" : "@loicknuchel",
+  "lang" : "fr-FR"
+}

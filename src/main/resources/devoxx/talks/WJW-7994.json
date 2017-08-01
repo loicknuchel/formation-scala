@@ -1,0 +1,28 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Conference",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Software development is pressed for faster and faster release cycles with acceptable quality, budget and security. As movements like CI, CD and Devops aim to cut down on release cycles, it's security's job to help control the risk. The risk landscape is complex as modern development practices increasingly consume more and more third party code. Traditional methods do not cut it anymore - it's time for DevSecOps.</p>\n<p><strong>Oliver Routier from EDF</strong> will show how EDF successfully implemented DevSecOps practices in an Enterprise environment in order to accelerate the choice of framework versions and enhance deployment quality.</p>\n<p><strong>Brian Fox from Sonatype</strong> will give an overview of how other companies have implemented DevSecOps practices in their own delivery pipelines and how this can help increase developer awareness of risks affecting them. He'll walk an example CICD Pipeline and explore how security has been embedded as a part of it, how the movement is shaping up and how standards are starting to follow suite.</p>\n",
+  "id" : "WJW-7994",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9851a429a45bee3543469ba6385e1d552790420f",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Brian Fox"
+      },
+      "name" : "Brian Fox"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/18d6b5e1fa41d694f4f0b1edcdcf4ad881335538",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Olivier Routier"
+      },
+      "name" : "Olivier Routier"
+    }
+  ],
+  "title" : "DevSecOps - Security at Devops speed with EDF",
+  "lang" : "en",
+  "summary" : "Software development is pressed for faster and faster release cycles with acceptable quality, budget and security. As movements like CI, CD and Devops aim to cut down on release cycles, it's security's job to help control the risk. The risk landscape is complex as modern development practices increasingly consume more and more third party code. Traditional methods do not cut it anymore - it's time for DevSecOps. \r\n\r\n**Oliver Routier from EDF** will show how EDF successfully implemented DevSecOps practices in an Enterprise environment in order to accelerate the choice of framework versions and enhance deployment quality.\r\n\r\n**Brian Fox from Sonatype** will give an overview of how other companies have implemented DevSecOps practices in their own delivery pipelines and how this can help increase developer awareness of risks affecting them. He'll walk an example CICD Pipeline and explore how security has been embedded as a part of it, how the movement is shaping up and how standards are starting to follow suite."
+}

@@ -1,0 +1,37 @@
+{
+  "uuid" : "a94064b3718a4ece33671b7d0107a5af41840095",
+  "bioAsHtml" : "<p>Associate Professor at INSA Lyon, doing research at the CITI-Inria Lab. Working part-time on Eclipse Vert.x as a delegated consultant to Red Hat.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "University",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/XWN-6014",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a94064b3718a4ece33671b7d0107a5af41840095",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Julien Ponge"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c2e17bc0fce547f7c950e16a2086f2e1bf9d8e19",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Julien Viet"
+        }
+      ],
+      "id" : "XWN-6014",
+      "title" : "Applications réactives avec Eclipse Vert.x"
+    }
+  ],
+  "company" : "INSA Lyon",
+  "bio" : "Associate Professor at INSA Lyon, doing research at the CITI-Inria Lab. Working part-time on Eclipse Vert.x as a delegated consultant to Red Hat.",
+  "lastName" : "Ponge",
+  "firstName" : "Julien",
+  "blog" : "https://julien.ponge.org/",
+  "avatarURL" : "http://www.gravatar.com/avatar/7f477389948a608dc5a878c5e514629f",
+  "twitter" : "@jponge",
+  "lang" : "en-GB"
+}

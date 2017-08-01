@@ -1,0 +1,28 @@
+{
+  "trackId" : "mobile",
+  "talkType" : "Conference",
+  "track" : "Mobile, IoT",
+  "summaryAsHtml" : "<p>Votre application mobile fonctionne-t-elle parfaitement en mode offline ?</p>\n<p>Pour Virtuo, c’est indispensable. Virtuo est la startup française qui propose une nouvelle expérience de location de voiture. Tout se fait depuis un mobile :  la création de compte,  la réservation, l’état des lieux et l’ouverture de la voiture. Grâce à ça, plus de file au guichet pour récupérer sa clé.\nParce qu’on n’a pas peur des challenges, nos clients n’ont jamais de clé et utilisent leur smartphone ou leur smartwatch pour ouvrir et démarrer leur véhicule pendant toute la durée de la location. Et ça fonctionne, puisque Virtuo totalise déjà plus de 7.000 jours de locations qui commencent toujours de la même manière : dans le sous-sol d’un parking, sans accès à la 3G.</p>\n<p>Au programme :\nBLE : La seule solution rapide et vraiment offline\nCache HTTP : Connaissez vous le header max-stale\nSynchronisation et conflits : Quelle stratégie adopter\nProgrammation réactive : Pourquoi elle nous a aidé à nous améliorer\nUX/Design : Comment un bandeau permet d’améliorer l'expérience\nStratégie de cache en fonction du contexte : Pourquoi ne peut-on pas appliquer la même stratégie avant, pendant ou après une réservation</p>\n",
+  "id" : "OKC-5960",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/bead27f662f1ce1be4640b56e860f1126a9a10eb",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Mathieu Hausherr"
+      },
+      "name" : "Mathieu Hausherr"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ad4e2dfc230884e75b3674f3b8fdd7c8239023dd",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Romain Potier"
+      },
+      "name" : "Romain Potier"
+    }
+  ],
+  "title" : "Mode offline : Notre application mobile fonctionne au niveau -5 d’un parking",
+  "lang" : "fr",
+  "summary" : "Votre application mobile fonctionne-t-elle parfaitement en mode offline ?\r\n\r\nPour Virtuo, c’est indispensable. Virtuo est la startup française qui propose une nouvelle expérience de location de voiture. Tout se fait depuis un mobile :  la création de compte,  la réservation, l’état des lieux et l’ouverture de la voiture. Grâce à ça, plus de file au guichet pour récupérer sa clé.\r\nParce qu’on n’a pas peur des challenges, nos clients n’ont jamais de clé et utilisent leur smartphone ou leur smartwatch pour ouvrir et démarrer leur véhicule pendant toute la durée de la location. Et ça fonctionne, puisque Virtuo totalise déjà plus de 7.000 jours de locations qui commencent toujours de la même manière : dans le sous-sol d’un parking, sans accès à la 3G.\r\n\r\nAu programme : \r\nBLE : La seule solution rapide et vraiment offline\r\nCache HTTP : Connaissez vous le header max-stale\r\nSynchronisation et conflits : Quelle stratégie adopter\r\nProgrammation réactive : Pourquoi elle nous a aidé à nous améliorer\r\nUX/Design : Comment un bandeau permet d’améliorer l'expérience\r\nStratégie de cache en fonction du contexte : Pourquoi ne peut-on pas appliquer la même stratégie avant, pendant ou après une réservation"
+}

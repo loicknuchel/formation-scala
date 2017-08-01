@@ -1,0 +1,20 @@
+{
+  "trackId" : "mobile",
+  "talkType" : "Conference",
+  "track" : "Mobile, IoT",
+  "summaryAsHtml" : "<p>La frugalité est l'un des enjeux majeurs de notre planète.\nDans notre monde numérique, les perspectives de croissance obligent à penser aux limites physiques et à concevoir différement.</p>\n<p>L'IoT oblige à une remise à plat des concepts réseaux internet traditionnels.</p>\n<p>La mise en oeuvre d'une frugalité extrême a des conséquences à plusieurs niveaux :</p>\n<ul>\n<li>Au niveau radio bien sûr, avec la saturation des bandes radios, une énergie tirée de l'environement et le rêve de pair-a-pair</li>\n<li>Au niveau du réseau internet lui même avec de nouvelles topologies à la fois hiérarchisées et distribuées</li>\n<li>Au niveau logiciel dans les datacenters avec des fonctionnements asynchrones et déconnectées</li>\n<li>Sur la sécurité avec des techniques de chiffrement inadaptés aux micro messages</li>\n</ul>\n<p>Ce talk sera l'occasion de présenter toutes ces aspects et d'ouvrir une réflexion sur un réseau mondial libre et ouvert</p>\n<p>Cette conférence constitue aussi une réponse et un hommage à Pieter Hintjens dévelopeur réseau de génie, créateur de ZéroMQ, ancien président de la fondation pour une infrastructure d'information libre et ouverte décédé en octobre 2016.</p>\n<p><em>Mots clefs:</em>\nLPWAN, IP, IPv6, AES, Messaging, Tunneling, HA, 802.11</p>\n",
+  "id" : "JPP-4595",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a11b40a676eb476bc5bfa563010f7a72746ba661",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Xavier Raffin"
+      },
+      "name" : "Xavier Raffin"
+    }
+  ],
+  "title" : "IoT, la transformation d'internet par la frugalité",
+  "lang" : "fr",
+  "summary" : "La frugalité est l'un des enjeux majeurs de notre planète.\r\nDans notre monde numérique, les perspectives de croissance obligent à penser aux limites physiques et à concevoir différement.\r\n\r\nL'IoT oblige à une remise à plat des concepts réseaux internet traditionnels.\r\n\r\nLa mise en oeuvre d'une frugalité extrême a des conséquences à plusieurs niveaux :\r\n\r\n* Au niveau radio bien sûr, avec la saturation des bandes radios, une énergie tirée de l'environement et le rêve de pair-a-pair\r\n* Au niveau du réseau internet lui même avec de nouvelles topologies à la fois hiérarchisées et distribuées\r\n* Au niveau logiciel dans les datacenters avec des fonctionnements asynchrones et déconnectées\r\n* Sur la sécurité avec des techniques de chiffrement inadaptés aux micro messages\r\n\r\nCe talk sera l'occasion de présenter toutes ces aspects et d'ouvrir une réflexion sur un réseau mondial libre et ouvert\r\n\r\nCette conférence constitue aussi une réponse et un hommage à Pieter Hintjens dévelopeur réseau de génie, créateur de ZéroMQ, ancien président de la fondation pour une infrastructure d'information libre et ouverte décédé en octobre 2016.\r\n\r\n_Mots clefs:_\r\nLPWAN, IP, IPv6, AES, Messaging, Tunneling, HA, 802.11"
+}

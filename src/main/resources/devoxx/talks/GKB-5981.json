@@ -1,0 +1,20 @@
+{
+  "trackId" : "mobile",
+  "talkType" : "Conference",
+  "track" : "Mobile, IoT",
+  "summaryAsHtml" : "<p>Bien souvent perchés au sommet d'une pile d'API, nous perdons parfois de vue les composants qui permettent à nos applications de fonctionner. Vous êtes vous déjà demandé pourquoi il fallait utiliser les wakelocks avec parcimonie ? Ou pourquoi il est conseillé de grouper vos requêtes réseaux ? ...</p>\n<p>Durant cette présentation chirurgicale, nous verrons ce qui se cache derrière des acronymes comme DVFS, RRC ou des noms de code comme Big.Little, Viking Killer. Cela nous donnera ainsi l'occasion de lever le voile sur différentes recommandations qui trouvent leurs origines dans l'architecture matérielle de votre terminal et du réseau.</p>\n",
+  "id" : "GKB-5981",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f187fe2cdfc65a02b926c297a69a43cbd3b703d8",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Pierre Crépieux"
+      },
+      "name" : "Pierre Crépieux"
+    }
+  ],
+  "title" : "Dissection d'un smartphone Android et anatomie du réseau mobile",
+  "lang" : "fr",
+  "summary" : "Bien souvent perchés au sommet d'une pile d'API, nous perdons parfois de vue les composants qui permettent à nos applications de fonctionner. Vous êtes vous déjà demandé pourquoi il fallait utiliser les wakelocks avec parcimonie ? Ou pourquoi il est conseillé de grouper vos requêtes réseaux ? ... \r\n\r\nDurant cette présentation chirurgicale, nous verrons ce qui se cache derrière des acronymes comme DVFS, RRC ou des noms de code comme Big.Little, Viking Killer. Cela nous donnera ainsi l'occasion de lever le voile sur différentes recommandations qui trouvent leurs origines dans l'architecture matérielle de votre terminal et du réseau."
+}

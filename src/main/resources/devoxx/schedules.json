@@ -1,0 +1,29 @@
+{
+  "links" : [
+    {
+      "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/schedules/monday",
+      "rel" : "http://cfp.devoxx.fr/api/profile/schedule",
+      "title" : "Monday, 3th April 2017"
+    },
+    {
+      "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/schedules/tuesday",
+      "rel" : "http://cfp.devoxx.fr/api/profile/schedule",
+      "title" : "Tuesday, 4th April 2017"
+    },
+    {
+      "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/schedules/wednesday",
+      "rel" : "http://cfp.devoxx.fr/api/profile/schedule",
+      "title" : "Journée du Mercredi 20 avril 2017"
+    },
+    {
+      "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/schedules/thursday",
+      "rel" : "http://cfp.devoxx.fr/api/profile/schedule",
+      "title" : "Journée du Jeudi 21 avril 2017"
+    },
+    {
+      "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/schedules/friday",
+      "rel" : "http://cfp.devoxx.fr/api/profile/schedule",
+      "title" : "Journée du Vendredi 22 avril 2017"
+    }
+  ]
+}

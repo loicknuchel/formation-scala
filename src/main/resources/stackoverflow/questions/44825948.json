@@ -1,0 +1,24 @@
+{
+  "question_id" : 44825948,
+  "title" : "Getting parameters from the script depending on the source with javascript",
+  "body" : "<p>I've search for a long time and i didn't found the answer for my problem.\nThe thing is i have an addon that can insert JS into any site, and my task is to verify if the script has loaded, retrive it's src and it parameters depending on domein and alert() them.</p>\n\n<p>Example script src looks like this:</p>\n\n<pre><code>&lt;script src=\"https://example.com/tags?id={FOO}_{BAR}_{VARIOUS_THINGS}_{ID},{ID},{ID}\"&gt;&lt;/script&gt;\n</code></pre>\n\n<p>I tried to use some snippets form here <a href=\"https://stackoverflow.com/questions/9521298/verify-external-script-is-loaded\">Verify External Script Is Loaded</a>, especially this one, which i altered a bit with timeout and other stuff:</p>\n\n<pre><code>window.onload = function(){ setTimeout( function(){\nvar foo = $('script[src*=\"example.com\"]').length;\nif (foo === 0) \n    {\n    alert('no script here');\n    }\nelse {\n    alert('Yay! script is here!');\n    }\n}, 2500); };\n</code></pre>\n\n<p>But it only checks if script is there and if foo matches the string that i gave, and i would want to check also what are the parameters, so i tried to alter this <code>$('script[src*=\"example.com\"]')</code> to things that I normally get in <code>{VARIOUS_THINGS}</code> macro, let's say these are <code>\"boogie1\"</code>, <code>\"chewingGum\"</code> and <code>\"PinkFlamingo\"</code>. They work, for example when I change <code>\"example.com\"</code> to <code>\"PinkFlamingo\"</code> it only detects <code>\"PinkFlamingo\"</code> but not the <code>\"boogie1\"</code> or other macros. I tried to put <code>*</code> in there so it would take whole <code>example.com*</code> but id doesn't work either.</p>\n\n<p>Basically i don't know how to set the conditions that it would take whole src when given a domain, and retrive and alert some variable in the script src <code>{VARIOUS_THINGS}</code> and return only matching one (not true/false statement).\nI also tried <code>getElementByTagName</code> and currentScript but i did not manage to do anything that works...</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825948/getting-parameters-from-the-script-depending-on-the-source-with-javascript",
+  "owner" : {
+    "user_id" : 2468634,
+    "user_type" : "registered",
+    "display_name" : "zombeck",
+    "profile_image" : "https://www.gravatar.com/avatar/1a9b8519f2e141f785eff3d9e0ff2f34?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/2468634/zombeck",
+    "reputation" : 3,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741416,
+  "last_activity_date" : 1498741961,
+  "tags" : [
+    "javascript"
+  ],
+  "score" : 0,
+  "view_count" : 30,
+  "answer_count" : 0
+}

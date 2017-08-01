@@ -1,0 +1,27 @@
+{
+  "question_id" : 44825826,
+  "title" : "Is JOptionPane deprecated?",
+  "body" : "<p>in IntelliJ it shows me that JOptionPane is deprecated and the bash tells me the same thing but what else should I use instead?</p>\n\n<p>I tried googling for it but I only found more tutorials on using the JOptionPane.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825826/is-joptionpane-deprecated",
+  "owner" : {
+    "user_id" : 7253736,
+    "user_type" : "registered",
+    "display_name" : "Kris J.",
+    "profile_image" : "https://i.stack.imgur.com/oGmjT.png?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/7253736/kris-j",
+    "reputation" : 92,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741104,
+  "last_activity_date" : 1498741227,
+  "tags" : [
+    "java",
+    "input",
+    "interface",
+    "user"
+  ],
+  "score" : -2,
+  "view_count" : 24,
+  "answer_count" : 0
+}

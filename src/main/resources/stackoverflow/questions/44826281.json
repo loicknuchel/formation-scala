@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826281,
+  "title" : "How to click on the link and remain authorized",
+  "body" : "<p>That's how I'm authorized on the site:</p>\n\n<pre><code>var webpage = require('webpage');\nvar page = webpage.create();\n\npage.settings = {\n    loadImages: false,\n    javascriptEnabled: true,\n    encoding: \"utf8\",\n    userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',\n};\n\nphantom.cookiesEnabled = true;\n\npage.open(\"http://www.example.com/profile/Login.aspx\", function(status) {\n    if (status === \"success\") {\n        page.evaluate(function() {\n            document.getElementById(\"ctl00_ContentPlaceHolder1_tbUsername\").value = \"admin\";\n            document.getElementById(\"ctl00_ContentPlaceHolder1_tbPassword\").value = \"1234\";\n            document.getElementById(\"ctl00_ContentPlaceHolder1_btnLogin\").click();\n        });\n        window.setTimeout(function() {\n            console.log(page.url);\n            phantom.exit();\n        }, 2000);\n    }\n});\n</code></pre>\n\n<p>How can I now follow the link and remain authorized?\nThe problem is that when I log in and try to go to another page, authorization is reset and I can not get data</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826281/how-to-click-on-the-link-and-remain-authorized",
+  "owner" : {
+    "user_id" : 6054064,
+    "user_type" : "registered",
+    "display_name" : "Mister X",
+    "profile_image" : "https://www.gravatar.com/avatar/e460b96e1bf21a459d50d020ca26dea5?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/6054064/mister-x",
+    "reputation" : 6,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742350,
+  "last_activity_date" : 1498742350,
+  "tags" : [
+    "javascript",
+    "phantomjs"
+  ],
+  "score" : 1,
+  "view_count" : 7,
+  "answer_count" : 0
+}

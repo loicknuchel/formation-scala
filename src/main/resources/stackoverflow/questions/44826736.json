@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826736,
+  "title" : "checking if argument passed equals a string in bash script",
+  "body" : "<p>Little explanation necessary: why the hell does this doesn't work?</p>\n\n<pre><code>#!/bin/bash\n\nker=$1\nif [ \"$ker\" != \"iso\" ] || [ \"$ker\" != \"om\" ] || [ \"$ker\" != \"constbeta\" ] ; then\n printf \" allowed kernels: iso, om, constbeta \\n\"\n exit\nfi\nwait\necho 'anisotropy kernel: ', \"$ker\"\n</code></pre>\n\n<p>I have also tried</p>\n\n<pre><code>#!/bin/bash\n\nker=\"$1\"\nif [ $ker != \"iso\" ] || [ $ker != \"om\" ] || [ $ker != \"constbeta\" ] ; then\n printf \" allowed kernels: iso, om, constbeta \\n\"\n exit\nfi\nwait\necho 'anisotropy kernel: ', \"$ker\"\n</code></pre>\n\n<p>I call it like this: <code>$ ./script.sh iso</code><br>\nand I've even tried like this (though I think this doesn't make sense with the \nscripts above): <code>$ ./script.sh \"iso\"</code><br>\nI always get <code>allowed kernels: iso, om, constbeta</code><br>\nMany thanks to those who can spot the error.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826736/checking-if-argument-passed-equals-a-string-in-bash-script",
+  "owner" : {
+    "user_id" : 4349869,
+    "user_type" : "registered",
+    "display_name" : "andrea",
+    "profile_image" : "https://www.gravatar.com/avatar/94612925ffb19b84dc93440f77700a0f?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4349869/andrea",
+    "reputation" : 51,
+    "accept_rate" : 62
+  },
+  "is_answered" : true,
+  "creation_date" : 1498743461,
+  "last_activity_date" : 1498743766,
+  "tags" : [
+    "bash"
+  ],
+  "score" : 0,
+  "view_count" : 10,
+  "answer_count" : 2
+}

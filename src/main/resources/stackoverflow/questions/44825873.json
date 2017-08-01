@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825873,
+  "title" : "transform.TransformException in Android",
+  "body" : "<p>I am getting an error when i am try to using iText to generate PDF at run time.\nError come when Application is run in device or geny Motion.</p>\n\n<pre><code>Error:Execution failed for task ':app:transformClassesWithJarMergingForDebug'.\ncom.android.build.api.transform.TransformException: java.util.zip.ZipException: duplicate entry: com/lowagie/bc/asn1/ASN1Encodable.class.\n</code></pre>\n\n<p>My Gradle Code is :</p>\n\n<pre><code>apply plugin: 'com.android.application'\n\nandroid {\n    compileSdkVersion 25\n    buildToolsVersion \"25.0.1\"\n    useLibrary 'org.apache.http.legacy'\n    defaultConfig {\n        applicationId \"com.visioneering.tfd\"\n        minSdkVersion 15\n        targetSdkVersion 24\n        versionCode 5\n        versionName \"1.5\"\n        multiDexEnabled true\n\n    }\n    buildTypes {\n        release {\n            minifyEnabled false\n            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'\n        }\n    }\n\n    dexOptions {\n        preDexLibraries = false\n        javaMaxHeapSize \"4g\"\n    }\n    android {\n        lintOptions {\n            checkReleaseBuilds false\n        }\n    }\n    packagingOptions {\n        exclude 'META-INF/DEPENDENCIES.txt'\n        exclude 'META-INF/LICENSE.txt'\n        exclude 'META-INF/NOTICE.txt'\n        exclude 'META-INF/NOTICE'\n        exclude 'META-INF/LICENSE'\n        exclude 'META-INF/DEPENDENCIES'\n        exclude 'META-INF/notice.txt'\n        exclude 'META-INF/license.txt'\n        exclude 'META-INF/dependencies.txt'\n        exclude 'META-INF/LGPL2.1'\n    }\n\n}\n\ndependencies {\n    compile fileTree(include: ['*.jar'], dir: 'libs')\n    compile 'com.android.support:appcompat-v7:25.2.0'\n    compile 'com.android.support:design:25.2.0'\n    compile 'com.google.firebase:firebase-core:10.2.1'\n    compile 'com.google.firebase:firebase-messaging:10.2.1'\n    compile 'com.github.florent37:materialtextfield:1.0.5'\n    compile 'com.android.support:cardview-v7:25.2.0'\n    compile 'com.android.support:support-v4:25.2.0'\n    compile 'com.google.android.gms:play-services:10.2.1'\n    compile 'com.fasterxml.jackson.core:jackson-databind:2.5.3'\n    compile 'com.googlecode.json-simple:json-simple:1.1'\n    compile 'com.weiwangcn.betterspinner:library-material:1.1.0'\n    compile 'com.android.support.constraint:constraint-layout:1.0.2'\n    compile 'com.itextpdf:itext7-core:7.0.3'\n    compile 'com.itextpdf:itext-pdfa:5.5.11'\n    compile 'itext:itext:1.3.1'\n    compile 'org.xhtmlrenderer:flying-saucer-pdf-itext5:9.1.6'\n\n}\n\n// ADD THIS AT THE BOTTOM\napply plugin: 'com.google.gms.google-services'\n</code></pre>\n\n<p>Please help me to solve this problem.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825873/transform-transformexception-in-android",
+  "owner" : {
+    "user_id" : 5877331,
+    "user_type" : "registered",
+    "display_name" : "Rishabh Saxena",
+    "profile_image" : "https://graph.facebook.com/1157688787582202/picture?type=large",
+    "link" : "https://stackoverflow.com/users/5877331/rishabh-saxena",
+    "reputation" : 18,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741230,
+  "last_activity_date" : 1498743757,
+  "tags" : [
+    "android",
+    "itext"
+  ],
+  "score" : 2,
+  "view_count" : 29,
+  "answer_count" : 1
+}

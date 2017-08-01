@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825679,
+  "title" : "Animate blurRadius property with react-native",
+  "body" : "<p>I started to animate an image in my react-native project but somehow I can't animate the blurRadius property. Translate and Scale are working just fine. Any idea why?</p>\n\n<p>Here is the code I use to interpolate values for blur, scale and translate :</p>\n\n<pre><code>// Compute image position\nconst imageTranslate = this.state.scrollY.interpolate({\n  inputRange: [-IMAGE_MAX_HEIGHT, 0, IMAGE_MAX_HEIGHT],\n  outputRange: [IMAGE_MAX_HEIGHT / 2, 0, -IMAGE_MAX_HEIGHT / 3],\n  extrapolate: 'clamp',\n});\n// Compute image blur\nconst imageBlur = this.state.scrollY.interpolate({\n  inputRange: [0, IMAGE_MAX_HEIGHT],\n  outputRange: [0, 100],\n  extrapolate: 'clamp',\n});\n// Compute image scale\nconst imageScale = this.state.scrollY.interpolate({\n  inputRange: [-IMAGE_MAX_HEIGHT, 0, IMAGE_MAX_HEIGHT],\n  outputRange: [2, 1, 1],\n  extrapolate: 'clamp',\n});\n</code></pre>\n\n<p>And this is my Image :</p>\n\n<pre><code>return (\n  &lt;Animated.Image\n    blurRadius={imageBlur}\n    source={this.props.imgSrc}\n    style={[\n      animatedImageStyles.backgroundImage,\n      { transform: [{ translateY: imageTranslate }, { scale: imageScale }] }\n    ]}\n  /&gt;\n);\n</code></pre>\n\n<p>I binded the <strong>this.state.scrollY</strong> value on a ScrollView scroll.</p>\n\n<p>Thanks for your help or suggestions.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825679/animate-blurradius-property-with-react-native",
+  "owner" : {
+    "user_id" : 2182518,
+    "user_type" : "registered",
+    "display_name" : "David",
+    "profile_image" : "https://www.gravatar.com/avatar/75c19f8d4b5335621d7648d1f4c38ec9?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/2182518/david",
+    "reputation" : 290,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498740737,
+  "last_activity_date" : 1498740737,
+  "tags" : [
+    "animation",
+    "react-native"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

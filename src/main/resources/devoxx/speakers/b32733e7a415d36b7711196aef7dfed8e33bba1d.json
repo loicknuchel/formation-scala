@@ -1,0 +1,37 @@
+{
+  "uuid" : "b32733e7a415d36b7711196aef7dfed8e33bba1d",
+  "bioAsHtml" : "<p>With over 25 years of experience covering many positions and magnitude of leading technologies to ensure their use results in a successful project that delivers benefits for both the customer and the end user.\nCurrently, my role is to enable developers in the use of services available on IBM Bluemix for composing their solutions.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Future, Robotique",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/KWC-5405",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/311166c8587718e43872b2263abd01a5f630b06f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Benjamin Fuentes"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b32733e7a415d36b7711196aef7dfed8e33bba1d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Nitesh  Thakrar"
+        }
+      ],
+      "id" : "KWC-5405",
+      "title" : "Coder un SmartContract sur Hyperledger (Blockchain) "
+    }
+  ],
+  "company" : "IBM",
+  "bio" : "With over 25 years of experience covering many positions and magnitude of leading technologies to ensure their use results in a successful project that delivers benefits for both the customer and the end user. \r\nCurrently, my role is to enable developers in the use of services available on IBM Bluemix for composing their solutions.  ",
+  "lastName" : "Thakrar",
+  "firstName" : "Nitesh ",
+  "blog" : "https://my-dbg-guru.mybluemix.net",
+  "avatarURL" : "http://i.imgur.com/hvRJyIK.jpg",
+  "twitter" : "@niteshpthakrar",
+  "lang" : "fr"
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Hands-on Labs",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>On entend souvent parlé des algorithmes génétiques. Ils sont utilisés dans de nombreux domaines et par de nombreux logiciels qu'on utilise couramment.\nA travers ce hands-on, je vous propose de vous présenter le fonctionnement d'un algorithme génétique ainsi que quelques stratégies d'optimisation.\nEnsuite, vous développerez un algorithme génétique par équipe afin de mettre en pratique tout ce que vous aurez vu.\nAfin de rendre le tout plus fun, les algorithmes devront optimiser un véhicule participant à une course opposant toutes les équipes.\nIl n'y aura qu'un champion par équipe et évidemment, à la fin, il n'en restera qu'un !<br  />\nHappy coding :-)</p>\n",
+  "id" : "UJE-2215",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ac73db59d04b444044ed7979e630d0fd6aed66bc",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Sébastien Descamps"
+      },
+      "name" : "Sébastien Descamps"
+    }
+  ],
+  "title" : "A la découverte des algorithmes génétiques",
+  "lang" : "fr",
+  "summary" : "On entend souvent parlé des algorithmes génétiques. Ils sont utilisés dans de nombreux domaines et par de nombreux logiciels qu'on utilise couramment.\r\nA travers ce hands-on, je vous propose de vous présenter le fonctionnement d'un algorithme génétique ainsi que quelques stratégies d'optimisation.\r\nEnsuite, vous développerez un algorithme génétique par équipe afin de mettre en pratique tout ce que vous aurez vu. \r\nAfin de rendre le tout plus fun, les algorithmes devront optimiser un véhicule participant à une course opposant toutes les équipes. \r\nIl n'y aura qu'un champion par équipe et évidemment, à la fin, il n'en restera qu'un !  \r\nHappy coding :-)"
+}

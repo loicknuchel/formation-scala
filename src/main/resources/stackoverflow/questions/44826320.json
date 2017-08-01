@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826320,
+  "title" : "What is wrong with the axis?",
+  "body" : "<p>I need the axis x to be </p>\n\n<pre><code>[0, 0.000976563, 0.001953125, 0.00390625, 0.0078125, 0.015625, 0.03125, 0.0625, 0.125, 0.25, 0.5, 1]\n</code></pre>\n\n<p>so I wrote:</p>\n\n<pre><code>axis(1, at = seq(0,12, 2), labels = 0.5^seq(1,7))\n</code></pre>\n\n<p><a href=\"https://i.stack.imgur.com/HTlWl.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/HTlWl.png\" alt=\"enter image description here\"></a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44826320/what-is-wrong-with-the-axis",
+  "owner" : {
+    "user_id" : 8231466,
+    "user_type" : "registered",
+    "display_name" : "Navah Perkal",
+    "profile_image" : "https://www.gravatar.com/avatar/7e8b46d1c258f6789cc7d6a2543e41fc?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8231466/navah-perkal",
+    "reputation" : 6,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742424,
+  "last_activity_date" : 1498742584,
+  "tags" : [
+    "r"
+  ],
+  "score" : -1,
+  "view_count" : 29,
+  "answer_count" : 0
+}

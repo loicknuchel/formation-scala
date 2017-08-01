@@ -1,0 +1,32 @@
+{
+  "uuid" : "84328f9962469e7fff8a0bf96634f9dc4079dd3e",
+  "bioAsHtml" : "<p>Backend geek &quot;large spectre&quot;, je m&#x27;intéresse aux stacks web et webservice, aux bases de données et au data processing.</p>\n<p>J&#x27;aime coder, et j&#x27;aime les langages modernes, mais je suis un ingénieur: j&#x27;aime les trucs qui marchent vite, efficacement, tout le temps. Si en plus ils peuvent avoir de la gueule, tant mieux.</p>\n<p>Je fais du Rust depuis 36 mois, en open-source et close-source, et suis très enthousiaste.</p>\n<p>J&#x27;ai rejoint Snips, où la protection de la donnée privée est un impératif absolu qui oblige à trouver des alternatives à l&#x27;approche Data Lake qui domine le marché aujourd&#x27;hui.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/GLZ-8300",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/84328f9962469e7fff8a0bf96634f9dc4079dd3e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Mathieu Poumeyrol"
+        }
+      ],
+      "id" : "GLZ-8300",
+      "title" : "Statistiques ou vie privée ? Les deux !"
+    }
+  ],
+  "company" : "snips.ai",
+  "bio" : "Backend geek \"large spectre\", je m'intéresse aux stacks web et webservice, aux bases de données et au data processing.\r\n\r\nJ'aime coder, et j'aime les langages modernes, mais je suis un ingénieur: j'aime les trucs qui marchent vite, efficacement, tout le temps. Si en plus ils peuvent avoir de la gueule, tant mieux.\r\n\r\nJe fais du Rust depuis 36 mois, en open-source et close-source, et suis très enthousiaste.\r\n\r\nJ'ai rejoint Snips, où la protection de la donnée privée est un impératif absolu qui oblige à trouver des alternatives à l'approche Data Lake qui domine le marché aujourd'hui.",
+  "lastName" : "Poumeyrol",
+  "firstName" : "Mathieu",
+  "blog" : "http://www.poumeyrol.fr/",
+  "avatarURL" : "http://www.gravatar.com/avatar/2a530566bc27310f5df6ddde6e23cd0e",
+  "twitter" : "@kalizoy",
+  "lang" : "fr"
+}

@@ -1,0 +1,32 @@
+{
+  "uuid" : "4d3511342c4266f497785ba061b3abc90a6d2bff",
+  "bioAsHtml" : "<p>An Italian, enthusiast, mobile developer.\nSpeaker at NSSpain 2014, Mobile&#x27;Optimized 2015 Minsk, CocoaHeads and Swift Paris.\n@viteinfinite / viteinfinite.com</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/VTR-3436",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4d3511342c4266f497785ba061b3abc90a6d2bff",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Simone Civetta"
+        }
+      ],
+      "id" : "VTR-3436",
+      "title" : "Server-Side Swift"
+    }
+  ],
+  "company" : "Xebia",
+  "bio" : "An Italian, enthusiast, mobile developer.\r\nSpeaker at NSSpain 2014, Mobile'Optimized 2015 Minsk, CocoaHeads and Swift Paris.\r\n@viteinfinite / viteinfinite.com",
+  "lastName" : "Civetta",
+  "firstName" : "Simone",
+  "blog" : "https://plus.google.com/111915566362461694193",
+  "avatarURL" : "https://lh3.googleusercontent.com/-5_xO799c7J8/AAAAAAAAAAI/AAAAAAAACkg/3EJMnk7Z5JY/photo.jpg",
+  "twitter" : "@viteinfinite",
+  "lang" : "fr"
+}

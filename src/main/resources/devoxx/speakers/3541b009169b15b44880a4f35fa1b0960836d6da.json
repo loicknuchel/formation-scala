@@ -1,0 +1,32 @@
+{
+  "uuid" : "3541b009169b15b44880a4f35fa1b0960836d6da",
+  "bioAsHtml" : "<p>CTO de Happy Technologies, et fort d&#x27;une expérience de 15 ans dans la conception de webapp, il apporte son soutien sur les problématiques d&#x27;architecture applicative, ainsi que sur les outils et les techniques de développement.\nIl accompagne également les projets et les équipes de développements, en facilitant la mise en place des bonnes pratiques agiles, l&#x27;industrialisation, et l&#x27;amélioration continue.\nConvaincu par l&#x27;intérêt de favoriser le partage de connaissances, il est le co-fondateur de la communauté digitale TTFX, et le créateur des Code Of War.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/EFI-6314",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3541b009169b15b44880a4f35fa1b0960836d6da",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "David Mouton"
+        }
+      ],
+      "id" : "EFI-6314",
+      "title" : "Beyond Javascript"
+    }
+  ],
+  "company" : "happy technologies",
+  "bio" : "CTO de Happy Technologies, et fort d'une expérience de 15 ans dans la conception de webapp, il apporte son soutien sur les problématiques d'architecture applicative, ainsi que sur les outils et les techniques de développement.\r\nIl accompagne également les projets et les équipes de développements, en facilitant la mise en place des bonnes pratiques agiles, l'industrialisation, et l'amélioration continue.\r\nConvaincu par l'intérêt de favoriser le partage de connaissances, il est le co-fondateur de la communauté digitale TTFX, et le créateur des Code Of War.",
+  "lastName" : "Mouton",
+  "firstName" : "David",
+  "blog" : "http://happy-technologies.com/blog/",
+  "avatarURL" : "http://www.gravatar.com/avatar/5974bb2d69cc23eb8cf199c127d7d3fa",
+  "twitter" : "@damoebius",
+  "lang" : "fr"
+}

@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826835,
+  "title" : "Taking unknown numbers count to array from user",
+  "body" : "<p>How can I get numbers from user and place it into array, without knowing how many numbers will he input? And then, how can I for example take last 5 numbers from that array?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826835/taking-unknown-numbers-count-to-array-from-user",
+  "owner" : {
+    "user_id" : 6800664,
+    "user_type" : "registered",
+    "display_name" : "cerbin",
+    "profile_image" : "https://www.gravatar.com/avatar/ded7c04ed4daf00e6c4d04b515283a20?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/6800664/cerbin",
+    "reputation" : 45,
+    "accept_rate" : 40
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743701,
+  "last_activity_date" : 1498743701,
+  "tags" : [
+    "c++",
+    "arrays",
+    "c++11",
+    "input"
+  ],
+  "score" : 0,
+  "view_count" : 19,
+  "answer_count" : 0
+}

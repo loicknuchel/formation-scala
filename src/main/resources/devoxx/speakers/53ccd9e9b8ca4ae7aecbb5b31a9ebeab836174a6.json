@@ -1,0 +1,32 @@
+{
+  "uuid" : "53ccd9e9b8ca4ae7aecbb5b31a9ebeab836174a6",
+  "bioAsHtml" : "<p>Consultant indépendant en sécurité logicielle</p>\n<p>Geoffroy handles security and quality assurance at Clever Cloud, develops in Rust and researches on parser security at VideoLAN. He thinks a lot about cryptography, protocol design and data management</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/CUP-6804",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/53ccd9e9b8ca4ae7aecbb5b31a9ebeab836174a6",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Geoffroy Couprie"
+        }
+      ],
+      "id" : "CUP-6804",
+      "title" : "Techniques modernes pour l'écriture de serveurs performants"
+    }
+  ],
+  "company" : "Geoffroy Couprie",
+  "bio" : "Consultant indépendant en sécurité logicielle\r\n\r\nGeoffroy handles security and quality assurance at Clever Cloud, develops in Rust and researches on parser security at VideoLAN. He thinks a lot about cryptography, protocol design and data management",
+  "lastName" : "Couprie",
+  "firstName" : "Geoffroy",
+  "blog" : "http://geoffroycouprie.com",
+  "avatarURL" : "https://pbs.twimg.com/profile_images/378800000105261051/e4486784650b1553ca7e8699ee96f082_400x400.png",
+  "twitter" : "@gcouprie",
+  "lang" : "fr"
+}

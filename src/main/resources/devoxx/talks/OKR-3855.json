@@ -1,0 +1,36 @@
+{
+  "trackId" : "java",
+  "talkType" : "BOF (Bird of a Feather)",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>Apache Maven 3.5.0, Jigsaw, POM model v5, ... Apache Maven ne se repose pas sur ses lauriers. Il continue d'évoluer tout en restant complètement indépendant de toute entreprise et des enjeux commerciaux.</p>\n<p>Venez discuter avec différents membres de l’équipe mais aussi les contributeurs et acteurs du projet pour partager votre point de vue, vos douleurs, vos envies d’évolutions, pour qu’Apache Maven continue au quotidien à vous rendre service, à vous rendre plus productif.</p>\n",
+  "id" : "OKR-3855",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3a75b07635a12f01aea785cf606c395d03d2f1c2",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Hervé Boutemy"
+      },
+      "name" : "Hervé Boutemy"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a4aa19fa64372b927a62ff039428f4b4aafc687d",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Arnaud Héritier"
+      },
+      "name" : "Arnaud Héritier"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9851a429a45bee3543469ba6385e1d552790420f",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Brian Fox"
+      },
+      "name" : "Brian Fox"
+    }
+  ],
+  "title" : "BOF Apache Maven",
+  "lang" : "fr",
+  "summary" : "Apache Maven 3.5.0, Jigsaw, POM model v5, ... Apache Maven ne se repose pas sur ses lauriers. Il continue d'évoluer tout en restant complètement indépendant de toute entreprise et des enjeux commerciaux.\r\n\r\nVenez discuter avec différents membres de l’équipe mais aussi les contributeurs et acteurs du projet pour partager votre point de vue, vos douleurs, vos envies d’évolutions, pour qu’Apache Maven continue au quotidien à vous rendre service, à vous rendre plus productif."
+}

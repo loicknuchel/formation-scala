@@ -1,0 +1,32 @@
+{
+  "uuid" : "66792ec2f279d6825695b479a0e510c0f90d6beb",
+  "bioAsHtml" : "<p>Je suis développeur depuis une dizaine d&#x27;années.\nCurieux de tout, et toujours à la recherche de techniques pour m&#x27;améliorer, je partage ce que je découvre au travers de mon travail quotidien, github et mon (pas très rempli) blog.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/RSK-9259",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/66792ec2f279d6825695b479a0e510c0f90d6beb",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Cyril Delmas"
+        }
+      ],
+      "id" : "RSK-9259",
+      "title" : "Null pour les nuls - ou comment l'éviter"
+    }
+  ],
+  "company" : "Lectra",
+  "bio" : "Je suis développeur depuis une dizaine d'années.\r\nCurieux de tout, et toujours à la recherche de techniques pour m'améliorer, je partage ce que je découvre au travers de mon travail quotidien, github et mon (pas très rempli) blog.",
+  "lastName" : "Delmas",
+  "firstName" : "Cyril",
+  "blog" : "http://cdelmas.github.io/",
+  "avatarURL" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+  "twitter" : "@cyril_delmas",
+  "lang" : "fr"
+}

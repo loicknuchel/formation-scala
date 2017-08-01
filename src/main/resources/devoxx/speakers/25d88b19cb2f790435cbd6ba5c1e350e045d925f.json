@@ -1,0 +1,60 @@
+{
+  "uuid" : "25d88b19cb2f790435cbd6ba5c1e350e045d925f",
+  "bioAsHtml" : "<p>Julien Corioland est développeur et speaker. Après avoir passé 6 ans à travailler en tant que consultant sur des technologies Web et Cloud, il a rejoint Microsoft France en tant qu’évangéliste technique où il accompagne les développeurs dans la prise en main de la plateforme applicative Microsoft Azure et dans la mise en place d’architectures modernes pensées pour le cloud.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/PFS-2970",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a73cc5bfb4ce4d8f07f209039ada742ee750a332",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Philippe Briend"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/25d88b19cb2f790435cbd6ba5c1e350e045d925f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Julien Corioland"
+        }
+      ],
+      "id" : "PFS-2970",
+      "title" : "Applications conteneurisées : déploiement continue et passage à l'échelle dans le cloud"
+    },
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/WIF-0197",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/25d88b19cb2f790435cbd6ba5c1e350e045d925f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Julien Corioland"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4339329660c101f8f1a3755e856a1984c2dc54bf",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Adrien Blind"
+        }
+      ],
+      "id" : "WIF-0197",
+      "title" : "Docker & DevOps : adopter les mêmes pratiques sous Windows et sous Linux!"
+    }
+  ],
+  "company" : "Microsoft",
+  "bio" : "Julien Corioland est développeur et speaker. Après avoir passé 6 ans à travailler en tant que consultant sur des technologies Web et Cloud, il a rejoint Microsoft France en tant qu’évangéliste technique où il accompagne les développeurs dans la prise en main de la plateforme applicative Microsoft Azure et dans la mise en place d’architectures modernes pensées pour le cloud.\r\n",
+  "lastName" : "Corioland",
+  "firstName" : "Julien",
+  "blog" : "https://aka.ms/jcorioland",
+  "avatarURL" : "http://www.gravatar.com/avatar/efbb4bed773bec0749bdd3d2ea8e670d",
+  "twitter" : "@jcorioland",
+  "lang" : "en-US"
+}

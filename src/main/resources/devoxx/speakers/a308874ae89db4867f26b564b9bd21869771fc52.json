@@ -1,0 +1,32 @@
+{
+  "uuid" : "a308874ae89db4867f26b564b9bd21869771fc52",
+  "bioAsHtml" : "<p>Michaël est spécialisé sur les systèmes distribués et plus particulièrement Cassandra. Après avoir travaillé en tant qu&#x27;architecte des drivers Cassandra chez DataStax, il a rejoint Apple puis, plus récemment Netflix. Il y travaille à améliorer Cassandra et son expérience parmi les développeurs.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/HPC-9733",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a308874ae89db4867f26b564b9bd21869771fc52",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Michaël Figuière"
+        }
+      ],
+      "id" : "HPC-9733",
+      "title" : "Ce que j'ai appris en construisant des systèmes distribués"
+    }
+  ],
+  "company" : "Netflix",
+  "bio" : "Michaël est spécialisé sur les systèmes distribués et plus particulièrement Cassandra. Après avoir travaillé en tant qu'architecte des drivers Cassandra chez DataStax, il a rejoint Apple puis, plus récemment Netflix. Il y travaille à améliorer Cassandra et son expérience parmi les développeurs.",
+  "lastName" : "Figuière",
+  "firstName" : "Michaël",
+  "blog" : "http://techblog.netflix.com/",
+  "avatarURL" : "http://www.gravatar.com/avatar/63b37ec39d27ee1b4e29c29e45aa99b6?s=1478",
+  "twitter" : "@mfiguiere",
+  "lang" : "fr"
+}

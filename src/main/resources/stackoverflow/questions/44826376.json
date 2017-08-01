@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826376,
+  "title" : "UnmarshalJSON on struct containing interface list",
+  "body" : "<p>I would like to UnmarshalJSON a struct containing an interface as follows:</p>\n\n<pre><code>type Filterer interface {\n    Filter(s string) error\n}\n\ntype FieldFilter struct {\n    Key string\n    Val string\n}    \n\nfunc (ff *FieldFilter) Filter(s string) error {\n    // Do something\n}\n\ntype Test struct {\n    Name string\n    Filters []Filterer\n}\n</code></pre>\n\n<p>My idea was to send a json like so:</p>\n\n<pre><code>{\n    \"Name\": \"testing\",\n    \"Filters\": [\n        {\n            \"FieldFilter\": {\n                \"Key\": \"key\",\n                \"Val\": \"val\"\n            }\n        }\n    ]\n}\n</code></pre>\n\n<p>However, when sending this json to the unmarshaler, the following exception returns: <code>json: cannot unmarshal object into Go struct field Test.Filters of type Filterer</code></p>\n\n<p>I understand the problem fully, but do not know how to approach this problem wisely. Looking for advice on an idiomatic way to solving this problem in go.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826376/unmarshaljson-on-struct-containing-interface-list",
+  "owner" : {
+    "user_id" : 6691722,
+    "user_type" : "registered",
+    "display_name" : "0rka",
+    "profile_image" : "https://www.gravatar.com/avatar/615d27a9fe7d704bce92cdb802c8a769?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/6691722/0rka",
+    "reputation" : 15,
+    "accept_rate" : 100
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742586,
+  "last_activity_date" : 1498743029,
+  "tags" : [
+    "json",
+    "go"
+  ],
+  "score" : 0,
+  "view_count" : 12,
+  "answer_count" : 1
+}

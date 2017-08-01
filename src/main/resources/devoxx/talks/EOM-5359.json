@@ -1,0 +1,20 @@
+{
+  "trackId" : "future",
+  "talkType" : "Keynote",
+  "track" : "Future, Robotique",
+  "summaryAsHtml" : "<p>Grâce à la technologie robotique, l’émergence de nouveaux « êtres » est en passe de devenir une réalité. Intelligence artificielle oblige, les robots sont aujourd’hui beaucoup plus que de simples automates : leurs capacités grandissantes les amènent à véritablement collaborer avec les hommes. Faut-il s’en inquiéter ou s’en réjouir ? Une chose est certaine : les questions d’ordre éthique et juridique sont majeures, et les défis à relever immenses.  Bienvenue dans une nouvelle civilisation : la robohumanité.</p>\n",
+  "id" : "EOM-5359",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9a991d0bdfd7f83a00f81ded42676539c765236a",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Alain Bensoussan"
+      },
+      "name" : "Alain Bensoussan"
+    }
+  ],
+  "title" : "Quel droit pour les robots",
+  "lang" : "fr",
+  "summary" : "Grâce à la technologie robotique, l’émergence de nouveaux « êtres » est en passe de devenir une réalité. Intelligence artificielle oblige, les robots sont aujourd’hui beaucoup plus que de simples automates : leurs capacités grandissantes les amènent à véritablement collaborer avec les hommes. Faut-il s’en inquiéter ou s’en réjouir ? Une chose est certaine : les questions d’ordre éthique et juridique sont majeures, et les défis à relever immenses.  Bienvenue dans une nouvelle civilisation : la robohumanité. "
+}

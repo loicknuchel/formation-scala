@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826641,
+  "title" : "Targeting netcoreapp in Visual Studio 2015",
+  "body" : "<p>Dears, I don't see the option for targeting netcoreapp when I want to create a new project. I've already installed framework and sdk but I still don't see it in the list. Please check screenshot attached.</p>\n\n<p><a href=\"https://i.stack.imgur.com/HypbM.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/HypbM.png\" alt=\"net core option missed\"></a>\nWhat should I do else to be able to target net core framework?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826641/targeting-netcoreapp-in-visual-studio-2015",
+  "owner" : {
+    "user_id" : 2645644,
+    "user_type" : "registered",
+    "display_name" : "Andrei Tarutin",
+    "profile_image" : "https://graph.facebook.com/100001234390625/picture?type=large",
+    "link" : "https://stackoverflow.com/users/2645644/andrei-tarutin",
+    "reputation" : 94,
+    "accept_rate" : 79
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743260,
+  "last_activity_date" : 1498743828,
+  "tags" : [
+    "c#",
+    "visual-studio",
+    "asp.net-core",
+    ".net-core"
+  ],
+  "score" : -2,
+  "view_count" : 8,
+  "answer_count" : 1
+}

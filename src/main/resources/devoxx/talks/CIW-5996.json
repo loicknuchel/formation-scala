@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Conference",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Sera-t-il bientôt possible de faire une API qui permet de détecter automatiquement les trolls?</p>\n<p>D'une part, on constate que la modération humaine des réseaux sociaux ne scale pas. De l'autre, ça trolle fort sur les réseaux sociaux en ce moment. Par exemple, le CEO de Reddit s'est fait troller à mort sur son propre réseau social, et a dû s'excuser publiquement suite aux contre-mesures irraisonnables qu'il a prises.</p>\n<p>Dans ce talk, je commence par identifier les différentes formes de trolling qui existent sur les réseaux aujourd'hui.\nEnsuite, j'étudie certaines tentatives de solution, basées notamment sur du machine learning, qui promettent un jour de pouvoir contrôler ce phénomène en apprenant à des machines à détecter automatiquement des comportements de type \"troll\".\nEnfin, je me projette sur une solution d'API web qui permettrait à n'importe qui de se brancher et de bénéficier d'un tel service.</p>\n<p>Ce talk est une ouverture sur cet aspect fascinant de la relation entre la société et la technologie et comporte un volet technique mais qui ne nécessite aucun pré-requis en termes de connaissances.</p>\n",
+  "id" : "CIW-5996",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/275740c4825d357d58ad15316884865ab0105b7d",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Jonathan Michaux"
+      },
+      "name" : "Jonathan Michaux"
+    }
+  ],
+  "title" : "Pourquoi j’ai essayé de faire une API de détection de trolls",
+  "lang" : "fr",
+  "summary" : "Sera-t-il bientôt possible de faire une API qui permet de détecter automatiquement les trolls?\r\n\r\nD'une part, on constate que la modération humaine des réseaux sociaux ne scale pas. De l'autre, ça trolle fort sur les réseaux sociaux en ce moment. Par exemple, le CEO de Reddit s'est fait troller à mort sur son propre réseau social, et a dû s'excuser publiquement suite aux contre-mesures irraisonnables qu'il a prises.\r\n\r\nDans ce talk, je commence par identifier les différentes formes de trolling qui existent sur les réseaux aujourd'hui. \r\nEnsuite, j'étudie certaines tentatives de solution, basées notamment sur du machine learning, qui promettent un jour de pouvoir contrôler ce phénomène en apprenant à des machines à détecter automatiquement des comportements de type \"troll\".\r\nEnfin, je me projette sur une solution d'API web qui permettrait à n'importe qui de se brancher et de bénéficier d'un tel service.\r\n\r\nCe talk est une ouverture sur cet aspect fascinant de la relation entre la société et la technologie et comporte un volet technique mais qui ne nécessite aucun pré-requis en termes de connaissances.\r\n\r\n"
+}

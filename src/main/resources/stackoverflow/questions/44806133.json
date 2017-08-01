@@ -1,0 +1,27 @@
+{
+  "question_id" : 44806133,
+  "title" : "Angular4 adds second tbody element",
+  "body" : "<p>I want to represent some data in several tables. But Angular 4 adds many new divs to it and also a new tbody that destroys my table.</p>\n\n<p>Her the template:</p>\n\n<pre><code>&lt;div *ngFor= \"let table of qmc.simplificationTable; let myIndex = index\"&gt;\n\n    &lt;table class=\"table table-bordered col-md-4\"&gt;\n      &lt;thead&gt;\n        &lt;tr&gt;\n          &lt;th&gt;Group&lt;/th&gt;\n          &lt;th&gt;Vars&lt;/th&gt;\n          &lt;th&gt;Benutzt&lt;/th&gt;\n        &lt;/tr&gt;\n      &lt;/thead&gt;\n\n      &lt;tbody&gt;\n        &lt;div *ngFor= \"let group of table let groupIndex = index\"&gt;\n          &lt;div *ngFor= \"let primeImplicant of group\"&gt;\n            &lt;tr&gt;\n              &lt;td&gt;\n                {{groupIndex}}\n              &lt;/td&gt;\n              &lt;td&gt;\n                {{primeImplicant.toString()}}\n              &lt;/td&gt;\n              &lt;td&gt;\n                {{primeImplicant._usedForCombination}}\n              &lt;/td&gt;\n            &lt;/tr&gt;\n          &lt;/div&gt;\n        &lt;/div&gt;\n      &lt;/tbody&gt;\n\n    &lt;/table&gt;\n\n  &lt;/div&gt;\n</code></pre>\n\n<p>this is the html result:\n<a href=\"https://pastebin.com/z5UneyMf\" rel=\"nofollow noreferrer\">https://pastebin.com/z5UneyMf</a></p>\n\n<p>You can see that angular4 adds a new tbody element to every </p>\n\n<pre><code>&lt;tr&gt;\n</code></pre>\n\n<p>These tbodies and the new divs destroies my table.</p>\n\n<p>How can I solve this?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806133/angular4-adds-second-tbody-element",
+  "owner" : {
+    "user_id" : 3581834,
+    "user_type" : "registered",
+    "display_name" : "leet",
+    "profile_image" : "https://www.gravatar.com/avatar/21441cd7ab5140c7ad4e2bc0d4cba0e3?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/3581834/leet",
+    "reputation" : 42,
+    "accept_rate" : 75
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661961,
+  "last_activity_date" : 1498661961,
+  "tags" : [
+    "javascript",
+    "html",
+    "twitter-bootstrap",
+    "angular"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

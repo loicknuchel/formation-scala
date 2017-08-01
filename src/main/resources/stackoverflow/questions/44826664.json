@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826664,
+  "title" : "Xamarin.Android app resumed by shortcut intent - Master and Detail must be set before adding MasterDetailPage to a container",
+  "body" : "<p>I have Xamarin.Android todo list mobile app using Prism. Problem is:</p>\n\n<ul>\n<li>In android system, I can create shortcut to open specific list in\napp. </li>\n<li>When I open app, and press home button, it remains on background\n(thats ok) </li>\n<li><p>When I then run app from desktop shortcut, it opens\nandroid activity and when I create new PrismApplication (\n<code>LoadApplication(new App());</code> ) everything is running OK, but after\ncreating viewmodel for view, app is still using old viewmodel from\nbefore. So I made this workaroud and I use same instance of\nPrismApplication:</p>\n\n<pre><code>static App xamApp;\n\nprotected override void OnCreate(Bundle bundle)\n{\n    if (xamApp == null)\n    {\n        Forms.Init(this, bundle);\n        xamApp = new App();\n    }\n    LoadApplication(xamApp);\n    xamApp.Redirect(Intent.GetStringExtra(\"ListID\"));\n}\n</code></pre></li>\n</ul>\n\n<p>Now, problem is redirecting. This</p>\n\n<pre><code>    public void Redirect(string listId)\n    {\n        NavigationService.NavigateAsync($\"MainPage/MainNavigationPage/TodoList?id={listId}\", animated: false);\n    }\n</code></pre>\n\n<p>leads to error: System.InvalidOperationException: Master and Detail must be set before adding MasterDetailPage to a container.</p>\n\n<p>Prism should take care of Binding of Detail in MasterDetailPage by the \"TodoList\" from NavigateAsync uri.</p>\n\n<p>Does enyone know what can be the problem here?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826664/xamarin-android-app-resumed-by-shortcut-intent-master-and-detail-must-be-set-b",
+  "owner" : {
+    "user_id" : 8231888,
+    "user_type" : "registered",
+    "display_name" : "Gabriel Nov&#225;k",
+    "profile_image" : "https://lh6.googleusercontent.com/-lFT482Ov1fA/AAAAAAAAAAI/AAAAAAAAE7Q/5oQ2AjCzuqc/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/8231888/gabriel-nov%c3%a1k",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743305,
+  "last_activity_date" : 1498743305,
+  "tags" : [
+    "c#",
+    "android",
+    "xamarin.forms",
+    "prism"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

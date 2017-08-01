@@ -1,0 +1,28 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Tools-in-Action",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Eclipse Che est à la fois un serveur de workspaces et un IDE cloud. Che peut être installé de la même façon qu’un IDE classique pour n’importe quel type de framework ou de langage. Chaque workspace est composé de projets et d'environnements qui fournissent les composants nécessaire à leur développement ainsi qu’à leur exécution. Un environnement est défini par un ensemble de machines Docker qui sont directement utilisées par Che.</p>\n<p>Durant cette session, nous expliquerons comment configurer un workspace cloud avec Eclipse Che. Nous montrerons comment configurer son environnement Docker avec ses outils et définir les commandes dont vous avez besoin. Enfin nous montrerons comment ces workspaces peuvent être facilement partagés avec d’autres développeurs.</p>\n<p>Nous montrerons également comment Eclipse Che supporte différents languages dans l’IDE, notamment au travers de l’implementation du Language Server Protocol - protocol de communication entre un outil de dev et un Language Server qui execute l’ensemble de l’analyse du code et les différentes opérations dont nous avons l’habitude (Intellisense, refactoring …). Ce protocol est actuellement utilisé par Eclipse Che et VSCode.</p>\n",
+  "id" : "RUO-3082",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3102bb500b44d7043b3f063ab6076716978f3746",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Stévan Le Meur"
+      },
+      "name" : "Stévan Le Meur"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/baede12fd06cf533e4a6510ae09d711f952f71c4",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Florent Benoit"
+      },
+      "name" : "Florent Benoit"
+    }
+  ],
+  "title" : "Introduction à Eclipse Che",
+  "lang" : "fr",
+  "summary" : "Eclipse Che est à la fois un serveur de workspaces et un IDE cloud. Che peut être installé de la même façon qu’un IDE classique pour n’importe quel type de framework ou de langage. Chaque workspace est composé de projets et d'environnements qui fournissent les composants nécessaire à leur développement ainsi qu’à leur exécution. Un environnement est défini par un ensemble de machines Docker qui sont directement utilisées par Che.\r\n\r\nDurant cette session, nous expliquerons comment configurer un workspace cloud avec Eclipse Che. Nous montrerons comment configurer son environnement Docker avec ses outils et définir les commandes dont vous avez besoin. Enfin nous montrerons comment ces workspaces peuvent être facilement partagés avec d’autres développeurs. \r\n\r\nNous montrerons également comment Eclipse Che supporte différents languages dans l’IDE, notamment au travers de l’implementation du Language Server Protocol - protocol de communication entre un outil de dev et un Language Server qui execute l’ensemble de l’analyse du code et les différentes opérations dont nous avons l’habitude (Intellisense, refactoring …). Ce protocol est actuellement utilisé par Eclipse Che et VSCode."
+}

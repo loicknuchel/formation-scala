@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Quickie",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>La programmation probabiliste crée des systèmes qui prennent des décisions à partir d'observations dont la certitude n'est pas garantie. Bien qu'encore peut développée, ce type de programmation va être une pièce essentielle des outils basés sur la composition d'algorithmes de machine learning.</p>\n",
+  "id" : "JCC-8034",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/948c3536c209f6d3790ff4a2533be31b349490ec",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Didier Girard"
+      },
+      "name" : "Didier Girard"
+    }
+  ],
+  "title" : "Probabilistic Programming : Tuer un piéton ou sacrifier les passagers ?",
+  "lang" : "fr",
+  "summary" : " La programmation probabiliste crée des systèmes qui prennent des décisions à partir d'observations dont la certitude n'est pas garantie. Bien qu'encore peut développée, ce type de programmation va être une pièce essentielle des outils basés sur la composition d'algorithmes de machine learning."
+}

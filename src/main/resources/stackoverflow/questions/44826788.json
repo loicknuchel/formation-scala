@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826788,
+  "title" : "Facebook page feed subscription and page access token",
+  "body" : "<p><br> I have created one question today but I still have some problems with subscriptions. I can't get page feed in real-time api. I'm doing this steps below.</p>\n\n<p>1) I have created application.<br>\n2) I have created page.<br>\n3) I have attached page to application in settings page.<br>\n4) I have enabled webhook product and enabled callback url for Page object, then I have subscribed to feed field.<br>\n5) I have been adding new posts to my page.</p>\n\n<p>And I have no signal on my webpage with callback url. Someone before told me that I should specify page access token, but, where I can specify page access token to subscription?</p>\n\n<p>What I'm doing wrong?</p>\n\n<p>Thanks for help.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826788/facebook-page-feed-subscription-and-page-access-token",
+  "owner" : {
+    "user_id" : 8194407,
+    "user_type" : "registered",
+    "display_name" : "J Cala",
+    "profile_image" : "https://www.gravatar.com/avatar/5b73cfadb5062bb2922fe9364b5c88b8?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8194407/j-cala",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743590,
+  "last_activity_date" : 1498743590,
+  "tags" : [
+    "php",
+    "facebook",
+    "facebook-graph-api",
+    "token"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

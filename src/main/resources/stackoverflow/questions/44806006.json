@@ -1,0 +1,25 @@
+{
+  "question_id" : 44806006,
+  "title" : "Assign a Series to several Rows of a Pandas DataFrame",
+  "body" : "<p>I have a pandas DataFrame prepared with an Index and columns, all values are NaN.\nNow I computed a result, which can be used for more than one row of a DataFrame, and I would like to assign them all at once. This can be done by a loop, but I am pretty sure that this assignment can be done at once.</p>\n\n<p>Here is a scenario:</p>\n\n<pre><code>import pandas as pd\ndf = pd.DataFrame(index=['A', 'B', 'C'], columns=['C1', 'C2'])  # original df\ns = pd.Series({'C1': 1, 'C2': 'ham'})  # a computed result\nindex = pd.Index(['A', 'C'])  # result is valid for rows 'A' and 'C'\n</code></pre>\n\n<p>The naive approach is</p>\n\n<pre><code>df.loc[index, :] = s\n</code></pre>\n\n<p>But this does not change the DataFrame at all. It remains as </p>\n\n<pre><code>    C1   C2\nA  NaN  NaN\nB  NaN  NaN\nC  NaN  NaN\n</code></pre>\n\n<p>How can this assignment be done?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806006/assign-a-series-to-several-rows-of-a-pandas-dataframe",
+  "owner" : {
+    "user_id" : 3864281,
+    "user_type" : "registered",
+    "display_name" : "Nras",
+    "profile_image" : "https://www.gravatar.com/avatar/b6207f91139f5ad03dc405c9d8daae82?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/3864281/nras",
+    "reputation" : 2819,
+    "accept_rate" : 74
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661678,
+  "last_activity_date" : 1498661988,
+  "tags" : [
+    "python",
+    "pandas"
+  ],
+  "score" : 0,
+  "view_count" : 10,
+  "answer_count" : 1
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "Tools-in-Action",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>Akka est une super boite à outils pour créer des applications ultra performantes et gérer facilement la concurrence.</p>\n<p>Même si akka a toujours été présenté comme un framework pour les développeurs à la fois java et scala, il faut avouer que l'api java était plutôt rebutante.\nL'arrivée de java 8 a clairement changé la donne et il est enfin possible pour les développeurs java d'utiliser akka tout en écrivant du jolie code.</p>\n<p>Dans cette session, après une présentation du framework akka nous développerons une application akka 100% java.\nAu programme il y aura des acteurs, du rest et des streams !</p>\n",
+  "id" : "WDK-9320",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/97d236f706ec6d388154177371ba96e135ec5bf2",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Alexandre Delègue"
+      },
+      "name" : "Alexandre Delègue"
+    }
+  ],
+  "title" : "Akka avec java 8 finalement c'est cool ! ",
+  "lang" : "fr",
+  "summary" : "Akka est une super boite à outils pour créer des applications ultra performantes et gérer facilement la concurrence. \r\n\r\nMême si akka a toujours été présenté comme un framework pour les développeurs à la fois java et scala, il faut avouer que l'api java était plutôt rebutante. \r\nL'arrivée de java 8 a clairement changé la donne et il est enfin possible pour les développeurs java d'utiliser akka tout en écrivant du jolie code. \r\n\r\nDans cette session, après une présentation du framework akka nous développerons une application akka 100% java. \r\nAu programme il y aura des acteurs, du rest et des streams !\r\n"
+}

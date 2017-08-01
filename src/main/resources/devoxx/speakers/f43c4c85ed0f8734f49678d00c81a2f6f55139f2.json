@@ -1,0 +1,50 @@
+{
+  "uuid" : "f43c4c85ed0f8734f49678d00c81a2f6f55139f2",
+  "bioAsHtml" : "<p>Lauren Hayward Schaefer is a software engineer for IBM Cloud Data Services who currently focuses on IBM Graph. Since joining IBM in 2009, Lauren has held a variety of roles including software developer, automation specialist, social media lead, and growth hacking engineer. She holds a BS and MS in Computer Science from North Carolina State University.</p>\n<p>Lauren is an international speaker who values authenticity. She is\npassionate about excellence, empowering and encouraging women, and the color pink.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/KOC-3927",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f43c4c85ed0f8734f49678d00c81a2f6f55139f2",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Lauren Schaefer"
+        }
+      ],
+      "id" : "KOC-3927",
+      "title" : "Getting started with graph databases"
+    },
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/PFN-9122",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f43c4c85ed0f8734f49678d00c81a2f6f55139f2",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Lauren Schaefer"
+        }
+      ],
+      "id" : "PFN-9122",
+      "title" : "Intro to Graph Databases"
+    }
+  ],
+  "company" : "IBM",
+  "bio" : "Lauren Hayward Schaefer is a software engineer for IBM Cloud Data Services who currently focuses on IBM Graph. Since joining IBM in 2009, Lauren has held a variety of roles including software developer, automation specialist, social media lead, and growth hacking engineer. She holds a BS and MS in Computer Science from North Carolina State University.\r\n\r\nLauren is an international speaker who values authenticity. She is\r\npassionate about excellence, empowering and encouraging women, and the color pink.",
+  "lastName" : "Schaefer",
+  "firstName" : "Lauren",
+  "blog" : "https://developer.ibm.com/clouddataservices/author/ljhaywar/",
+  "avatarURL" : "https://media.licdn.com/mpr/mprx/0_5J73_m-Z90uB3XTzIj0Y_DlqnMYcTXTzFUUY_DAoW0EFY8nvd0xDDS5XZNOHGi8JkVS0uEfl2Efy",
+  "twitter" : "@lauren_schaefer",
+  "lang" : "fr"
+}

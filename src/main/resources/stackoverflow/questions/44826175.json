@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826175,
+  "title" : "Struct Variable Query",
+  "body" : "<pre><code>#include&lt;bits/stdc++.h&gt;\nusing namespace std;\ntypedef struct trie\n{\n    int arr[26];\n    bool isleaf;\n    trie(int isleaf)\n    {\n        this-&gt;isleaf=9;\n        cout&lt;&lt;isleaf&lt;&lt;endl;\n        isleaf=false;\n        cout&lt;&lt;isleaf&lt;&lt;endl;\n        cout&lt;&lt;this-&gt;isleaf&lt;&lt;endl;\n    }\n}* tr;\n//void inser(s)\nint main()\n{\n   tr k=new trie(3);\n   cout&lt;&lt;k-&gt;isleaf;\n}\n</code></pre>\n\n<p>Works Fine and outputs</p>\n\n<pre><code>3\n0\n1\n1\n</code></pre>\n\n<p>But in </p>\n\n<pre><code>#include&lt;bits/stdc++.h&gt;\nusing namespace std;\ntypedef struct trie\n{\n    int arr[26];\n    bool isleaf;\n    trie(int isleaf)\n    {\n        cout&lt;&lt;isleaf&lt;&lt;endl;\n        isleaf=false;\n        cout&lt;&lt;isleaf&lt;&lt;endl;\n        cout&lt;&lt;this-&gt;isleaf&lt;&lt;endl;\n    }\n}* tr;\n//void inser(s)\nint main()\n{\n   tr k=new trie(3);\n   cout&lt;&lt;k-&gt;isleaf;\n}\n</code></pre>\n\n<p>I get</p>\n\n<pre><code>3\n0\n68\n68\n</code></pre>\n\n<p>I understand that it is uninitialized but still why 68?</p>\n\n<p>If use a normal bool either in global or inside function and print it without initializing i get 0,then why not here?</p>\n\n<p>And can somebody also point out some good source to clear doubts about such variable declarations , public and private concepts , and OOPS, difference between structs and classes etc.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826175/struct-variable-query",
+  "owner" : {
+    "user_id" : 6092337,
+    "user_type" : "registered",
+    "display_name" : "Rohan Aggarwal",
+    "profile_image" : "https://www.gravatar.com/avatar/f0dc22280e63123bfe3714400c8161f7?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/6092337/rohan-aggarwal",
+    "reputation" : 11,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742057,
+  "last_activity_date" : 1498742611,
+  "tags" : [
+    "c++",
+    "class",
+    "c++11",
+    "struct"
+  ],
+  "score" : -2,
+  "view_count" : 31,
+  "answer_count" : 0
+}

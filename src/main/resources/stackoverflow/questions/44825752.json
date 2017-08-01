@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825752,
+  "title" : "How to configure custom streaming API in WSO2 EI-6.1.1",
+  "body" : "<p>I am able to get the twitter streaming messages using default library(org.apache.synapse.twitter.poll.class-1.0.0.jar), Now i wanted to get the messages from my custom streaming rest API How can achieve in WSO2 EI?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825752/how-to-configure-custom-streaming-api-in-wso2-ei-6-1-1",
+  "owner" : {
+    "user_id" : 4314408,
+    "user_type" : "registered",
+    "display_name" : "Siddu",
+    "profile_image" : "https://www.gravatar.com/avatar/cc2a2b0fda5c647a848fd7eb66c641b6?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4314408/siddu",
+    "reputation" : 16,
+    "accept_rate" : 0
+  },
+  "is_answered" : false,
+  "creation_date" : 1498740954,
+  "last_activity_date" : 1498740954,
+  "tags" : [
+    "api",
+    "streaming",
+    "wso2ei"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

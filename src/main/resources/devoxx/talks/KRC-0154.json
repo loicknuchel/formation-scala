@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "Conference",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>Le sujet principal de Java 9 est le support de la modularité mais Java 9 propose aussi de nombreuses autres fonctionnalités. Ce talk a pour but de faire une revue des principales d’entre-elles en attendant la sortie de Java 9 : support de standards, nouvelles API, évolutions dans certaines API, mises à jour des outils du JDK et améliorations de la JVM.</p>\n",
+  "id" : "KRC-0154",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8c160a2a2981345e84860a1298a662cc02a17d72",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Jean-Michel Doudoux"
+      },
+      "name" : "Jean-Michel Doudoux"
+    }
+  ],
+  "title" : "Java 9 modulo les modules",
+  "lang" : "fr",
+  "summary" : "Le sujet principal de Java 9 est le support de la modularité mais Java 9 propose aussi de nombreuses autres fonctionnalités. Ce talk a pour but de faire une revue des principales d’entre-elles en attendant la sortie de Java 9 : support de standards, nouvelles API, évolutions dans certaines API, mises à jour des outils du JDK et améliorations de la JVM."
+}

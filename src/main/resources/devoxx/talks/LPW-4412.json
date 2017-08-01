@@ -1,0 +1,36 @@
+{
+  "trackId" : "java",
+  "talkType" : "Hands-on Labs",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>Dans ce Hands-on Lab nous verrons comment - \"from Scratch\" - créer des microservices à l'aide de WildFly Swarm et de Forge.\nForge est un outil de RAD (Rapid Application Development) centré sur Java EE, pour sa part Wildfly Swarm permet de packager des application Java EE 7 en \"fat jar\" exécutable et compatible avec MicroProfile.\nUne fois ce microservice bâtis,  nous les sécuriserons grâce à KeyCLoak, un serveur Open Source de gestion d'identité et d'authentification.</p>\n<p><strong>Les pré-requis pour ce Lab sont détaillés <a href=\"https://gist.github.com/sebastienblanc/3bd28d77971346a86526129b1ece159a\">ici</a></strong></p>\n",
+  "id" : "LPW-4412",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1454e2d0a6c2fa871454dab3dbf66f5e16b61980",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Sebastien Blanc"
+      },
+      "name" : "Sebastien Blanc"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4f411ec38191b55d2ca0558eb1cb8642d48eeb14",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Antoine Sabot-Durand"
+      },
+      "name" : "Antoine Sabot-Durand"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4c653281ee1b4ac170732db9768b7ddf9bdbd33f",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Antonin Stefanutti"
+      },
+      "name" : "Antonin Stefanutti"
+    }
+  ],
+  "title" : "Créer une application Java EE 7 compatible MicroProfile et sécurisée avec WildFly Swarm,  Forge et KeyCloak",
+  "lang" : "fr",
+  "summary" : "Dans ce Hands-on Lab nous verrons comment - \"from Scratch\" - créer des microservices à l'aide de WildFly Swarm et de Forge.\r\nForge est un outil de RAD (Rapid Application Development) centré sur Java EE, pour sa part Wildfly Swarm permet de packager des application Java EE 7 en \"fat jar\" exécutable et compatible avec MicroProfile. \r\nUne fois ce microservice bâtis,  nous les sécuriserons grâce à KeyCLoak, un serveur Open Source de gestion d'identité et d'authentification. \r\n\r\n**Les pré-requis pour ce Lab sont détaillés [ici](https://gist.github.com/sebastienblanc/3bd28d77971346a86526129b1ece159a)**"
+}

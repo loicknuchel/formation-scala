@@ -1,0 +1,36 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Hands-on Labs",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Comment gérer les données en provenance d'une flotte de taxis New-Yorkais vous informant de leur position en temps réel ? Comment se concentrer efficacement sur le traitement des données, plutôt que de passer du temps à déployer et gérer des serveurs ? Comment fournir des rapports financiers exacts au centime près pour la comptabilité et aussi des données temps réels pour le marketing, avec le même code ?</p>\n<p>Les technologies de traitement de données ont fait des progrès notables ces dix dernières années, depuis MapReduce, qui fonctionnait en batch, jusqu'aux technologies modernes capables de gérer des flux de données en temps réel.</p>\n<p>Dans ce lab, vous écrirez un pipeline de traitement en utilisant le modèle de programmation \"Dataflow\" sur lequel s'appuient à la fois Google Cloud Dataflow, un service de traitement \"serverless\" dans le cloud, et Apache Beam, sa contrepartie open source pour les déploiements internes. Vous travaillerez sur un flux de données temps réel conséquent et devrez mobiliser un cluster Dataflow pour tenir la charge.</p>\n<p><strong>IMPORTANT</strong>\nInstallation à effectuer AVANT le jour du lab:\nhttps://codelabs.developers.google.com/codelabs/cloud-dataflow-nyc-taxi-tycoon/#1</p>\n",
+  "id" : "BTF-1420",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/61dfd901ae785202fd5a87ed358657cf02b568ed",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Martin Görner"
+      },
+      "name" : "Martin Görner"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/78321fced93215fd7611de9f74263671f8e65f30",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Ludovic Champenois"
+      },
+      "name" : "Ludovic Champenois"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5d6685dc68a9b43d75febcbecadd0dccb4fd27a2",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Robert Kubis"
+      },
+      "name" : "Robert Kubis"
+    }
+  ],
+  "title" : "Le monde après MapReduce, ou le traitement de données distribué en temps réel avec Google Cloud Dataflow / Apache Beam",
+  "lang" : "en",
+  "summary" : "Comment gérer les données en provenance d'une flotte de taxis New-Yorkais vous informant de leur position en temps réel ? Comment se concentrer efficacement sur le traitement des données, plutôt que de passer du temps à déployer et gérer des serveurs ? Comment fournir des rapports financiers exacts au centime près pour la comptabilité et aussi des données temps réels pour le marketing, avec le même code ?\r\n\r\nLes technologies de traitement de données ont fait des progrès notables ces dix dernières années, depuis MapReduce, qui fonctionnait en batch, jusqu'aux technologies modernes capables de gérer des flux de données en temps réel.\r\n\r\nDans ce lab, vous écrirez un pipeline de traitement en utilisant le modèle de programmation \"Dataflow\" sur lequel s'appuient à la fois Google Cloud Dataflow, un service de traitement \"serverless\" dans le cloud, et Apache Beam, sa contrepartie open source pour les déploiements internes. Vous travaillerez sur un flux de données temps réel conséquent et devrez mobiliser un cluster Dataflow pour tenir la charge.\r\n\r\n**IMPORTANT**\r\nInstallation à effectuer AVANT le jour du lab:\r\nhttps://codelabs.developers.google.com/codelabs/cloud-dataflow-nyc-taxi-tycoon/#1"
+}

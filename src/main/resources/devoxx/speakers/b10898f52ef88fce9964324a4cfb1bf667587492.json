@@ -1,0 +1,60 @@
+{
+  "uuid" : "b10898f52ef88fce9964324a4cfb1bf667587492",
+  "bioAsHtml" : "<p>Nicolas Helleringer est directeur du pôle SRE (Site Reliability Engineering) chez Criteo.\nFéru de DevOps, il est également spécialiste en bases de données et recherches géographiques.</p>\n<p>Entre 2000 et 2007, il a participé à la construction de la plateforme\nmappy.com en tant qu&#x27;architecte réseau et base de données.\nIl est également le co-concepteur du géocodeur de mappy.com et de la\nrecherche en logique floue de celui-ci.</p>\n<p>Au cours de ses missions de conseil chez NovaCodex entre 2008 et 2013,\nil est intervenu sur les fonctionnalités géographiques\nde Lucene puis d&#x27;Hibernate Search.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "University",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/USW-7521",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a2eec3d78572a5e31b354127520841d753284c1d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Pierre-Antoine Grégoire"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/dd608e0476fbea706506f521943faa27e6e80254",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Olivier Robert"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b10898f52ef88fce9964324a4cfb1bf667587492",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Nicolas Helleringer"
+        }
+      ],
+      "id" : "USW-7521",
+      "title" : "Linux est ton meilleur ami"
+    },
+    {
+      "talkType" : "Conference",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/YHB-6488",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b10898f52ef88fce9964324a4cfb1bf667587492",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Nicolas Helleringer"
+        }
+      ],
+      "id" : "YHB-6488",
+      "title" : "Retour d'expérience DevOps : Site Reliability Engineering chez Criteo"
+    }
+  ],
+  "company" : "Criteo",
+  "bio" : "Nicolas Helleringer est directeur du pôle SRE (Site Reliability Engineering) chez Criteo.\r\nFéru de DevOps, il est également spécialiste en bases de données et recherches géographiques.\r\n\r\nEntre 2000 et 2007, il a participé à la construction de la plateforme\r\nmappy.com en tant qu'architecte réseau et base de données.\r\nIl est également le co-concepteur du géocodeur de mappy.com et de la\r\nrecherche en logique floue de celui-ci.\r\n\r\nAu cours de ses missions de conseil chez NovaCodex entre 2008 et 2013,\r\nil est intervenu sur les fonctionnalités géographiques\r\nde Lucene puis d'Hibernate Search.",
+  "lastName" : "Helleringer",
+  "firstName" : "Nicolas",
+  "blog" : "http://labs.criteo.com",
+  "avatarURL" : "http://www.gravatar.com/avatar/c44c5f06333559a420d8283105b2feff",
+  "twitter" : "@nhelleringer",
+  "lang" : "fr-FR"
+}

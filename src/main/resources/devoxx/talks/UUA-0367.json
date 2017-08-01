@@ -1,0 +1,20 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Quickie",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Les Dockerfiles sont des fichiers de code source qui décrivent les environnements de développement, CI/CD et exploitation. Ce code source mérite d'être testé de la même manière que le reste du code source de nos applications !</p>\n<p>Avec <a href=\"https://github.com/l0rd/docker-unit\">cUnit</a>, un framework de test Open Source pour Dockerfiles, les bonnes pratiques de ingénierie logicielle telles que TDD et CI/CD peuvent être appliquées à l'infrastructure.</p>\n",
+  "id" : "UUA-0367",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8017e86ee8cf824e6a8c89c7c8b75fb00c6d8a90",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Mario Loriedo"
+      },
+      "name" : "Mario Loriedo"
+    }
+  ],
+  "title" : "cUnit, le xUnit pour conteneurs",
+  "lang" : "fr",
+  "summary" : "Les Dockerfiles sont des fichiers de code source qui décrivent les environnements de développement, CI/CD et exploitation. Ce code source mérite d'être testé de la même manière que le reste du code source de nos applications ! \r\n\r\nAvec [cUnit](https://github.com/l0rd/docker-unit), un framework de test Open Source pour Dockerfiles, les bonnes pratiques de ingénierie logicielle telles que TDD et CI/CD peuvent être appliquées à l'infrastructure.\r\n"
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Conference",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>IBM a été l'un des pionniers à croire à l'utilisation des containers Docker. La plate-forme Cloud d'IBM (Bluemix) fournit différents services pour implémenter ces containers depuis 2014. Le but de cette conférence est de passer en revue l'utilisation et les avantages des containers Docker sur Bluemix ainsi que de voir la stratégie d'IBM sur ce sujet pour 2017. A la fin de la session, nous ferons une démonstration des IBM containers sur Bluemix.</p>\n",
+  "id" : "JYK-8203",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/cde64d9e014098380d3570d218aa057c7d1dc9f2",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Philippe THOMAS"
+      },
+      "name" : "Philippe THOMAS"
+    }
+  ],
+  "title" : "Utilisations et avantages des containers Docker sous Bluemix",
+  "lang" : "fr",
+  "summary" : "IBM a été l'un des pionniers à croire à l'utilisation des containers Docker. La plate-forme Cloud d'IBM (Bluemix) fournit différents services pour implémenter ces containers depuis 2014. Le but de cette conférence est de passer en revue l'utilisation et les avantages des containers Docker sur Bluemix ainsi que de voir la stratégie d'IBM sur ce sujet pour 2017. A la fin de la session, nous ferons une démonstration des IBM containers sur Bluemix.  "
+}

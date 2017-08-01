@@ -1,0 +1,60 @@
+{
+  "uuid" : "69b4032195e405af7ad127ec72cc0b0c3243a6bb",
+  "bioAsHtml" : "<p>Ingénieur logiciel de formation, j&#x27;occupe aujourd&#x27;hui le poste d&#x27;expert Java chez Weborama. Passionné de sécurité, de cryptographie (10 ans d&#x27;expérience dans l&#x27;industrie de signature électronique et de la PKI), mais également intéressé par les usines logicielles et le &quot;Cloud Native Computing&quot;.\nJe fais aussi parti de l&#x27;équipe d&#x27;organisation du ParisJUG et je co-créé le meetup Cloud Native Computing Paris.\nJ&#x27;ai développé la bibliothèque open source digest.js (https://github.com/jcsirot/digest.js) et quelques plugins pour Jenkins (Custom Job Icon, Ansible et Quay.io Trigger).</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/GEG-9960",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0867c4e2182ef84e2dfcd412e33e01a9bc98dac2",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Charles Sabourdin"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/69b4032195e405af7ad127ec72cc0b0c3243a6bb",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Christophe Sirot"
+        }
+      ],
+      "id" : "GEG-9960",
+      "title" : "Raconte-moi X.509 : anatomie d'une autorité de certification"
+    },
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/SGX-3211",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/69b4032195e405af7ad127ec72cc0b0c3243a6bb",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Christophe Sirot"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b90f822bbd8bd88166e0b87dbe316d019304fcb0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Smaine Kahlouch"
+        }
+      ],
+      "id" : "SGX-3211",
+      "title" : "BOF Cloud Native Computing"
+    }
+  ],
+  "company" : "Weborama",
+  "bio" : "Ingénieur logiciel de formation, j'occupe aujourd'hui le poste d'expert Java chez Weborama. Passionné de sécurité, de cryptographie (10 ans d'expérience dans l'industrie de signature électronique et de la PKI), mais également intéressé par les usines logicielles et le \"Cloud Native Computing\".\r\nJe fais aussi parti de l'équipe d'organisation du ParisJUG et je co-créé le meetup Cloud Native Computing Paris.\r\nJ'ai développé la bibliothèque open source digest.js (https://github.com/jcsirot/digest.js) et quelques plugins pour Jenkins (Custom Job Icon, Ansible et Quay.io Trigger).",
+  "lastName" : "Sirot",
+  "firstName" : "Jean-Christophe",
+  "blog" : "http://www.coding-stories.com/",
+  "avatarURL" : "https://lh5.googleusercontent.com/-HJbXq_Z71z8/AAAAAAAAAAI/AAAAAAAABGc/QWuIzSzyfU8/photo.jpg",
+  "twitter" : "@jcsirot",
+  "lang" : "fr"
+}

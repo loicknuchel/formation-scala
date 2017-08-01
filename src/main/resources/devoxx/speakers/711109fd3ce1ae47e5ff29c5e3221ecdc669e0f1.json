@@ -1,0 +1,37 @@
+{
+  "uuid" : "711109fd3ce1ae47e5ff29c5e3221ecdc669e0f1",
+  "bioAsHtml" : "<p>Je suis un développeur full-stack passionné. Après avoir travaillé chez IBM France Lab, je rejoins Yoann Buch pour créer un outil de développement qui a pour objectif d&#x27;aider les développeurs comme nous à comprendre plus efficacement leurs applications.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/PTA-8724",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/22b1b5a9757f0b71f53a53fa52d7454b74295d13",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yoann Buch"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/711109fd3ce1ae47e5ff29c5e3221ecdc669e0f1",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yiquan Zhou"
+        }
+      ],
+      "id" : "PTA-8724",
+      "title" : "Visualisez l'exécution de votre code avec Flow"
+    }
+  ],
+  "company" : "Flow",
+  "bio" : "Je suis un développeur full-stack passionné. Après avoir travaillé chez IBM France Lab, je rejoins Yoann Buch pour créer un outil de développement qui a pour objectif d'aider les développeurs comme nous à comprendre plus efficacement leurs applications.",
+  "lastName" : "Zhou",
+  "firstName" : "Yiquan",
+  "blog" : "http://findtheflow.io",
+  "avatarURL" : "https://media.licdn.com/mpr/mpr/shrink_200_200/p/2/005/05c/08b/13f48b0.jpg",
+  "twitter" : "@zhouyiquan",
+  "lang" : "fr"
+}

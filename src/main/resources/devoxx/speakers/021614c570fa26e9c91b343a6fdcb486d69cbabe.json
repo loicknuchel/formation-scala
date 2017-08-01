@@ -1,0 +1,32 @@
+{
+  "uuid" : "021614c570fa26e9c91b343a6fdcb486d69cbabe",
+  "bioAsHtml" : "<p>Après avoir fait du développement autour des bus de terrain dans le bâtiment (pilotage de chauffage, supervision, ...), il est passé dans le monde des SSII pour faire du Java, du  Web, ... pendant 15+ années.\nDepuis quelques temps, il utilise ses diverses expériences pour faire du &quot;physical computing&quot;, connecter divers objets (minitel, compteur EDF, ballon ECS, ...) et partager ses découvertes / idées. Il est récemment passé dans l&#x27;industrie de la robotique.</p>\n<p>Même si le orange lui pique parfois les yeux, il est ravi de faire partie de l&#x27;équipe du BreizhJUG et de contribuer à la réussite du BreizhCamp.</p>\n<p>Signe particulier : il aime le hard ... et promène parfois un minitel Telic 1</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Mobile, IoT",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/BEH-8866",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/021614c570fa26e9c91b343a6fdcb486d69cbabe",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Laurent HUET"
+        }
+      ],
+      "id" : "BEH-8866",
+      "title" : "Kit de survie pour l'IoT façon DIY"
+    }
+  ],
+  "company" : "BA Systèmes",
+  "bio" : "Après avoir fait du développement autour des bus de terrain dans le bâtiment (pilotage de chauffage, supervision, ...), il est passé dans le monde des SSII pour faire du Java, du  Web, ... pendant 15+ années. \r\nDepuis quelques temps, il utilise ses diverses expériences pour faire du \"physical computing\", connecter divers objets (minitel, compteur EDF, ballon ECS, ...) et partager ses découvertes / idées. Il est récemment passé dans l'industrie de la robotique.\r\n\r\nMême si le orange lui pique parfois les yeux, il est ravi de faire partie de l'équipe du BreizhJUG et de contribuer à la réussite du BreizhCamp.\r\n\r\nSigne particulier : il aime le hard ... et promène parfois un minitel Telic 1",
+  "lastName" : "HUET",
+  "firstName" : "Laurent",
+  "blog" : "http://lhuet.github.io/blog/",
+  "avatarURL" : "https://lh4.googleusercontent.com/-jSCzNvYqVpI/AAAAAAAAAAI/AAAAAAAAAZ8/zYUjcUYw48I/photo.jpg",
+  "twitter" : "@lhuet35",
+  "lang" : "fr-FR"
+}

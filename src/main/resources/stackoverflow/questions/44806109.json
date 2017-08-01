@@ -1,0 +1,25 @@
+{
+  "question_id" : 44806109,
+  "title" : "Cannot read property &#39;list_tags&#39; of undefined",
+  "body" : "<p>I have the model <code>Url</code>:  </p>\n\n<pre><code>export class Url {\n    author: String;\n    description: String;\n    list_tags: [{\n        name: String\n    }];\n    count_click: Number;\n    full_url: String;\n    short_url: String;\n    date: String;\n    time: String;\n}\n</code></pre>\n\n<p>From server side I get the data about url by id in <code>info-url.component.ts</code>:  </p>\n\n<pre><code>import { Component, OnInit } from '@angular/core';\nimport { ActivatedRoute } from '@angular/router';\n\nimport { Url } from '../shared/models/url.model';\nimport { UrlService } from '../shared/services/url.service';\n\n@Component({\n  selector: 'app-info-url',\n  templateUrl: 'info-url.component.html',\n  styleUrls: ['info-url.component.scss']\n})\nexport class InfoUrlComponent implements OnInit {\n\n  url: Url;\n  edit: boolean = false;\n\n  constructor(\n      private urlService: UrlService,\n      private route: ActivatedRoute) {}\n\n  ngOnInit() {\n    let id = this.route.snapshot.params['id'];\n    this.urlService.getUrlById(id).subscribe(\n        data =&gt; {\n          this.url = data.url;\n          this.edit = data.edit;\n        }\n    )\n  }\n\n}\n</code></pre>\n\n<p>Got data I output in <code>info-url.component.html</code>:  </p>\n\n<pre><code>&lt;div class=\"container\"&gt;\n  &lt;h1&gt;Little info about url&lt;/h1&gt;\n  &lt;div class=\"url\"&gt;\n    &lt;p&gt;Full url: {{url.full_url}}&lt;/p&gt;\n    &lt;p&gt;Shortener-url: {{url.short_url}}&lt;/p&gt;\n    &lt;div class=\"description\"&gt;\n      &lt;h3&gt;Little description:&lt;/h3&gt;\n      &lt;p&gt;{{url.description}}&lt;/p&gt;\n    &lt;/div&gt;\n    &lt;div class=\"tags\"&gt;\n      &lt;div *ngFor=\"let tag of url.list_tags\"&gt;\n        &lt;a&gt;{{tag.name}}&lt;/a&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n    &lt;div class=\"count\"&gt;\n      &lt;p&gt;{{url.count_click}}&lt;/p&gt;\n    &lt;/div&gt;\n    &lt;div class=\"date-time\"&gt;\n      &lt;p&gt;Date: {{url.date}}&lt;/p&gt;\n      &lt;p&gt;Url: {{url.time}}&lt;/p&gt;\n    &lt;/div&gt;\n    &lt;div class=\"user\"&gt;\n      &lt;p&gt;Created by: &lt;a&gt;{{url.author}}&lt;/a&gt;&lt;/p&gt;\n    &lt;/div&gt;\n    &lt;div *ngIf=\"edit\"&gt;\n      &lt;button class=\"btn btn-success\"&gt;Edit&lt;/button&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n</code></pre>\n\n<p>In console output the next erros:<br>\n<code>ERROR TypeError: Cannot read property 'list_tags' of undefined</code>.<br>\nNeed to see 11th line in which <code>*ngFor</code> directive executes .</p>\n\n<p>I could not understand why error has in the template.\nPlease, help me.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806109/cannot-read-property-list-tags-of-undefined",
+  "owner" : {
+    "user_id" : 7021445,
+    "user_type" : "registered",
+    "display_name" : "Alexey Korkoza",
+    "profile_image" : "https://i.stack.imgur.com/sYcU2.png?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/7021445/alexey-korkoza",
+    "reputation" : 11,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661907,
+  "last_activity_date" : 1498661907,
+  "tags" : [
+    "angular",
+    "angular2-template"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

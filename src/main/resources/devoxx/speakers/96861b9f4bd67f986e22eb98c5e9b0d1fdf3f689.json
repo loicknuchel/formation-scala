@@ -1,0 +1,37 @@
+{
+  "uuid" : "96861b9f4bd67f986e22eb98c5e9b0d1fdf3f689",
+  "bioAsHtml" : "<p>Software Craftsman &amp; CTO @ArollaFr\n/[bd]dd/ fanboy, distributed system, software design and testing in java with a hint of clojure &amp; erlang</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/GXS-1080",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b4f2685d545ff927785480eceb1005e93d136a28",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yvan VU"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/96861b9f4bd67f986e22eb98c5e9b0d1fdf3f689",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Arnauld Loyer"
+        }
+      ],
+      "id" : "GXS-1080",
+      "title" : "Erlang : Reactive Microservices since 1987"
+    }
+  ],
+  "company" : "Arolla",
+  "bio" : "Software Craftsman & CTO @ArollaFr \r\n/[bd]dd/ fanboy, distributed system, software design and testing in java with a hint of clojure & erlang",
+  "lastName" : "Loyer",
+  "firstName" : "Arnauld",
+  "blog" : "http://arnauld.github.com",
+  "avatarURL" : "http://ncrafts.io/speakers/ArnauldLoyerNB.jpg",
+  "twitter" : "@aloyer",
+  "lang" : "fr"
+}

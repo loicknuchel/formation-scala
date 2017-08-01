@@ -1,0 +1,20 @@
+{
+  "trackId" : "future",
+  "talkType" : "Conference",
+  "track" : "Future, Robotique",
+  "summaryAsHtml" : "<p>Venez découvrir la réalité mixte, les hologrammes et Microsoft HoloLens, le premier ordinateur holographique autonome. Nous en découvrirons les concepts, les usages, les caractéristiques et nous verrons comment développer dessus en 2D et, bien sûr, en 3D !</p>\n",
+  "id" : "AKF-1774",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a3f3cdabc1215c2dbb2d6aa9644fbc5225258fcd",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Michel Rousseau"
+      },
+      "name" : "Michel Rousseau"
+    }
+  ],
+  "title" : "Soyez Holographique !",
+  "lang" : "fr",
+  "summary" : "Venez découvrir la réalité mixte, les hologrammes et Microsoft HoloLens, le premier ordinateur holographique autonome. Nous en découvrirons les concepts, les usages, les caractéristiques et nous verrons comment développer dessus en 2D et, bien sûr, en 3D !"
+}

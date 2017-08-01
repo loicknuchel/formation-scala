@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825900,
+  "title" : "Want to speed up my vb.net For Each loop",
+  "body" : "<p>I am making a website and I have a for each loop that is taking 2.5 minutes to run through. </p>\n\n<p>I am wondering if anyone knows how i can speed it up. Both of the if statements inside of the loop have to remain there.</p>\n\n<pre><code> Protected Sub WebDataGrid1_InitializeRow(sender As Object, e As Infragistics.Web.UI.GridControls.RowEventArgs) Handles WebDataGrid1.InitializeRow\n        Dim SqlString As String = \"\"\n        Dim TerrMapTable As New DataTable\n        Dim Terr As String = \"\"\n        Dim RgnMgr As String = \"\"\n        Dim Reg As String = \"\"\n        Dim TerrMap As String = \"\"\n\n        For Each GridRecord As GridRecord In WebDataGrid1.Rows\n            Terr = GridRecord.Items.FindItemByKey(\"ABAN8\").Value\n            RgnMgr = GridRecord.Items.FindItemByKey(\"RgnMgr\").Value\n            If Terr &lt; 9000 Then\n                Terr = \"T\" &amp; Terr\n            Else\n                Terr = \"TA1\" &amp; Right(Terr, 2)\n            End If\n\n            SqlString = \"Select distinct Terr, Region from TerrReg WHERE Terr='\" &amp; Terr &amp; \"'\"\n\n            TerrMapTable = OleFun.GetMyDataTableString(SqlString, 4)\n\n            If TerrMapTable.Rows.Count &lt;&gt; 0 Then\n                Reg = TerrMapTable(0)(1)\n\n                TerrMap = \"&lt;a href=\"\"/Mapper/Territory_Maps/\" &amp; Reg &amp; \"/\" &amp; Terr &amp; \"/\" &amp; Terr &amp; \"-\" &amp; Reg &amp; \"-\" &amp; \"Territory.htm\"\" target=\"\"_Blank\"\"&gt;&lt;b&gt;PIC&lt;/b&gt;&lt;/a&gt;\"\n\n                GridRecord.Items.FindItemByKey(\"TerrMap\").Text = TerrMap\n            Else\n            End If\n        Next\n\n    End Sub\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44825900/want-to-speed-up-my-vb-net-for-each-loop",
+  "owner" : {
+    "user_id" : 8231829,
+    "user_type" : "registered",
+    "display_name" : "kmizle",
+    "profile_image" : "https://www.gravatar.com/avatar/ad59c97be322d07c729e457bf6dfe0b9?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8231829/kmizle",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741293,
+  "last_activity_date" : 1498742132,
+  "tags" : [
+    "vb.net",
+    "infragistics"
+  ],
+  "score" : 0,
+  "view_count" : 16,
+  "answer_count" : 1
+}

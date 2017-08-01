@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826513,
+  "title" : "Calling elasticsearch via curl in php",
+  "body" : "<p>I have some problems getting data from elasticsearch. I have tested the following simple php script (no framework necessary):</p>\n\n<pre><code>&lt;?php\n$url = \"curl -XGET http://&lt;myelasticurl&gt;:80/_cat/indices\";\n$username = \"testUser\";\n$password = \"secret\";\n\n$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, $url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_USERPWD, \"$username:$password\");\ncurl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);\n$output = curl_exec($ch);\n$info = curl_getinfo($ch);\ncurl_close($ch);\n\nvar_dump($output);\n?&gt;\n</code></pre>\n\n<p>The only response I get is: <code>\"bool(false)\"</code></p>\n",
+  "link" : "https://stackoverflow.com/questions/44826513/calling-elasticsearch-via-curl-in-php",
+  "owner" : {
+    "user_id" : 2188537,
+    "user_type" : "registered",
+    "display_name" : "altralaser",
+    "profile_image" : "https://www.gravatar.com/avatar/bdce26a2a5ac03965067933b22ef53fe?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/2188537/altralaser",
+    "reputation" : 449,
+    "accept_rate" : 76
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742932,
+  "last_activity_date" : 1498743526,
+  "tags" : [
+    "php",
+    "elasticsearch"
+  ],
+  "score" : 0,
+  "view_count" : 13,
+  "answer_count" : 0
+}

@@ -1,0 +1,42 @@
+{
+  "uuid" : "c12f4700653d4486770fc18d20419e9766c60cd2",
+  "bioAsHtml" : "<p>Sébastien travaille chez SERLI à Nantes et est actuellement Lead Developer du projet <a href=\"www.souse.fr\">SoUse</a>, l&#x27;agrégateur de services de l&#x27;économie collaborative.</p>\n<p>Les technos qu&#x27;il utilise en ce moment : Play2, Scala, React, Elastic, Mongo, Docker, Prismic, Auth0.</p>\n<p>Vous pouvez le croiser dans différentes conférences : JUGs, Devoxx, BreizhCamp, Dev Fest, JugSummerCamp et plus récemment le Web2Day.</p>\n<p>Il est également à l&#x27;initiative du projet <a href=\"http://www.devconferences.org\">DevConferences</a></p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "University",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/LDQ-6087",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c12f4700653d4486770fc18d20419e9766c60cd2",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sébastien PRUNIER"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c7161bbb4136867cd2db30cabd9472a3533260a1",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Chris Woodrow"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/928fb729aded7d9a2e1452ca269e0559e8cab7ff",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Mathieu ANCELIN"
+        }
+      ],
+      "id" : "LDQ-6087",
+      "title" : "Minimum Viable Product In Action"
+    }
+  ],
+  "company" : "SERLI",
+  "bio" : "Sébastien travaille chez SERLI à Nantes et est actuellement Lead Developer du projet [SoUse](www.souse.fr), l'agrégateur de services de l'économie collaborative.\r\n\r\nLes technos qu'il utilise en ce moment : Play2, Scala, React, Elastic, Mongo, Docker, Prismic, Auth0.\r\n\r\nVous pouvez le croiser dans différentes conférences : JUGs, Devoxx, BreizhCamp, Dev Fest, JugSummerCamp et plus récemment le Web2Day.\r\n\r\nIl est également à l'initiative du projet [DevConferences](http://www.devconferences.org)",
+  "lastName" : "PRUNIER",
+  "firstName" : "Sébastien",
+  "blog" : "http://blog.sebprunier.com",
+  "avatarURL" : "http://www.gravatar.com/avatar/9ec96799dd90029b4f1caf6d1475c1bb?s=512",
+  "twitter" : "@sebprunier",
+  "lang" : "fr"
+}

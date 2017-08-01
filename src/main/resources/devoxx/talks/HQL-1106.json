@@ -1,0 +1,28 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Conference",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Ippon supporte depuis 2013 le projet JHipster dont la version 4.0 vient de sortir et qui comptabilise 300 contributeurs et 6000 étoiles sur GitHub.\nCe talk vous donnera une vision \"Geek\" (Julien) et \"Boss\" (Geoffray) sur les raisons profondes qui ont motivé le projet et son soutien dans le temps par Ippon.\nCe talk vous permettra également de comprendre ce que vous pouvez attendre d'un projet Open Source de cette ampleur et les difficultés associées.</p>\n",
+  "id" : "HQL-1106",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/de3da7575830a16e641d43204cab18b671809dec",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Julien Dubois"
+      },
+      "name" : "Julien Dubois"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a3b944e4c133a014fdea3d5bc7217572a34792ce",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Geoffray Gruel"
+      },
+      "name" : "Geoffray Gruel"
+    }
+  ],
+  "title" : "Open Source depuis les tranchées : 4 ans de JHipster @Ippon",
+  "lang" : "fr",
+  "summary" : "Ippon supporte depuis 2013 le projet JHipster dont la version 4.0 vient de sortir et qui comptabilise 300 contributeurs et 6000 étoiles sur GitHub.\r\nCe talk vous donnera une vision \"Geek\" (Julien) et \"Boss\" (Geoffray) sur les raisons profondes qui ont motivé le projet et son soutien dans le temps par Ippon.\r\nCe talk vous permettra également de comprendre ce que vous pouvez attendre d'un projet Open Source de cette ampleur et les difficultés associées."
+}

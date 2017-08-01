@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826046,
+  "title" : "Angular 4 + Cordova + Device Ready",
+  "body" : "<p>What is the best approach to run (or bootstrapping) an angular-cli based app on Cordova?</p>\n\n<p>Note: This is for an Angular 4.x app for which multiple Cordova plugins are being used.</p>\n\n<p>Option A: Post <strong>ng build</strong>, in your www/index.html (www is Cordova folder) should you do something like:</p>\n\n<pre><code>&lt;script src=\"cordova.js\"&gt;&lt;/script&gt;\n&lt;script&gt;\ndocument.addEventListener('deviceready', onDeviceReady, false);\n\nfunction onDeviceReady() {\n  console.log('onDeviceReady has been called. Lets start loading JS files.');\n  var url = ['inline.bundle.js', 'polyfills.bundle.js', 'styles.bundle.js', 'vendor.bundle.js', 'main.bundle.js'];\n  for(var i = 0; i &lt; url.length; i++){\n    loadJSFile(url[i]);\n  }\n}\n\nfunction loadJSFile(url) {\n    var head = document.getElementsByTagName('head')[0];\n    var script = document.createElement('script');\n    script.type = 'text/javascript';\n    script.src = url;\n    head.appendChild(script);\n}\n&lt;/script&gt;\n</code></pre>\n\n<p>OR, </p>\n\n<p>Option B: The onDeviceReady() can go somewhere inside main.ts (before bootstrapping AppModule), or app.component.ts.</p>\n\n<p>I have tried Option A, but my app is taking too long to load on iPad. So I wanted to know if I am following a good approach or not. Thanks in advance for your suggestions. </p>\n",
+  "link" : "https://stackoverflow.com/questions/44826046/angular-4-cordova-device-ready",
+  "owner" : {
+    "user_id" : 8226275,
+    "user_type" : "registered",
+    "display_name" : "hmadev",
+    "profile_image" : "https://www.gravatar.com/avatar/171f43fe21adc749311fbc108cf695e9?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8226275/hmadev",
+    "reputation" : 6,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741649,
+  "last_activity_date" : 1498741649,
+  "tags" : [
+    "angular",
+    "cordova",
+    "angular-cli"
+  ],
+  "score" : 1,
+  "view_count" : 9,
+  "answer_count" : 0
+}

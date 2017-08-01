@@ -1,0 +1,37 @@
+{
+  "uuid" : "ba82dfb0cd56f32a8507cbb7c0a9677dabb4ce71",
+  "bioAsHtml" : "<p>Galder Zamarreño is a core R&amp;D engineer at JBoss, a division of Red Hat. He is one of the founding engineers of Infinispan, Red Hat&#x27;s distributed, in-memory key-value store and he currently spends most of his time developing Infinispan&#x27;s Node.js client as well as other data grid and caching functionality. He is very keen on functional programming and has been developing Scala since 2009. Galder has previously worked with JBoss customers helping them build highly distributed and massively scalable Application Server clusters based on technologies such as JGroups and JBoss Cache.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/UKK-0693",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/419d72a808d490afdf5721dc44e29c64fa02524c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Emmanuel Bernard"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ba82dfb0cd56f32a8507cbb7c0a9677dabb4ce71",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Galder Zamarreño"
+        }
+      ],
+      "id" : "UKK-0693",
+      "title" : "Architecture par la pratique: patterns d’utilisation de systèmes in-memory - WD-40 entre vos données et vos applis"
+    }
+  ],
+  "company" : "Red Hat",
+  "bio" : "Galder Zamarreño is a core R&D engineer at JBoss, a division of Red Hat. He is one of the founding engineers of Infinispan, Red Hat's distributed, in-memory key-value store and he currently spends most of his time developing Infinispan's Node.js client as well as other data grid and caching functionality. He is very keen on functional programming and has been developing Scala since 2009. Galder has previously worked with JBoss customers helping them build highly distributed and massively scalable Application Server clusters based on technologies such as JGroups and JBoss Cache. ",
+  "lastName" : "Zamarreño",
+  "firstName" : "Galder",
+  "blog" : "http://galder.zamarreno.com",
+  "avatarURL" : "http://www.gravatar.com/avatar/e33c04308507d8a2842cbb2a80ea4c20",
+  "twitter" : "@galderz",
+  "lang" : "fr"
+}

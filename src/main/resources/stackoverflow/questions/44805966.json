@@ -1,0 +1,28 @@
+{
+  "question_id" : 44805966,
+  "title" : "Close Drawer with click next to items",
+  "body" : "<p>How can I close a NavigationDrawer with click next to items?</p>\n\n<p><a href=\"https://i.stack.imgur.com/ywvSx.jpg\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/ywvSx.jpg\" alt=\"enter image description here\"></a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44805966/close-drawer-with-click-next-to-items",
+  "owner" : {
+    "user_id" : 8226820,
+    "user_type" : "registered",
+    "display_name" : "h3nn1n9",
+    "profile_image" : "https://www.gravatar.com/avatar/eb2126ae309259e13c1d3b9146cc125d?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8226820/h3nn1n9",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661578,
+  "last_activity_date" : 1498661718,
+  "tags" : [
+    "android",
+    "android-layout",
+    "android-studio",
+    "navigation-drawer",
+    "navigationbar"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 0
+}

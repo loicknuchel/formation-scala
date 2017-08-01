@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826228,
+  "title" : "Linker cannot resolve personalized exception",
+  "body" : "<p>I'm trying to throw an exception in c++ that is personalized. I've also tried to declare the exception class in the namespace without include the headers directly on the affected class but seems that nothing works properly... Also with Linker :( </p>\n\n<p>Exception class:</p>\n\n<pre><code>#pragma once\n#include &lt;stdexcept&gt;\n\nclass NoBaseClassCallException : public std::exception\n{\npublic:\n    NoBaseClassCallException();\n\n    const char* what() const throw() override\n    {\n        return \"NoBaseClassCallException\";\n    }\n\n    ~NoBaseClassCallException();\n};\n</code></pre>\n\n<p>My code where I want to throw the exception:</p>\n\n<pre><code>#pragma once\n#include \"NoBaseClassCallException.h\"\n\nLoggerFile::LoggerFile()\n{\n    if (Logger::isNotOperating())\n        throw new NoBaseClassCallException();\n}\n</code></pre>\n\n<p>Error code of Linker:</p>\n\n<pre><code>LoggerFile.obj : error LNK2019: unresolved external symbol \"public: __thiscall NoBaseClassCallException::NoBaseClassCallException(void)\" (??0NoBaseClassCallException@@QAE@XZ) referenced in function \"public: __thiscall LoggerFile::LoggerFile(void)\" (??0LoggerFile@@QAE@XZ)\n</code></pre>\n\n<p>Any reference or help to understand what is happening would be very grateful!</p>\n\n<p>Thank you in advance.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826228/linker-cannot-resolve-personalized-exception",
+  "owner" : {
+    "user_id" : 7256953,
+    "user_type" : "registered",
+    "display_name" : "newdarkworld",
+    "profile_image" : "https://i.stack.imgur.com/tgwwj.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/7256953/newdarkworld",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742188,
+  "last_activity_date" : 1498742188,
+  "tags" : [
+    "c++",
+    "visual-studio",
+    "linker"
+  ],
+  "score" : 0,
+  "view_count" : 10,
+  "answer_count" : 0
+}

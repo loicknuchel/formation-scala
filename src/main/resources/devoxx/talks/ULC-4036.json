@@ -1,0 +1,28 @@
+{
+  "trackId" : "wm",
+  "talkType" : "University",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Antonio est un développeur Java et ne connait rien aux interfaces utilisateurs. Il utilise son Mac pour développer des micro-services Java EE, les exécute avec WildFly Swarm, les package dans du Docker et expose de belles interfaces REST.</p>\n<p>Sébastien est un développeur TypeScript et ne connait rien à Java. Employé chez Microsoft, il utilise son PC pour développer de belles interfaces utilisateurs avec TypeScript et Angular2 pour invoquer les services REST exposés par Antonio.</p>\n<p>Cette université est destinée aux développeurs Java qui souhaitent découvrir comment utiliser un front-end Angular2/TypeScript avec un back-end Java/MicroProfile. Elle est composée de deux parties :</p>\n<p>1) Plus théorique : présentation du Micro Profile Java EE, WildFly Swarm, de la syntaxe TypeScript et d'Angular 2.\n2) Plus pratique : développement d'une application Angular 2 utilisant plusieurs back-ends REST (JAX-RS, JSon:API, Swagger, Cors, Hateoas, ETag, JWT, Traeffik).</p>\n",
+  "id" : "ULC-4036",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/2b935a5bfa04635d2e4c196afa7385ee2d254dde",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Antonio Goncalves"
+      },
+      "name" : "Antonio Goncalves"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0f290b7af448fc1401eee1921e06fc60e1ce3b77",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Sébastien Pertus"
+      },
+      "name" : "Sébastien Pertus"
+    }
+  ],
+  "title" : "Java EE, Micro Profile, TypeScript et Angular 2",
+  "lang" : "fr",
+  "summary" : "Antonio est un développeur Java et ne connait rien aux interfaces utilisateurs. Il utilise son Mac pour développer des micro-services Java EE, les exécute avec WildFly Swarm, les package dans du Docker et expose de belles interfaces REST.\r\n\r\nSébastien est un développeur TypeScript et ne connait rien à Java. Employé chez Microsoft, il utilise son PC pour développer de belles interfaces utilisateurs avec TypeScript et Angular2 pour invoquer les services REST exposés par Antonio.\r\n\r\nCette université est destinée aux développeurs Java qui souhaitent découvrir comment utiliser un front-end Angular2/TypeScript avec un back-end Java/MicroProfile. Elle est composée de deux parties :\r\n\r\n1) Plus théorique : présentation du Micro Profile Java EE, WildFly Swarm, de la syntaxe TypeScript et d'Angular 2.\r\n2) Plus pratique : développement d'une application Angular 2 utilisant plusieurs back-ends REST (JAX-RS, JSon:API, Swagger, Cors, Hateoas, ETag, JWT, Traeffik)."
+}

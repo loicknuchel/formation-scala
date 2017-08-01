@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826382,
+  "title" : "How to get day name in a date in node js",
+  "body" : "<p>I have a date like this</p>\n\n<p>2017-06-23\nand my desired output is </p>\n\n<p>Friday June 23 2017</p>\n\n<pre><code> v.npi.appointment_dates[j] = date.toLocaleString('en-US', {year: 'numeric', month: 'long', day: 'numeric' });\n</code></pre>\n\n<p>But because of the day: 'numeric'  I am missing the day name.It cosumed almost 3 hours.Can anyone please help me.Thanks.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826382/how-to-get-day-name-in-a-date-in-node-js",
+  "owner" : {
+    "user_id" : 8205819,
+    "user_type" : "registered",
+    "display_name" : "Duster",
+    "profile_image" : "https://www.gravatar.com/avatar/daeb73e277856060985163da906a0a4e?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8205819/duster",
+    "reputation" : 11,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742603,
+  "last_activity_date" : 1498743468,
+  "tags" : [
+    "javascript",
+    "date",
+    "time",
+    "meanjs"
+  ],
+  "score" : -1,
+  "view_count" : 14,
+  "answer_count" : 2
+}

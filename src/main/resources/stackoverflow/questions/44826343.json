@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826343,
+  "title" : "Which Node module or JS code to use in order to send Push Notification (via FCM) to Android device?",
+  "body" : "<p>Trying to find easiest and most reliable way to send Push Notifications (PN) to Android (with newer FCM) using JavaScript.</p>\n\n<p>Does anyone have experience which Node module is good for Android for FCM? </p>\n\n<p>Or maybe is better to use just a regular POST request to Google service? (is there a working example for this way just to confirm?)</p>\n\n<p>Thanks!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826343/which-node-module-or-js-code-to-use-in-order-to-send-push-notification-via-fcm",
+  "owner" : {
+    "user_id" : 5285068,
+    "user_type" : "registered",
+    "display_name" : "Joe",
+    "profile_image" : "https://www.gravatar.com/avatar/8967c033e617a2fb6f7d8fd7b5a12eb5?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/5285068/joe",
+    "reputation" : 79,
+    "accept_rate" : 32
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742501,
+  "last_activity_date" : 1498742501,
+  "tags" : [
+    "javascript",
+    "node.js",
+    "firebase",
+    "push-notification"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 0
+}

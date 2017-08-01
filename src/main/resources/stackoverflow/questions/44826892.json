@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826892,
+  "title" : "To Reduce zoomDuration value defined in zoomMethod in OpenLayers.js",
+  "body" : "<p><strong>How do I override zoomMethod so that i can reduce the zoomDuration value from 20(Default) to 2 ?</strong></p>\n",
+  "link" : "https://stackoverflow.com/questions/44826892/to-reduce-zoomduration-value-defined-in-zoommethod-in-openlayers-js",
+  "owner" : {
+    "user_id" : 8095916,
+    "user_type" : "registered",
+    "display_name" : "Varsha",
+    "profile_image" : "https://www.gravatar.com/avatar/a13e0c4c167beb442e8b0396a7af307a?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8095916/varsha",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743823,
+  "last_activity_date" : 1498743823,
+  "tags" : [
+    "openlayers"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

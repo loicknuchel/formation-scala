@@ -1,0 +1,47 @@
+{
+  "uuid" : "5f3b5c7e2d3de6aa8d621dda5add4b222cde9ed5",
+  "bioAsHtml" : "<p>PhD on Recommender Systems and Operation research\nChief Data Scientist at Saagie\nWorks on Deep Learning\nFan of AI</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "University",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/IAW-7890",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/96409f05d7b7849b819376e797097b7822d762ac",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Youen Chéné"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/53d84e8731994ab75562de023302932a5454f3c0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Fabien Vauchelles"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5f3b5c7e2d3de6aa8d621dda5add4b222cde9ed5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Romain Picot-Clémente"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8840d491628893d4dcedbdec02c8126da649ffa0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sébastien Collet"
+        }
+      ],
+      "id" : "IAW-7890",
+      "title" : "Université de la datascience"
+    }
+  ],
+  "company" : "Saagie",
+  "bio" : "PhD on Recommender Systems and Operation research\r\nChief Data Scientist at Saagie\r\nWorks on Deep Learning\r\nFan of AI",
+  "lastName" : "Picot-Clémente",
+  "firstName" : "Romain",
+  "blog" : null,
+  "avatarURL" : "https://www.saagie.com/user/pages/team/Romain.jpg",
+  "twitter" : null,
+  "lang" : "fr"
+}

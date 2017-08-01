@@ -1,0 +1,20 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Conference",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>Kubernetes is a powerful, open source, container orchestration / cluster management tool created by Google. It drew upon all the lessons learned from a near-decade of using containers at Google. Kubernetes handles deployment and provisioning of your application architecture, and it also handles number of failure scenarios gracefully, from a crashed process, to a failure of a cluster node. In this talk, we will develop a Java application locally, run and test it locally and deploying it into a cluster of machines with Kubernetes and container orchestration. But we'll take this even a step further, and see how we can configure and utilize Kubernetes Cluster Federation to deploy this application into multiple datacenter regions around the globe, configuring global load balancing, and regional level service discovery that can handle a variety of failure scenarios.</p>\n",
+  "id" : "HNZ-9627",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/df99375da7969259cf8d11aa131c9adfc5b06d9c",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Ray Tsang"
+      },
+      "name" : "Ray Tsang"
+    }
+  ],
+  "title" : "From Laptop to the World - Global deployment at your fingertip w/ Kubernetes",
+  "lang" : "en",
+  "summary" : "Kubernetes is a powerful, open source, container orchestration / cluster management tool created by Google. It drew upon all the lessons learned from a near-decade of using containers at Google. Kubernetes handles deployment and provisioning of your application architecture, and it also handles number of failure scenarios gracefully, from a crashed process, to a failure of a cluster node. In this talk, we will develop a Java application locally, run and test it locally and deploying it into a cluster of machines with Kubernetes and container orchestration. But we'll take this even a step further, and see how we can configure and utilize Kubernetes Cluster Federation to deploy this application into multiple datacenter regions around the globe, configuring global load balancing, and regional level service discovery that can handle a variety of failure scenarios."
+}

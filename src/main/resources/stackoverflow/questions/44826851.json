@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826851,
+  "title" : "gradle project build directory does not exist",
+  "body" : "<p>Trying to create a properties file (foo.properties) and add it to the root of a war.\n        apply plugin: 'war'</p>\n\n<pre><code>    task createProperties {\n         FileOutputStream os = new FileOutputStream(\"${project.buildDir}/foo.properties\");\n             ...\n    }\n\n    war {\n         dependsOn createProperties\n         from \"${project.buildDir}/foo.properties\"\n         ...\n    }\n\n What went wrong:\nA problem occurred evaluating project ':app'.\n&gt; E:\\app\\build\\build.properties (The system cannot find the path specified)\n</code></pre>\n\n<p>Do I need to create the build dir? </p>\n\n<p>for war, is there an output dir for webapp? (sourceSet: src/main/webapp)\nIt is better to create the foo.properties directly under the webapp outputDir.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826851/gradle-project-build-directory-does-not-exist",
+  "owner" : {
+    "user_id" : 3951576,
+    "user_type" : "registered",
+    "display_name" : "eastwater",
+    "profile_image" : "https://www.gravatar.com/avatar/8490e309df59a115f457328b10e6fd68?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/3951576/eastwater",
+    "reputation" : 242,
+    "accept_rate" : 50
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743744,
+  "last_activity_date" : 1498743744,
+  "tags" : [
+    "gradle",
+    "war",
+    "output-directory"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

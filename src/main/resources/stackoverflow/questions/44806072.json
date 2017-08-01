@@ -1,0 +1,25 @@
+{
+  "question_id" : 44806072,
+  "title" : "How to redirect a subdomain to an ip an keep the subdomain in the address bar?",
+  "body" : "<p>On my domain lapagept.com, I have create a subdomain sm.lapagept.com.</p>\n\n<p>When a user enters <a href=\"http://sm.lapagept.com\" rel=\"nofollow noreferrer\">http://sm.lapagept.com</a> in his browser's address bar, he is redirected to <a href=\"http://173.209.38.131/~sm\" rel=\"nofollow noreferrer\">http://173.209.38.131/~sm</a>. The new address in the address bar is changed for <a href=\"http://173.209.38.131/~sm\" rel=\"nofollow noreferrer\">http://173.209.38.131/~sm</a>.</p>\n\n<p>Here is the code we use in the .htaccess file on lapagept.com to make this :</p>\n\n<pre><code>RewriteEngine on\n\nRewriteCond %{HTTP_HOST} ^sm\\.lapagept\\.com$ [OR]\nRewriteCond %{HTTP_HOST} ^www\\.sm\\.lapagept\\.com$\nRewriteCond %{REQUEST_URI} !^/[0-9]+\\..+\\.cpaneldcv$\nRewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\\.txt(?:\\ Comodo\\ DCV)?$\nRewriteRule ^/?$ \"http\\:\\/\\/173\\.209\\.38\\.131\\/\\~sm\" [R=301,L]\n</code></pre>\n\n<p>My question :</p>\n\n<p>When a user enters <a href=\"http://sm.lapagept.com\" rel=\"nofollow noreferrer\">http://sm.lapagept.com</a> in his browser's address bar, would it be possible to get redirected to <a href=\"http://173.209.38.131/~sm\" rel=\"nofollow noreferrer\">http://173.209.38.131/~sm</a> but to keep <a href=\"http://sm.lapagept.com\" rel=\"nofollow noreferrer\">http://sm.lapagept.com</a> in his address bar?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806072/how-to-redirect-a-subdomain-to-an-ip-an-keep-the-subdomain-in-the-address-bar",
+  "owner" : {
+    "user_id" : 2779607,
+    "user_type" : "registered",
+    "display_name" : "La Page PT",
+    "profile_image" : "https://graph.facebook.com/100005137593779/picture?type=large",
+    "link" : "https://stackoverflow.com/users/2779607/la-page-pt",
+    "reputation" : 25,
+    "accept_rate" : 30
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661812,
+  "last_activity_date" : 1498661812,
+  "tags" : [
+    ".htaccess",
+    "redirect"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

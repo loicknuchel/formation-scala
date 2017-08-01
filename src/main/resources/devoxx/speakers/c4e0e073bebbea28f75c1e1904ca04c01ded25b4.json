@@ -1,0 +1,37 @@
+{
+  "uuid" : "c4e0e073bebbea28f75c1e1904ca04c01ded25b4",
+  "bioAsHtml" : "<p>Working in the security area since more than 15 years, I&#x27;m now working for IBM as advisory architect.\nDuring my carrier, I developed security products (an auto-reconfigurable firewall), I worked for securing application and infrastructure (SCADA, avionics ...) , I performed audits and pentest and I build SOC architecture.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/GYS-3426",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6886c10c4a4b581c869ff626d929267d1a5a69dc",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "RAMRAMI AZZEDDINE"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c4e0e073bebbea28f75c1e1904ca04c01ded25b4",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Laurent Broto"
+        }
+      ],
+      "id" : "GYS-3426",
+      "title" : "Test de pénétration Web avancé et codage sécurisé"
+    }
+  ],
+  "company" : "IBM",
+  "bio" : "Working in the security area since more than 15 years, I'm now working for IBM as advisory architect. \r\nDuring my carrier, I developed security products (an auto-reconfigurable firewall), I worked for securing application and infrastructure (SCADA, avionics ...) , I performed audits and pentest and I build SOC architecture.",
+  "lastName" : "Broto",
+  "firstName" : "Laurent",
+  "blog" : null,
+  "avatarURL" : "http://www.gravatar.com/avatar/1caecec403fdef261ec068b5a8b8101b",
+  "twitter" : null,
+  "lang" : "fr"
+}

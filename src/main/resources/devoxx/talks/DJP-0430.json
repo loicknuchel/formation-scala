@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "Conference",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>The upcoming Eclipse IDE release (codename Oxygen, to be released in June 2017) is packed with a lot of enhancements and fixes that will make your development work even more enjoyable:</p>\n<ul>\n<li>Impressive performance improvement of the Java tooling</li>\n<li>Improved themes that give you more screen estate for your code</li>\n<li>New Java debugging tools to help you fix bugs in no time</li>\n<li>Revamped quick access menu makes discovering new features easy</li>\n<li>A whole bunch of small but effective UX improvements.</li>\n</ul>\n<p>This talk will walk you through these enhancements with some demos. It will cover important features both from the last release that you might have missed, and ones that we’ll see in the coming weeks.</p>\n<p>It's no surprise the codename is Oxygen - this release will bring some fresh air to the Free and Open Source Eclipse IDE landscape.</p>\n",
+  "id" : "DJP-0430",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/345ec2d98355015c8f5f6b7113705fc254b93919",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Mikaël Barbero"
+      },
+      "name" : "Mikaël Barbero"
+    }
+  ],
+  "title" : "Great new features and enhancements in the Eclipse IDE",
+  "lang" : "en",
+  "summary" : "The upcoming Eclipse IDE release (codename Oxygen, to be released in June 2017) is packed with a lot of enhancements and fixes that will make your development work even more enjoyable:\r\n\r\n* Impressive performance improvement of the Java tooling\r\n* Improved themes that give you more screen estate for your code\r\n* New Java debugging tools to help you fix bugs in no time\r\n* Revamped quick access menu makes discovering new features easy\r\n* A whole bunch of small but effective UX improvements.\r\n\r\nThis talk will walk you through these enhancements with some demos. It will cover important features both from the last release that you might have missed, and ones that we’ll see in the coming weeks.\r\n\r\nIt's no surprise the codename is Oxygen - this release will bring some fresh air to the Free and Open Source Eclipse IDE landscape."
+}

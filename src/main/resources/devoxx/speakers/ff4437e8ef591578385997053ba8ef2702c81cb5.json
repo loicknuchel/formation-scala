@@ -1,0 +1,37 @@
+{
+  "uuid" : "ff4437e8ef591578385997053ba8ef2702c81cb5",
+  "bioAsHtml" : "<p>Benoît est consultant DevOps et automatisation chez OCTO Technology. Au fil de ses missions auprès d&#x27;équipes de développement et d&#x27;opérations, il a acquis la conviction qu&#x27;une communication fluide et honnête entre tous les intervenants est la base de la réussite d&#x27;un projet. Associée aux bons outils et aux bonnes méthodes, elle permet de prendre plaisir à travailler ensemble pour construire des produits qui déchirent. Il participe aux formations OCTO Academy sur Ansible, Docker et son écosystème.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/WCU-7674",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ff4437e8ef591578385997053ba8ef2702c81cb5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Benoît Gastinne"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4795688ee98ed1e8d53127e1d74d7997ee519dcd",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Arnaud MAZIN"
+        }
+      ],
+      "id" : "WCU-7674",
+      "title" : "Intégration continue d’images Docker"
+    }
+  ],
+  "company" : "OCTO Technology",
+  "bio" : "Benoît est consultant DevOps et automatisation chez OCTO Technology. Au fil de ses missions auprès d'équipes de développement et d'opérations, il a acquis la conviction qu'une communication fluide et honnête entre tous les intervenants est la base de la réussite d'un projet. Associée aux bons outils et aux bonnes méthodes, elle permet de prendre plaisir à travailler ensemble pour construire des produits qui déchirent. Il participe aux formations OCTO Academy sur Ansible, Docker et son écosystème.",
+  "lastName" : "Gastinne",
+  "firstName" : "Benoît",
+  "blog" : "http://blog.octo.com",
+  "avatarURL" : "https://lh5.googleusercontent.com/-LsGqfh78imw/AAAAAAAAAAI/AAAAAAAADTs/S66vs8_0xNo/photo.jpg",
+  "twitter" : "@bgalalalalala",
+  "lang" : "fr"
+}

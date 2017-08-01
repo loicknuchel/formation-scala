@@ -1,0 +1,20 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Conference",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>Les systèmes distribués sont complexes. Malgré tout, la montée en puissance du Cloud, de la très haute disponibilité et des augmentations régulières de trafic, les rendent omniprésents de nos jours. Dans cette session nous explorerons des solutions aux problèmes les plus couramment rencontrés lors du développement et de la gestion en production de systèmes distribués : scalabilité, disponibilité, complexité opérationnelle, tests, ....</p>\n",
+  "id" : "HPC-9733",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a308874ae89db4867f26b564b9bd21869771fc52",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Michaël Figuière"
+      },
+      "name" : "Michaël Figuière"
+    }
+  ],
+  "title" : "Ce que j'ai appris en construisant des systèmes distribués",
+  "lang" : "fr",
+  "summary" : "Les systèmes distribués sont complexes. Malgré tout, la montée en puissance du Cloud, de la très haute disponibilité et des augmentations régulières de trafic, les rendent omniprésents de nos jours. Dans cette session nous explorerons des solutions aux problèmes les plus couramment rencontrés lors du développement et de la gestion en production de systèmes distribués : scalabilité, disponibilité, complexité opérationnelle, tests, ...."
+}

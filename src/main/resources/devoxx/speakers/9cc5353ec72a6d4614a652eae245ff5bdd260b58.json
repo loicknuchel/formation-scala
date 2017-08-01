@@ -1,0 +1,42 @@
+{
+  "uuid" : "9cc5353ec72a6d4614a652eae245ff5bdd260b58",
+  "bioAsHtml" : "<p>Gautier est développeur Android et aspirant Craftsman.\nIntéressé par les méthodes agiles, le hacking et la qualité logicielle, il façonne et maintient des outils libres et gratuits permettant d’améliorer sa productivité.\nParlez lui de Kotlin, de Clean Code ou de Logiciel Libre et vous pourrez voir ses yeux briller.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Mobile, IoT",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/FQV-7792",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f769aff54557881f250a78f11a827c9211504510",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Eyal LEZMY"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/18ccfd6d55edb5f0f88d865b0f42c957e0b6727c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Romain Menetrier"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9cc5353ec72a6d4614a652eae245ff5bdd260b58",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Gautier MECHLING"
+        }
+      ],
+      "id" : "FQV-7792",
+      "title" : "Android Things, de Développeur à Maker"
+    }
+  ],
+  "company" : "Baatch",
+  "bio" : "Gautier est développeur Android et aspirant Craftsman.\r\nIntéressé par les méthodes agiles, le hacking et la qualité logicielle, il façonne et maintient des outils libres et gratuits permettant d’améliorer sa productivité.\r\nParlez lui de Kotlin, de Clean Code ou de Logiciel Libre et vous pourrez voir ses yeux briller.",
+  "lastName" : "MECHLING",
+  "firstName" : "Gautier",
+  "blog" : "https://plus.google.com/+GautierMechling",
+  "avatarURL" : "https://droidcon.at/img/people/GautierMechling.jpg",
+  "twitter" : "@Nilhcem",
+  "lang" : "fr"
+}

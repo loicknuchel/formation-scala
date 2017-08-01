@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825975,
+  "title" : "Apple - Map URL scheme",
+  "body" : "<p>I would like to be able to pin point a location on a map.</p>\n\n<p>To do so I'm following this <a href=\"https://developer.apple.com/library/content/featuredarticles/iPhoneURLScheme_Reference/MapLinks/MapLinks.html\" rel=\"nofollow noreferrer\">documentation.</a></p>\n\n<h3>Example</h3>\n\n<p><a href=\"http://maps.apple.com/?q=45.495409133484,-73.557682800571\" rel=\"nofollow noreferrer\">http://maps.apple.com/?q=45.495409133484,-73.557682800571</a></p>\n\n<h3>What is missing</h3>\n\n<p>I would like to be able to zoom more on the map using the <code>z</code> parameter.\nAlso I would like to be able to get a custom label such as <code>Hey the point is here</code></p>\n\n<p>I can't really make up my mind on how to use the doc to do what I'd like to achieve</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825975/apple-map-url-scheme",
+  "owner" : {
+    "user_id" : 6146842,
+    "user_type" : "registered",
+    "display_name" : "Leo",
+    "profile_image" : "https://www.gravatar.com/avatar/758d0ce320b20437345e1c612ce7ed17?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/6146842/leo",
+    "reputation" : 392,
+    "accept_rate" : 93
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741481,
+  "last_activity_date" : 1498741481,
+  "tags" : [
+    "url",
+    "apple-maps"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

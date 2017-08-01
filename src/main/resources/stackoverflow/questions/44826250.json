@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826250,
+  "title" : "Why is Python showing &#39;ValueError: could not convert string to float&#39;?",
+  "body" : "<p>I have a CSV containing numbers which I am trying to convert to floats.</p>\n\n<pre><code>filename = \"filename.csv\"\nenclosed_folder = \"path/to/Folder\"\nfull_path = os.path.join(enclosed_folder,filename)\n\nwith open(full_path) as input_data:\n    temp = input_data.readlines()\n    n = len(temp) #int(temp.pop(0))\n    matrix = [x.split(\" \") for x in temp]\n    for i in range(n):\n        for j in range(n):\n            matrix[i][j] = float(matrix[i][j])\n    input_data.close()\n</code></pre>\n\n<p>When I open the file in any text editor, it does not show the <code>\\n</code> at the end of each row.</p>\n\n<p><a href=\"https://i.stack.imgur.com/S4vVT.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/S4vVT.png\" alt=\"enter image description here\"></a></p>\n\n<p>But running the python code shows the `ValueError: could not convert string to float' because of '\\n' being present at the end of each row.</p>\n\n<pre><code>Traceback (most recent call last):\n  File \"hierarchical-clustering.py\", line 37, in &lt;module&gt;\n    matrix[i][j] = float(matrix[i][j])\nValueError: could not convert string to float: '1,0.058824,0.076923,0.066667,0.055556,0.058824,0.071429,0.052632,0.076923,0.0625,0.0625,0.055556,0.055556,0.05,0.066667,0,0,0.055556,0.0625,0.058824,0.058824,0.047619,0.055556,0.0625,0,0.052632,0.066667,0.055556,0.0625,0.058824,0.041667,0.066667,0.058824,0.071429,0.066667,0.076923,0,0.083333,0.052632,0.071429,0.076923,0,0.0625,0.076923,0.058824,0.076923,0.055556,0,0.0625,0.071429,0.0625,0.0625,0.083333,0,0,0,0.058824,0.0625,0,0.058824,0.0625,0.0625,0.066667,0.0625,0.052632,0.066667,0.076923,0.058824,0.071429,0.066667,0.058824,0.071429,0.058824,0.071429,0.058824,0.071429,0.071429\\n'\n</code></pre>\n\n<p>So, how do I fix this error?</p>\n\n<p><strong>EDIT:</strong> I used <code>strip()</code> as well as <code>rstrip()</code> as suggested in some of the answers to remove whitespaces, but still the error does not go away:</p>\n\n<pre><code>Traceback (most recent call last):\n  File \"hierarchical-clustering.py\", line 37, in &lt;module&gt;\n    matrix[i][j] = float(matrix[i][j].rstrip())\nValueError: could not convert string to float: '1,0.058824,0.076923,0.066667,0.055556,0.058824,0.071429,0.052632,0.076923,0.0625,0.0625,0.055556,0.055556,0.05,0.066667,0,0,0.055556,0.0625,0.058824,0.058824,0.047619,0.055556,0.0625,0,0.052632,0.066667,0.055556,0.0625,0.058824,0.041667,0.066667,0.058824,0.071429,0.066667,0.076923,0,0.083333,0.052632,0.071429,0.076923,0,0.0625,0.076923,0.058824,0.076923,0.055556,0,0.0625,0.071429,0.0625,0.0625,0.083333,0,0,0,0.058824,0.0625,0,0.058824,0.0625,0.0625,0.066667,0.0625,0.052632,0.066667,0.076923,0.058824,0.071429,0.066667,0.058824,0.071429,0.058824,0.071429,0.058824,0.071429,0.071429'\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826250/why-is-python-showing-valueerror-could-not-convert-string-to-float",
+  "owner" : {
+    "user_id" : 5305512,
+    "user_type" : "registered",
+    "display_name" : "Kristada673",
+    "profile_image" : "https://www.gravatar.com/avatar/7c7a8df7cfda681c96a34d6e271b1b0b?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/5305512/kristada673",
+    "reputation" : 466,
+    "accept_rate" : 55
+  },
+  "is_answered" : true,
+  "creation_date" : 1498742253,
+  "last_activity_date" : 1498743487,
+  "tags" : [
+    "python",
+    "type-conversion",
+    "runtime-error"
+  ],
+  "score" : 2,
+  "view_count" : 38,
+  "answer_count" : 3
+}

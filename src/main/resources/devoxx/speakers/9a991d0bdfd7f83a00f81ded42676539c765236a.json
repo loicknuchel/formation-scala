@@ -1,0 +1,32 @@
+{
+  "uuid" : "9a991d0bdfd7f83a00f81ded42676539c765236a",
+  "bioAsHtml" : "<p>Avocat à la Cour d’appel de Paris, précurseur du droit des technologies avancées, Alain Bensoussan a fait de l’élaboration de concepts nouveaux l’une de ses marques de fabrique: domicile virtuel, droits de l’homme numérique, vie privée résiduelle... En 2012, après avoir créé Lexing ®, premier réseau international d’avocats technologues, il lance au sein de son cabinet un département de droit des robots, y voyant « la reconnaissance par le droit d’une mutation technologique au moins aussi importante que l’ont été l’informatique et les réseaux sociaux au 20eme siècle ». Aux yeux de cet infatigable explorateur de nouveaux domaines du monde numérique, il était temps de créer un droit des robots les dotant d’un personnalité et d’une identité juridique pour en faire, demain, des sujets de droit: « Avec l’introduction d’une intelligence artificielle, les robots ne sont pas de simples automates. Ils ont des capacités grandissantes qui les amènent à collaborer avec les hommes ». Alain Bensoussan est également président et fondateur de l’Association du droit des robots (ADDR).</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Keynote",
+      "track" : "Future, Robotique",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/EOM-5359",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9a991d0bdfd7f83a00f81ded42676539c765236a",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Alain Bensoussan"
+        }
+      ],
+      "id" : "EOM-5359",
+      "title" : "Quel droit pour les robots"
+    }
+  ],
+  "company" : "Cabinet Alain Bensoussan",
+  "bio" : "Avocat à la Cour d’appel de Paris, précurseur du droit des technologies avancées, Alain Bensoussan a fait de l’élaboration de concepts nouveaux l’une de ses marques de fabrique: domicile virtuel, droits de l’homme numérique, vie privée résiduelle... En 2012, après avoir créé Lexing ®, premier réseau international d’avocats technologues, il lance au sein de son cabinet un département de droit des robots, y voyant « la reconnaissance par le droit d’une mutation technologique au moins aussi importante que l’ont été l’informatique et les réseaux sociaux au 20eme siècle ». Aux yeux de cet infatigable explorateur de nouveaux domaines du monde numérique, il était temps de créer un droit des robots les dotant d’un personnalité et d’une identité juridique pour en faire, demain, des sujets de droit: « Avec l’introduction d’une intelligence artificielle, les robots ne sont pas de simples automates. Ils ont des capacités grandissantes qui les amènent à collaborer avec les hommes ». Alain Bensoussan est également président et fondateur de l’Association du droit des robots (ADDR).",
+  "lastName" : "Bensoussan",
+  "firstName" : "Alain",
+  "blog" : "alain-bensoussan.com",
+  "avatarURL" : "https://www.alain-bensoussan.com/wp-content/uploads/2017/01/34152968-240x300.jpg",
+  "twitter" : "@A_Bensoussan",
+  "lang" : "fr"
+}

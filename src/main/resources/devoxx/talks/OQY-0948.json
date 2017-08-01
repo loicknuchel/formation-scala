@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Conference",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>L'intelligence artificielle est au carrefour de plusieurs sciences, informatique, mathématiques, philosophie. Les deux premières sont devenues inséparables il n'y a pas si longtemps et on pense déjà aux conséquences sur notre économie et les questions d'éthique.</p>\n<p>Plutôt que de répondre à ces questions difficiles et importantes, nous vous proposons très concrètement:\n-   d'explorer ce que les ingénieurs et mathématiciens ont imaginé afin de mieux cerner le potentiel du sujet,\n-   de comprendre les outils et technologies à votre disposition, qui condensent une complexité certaine mais désormais accessible,\n-   d'illustrer par quelques assemblages tels des puzzles programmés aves les outils disponibles chez Microsoft (Hololens , LUIS, Search engine on customized data , Cognitive services , Malmo, ..)</p>\n",
+  "id" : "OQY-0948",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9bd6a36e0834ce4ee47713a6e8ddaafb37344300",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Xavier dupré"
+      },
+      "name" : "Xavier dupré"
+    }
+  ],
+  "title" : "Démocratisation de l’IA Microsoft : de la recherche aux technologies et outils à votre disposition !",
+  "lang" : "fr",
+  "summary" : "L'intelligence artificielle est au carrefour de plusieurs sciences, informatique, mathématiques, philosophie. Les deux premières sont devenues inséparables il n'y a pas si longtemps et on pense déjà aux conséquences sur notre économie et les questions d'éthique. \r\n \r\nPlutôt que de répondre à ces questions difficiles et importantes, nous vous proposons très concrètement: \r\n-\td'explorer ce que les ingénieurs et mathématiciens ont imaginé afin de mieux cerner le potentiel du sujet,\r\n-\tde comprendre les outils et technologies à votre disposition, qui condensent une complexité certaine mais désormais accessible,\r\n-\td'illustrer par quelques assemblages tels des puzzles programmés aves les outils disponibles chez Microsoft (Hololens , LUIS, Search engine on customized data , Cognitive services , Malmo, ..)"
+}

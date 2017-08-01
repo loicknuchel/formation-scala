@@ -1,0 +1,36 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "University",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>A un moment où de nombreux développeurs se tentent à l'expérience Linux sur le Desktop, où les conteneurs amènent leur lots d'innovation, de complexité, et d'insécurité, il est bon de prendre un peu de recul pour réviser les fondamentaux.\nEn illustrant sur base d'une distribution Linux nous allons explorer les mécanismes de sécurité de l'OS, la manière de partitionner le système, la gestion de configuration ainsi que de nombreux tips and tricks pour améliorer son expérience avec le pingouin.</p>\n",
+  "id" : "USW-7521",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a2eec3d78572a5e31b354127520841d753284c1d",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Pierre-Antoine Grégoire"
+      },
+      "name" : "Pierre-Antoine Grégoire"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/dd608e0476fbea706506f521943faa27e6e80254",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Olivier Robert"
+      },
+      "name" : "Olivier Robert"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b10898f52ef88fce9964324a4cfb1bf667587492",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Nicolas Helleringer"
+      },
+      "name" : "Nicolas Helleringer"
+    }
+  ],
+  "title" : "Linux est ton meilleur ami",
+  "lang" : "fr",
+  "summary" : "A un moment où de nombreux développeurs se tentent à l'expérience Linux sur le Desktop, où les conteneurs amènent leur lots d'innovation, de complexité, et d'insécurité, il est bon de prendre un peu de recul pour réviser les fondamentaux.\r\nEn illustrant sur base d'une distribution Linux nous allons explorer les mécanismes de sécurité de l'OS, la manière de partitionner le système, la gestion de configuration ainsi que de nombreux tips and tricks pour améliorer son expérience avec le pingouin."
+}

@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826014,
+  "title" : "Google Analytics - Full URL for Pages",
+  "body" : "<p>I need to see full webpage URLs for my analysis (e.g. www.website.co.uk/pages) not just the URIs (e.g. /pages), so I've applied the filter described here:</p>\n\n<p><a href=\"https://splitter.uservoice.com/knowledgebase/articles/178552-how-to-show-the-domain-part-of-a-url-in-google-ana\" rel=\"nofollow noreferrer\">https://splitter.uservoice.com/knowledgebase/articles/178552-how-to-show-the-domain-part-of-a-url-in-google-ana</a> </p>\n\n<p>This works well on the Real-Time Report - it does indeed show the full URLs here. But if I go to \"What pages do your users visit?\", or if I generate a custom report etc, the pages still only show the URI part of the address - which is no good to me.</p>\n\n<p>Why is this? Thanks in advance.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826014/google-analytics-full-url-for-pages",
+  "owner" : {
+    "user_id" : 8220840,
+    "user_type" : "registered",
+    "display_name" : "Dan Tickner",
+    "profile_image" : "https://www.gravatar.com/avatar/1cd74086394ff29ca5960571405ed5d0?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8220840/dan-tickner",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741558,
+  "last_activity_date" : 1498741558,
+  "tags" : [
+    "url",
+    "google-analytics"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

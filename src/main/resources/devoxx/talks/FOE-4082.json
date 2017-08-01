@@ -1,0 +1,28 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Hands-on Labs",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>ElasticSearch vient avec un DSL très riche de requètage : <strong>recherche full text</strong>, <strong>recherche exact</strong>, <strong>analytiques</strong>, <strong>géolocalisation</strong>, <strong>\"Search as you type\"</strong> ...<br  />\nNous vous proposons de venir découvrir avec ce hands-on, les possibilités offertes par ce moteur d’indexation en utilisant les différentes types de recherches proposées et en jouant sur le mapping.<br  /></p>\n<p>Quelles requêtes pour quel besoin et comment les utiliser de manière efficace.</p>\n",
+  "id" : "FOE-4082",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b47a61591a2f2f83a28cee8f0c65337b6f749046",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Ivan Beauvais"
+      },
+      "name" : "Ivan Beauvais"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/95c21e69f879b133f6858d6def7293dd27f6b44b",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Gérôme EGRON"
+      },
+      "name" : "Gérôme EGRON"
+    }
+  ],
+  "title" : "Elasticsearch : From Zero to Hero",
+  "lang" : "fr",
+  "summary" : "ElasticSearch vient avec un DSL très riche de requètage : **recherche full text**, **recherche exact**, **analytiques**, **géolocalisation**, **\"Search as you type\"** ...  \r\nNous vous proposons de venir découvrir avec ce hands-on, les possibilités offertes par ce moteur d’indexation en utilisant les différentes types de recherches proposées et en jouant sur le mapping.  \r\n\r\nQuelles requêtes pour quel besoin et comment les utiliser de manière efficace."
+}

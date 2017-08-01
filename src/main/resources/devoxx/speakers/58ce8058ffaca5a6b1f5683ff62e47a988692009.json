@@ -1,0 +1,32 @@
+{
+  "uuid" : "58ce8058ffaca5a6b1f5683ff62e47a988692009",
+  "bioAsHtml" : "<p>I am the head of the ActivePivot and ActiveMonitor R&amp;D team at ActiveViam.\nWe are developing a real-time, in-memory analytical database using the JAVA programming language.\nOur product is used by top-tier banks, e-commerce websites as well as logistics operators.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/CVX-9349",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/58ce8058ffaca5a6b1f5683ff62e47a988692009",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Romain Colle"
+        }
+      ],
+      "id" : "CVX-9349",
+      "title" : "Java 9 à la poursuite des grands heaps"
+    }
+  ],
+  "company" : "ActiveViam",
+  "bio" : "I am the head of the ActivePivot and ActiveMonitor R&D team at ActiveViam.\r\nWe are developing a real-time, in-memory analytical database using the JAVA programming language.\r\nOur product is used by top-tier banks, e-commerce websites as well as logistics operators.",
+  "lastName" : "Colle",
+  "firstName" : "Romain",
+  "blog" : "https://www.activeviam.com/",
+  "avatarURL" : "https://media.licdn.com/media/AAEAAQAAAAAAAAhPAAAAJDliZmQyMTc2LTY3YTktNDI5Mi05OGM0LTUzNjgzOGU3MWNmZA.jpg",
+  "twitter" : null,
+  "lang" : "fr"
+}

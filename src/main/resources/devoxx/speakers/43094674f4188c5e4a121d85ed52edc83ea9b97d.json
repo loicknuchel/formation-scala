@@ -1,0 +1,37 @@
+{
+  "uuid" : "43094674f4188c5e4a121d85ed52edc83ea9b97d",
+  "bioAsHtml" : "<p>Eric est professionnel du développement depuis 1998, principalement dans le monde Java, avec une connotation agile. Il a plaisir à coder avec des développeurs qui cherchent à rendre leur travail plus agréable.\nDans le passé, il a été développeur en startups et consultant. Il est maintenant dans l&#x27;équipe backend chez leboncoin où il ne fait pas de Java du tout.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Future, Robotique",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/RSR-8246",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/43094674f4188c5e4a121d85ed52edc83ea9b97d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Eric Lefevre-Ardant"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ac32d58c4c544412b170ad7915a5c8beab99674a",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sonia OUCHTAR"
+        }
+      ],
+      "id" : "RSR-8246",
+      "title" : "Introduction à la Philosophie de l'intelligence artificielle"
+    }
+  ],
+  "company" : "leboncoin",
+  "bio" : "Eric est professionnel du développement depuis 1998, principalement dans le monde Java, avec une connotation agile. Il a plaisir à coder avec des développeurs qui cherchent à rendre leur travail plus agréable.\r\nDans le passé, il a été développeur en startups et consultant. Il est maintenant dans l'équipe backend chez leboncoin où il ne fait pas de Java du tout.",
+  "lastName" : "Lefevre-Ardant",
+  "firstName" : "Eric",
+  "blog" : "http://ericlefevre.net/",
+  "avatarURL" : "http://www.gravatar.com/avatar/ed6cea6df7901d44f71b2820e921ecba",
+  "twitter" : "@elefevre",
+  "lang" : "fr"
+}

@@ -1,0 +1,32 @@
+{
+  "uuid" : "5f59c22f0c9a158af63bdd4c6c24d58a6ac8aaf9",
+  "bioAsHtml" : "<p>Développeur &amp; Formateur chez Zenika à Rennes, je me passionne pour les sujets gravitant autour de l&#x27;intégration continue, du Devops, de l&#x27;agilité, du Cloud et de l&#x27;IOT.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/VPV-8691",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5f59c22f0c9a158af63bdd4c6c24d58a6ac8aaf9",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yoan Rousseau"
+        }
+      ],
+      "id" : "VPV-8691",
+      "title" : "A la découverte de rkt"
+    }
+  ],
+  "company" : "Zenika",
+  "bio" : "Développeur & Formateur chez Zenika à Rennes, je me passionne pour les sujets gravitant autour de l'intégration continue, du Devops, de l'agilité, du Cloud et de l'IOT.",
+  "lastName" : "Rousseau",
+  "firstName" : "Yoan",
+  "blog" : null,
+  "avatarURL" : "https://pbs.twimg.com/profile_images/820007283828682752/HlaNAFIu_200x200.jpg",
+  "twitter" : "@y0anR",
+  "lang" : "fr"
+}

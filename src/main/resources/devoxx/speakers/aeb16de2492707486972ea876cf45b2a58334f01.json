@@ -1,0 +1,42 @@
+{
+  "uuid" : "aeb16de2492707486972ea876cf45b2a58334f01",
+  "bioAsHtml" : "<p>CTO Leetchi et MANGOPAY</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/ISY-6599",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/aeb16de2492707486972ea876cf45b2a58334f01",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Laure Némée"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4e6db972fa8bd3e583d0aa571182b2a29427c36f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Bertrand Lemasle"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/25875699d7bad7bb61e8575b2a7c4e6228b668e8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yann Person"
+        }
+      ],
+      "id" : "ISY-6599",
+      "title" : "Une histoire de rate-limiting, ou comment les sysadmins de MANGOPAY ont retrouvé le sommeil"
+    }
+  ],
+  "company" : "Mangopay",
+  "bio" : "CTO Leetchi et MANGOPAY ",
+  "lastName" : "Némée",
+  "firstName" : "Laure",
+  "blog" : "www.mangopay.com",
+  "avatarURL" : "https://fr.gravatar.com/userimage/115116066/57a7354d1e938085ae4ad27683bf90ab?size=200",
+  "twitter" : "@zazoun",
+  "lang" : "fr-FR"
+}

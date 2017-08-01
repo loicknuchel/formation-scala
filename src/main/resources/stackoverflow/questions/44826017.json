@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826017,
+  "title" : "Create-react-app error",
+  "body" : "<p>I would like to use create-react-app, so I follow the instruction:</p>\n\n<pre><code>npm install -g create-react-app\ncreate-react-app my-app\ncd my-app/\nnpm start\n</code></pre>\n\n<p>But I have error on last step. After running <code>npm start</code> I get error:</p>\n\n<blockquote>\n  <p>Could not find an open port at linux-llw5. Network error message:\n  getaddrinfo ENOTFOUND linux-llw5</p>\n</blockquote>\n\n<p>How can I fix it?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826017/create-react-app-error",
+  "owner" : {
+    "user_id" : 5264317,
+    "user_type" : "registered",
+    "display_name" : "qwe asd",
+    "profile_image" : "https://www.gravatar.com/avatar/753b9c2691d1b751f0ee4316b2f8e772?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/5264317/qwe-asd",
+    "reputation" : 192,
+    "accept_rate" : 82
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741563,
+  "last_activity_date" : 1498741563,
+  "tags" : [
+    "reactjs",
+    "create-react-app"
+  ],
+  "score" : 0,
+  "view_count" : 8,
+  "answer_count" : 0
+}

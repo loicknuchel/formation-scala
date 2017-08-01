@@ -1,0 +1,32 @@
+{
+  "uuid" : "a2971d0e1175a6e2950ffc00378fd956aac425c4",
+  "bioAsHtml" : "<p>Développeur full stack, je travaille essentiellement sur des applications web  en .NET, sans pour autant être javalergique…  Hormis la technique je me passionne pour le craft… L&#x27;évolution des méthodes de travail , des langages et des outils sont pour moi un formidable moteur qui m’amène à travailler sur les problématiques de tests et de qualité des développements.</p>\n<p>Après quelques années en SSII, j&#x27;ai rejoint la Société Générale où je développe des applications Web pour les salles de marché.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/ZUG-7668",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a2971d0e1175a6e2950ffc00378fd956aac425c4",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Morgan LEROI"
+        }
+      ],
+      "id" : "ZUG-7668",
+      "title" : "Tuez vos branches, faites des Feature Toggles"
+    }
+  ],
+  "company" : "Société Générale",
+  "bio" : "Développeur full stack, je travaille essentiellement sur des applications web  en .NET, sans pour autant être javalergique…  Hormis la technique je me passionne pour le craft… L'évolution des méthodes de travail , des langages et des outils sont pour moi un formidable moteur qui m’amène à travailler sur les problématiques de tests et de qualité des développements. \r\n\r\nAprès quelques années en SSII, j'ai rejoint la Société Générale où je développe des applications Web pour les salles de marché.",
+  "lastName" : "LEROI",
+  "firstName" : "Morgan",
+  "blog" : "http://morgan-leroi.fr/",
+  "avatarURL" : "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/0c3/36c/1e2ab35.jpg",
+  "twitter" : "@MorganLeroi",
+  "lang" : "fr-FR"
+}

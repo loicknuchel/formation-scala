@@ -1,0 +1,20 @@
+{
+  "trackId" : "lang",
+  "talkType" : "Conference",
+  "track" : "Langages alternatifs",
+  "summaryAsHtml" : "<p>Venez à la découverte de Clojure, ce langage fonctionnel tournant sur la JVM (entre autres).\nOncle Bob a récemment dit que Clojure était mieux que C, Python, Ruby et Java (<a href=\"http://telegra.ph/Why-Clojure-is-better-than-C-PythonRuby-and-java-and-why-should-you-care-12-20\">voir ici</a>), c'est le moment de comprendre pourquoi.</p>\n<p>2 parties dans ce talk:</p>\n<ul>\n<li>première moitié : on regarde les bases du langages : les types, la syntaxe Lisp, les fonctions et les structures de données. On fera aussi un petit historique du langage et on verra pourquoi son auteur Rich Hickey l'a créé</li>\n<li>deuxième partie : on entre dans le vif du sujet. On code une appli web (en live !). Clojure permet de faire à la fois le backend (classique) et du frontend (ClojureScript). Cette petite webapp aura donc un backend Rest (ou GraphQL on verra) et un frontend en React, le tout codé en Clojure.</li>\n</ul>\n",
+  "id" : "MYF-4601",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/81c86d6b980ba3c9449cb7bcc57d356dfb5a6543",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Florian Boulay"
+      },
+      "name" : "Florian Boulay"
+    }
+  ],
+  "title" : "À la découverte de Clojure",
+  "lang" : "fr",
+  "summary" : "Venez à la découverte de Clojure, ce langage fonctionnel tournant sur la JVM (entre autres). \r\nOncle Bob a récemment dit que Clojure était mieux que C, Python, Ruby et Java ([voir ici](http://telegra.ph/Why-Clojure-is-better-than-C-PythonRuby-and-java-and-why-should-you-care-12-20)), c'est le moment de comprendre pourquoi.\r\n\r\n2 parties dans ce talk:\r\n\r\n* première moitié : on regarde les bases du langages : les types, la syntaxe Lisp, les fonctions et les structures de données. On fera aussi un petit historique du langage et on verra pourquoi son auteur Rich Hickey l'a créé\r\n* deuxième partie : on entre dans le vif du sujet. On code une appli web (en live !). Clojure permet de faire à la fois le backend (classique) et du frontend (ClojureScript). Cette petite webapp aura donc un backend Rest (ou GraphQL on verra) et un frontend en React, le tout codé en Clojure.\r\n\r\n"
+}

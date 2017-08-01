@@ -1,0 +1,32 @@
+{
+  "uuid" : "b62311d57b2a14bdf5fc6edd7f8477b66d96ff9c",
+  "bioAsHtml" : "<p>Clément est consultant passionné par l&#x27;agilité, il intervient comme coach agile lors de mission de conduite du changement sur des grands comptes des télécoms, de l&#x27;énergie et de la banque. Son expérience s’est faite sur le terrain comme développeur et comme scrum master.\nActuellement à la Société Générale, il adresse en particulier le behaviour driven developement et les techniques de cartographie fonctionnelle comme le story mapping.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/VCX-4418",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b62311d57b2a14bdf5fc6edd7f8477b66d96ff9c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Clément Rochas"
+        }
+      ],
+      "id" : "VCX-4418",
+      "title" : "Comprendre la loi de Conway pour réussir sa transformation DevOps"
+    }
+  ],
+  "company" : "Xebia",
+  "bio" : "Clément est consultant passionné par l'agilité, il intervient comme coach agile lors de mission de conduite du changement sur des grands comptes des télécoms, de l'énergie et de la banque. Son expérience s’est faite sur le terrain comme développeur et comme scrum master.\r\nActuellement à la Société Générale, il adresse en particulier le behaviour driven developement et les techniques de cartographie fonctionnelle comme le story mapping.\r\n",
+  "lastName" : "Rochas",
+  "firstName" : "Clément",
+  "blog" : "https://plus.google.com/104509470623498000630",
+  "avatarURL" : "https://lh5.googleusercontent.com/-so_0Tq8ZZ4w/AAAAAAAAAAI/AAAAAAAAAXc/5IelU6Z3hVc/photo.jpg",
+  "twitter" : "@crochas",
+  "lang" : "fr"
+}

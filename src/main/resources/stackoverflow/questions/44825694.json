@@ -1,0 +1,28 @@
+{
+  "question_id" : 44825694,
+  "title" : ".Textframe VBA Microsoft PowerPoint issue",
+  "body" : "<p>I'm trying to fix a bug in some code that was written a long time ago by a colleague of mine. Both of us are stumped because until recently everything worked fine:</p>\n\n<pre><code>Sub paste3()\n\nDim oSh As Shape\n\nn = 4\nDoEvents\nTake2:\nOn Error GoTo Take2:\nSet oSh = ActivePresentation.Slides(n).Shapes.PasteSpecial(ppPasteDefault)(1)\n    ' .PasteSpecial returns a ShapeRange; the (1) at the end of the line above\n    ' returns the first shape in the range. W/o that, you get a type mismatch error\n    ' from trying to assign a range to a shape\n\nWith oSh\n   ' Set position:\n  .Left = 41\n  .Top = 57\n   ' Set size:\n  .Height = 100\n  .Width = 700\n  .TextFrame.TextRange.Font.Size = 11\n\nEnd With\n</code></pre>\n\n<p>The code fails at the \".TextFrame\" line and gives the error \"Run-time error '-2147024809 (80070057)': The specified value is out of range\".</p>\n\n<p>I can't see why it's doing this. Stepping into the macro you see a cell copied from excel and then pasted into Powerpoint as a textbox (oSh).</p>\n\n<p>I've tried changing the size from 11 to 10, 12 etc. just in case it was some mad error with that but no joy. </p>\n\n<p>Here is what the locals box is saying in the editor:\n<a href=\"https://i.stack.imgur.com/R6a28.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/R6a28.png\" alt=\"enter image description here\"></a></p>\n\n<p>I don't really understand why this has never thrown an error before as we've been using this macro for over a year with no problems.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825694/textframe-vba-microsoft-powerpoint-issue",
+  "owner" : {
+    "user_id" : 2183786,
+    "user_type" : "registered",
+    "display_name" : "James Baker",
+    "profile_image" : "https://www.gravatar.com/avatar/36e2751c8af5977fc1cfe24ced9413e1?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/2183786/james-baker",
+    "reputation" : 77,
+    "accept_rate" : 41
+  },
+  "is_answered" : false,
+  "creation_date" : 1498740764,
+  "last_activity_date" : 1498740764,
+  "tags" : [
+    "vba",
+    "excel-vba",
+    "textbox",
+    "shape",
+    "powerpoint-vba"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 0
+}

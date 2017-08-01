@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "BOF (Bird of a Feather)",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>meetup Paris Machine Learning</p>\n",
+  "id" : "FFO-6370",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4d86ede09d575e52be7a9acabff56d7229c28505",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Bardol franck"
+      },
+      "name" : "Bardol franck"
+    }
+  ],
+  "title" : "BOF : Paris Machine Learning",
+  "lang" : "fr",
+  "summary" : "meetup Paris Machine Learning"
+}

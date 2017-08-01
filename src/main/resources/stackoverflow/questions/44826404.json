@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826404,
+  "title" : "Decrease Long Build Time in Gulp",
+  "body" : "<p>My build task is as below. For each changes in any file, it takes about 30s-60s for each time. It is too long for development. How can I improve it? Or is there any way to see changes in development enviroment, quickly? </p>\n\n<pre><code>gulp.task('build', function () {\n  return gulp.src([\n      filePath + '/Scripts/js/desktop/pages/Index.js'\n    ])\n    .pipe(concatJs(\"app.js\"))\n    .pipe(gulp.dest(filePath + '/scripts/js/desktop/bundle'))\n    .pipe(rollup({\n      allowRealFiles: true,\n      \"format\": \"iife\",\n      \"plugins\": [\n        resolve({\n          module: true,\n          browser:true\n        }),\n        commonjs({\n            namedExports: {\n                'node_modules/react/react.js': ['Component', 'Children', 'createElement', 'PropTypes']\n            }\n        }),\n        require(\"rollup-plugin-babel\")({\n          \"presets\": [[\"es2015\", { \"modules\": false }]],\n          \"plugins\": [\"external-helpers\"],\n          \"exclude\": './node_modules/**'\n        }),\n        replace({\n          'process.env.NODE_ENV': JSON.stringify( 'production' )\n        })\n      ],\n      entry: filePath + '/scripts/js/desktop/bundle/app.js'\n    }))\n    .pipe(gulp.dest(filePath + '/build/scripts/'));\n});\n</code></pre>\n\n<p>Index.js</p>\n\n<pre><code>import React from 'react';\nimport ReactDOM from 'react-dom';\nimport { Provider } from 'react-redux';\nimport { createStore, applyMiddleware } from 'redux';\nimport ReduxPromise from 'redux-promise';\nimport {BrowserRouter as Router,Route,Link} from 'react-router-dom';\nimport createHistory from 'history/createBrowserHistory';\n\nimport Index from '../pages/MyAccount/Index';\nimport FAQ from '../pages/FAQ/Index';\nimport Header from '../components/Header/Header';\nimport Breadcrumb from '../components/Breadcrumb/Breadcrumb';\nimport Footer from '../components/Footer/Footer';\nimport reducers from '../../reducers/index';\n\n\nconst store = applyMiddleware(ReduxPromise)(createStore);\n\nclass Pager extends React.Component {\n\n    constructor(props) {\n        super(props);\n    }\n\n    render(){\n\n            const history = createHistory();\n\n            return (\n                &lt;Provider store={store(reducers)}&gt;\n                        &lt;Router history={history}&gt;\n                            &lt;div&gt;\n                                &lt;Header /&gt;\n                                &lt;div className=\"hb-container\"&gt;\n                          &lt;Breadcrumb id={1}/&gt;\n                        &lt;/div&gt;\n                                &lt;div className=\"clearfix\"&gt;&lt;/div&gt;\n                                &lt;div className=\"hb-container\"&gt;\n                                    &lt;Route path=\"/hesabim\" component={Index}  /&gt;\n                                    &lt;Route path=\"/yardim\" component={FAQ}  /&gt;\n                                &lt;/div&gt;\n                                &lt;Footer/&gt;\n                            &lt;/div&gt;\n                        &lt;/Router&gt;\n                &lt;/Provider&gt;\n        );\n    }\n\n};\n\nlet root = document.getElementById('root');\nReactDOM.render(&lt;Pager {...(root.dataset) } /&gt;,\nroot);\n</code></pre>\n\n<p>After building, app.js is about 810 KB.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826404/decrease-long-build-time-in-gulp",
+  "owner" : {
+    "user_id" : 4766521,
+    "user_type" : "registered",
+    "display_name" : "Kamuran S&#246;necek",
+    "profile_image" : "https://graph.facebook.com/1024497117578571/picture?type=large",
+    "link" : "https://stackoverflow.com/users/4766521/kamuran-s%c3%b6necek",
+    "reputation" : 1189,
+    "accept_rate" : 80
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742666,
+  "last_activity_date" : 1498743306,
+  "tags" : [
+    "javascript",
+    "reactjs",
+    "build",
+    "gulp"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

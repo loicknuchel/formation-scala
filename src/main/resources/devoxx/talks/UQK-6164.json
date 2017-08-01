@@ -1,0 +1,20 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Conference",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>Déployer un ensemble de microservices dans le Cloud n'est pas une tâche aisée. Déjà le déploiement peut s'avérer compliqué, ensuite, la gestion de tous les différents morceaux est vite un cauchemar. Les pannes sont fréquentes, la mise à jour sans interruption semble super sur le papier, mais dans la réalité, ce n’est pas si simple....</p>\n<p>Eclipse Vert.x permet de créer des microservices réactifs, c'est à dire élastiques, tolérants aux pannes, et utilisant la communication asynchrone. Vert.x permet de mieux utiliser les ressources disponibles, point crucial dans le Cloud.</p>\n<p>Dans cette session, nous montrons comment Vert.x utilisent les fonctionnalités offertes par Kubernetes pour faciliter la construction de microservices. En combinant Vert.x et Kubernetes, une grande partie des problèmes disparaissent :</p>\n<ul>\n<li>déploiement de conteneurs Docker</li>\n<li>élasticité et répartition de la charge</li>\n<li>découverte de services</li>\n<li>monitoring et tolérance aux pannes</li>\n<li>mise à jour sans interruption de service</li>\n</ul>\n<p>Cette session n'a pas de slides, simplement du live-coding. Quoi de mieux pour montrer la complémentarité entre Vert.x pour son côté réactif et Kubernetes pour la partie déploiement et management.</p>\n",
+  "id" : "UQK-6164",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e452d5162fbc8c0c94995c26312dec1e8fae9fc8",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Clement Escoffier"
+      },
+      "name" : "Clement Escoffier"
+    }
+  ],
+  "title" : "Microservices réactifs avec Eclipse Vert.x et Kubernetes",
+  "lang" : "fr",
+  "summary" : "Déployer un ensemble de microservices dans le Cloud n'est pas une tâche aisée. Déjà le déploiement peut s'avérer compliqué, ensuite, la gestion de tous les différents morceaux est vite un cauchemar. Les pannes sont fréquentes, la mise à jour sans interruption semble super sur le papier, mais dans la réalité, ce n’est pas si simple....\r\n\r\nEclipse Vert.x permet de créer des microservices réactifs, c'est à dire élastiques, tolérants aux pannes, et utilisant la communication asynchrone. Vert.x permet de mieux utiliser les ressources disponibles, point crucial dans le Cloud.\r\n \r\nDans cette session, nous montrons comment Vert.x utilisent les fonctionnalités offertes par Kubernetes pour faciliter la construction de microservices. En combinant Vert.x et Kubernetes, une grande partie des problèmes disparaissent :\r\n \r\n* déploiement de conteneurs Docker\r\n* élasticité et répartition de la charge\r\n* découverte de services\r\n* monitoring et tolérance aux pannes\r\n* mise à jour sans interruption de service\r\n \r\nCette session n'a pas de slides, simplement du live-coding. Quoi de mieux pour montrer la complémentarité entre Vert.x pour son côté réactif et Kubernetes pour la partie déploiement et management."
+}

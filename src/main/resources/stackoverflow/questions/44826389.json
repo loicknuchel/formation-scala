@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826389,
+  "title" : "jquery conditional code inside .on",
+  "body" : "<p>I have a form with the ID <code>#primarySearch</code>. It has 3 text inputs, all of which have their own ID as follows: <code>#ecNumber</code>, <code>#casNumber</code>, <code>#substanceName</code>.</p>\n\n<p>I have the following js. If the user enters anything in a text input in <code>#primarySearch</code> it runs a function called <code>processPrimarySearch</code> and sends the appropriate input value to it:</p>\n\n<pre><code>$('#primarySearch input[type=\"text\"]').on({\n    \"keyup\": function(e) {\n      // Ignore tab key \n      if (e.which != 9) {\n        processPrimarySearch.call(this);\n      }\n    }\n});\n\nfunction processPrimarySearch() {\n   // ...\n}\n</code></pre>\n\n<p>I've also got some other js (which is just inside <code>document.ready</code>) which stops the user entering anything other than numbers and dashes - but only in the <code>#ecNumber</code> and <code>#casNumber</code> fields (please note I adapted this from <a href=\"https://stackoverflow.com/questions/20445425/jquery-only-allow-numbers-letters-and-hyphens\">jQuery only allow numbers,letters and hyphens</a>). Although this code fires if the user is entering things into these 2 fields, it also results in <code>processPrimarySearch</code> running irrespective of whether the user input is valid. This is because there is no connection between the code above, and the following code:</p>\n\n<pre><code>$('#ecNumber, #casNumber').keypress(function (e) {\n    var allowedChars = new RegExp(\"^[0-9\\-]+$\");\n    var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);\n    if (allowedChars.test(str)) {\n        return true;\n    }\n    e.preventDefault();\n    return false;\n}).keyup(function() {\n    // the addition, which will check the value after a keyup (triggered by Ctrl+V)\n    // We take the same regex as for allowedChars, but we add ^ after the first bracket : it means \"all character BUT these\"\n    var forbiddenChars = new RegExp(\"[^0-9\\-]\", 'g');\n    if (forbiddenChars.test($(this).val())) {\n        $(this).val($(this).val().replace(forbiddenChars, ''));\n    }\n});\n</code></pre>\n\n<p><b>My problem:</b>\nWhat I want to do is run the above code, inside <code>$('#primarySearch input[type=\"text\"]').on</code>, <b>if and only if</b> the input is happening on the appropriate fields (<code>'#ecNumber</code> or <code>#casNumber</code> only).</p>\n\n<p>I've managed to write the following which uses an array to say which field the user is entering input on:</p>\n\n<pre><code> $('#primarySearch input[type=\"text\"]').on({\n    \"keyup\": function(e) {\n      // Ignore tab key\n      if (e.which != 9) {\n\n        var arr = [\"ecNumber\", \"casNumber\"];\n        if ($.inArray($(this).attr('id'), arr)!== -1) {\n            console.log($(this).attr('id'));\n        }  \n\n        processPrimarySearch.call(this);\n      }\n    }\n});\n</code></pre>\n\n<p>What is the best way to do this? I'm unsure whether to move the code which does the regex into a function, and then call it (with <code>.call</code>?) or some other method? And are there any issues with this being asynchronous in nature?</p>\n\n<p>The result of what's happening at the moment is that if a character was entered such as \"z\" in <code>#ecNumber</code>, the validation (the regex in the second bit of code posted) will fire and stop the character \"z\" appearing in the input - good. However, <code>processPrimarySearch()</code> will also fire because it's defined inside the <code>.on</code> for any input in the <code>#primarySearch</code> form.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826389/jquery-conditional-code-inside-on",
+  "owner" : {
+    "user_id" : 6565681,
+    "user_type" : "registered",
+    "display_name" : "Andy",
+    "profile_image" : "https://www.gravatar.com/avatar/4d9813827f306ac4e1328a561dd75148?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/6565681/andy",
+    "reputation" : 464,
+    "accept_rate" : 86
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742631,
+  "last_activity_date" : 1498743839,
+  "tags" : [
+    "jquery"
+  ],
+  "score" : 0,
+  "view_count" : 33,
+  "answer_count" : 0
+}

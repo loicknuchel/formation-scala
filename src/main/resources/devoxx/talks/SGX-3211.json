@@ -1,0 +1,28 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "BOF (Bird of a Feather)",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p><em>Cloud Native Computing</em> vous connaissez ? Peut-être pas mais sans doute avez vous déjà entendu parlé de Docker, de Kubernetes, de Mesos, de CoreOS... Intéressés par ces sujets, venez en discuter.\nEn 2016 nous avons créé le meetup <em>Cloud Native Computing Paris</em> et nous profiterons de cette BOF pour faire un bilan \"un an de Cloud Native\". Mais nous désirons également que cette BOF soit une discussion ouverte, tout le monde est invité à participer, que vous vouliez faire un retour d'expérience ou alors poser une question.</p>\n",
+  "id" : "SGX-3211",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/69b4032195e405af7ad127ec72cc0b0c3243a6bb",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Jean-Christophe Sirot"
+      },
+      "name" : "Jean-Christophe Sirot"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b90f822bbd8bd88166e0b87dbe316d019304fcb0",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Smaine Kahlouch"
+      },
+      "name" : "Smaine Kahlouch"
+    }
+  ],
+  "title" : "BOF Cloud Native Computing",
+  "lang" : "fr",
+  "summary" : "_Cloud Native Computing_ vous connaissez ? Peut-être pas mais sans doute avez vous déjà entendu parlé de Docker, de Kubernetes, de Mesos, de CoreOS... Intéressés par ces sujets, venez en discuter.\r\nEn 2016 nous avons créé le meetup _Cloud Native Computing Paris_ et nous profiterons de cette BOF pour faire un bilan \"un an de Cloud Native\". Mais nous désirons également que cette BOF soit une discussion ouverte, tout le monde est invité à participer, que vous vouliez faire un retour d'expérience ou alors poser une question."
+}

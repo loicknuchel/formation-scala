@@ -1,0 +1,32 @@
+{
+  "uuid" : "2bc6688597d9bd7122ae76c804cfffa6b4ffb9c0",
+  "bioAsHtml" : "<p>Software Engineer @ Docker working on docker-machine. I drink tests for breakfast, write java, coffee &amp; go code.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/IKY-0322",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/2bc6688597d9bd7122ae76c804cfffa6b4ffb9c0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Laurent de Morlhon"
+        }
+      ],
+      "id" : "IKY-0322",
+      "title" : "Docker 2017: Nouveautés et perspectives"
+    }
+  ],
+  "company" : "Docker",
+  "bio" : "Software Engineer @ Docker working on docker-machine. I drink tests for breakfast, write java, coffee & go code.",
+  "lastName" : "de Morlhon",
+  "firstName" : "Jean-Laurent",
+  "blog" : "https://plus.google.com/104208514956133087454",
+  "avatarURL" : "https://lh5.googleusercontent.com/-7kBf_X9xF04/AAAAAAAAAAI/AAAAAAAAAUk/t5XnCOyo6vg/photo.jpg",
+  "twitter" : "@morlhon",
+  "lang" : "fr"
+}

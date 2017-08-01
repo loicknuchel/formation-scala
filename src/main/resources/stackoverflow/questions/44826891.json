@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826891,
+  "title" : "How to get time differences (milliseconds) independent of system time?",
+  "body" : "<p>I need to calculate time difference in milliseconds on Linux (Ubuntu 14).</p>\n\n<p>It needs to be independent from system time because the application may change it during the execution (it sets system time according to the data received from GPS).</p>\n\n<p>I've checked the <a href=\"http://www.cplusplus.com/reference/ctime/clock/\" rel=\"nofollow noreferrer\">clock</a> function and it doesn't work for us because it returns the processor time consumed by the program and we need the real time.</p>\n\n<p>The sysinfo (as mentioned in this <a href=\"https://stackoverflow.com/questions/1540627/what-api-do-i-call-to-get-the-system-uptime\">question</a>) return seconds since boot and, again, we need milliseconds.</p>\n\n<p>And reading from /proc/uptime (as mentioned in this <a href=\"https://stackoverflow.com/questions/30095439/how-do-i-get-system-up-time-in-milliseconds-in-c\">question</a>) seem to be slow according to our tests (considering we want milliseconds and this function is called repeatedly).</p>\n\n<p>We can use C++11, but I think std::chrono is related to system time also (correct me if I'm wrong).</p>\n\n<p>Is there any other method to accomplish this?</p>\n\n<hr>\n\n<p>Our Performance Test (for /proc/uptime comparison), 1 million of repeated calls:</p>\n\n<h1>gettimeofday:</h1>\n\n<p>(not what we need since it depends on the system time)</p>\n\n<pre><code>#include &lt;sys/time.h&gt;\n\nunsigned int GetMs(){\n    unsigned int ret = 0;\n    timeval ts;\n    gettimeofday(&amp;ts,0);\n    static long long inici = 0;\n    if (inici==0){\n        inici = ts.tv_sec;\n    }\n    ts.tv_sec -= inici;\n    ret = (ts.tv_sec*1000 + (ts.tv_usec/1000));\n    return ret;\n}\n</code></pre>\n\n<h1>clock:</h1>\n\n<p>(not valid, returns ticks used by the application, not real time)</p>\n\n<pre><code>#include &lt;time.h&gt;\nunsigned int GetMs(){\n    unsigned int ret = 0;\n    clock_t t;\n    t = clock();\n    ret = t / 1000;\n    return ret;\n}\n</code></pre>\n\n<h1>uptime:</h1>\n\n<pre><code>#include &lt;fstream&gt;\nunsigned int GetMs(){\n    unsigned int ret = 0;\n    double uptime_seconds;\n    if (std::ifstream(\"/proc/uptime\", std::ios::in) &gt;&gt; uptime_seconds) {\n        ret = (int) (1000 * uptime_seconds);\n    }\n}\n</code></pre>\n\n<p>Results:</p>\n\n<ul>\n<li>gettimeofday: 31 milliseconds</li>\n<li>clock: 153 milliseconds</li>\n<li>uptime: 6005 milliseconds</li>\n</ul>\n",
+  "link" : "https://stackoverflow.com/questions/44826891/how-to-get-time-differences-milliseconds-independent-of-system-time",
+  "owner" : {
+    "user_id" : 3531242,
+    "user_type" : "registered",
+    "display_name" : "Pau Guillamon",
+    "profile_image" : "https://www.gravatar.com/avatar/e2d1a07c1649d19328d0353e09c2e44d?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/3531242/pau-guillamon",
+    "reputation" : 106,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743823,
+  "last_activity_date" : 1498743823,
+  "tags" : [
+    "c++",
+    "linux"
+  ],
+  "score" : 0,
+  "view_count" : 9,
+  "answer_count" : 0
+}

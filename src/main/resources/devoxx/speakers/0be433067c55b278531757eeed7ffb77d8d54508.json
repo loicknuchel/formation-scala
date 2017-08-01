@@ -1,0 +1,37 @@
+{
+  "uuid" : "0be433067c55b278531757eeed7ffb77d8d54508",
+  "bioAsHtml" : "<p>Consultant et formateur chez Zenika Nantes. J&#x27;interviens sur des missions de réalisation autour des technos front et back tel que AngularJS, ReactJS et Spring. Passionné par l’écosystème technique dans lequel je travaille je participe régulièrement aux meetups Nantais et donne des talks lors de différents événements.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/RIA-2353",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0be433067c55b278531757eeed7ffb77d8d54508",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Antoine Cellier"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3826276111051e3a6336983aa597709196d4b1f3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Hugo Wood"
+        }
+      ],
+      "id" : "RIA-2353",
+      "title" : "GraphQL vs Falcor"
+    }
+  ],
+  "company" : "Zenika",
+  "bio" : "Consultant et formateur chez Zenika Nantes. J'interviens sur des missions de réalisation autour des technos front et back tel que AngularJS, ReactJS et Spring. Passionné par l’écosystème technique dans lequel je travaille je participe régulièrement aux meetups Nantais et donne des talks lors de différents événements.",
+  "lastName" : "Cellier",
+  "firstName" : "Antoine",
+  "blog" : null,
+  "avatarURL" : "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAlpAAAAJDEwNjM3M2JjLWM1ZjItNGJjNS1hMjg1LTM1NjZjNDNjNTkxNg.jpg",
+  "twitter" : "@AntoineCellier3",
+  "lang" : "fr-FR"
+}

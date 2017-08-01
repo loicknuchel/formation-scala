@@ -1,0 +1,20 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Hands-on Labs",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Essayez de créer un code qui vous ne considérez pas comme étant “legacy”.</p>\n<p>Je jouerai le rôle de votre client et j'utiliserai 20 techniques différentes pour vous faire échouer</p>\n<p>Vous allez échouer.</p>\n<p>Nous allons débattre les techniques utilisées, comment elles arrivent dans la vraie vie et comment les combattre dans vos projets.</p>\n<p>Tous les langages sont bienvenus. Vous aurez besoin d'un portable avec votre environment, le hands-on se fera par petites équipes montés sur place.</p>\n",
+  "id" : "WCZ-8377",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/01a9da7c0fdc07b8cd0b36a59dd0326a8142480a",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Romeu MOURA"
+      },
+      "name" : "Romeu MOURA"
+    }
+  ],
+  "title" : "Le Kata Kebab",
+  "lang" : "fr",
+  "summary" : "Essayez de créer un code qui vous ne considérez pas comme étant “legacy”.\r\n\r\nJe jouerai le rôle de votre client et j'utiliserai 20 techniques différentes pour vous faire échouer\r\n\r\nVous allez échouer.\r\n\r\nNous allons débattre les techniques utilisées, comment elles arrivent dans la vraie vie et comment les combattre dans vos projets.\r\n\r\nTous les langages sont bienvenus. Vous aurez besoin d'un portable avec votre environment, le hands-on se fera par petites équipes montés sur place."
+}

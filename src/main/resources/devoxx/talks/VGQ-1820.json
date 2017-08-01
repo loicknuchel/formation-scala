@@ -1,0 +1,28 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Conference",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>D’un côté, nous avons la communauté web qui maintient un écosystème riche permettant de construire des interfaces utilisateurs rapidement. De l’autre côté, l’écosystème desktop possède des outils très performants mais qui demandent beaucoup d’investissement. Github s’est retroussé les manches pour tirer le meilleur des deux mondes et a créé Electron ! Electron, c’est la possibilité de construire des applications grâce aux composants web tout en profitant des interactions riches avec la machine d’une application desktop. Au cours de cette présentation, nous allons revenir sur les raisons du succès grandissant d’Electron et passerons en revue tout ce qu’il offre en matière de packaging, de mises à jour automatiques et de stratégies de testing au travers du livecoding d’une application meme generator.</p>\n",
+  "id" : "VGQ-1820",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/61115f730ed765d596658412405a9bd16c36dbab",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Eric Briand"
+      },
+      "name" : "Eric Briand"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4db7d896c9715985dcc81c9551faa95c38f38296",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Yvonnick Frin"
+      },
+      "name" : "Yvonnick Frin"
+    }
+  ],
+  "title" : "Développez des applications web desktop avec Electron de Github",
+  "lang" : "fr",
+  "summary" : "D’un côté, nous avons la communauté web qui maintient un écosystème riche permettant de construire des interfaces utilisateurs rapidement. De l’autre côté, l’écosystème desktop possède des outils très performants mais qui demandent beaucoup d’investissement. Github s’est retroussé les manches pour tirer le meilleur des deux mondes et a créé Electron ! Electron, c’est la possibilité de construire des applications grâce aux composants web tout en profitant des interactions riches avec la machine d’une application desktop. Au cours de cette présentation, nous allons revenir sur les raisons du succès grandissant d’Electron et passerons en revue tout ce qu’il offre en matière de packaging, de mises à jour automatiques et de stratégies de testing au travers du livecoding d’une application meme generator."
+}

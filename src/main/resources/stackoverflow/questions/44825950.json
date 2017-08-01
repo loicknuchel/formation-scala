@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825950,
+  "title" : "Matplotlib: create two subplots in line with two y axes each",
+  "body" : "<p><a href=\"https://matplotlib.org/devdocs/gallery/api/two_scales.html\" rel=\"nofollow noreferrer\">This matplotlib tutorial</a> shows how to create a plot with two y axes (two different scales):</p>\n\n<pre><code>import numpy as np\nimport matplotlib.pyplot as plt\n\n\ndef two_scales(ax1, time, data1, data2, c1, c2):\n\n    ax2 = ax1.twinx()\n\n    ax1.plot(time, data1, color=c1)\n    ax1.set_xlabel('time (s)')\n    ax1.set_ylabel('exp')\n\n    ax2.plot(time, data2, color=c2)\n    ax2.set_ylabel('sin')\n    return ax1, ax2\n\n\n# Create some mock data\nt = np.arange(0.01, 10.0, 0.01)\ns1 = np.exp(t)\ns2 = np.sin(2 * np.pi * t)\n\n# Create axes\nfig, ax = plt.subplots()\nax1, ax2 = two_scales(ax, t, s1, s2, 'r', 'b')\n\n\n# Change color of each axis\ndef color_y_axis(ax, color):\n    \"\"\"Color your axes.\"\"\"\n    for t in ax.get_yticklabels():\n        t.set_color(color)\n    return None\n\ncolor_y_axis(ax1, 'r')\ncolor_y_axis(ax2, 'b')\nplt.show()\n</code></pre>\n\n<p>The result is this:\n<a href=\"https://i.stack.imgur.com/mRnbK.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/mRnbK.png\" alt=\"enter image description here\"></a></p>\n\n<p>My question: how would you modify the code to create two subplots like this one, only horizontally aligned?\nI would do something like</p>\n\n<pre><code>fig, ax = plt.subplots(1,2,figsize=(15, 8))\nplt.subplot(121)\n###plot something here\nplt.subplot(122)\n###plot something here\n</code></pre>\n\n<p>but then how do you make sure that the <code>fig, ax = plt.subplots()</code> called to create the axes does not clash with the <code>fig, ax = plt.subplots(1,2,figsize=(15, 8))</code> you call to create the horizontally aligned canvases?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825950/matplotlib-create-two-subplots-in-line-with-two-y-axes-each",
+  "owner" : {
+    "user_id" : 5110870,
+    "user_type" : "registered",
+    "display_name" : "FaCoffee",
+    "profile_image" : "https://i.stack.imgur.com/TVsCr.png?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/5110870/facoffee",
+    "reputation" : 1535,
+    "accept_rate" : 99
+  },
+  "is_answered" : true,
+  "creation_date" : 1498741425,
+  "last_activity_date" : 1498742872,
+  "tags" : [
+    "python",
+    "matplotlib",
+    "plot"
+  ],
+  "score" : 0,
+  "view_count" : 15,
+  "answer_count" : 2
+}

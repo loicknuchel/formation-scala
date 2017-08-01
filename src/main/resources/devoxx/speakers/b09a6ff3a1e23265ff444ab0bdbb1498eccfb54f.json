@@ -1,0 +1,47 @@
+{
+  "uuid" : "b09a6ff3a1e23265ff444ab0bdbb1498eccfb54f",
+  "bioAsHtml" : "<p>Jean-Louis Rigau is a Software Engineer at Xebia France where he currently works on Continuous Delivery transformations for different companies including Société Générale, Gefco and Libon (Orange group). His other points of interests are agility, software craftsmanship and DevOps tooling.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "University",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/XLN-5017",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ef3e67404ec693b2ea41b64ad10814b3a196c5e1",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jonathan Raffre"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b09a6ff3a1e23265ff444ab0bdbb1498eccfb54f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Louis Rigau"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3e2f191f8152738fdcc572a0a84e37d7fc96bf41",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Thomas Auffredou"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/13a8bb7efa429ccf5e56532b10b51507f9ba6246",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yannick Lorenzati"
+        }
+      ],
+      "id" : "XLN-5017",
+      "title" : "Orchestration de conteneurs : le choix des armes !"
+    }
+  ],
+  "company" : "Xebia",
+  "bio" : "Jean-Louis Rigau is a Software Engineer at Xebia France where he currently works on Continuous Delivery transformations for different companies including Société Générale, Gefco and Libon (Orange group). His other points of interests are agility, software craftsmanship and DevOps tooling.",
+  "lastName" : "Rigau",
+  "firstName" : "Jean-Louis",
+  "blog" : "blog.xebia.fr",
+  "avatarURL" : "http://www.gravatar.com/avatar/9693df010bfd74e1074d6959d0e016b6",
+  "twitter" : "@jlrigau",
+  "lang" : "fr"
+}

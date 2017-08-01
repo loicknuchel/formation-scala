@@ -1,0 +1,32 @@
+{
+  "uuid" : "4d86ede09d575e52be7a9acabff56d7229c28505",
+  "bioAsHtml" : "<p>I had been involved in various data intensive fields (algo trading, text mining and data mining).\nI have gained experience in data intelligence for entrepreneurial boutiques, start up and hedge-funds.\nI also co-organize meetings devoted to predictive analytics for business\n(2 000+ academic researchers, startup entrepreneurs, innovators and geeks)</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/FFO-6370",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4d86ede09d575e52be7a9acabff56d7229c28505",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Bardol franck"
+        }
+      ],
+      "id" : "FFO-6370",
+      "title" : "BOF : Paris Machine Learning"
+    }
+  ],
+  "company" : "self employed",
+  "bio" : "I had been involved in various data intensive fields (algo trading, text mining and data mining). \r\nI have gained experience in data intelligence for entrepreneurial boutiques, start up and hedge-funds.\r\nI also co-organize meetings devoted to predictive analytics for business \r\n(2 000+ academic researchers, startup entrepreneurs, innovators and geeks)",
+  "lastName" : "franck",
+  "firstName" : "bardol",
+  "blog" : "https://plus.google.com/+bardolfranck",
+  "avatarURL" : "https://lh4.googleusercontent.com/-JNlTS3TmFkQ/AAAAAAAAAAI/AAAAAAAAErc/bLUE22gLJB0/photo.jpg",
+  "twitter" : "@bardolfranck",
+  "lang" : "en"
+}

@@ -1,0 +1,25 @@
+{
+  "question_id" : 44806157,
+  "title" : "Need help converting this joined table TSQL statement to Linq",
+  "body" : "<p>I looked at some of the other related questions, but didn't find a good answer.  My TSQL query works fine:</p>\n\n<pre><code>select PORel.ReqNum,PORel.ReqLine,XFiles.* from E10DB.Erp.PORel PORel\nJOIN E10DB.Erp.ReqDetail ReqDetail ON ReqDetail.Company = @company AND \n      ReqDetail.ReqNum = PORel.ReqNum\nJOIN E10DB.Ice.XFileAttch XFiles ON XFiles.Company = @company AND \n       XFiles.Key1 = CONVERT(nvarchar(50),ReqDetail.ReqNum)\nWHERE PORel.PONum = @ponum\n</code></pre>\n\n<p>I would like to translate this into a LINQ result like:</p>\n\n<pre><code>var joinResultRows = from PORel , etc.,...........\n</code></pre>\n\n<p>so I can do loop through them to do something :</p>\n\n<pre><code> foreach(var joinResult in joinResultRows)\n {\n     string custID = joinResult.CustID;\n     string ponum = joinResult.PONum;\n }    \n</code></pre>\n\n<p>Any thoughts?  Thanks!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806157/need-help-converting-this-joined-table-tsql-statement-to-linq",
+  "owner" : {
+    "user_id" : 4793148,
+    "user_type" : "registered",
+    "display_name" : "HelmutScheiss",
+    "profile_image" : "https://i.stack.imgur.com/r9dPy.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/4793148/helmutscheiss",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498662008,
+  "last_activity_date" : 1498662008,
+  "tags" : [
+    "c#",
+    "linq-to-sql"
+  ],
+  "score" : 0,
+  "view_count" : 1,
+  "answer_count" : 0
+}

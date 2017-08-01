@@ -1,0 +1,32 @@
+{
+  "uuid" : "9afa9e784948d08e8d37833256ab56fdfd9cb3ea",
+  "bioAsHtml" : "<p>Ingénieur depuis plus de 10 ans, sur des stack opensource et principalement java. Durant mon parcours j&#x27;ai été amené à travailler sur de nombreuses problématiques liées au monde du web, que ce soit frontend, backend, systémes réparti, machine learning et scalabilité. Mes environnements de prédilection comprennent moteur de recherche, base de données NoSql, micro-service, et bien entendu la stack Spring que j&#x27;affectionne particulièrement.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/YKQ-5747",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9afa9e784948d08e8d37833256ab56fdfd9cb3ea",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sebastien Augereau"
+        }
+      ],
+      "id" : "YKQ-5747",
+      "title" : "HTTP2 du point de vue développeur"
+    }
+  ],
+  "company" : "Ekino",
+  "bio" : "Ingénieur depuis plus de 10 ans, sur des stack opensource et principalement java. Durant mon parcours j'ai été amené à travailler sur de nombreuses problématiques liées au monde du web, que ce soit frontend, backend, systémes réparti, machine learning et scalabilité. Mes environnements de prédilection comprennent moteur de recherche, base de données NoSql, micro-service, et bien entendu la stack Spring que j'affectionne particulièrement. ",
+  "lastName" : "Augereau",
+  "firstName" : "Sebastien",
+  "blog" : null,
+  "avatarURL" : "http://www.gravatar.com/avatar/9b490f9e4fcd9e7e7827451d0593f6bb",
+  "twitter" : "@saugereau33",
+  "lang" : "fr"
+}

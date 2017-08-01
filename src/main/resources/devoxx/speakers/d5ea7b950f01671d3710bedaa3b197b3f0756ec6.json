@@ -1,0 +1,42 @@
+{
+  "uuid" : "d5ea7b950f01671d3710bedaa3b197b3f0756ec6",
+  "bioAsHtml" : "<p>Experienced technical lead in international projects and distributed architectures.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/SIZ-1676",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7dc4423c206c67c7f62d1656cd339062d49d4644",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "François Berthault"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d5ea7b950f01671d3710bedaa3b197b3f0756ec6",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Cyril Deverson"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b95b93ac0eab4dc739f8efec8b867d1e613db464",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Christophe THEPAUT"
+        }
+      ],
+      "id" : "SIZ-1676",
+      "title" : "Cloudifie ton monolithe : les  microservices pour une  architecture comme les grands du web"
+    }
+  ],
+  "company" : "Softeam-Cadextan",
+  "bio" : "Experienced technical lead in international projects and distributed architectures.",
+  "lastName" : "Deverson",
+  "firstName" : "Cyril",
+  "blog" : null,
+  "avatarURL" : "https://media.licdn.com/mpr/mprx/0_O-y3pBbYctCO1_87Kvptpq6GzBL71_37yKeYpqbGotAY2F9ftquDtN12RJ5lKkh_0AY01PJ6VbME",
+  "twitter" : "@CyrilDeverson",
+  "lang" : "fr-FR"
+}

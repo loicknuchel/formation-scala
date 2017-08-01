@@ -1,0 +1,103 @@
+{
+  "uuid" : "7ee8911b3983bb10774f99ed3b3da60b1854c839",
+  "bioAsHtml" : "<p>Stéphane has a thing for code quality and robustness. He&#x27;s been spreading the word for more than ten years while developing large scale Java enterprise applications in the geospatial, financial, or logistics sectors. An Apache Maven PMC member since 2006, he joined the core Spring Framework development team early 2014, being one of the main contributors to both Spring Framework and Spring Boot since. During his free time, he loves traveling around the world.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "University",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/ZYF-7071",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e8c67e2df13f82a0e69b26b1274d11fec44b0122",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Brian Clozel"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7ee8911b3983bb10774f99ed3b3da60b1854c839",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Stéphane Nicoll"
+        }
+      ],
+      "id" : "ZYF-7071",
+      "title" : "Maîtrisez les super pouvoirs de Spring Boot"
+    },
+    {
+      "talkType" : "Conference",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/JCU-5456",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7ee8911b3983bb10774f99ed3b3da60b1854c839",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Stéphane Nicoll"
+        }
+      ],
+      "id" : "JCU-5456",
+      "title" : "Spring Framework 5.0"
+    },
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/HBJ-3604",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7ee8911b3983bb10774f99ed3b3da60b1854c839",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Stéphane Nicoll"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e8c67e2df13f82a0e69b26b1274d11fec44b0122",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Brian Clozel"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9d77f0e35092ee25dacf9f9b6f9cc0fc695be416",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Florent Biville"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6edfe70ee7621dc90e256afe05ee9bd1bdb9cf73",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Marouane Gazanayi"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d84b817a907825ede4a9d5a74665bc23be072608",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sebastien Deleuze"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/89a849add91029107d06f2981979f4c8d857ece3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Simon Baslé"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7e7ce8659844ad917a72243cf0d07465aa9ed3e7",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yoann HENRY"
+        }
+      ],
+      "id" : "HBJ-3604",
+      "title" : "The Spring BOF"
+    }
+  ],
+  "company" : "Pivotal",
+  "bio" : "Stéphane has a thing for code quality and robustness. He's been spreading the word for more than ten years while developing large scale Java enterprise applications in the geospatial, financial, or logistics sectors. An Apache Maven PMC member since 2006, he joined the core Spring Framework development team early 2014, being one of the main contributors to both Spring Framework and Spring Boot since. During his free time, he loves traveling around the world.",
+  "lastName" : "Nicoll",
+  "firstName" : "Stéphane",
+  "blog" : "https://spring.io/blog",
+  "avatarURL" : "https://lh5.googleusercontent.com/-Z-fY5u0ZtX8/AAAAAAAAAAI/AAAAAAAAAEk/XrzcHQMl1sU/photo.jpg",
+  "twitter" : "@snicoll",
+  "lang" : "fr"
+}

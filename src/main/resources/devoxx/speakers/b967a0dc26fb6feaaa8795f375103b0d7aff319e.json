@@ -1,0 +1,55 @@
+{
+  "uuid" : "b967a0dc26fb6feaaa8795f375103b0d7aff319e",
+  "bioAsHtml" : "<p>Java Plombier, Maitre de Conférence, Virtual Machine Whisperer,\nmartirise ses pauvres étudiants, complexifie Java en étant experts pour les JSR 292, 335 et 376, développe des librariries et langage dynamiques open source utilisés ou pas.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/DHS-1136",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b967a0dc26fb6feaaa8795f375103b0d7aff319e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Remi Forax"
+        }
+      ],
+      "id" : "DHS-1136",
+      "title" : "Pattern Matching en Java (10 ?)"
+    },
+    {
+      "talkType" : "University",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/KHV-4031",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/98d890f4f5c499fdd36d1efbc8aa041e8c30d50e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Alexis Hassler"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b967a0dc26fb6feaaa8795f375103b0d7aff319e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Remi Forax"
+        }
+      ],
+      "id" : "KHV-4031",
+      "title" : "Préparez-vous à la modularité selon Java 9"
+    }
+  ],
+  "company" : "Unuiversité Paris Est Marne-la-Vallée",
+  "bio" : "Java Plombier, Maitre de Conférence, Virtual Machine Whisperer,\r\nmartirise ses pauvres étudiants, complexifie Java en étant experts pour les JSR 292, 335 et 376, développe des librariries et langage dynamiques open source utilisés ou pas. ",
+  "lastName" : "Forax",
+  "firstName" : "Remi",
+  "blog" : "http://forax.github.io/",
+  "avatarURL" : "https://s.gravatar.com/avatar/5ce0156bc2f1864459fd77229eff3fe3",
+  "twitter" : "@over_my_dead_body",
+  "lang" : "fr"
+}

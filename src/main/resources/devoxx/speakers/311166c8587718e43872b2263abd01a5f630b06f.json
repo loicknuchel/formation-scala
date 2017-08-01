@@ -1,0 +1,37 @@
+{
+  "uuid" : "311166c8587718e43872b2263abd01a5f630b06f",
+  "bioAsHtml" : "<p>I am working @IBM, promoting Bluemix platform for cognitive solutions based on Web &amp; Mobile App, IoT (Internet of Things) and Blockchain\nI have a Master degree in IT from France with a specialization on software design. I am a Java EE &amp; Javascript expert and also focused on Spring technologies.\nI have developed an expertise on Blockchain technology at IBM using Hyperledger for Ecosystem developers &amp; startup Europe &amp; IBM Nice Garage</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Future, Robotique",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/KWC-5405",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/311166c8587718e43872b2263abd01a5f630b06f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Benjamin Fuentes"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b32733e7a415d36b7711196aef7dfed8e33bba1d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Nitesh  Thakrar"
+        }
+      ],
+      "id" : "KWC-5405",
+      "title" : "Coder un SmartContract sur Hyperledger (Blockchain) "
+    }
+  ],
+  "company" : "IBM",
+  "bio" : "I am working @IBM, promoting Bluemix platform for cognitive solutions based on Web & Mobile App, IoT (Internet of Things) and Blockchain\r\nI have a Master degree in IT from France with a specialization on software design. I am a Java EE & Javascript expert and also focused on Spring technologies.\r\nI have developed an expertise on Blockchain technology at IBM using Hyperledger for Ecosystem developers & startup Europe & IBM Nice Garage",
+  "lastName" : "Fuentes",
+  "firstName" : "Benjamin",
+  "blog" : null,
+  "avatarURL" : "http://www.gravatar.com/avatar/963fba5c11d752184c4a1e8824337d5d",
+  "twitter" : "@benji_fuentes",
+  "lang" : "en"
+}

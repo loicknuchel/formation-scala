@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826450,
+  "title" : "Unable to get the beacon information in my Android app?",
+  "body" : "<p>I am new to Beacon and trying to develop proximity Android app using iBeacon.\nI have purchased iBeacon from one of the manufacturer in China so I am trying to develop the proximity app where if I found the beacon in the range it show send some notification to the customer. I have tried <a href=\"https://altbeacon.github.io/android-beacon-library/samples.html\" rel=\"nofollow noreferrer\">Android Beacon Library</a>\nbut it is not giving any result .</p>\n\n<p>If anybody could help me how can I use it if I am doing something wrong. I have used <a href=\"https://altbeacon.github.io/android-beacon-library/samples.html\" rel=\"nofollow noreferrer\">MonitoringActivity</a>  sample code to test .. but nothing worked .</p>\n\n<p>Please help me .</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826450/unable-to-get-the-beacon-information-in-my-android-app",
+  "owner" : {
+    "user_id" : 2024888,
+    "user_type" : "registered",
+    "display_name" : "ssnegi",
+    "profile_image" : "https://www.gravatar.com/avatar/3c51ee3f71c5e8feb00ca96ad787c202?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/2024888/ssnegi",
+    "reputation" : 53,
+    "accept_rate" : 58
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742790,
+  "last_activity_date" : 1498742790,
+  "tags" : [
+    "android",
+    "ibeacon",
+    "beacon"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

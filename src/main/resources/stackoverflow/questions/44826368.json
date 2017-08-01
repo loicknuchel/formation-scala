@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826368,
+  "title" : "What problems can arrive when we try to scale out a system for big amount of data",
+  "body" : "<p>What kind of problem can  arrive when we try to scale out a system for big amount of data, like i wrote a scheduler to schedule work to employees using hashset, and map . Now if i scale work to 10 lakh n employees to few thousand.</p>\n\n<p>What kind of problems i have to face in real time implementation.\nI just want to get different angles, if guys having experience can put some , it will be really helpful.\nThank You..</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826368/what-problems-can-arrive-when-we-try-to-scale-out-a-system-for-big-amount-of-dat",
+  "owner" : {
+    "user_id" : 7221893,
+    "user_type" : "registered",
+    "display_name" : "Rahul",
+    "profile_image" : "https://www.gravatar.com/avatar/8b7093843725ba86558fd6a31f23f82c?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7221893/rahul",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742562,
+  "last_activity_date" : 1498742562,
+  "tags" : [
+    "java",
+    "bigdata"
+  ],
+  "score" : -3,
+  "view_count" : 13,
+  "answer_count" : 0
+}

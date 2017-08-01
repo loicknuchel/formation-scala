@@ -1,0 +1,20 @@
+{
+  "trackId" : "mobile",
+  "talkType" : "Quickie",
+  "track" : "Mobile, IoT",
+  "summaryAsHtml" : "<p>Comment on développe un jeu vidéo ? Est-ce compliqué d’afficher un personnage sur l’écran et de le faire bouger par la suite ? Programmer un jeu est-il comparable à programmer un application backend ? Quels sont les outils à utiliser ? Comment rendre un jeu amusant ?</p>\n<p>J’ai dû me poser ces questions pour réaliser mon premier jeu mobile. Ce quickie essayera d’y répondre et fera un retour sur les différentes expérimentations réalisées avant d’obtenir un jeu.</p>\n",
+  "id" : "CGE-2770",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b8cfc2c5b0d9f98410ec6cc7b51c47419cb634dd",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "David Wursteisen"
+      },
+      "name" : "David Wursteisen"
+    }
+  ],
+  "title" : "Développer un jeu vidéo (quand on n’y connait rien en développement de jeux vidéo)",
+  "lang" : "fr",
+  "summary" : "Comment on développe un jeu vidéo ? Est-ce compliqué d’afficher un personnage sur l’écran et de le faire bouger par la suite ? Programmer un jeu est-il comparable à programmer un application backend ? Quels sont les outils à utiliser ? Comment rendre un jeu amusant ?\r\n\r\n\r\nJ’ai dû me poser ces questions pour réaliser mon premier jeu mobile. Ce quickie essayera d’y répondre et fera un retour sur les différentes expérimentations réalisées avant d’obtenir un jeu."
+}

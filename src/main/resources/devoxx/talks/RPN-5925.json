@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Quickie",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Au détour d'un meetup ou d'une conversation de développeurs front-end, vous avez entendu parler du \"ShadowDOM\".\nVous vous doutez qu'il ne s'agit pas d'un DOM super-héros, mais vous êtes bien incapables d'en dire plus.</p>\n<p>Ce Quickie vous présentera les concepts derrière le shadowDOM, ce que cela implique pour les web components et le futur du web.\nNous aborderons également les côtés obscurs du shadowDOM, car toute technologie a ses limites.</p>\n",
+  "id" : "RPN-5925",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/711dcb0a9f5922fe8eb81e458ffb65dcc337cd9e",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Romain Linsolas"
+      },
+      "name" : "Romain Linsolas"
+    }
+  ],
+  "title" : "Le ShadowDOM pour les nuls",
+  "lang" : "fr",
+  "summary" : "Au détour d'un meetup ou d'une conversation de développeurs front-end, vous avez entendu parler du \"ShadowDOM\".\r\nVous vous doutez qu'il ne s'agit pas d'un DOM super-héros, mais vous êtes bien incapables d'en dire plus.\r\n \r\nCe Quickie vous présentera les concepts derrière le shadowDOM, ce que cela implique pour les web components et le futur du web.\r\nNous aborderons également les côtés obscurs du shadowDOM, car toute technologie a ses limites."
+}

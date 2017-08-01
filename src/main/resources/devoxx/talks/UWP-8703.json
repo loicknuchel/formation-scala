@@ -1,0 +1,20 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "BOF (Bird of a Feather)",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Organisation d'un open-space sur le thème du DevOps.</p>\n<p>L’Open-space est une méthodologie qui vise a structurer et encourager la communication entre les différents participants de la soirée. Dans un premier temps, toute personne le souhaitant est invitée à proposer un ou plusieurs sujets (question technique, retour d'expérience, sujet méta ...), l’inscrire sur un ou des post-it et venir le ou les présenter en quelques mots. Une fois que nous avons fait le tour des propositions, chaque personne vient voter pour les sujets auxquels il désire participer (un point par post-it désiré). En fonction du nombre de voix récoltées par les différents sujets, nous organisons des séances de conversation, reparties dans différents espaces/créneaux horaires. Ainsi, au court de la soirée, à tout moment on sait quel sujet est abordé, et dans quel lieu.</p>\n<p>Que vous souhaitiez échanger sur le thème du DevOps ou que vous voulliez voir comment s'organsie un open-space, vous êtes les bienvenu dans cette espace.</p>\n",
+  "id" : "UWP-8703",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5cebcb429230861cb0b2c4c6218383adedd1273d",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Clément Cunin"
+      },
+      "name" : "Clément Cunin"
+    }
+  ],
+  "title" : "Devops Paris Meetup",
+  "lang" : "fr",
+  "summary" : "Organisation d'un open-space sur le thème du DevOps.\r\n\r\nL’Open-space est une méthodologie qui vise a structurer et encourager la communication entre les différents participants de la soirée. Dans un premier temps, toute personne le souhaitant est invitée à proposer un ou plusieurs sujets (question technique, retour d'expérience, sujet méta ...), l’inscrire sur un ou des post-it et venir le ou les présenter en quelques mots. Une fois que nous avons fait le tour des propositions, chaque personne vient voter pour les sujets auxquels il désire participer (un point par post-it désiré). En fonction du nombre de voix récoltées par les différents sujets, nous organisons des séances de conversation, reparties dans différents espaces/créneaux horaires. Ainsi, au court de la soirée, à tout moment on sait quel sujet est abordé, et dans quel lieu.\r\n\r\nQue vous souhaitiez échanger sur le thème du DevOps ou que vous voulliez voir comment s'organsie un open-space, vous êtes les bienvenu dans cette espace."
+}

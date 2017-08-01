@@ -1,0 +1,55 @@
+{
+  "uuid" : "4a822ea73a5cb708b3eb656ce77b48748c5cc7c7",
+  "bioAsHtml" : "<p>Depuis 2013, David Pilato est développeur et évangéliste chez elastic.co, après avoir passé les deux années précédentes à promouvoir le projet open-source Elasticsearch. Il en anime la communauté française et organise des BBLs au sein des entreprises.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/LEU-9587",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4a822ea73a5cb708b3eb656ce77b48748c5cc7c7",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "David Pilato"
+        }
+      ],
+      "id" : "LEU-9587",
+      "title" : "Ingest node : (ré)indexer et enrichir des documents dans Elasticsearch"
+    },
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/VRT-8136",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4a822ea73a5cb708b3eb656ce77b48748c5cc7c7",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "David Pilato"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/71deca75770d755eff2b70d4c79cff42f87bd36a",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sylvain Wallez"
+        }
+      ],
+      "id" : "VRT-8136",
+      "title" : "BOF elastic and tools"
+    }
+  ],
+  "company" : "elastic",
+  "bio" : "Depuis 2013, David Pilato est développeur et évangéliste chez elastic.co, après avoir passé les deux années précédentes à promouvoir le projet open-source Elasticsearch. Il en anime la communauté française et organise des BBLs au sein des entreprises.",
+  "lastName" : "Pilato",
+  "firstName" : "David",
+  "blog" : "http://david.pilato.fr",
+  "avatarURL" : "http://www.gravatar.com/avatar/20049a614b7f6838dc87b4bc39c42079",
+  "twitter" : "@dadoonet",
+  "lang" : "fr-FR"
+}

@@ -1,0 +1,78 @@
+{
+  "uuid" : "f387c127f51cd63fec084d5c55d5e111fa4ece93",
+  "bioAsHtml" : "<p>Writer, father, husband, and educator with a passion for skiing, mountain biking, VWs and good beer. Drives a ’66 21-Window Bus and a ’90 Syncro Westy.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/PJA-6878",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f387c127f51cd63fec084d5c55d5e111fa4ece93",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Matt Raible"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/28d78da3c37996c37f7d02bfc2e7baf189d8f90f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Josh Long"
+        }
+      ],
+      "id" : "PJA-6878",
+      "title" : "Building Cloud Native Progressive Web Apps - Part 2"
+    },
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/MFG-0249",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f387c127f51cd63fec084d5c55d5e111fa4ece93",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Matt Raible"
+        }
+      ],
+      "id" : "MFG-0249",
+      "title" : "The Ultimate Getting Started with Angular Workshop"
+    },
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/XBZ-1299",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/28d78da3c37996c37f7d02bfc2e7baf189d8f90f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Josh Long"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f387c127f51cd63fec084d5c55d5e111fa4ece93",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Matt Raible"
+        }
+      ],
+      "id" : "XBZ-1299",
+      "title" : "Building Cloud Native Progressive Web Apps - Part 1"
+    }
+  ],
+  "company" : "Okta",
+  "bio" : "Writer, father, husband, and educator with a passion for skiing, mountain biking, VWs and good beer. Drives a ’66 21-Window Bus and a ’90 Syncro Westy. ",
+  "lastName" : "Raible",
+  "firstName" : "Matt",
+  "blog" : "http://raibledesigns.com",
+  "avatarURL" : "https://pbs.twimg.com/profile_images/809579440304963586/E3KsClil_400x400.jpg",
+  "twitter" : "@mraible",
+  "lang" : "fr"
+}

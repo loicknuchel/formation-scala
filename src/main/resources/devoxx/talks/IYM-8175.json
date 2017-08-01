@@ -1,0 +1,28 @@
+{
+  "trackId" : "java",
+  "talkType" : "Hands-on Labs",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>Le caching est une des solutions qui s'offrent aux développeurs qui ont besoin d'améliorer les performances de leur application. Grâce à l'API JCache (JSR-107), Java possède son standard de Caching. Ce Hands on Lab vous montrera les différentes patterns de caching (Cache Aside, Cache Through, Write-Behind) et vous permettra de les implémenter avec JCache. Les différents exercices pratiques couvriront les concepts définis par JSR-107 : Les bases de l'API, les annotations, les règles d'expiration, et la vérification de l'utilisation de vos cas via les statistiques. Nous couvrirons égalements plusieurs sujets qui étendent JSR-107 et qui sont disponibles parmi plusieurs librairies de caching : Topologies de caches, contrôle de capacité, caches distribués.</p>\n",
+  "id" : "IYM-8175",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1c8c78210dc424eb8ee603ecb95626b44122eec5",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Aurelien Broszniowski"
+      },
+      "name" : "Aurelien Broszniowski"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/407f394c16a1dc8684bda06a68d9be07e88f8d14",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Ludovic Orban"
+      },
+      "name" : "Ludovic Orban"
+    }
+  ],
+  "title" : "Caching et Performance",
+  "lang" : "fr",
+  "summary" : "Le caching est une des solutions qui s'offrent aux développeurs qui ont besoin d'améliorer les performances de leur application. Grâce à l'API JCache (JSR-107), Java possède son standard de Caching. Ce Hands on Lab vous montrera les différentes patterns de caching (Cache Aside, Cache Through, Write-Behind) et vous permettra de les implémenter avec JCache. Les différents exercices pratiques couvriront les concepts définis par JSR-107 : Les bases de l'API, les annotations, les règles d'expiration, et la vérification de l'utilisation de vos cas via les statistiques. Nous couvrirons égalements plusieurs sujets qui étendent JSR-107 et qui sont disponibles parmi plusieurs librairies de caching : Topologies de caches, contrôle de capacité, caches distribués."
+}

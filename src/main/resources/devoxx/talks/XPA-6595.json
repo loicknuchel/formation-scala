@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Tools-in-Action",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Durant la présentation nous traverserons un problème exemple que le machine learning peut résoudre afin de démontrer la puissance et l’utilité de TensorFlow, l’outil développé par Google. Le but ultime de la présentation est de modifier l’image que le machine learning s’est fait aux yeux des développeurs.</p>\n<p>On s’attaque à deux réputations. Le machine learning est supposé difficile car très concentré sur les mathématiques. Grâce aux nouveaux outils comme TensorFlow on cherche à démontrer que ça n’est plus nécessairement le cas. Le machine learning est aussi considéré trop “magique” pour être fiable. C’est en partie pour ces deux raisons qu’il a peine à être exploité dans certaines entreprises.</p>\n<p>Le machine learning n’est plus réservé aux chercheurs, il doit être accessible aux développeurs, et au reste du monde, d’où le titre de cette présentation: la démocratisation du machine learning.</p>\n",
+  "id" : "XPA-6595",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c4343633a4049cba301942fbf9362bf8a3be8dd3",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Loan Tricot"
+      },
+      "name" : "Loan Tricot"
+    }
+  ],
+  "title" : "Démocratiser le machine learning avec TensorFlow",
+  "lang" : "fr",
+  "summary" : "Durant la présentation nous traverserons un problème exemple que le machine learning peut résoudre afin de démontrer la puissance et l’utilité de TensorFlow, l’outil développé par Google. Le but ultime de la présentation est de modifier l’image que le machine learning s’est fait aux yeux des développeurs.\r\n\r\nOn s’attaque à deux réputations. Le machine learning est supposé difficile car très concentré sur les mathématiques. Grâce aux nouveaux outils comme TensorFlow on cherche à démontrer que ça n’est plus nécessairement le cas. Le machine learning est aussi considéré trop “magique” pour être fiable. C’est en partie pour ces deux raisons qu’il a peine à être exploité dans certaines entreprises.\r\n\r\nLe machine learning n’est plus réservé aux chercheurs, il doit être accessible aux développeurs, et au reste du monde, d’où le titre de cette présentation: la démocratisation du machine learning."
+}

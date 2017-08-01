@@ -1,0 +1,44 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "University",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Pendant 3h Fabien, Romain et Sébastien vous introduirons à la science des données et vous emmènerons au sein des grandes familles d'algorithmes. Les classiques apprentissages supervisés et tout ce qui est classifications non supervisées.</p>\n<p>Enfin l'équipe vous embarquera au sein des réseaux profonds, le \"deep learning\",  jusque dans leurs dernières évolutions : les réseaux neuronaux à renforcement.</p>\n",
+  "id" : "IAW-7890",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/96409f05d7b7849b819376e797097b7822d762ac",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Youen Chéné"
+      },
+      "name" : "Youen Chéné"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/53d84e8731994ab75562de023302932a5454f3c0",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Fabien Vauchelles"
+      },
+      "name" : "Fabien Vauchelles"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5f3b5c7e2d3de6aa8d621dda5add4b222cde9ed5",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Romain Picot-Clémente"
+      },
+      "name" : "Romain Picot-Clémente"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8840d491628893d4dcedbdec02c8126da649ffa0",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Sébastien Collet"
+      },
+      "name" : "Sébastien Collet"
+    }
+  ],
+  "title" : "Université de la datascience",
+  "lang" : "fr",
+  "summary" : "Pendant 3h Fabien, Romain et Sébastien vous introduirons à la science des données et vous emmènerons au sein des grandes familles d'algorithmes. Les classiques apprentissages supervisés et tout ce qui est classifications non supervisées.\r\n\r\nEnfin l'équipe vous embarquera au sein des réseaux profonds, le \"deep learning\",  jusque dans leurs dernières évolutions : les réseaux neuronaux à renforcement."
+}

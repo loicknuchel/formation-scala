@@ -1,0 +1,57 @@
+{
+  "uuid" : "daeacb58322e0c2098becde15aa8d52562f23e7d",
+  "bioAsHtml" : "<p>Sébastien Gioria est Expert en Sécurité Applicative,   Chapter Leader de l’OWASP pour la France (http://www.owasp.fr), membre du OWASP Global Education Committee et Expert Judiciaire. Il a une expérience de plus de 15 ans dans la sécurité des Systèmes d’Informations au sein de postes techniques ou à responsabilité dans des banques, assurances, telecoms.</p>\n<p>Sébastien gère la liaison entre l’OWASP et le comité ISO, colead les projets OWASP-SonarQube, et OWASP-CSRFGuard  et il a présenté divers sujets dans des conférences en France ou à l’étranger.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/QFM-7860",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/68082da635ce5c02b0325170cd42af87fda5dfe0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Johanne Ulloa"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a97dc1739cca5a4d6b1dd2ca06fe1c69fbe405b8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Nicolas RUFF"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/419d72a808d490afdf5721dc44e29c64fa02524c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Emmanuel Bernard"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/efe86825ed18e3ac9a3a895fc0acb9702c5a99c3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Hervé Schauer"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/daeacb58322e0c2098becde15aa8d52562f23e7d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sébastien Gioria"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/303c50d69c22284f37665fb4cefb5490a8ee616f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "V׀adimіr Kο׀׀a"
+        }
+      ],
+      "id" : "QFM-7860",
+      "title" : "Dev et Sécu : c'est fromage ou dessert ?"
+    }
+  ],
+  "company" : "OWASP France",
+  "bio" : "Sébastien Gioria est Expert en Sécurité Applicative,   Chapter Leader de l’OWASP pour la France (http://www.owasp.fr), membre du OWASP Global Education Committee et Expert Judiciaire. Il a une expérience de plus de 15 ans dans la sécurité des Systèmes d’Informations au sein de postes techniques ou à responsabilité dans des banques, assurances, telecoms.\r\n\r\nSébastien gère la liaison entre l’OWASP et le comité ISO, colead les projets OWASP-SonarQube, et OWASP-CSRFGuard  et il a présenté divers sujets dans des conférences en France ou à l’étranger.",
+  "lastName" : "Gioria",
+  "firstName" : "Sébastien",
+  "blog" : "http://blog.appsec.fr",
+  "avatarURL" : "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/011/238/1ab3358.jpg",
+  "twitter" : "@SPoint",
+  "lang" : "fr"
+}

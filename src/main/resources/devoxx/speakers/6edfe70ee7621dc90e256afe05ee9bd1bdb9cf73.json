@@ -1,0 +1,85 @@
+{
+  "uuid" : "6edfe70ee7621dc90e256afe05ee9bd1bdb9cf73",
+  "bioAsHtml" : "<p>Marouane is a passionate developer and a continous learner. He attends as many conferences as he can and follow some MOOCs to always be up to date.</p>\n<p>He likes working(and is working) with great people that can push him to the top.</p>\n<p>He likes agility and want to be a software craftsman.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/HUA-2052",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9d77f0e35092ee25dacf9f9b6f9cc0fc695be416",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Florent Biville"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6edfe70ee7621dc90e256afe05ee9bd1bdb9cf73",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Marouane Gazanayi"
+        }
+      ],
+      "id" : "HUA-2052",
+      "title" : "Hands on Neo4j : la base de données graphe pour tous !"
+    },
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/HBJ-3604",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7ee8911b3983bb10774f99ed3b3da60b1854c839",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Stéphane Nicoll"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e8c67e2df13f82a0e69b26b1274d11fec44b0122",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Brian Clozel"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9d77f0e35092ee25dacf9f9b6f9cc0fc695be416",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Florent Biville"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6edfe70ee7621dc90e256afe05ee9bd1bdb9cf73",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Marouane Gazanayi"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d84b817a907825ede4a9d5a74665bc23be072608",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sebastien Deleuze"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/89a849add91029107d06f2981979f4c8d857ece3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Simon Baslé"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7e7ce8659844ad917a72243cf0d07465aa9ed3e7",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yoann HENRY"
+        }
+      ],
+      "id" : "HBJ-3604",
+      "title" : "The Spring BOF"
+    }
+  ],
+  "company" : "Freelance",
+  "bio" : "Marouane is a passionate developer and a continous learner. He attends as many conferences as he can and follow some MOOCs to always be up to date.\r\n\r\nHe likes working(and is working) with great people that can push him to the top.\r\n\r\nHe likes agility and want to be a software craftsman.",
+  "lastName" : "Gazanayi",
+  "firstName" : "Marouane",
+  "blog" : null,
+  "avatarURL" : "http://www.gravatar.com/avatar/5a84b4ae3ca6e73ec9b314ffd7b73fd3",
+  "twitter" : "@mgazanayi",
+  "lang" : "fr"
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Conference",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>Dual Universe est un MMORPG SciFi très ambitieux qui se déroule dans un monde \"single-shard\" (un seul serveur central, pas d'instances, pas de zones), où potentiellement des millions de joueurs seront libres de modifier comme ils le souhaitent le monde basé sur des voxels, pour créer des villes géantes ou des structures volantes, vaisseaux ou stations spatiales. Nous présenterons le projet et parlerons des différents challenges techniques que nous avons résolus: scalabilité serveur, framework acteurs, technologie de voxels \"Dual Contouring\" avec gestion de LOD infini, scripting en jeu basé sur LUA, game design centré sur l'émergence, et contenu émergent issu des joueurs.</p>\n",
+  "id" : "PRV-0895",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b68e3b4accf2dc077378df475a4c4b197859b02f",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Jean-Christophe Baillie"
+      },
+      "name" : "Jean-Christophe Baillie"
+    }
+  ],
+  "title" : "Dual Universe: Challenges techniques de la création d'un monde virtuel \"single-shard\" entièrement éditable",
+  "lang" : "fr",
+  "summary" : "Dual Universe est un MMORPG SciFi très ambitieux qui se déroule dans un monde \"single-shard\" (un seul serveur central, pas d'instances, pas de zones), où potentiellement des millions de joueurs seront libres de modifier comme ils le souhaitent le monde basé sur des voxels, pour créer des villes géantes ou des structures volantes, vaisseaux ou stations spatiales. Nous présenterons le projet et parlerons des différents challenges techniques que nous avons résolus: scalabilité serveur, framework acteurs, technologie de voxels \"Dual Contouring\" avec gestion de LOD infini, scripting en jeu basé sur LUA, game design centré sur l'émergence, et contenu émergent issu des joueurs."
+}

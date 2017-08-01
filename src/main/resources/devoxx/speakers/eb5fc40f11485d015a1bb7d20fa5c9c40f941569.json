@@ -1,0 +1,47 @@
+{
+  "uuid" : "eb5fc40f11485d015a1bb7d20fa5c9c40f941569",
+  "bioAsHtml" : "<p>Développeur depuis 8 ans, je découvre les joies du Scala et de son écosystème depuis un peu plus d&#x27;un an. Data engineer chez Ebiznext.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/TJZ-5762",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/eb5fc40f11485d015a1bb7d20fa5c9c40f941569",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Simon Dumas"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/68e3eb4644fd25d25ece568b8ad434fe8cab5e29",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Fred CECILIA"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/808c73e08775c96b4bb2121e5ab2ee914b8837e6",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Hayssam Saleh"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/792c98760a898dc32a5b23f793e2519a657d5a6b",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Valentin Kasas"
+        }
+      ],
+      "id" : "TJZ-5762",
+      "title" : "Hands-on Kafka Streams"
+    }
+  ],
+  "company" : "ebiznext",
+  "bio" : "Développeur depuis 8 ans, je découvre les joies du Scala et de son écosystème depuis un peu plus d'un an. Data engineer chez Ebiznext.",
+  "lastName" : "Dumas",
+  "firstName" : "Simon",
+  "blog" : null,
+  "avatarURL" : "https://lh3.googleusercontent.com/-p0C8aERqhpg/AAAAAAAAAAI/AAAAAAAAAc4/gT6N19Sx5VM/photo.jpg",
+  "twitter" : "@_sdumas_",
+  "lang" : "en"
+}

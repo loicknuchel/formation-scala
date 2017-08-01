@@ -1,0 +1,32 @@
+{
+  "uuid" : "cde64d9e014098380d3570d218aa057c7d1dc9f2",
+  "bioAsHtml" : "<p>With a long experience on very different systems, applications and networks, I now work for Business Development and ISV at IBM Nice Meridia to support Independent Software Vendors (ISV) and CSP partners for new and innovative IBM solutions across Europe, Middle East and Africa. My first set of specialties is now: Hybrid Clouds, Cloud Architectures,  API Connect, SoftLayer, BlueBox, Bluemix (since 2013), PureApplication (System, Service and Software), Cloud Orchestrator, SQL and NoSQL Databases, Analytics(Cognos BI) and Monitoring Solutions.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/JYK-8203",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/cde64d9e014098380d3570d218aa057c7d1dc9f2",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Philippe THOMAS"
+        }
+      ],
+      "id" : "JYK-8203",
+      "title" : "Utilisations et avantages des containers Docker sous Bluemix"
+    }
+  ],
+  "company" : "IBM",
+  "bio" : "With a long experience on very different systems, applications and networks, I now work for Business Development and ISV at IBM Nice Meridia to support Independent Software Vendors (ISV) and CSP partners for new and innovative IBM solutions across Europe, Middle East and Africa. My first set of specialties is now: Hybrid Clouds, Cloud Architectures,  API Connect, SoftLayer, BlueBox, Bluemix (since 2013), PureApplication (System, Service and Software), Cloud Orchestrator, SQL and NoSQL Databases, Analytics(Cognos BI) and Monitoring Solutions.",
+  "lastName" : "THOMAS",
+  "firstName" : "Philippe",
+  "blog" : "http://bluemix.net",
+  "avatarURL" : "https://drive.google.com/open?id=0B_diCdM3xuslTnhOMEhKd3FnckU",
+  "twitter" : "@phthom77",
+  "lang" : "fr"
+}

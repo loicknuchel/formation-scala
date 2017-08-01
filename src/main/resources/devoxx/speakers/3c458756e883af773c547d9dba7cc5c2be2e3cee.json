@@ -1,0 +1,42 @@
+{
+  "uuid" : "3c458756e883af773c547d9dba7cc5c2be2e3cee",
+  "bioAsHtml" : "<p>Développeur Java et bidouilleur. Organisateur des meetup Docker de Bordeaux.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/MDG-6935",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/587c46e7b957f7e92a63246bdcc683e5d5e612a8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jérémie MONSINJON"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3c458756e883af773c547d9dba7cc5c2be2e3cee",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Christophe Labouisse"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/eec27b231d20ebc4d7e2e2899fb37ffa7e0bbbac",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Florian Garcia"
+        }
+      ],
+      "id" : "MDG-6935",
+      "title" : "Plateforme dynamique, #docker #dns #scalabilité... Où sont mes microservices ?"
+    }
+  ],
+  "company" : "Freelance",
+  "bio" : "Développeur Java et bidouilleur. Organisateur des meetup Docker de Bordeaux. ",
+  "lastName" : "Labouisse",
+  "firstName" : "Christophe",
+  "blog" : "http://www.labouisse.com",
+  "avatarURL" : "https://lh3.googleusercontent.com/-05bRWrEU8BE/AAAAAAAAAAI/AAAAAAAAAXk/MLxU8uRha24/photo.jpg",
+  "twitter" : "@XtlCnslt",
+  "lang" : "en"
+}

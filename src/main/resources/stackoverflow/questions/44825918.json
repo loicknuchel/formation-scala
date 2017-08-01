@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825918,
+  "title" : "Look for an value in a sheet count it and paste the result in another sheet",
+  "body" : "<p>I am having two Sheets sheet1 and sheet2</p>\n\n<p>In sheet1 , in column AX I have my present week printed using an formula. I am looking for the sheet1, column T and U and Count the number of 1'S in both the columns. </p>\n\n<p>the counted number of 1's of both the columns should be pasted in sheet2 looking into the week of sheet1 in column AX. if the column AX has week number 24, then it should run along the sheet2, column A for 24 and paste the Count value of T in column B and Count value of U in column C, and calculate the percentage for both and Paste in C and D. </p>\n\n<p>I tried through a code, I am often getting it as 0,I am struck where I am wrong. Ist neither checking the Count nor weeks. </p>\n\n<pre><code>Sub test()\nDim col As Range\nDim row As Range\nDim sh1 As Worksheet\nDim sh2 As Worksheet\nDim T As Integer\nDim U As Integer\nDim wk As String\n\nSet sh1 = Sheets(\"BW\")\nSet sh2 = Sheets(\"Results\")\n\n\n\nFor Each col In sh2.Columns 'This loops through all populated columns in row one\n    If sh2.Cells(1, col.Column).Value = \"\" Then\n        Exit For\n    End If\n\n    wk = sh2.Cells(1, col.Column).Value\n\n    For Each rw In sh1.Rows\n        If sh1.Cells(rw.row, 50).Value = \"\" Then\n            Exit For\n        End If\n\n        If sh1.Cells(rw.row, 50) = wk And sh1.Cells(rw.row, 20) = 1 Then\n            T = T + 1\n        End If\n\n        If sh1.Cells(rw.row, 50) = wk And sh1.Cells(rw.row, 21) = 0 Then\n            U = U + 1\n        End If\n    Next rw\n\nsh2.Cells(2, col.Column) = T 'put counters into 2nd and 3rd row under each week, you can adjust this to put the number in a different cell.\nsh2.Cells(3, col.Column) = U\n\nT = 0 'reset counters to start looking at next week.\nU = 0\n\nNext col\n\nEnd Sub\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44825918/look-for-an-value-in-a-sheet-count-it-and-paste-the-result-in-another-sheet",
+  "owner" : {
+    "user_id" : 8155124,
+    "user_type" : "registered",
+    "display_name" : "Mikz",
+    "profile_image" : "https://www.gravatar.com/avatar/29cda1f21ec8087d25577110f21a888b?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8155124/mikz",
+    "reputation" : 57,
+    "accept_rate" : 71
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741336,
+  "last_activity_date" : 1498741336,
+  "tags" : [
+    "excel",
+    "vba",
+    "excel-vba"
+  ],
+  "score" : 0,
+  "view_count" : 17,
+  "answer_count" : 0
+}

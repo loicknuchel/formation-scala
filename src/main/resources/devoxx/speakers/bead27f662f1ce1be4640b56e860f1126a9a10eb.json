@@ -1,0 +1,37 @@
+{
+  "uuid" : "bead27f662f1ce1be4640b56e860f1126a9a10eb",
+  "bioAsHtml" : "<p>Développeur d’applications mobiles. Je réalise des applications iOS et Android pour des voitures connectées chez Virtuo Technologies.\nPassé 4 ans dans l&#x27;équipe mobile d&#x27;Octo Technology j&#x27;y ai appris a croire en l’industrialisation des devs mobiles, aux tests unitaires et à l’intégration continue.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Mobile, IoT",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/OKC-5960",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/bead27f662f1ce1be4640b56e860f1126a9a10eb",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Mathieu Hausherr"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ad4e2dfc230884e75b3674f3b8fdd7c8239023dd",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Romain Potier"
+        }
+      ],
+      "id" : "OKC-5960",
+      "title" : "Mode offline : Notre application mobile fonctionne au niveau -5 d’un parking"
+    }
+  ],
+  "company" : "Virtuo Technologies",
+  "bio" : "Développeur d’applications mobiles. Je réalise des applications iOS et Android pour des voitures connectées chez Virtuo Technologies.\r\nPassé 4 ans dans l'équipe mobile d'Octo Technology j'y ai appris a croire en l’industrialisation des devs mobiles, aux tests unitaires et à l’intégration continue.",
+  "lastName" : "Hausherr",
+  "firstName" : "Mathieu",
+  "blog" : "mathieu-hausherr.com",
+  "avatarURL" : "http://www.gravatar.com/avatar/ddc294f25a19a5c979deabbac498e020",
+  "twitter" : "@mhausherr",
+  "lang" : "fr-FR"
+}

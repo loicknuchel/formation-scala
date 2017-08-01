@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "Quickie",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>Bean Validation 2.0 arrive, et le thème c'est Java 8. Ca tombe bien parce que Java 8 amène de nouveaux types mais aussi de nouveaux endroits pour placer des annotations.</p>\n<p>Alors on en profite pour rajouter des choses bien utiles comme:</p>\n<ul>\n<li>les @Repeatable sur les contraintes</li>\n<li>la validation des éléments des collections List<a href=\"&#x6d;&#97;&#105;&#108;&#116;&#x6f;&#58;&#64;&#69;&#x6d;&#x61;&#105;&#x6c;&#32;&#83;&#x74;&#114;&#x69;&#x6e;&#103;\">&#x40;&#x45;&#109;&#x61;&#105;&#108;&#x20;&#83;&#x74;&#x72;&#x69;&#x6e;&#103;</a> emails;</li>\n<li>Java 8 date / time</li>\n<li>Optional<a href=\"&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#64;&#85;&#82;&#x4c;&#32;S&#x74;&#114;&#105;n&#103;\">&#64;&#x55;&#x52;&#76;&#32;&#83;t&#114;&#105;n&#103;</a></li>\n</ul>\n<p>En 15 minutes, vous saurez quelles sont les principales fonctionnalités de Bean Validation 2.0 et si on a le temps, je vous montrerai le diable dans les détails. C'est quand même une belle bête.</p>\n",
+  "id" : "YXC-4443",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/419d72a808d490afdf5721dc44e29c64fa02524c",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Emmanuel Bernard"
+      },
+      "name" : "Emmanuel Bernard"
+    }
+  ],
+  "title" : "Bean Validation 2.0 - t'as foutu tes annotations partout !",
+  "lang" : "fr",
+  "summary" : "Bean Validation 2.0 arrive, et le thème c'est Java 8. Ca tombe bien parce que Java 8 amène de nouveaux types mais aussi de nouveaux endroits pour placer des annotations.\r\n\r\nAlors on en profite pour rajouter des choses bien utiles comme:\r\n\r\n* les @Repeatable sur les contraintes\r\n* la validation des éléments des collections List<@Email String> emails;\r\n* Java 8 date / time\r\n* Optional<@URL String>\r\n\r\nEn 15 minutes, vous saurez quelles sont les principales fonctionnalités de Bean Validation 2.0 et si on a le temps, je vous montrerai le diable dans les détails. C'est quand même une belle bête."
+}

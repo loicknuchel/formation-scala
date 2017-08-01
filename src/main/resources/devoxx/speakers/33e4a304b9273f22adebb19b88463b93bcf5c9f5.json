@@ -1,0 +1,32 @@
+{
+  "uuid" : "33e4a304b9273f22adebb19b88463b93bcf5c9f5",
+  "bioAsHtml" : "<p>Directeur d&#x27;AYA, la nouvelle agence Web de Zenika. Mais aussi et toujours Web &amp; JavaScript specialist. Plus précisément, mes technologies de prédilection sont actuellement React, Redux, Yeoman, Gulp, Angular et Node.</p>\n<p>J’ai donné de nombreux talks, notamment sur ES2015 à Paris Web et sur Angular à ngEurope mais aussi au MixIT ou encore DevoxxFR.</p>\n<p>J&#x27;organise également le LyonJS, le meetup JavaScript de Lyon. J&#x27;ai enfin crée le générateur Yeoman FountainJS qui propose le démarrage de projets d&#x27;applications Web avec les technologies les plus modernes : Angular 2, React, Vue 2, Webpack, Babel, Typescript...</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/GLA-5382",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/33e4a304b9273f22adebb19b88463b93bcf5c9f5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Matthieu Lux"
+        }
+      ],
+      "id" : "GLA-5382",
+      "title" : "Organisez la logique de votre application Web avec Redux"
+    }
+  ],
+  "company" : "Zenika",
+  "bio" : "Directeur d'AYA, la nouvelle agence Web de Zenika. Mais aussi et toujours Web & JavaScript specialist. Plus précisément, mes technologies de prédilection sont actuellement React, Redux, Yeoman, Gulp, Angular et Node.\r\n\r\nJ’ai donné de nombreux talks, notamment sur ES2015 à Paris Web et sur Angular à ngEurope mais aussi au MixIT ou encore DevoxxFR.\r\n\r\nJ'organise également le LyonJS, le meetup JavaScript de Lyon. J'ai enfin crée le générateur Yeoman FountainJS qui propose le démarrage de projets d'applications Web avec les technologies les plus modernes : Angular 2, React, Vue 2, Webpack, Babel, Typescript...",
+  "lastName" : "Lux",
+  "firstName" : "Matthieu",
+  "blog" : "https://medium.com/@Swiip_51904",
+  "avatarURL" : "https://avatars2.githubusercontent.com/u/475895?v=3&s=460",
+  "twitter" : "@Swiip",
+  "lang" : "fr"
+}

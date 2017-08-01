@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826057,
+  "title" : "How to marshal to JSON/XML when an exception occurs with Camel rest-dsl",
+  "body" : "<p>I have a REST-dsl camel route with binding: json_xml\nwith .type() and outType(). It works perfectly when no exception occurs. That is json input gives json output. Xml input gives xml output. </p>\n\n<p>However, when I get an IllegalArgumentException I always return XML. I create a ErrorResponse POJO when the exception occurs. The CONTENT_TYPE is set to \"application/json\" for json. How do I return a POJO and let camel marhal to JSON/XML when an Exception occurs(given ResBindingMode.json_xml)?</p>\n\n<pre><code>onException(IllegalArgumentException.class)\n        .log(LoggingLevel.ERROR, LOGGER, \"error\")\n        .handled(true)\n        .setHeader(Exchange.HTTP_RESPONSE_CODE, constant(400))\n        .setHeader(Exchange.CONTENT_TYPE, exchangeProperty(Exchange.CONTENT_TYPE))\n        .bean(errorResponseTranslator);\nrestConfiguration().component(\"restlet\").port(port).skipBindingOnErrorCode(true)\n        .bindingMode(RestBindingMode.json_xml);\n    rest(\"/whatever/api/v1/request\")\n        .post().type(requestDto.class).outType(ResponseDto.class)\n            .route()\n            .setProperty(Exchange.CONTENT_TYPE, header(Exchange.CONTENT_TYPE))\n           ...process\n</code></pre>\n\n<p>ErrorDto:</p>\n\n<pre><code>@XmlRootElement(name = \"errorResponse\")\n@XmlAccessorType(XmlAccessType.PROPERTY)\npublic class ErrorResponseDto {\n  private String errorCode;\n  private String message;\n\n  @XmlElement(name = \"message\")\n  public String getMessage() {\n      return message;\n  }\n\n  public void setMelding(String message) {\n      this.message = message;\n  }\n\n  @XmlElement(name = \"errorCode\")\n  public String getErrorCode() {\n      return errorCode;\n  }\n\n  public void setErrorCode(String errorCode) {\n      this.errorCode = errorCode;\n  }\n}\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826057/how-to-marshal-to-json-xml-when-an-exception-occurs-with-camel-rest-dsl",
+  "owner" : {
+    "user_id" : 7534954,
+    "user_type" : "registered",
+    "display_name" : "TXdev",
+    "profile_image" : "https://www.gravatar.com/avatar/d586d65be05482f2622c533ebd93abdd?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7534954/txdev",
+    "reputation" : 11,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741677,
+  "last_activity_date" : 1498741677,
+  "tags" : [
+    "json",
+    "rest",
+    "apache-camel",
+    "marshalling"
+  ],
+  "score" : 0,
+  "view_count" : 9,
+  "answer_count" : 0
+}

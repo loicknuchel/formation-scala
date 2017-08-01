@@ -1,0 +1,28 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Tools-in-Action",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Parfois vous avez envie de gérer un parc de machines et de services associés sans sortir l’artillerie lourde (Kubernetes, Mesos ..) tout en évitant un processus entièrement “manualisés”, c’est là que deux outils proposés par CoreOS peuvent vous aider.</p>\n<ul>\n<li>Etcd une base de données NoSQL clé / valeur tout à fait adaptée au “service discovery”, en particulier avec la capacité de notifier ses changements à ses clients. Elle est d’ailleurs à la base de Kurbenetes.</li>\n<li>Fleet, un outil d’orchestration, qui étend les capacités du service systemd d'une machine à un cluster de machine.</li>\n</ul>\n<p>Nous vous ferons une présentation de ces technos liés à notre expérience de leur utilisation ainsi qu’une démo dans le cadre d’un déploiement de service, Docker parce que c'est hype ! :)</p>\n",
+  "id" : "ZXG-8799",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f3217b928f67c17d94c5da8fd7c9fb14f0009ed5",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Yannick grenzinger"
+      },
+      "name" : "Yannick grenzinger"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/fdfbf388398df259eeace0dd029420ee945593cf",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Sékou Bougadar Diarra"
+      },
+      "name" : "Sékou Bougadar Diarra"
+    }
+  ],
+  "title" : "Fleet et etcd : des outils simples mais efficaces pour orchestrer vos services",
+  "lang" : "fr",
+  "summary" : "Parfois vous avez envie de gérer un parc de machines et de services associés sans sortir l’artillerie lourde (Kubernetes, Mesos ..) tout en évitant un processus entièrement “manualisés”, c’est là que deux outils proposés par CoreOS peuvent vous aider.\r\n\r\n* Etcd une base de données NoSQL clé / valeur tout à fait adaptée au “service discovery”, en particulier avec la capacité de notifier ses changements à ses clients. Elle est d’ailleurs à la base de Kurbenetes.\r\n* Fleet, un outil d’orchestration, qui étend les capacités du service systemd d'une machine à un cluster de machine.\r\n\r\nNous vous ferons une présentation de ces technos liés à notre expérience de leur utilisation ainsi qu’une démo dans le cadre d’un déploiement de service, Docker parce que c'est hype ! :)"
+}

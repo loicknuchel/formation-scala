@@ -1,0 +1,32 @@
+{
+  "uuid" : "ac73db59d04b444044ed7979e630d0fd6aed66bc",
+  "bioAsHtml" : "<p>Développeur et directeur technique de Zenika Bordeaux, j&#x27;interviens pour des missions de conseils et d&#x27;expertises. Passionné par tout ce qui touche à la sécurité et à l&#x27;intelligence artificielle, j&#x27;aime discuter de ces sujets dans des meetups ou des conférences.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/UJE-2215",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ac73db59d04b444044ed7979e630d0fd6aed66bc",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sébastien Descamps"
+        }
+      ],
+      "id" : "UJE-2215",
+      "title" : "A la découverte des algorithmes génétiques"
+    }
+  ],
+  "company" : "Zenika",
+  "bio" : "Développeur et directeur technique de Zenika Bordeaux, j'interviens pour des missions de conseils et d'expertises. Passionné par tout ce qui touche à la sécurité et à l'intelligence artificielle, j'aime discuter de ces sujets dans des meetups ou des conférences.",
+  "lastName" : "Descamps",
+  "firstName" : "Sébastien",
+  "blog" : "https://github.com/sebastienD",
+  "avatarURL" : "https://fr.gravatar.com/userimage/24590165/cf32f0f6c147574a0a672370ace9cbe1.jpg?size=200",
+  "twitter" : "@seb_express",
+  "lang" : "fr"
+}

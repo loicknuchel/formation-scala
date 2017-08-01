@@ -1,0 +1,32 @@
+{
+  "uuid" : "833372482851f0bb8ce5e2055053bae8574a800a",
+  "bioAsHtml" : "<p>Software Gardener, addicted to open source and code quality, hired by SonarSource after creation of improved open source analogs of their commercial products. Currently working as Language Team Technical Leader, responsible for development of source code analyzers for languages like Java, C/C++, C#, JavaScript, Python, COBOL, PL/SQL; implementator of cross project duplication detection. In a spare time working on other projects like for example JaCoCo, Eclipse EclEmma.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/BGN-4338",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/833372482851f0bb8ce5e2055053bae8574a800a",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Evgeny Mandrikov"
+        }
+      ],
+      "id" : "BGN-4338",
+      "title" : "Java Code Coverage Mechanics"
+    }
+  ],
+  "company" : "SonarSource",
+  "bio" : "Software Gardener, addicted to open source and code quality, hired by SonarSource after creation of improved open source analogs of their commercial products. Currently working as Language Team Technical Leader, responsible for development of source code analyzers for languages like Java, C/C++, C#, JavaScript, Python, COBOL, PL/SQL; implementator of cross project duplication detection. In a spare time working on other projects like for example JaCoCo, Eclipse EclEmma.\r\n",
+  "lastName" : "Mandrikov",
+  "firstName" : "Evgeny",
+  "blog" : "http://www.sonarsource.com/",
+  "avatarURL" : "https://lh3.googleusercontent.com/-5SHuP9G88XI/AAAAAAAAAAI/AAAAAAAABlc/Iw__TI-f7t0/s120-c/photo.jpg",
+  "twitter" : "@_godin_",
+  "lang" : "en-GB"
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "Tools-in-Action",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>Vous avez certainement eu affaire à Apache Camel dans vos projects d'intégration et une grande partie se pose la question à savoir comment les styler en microservices &amp; les embarquer dans des conteneurs ?</p>\n<p>Dans cette session nous allons voir comment on peut developper rapidement des Microservices d'intégration et passer à DevOps avec Apache Camel &amp; Fabric8 en se basant sur docker, kubernetes &amp; jenkins.</p>\n",
+  "id" : "CUN-7261",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/486707fecdcb7c8cfbb10974e855389d5132a787",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Abdellatif BOUCHAMA"
+      },
+      "name" : "Abdellatif BOUCHAMA"
+    }
+  ],
+  "title" : "Integration in a #Microservices Style",
+  "lang" : "fr",
+  "summary" : "Vous avez certainement eu affaire à Apache Camel dans vos projects d'intégration et une grande partie se pose la question à savoir comment les styler en microservices & les embarquer dans des conteneurs ?\r\n\r\nDans cette session nous allons voir comment on peut developper rapidement des Microservices d'intégration et passer à DevOps avec Apache Camel & Fabric8 en se basant sur docker, kubernetes & jenkins."
+}

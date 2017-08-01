@@ -1,0 +1,32 @@
+{
+  "uuid" : "d3ae0e495f3a6dbef51767ba7944cd321b221897",
+  "bioAsHtml" : "<p>Francesca Rossi is a research scientist at the IBM T.J. Watson Research Centre, and an professor of computer science at the University of Padova, Italy, currently on leave.\nHer research interests focus on artificial intelligence, specifically they include constraint reasoning, preferences, multi-agent systems, computational social choice, and collective decision making. She is also interested in ethical issues in the development and behaviour of AI systems, in particular for decision support systems for group decision making.</p>\n<p>She is a AAAI and a EurAI fellow, and a Radcliffe fellow 2015. She has been president of IJCAI and an executive councillor of AAAI. She is Associate Editor in Chief of JAIR and a member of the editorial board of Constraints, Artificial Intelligence, AMAI, and KAIS. She co-chairs the AAAI committee on AI and ethics and she is a member of the scientific advisory board of the Future of Life Institute. She is in the executive committee of the IEEE global initiative on ethical considerations on the development of autonomous and intelligent systems and she belongs to the World Economic Forum Council on AI and robotics.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Keynote",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/OGJ-4797",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d3ae0e495f3a6dbef51767ba7944cd321b221897",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Francesca Rossi"
+        }
+      ],
+      "id" : "OGJ-4797",
+      "title" : "Ethical AI"
+    }
+  ],
+  "company" : "IBM",
+  "bio" : "Francesca Rossi is a research scientist at the IBM T.J. Watson Research Centre, and an professor of computer science at the University of Padova, Italy, currently on leave.\r\nHer research interests focus on artificial intelligence, specifically they include constraint reasoning, preferences, multi-agent systems, computational social choice, and collective decision making. She is also interested in ethical issues in the development and behaviour of AI systems, in particular for decision support systems for group decision making. \r\n\r\nShe is a AAAI and a EurAI fellow, and a Radcliffe fellow 2015. She has been president of IJCAI and an executive councillor of AAAI. She is Associate Editor in Chief of JAIR and a member of the editorial board of Constraints, Artificial Intelligence, AMAI, and KAIS. She co-chairs the AAAI committee on AI and ethics and she is a member of the scientific advisory board of the Future of Life Institute. She is in the executive committee of the IEEE global initiative on ethical considerations on the development of autonomous and intelligent systems and she belongs to the World Economic Forum Council on AI and robotics.",
+  "lastName" : "Rossi",
+  "firstName" : "Francesca",
+  "blog" : null,
+  "avatarURL" : "https://www.radcliffe.harvard.edu/sites/radcliffe.harvard.edu/files/styles/large_body/public/imagefield_crop/field_image/person/francesca-rossi_photo-by-tony-rinaldo_373px.jpg?itok=MISUMsnu",
+  "twitter" : "@frossi_t",
+  "lang" : "en"
+}

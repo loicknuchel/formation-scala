@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "BOF (Bird of a Feather)",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Session de discussions et talks dédiée à la data sous toute ses formes. Du data engineer au data scientist, venez discuter des joies et frustrations de la data, mais aussi des dernières tendances liées à ce joyeux écosystème.</p>\n",
+  "id" : "IRK-8786",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0cf90fdb17187ce10305b7d4f2e11832d3bc22e5",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Sam Bessalah"
+      },
+      "name" : "Sam Bessalah"
+    }
+  ],
+  "title" : "BOF Data Geeks and Friends",
+  "lang" : "fr",
+  "summary" : "Session de discussions et talks dédiée à la data sous toute ses formes. Du data engineer au data scientist, venez discuter des joies et frustrations de la data, mais aussi des dernières tendances liées à ce joyeux écosystème."
+}

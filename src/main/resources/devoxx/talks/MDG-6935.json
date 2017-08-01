@@ -1,0 +1,36 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Hands-on Labs",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>Vous ne pouvez pas être passés à côté de la tendance des <strong>microservices</strong>. Sur le papier, rien à dire, mais concrètement, beaucoup de mystères planent encore au dessus de ce concept.\nComment les services communiquent-ils ? Le <strong>discovery</strong>, kézako ? Et si on <strong>scale</strong>, ça casse tout ? J'ai entendu parler de <strong>Docker</strong>, ça me sert à quoi dans mon architecture ?</p>\n<p>Si, vous aussi, vous avez déjà eu besoin de mettre en place des mécanismes \"custom\" et \"statiques\" d'enregistrement et de découverte de services, ou que vous souhaitez commencer, ce talk est fait pour vous !\nNous vous proposerons, au travers d'exemples concrets, de comprendre comment fonctionnent les mécanismes d'enregistrement et de découverte de microservices sur une plateforme de plus en plus dynamique avec les outils <strong>Docker</strong></p>\n<p>Au programme :</p>\n<ul>\n<li>Microservices</li>\n<li>Bref rappel des bases de Docker</li>\n<li>Manipulation du network Docker</li>\n<li>Docker Compose</li>\n<li>Docker Swarm</li>\n</ul>\n<p>Pré-requis:</p>\n<ul>\n<li>Installation de docker sur votre poste > 1.13 : <a href=\"https://docs.docker.com/engine/installation/\">ici</a></li>\n<li>Téléchargement des jars : <a href=\"https://www.dropbox.com/sh/1isidt67mjsmm07/AABDlEXiF1ndx-Pb_Fm08UNRa?dl=0\">ici</a></li>\n</ul>\n",
+  "id" : "MDG-6935",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/587c46e7b957f7e92a63246bdcc683e5d5e612a8",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Jérémie MONSINJON"
+      },
+      "name" : "Jérémie MONSINJON"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3c458756e883af773c547d9dba7cc5c2be2e3cee",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Christophe Labouisse"
+      },
+      "name" : "Christophe Labouisse"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/eec27b231d20ebc4d7e2e2899fb37ffa7e0bbbac",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Florian Garcia"
+      },
+      "name" : "Florian Garcia"
+    }
+  ],
+  "title" : "Plateforme dynamique, #docker #dns #scalabilité... Où sont mes microservices ?",
+  "lang" : "fr",
+  "summary" : "Vous ne pouvez pas être passés à côté de la tendance des **microservices**. Sur le papier, rien à dire, mais concrètement, beaucoup de mystères planent encore au dessus de ce concept.\r\nComment les services communiquent-ils ? Le **discovery**, kézako ? Et si on **scale**, ça casse tout ? J'ai entendu parler de **Docker**, ça me sert à quoi dans mon architecture ?\r\n\r\nSi, vous aussi, vous avez déjà eu besoin de mettre en place des mécanismes \"custom\" et \"statiques\" d'enregistrement et de découverte de services, ou que vous souhaitez commencer, ce talk est fait pour vous !\r\nNous vous proposerons, au travers d'exemples concrets, de comprendre comment fonctionnent les mécanismes d'enregistrement et de découverte de microservices sur une plateforme de plus en plus dynamique avec les outils **Docker**\r\n\r\nAu programme :\r\n\r\n- Microservices\r\n- Bref rappel des bases de Docker\r\n- Manipulation du network Docker\r\n- Docker Compose\r\n- Docker Swarm\r\n\r\nPré-requis:\r\n\r\n- Installation de docker sur votre poste > 1.13 : [ici](https://docs.docker.com/engine/installation/)\r\n- Téléchargement des jars : [ici](https://www.dropbox.com/sh/1isidt67mjsmm07/AABDlEXiF1ndx-Pb_Fm08UNRa?dl=0)"
+}

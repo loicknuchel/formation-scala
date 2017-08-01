@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826425,
+  "title" : "how to make Bootstrap panel border cut some edege",
+  "body" : "<p>I want to a cut the some edge part of the border line. Like <a href=\"https://i.stack.imgur.com/n6XNH.jpg\" rel=\"nofollow noreferrer\">this</a> image. In red box. Basically i want to make the line where the edges should be erased formed.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826425/how-to-make-bootstrap-panel-border-cut-some-edege",
+  "owner" : {
+    "user_id" : 8119239,
+    "user_type" : "registered",
+    "display_name" : "Nakul23",
+    "profile_image" : "https://www.gravatar.com/avatar/c5c2dcf7718e3fbda0249ac288bb23d1?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8119239/nakul23",
+    "reputation" : 9,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742723,
+  "last_activity_date" : 1498742723,
+  "tags" : [
+    "twitter-bootstrap",
+    "panel"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

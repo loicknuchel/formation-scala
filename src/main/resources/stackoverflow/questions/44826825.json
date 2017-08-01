@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826825,
+  "title" : "How to I set Foreign Key Constrain to auto update in Child Table?",
+  "body" : "<p>Consider 2 tables structured as below</p>\n\n<p>Primary data as \n 1. uid [primary key]\n 2. email \n 3. Contact</p>\n\n<p>Medical data as\n 1. uid [primary key]\n 2. bloodgroup</p>\n\n<p><em>Medical Data</em> is the <em>child to Primary</em> Data via <strong>\"uid\"</strong>.</p>\n\n<p>Now how do I add the auto update <strong>uid</strong> in <em>Medical Data</em> wrt. <em>Primary Data</em> in PhpMyAdmin.</p>\n\n<p>Also, note that </p>\n\n<pre><code>ALTER TABLE `medical_data_vault` \nADD  CONSTRAINT `autoUpdate_uid` \nFOREIGN KEY (`uid`) REFERENCES `mtb_himalaya_17`.`primary_data_vault`(`uid`) \nON DELETE RESTRICT ON UPDATE CASCADE;\n</code></pre>\n\n<p>Gives the error,</p>\n\n<h1>1452 - Cannot add or update a child row: a foreign key constraint fails (<code>mtb_himalaya_17</code>.<code>#sql-fa8_2ff</code>, CONSTRAINT <code>autoUpdate_uid</code> FOREIGN KEY (<code>uid</code>) REFERENCES <code>primary_data_vault</code> (<code>uid</code>) ON UPDATE CASCADE)</h1>\n",
+  "link" : "https://stackoverflow.com/questions/44826825/how-to-i-set-foreign-key-constrain-to-auto-update-in-child-table",
+  "owner" : {
+    "user_id" : 7582534,
+    "user_type" : "registered",
+    "display_name" : "Abhijit Srivastava",
+    "profile_image" : "https://lh6.googleusercontent.com/-qqFSOSUGl9Q/AAAAAAAAAAI/AAAAAAAAGQ0/GMu28Hnm-lw/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/7582534/abhijit-srivastava",
+    "reputation" : 8,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743675,
+  "last_activity_date" : 1498743675,
+  "tags" : [
+    "sql",
+    "database",
+    "phpmyadmin",
+    "xampp",
+    "foreign-key-relationship"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

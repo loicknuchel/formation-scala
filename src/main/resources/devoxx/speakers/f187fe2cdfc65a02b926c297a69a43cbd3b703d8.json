@@ -1,0 +1,32 @@
+{
+  "uuid" : "f187fe2cdfc65a02b926c297a69a43cbd3b703d8",
+  "bioAsHtml" : "<p>Après plusieurs années passées du coté des infrastructures réseau (Réseau Intelligent, H.323, IMS), je suis aujourd&#x27;hui développeur senior sur Android. Mon sujet de prédilection du moment: l’impact que peuvent avoir les applications sur le terminal mobile et le réseau.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Mobile, IoT",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/GKB-5981",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f187fe2cdfc65a02b926c297a69a43cbd3b703d8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Pierre Crépieux"
+        }
+      ],
+      "id" : "GKB-5981",
+      "title" : "Dissection d'un smartphone Android et anatomie du réseau mobile"
+    }
+  ],
+  "company" : "Orange",
+  "bio" : "Après plusieurs années passées du coté des infrastructures réseau (Réseau Intelligent, H.323, IMS), je suis aujourd'hui développeur senior sur Android. Mon sujet de prédilection du moment: l’impact que peuvent avoir les applications sur le terminal mobile et le réseau. ",
+  "lastName" : "Crépieux",
+  "firstName" : "Pierre",
+  "blog" : null,
+  "avatarURL" : "http://www.gravatar.com/avatar/db950a4adf54b7a13cd3c70fdcd7e334",
+  "twitter" : null,
+  "lang" : "en-US"
+}

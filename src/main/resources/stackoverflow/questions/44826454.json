@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826454,
+  "title" : "gradle project: error couldn&#39;t find main class",
+  "body" : "<p>I have the following project structure:</p>\n\n<pre><code>Root project 'rmi-tutorial'\n+--- Project ':client'\n+--- Project ':lib'\n\\--- Project ':server'\n</code></pre>\n\n<p>The path to clients main class looks like this:</p>\n\n<p><code>client/src/main/java/client/ComputePi.java</code></p>\n\n<p>my <code>build.gradle</code> for the client subproject loooks like this:</p>\n\n<pre><code>dependencies {\n    compile project(':lib')\n}\nmainClassName = \"ComputePi\"\n</code></pre>\n\n<p>The main build.gradle file is this one:</p>\n\n<pre><code>subprojects {\n    apply plugin: 'java'\n    apply plugin: 'eclipse'\n    apply plugin: 'application'\n    repositories {\n       mavenCentral()\n    }\n\n    dependencies {\n    //compile project(':server')\n    //compile project(':client')\n        testCompile 'junit:junit:4.12'\n    }\n\n    version = '1.0'\n\n    jar {\n        manifest.attributes provider: 'gradle'\n    }\n}\n</code></pre>\n\n<p>The generation of the jars works so far but the MANIFEST.MF file in the jar is wrong. It contains the following:</p>\n\n<pre><code>Manifest-Version: 1.0\nprovider: gradle\n</code></pre>\n\n<p>Where is my specified main class? When I try to execute the startscript that got created by the gradle <code>application</code>-plugin I get the error: <code>couldn't find nor load main class</code></p>\n\n<p>The jar contains all necessary class files</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826454/gradle-project-error-couldnt-find-main-class",
+  "owner" : {
+    "user_id" : 8199910,
+    "user_type" : "registered",
+    "display_name" : "shibumi",
+    "profile_image" : "https://www.gravatar.com/avatar/c772d2720034ccf7348f88a726a228cd?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8199910/shibumi",
+    "reputation" : 3,
+    "accept_rate" : null
+  },
+  "is_answered" : true,
+  "creation_date" : 1498742792,
+  "last_activity_date" : 1498743362,
+  "tags" : [
+    "java",
+    "gradle"
+  ],
+  "score" : 0,
+  "view_count" : 13,
+  "answer_count" : 1
+}

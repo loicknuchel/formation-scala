@@ -1,0 +1,28 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Conference",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Lors de cette présentation nous expliquerons les services bluemix NODEJS et les services Watson Natural Language Classification (NLC) et Watson Retrieve &amp; rank (R&amp;).<br  />\nNous montrerons comment augmenter la pertinence des recherches sur les données opendata du gouvernent (service-public.fr).\nL'application montrée utilise le serveurs d'application NODEJS et les API WATSON</p>\n",
+  "id" : "IPS-4761",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/301e7a81d2af1bfbc2b4e4453b1abadf582547f9",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Xavier Mary"
+      },
+      "name" : "Xavier Mary"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/47af10c6702591ca371d85c6a11975f686cfcf95",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Michel caussanel"
+      },
+      "name" : "Michel caussanel"
+    }
+  ],
+  "title" : "Bluemix - Classification et ranking grace à Watson",
+  "lang" : "fr",
+  "summary" : "Lors de cette présentation nous expliquerons les services bluemix NODEJS et les services Watson Natural Language Classification (NLC) et Watson Retrieve & rank (R&).  \r\nNous montrerons comment augmenter la pertinence des recherches sur les données opendata du gouvernent (service-public.fr).\r\nL'application montrée utilise le serveurs d'application NODEJS et les API WATSON"
+}

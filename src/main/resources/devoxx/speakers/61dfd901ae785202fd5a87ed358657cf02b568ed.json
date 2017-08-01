@@ -1,0 +1,60 @@
+{
+  "uuid" : "61dfd901ae785202fd5a87ed358657cf02b568ed",
+  "bioAsHtml" : "<p>Martin Gorner, Google Developer Relations. Martin se passionne pour la science, la technologie, l&#x27;informatique, les algorihmes et tout ce qui s&#x27;en rapproche. Après avoir obtenu son diplôme d&#x27;ingénieur à Mines Paris-Tech, Martin a commencé sa carrière dans le groupe &quot;computer architecture&quot; chez ST Microelectronics. Il a ensuite passé les 11 années suivantes dans le domaine naissant des livres électroniques, d&#x27;abord avec la start-up mobipocket.com, qui est ensuite devenue la partie logicielle du Kindle d&#x27;Amazon et ses versions mobiles. Il a rejoint Google en 2011.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "University",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/RPG-3291",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/61dfd901ae785202fd5a87ed358657cf02b568ed",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Martin Görner"
+        }
+      ],
+      "id" : "RPG-3291",
+      "title" : "University: Tensorflow et l'apprentissage profond, sans les équations différentielles"
+    },
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/BTF-1420",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/61dfd901ae785202fd5a87ed358657cf02b568ed",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Martin Görner"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/78321fced93215fd7611de9f74263671f8e65f30",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Ludovic Champenois"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5d6685dc68a9b43d75febcbecadd0dccb4fd27a2",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Robert Kubis"
+        }
+      ],
+      "id" : "BTF-1420",
+      "title" : "Le monde après MapReduce, ou le traitement de données distribué en temps réel avec Google Cloud Dataflow / Apache Beam"
+    }
+  ],
+  "company" : "Google",
+  "bio" : "Martin Gorner, Google Developer Relations. Martin se passionne pour la science, la technologie, l'informatique, les algorihmes et tout ce qui s'en rapproche. Après avoir obtenu son diplôme d'ingénieur à Mines Paris-Tech, Martin a commencé sa carrière dans le groupe \"computer architecture\" chez ST Microelectronics. Il a ensuite passé les 11 années suivantes dans le domaine naissant des livres électroniques, d'abord avec la start-up mobipocket.com, qui est ensuite devenue la partie logicielle du Kindle d'Amazon et ses versions mobiles. Il a rejoint Google en 2011.",
+  "lastName" : "Görner",
+  "firstName" : "Martin",
+  "blog" : "https://plus.google.com/+MartinGorner",
+  "avatarURL" : "https://lh6.googleusercontent.com/-7F5w5qcS6kU/AAAAAAAAAAI/AAAAAAAAETU/q9d4t_RnAiE/s120-c/photo.jpg",
+  "twitter" : "@martin_gorner",
+  "lang" : "fr"
+}

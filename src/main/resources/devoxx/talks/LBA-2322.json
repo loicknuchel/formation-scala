@@ -1,0 +1,28 @@
+{
+  "trackId" : "lang",
+  "talkType" : "Hands-on Labs",
+  "track" : "Langages alternatifs",
+  "summaryAsHtml" : "<p>Vous êtes intéressé par la programmation fonctionnelle mais ne savez pas par où commencer ni par quel langage ?</p>\n<p>Haskell est le langage de choix pour découvrir la PF, les constructions qu'il permet se prêtant particulièrement bien à ce paradigme.</p>\n<p>Pour autant Haskell peut paraître intimidant, avec une notation peu commune et une panoplie de concepts effrayants (monades, functors, monoïdes, types algébriques, théorie des catégories, curryfication..).</p>\n<p>En réalité il n'est pas nécessaire de maîtriser tous ces concepts pour profiter de la puissance et de la simplicité du langage.</p>\n<p>Venez vous faire la main en programmant un arbitre de poker en Haskell! Vous serez guidé(e) à chaque étape de votre découverte du langage par deux fervents haskellers qui se retrouvent toutes les semaines pour pratiquer.</p>\n<p>Vous ressortirez de cette session avec un programme simple et puissant, capable d'arbitrer une partie de Texas Hold'em, des tests, du fun, et des nouvelles connaissances utilisables dès le lendemain sur vos projets!</p>\n",
+  "id" : "LBA-2322",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b79d2812e5f3a077ae9678e34e513933915cf677",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Xavier Detant"
+      },
+      "name" : "Xavier Detant"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4d5f418962faf283703a0c131d65f6825ea7ea16",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Christophe Thibaut"
+      },
+      "name" : "Christophe Thibaut"
+    }
+  ],
+  "title" : "Tranches de Programmation Fonctionnelle -- Découverte de la programmation fonctionnelle avec Haskell",
+  "lang" : "fr",
+  "summary" : "Vous êtes intéressé par la programmation fonctionnelle mais ne savez pas par où commencer ni par quel langage ?\r\n\r\nHaskell est le langage de choix pour découvrir la PF, les constructions qu'il permet se prêtant particulièrement bien à ce paradigme.\r\n\r\nPour autant Haskell peut paraître intimidant, avec une notation peu commune et une panoplie de concepts effrayants (monades, functors, monoïdes, types algébriques, théorie des catégories, curryfication..).\r\n\r\nEn réalité il n'est pas nécessaire de maîtriser tous ces concepts pour profiter de la puissance et de la simplicité du langage. \r\n\r\nVenez vous faire la main en programmant un arbitre de poker en Haskell! Vous serez guidé(e) à chaque étape de votre découverte du langage par deux fervents haskellers qui se retrouvent toutes les semaines pour pratiquer.\r\n\r\nVous ressortirez de cette session avec un programme simple et puissant, capable d'arbitrer une partie de Texas Hold'em, des tests, du fun, et des nouvelles connaissances utilisables dès le lendemain sur vos projets! "
+}

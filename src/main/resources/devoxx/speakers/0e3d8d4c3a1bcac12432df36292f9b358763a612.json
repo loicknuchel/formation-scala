@@ -1,0 +1,55 @@
+{
+  "uuid" : "0e3d8d4c3a1bcac12432df36292f9b358763a612",
+  "bioAsHtml" : "<p>Architecte Java chez Ippon Technologies, Jérôme intervient en mode JAAS (Jérôme As A Service) sur des missions de conseil, de conception, de développement ou de formation.\nSes domaines de prédilection sont applications Java et les bases de données NoSQL comme Cassandra et les moteurs de recherche comme Elasticsearch et les systèmes de calcul distribués comme Spark.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/SPT-3387",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0e3d8d4c3a1bcac12432df36292f9b358763a612",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jérôme Mainaud"
+        }
+      ],
+      "id" : "SPT-3387",
+      "title" : "Anonymisation des données"
+    },
+    {
+      "talkType" : "University",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/TNY-0598",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0e3d8d4c3a1bcac12432df36292f9b358763a612",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jérôme Mainaud"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5f4b15ca15d4b5abea8c35832f28ab50efa40ec8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Alexander DEJANOVSKI"
+        }
+      ],
+      "id" : "TNY-0598",
+      "title" : "Apache Cassandra en production"
+    }
+  ],
+  "company" : "Ippon Technologies",
+  "bio" : "Architecte Java chez Ippon Technologies, Jérôme intervient en mode JAAS (Jérôme As A Service) sur des missions de conseil, de conception, de développement ou de formation. \r\nSes domaines de prédilection sont applications Java et les bases de données NoSQL comme Cassandra et les moteurs de recherche comme Elasticsearch et les systèmes de calcul distribués comme Spark.",
+  "lastName" : "Mainaud",
+  "firstName" : "Jérôme",
+  "blog" : "http://www.linkedin.com/pub/j%C3%A9r%C3%B4me-mainaud/17/5b8/201",
+  "avatarURL" : "http://www.gravatar.com/avatar/4f9deaec42efccd26cb9af839b3afde2",
+  "twitter" : "@jxerome",
+  "lang" : "fr-FR"
+}

@@ -1,0 +1,32 @@
+{
+  "uuid" : "3c4cdf9d4d887ba8b7f97994a17ca2fbc64b432e",
+  "bioAsHtml" : "<p>Wassim (aka manekinekko on Twitter/Github) is a Developer Advocate that spends most of his time working on production apps, helping developers write better code and provide training on mastering Web technologies (Angular 2+, Polymer, PWA, Web Components...). He enjoys writing technical articles, meeting developers at events, speaking at conferences and contributing to open source projects.</p>\n<p>Wassim loves the Web Platform and works hard to move it forward</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/CXH-6084",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3c4cdf9d4d887ba8b7f97994a17ca2fbc64b432e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Wassim Chegham"
+        }
+      ],
+      "id" : "CXH-6084",
+      "title" : "Exécutez vos applications Angular hors navigateur"
+    }
+  ],
+  "company" : "SFEIR",
+  "bio" : "Wassim (aka manekinekko on Twitter/Github) is a Developer Advocate that spends most of his time working on production apps, helping developers write better code and provide training on mastering Web technologies (Angular 2+, Polymer, PWA, Web Components...). He enjoys writing technical articles, meeting developers at events, speaking at conferences and contributing to open source projects.\r\n\r\nWassim loves the Web Platform and works hard to move it forward",
+  "lastName" : "Chegham",
+  "firstName" : "Wassim",
+  "blog" : "https://medium.com/@wassimchegham/",
+  "avatarURL" : "https://lh6.googleusercontent.com/-j_VL2dBwkAg/AAAAAAAAAAI/AAAAAAAA22A/op9me_9tXqk/photo.jpg",
+  "twitter" : "@manekinekko",
+  "lang" : "fr"
+}

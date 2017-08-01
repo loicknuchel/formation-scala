@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826002,
+  "title" : "I don&#39;t find the error in my app. Only on a handful devices",
+  "body" : "<p>I can't find, what's my mistake. The Errors appears only on a handful devices. I'm new in Java and I cant read the Error-Log so good:</p>\n\n<pre><code>FATAL EXCEPTION: main\nProcess: myapp.myapp, PID: 11585\njava.lang.RuntimeException: Unable to start activity ComponentInfo{myapp.myapp/myapp.myapp.Start}: android.view.InflateException: Binary XML file line #2050: Error inflating class &lt;unknown&gt;\n    at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2205)\n    at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2255)\n    at android.app.ActivityThread.access$800(ActivityThread.java:142)\n    at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1203)\n    at android.os.Handler.dispatchMessage(Handler.java:102)\n    at android.os.Looper.loop(Looper.java:136)\n    at android.app.ActivityThread.main(ActivityThread.java:5118)\n    at java.lang.reflect.Method.invokeNative(Native Method)\n    at java.lang.reflect.Method.invoke(Method.java:515)\n    at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:794)\n    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:610)\n    at dalvik.system.NativeStart.main(Native Method)\nCaused by: android.view.InflateException: Binary XML file line #2050: Error inflating class &lt;unknown&gt;\n    at android.view.LayoutInflater.createView(LayoutInflater.java:620)\n    at com.android.internal.policy.impl.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:56)\n    at android.view.LayoutInflater.onCreateView(LayoutInflater.java:669)\n    at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:694)\n    at android.view.LayoutInflater.rInflate(LayoutInflater.java:755)\n    at android.view.LayoutInflater.rInflate(LayoutInflater.java:758)\n    at android.view.LayoutInflater.inflate(LayoutInflater.java:492)\n    at android.view.LayoutInflater.inflate(LayoutInflater.java:397)\n    at android.view.LayoutInflater.inflate(LayoutInflater.java:353)\n    at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:319)\n    at android.app.Activity.setContentView(Activity.java:1973)\n    at myapp.myapp.Start.onCreate(Start.java:220)\n    at android.app.Activity.performCreate(Activity.java:5275)\n    at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)\n    at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2169)\n    ... 11 more\nCaused by: java.lang.reflect.InvocationTargetException\n    at java.lang.reflect.Constructor.constructNative(Native Method)\n    at java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n    at android.view.LayoutInflater.createView(LayoutInflater.java:594)\n    ... 25 more\nCaused by: java.lang.OutOfMemoryError\n    at android.graphics.BitmapFactory.nativeDecodeAsset(Native Method)\n    at android.graphics.BitmapFactory.decodeStream(BitmapFactory.java:587)\n    at android.graphics.BitmapFactory.decodeResourceStream(BitmapFactory.java:422)\n    at android.graphics.drawable.Drawable.createFromResourceStream(Drawable.java:840)\n    at android.content.res.Resources.loadDrawable(Resources.java:2150)\n    at android.content.res.TypedArray.getDrawable(TypedArray.java:602)\n    at android.widget.ImageView.&lt;init&gt;(ImageView.java:129)\n    at android.widget.ImageView.&lt;init&gt;(ImageView.java:119)\n</code></pre>\n\n<p>I see, this a fatal error. And the App is closing from Android device. The Error occurs on a handful devices.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826002/i-dont-find-the-error-in-my-app-only-on-a-handful-devices",
+  "owner" : {
+    "user_id" : 6769731,
+    "user_type" : "registered",
+    "display_name" : "SilverBlue",
+    "profile_image" : "https://www.gravatar.com/avatar/b9c356fd7cb0cc65b57616d0e884033f?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/6769731/silverblue",
+    "reputation" : 70,
+    "accept_rate" : 64
+  },
+  "is_answered" : true,
+  "creation_date" : 1498741535,
+  "last_activity_date" : 1498743882,
+  "tags" : [
+    "java",
+    "android",
+    "android-studio",
+    "fatal-error"
+  ],
+  "score" : 1,
+  "view_count" : 30,
+  "answer_count" : 4
+}

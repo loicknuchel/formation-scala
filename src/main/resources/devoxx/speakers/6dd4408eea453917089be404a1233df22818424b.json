@@ -1,0 +1,52 @@
+{
+  "uuid" : "6dd4408eea453917089be404a1233df22818424b",
+  "bioAsHtml" : "<p>Philippe s&#x27;occupe des Relations Développeur chez Google. Développeur Frontend/Cloud, vous le croiserez surement dans un meetup tech à Paris et en Région.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/ZNQ-7776",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9ef9ee08cfb1a46a285430223a056d889f99044c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Hubert SABLONNIERE"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1454e2d0a6c2fa871454dab3dbf66f5e16b61980",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sebastien Blanc"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f4aea1c9996bf4e307a68c3080915b7a14cd1579",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Audrey Neveu"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/996b582386dd98b7ea73098dbcc6f0bd037ba037",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Francois Garreau"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6dd4408eea453917089be404a1233df22818424b",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Philippe Antoine"
+        }
+      ],
+      "id" : "ZNQ-7776",
+      "title" : "Les speakers anonymes : thérapie de groupe"
+    }
+  ],
+  "company" : "Google",
+  "bio" : "Philippe s'occupe des Relations Développeur chez Google. Développeur Frontend/Cloud, vous le croiserez surement dans un meetup tech à Paris et en Région.",
+  "lastName" : "Antoine",
+  "firstName" : "Philippe",
+  "blog" : null,
+  "avatarURL" : "http://www.gravatar.com/avatar/688958fbc93d79c3997fdb2e11b02a32",
+  "twitter" : "@PhilippeAntoine",
+  "lang" : "fr"
+}

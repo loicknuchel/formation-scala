@@ -1,0 +1,28 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Tools-in-Action",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>L'histoire de la construction à partir de zéro d'une mécanique d'intégration continue dans une usine à images Docker.</p>\n<p>Nous suivrons cette construction étape par étape. Nous partirons du minimum vital permettant de construire automatiquement des images, pour ensuite choisir et intégrer les éléments de validation et de distribution permettant d’aller sereinement jusqu’au déploiement dans des environnements de production.</p>\n<p>Au menu : gestion des sources et orchestration (GitLab CI), promotion vers une Registry sécurisée (Portus par SUSE), signature (Notary) et déploiement vers Kubernetes, et bien sur des tests (sur les conteneurs «live» avec BATS), des tests (de vulnérabilité avec Clair de CoreOS), des tests (sur les déploiements) !</p>\n",
+  "id" : "WCU-7674",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ff4437e8ef591578385997053ba8ef2702c81cb5",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Benoît Gastinne"
+      },
+      "name" : "Benoît Gastinne"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4795688ee98ed1e8d53127e1d74d7997ee519dcd",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Arnaud MAZIN"
+      },
+      "name" : "Arnaud MAZIN"
+    }
+  ],
+  "title" : "Intégration continue d’images Docker",
+  "lang" : "fr",
+  "summary" : "L'histoire de la construction à partir de zéro d'une mécanique d'intégration continue dans une usine à images Docker.\r\n\r\nNous suivrons cette construction étape par étape. Nous partirons du minimum vital permettant de construire automatiquement des images, pour ensuite choisir et intégrer les éléments de validation et de distribution permettant d’aller sereinement jusqu’au déploiement dans des environnements de production.\r\n\r\nAu menu : gestion des sources et orchestration (GitLab CI), promotion vers une Registry sécurisée (Portus par SUSE), signature (Notary) et déploiement vers Kubernetes, et bien sur des tests (sur les conteneurs «live» avec BATS), des tests (de vulnérabilité avec Clair de CoreOS), des tests (sur les déploiements) !"
+}

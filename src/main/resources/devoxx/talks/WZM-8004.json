@@ -1,0 +1,28 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Quickie",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Un jeune diplômé et une développeuse passionnée découvrent les joies d’une SSII*. Face aux frustrations et désillusions, deux solutions s’offrent finalement à eux :</p>\n<p>A) Quitter le navire\nB) “Apprendre à gérer ses frustrations” (sic)</p>\n<p>Vous l’aurez compris, nous sommes venus vous parler de la solution C : si l’environnement n’est pas adapté, adaptez l’environnement ;)</p>\n<p>Nous allons partager notre expérience avec vous, en répondant à la question “est-il possible de transformer une SSII* en boite à geeks?”, et en vous confiant notre recette pour y parvenir.</p>\n<p>*ESN, on a dit!</p>\n",
+  "id" : "WZM-8004",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f8e03ec88abe5a93f61949cc2722c8a71a369a42",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Charlotte Cavalier"
+      },
+      "name" : "Charlotte Cavalier"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/deaf291324f9bf7fd83bc6dcd0754eaceb9aa2a0",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Christophe Pont"
+      },
+      "name" : "Christophe Pont"
+    }
+  ],
+  "title" : "Être geek en SSII : guide de survie en milieu hostile",
+  "lang" : "fr",
+  "summary" : "Un jeune diplômé et une développeuse passionnée découvrent les joies d’une SSII*. Face aux frustrations et désillusions, deux solutions s’offrent finalement à eux :\r\n\r\nA) Quitter le navire\r\nB) “Apprendre à gérer ses frustrations” (sic)\r\n\r\nVous l’aurez compris, nous sommes venus vous parler de la solution C : si l’environnement n’est pas adapté, adaptez l’environnement ;)\r\n\r\nNous allons partager notre expérience avec vous, en répondant à la question “est-il possible de transformer une SSII* en boite à geeks?”, et en vous confiant notre recette pour y parvenir.\r\n\r\n*ESN, on a dit!"
+}

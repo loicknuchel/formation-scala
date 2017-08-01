@@ -1,0 +1,32 @@
+{
+  "uuid" : "b68e3b4accf2dc077378df475a4c4b197859b02f",
+  "bioAsHtml" : "<p>Jean-Christophe Baillie started his career in Science at the Sony Computer Science Lab in Paris, and then founded Gostai in 2006, a startup in robotics &amp; AI, which has been acquired by Aldebaran/Softbank in 2012. After two years at Aldebaran, where he created an AI Lab, he launched in 2014 Novaquark, developing Dual Universe: an ambitious project about virtual worlds where people will be able to recreate entire civilizations. Jean-Christophe is a graduate from Ecole Polytechnique, Paris, and received a PhD in Artificial Intelligence from Paris 6 University.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/PRV-0895",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b68e3b4accf2dc077378df475a4c4b197859b02f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Christophe Baillie"
+        }
+      ],
+      "id" : "PRV-0895",
+      "title" : "Dual Universe: Challenges techniques de la création d'un monde virtuel \"single-shard\" entièrement éditable"
+    }
+  ],
+  "company" : "Novaquark",
+  "bio" : "Jean-Christophe Baillie started his career in Science at the Sony Computer Science Lab in Paris, and then founded Gostai in 2006, a startup in robotics & AI, which has been acquired by Aldebaran/Softbank in 2012. After two years at Aldebaran, where he created an AI Lab, he launched in 2014 Novaquark, developing Dual Universe: an ambitious project about virtual worlds where people will be able to recreate entire civilizations. Jean-Christophe is a graduate from Ecole Polytechnique, Paris, and received a PhD in Artificial Intelligence from Paris 6 University.",
+  "lastName" : "Baillie",
+  "firstName" : "Jean-Christophe",
+  "blog" : "http://www.dualthegame.com",
+  "avatarURL" : "http://www.gravatar.com/avatar/495e4a4e8429bcea1198b5b73b3139a5",
+  "twitter" : "@jcbaillie",
+  "lang" : "fr"
+}

@@ -1,0 +1,28 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "University",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>C’est la révolution dans la BI, les zones tampon FTP laissent la place aux systèmes de fichier distribués, le SQL s'exécute sur Hadoop, les dashboard en HTML5 remplacent les clients lourds, mais ne peut-on pas rationaliser un peu l’approche ?</p>\n<p><strong>Comment s’y prendre pour transformer une chaine BI en datalake ?</strong></p>\n<p>Cette université fera le tour de l’ingénierie des données en mode BigData. Au travers d’une présentation détaillée des concepts, de retour d’expériences et d’un cas pratique, nous allons découvrir  :</p>\n<ul>\n<li>les technologies et l’architecture, avec Spark, Kafka, Elasticsearch, Impala et Mesos,</li>\n<li>et les méthodes associées : cycle de développement avec Hadoop, tests unitaires, jointures, gestion de la qualité de donnée, recette en mode Big Data et gestion des métadonnées.</li>\n</ul>\n",
+  "id" : "PLK-3557",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d78f17b882fb6ed14fc7d64a434ec08c7fc11e93",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Jonathan Winandy"
+      },
+      "name" : "Jonathan Winandy"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/833f42657bbf7704ac83719535c2a71cebafc16e",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Bachir Aït M'Barek"
+      },
+      "name" : "Bachir Aït M'Barek"
+    }
+  ],
+  "title" : "Spark-adabra : Comment construire un datalake !",
+  "lang" : "fr",
+  "summary" : "C’est la révolution dans la BI, les zones tampon FTP laissent la place aux systèmes de fichier distribués, le SQL s'exécute sur Hadoop, les dashboard en HTML5 remplacent les clients lourds, mais ne peut-on pas rationaliser un peu l’approche ? \r\n\r\n**Comment s’y prendre pour transformer une chaine BI en datalake ?**\r\n\r\nCette université fera le tour de l’ingénierie des données en mode BigData. Au travers d’une présentation détaillée des concepts, de retour d’expériences et d’un cas pratique, nous allons découvrir  : \r\n\r\n- les technologies et l’architecture, avec Spark, Kafka, Elasticsearch, Impala et Mesos,\r\n- et les méthodes associées : cycle de développement avec Hadoop, tests unitaires, jointures, gestion de la qualité de donnée, recette en mode Big Data et gestion des métadonnées.\r\n"
+}

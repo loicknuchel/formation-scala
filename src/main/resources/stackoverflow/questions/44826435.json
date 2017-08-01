@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826435,
+  "title" : "Silex2 : overwrite `checkAuthentication` method of the `DaoAuthenticationProvider` class",
+  "body" : "<p>Using Silex 2, I am stuck for hours to find a way to overwrite <code>checkAuthentication</code> method of the <code>DaoAuthenticationProvider</code> class?</p>\n\n<p>About the context: I defined an authentication listener and provider using a custom <code>UserToken</code>.</p>\n\n<pre><code>$app['security.authentication_listener.factory.sds'] = $app-&gt;protect(function ($name, $options) use ($app) {\n    // define the authentication provider object\n    $app['security.authentication_provider.'.$name.'.sds'] = function () use ($app) {\n        return new CustomAuthenticationProvider($app['user.provider'], $app['security.encoder_factory']);\n    };\n\n    // define the authentication listener object\n    $app['security.authentication_listener.'.$name.'.sds'] = function () use ($app) {\n        return new CustomAuthenticationListener($app['security.token_storage'], $app['security.authentication_manager']);\n    };\n\n    return array(\n        // the authentication provider id\n        'security.authentication_provider.'.$name.'.sds',\n        // the authentication listener id\n        'security.authentication_listener.'.$name.'.sds',\n        // the entry point id\n        null,\n        // the position of the listener in the stack\n        'pre_auth'\n    );\n});\n</code></pre>\n\n<p>But I need to customize the <code>checkAuthentication</code> of <code>DaoAuthenticationProvider</code> called automatically when the custom authentication provider reture a successfully authenticated token.</p>\n\n<pre><code>protected function checkAuthentication(UserInterface $user, UsernamePasswordToken $token)\n{\n    $currentUser = $token-&gt;getUser();\n    if ($currentUser instanceof UserInterface) {\n        if ($currentUser-&gt;getPassword() !== $user-&gt;getPassword()) {\n            throw new BadCredentialsException('The credentials were changed from another session.');\n        }\n    } else {\n        if ('' === ($presentedPassword = $token-&gt;getCredentials())) {\n            throw new BadCredentialsException('The presented password cannot be empty.');\n        }\n\n        if (!$this-&gt;encoderFactory-&gt;getEncoder($user)-&gt;isPasswordValid($user-&gt;getPassword(), $presentedPassword, $user-&gt;getSalt())) {\n            throw new BadCredentialsException('The presented password is invalid.');\n        }\n    }\n}\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826435/silex2-overwrite-checkauthentication-method-of-the-daoauthenticationprovide",
+  "owner" : {
+    "user_id" : 1109988,
+    "user_type" : "registered",
+    "display_name" : "sdespont",
+    "profile_image" : "https://www.gravatar.com/avatar/7649cddd9be08e1bd02ce5622d7776d6?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1109988/sdespont",
+    "reputation" : 11073,
+    "accept_rate" : 90
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742747,
+  "last_activity_date" : 1498742747,
+  "tags" : [
+    "php",
+    "symfony",
+    "authentication",
+    "silex"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 0
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "Conference",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>Angular is one of the most popular frameworks, and there is a lot of information available on building applications, improving performance, and various other topics. But do you know how to make your Angular applications secure? What kind of security features does Angular offer you, and which additional steps can you take to really boost the security of your applications?</p>\n<p>In this session, you will learn how the paradigm shift from server-side to client-side applications impacts security. We will discuss various script-based threats against Angular applications, and the concrete defenses to prevent or minimize these attacks. You will learn how Angular helps you defend against XSS, and how you can leverage the latest browser security features in your Angular applications to boost your security. Examples include Subresource Integrity, HTML5 sandboxing or Content Security Policy.</p>\n<p>After attending this talk, you will have a good understanding of the various kinds of untrusted code that threaten your Angular applications. In addition, you will have concrete knowledge on how to use these new security technologies to effectively secure your Angular applications against these threats.</p>\n",
+  "id" : "TKY-6103",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b2c690f9fd417fd4d7104bcf0fdd7a1b8d97c6e8",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Philippe De Ryck"
+      },
+      "name" : "Philippe De Ryck"
+    }
+  ],
+  "title" : "Building Secure Angular Applications",
+  "lang" : "en",
+  "summary" : "Angular is one of the most popular frameworks, and there is a lot of information available on building applications, improving performance, and various other topics. But do you know how to make your Angular applications secure? What kind of security features does Angular offer you, and which additional steps can you take to really boost the security of your applications?\r\n\r\nIn this session, you will learn how the paradigm shift from server-side to client-side applications impacts security. We will discuss various script-based threats against Angular applications, and the concrete defenses to prevent or minimize these attacks. You will learn how Angular helps you defend against XSS, and how you can leverage the latest browser security features in your Angular applications to boost your security. Examples include Subresource Integrity, HTML5 sandboxing or Content Security Policy.\r\n\r\nAfter attending this talk, you will have a good understanding of the various kinds of untrusted code that threaten your Angular applications. In addition, you will have concrete knowledge on how to use these new security technologies to effectively secure your Angular applications against these threats."
+}

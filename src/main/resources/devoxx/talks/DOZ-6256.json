@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Conference",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Avec les outils actuels, développer une application web (grand public ou privée), avec du JS en front et du Java en backend est de plus en plus rapide. Les premiers hics peuvent survenir le jour où vous basculez cette application en production.</p>\n<p>Mon but est de vous montrer dans cette session, comment optimiser une webapp quelque soit les solutions techniques utilisées côté front ou côté serveur. Mes exemples se basent sur une application SpringBoot avec un frontend en JS (sans framework particulier) mais ceci est peu important. Nous allons nous focaliser sur les concepts qui restent vrais quelque soit les langages.</p>\n<p>Nous verrons les différentes étapes pour améliorer la rapidité d'une application au premier chargement (load time), en mode offline, comment jouer sur le critical rendering...  Au niveau des solutions nous parlerons cache, asynchronisme, services workers...</p>\n<p>Par cette session j'aimerais partager ce que j'ai appris en créant des sites web publics et notamment celui de la conférence Mix-IT, les erreurs à ne pas faire, comment améliorer les performances (ce que nous avons fait, ce nous pouvons encore faire pour nous améliorer)</p>\n",
+  "id" : "DOZ-6256",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/de48bbb17a914b6c9d36d564e8c8464944559302",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Guillaume EHRET"
+      },
+      "name" : "Guillaume EHRET"
+    }
+  ],
+  "title" : "Optimiser les performances d'une webapp",
+  "lang" : "fr",
+  "summary" : "Avec les outils actuels, développer une application web (grand public ou privée), avec du JS en front et du Java en backend est de plus en plus rapide. Les premiers hics peuvent survenir le jour où vous basculez cette application en production. \r\n\r\nMon but est de vous montrer dans cette session, comment optimiser une webapp quelque soit les solutions techniques utilisées côté front ou côté serveur. Mes exemples se basent sur une application SpringBoot avec un frontend en JS (sans framework particulier) mais ceci est peu important. Nous allons nous focaliser sur les concepts qui restent vrais quelque soit les langages. \r\n\r\nNous verrons les différentes étapes pour améliorer la rapidité d'une application au premier chargement (load time), en mode offline, comment jouer sur le critical rendering...  Au niveau des solutions nous parlerons cache, asynchronisme, services workers... \r\n\r\nPar cette session j'aimerais partager ce que j'ai appris en créant des sites web publics et notamment celui de la conférence Mix-IT, les erreurs à ne pas faire, comment améliorer les performances (ce que nous avons fait, ce nous pouvons encore faire pour nous améliorer)"
+}

@@ -1,0 +1,37 @@
+{
+  "uuid" : "8afbf53e07d46197854f422b4f7f41a860a2b89b",
+  "bioAsHtml" : "<p>find it yourself ...</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/FGB-3240",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8afbf53e07d46197854f422b4f7f41a860a2b89b",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Alexis Slawny"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1c6ce40eb57e4482b241683e81d7cd6774709dd1",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Mathias kluba"
+        }
+      ],
+      "id" : "FGB-3240",
+      "title" : "Big Binouze : Le Big Data, de la récolte jusqu'à la production à grande échelle !"
+    }
+  ],
+  "company" : "SG CIB",
+  "bio" : "find it yourself ...",
+  "lastName" : "Slawny",
+  "firstName" : "Alexis",
+  "blog" : "find it yourself ...",
+  "avatarURL" : "http://images.google.fr/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fjnqvg43Jug4%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Djnqvg43Jug4&h=720&w=1280&tbnid=zPopVyU4z8QOUM%3A&vet=1&docid=PrHMHmixYCX7OM&ei=goocWPLAHYeqa5X-iqAM&tbm=isch&iact=rc&uact=3&dur=906&page=0&start=0&ndsp=24&ved=0ahUKEwjyifaDmI_QAhUH1RoKHRW_AsQQMwgyKAAwAA&bih=934&biw=1280",
+  "twitter" : "@slawnya",
+  "lang" : "fr"
+}

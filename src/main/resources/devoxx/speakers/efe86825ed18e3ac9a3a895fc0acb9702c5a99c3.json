@@ -1,0 +1,57 @@
+{
+  "uuid" : "efe86825ed18e3ac9a3a895fc0acb9702c5a99c3",
+  "bioAsHtml" : "<p>Hervé Schauer is a world-renowned expert on information systems security.</p>\n<p>After computer studies at the Paris 6 University (Jussieu University), he quickly becomes a pioneer of computer security in France, with, among others, the publication of series of articles on Unix security and intrusion detection in 1987.\nIn 1989, he establishes his own consulting agency (Hervé Schauer Consultants). He is the inventor of proxy services for the french space agency (CNES) in 1991, presented at the Usenix Security Symposium in 1992, but did not patent his invention so it can later be used freely in most commercial firewalls.</p>\n<p>Hervé Schauer has published or contributed to many books and articles , notably on Internet security, network partitioning, which he invented, authentication, wireless technologies security, ISO 27001 and ISO 27005 standards, etc.\nHe serves as a guest lecturer and instructor at numerous high-tech conferences in Europe and abroad.</p>\n<p>He served as consultant to 200 french and worldwide companies, telcos, national governments and international agencies.\nHe serves as a technology advisor to a number of start-ups, established concerns and venture capital firms.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/QFM-7860",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/68082da635ce5c02b0325170cd42af87fda5dfe0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Johanne Ulloa"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a97dc1739cca5a4d6b1dd2ca06fe1c69fbe405b8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Nicolas RUFF"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/419d72a808d490afdf5721dc44e29c64fa02524c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Emmanuel Bernard"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/efe86825ed18e3ac9a3a895fc0acb9702c5a99c3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Hervé Schauer"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/daeacb58322e0c2098becde15aa8d52562f23e7d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sébastien Gioria"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/303c50d69c22284f37665fb4cefb5490a8ee616f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "V׀adimіr Kο׀׀a"
+        }
+      ],
+      "id" : "QFM-7860",
+      "title" : "Dev et Sécu : c'est fromage ou dessert ?"
+    }
+  ],
+  "company" : "hervé Schauer Consultants",
+  "bio" : "Hervé Schauer is a world-renowned expert on information systems security.\r\n\r\nAfter computer studies at the Paris 6 University (Jussieu University), he quickly becomes a pioneer of computer security in France, with, among others, the publication of series of articles on Unix security and intrusion detection in 1987.\r\nIn 1989, he establishes his own consulting agency (Hervé Schauer Consultants). He is the inventor of proxy services for the french space agency (CNES) in 1991, presented at the Usenix Security Symposium in 1992, but did not patent his invention so it can later be used freely in most commercial firewalls.\r\n\r\nHervé Schauer has published or contributed to many books and articles , notably on Internet security, network partitioning, which he invented, authentication, wireless technologies security, ISO 27001 and ISO 27005 standards, etc.\r\nHe serves as a guest lecturer and instructor at numerous high-tech conferences in Europe and abroad.\r\n\r\nHe served as consultant to 200 french and worldwide companies, telcos, national governments and international agencies.\r\nHe serves as a technology advisor to a number of start-ups, established concerns and venture capital firms.",
+  "lastName" : "Schauer",
+  "firstName" : "Hervé",
+  "blog" : "http://www.hsc.fr",
+  "avatarURL" : "https://media.licdn.com/media/p/3/000/003/116/22988a5.jpg",
+  "twitter" : "@Herve_Schauer",
+  "lang" : "fr"
+}

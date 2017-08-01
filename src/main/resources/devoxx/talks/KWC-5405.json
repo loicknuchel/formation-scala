@@ -1,0 +1,28 @@
+{
+  "trackId" : "future",
+  "talkType" : "Hands-on Labs",
+  "track" : "Future, Robotique",
+  "summaryAsHtml" : "<p>Ce workshop se compose en 3 parties :</p>\n<p>Une présentation générale sur la technologie Blockchain et du projet Hyperledger. Mettre en place un réseau Blockchain de 4 noeuds.</p>\n<p>Coder un smart contract en Java sur Hyperledger</p>\n<p>Coder la partie cliente en Java pour interagir avec le réseau Blockchain</p>\n<p>Pré-requis: Les participants devront amener leur ordinateur portable (puissant de préférence) et une connexion wifi est obligatoire. Comme nous allons utiliser Docker merci de vérifier si votre OS permet d'installer Docker sur votre machine (Mac,Linux et Windows 10 sont compatibles)</p>\n",
+  "id" : "KWC-5405",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/311166c8587718e43872b2263abd01a5f630b06f",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Benjamin Fuentes"
+      },
+      "name" : "Benjamin Fuentes"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b32733e7a415d36b7711196aef7dfed8e33bba1d",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Nitesh  Thakrar"
+      },
+      "name" : "Nitesh  Thakrar"
+    }
+  ],
+  "title" : "Coder un SmartContract sur Hyperledger (Blockchain) ",
+  "lang" : "fr",
+  "summary" : "Ce workshop se compose en 3 parties :\r\n\r\nUne présentation générale sur la technologie Blockchain et du projet Hyperledger. Mettre en place un réseau Blockchain de 4 noeuds.\r\n\r\nCoder un smart contract en Java sur Hyperledger\r\n\r\nCoder la partie cliente en Java pour interagir avec le réseau Blockchain\r\n\r\nPré-requis: Les participants devront amener leur ordinateur portable (puissant de préférence) et une connexion wifi est obligatoire. Comme nous allons utiliser Docker merci de vérifier si votre OS permet d'installer Docker sur votre machine (Mac,Linux et Windows 10 sont compatibles)"
+}

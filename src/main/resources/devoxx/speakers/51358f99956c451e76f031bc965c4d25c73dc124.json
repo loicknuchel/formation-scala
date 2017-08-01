@@ -1,0 +1,52 @@
+{
+  "uuid" : "51358f99956c451e76f031bc965c4d25c73dc124",
+  "bioAsHtml" : "<p>Thomas Guenoux est le fondateur de CommitStrip, le blog BD bien connu des codeurs : c&#x27;est lui qui écrit chaque jour depuis 2012 une strip sur la vie quotidienne des codeurs. Pionner du développement des réseaux sociaux en France dès 2006 en lançant Cancoon, Thomas co-fonde en 2007 l&#x27;agence KRDS, première agence spécialisée en social media marketing et aujourd&#x27;hui leader en Europe et en Asie. Il y occupe aujourd&#x27;hui la Direction de la Production, dirigeant un studio primé et une équipe de développeurs web ayant produit près de 2000 projets.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/NAG-1579",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5ec0b5afa0f1ef5a7e180acf4f7c6b3a611fcbb7",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Philippe Charrière"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e1bf9c5d86660b3e68499599d0f1ea363ea14ac6",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Nicolas Leroux"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/21a8485bd433270f91ccc4a31e276392667ded7f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Etienne Issartial"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e0ce87f40a638c59e9da24231ef05da65aa355f3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Quentin Adam"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/51358f99956c451e76f031bc965c4d25c73dc124",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Thomas Guenoux"
+        }
+      ],
+      "id" : "NAG-1579",
+      "title" : "Apéro fonctionnel"
+    }
+  ],
+  "company" : "CommitStrip",
+  "bio" : "Thomas Guenoux est le fondateur de CommitStrip, le blog BD bien connu des codeurs : c'est lui qui écrit chaque jour depuis 2012 une strip sur la vie quotidienne des codeurs. Pionner du développement des réseaux sociaux en France dès 2006 en lançant Cancoon, Thomas co-fonde en 2007 l'agence KRDS, première agence spécialisée en social media marketing et aujourd'hui leader en Europe et en Asie. Il y occupe aujourd'hui la Direction de la Production, dirigeant un studio primé et une équipe de développeurs web ayant produit près de 2000 projets. ",
+  "lastName" : "Guenoux",
+  "firstName" : "Thomas",
+  "blog" : "http://www.commitstrip.com",
+  "avatarURL" : "https://media.licdn.com/mpr/mprx/0_uMN4t0k52NFXmy9A2UBFty56m1lb2y9AaR8btyNzl95n143lhxkqpphR8gAM7UcjSsn6gRorDy9v",
+  "twitter" : "@commitstrip",
+  "lang" : "fr"
+}

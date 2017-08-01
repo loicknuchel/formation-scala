@@ -1,0 +1,32 @@
+{
+  "uuid" : "81c86d6b980ba3c9449cb7bcc57d356dfb5a6543",
+  "bioAsHtml" : "<p>Développeur et architecte chez Oyst. Technos utilisées chez Oyst: Node.js, Go, Kafka...</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/MYF-4601",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/81c86d6b980ba3c9449cb7bcc57d356dfb5a6543",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Florian Boulay"
+        }
+      ],
+      "id" : "MYF-4601",
+      "title" : "À la découverte de Clojure"
+    }
+  ],
+  "company" : "Oyst",
+  "bio" : "Développeur et architecte chez Oyst. Technos utilisées chez Oyst: Node.js, Go, Kafka...",
+  "lastName" : "Boulay",
+  "firstName" : "Florian",
+  "blog" : "blog.boulay.eu",
+  "avatarURL" : "http://www.gravatar.com/avatar/56001d106fc8ca2afade220caacffbf8",
+  "twitter" : "@FlorianBoulay",
+  "lang" : "en-US"
+}

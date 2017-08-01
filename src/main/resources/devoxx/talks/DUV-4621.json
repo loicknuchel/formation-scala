@@ -1,0 +1,20 @@
+{
+  "trackId" : "future",
+  "talkType" : "Conference",
+  "track" : "Future, Robotique",
+  "summaryAsHtml" : "<p>Malgré la vague des transformations digitales exacerbée par le risque de se faire disrupter, il subsiste encore et toujours au sein de nos entreprises une forme de refus, voire de refoulement de la technique.</p>\n<p>Cela se manifeste de diverses manières : des carrières techniques moins bien valorisées que des carrières managériales ou marketing, des DSI qui n'ont pas voix au chapitre dans les instances de gouvernance – avec cette sensation d'être les soutiers de leur propre organisation – et cela va parfois jusqu'à l'absence de toute stratégie technologique dans l'évolution des modèles d'affaire.</p>\n<p>Cette intervention vise à donner des arguments et des références pour détecter ces comportements et surtout essayer de les changer ; il mettra en évidence de nouvelles formes d’éthique de la technique qui émergent au sein de ceux qui font et qui œuvrent à la digitalisation du monde.</p>\n",
+  "id" : "DUV-4621",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b5b7ff65df4c04074155e7c38c1d3b74778fcd2e",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Christian Fauré"
+      },
+      "name" : "Christian Fauré"
+    }
+  ],
+  "title" : "La nouvelle éthique technologique",
+  "lang" : "fr",
+  "summary" : "Malgré la vague des transformations digitales exacerbée par le risque de se faire disrupter, il subsiste encore et toujours au sein de nos entreprises une forme de refus, voire de refoulement de la technique.\r\n                                    \r\nCela se manifeste de diverses manières : des carrières techniques moins bien valorisées que des carrières managériales ou marketing, des DSI qui n'ont pas voix au chapitre dans les instances de gouvernance – avec cette sensation d'être les soutiers de leur propre organisation – et cela va parfois jusqu'à l'absence de toute stratégie technologique dans l'évolution des modèles d'affaire.\r\n \r\nCette intervention vise à donner des arguments et des références pour détecter ces comportements et surtout essayer de les changer ; il mettra en évidence de nouvelles formes d’éthique de la technique qui émergent au sein de ceux qui font et qui œuvrent à la digitalisation du monde."
+}

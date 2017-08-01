@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826158,
+  "title" : "PDF parse in php and Jquery this type of Questions I saw But there is no Exact Answer?",
+  "body" : "<p>I am using php in my project.If any PDF file is uploaded into my project that PDF will containing of some data that data content will be come and placed in my forms.I tried for couple of time with several Examples but I could not found any Exact Solution for this  problem .This problem  we can simple say as PDF parsing. </p>\n",
+  "link" : "https://stackoverflow.com/questions/44826158/pdf-parse-in-php-and-jquery-this-type-of-questions-i-saw-but-there-is-no-exact-a",
+  "owner" : {
+    "user_id" : 7796022,
+    "user_type" : "registered",
+    "display_name" : "kumar",
+    "profile_image" : "https://i.stack.imgur.com/yy0wR.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/7796022/kumar",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742020,
+  "last_activity_date" : 1498742020,
+  "tags" : [
+    "javascript",
+    "php",
+    "jquery"
+  ],
+  "score" : -2,
+  "view_count" : 8,
+  "answer_count" : 0
+}

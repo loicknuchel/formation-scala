@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "Quickie",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>Quicky visant à présenter cette classe bien particulière au travers :</p>\n<ul>\n<li>de son <strong>actualité</strong>, qui a fait couler beaucoup d'encre dernièrement (menace de suppression du jdk, levée de bouclier d’Hazelcast, Azul Systems, etc.)</li>\n<li>d'<strong>exemples précis</strong> (création d’instance sans constructeur, tableaux extra larges, etc.) issus de l'<strong>utilisation qu'en font plusieurs grandes sociétés et librairies</strong> (Spring, Neo4J, etc.)</li>\n</ul>\n",
+  "id" : "FEU-0240",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3215bdda9ce82fab846796dcf26fada668b8225d",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Thomas SCHWENDER"
+      },
+      "name" : "Thomas SCHWENDER"
+    }
+  ],
+  "title" : "Sorcellerie en Java : outrepasser les interdits avec sun.misc.Unsafe",
+  "lang" : "fr",
+  "summary" : "Quicky visant à présenter cette classe bien particulière au travers :\r\n\r\n * de son **actualité**, qui a fait couler beaucoup d'encre dernièrement (menace de suppression du jdk, levée de bouclier d’Hazelcast, Azul Systems, etc.)\r\n * d'**exemples précis** (création d’instance sans constructeur, tableaux extra larges, etc.) issus de l'**utilisation qu'en font plusieurs grandes sociétés et librairies** (Spring, Neo4J, etc.)"
+}

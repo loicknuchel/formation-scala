@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Hands-on Labs",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Découvrez les <strong>API Watson</strong> à travers l'outil open source <strong>Node-RED</strong> sur le cloud IBM Bluemix :</p>\n<ul>\n<li>création d'un compte Bluemix Gratuit valable 4 mois, et sans CB, pour les 50 premiers participants. (1 mois par défaut)</li>\n<li>découverte de <a href=\"http://nodered.org/\">Node-RED</a> : outil de développement visuel d'applications, basé sur le runtime Node JS et open source,  qui permet de relier facilement objets connectés (IoT), API et services. Léger, il fonctionne sur un Raspberry Pi et sur toutes les plateformes Cloud !</li>\n<li>création de plusieurs applications \"cognitives\" avec Node-RED mettant en oeuvre les <a href=\"https://www.ibm.com/watson/developercloud/\">API Cognitives Watson</a> : en particulier Conversation, Tone Analyser, Image Recognition, Translator, Speech to Text et Text to Speech</li>\n<li>développement d'un noeud Node-RED (Lab avancé): pour les développeurs avertis (Javascript et Node.js + HTML/CSS). Développez votre premier noeud, et étudiez différentes implémentations de noeuds que j'ai développé (Business Rules et Visual Recognition) ! L'objectif étant de vous donner envi de devenir un contributeur Node-RED !</li>\n</ul>\n",
+  "id" : "YWB-9589",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7da184f5d275532ef0c27f545c0e1cfff1ccaee8",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Yves LE CLEACH"
+      },
+      "name" : "Yves LE CLEACH"
+    }
+  ],
+  "title" : "Watson API Labs using Node-RED on Bluemix",
+  "lang" : "fr",
+  "summary" : "Découvrez les **API Watson** à travers l'outil open source **Node-RED** sur le cloud IBM Bluemix : \r\n\r\n* création d'un compte Bluemix Gratuit valable 4 mois, et sans CB, pour les 50 premiers participants. (1 mois par défaut)\r\n* découverte de [Node-RED](http://nodered.org/) : outil de développement visuel d'applications, basé sur le runtime Node JS et open source,  qui permet de relier facilement objets connectés (IoT), API et services. Léger, il fonctionne sur un Raspberry Pi et sur toutes les plateformes Cloud !\r\n* création de plusieurs applications \"cognitives\" avec Node-RED mettant en oeuvre les [API Cognitives Watson](https://www.ibm.com/watson/developercloud/) : en particulier Conversation, Tone Analyser, Image Recognition, Translator, Speech to Text et Text to Speech\r\n* développement d'un noeud Node-RED (Lab avancé): pour les développeurs avertis (Javascript et Node.js + HTML/CSS). Développez votre premier noeud, et étudiez différentes implémentations de noeuds que j'ai développé (Business Rules et Visual Recognition) ! L'objectif étant de vous donner envi de devenir un contributeur Node-RED !"
+}

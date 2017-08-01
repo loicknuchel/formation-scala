@@ -1,0 +1,24 @@
+{
+  "question_id" : 44806060,
+  "title" : "How to call a function in another file in Python?",
+  "body" : "<p>I am trying to call some functions from one file in another file on python, but whenever I do that I keep getting an error. This is the code I have for the first file called myfile.py</p>\n\n<pre><code>def readfile('C:\\Users\\kprab\\Documents\\python\\data.asc'):\n    # to read in the data from a file\n    import pylab\nfrom numpy import genfromtxt\n# get data\ndata = genfromtxt('C:\\Users\\kprab\\Documents\\python\\data.asc', delimiter=',')\nprint data\n\ndef proj(data):\n    # to create an image from data\n    import numpy\nfrom matplotlib import pyplot as plt\nx = data\nplt.imshow(x, cmap='gray', interpolation='nearest', vmin=0, vmax=255)\nplt.savefig('text.png')\nplt.show()\n</code></pre>\n\n<p>and then I am trying to call these function in another file but with different data. This codes looks like the following:</p>\n\n<pre><code>import myfile\n\na = myfile.readfile('C:\\Users\\kprab\\Documents\\python\\HPOPUP2_201507071256_1')\nprint a\nb = myfile.proj(a)\nprint b\n</code></pre>\n\n<p>and the error I get is </p>\n\n<pre><code>def readfile('C:\\Users\\kprab\\Documents\\python\\data.asc'):\n                                                      ^    \nSyntaxError: invalid syntax\n</code></pre>\n\n<p>Any help is appreciated. Thanks!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806060/how-to-call-a-function-in-another-file-in-python",
+  "owner" : {
+    "user_id" : 8121733,
+    "user_type" : "registered",
+    "display_name" : "P. Kaur",
+    "profile_image" : "https://www.gravatar.com/avatar/066722cd1676f8391ccc37fbd058dd42?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8121733/p-kaur",
+    "reputation" : 29,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661786,
+  "last_activity_date" : 1498662003,
+  "tags" : [
+    "python"
+  ],
+  "score" : 0,
+  "view_count" : 18,
+  "answer_count" : 1
+}

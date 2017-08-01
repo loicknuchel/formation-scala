@@ -1,0 +1,28 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Tools-in-Action",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p><strong>Serverless</strong> <a href=\"https://serverless.com/\">https://serverless.com/</a> est un framework permettant de déployer facilement des architectures dites “serverless” sur AWS, qui nous a permis d’accélérer et de simplifier nos déploiements. Le modèle “serverless” permet de déployer des micro-services orientés événements, automatiquement dimensionnés et facturés à l’usage.</p>\n<p>Le déploiement d’une architecture “serverless” sur AWS met en oeuvre plusieurs composants (Lambda, API Gateway, S3, IAM, ...) dont la prise en main et l’articulation peuvent présenter un frein à leur adoption.</p>\n<p>Nous vous présenterons comment <strong>Serverless</strong> apporte un cadre efficace et extensible regroupant bonnes pratiques de développement et de déploiement qui vous permettra dès demain de vous lancer !</p>\n",
+  "id" : "NHQ-4531",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3f12729c30fd8a457c3c89fe430d7e83aa88cdd0",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Etienne Peiniau"
+      },
+      "name" : "Etienne Peiniau"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6a40c4bfc259d51ddf34fe093f7ca013785d969f",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Frédéric Boulet"
+      },
+      "name" : "Frédéric Boulet"
+    }
+  ],
+  "title" : "Serverless, le framework que votre lambda AWS attendait",
+  "lang" : "fr",
+  "summary" : "**Serverless** [https://serverless.com/](https://serverless.com/) est un framework permettant de déployer facilement des architectures dites “serverless” sur AWS, qui nous a permis d’accélérer et de simplifier nos déploiements. Le modèle “serverless” permet de déployer des micro-services orientés événements, automatiquement dimensionnés et facturés à l’usage.\r\n\r\nLe déploiement d’une architecture “serverless” sur AWS met en oeuvre plusieurs composants (Lambda, API Gateway, S3, IAM, ...) dont la prise en main et l’articulation peuvent présenter un frein à leur adoption. \r\n\r\nNous vous présenterons comment **Serverless** apporte un cadre efficace et extensible regroupant bonnes pratiques de développement et de déploiement qui vous permettra dès demain de vous lancer !"
+}

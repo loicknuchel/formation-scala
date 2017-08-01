@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826782,
+  "title" : "Change Datatable search function to include database values",
+  "body" : "<p>I have a Datatable table that contains multiple tasks. These tasks each have a database entry with about 30 columns. The table shows just the 5 most important of those columns. When you click on a task, another more detailed view is opened, which lets users edit all 30 fields and save the changes to the database.</p>\n\n<p>The Datatable search function includes just the 5 columns that are shown in the table. I need it to include all 30 columns while still showing only the 5 most important ones. </p>\n\n<p>If it's of any use: I'm using ASP.net MVC5</p>\n\n<p>Any idea where to start or where I can find any useful information?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826782/change-datatable-search-function-to-include-database-values",
+  "owner" : {
+    "user_id" : 8017828,
+    "user_type" : "registered",
+    "display_name" : "AbcUser123",
+    "profile_image" : "https://www.gravatar.com/avatar/ca240c7b6c9cd1726e90af386da33581?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8017828/abcuser123",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743577,
+  "last_activity_date" : 1498743577,
+  "tags" : [
+    "c#",
+    "asp.net",
+    "datatables"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

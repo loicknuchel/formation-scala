@@ -1,0 +1,50 @@
+{
+  "uuid" : "ad8a2bc1ca2e061e9473a3595dc1c9276d4c7a84",
+  "bioAsHtml" : "<p>Bordeaux JUG leader à la retraite, créateur de la conférence BDX I/O depuis 2014, Frédéric aime cotoyer les différentes communautés tech et apprendre de nouvelles choses.\nDéveloppeur web chez 4SH le jour, et commiter sur RestX et (feu) des plugins Jenkins la nuit, il est extrêmement enthousiaste d&#x27;enfin voir arriver du typage statique sur le front avec Typescript.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/GBV-2484",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ad8a2bc1ca2e061e9473a3595dc1c9276d4c7a84",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Frédéric Camblor"
+        }
+      ],
+      "id" : "GBV-2484",
+      "title" : "TypeScript : dès lundi sur votre App Legacy"
+    },
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/UHJ-0617",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ad8a2bc1ca2e061e9473a3595dc1c9276d4c7a84",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Frédéric Camblor"
+        }
+      ],
+      "id" : "UHJ-0617",
+      "title" : "Et si votre backend était une Google Spreadsheet ?"
+    }
+  ],
+  "company" : "4SH France",
+  "bio" : "Bordeaux JUG leader à la retraite, créateur de la conférence BDX I/O depuis 2014, Frédéric aime cotoyer les différentes communautés tech et apprendre de nouvelles choses.\r\nDéveloppeur web chez 4SH le jour, et commiter sur RestX et (feu) des plugins Jenkins la nuit, il est extrêmement enthousiaste d'enfin voir arriver du typage statique sur le front avec Typescript.",
+  "lastName" : "Camblor",
+  "firstName" : "Frédéric",
+  "blog" : null,
+  "avatarURL" : "https://pbs.twimg.com/profile_images/378800000759015070/cb819fce4817052c11c7983fe932d210.png",
+  "twitter" : "@fcamblor",
+  "lang" : "fr-FR"
+}

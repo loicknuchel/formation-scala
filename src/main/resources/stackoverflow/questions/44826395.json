@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826395,
+  "title" : "getting shopping cart empty page on add to cart",
+  "body" : "<p>I am getting product name was added to your shopping cart on magento 1.9. I have changed cookie settings but still getting same issue.</p>\n\n<p>Can anyone resolve this issue?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826395/getting-shopping-cart-empty-page-on-add-to-cart",
+  "owner" : {
+    "user_id" : 8197919,
+    "user_type" : "registered",
+    "display_name" : "Priyanka",
+    "profile_image" : "https://www.gravatar.com/avatar/5bf23bb8e4bad470818e67f4bcf99714?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8197919/priyanka",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742650,
+  "last_activity_date" : 1498742650,
+  "tags" : [
+    "magento",
+    "magento-1.9"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 0
+}

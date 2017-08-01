@@ -1,0 +1,20 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Conference",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Si Docker a produit un engouement fulgurant et accru considérablement la vélocité de production de software, il est très facile de totalement perdre le contrôle de sa production d'images. Un pipeline de gestion des images Docker, comme pour la gestion du cycle de vie d'un software classique est vitale. Si les nouveaux outils amènent de nouveaux paradigmes nous verrons comment les modèles éprouvés peuvent s'appliquer ou non et quels sont leurs impacts sur le cycle de vie du développement logiciel.</p>\n",
+  "id" : "PLU-5963",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/55532db37162a9cf0f3f9027f3b47f579e12c2c7",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Jonathan Roquelaure"
+      },
+      "name" : "Jonathan Roquelaure"
+    }
+  ],
+  "title" : "Patterns et antipatterns pour la gestion des cycles de vie des images Docker",
+  "lang" : "fr",
+  "summary" : "Si Docker a produit un engouement fulgurant et accru considérablement la vélocité de production de software, il est très facile de totalement perdre le contrôle de sa production d'images. Un pipeline de gestion des images Docker, comme pour la gestion du cycle de vie d'un software classique est vitale. Si les nouveaux outils amènent de nouveaux paradigmes nous verrons comment les modèles éprouvés peuvent s'appliquer ou non et quels sont leurs impacts sur le cycle de vie du développement logiciel."
+}

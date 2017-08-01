@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825831,
+  "title" : "Bootstrap 4 grid layout didn&#39;t work as expected",
+  "body" : "<p>According to Bootstrap4 document, we have classes <code>col-*-num</code> and <code>offset-*-num</code> for designing page layout. In the following code div columns from <code>sm</code> to up are the same and only <code>extra small</code> view has different columns. So as bootstrap3 I handle that using <code>col-sm-*</code> for <code>small</code> to up views and <code>col-xs-*</code> for <code>extra small</code> views. In <code>small</code> and up views everything is as desired But surprisingly, in <code>extra-small</code> view every <code>div</code> occupy a row ! I think I got something wrong in bootstrap4 concepts, What's wrong?</p>\n\n<p>HTML</p>\n\n<pre><code>&lt;body&gt;\n        &lt;div id=\"top-ribbon\" class=\"container-fluid\"&gt;\n            &lt;div class=\"row align-items-center\"&gt;\n                &lt;div id=\"logo\" class=\"col-xs-2 offset-xs-1 col-sm-2 offset-sm-2 d-flex align-items-center justify-content-center color-white\"&gt;Hello\n                &lt;/div&gt;\n                &lt;div id=\"socials\" class=\"col-xs-3 offset-xs-2 col-sm-2 offset-sm-6 d-flex align-items-center justify-content-around color-white\"&gt;\n                        0256666666&lt;i class=\"fa fa-phone color-white\"&gt;&lt;/i&gt;\n                &lt;/div&gt;\n            &lt;/div&gt;\n        &lt;/div&gt;\n        &lt;/body&gt;\n</code></pre>\n\n<p>Css</p>\n\n<pre><code>#top-ribbon{\n    background-color: rgb(168, 8, 133);\n}\n#socials i{\n    font-size: 20px;\n}\n\n#socials, #logo{\n    border: 1px solid;\n}\n.color-white{\n    color: white;\n}\n#top-ribbon1{\n    background-color: rgb(168, 8, 133);\n}\n#socials1 i{\n    font-size: 20px;\n}\n\n#socials1, #logo1{\n    border: 1px solid;\n}\n</code></pre>\n\n<p><a href=\"https://jsfiddle.net/dtwmyowc/\" rel=\"nofollow noreferrer\">JSFiddle</a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44825831/bootstrap-4-grid-layout-didnt-work-as-expected",
+  "owner" : {
+    "user_id" : 8110607,
+    "user_type" : "registered",
+    "display_name" : "soheil",
+    "profile_image" : "https://www.gravatar.com/avatar/bccad2213a9507dcb07ff528f35c00d1?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8110607/soheil",
+    "reputation" : 19,
+    "accept_rate" : 86
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741123,
+  "last_activity_date" : 1498742007,
+  "tags" : [
+    "css3",
+    "bootstrap-4"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

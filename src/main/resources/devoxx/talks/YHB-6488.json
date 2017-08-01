@@ -1,0 +1,20 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Conference",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Dans les entreprises du web à grand échelle, on ne parle plus de PROD mais de Site Reliability Engineering.</p>\n<p>Pourquoi un tel changement, que se cache-t-il derrière cette terminologie, qui sont les acteurs de cette mutation et comment embrasser le mouvement ?\nComment cette mutation s'articule autour des principes DevOps, quels en sont les difficultés et les accomplissements ?</p>\n<p>Point sur l'état de l'art et retour d'expérience sur cette mutation dans le contexte Criteo.</p>\n",
+  "id" : "YHB-6488",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b10898f52ef88fce9964324a4cfb1bf667587492",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Nicolas Helleringer"
+      },
+      "name" : "Nicolas Helleringer"
+    }
+  ],
+  "title" : "Retour d'expérience DevOps : Site Reliability Engineering chez Criteo",
+  "lang" : "fr",
+  "summary" : "Dans les entreprises du web à grand échelle, on ne parle plus de PROD mais de Site Reliability Engineering.\r\n\r\nPourquoi un tel changement, que se cache-t-il derrière cette terminologie, qui sont les acteurs de cette mutation et comment embrasser le mouvement ?\r\nComment cette mutation s'articule autour des principes DevOps, quels en sont les difficultés et les accomplissements ?\r\n\r\nPoint sur l'état de l'art et retour d'expérience sur cette mutation dans le contexte Criteo."
+}

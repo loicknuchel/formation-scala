@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826370,
+  "title" : "Distribute amounts to several records",
+  "body" : "<p>I am currently struggling with following requirement:</p>\n\n<p>I've an account-table (attributes,some amount fields and a date column).\nCurrently looking like this (i've already coloured some cells for further explanation).\n<a href=\"https://i.stack.imgur.com/3omf6.jpg\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/3omf6.jpg\" alt=\"enter image description here\"></a></p>\n\n<p>My target is to generate some new records, based on this data, with the following requirements:</p>\n\n<ul>\n<li>Records should be divided by groups<br> In example: all records with the same <code>AccType &amp; CustType</code> should receive the same group name <br> AGG_GRP_1 should be the group name of all rows with <code>AccType = 'GI' and CustType = 'C'</code> <br> Group names should be consecutively enumerated. AGG_GRP_2 and so on.</li>\n<li>If value of <code>NewFunds != 0</code> a new record should be generated <br> The <code>ElementName</code> should be the group name plus the date of <code>CalcDate</code>.  <code>Nominal</code> will be the value of NewFunds</li>\n<li>**Now the more interesting part, which currently drives me nuts. **<br> Records from the previous day will be carried forward to the next day (Rollover). <br> Finally the value of column <code>Rollover</code> should be distributed an those records. <br> Each record receive a partial amount of Rollover up to the maximum the record had the previous day. <br> Starting this \"fill up\" with the record which had the largest <code>Nominal</code> the previous day. The previous day Nominal of an element is always the maximum this record is able to \"carry\"  If the Rollover value is smaller than <code>SUM(Nominal)</code> of previous days records, some records will receive a smaller amount than they had the day before, or even 0, if there is no further Rollover value is to distribute. <br> Those records with <code>Nominal = 0</code> should be omitted</li>\n</ul>\n\n<p>My explanation might be easier to undertand with the picture below, which reflects the desired result. <br> Columns which are calculated from values ot the picture above, are marked with the same colour for easier traceability. <br> Most interesting part are the orange marked cells. <br><br> The record has a Rollover value of 31110 (see picture 1). <br> \nThere are records with a sum of Nominals of 37200 (<em>1200+11000+5000+20000</em>) the day before (see picture 2 - purple marked cells) <br>\nNow the Rollover value should be distributed to those records, starting with the record with the highest Nominal. <br></p>\n\n<pre><code>Rollover value of 31110 to distribute\n1.) 20000 to element AGG_GRP_1_20170609  -&gt; 11110 left\n2.) 11000 to element AGG_GRP_1_20170607  -&gt;   110 left\n3.) 110   to element AGG_GRP_1_20170608  -&gt; nothing left - done\nelement AGG_GRP_1_20170606 will be omitted, as no amount has been distributed.\n</code></pre>\n\n<p><a href=\"https://i.stack.imgur.com/FcWbu.jpg\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/FcWbu.jpg\" alt=\"Desired result\"></a></p>\n\n<p>Of course i have prepared a Rextester: <a href=\"http://rextester.com/DWSR69758\" rel=\"nofollow noreferrer\">http://rextester.com/DWSR69758</a>\n<br>Values displayed in the first picture are stored in the table <code>dbo.AggregationResults</code></p>\n\n<p><br><br>\nI am looking forward to any input, ideas or solutions for my problem. <br> Thanks in advance.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826370/distribute-amounts-to-several-records",
+  "owner" : {
+    "user_id" : 4349396,
+    "user_type" : "registered",
+    "display_name" : "Esteban P.",
+    "profile_image" : "https://i.stack.imgur.com/vfJR3.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/4349396/esteban-p",
+    "reputation" : 597,
+    "accept_rate" : 100
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742569,
+  "last_activity_date" : 1498742569,
+  "tags" : [
+    "sql",
+    "sql-server",
+    "business-logic"
+  ],
+  "score" : 0,
+  "view_count" : 24,
+  "answer_count" : 0
+}

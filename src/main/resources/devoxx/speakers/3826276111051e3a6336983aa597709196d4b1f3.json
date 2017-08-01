@@ -1,0 +1,37 @@
+{
+  "uuid" : "3826276111051e3a6336983aa597709196d4b1f3",
+  "bioAsHtml" : "<p>Développeur autodidacte depuis 12 ans, professionnel depuis 3, je n&#x27;ai de cesse d&#x27;apprendre de nouvelles techniques pour améliorer mon savoir-faire. J&#x27;aime étudier les langages, de C# à Haskell. Au quotidien, ce sont Java et JavaScript qui m&#x27;accaparent: je suis consultant et formateur chez Zenika. Enfin, j&#x27;apprécie les jeux de code : vous me retrouverez par exemple sur CodinGame, et là, c&#x27;est Python 3.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/RIA-2353",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0be433067c55b278531757eeed7ffb77d8d54508",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Antoine Cellier"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3826276111051e3a6336983aa597709196d4b1f3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Hugo Wood"
+        }
+      ],
+      "id" : "RIA-2353",
+      "title" : "GraphQL vs Falcor"
+    }
+  ],
+  "company" : "Zenika",
+  "bio" : "Développeur autodidacte depuis 12 ans, professionnel depuis 3, je n'ai de cesse d'apprendre de nouvelles techniques pour améliorer mon savoir-faire. J'aime étudier les langages, de C# à Haskell. Au quotidien, ce sont Java et JavaScript qui m'accaparent: je suis consultant et formateur chez Zenika. Enfin, j'apprécie les jeux de code : vous me retrouverez par exemple sur CodinGame, et là, c'est Python 3.",
+  "lastName" : "Wood",
+  "firstName" : "Hugo",
+  "blog" : "https://github.com/hgwood/blog",
+  "avatarURL" : "http://www.gravatar.com/avatar/27bb339cd294f60f3392fd7e1f06c7da",
+  "twitter" : "@mercury_wood",
+  "lang" : "fr"
+}

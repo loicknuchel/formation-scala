@@ -1,0 +1,60 @@
+{
+  "uuid" : "28d78da3c37996c37f7d02bfc2e7baf189d8f90f",
+  "bioAsHtml" : "<p>Josh Long is the Spring developer advocate at <a href=\"http://gopivotal.com\">Pivotal</a>. Josh is the lead author on 4 books and instructor in one of Safari&#x27;s best-selling video series, all on Spring. Josh likes solutions that push the boundaries of the technologies that enable them. His interests include cloud-computing, business-process management, big-data and high availability, mobile computing and smart systems. He blogs on <a href=\"https://spring.io/team/jlong\">spring.io</a> or on <a href=\"http://joshlong.com\">his personal blog</a> and <a href=\"http://twitter.com/starbuxman\">on Twitter (@starbuxman)</a>.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/PJA-6878",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f387c127f51cd63fec084d5c55d5e111fa4ece93",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Matt Raible"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/28d78da3c37996c37f7d02bfc2e7baf189d8f90f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Josh Long"
+        }
+      ],
+      "id" : "PJA-6878",
+      "title" : "Building Cloud Native Progressive Web Apps - Part 2"
+    },
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/XBZ-1299",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/28d78da3c37996c37f7d02bfc2e7baf189d8f90f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Josh Long"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f387c127f51cd63fec084d5c55d5e111fa4ece93",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Matt Raible"
+        }
+      ],
+      "id" : "XBZ-1299",
+      "title" : "Building Cloud Native Progressive Web Apps - Part 1"
+    }
+  ],
+  "company" : "Pivotal",
+  "bio" : "Josh Long is the Spring developer advocate at [Pivotal](http://gopivotal.com). Josh is the lead author on 4 books and instructor in one of Safari's best-selling video series, all on Spring. Josh likes solutions that push the boundaries of the technologies that enable them. His interests include cloud-computing, business-process management, big-data and high availability, mobile computing and smart systems. He blogs on [spring.io](https://spring.io/team/jlong) or on [his personal blog](http://joshlong.com) and [on Twitter (@starbuxman)](http://twitter.com/starbuxman).\r\n",
+  "lastName" : "Long",
+  "firstName" : "Josh",
+  "blog" : "http://joshlong.com",
+  "avatarURL" : "http://gravatar.com/avatar/1b1073aba943d21a84e7be6f8e801303?s=250&s=250",
+  "twitter" : "@starbuxman",
+  "lang" : "fr"
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Tools-in-Action",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>Vous trouvez que vous passez trop de temps à préparer vos machines lors de vos démos ? Vous organisez des formations mais vous avez du mal à fournir à vos élèves des environnements complets et identiques ?\nGrâce à <a href=\"https://www.terraform.io/\">Terraform</a>, vous pourrez répondre par la négative à toutes ces questions.\nTerraform est un outil d'infra-as-code déclaratif et open source tout droit sorti des laboratoires HashiCorp. Il est à la fois simple et puissant et s'interface très bien avec les fournisseurs de services cloud les plus populaires.\nDans ce Tools in Action, nous verrons ensemble comment un développeur peut simplement et rapidement mettre en place l'infrastructure dont il a besoin grâce à Terraform, un peu d'Ansible et de services managés.</p>\n",
+  "id" : "INA-4429",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/13a8bb7efa429ccf5e56532b10b51507f9ba6246",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Yannick Lorenzati"
+      },
+      "name" : "Yannick Lorenzati"
+    }
+  ],
+  "title" : "Terraform 101",
+  "lang" : "fr",
+  "summary" : "Vous trouvez que vous passez trop de temps à préparer vos machines lors de vos démos ? Vous organisez des formations mais vous avez du mal à fournir à vos élèves des environnements complets et identiques ?\r\nGrâce à [Terraform](https://www.terraform.io/), vous pourrez répondre par la négative à toutes ces questions.\r\nTerraform est un outil d'infra-as-code déclaratif et open source tout droit sorti des laboratoires HashiCorp. Il est à la fois simple et puissant et s'interface très bien avec les fournisseurs de services cloud les plus populaires.\r\nDans ce Tools in Action, nous verrons ensemble comment un développeur peut simplement et rapidement mettre en place l'infrastructure dont il a besoin grâce à Terraform, un peu d'Ansible et de services managés."
+}

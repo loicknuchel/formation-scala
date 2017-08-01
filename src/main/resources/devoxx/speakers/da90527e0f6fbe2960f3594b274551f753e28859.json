@@ -1,0 +1,37 @@
+{
+  "uuid" : "da90527e0f6fbe2960f3594b274551f753e28859",
+  "bioAsHtml" : "<p>Romain est développeur backend chez SFEIR. Depuis plus de 10 ans, il aide les clients dans leurs projets Java, tantôt développeur, tantôt intégrateur. Arrivant chez Sfeir, il est parti regarder du côté de Go et Docker pour ses clients IoT.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/WXR-3840",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/bdcd981e013426ad1fa33b18d7cbe1df92d9874c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sébastien FRIESS"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/da90527e0f6fbe2960f3594b274551f753e28859",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Romain lespinasse"
+        }
+      ],
+      "id" : "WXR-3840",
+      "title" : "Votre premier microservice en Go"
+    }
+  ],
+  "company" : "Sfeir",
+  "bio" : "Romain est développeur backend chez SFEIR. Depuis plus de 10 ans, il aide les clients dans leurs projets Java, tantôt développeur, tantôt intégrateur. Arrivant chez Sfeir, il est parti regarder du côté de Go et Docker pour ses clients IoT.",
+  "lastName" : "lespinasse",
+  "firstName" : "romain",
+  "blog" : "https://github.com/rlespinasse",
+  "avatarURL" : "https://2-t.imgbox.com/NM72wuD3.jpg",
+  "twitter" : "@lespinasse",
+  "lang" : "fr-FR"
+}

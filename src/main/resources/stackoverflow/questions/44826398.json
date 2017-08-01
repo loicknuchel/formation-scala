@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826398,
+  "title" : "- (Objective-C) How to detect Facebook Share is success of cancel?",
+  "body" : "<p>If I click <strong>Cancel</strong> button <em>(click QA link for screenshot)</em> then, FBSDK not callBack any method to understand Post is success or failed.\nplease tell me if anyone have to know.<br><br>\n<img src=\"https://i.stack.imgur.com/Eogts.png\" alt=\"image\"></p>\n",
+  "link" : "https://stackoverflow.com/questions/44826398/objective-c-how-to-detect-facebook-share-is-success-of-cancel",
+  "owner" : {
+    "user_id" : 8231937,
+    "user_type" : "registered",
+    "display_name" : "Sa LoryPaul",
+    "profile_image" : "https://graph.facebook.com/440064096375660/picture?type=large",
+    "link" : "https://stackoverflow.com/users/8231937/sa-lorypaul",
+    "reputation" : 4,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742653,
+  "last_activity_date" : 1498743282,
+  "tags" : [
+    "objective-c"
+  ],
+  "score" : -1,
+  "view_count" : 8,
+  "answer_count" : 0
+}

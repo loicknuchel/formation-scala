@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826292,
+  "title" : "Aurelia repeat.for doesn&#39;t rerender on pushing new object into array binded and filtered on parent",
+  "body" : "<p>I'm uploading files to the server. On file upload triggers funciton which pushes new object with some info about this file into array which used inside template to render file blocks.<br></p>\n\n<p>I have some filtering by property  to show only needed file blocks inside needed place. It works well. If this filtering placed directly on div which should be repeated it works as I expect(commented code line in example), but if I bind array on some <code>ref</code> and then using it inside <code>repeat.for</code>, <code>repeat.for</code> doesn't see any changes(new object push into array) made with array. <br>\nWhy I need <code>ref</code>? Because I have <code>.files-message</code> block which should be showed according to length of array. How I can change the code to make rerendering while using <code>ref</code>? I have also changed default <code>bindingMode</code> to twoWay for <code>failid</code> array(array which I filter)</p>\n\n<p>Code</p>\n\n<pre><code>&lt;div class=\"elem\" if.bind=\"!elem.children.length\"&gt;\n    &lt;div class=\"files-wrapper\" ref=\"filesContainer\" files.bind=\"failid | filterOnProperty:'elemId':elem.parent.id\"&gt;\n\n        &lt;div class=\"files-message\" if.bind=\"!filesContainer.files.length\"&gt;Toimingul ei ole veel malle.&lt;/div&gt;\n\n        &lt;editable-file-upload elem-kl-oid.bind=\"elem.parent.id\" on-file-uploaded.call=\"failUploaded(elemId, subElemId, dokumendiMallidId, file, fileName)\"&gt;Upload&lt;/editable-file-upload&gt;\n\n        &lt;div class=\"form-inline\" &gt;\n            &lt;div class=\"white-box\" repeat.for=\"fail of filesContainer.files\" &gt;\n                &lt;!--&lt;div class=\"white-box\" repeat.for=\"fail of failid | filterOnProperty:'elemId':elem.parent.id\" &gt;--&gt;\n                &lt;mallide-fail if.bind=\"fail != null\" fail.two-way=\"fail\" on-file-removed.call=\"failRemoved(fail)\"&gt;&lt;/mallide-fail&gt;\n            &lt;/div&gt;\n\n        &lt;/div&gt;\n\n    &lt;/div&gt;\n&lt;/div&gt;\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826292/aurelia-repeat-for-doesnt-rerender-on-pushing-new-object-into-array-binded-and",
+  "owner" : {
+    "user_id" : 3106676,
+    "user_type" : "registered",
+    "display_name" : "vladja",
+    "profile_image" : "https://graph.facebook.com/100001622619355/picture?type=large",
+    "link" : "https://stackoverflow.com/users/3106676/vladja",
+    "reputation" : 172,
+    "accept_rate" : 79
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742364,
+  "last_activity_date" : 1498743019,
+  "tags" : [
+    "javascript",
+    "typescript",
+    "aurelia",
+    "aurelia-binding"
+  ],
+  "score" : 0,
+  "view_count" : 8,
+  "answer_count" : 0
+}

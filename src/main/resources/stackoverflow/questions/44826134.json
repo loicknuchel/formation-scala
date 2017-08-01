@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826134,
+  "title" : "Magento: How to extend the Bundle Option Search Grid?",
+  "body" : "<p>I need assistance completing a custom Magento extension that I am currently developing. I am trying to add a custom attribute to the bundle option search grid but to no effect. I wouldn't be surprised if the error is plain in sight but I can't figure it out. I hope someone can point me into the right direction. </p>\n\n<p>My config.xml looks like this:</p>\n\n<p>app/code/local/O1art/Catalogextended/etc/config.xml</p>\n\n<pre><code>&lt;config&gt;\n    &lt;global&gt;\n        &lt;blocks&gt;\n            &lt;bundle&gt;\n                &lt;adminhtml&gt;\n                    &lt;catalog_product_edit_tab_bundle_option_search_grid&gt;O1art_Catalogextended_Block_Adminhtml_Catalog_Product_Edit_Tab_Bundle_Option_Search_Grid&lt;/catalog_product_edit_tab_bundle_option_search_grid&gt;\n                &lt;/adminhtml&gt;\n            &lt;/bundle&gt;         \n        &lt;/blocks&gt;\n        &lt;blocks&gt;    \n    &lt;/global&gt;\n&lt;/config&gt;\n</code></pre>\n\n<p>And this is my class to extend the block:</p>\n\n<p>app/code/local/O1art/Catalogextended/Block/Bundle/Adminhtml/Catalog/Product/Edit/Tab/Bundle/Option/Search/Grid.php</p>\n\n<pre><code>class O1art_Catalogextended_Block_Adminhtml_Catalog_Product_Edit_Tab_Bundle_Option_Search_Grid extends Mage_Bundle_Block_Adminhtml_Catalog_Product_Edit_Tab_Bundle_Option_Search_Grid\n{\n    public function setCollection($collection)\n    {\n        $store = $this-&gt;_getStore();\n\n        if ($store-&gt;getId() &amp;&amp; !isset($this-&gt;_joinAttributes['custom_category'])) {\n            $collection-&gt;joinAttribute(\n                'custom_category',\n                'catalog_product/custom_category',\n                'entity_id',\n                null,\n                'left',\n                $store-&gt;getId()\n            );\n        }\n        else {\n            $collection-&gt;addAttributeToSelect('custom_category');\n        }\n\n        parent::setCollection($collection);\n    }\n\n    protected function _prepareColumns()\n    {\n        $category = Mage::getModel('eav/config')-&gt;getAttribute('catalog_product', 'custom_category');\n        $options = $category-&gt;getSource()-&gt;getAllOptions(false);\n        $categories = array();\n        foreach ($options as $option){\n            $categories[$option['value']] = $option['label'];\n        }\n\n        $this-&gt;addColumnAfter('custom_category',\n            array(\n                'header'=&gt; Mage::helper('catalog')-&gt;__('Produktkategorie'),\n                'width'   =&gt; '60px',\n                'index'   =&gt; 'custom_category',\n                'type'    =&gt; 'options',\n                'options' =&gt; $categories\n            ),\n            'set_name'\n         );\n\n        return parent::_prepareColumns();\n    }\n}\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826134/magento-how-to-extend-the-bundle-option-search-grid",
+  "owner" : {
+    "user_id" : 1083442,
+    "user_type" : "registered",
+    "display_name" : "cads",
+    "profile_image" : "https://www.gravatar.com/avatar/014bf83b89aea9ec69a54b221e942107?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1083442/cads",
+    "reputation" : 133,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741925,
+  "last_activity_date" : 1498741925,
+  "tags" : [
+    "grid",
+    "bundle",
+    "magento-1.9"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

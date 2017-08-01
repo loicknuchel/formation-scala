@@ -1,0 +1,42 @@
+{
+  "uuid" : "27a795af0940905c721d6a9c179e89c600aeb159",
+  "bioAsHtml" : "<p>Après 15 ans dans les Systèmes d’Informations des grands comptes de la banque, de l’assurance et du courtage, Emmanuel a créé Innovation-box en 2013 afin d’innover autour du Web, des réseaux sociaux et des objets connectés. Fervent partisan de l’open innovation et des mécanismes collaboratifs, il participe à de nombreux évènements communautaires permettant de démythifier la technologie et l’informatique, de transmettre les compétences et de permettre l’appropriation par le plus grand nombre des mécanismes de la nouvelle économie.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "Future, Robotique",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/ARN-4486",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d79ace1e6a6d7c5ceee2bfb8725542d79ecf870b",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Daniel De Luca"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/27a795af0940905c721d6a9c179e89c600aeb159",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Emmanuel Feller"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f4aea1c9996bf4e307a68c3080915b7a14cd1579",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Audrey Neveu"
+        }
+      ],
+      "id" : "ARN-4486",
+      "title" : "Devoxx4Kids BOF"
+    }
+  ],
+  "company" : "Innovation-box",
+  "bio" : "Après 15 ans dans les Systèmes d’Informations des grands comptes de la banque, de l’assurance et du courtage, Emmanuel a créé Innovation-box en 2013 afin d’innover autour du Web, des réseaux sociaux et des objets connectés. Fervent partisan de l’open innovation et des mécanismes collaboratifs, il participe à de nombreux évènements communautaires permettant de démythifier la technologie et l’informatique, de transmettre les compétences et de permettre l’appropriation par le plus grand nombre des mécanismes de la nouvelle économie. ",
+  "lastName" : "Feller",
+  "firstName" : "Emmanuel",
+  "blog" : "https://plus.google.com/+EmmanuelFeller",
+  "avatarURL" : "https://lh5.googleusercontent.com/-GUs9AGBi9Vk/AAAAAAAAAAI/AAAAAAAAAHw/qsIBw8PJMNw/photo.jpg",
+  "twitter" : "@moyowi",
+  "lang" : "fr"
+}

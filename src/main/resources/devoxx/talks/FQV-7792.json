@@ -1,0 +1,36 @@
+{
+  "trackId" : "mobile",
+  "talkType" : "Hands-on Labs",
+  "track" : "Mobile, IoT",
+  "summaryAsHtml" : "<p>Vous êtes développeur ? Vous avez toujours rêvé de fabriquer vos propres objects connectés ? Android Things est fait pour vous !</p>\n<p>Ce nouvel OS de chez Google fait le pari fou de rendre accessible aux développeurs Java la conception d'objets, dans le monde réel. Et nous allons vous en donner un aperçu durant ce workshop.</p>\n<p>Cette session a pour objectif de faire construire à chacun des participants une magnifique catapulte connectée basée sur un Raspberry Pi.</p>\n<p>Pour ce workshop vous aurez besoin de ramener :</p>\n<ul>\n<li>Votre ordinateur avec <a href=\"https://developer.android.com/studio/index.html\">Android Studio (dernière version stable)</a></li>\n<li>Votre créativité et votre bonne humeur</li>\n</ul>\n<p>Vous n'avez pas besoin de ramener le reste du matériel, nous nous en occupons pour vous.</p>\n",
+  "id" : "FQV-7792",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f769aff54557881f250a78f11a827c9211504510",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Eyal LEZMY"
+      },
+      "name" : "Eyal LEZMY"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/18ccfd6d55edb5f0f88d865b0f42c957e0b6727c",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Romain Menetrier"
+      },
+      "name" : "Romain Menetrier"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9cc5353ec72a6d4614a652eae245ff5bdd260b58",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Gautier MECHLING"
+      },
+      "name" : "Gautier MECHLING"
+    }
+  ],
+  "title" : "Android Things, de Développeur à Maker",
+  "lang" : "fr",
+  "summary" : "Vous êtes développeur ? Vous avez toujours rêvé de fabriquer vos propres objects connectés ? Android Things est fait pour vous ! \r\n\r\nCe nouvel OS de chez Google fait le pari fou de rendre accessible aux développeurs Java la conception d'objets, dans le monde réel. Et nous allons vous en donner un aperçu durant ce workshop. \r\n\r\nCette session a pour objectif de faire construire à chacun des participants une magnifique catapulte connectée basée sur un Raspberry Pi. \r\n\r\nPour ce workshop vous aurez besoin de ramener : \r\n\r\n- Votre ordinateur avec [Android Studio (dernière version stable)](https://developer.android.com/studio/index.html)\r\n- Votre créativité et votre bonne humeur \r\n\r\nVous n'avez pas besoin de ramener le reste du matériel, nous nous en occupons pour vous."
+}

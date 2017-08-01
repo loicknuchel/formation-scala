@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825753,
+  "title" : "How can I differentiate a machine learning, hadoop architect and full stack developer?",
+  "body" : "<p>I need to know the difference between all three. Along with it, how much time does it take to become an expert in it?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825753/how-can-i-differentiate-a-machine-learning-hadoop-architect-and-full-stack-deve",
+  "owner" : {
+    "user_id" : 8219703,
+    "user_type" : "registered",
+    "display_name" : "Arpit Gupta",
+    "profile_image" : "https://www.gravatar.com/avatar/b085f45583c81d200afa04b326af1904?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8219703/arpit-gupta",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : true,
+  "creation_date" : 1498740960,
+  "last_activity_date" : 1498741537,
+  "tags" : [
+    "hadoop",
+    "machine-learning",
+    "bigdata"
+  ],
+  "score" : -4,
+  "view_count" : 14,
+  "answer_count" : 1
+}

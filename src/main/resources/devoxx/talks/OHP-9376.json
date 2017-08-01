@@ -1,0 +1,20 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Conference",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>On parle beaucoup de container depuis Docker. A tel point que Docker est pratiquement devenu un synonyme de container… Mais c’est oublier que depuis 2014, CoreOS, maintenant renommé Container Linux, a choisi de tracer son propre chemin dans la révolution des containers avec son projet RKT.</p>\n<p>De sa genèse à aujourd’hui, nous allons vous présenter les caractéristiques qui font de RKT le container prod-ready du présent et du futur. Vous découvrirez, par l’exemple, tout ce qu’il est possible de faire avec.</p>\n<p>Grâce à RKT et cette présentation, vous pourrez propulser vos containers vers l’infini et au delà.</p>\n",
+  "id" : "OHP-9376",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b3caba31e4836c2b9ddf7f7ca06950a402967253",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Nicolas  Diez"
+      },
+      "name" : "Nicolas  Diez"
+    }
+  ],
+  "title" : "Introduction à RKT",
+  "lang" : "fr",
+  "summary" : "On parle beaucoup de container depuis Docker. A tel point que Docker est pratiquement devenu un synonyme de container… Mais c’est oublier que depuis 2014, CoreOS, maintenant renommé Container Linux, a choisi de tracer son propre chemin dans la révolution des containers avec son projet RKT. \r\n\r\nDe sa genèse à aujourd’hui, nous allons vous présenter les caractéristiques qui font de RKT le container prod-ready du présent et du futur. Vous découvrirez, par l’exemple, tout ce qu’il est possible de faire avec. \r\n\r\nGrâce à RKT et cette présentation, vous pourrez propulser vos containers vers l’infini et au delà. "
+}

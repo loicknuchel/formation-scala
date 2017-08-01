@@ -1,0 +1,37 @@
+{
+  "uuid" : "00b3ddf46d86a52eee26589a94fc45f7b0ed3970",
+  "bioAsHtml" : "<p>Founder BeJUG, Devoxx(4kids), Parleys &amp; playpass.be + Java Champion</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/NSJ-9765",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3bb736546aa9cc376293b607a165b60c4233e704",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Guillaume Laforge"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/00b3ddf46d86a52eee26589a94fc45f7b0ed3970",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Stephan Janssen"
+        }
+      ],
+      "id" : "NSJ-9765",
+      "title" : "Un bot pour gérer l'agenda de ta conférence"
+    }
+  ],
+  "company" : "Devoxx",
+  "bio" : "Founder BeJUG, Devoxx(4kids), Parleys & playpass.be + Java Champion",
+  "lastName" : "Janssen",
+  "firstName" : "Stephan",
+  "blog" : "https://plus.google.com/117967933794943221018",
+  "avatarURL" : "https://lh6.googleusercontent.com/-uhUCcJvnc1k/AAAAAAAAAAI/AAAAAAAAALc/YbbAnesYeFo/photo.jpg",
+  "twitter" : "@stephan007",
+  "lang" : "fr"
+}

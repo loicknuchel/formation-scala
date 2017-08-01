@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826662,
+  "title" : "How Can I Use Records In A PostgreSQL Upsert",
+  "body" : "<p>I am currently trying to perform an upsert (using 3.10-snapshot) using records and have noticed that the update's <code>set</code> data isn't being added to the query when I use <code>addRecord(R)</code>.  In the DAO I have:</p>\n\n<pre><code>    try (Connection writeConn = DatabaseManager.getConnection(true);\n            final DSLContext writeContext = DatabaseManager.getBuilder(writeConn);\n            InsertQuery&lt;UserProgramAssignmentsRecord&gt; programAssignmentsUpdateQuery = writeContext\n                    .insertQuery(AccessControlWriteDAO.userProgramAssignments)) {\n        programAssignmentsUpdateQuery.onDuplicateKeyUpdate(true);\n\n        programAssignments.forEach(pa -&gt; programAssignmentsUpdateQuery.addRecord(pa.toRecord()));\n\n        if (!programAssignments.isEmpty()) {\n            if (AccessControlWriteDAO.logger.isInfoEnabled()) {\n                AccessControlWriteDAO.logger.info(writeContext.renderInlined(programAssignmentsUpdateQuery));\n            }\n            // programAssignmentsUpdateQuery.execute();\n        }\n    } catch (final SQLException e) {\n        throw new DAOException(e.getMessage(), e);\n    }\n</code></pre>\n\n<p>Inside of the class for programAssignments, I have:</p>\n\n<pre><code>/**\n * &lt;p&gt;\n * This method turns the object into a {@link Record} that can then be attached to a {@link Connection} and\n * {@link DSLContext}.\n * &lt;/p&gt;\n * \n * @return A usable {@link UserProgramAssignmentsRecord}\n */\npublic UserProgramAssignmentsRecord toRecord() {\n    UserProgramAssignmentsRecord upar = new UserProgramAssignmentsRecord();\n    getAdministerProgram().ifPresent(upar::setAdminister);\n    getCreateProjects().ifPresent(upar::setCreateProjects);\n    getJustification().ifPresent(upar::setJustification);\n    getProgramId().ifPresent(upar::setProgramId);\n    getUserId().ifPresent(upar::setUserId);\n    getViewRevisions().ifPresent(upar::setViewRevisions);\n\n    return upar;\n}\n</code></pre>\n\n<p>The code produces the following query:</p>\n\n<pre><code>insert into \"%%removed%%\".\"user_project_assignments\" (\n    \"project_id\", \n    \"edit_draft\", \n    \"justification\", \n    \"user_id\"\n)\nvalues (\n    98332, \n    true, \n    'The user created the project', \n    675\n)\non conflict (\n    \"project_id\", \n    \"user_id\"\n) do update\nset [ no fields are updated ]\n</code></pre>\n\n<p>Do I have to switch to using <code>addValue(Field&lt;T&gt;,T)</code>, <code>addValueForUpdateField&lt;T&gt;,T)</code>, and newRecord?  I would have <em>thought</em> that passing records would be equivalent, but that doesn't seem to be the case as <code>addRecord(R)</code> doesn't seem to be setting the fields to update -or- and I doing something wrong in my <code>toRecord()</code> method?.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826662/how-can-i-use-records-in-a-postgresql-upsert",
+  "owner" : {
+    "user_id" : 4601996,
+    "user_type" : "registered",
+    "display_name" : "DanO",
+    "profile_image" : "https://www.gravatar.com/avatar/d00c9599c3e304b6877b29272972e49b?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/4601996/dano",
+    "reputation" : 166,
+    "accept_rate" : 100
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743302,
+  "last_activity_date" : 1498743302,
+  "tags" : [
+    "jooq"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

@@ -1,0 +1,37 @@
+{
+  "uuid" : "c0de4311c70c85f320209e2612aa274aa47a9984",
+  "bioAsHtml" : "<p>Depuis près de 10 ans, j&#x27;accompagne les DSI dans la réalisation d&#x27;applications sur les architectures .NET et Java.\nJe suis manager chez OCTO où je réalise des missions d&#x27;architecture, d&#x27;audit ou d&#x27;expertise. J&#x27;accompagne notamment les projets pour améliorer les performances, refondre l&#x27;architecture logicielle ou mettre en place de nouveaux outils.\nJe suis manager de l&#x27;équipe Cloud Ready Applications et co-auteur du White Paper sur le sujet.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/GBG-3006",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c0de4311c70c85f320209e2612aa274aa47a9984",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Marc Bojoly"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/db02ea2e74f6c7618b9e887b0d721d5439fbeb42",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Borémi Toch"
+        }
+      ],
+      "id" : "GBG-3006",
+      "title" : "35 sessions de Perfug en 35 minutes"
+    }
+  ],
+  "company" : "OCTO Technology",
+  "bio" : "Depuis près de 10 ans, j'accompagne les DSI dans la réalisation d'applications sur les architectures .NET et Java.\r\nJe suis manager chez OCTO où je réalise des missions d'architecture, d'audit ou d'expertise. J'accompagne notamment les projets pour améliorer les performances, refondre l'architecture logicielle ou mettre en place de nouveaux outils.\r\nJe suis manager de l'équipe Cloud Ready Applications et co-auteur du White Paper sur le sujet.",
+  "lastName" : "Bojoly",
+  "firstName" : "Marc",
+  "blog" : "http://blog.octo.com/author/mbo/",
+  "avatarURL" : "https://lh3.googleusercontent.com/31t7RPZLGgUyDNubUQz8Pj7FbaUJql2Gz5vM5Ex_974krbLP2qqlE-CEUHVN_Xdqfqk2vMiUXoQoZA=w2400-h1350-rw-no",
+  "twitter" : "@mbojoly",
+  "lang" : "fr"
+}

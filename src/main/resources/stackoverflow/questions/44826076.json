@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826076,
+  "title" : "How to default an employeeid field to the current logged in user",
+  "body" : "<p>I have a custom inquiry screen which uses an employeeid as the header filter field.  What I'd like to do is default that employeeid field to the current logged in user, if possible.  I've tried the following, but both give me a cast error (version 5.3.2562):</p>\n\n<pre><code>1.)  [PXDBDefault(typeof(Search&lt;EPEmployee.bAccountID, \n                         Where&lt;EPEmployee.bAccountID, Equal&lt;Current&lt;AccessInfo.userID&gt;&gt;&gt;&gt;))]\n\n2.)  [PXDBDefault(typeof(AccessInfo.userID))]\n</code></pre>\n\n<p>Here's the entire DAC code for the filter field:</p>\n\n<pre><code>    #region EmployeeID\n    public abstract class employeeID : IBqlField\n    {\n    }\n    [PXInt]\n    [PXDBDefault(typeof(AccessInfo.userID))]\n    [PXUIField(DisplayName = \"Employee ID\")]\n    [PXSelector(typeof(Search&lt;EPEmployee.bAccountID,\n                       Where&lt;EPEmployee.status, Equal&lt;SetupTypes.active&gt;&gt;&gt;),\n                typeof(EPEmployee.acctCD),\n                typeof(EPEmployee.acctName),\n                SubstituteKey = typeof(EPEmployee.acctCD),\n                DescriptionField = typeof(EPEmployee.acctName))]\n    public virtual int? EmployeeID { get; set; }\n#endregion\n</code></pre>\n\n<p>What's the correct way to obtain this?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826076/how-to-default-an-employeeid-field-to-the-current-logged-in-user",
+  "owner" : {
+    "user_id" : 3923540,
+    "user_type" : "registered",
+    "display_name" : "pmfith",
+    "profile_image" : "https://www.gravatar.com/avatar/8a7fcae68ff9342e57e2d51d11ce9647?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/3923540/pmfith",
+    "reputation" : 181,
+    "accept_rate" : 93
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741774,
+  "last_activity_date" : 1498743071,
+  "tags" : [
+    "acumatica"
+  ],
+  "score" : 1,
+  "view_count" : 11,
+  "answer_count" : 1
+}

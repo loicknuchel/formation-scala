@@ -1,0 +1,37 @@
+{
+  "uuid" : "6d72e052248d79e6d221fbff1a32e3e0cb3c44c8",
+  "bioAsHtml" : "<p>Guillaume Eveillard is a Java Senior Software Developer at Murex working on the collateral solution of the MX.3 platform.</p>\n<p>Guillaume likes testing languages and learn about their specific features and concepts.</p>\n<p>He animates with Quentin Duval the Daily Functional Programming series, 15 minutes daily courses in which they teach functional programming to other developers at Murex.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/XHN-2510",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9511b2cfaee3384d5a43bd6ca080619b1ffbc5e3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Quentin Duval"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6d72e052248d79e6d221fbff1a32e3e0cb3c44c8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Guillaume Eveillard"
+        }
+      ],
+      "id" : "XHN-2510",
+      "title" : "Le fonctionnel par la pratique : live coding d’un jeu web"
+    }
+  ],
+  "company" : "Murex",
+  "bio" : "Guillaume Eveillard is a Java Senior Software Developer at Murex working on the collateral solution of the MX.3 platform.\r\n\r\nGuillaume likes testing languages and learn about their specific features and concepts.\r\n\r\nHe animates with Quentin Duval the Daily Functional Programming series, 15 minutes daily courses in which they teach functional programming to other developers at Murex.",
+  "lastName" : "Eveillard",
+  "firstName" : "Guillaume",
+  "blog" : "https://www.murex.com/",
+  "avatarURL" : "http://ggye.free.fr/avatar_devoxx.jpg",
+  "twitter" : "@GuillaumeEveill",
+  "lang" : "fr-FR"
+}

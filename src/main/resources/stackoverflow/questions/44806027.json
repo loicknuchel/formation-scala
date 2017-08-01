@@ -1,0 +1,26 @@
+{
+  "question_id" : 44806027,
+  "title" : "Online Voting System",
+  "body" : "<pre><code>&lt;?php\ninclude(\"databaseconnect.php\");\n\nif(isset($_POST['submitvotes'])) {\n\n    $vote = $_REQUEST['submitvotes']; \n\n    $sql = \"UPDATE `candidates` SET votescasted = votescasted + 1 WHERE  `id` = '$vote'\";\n    $qry = mysqli_query($connect, $sql);\n    if ($qry){\n        header(\"location: onlinevotingsystem.php?ViewResults\");\n    }\n}\nmysqli_close($connect);\n    ?&gt;\n</code></pre>\n\n<p>Am making online voting system using the code above but the problem is that its only incrementing the votes by one. Is their any way i can stop voting several times(vote only once). Am looking for solid ideas to also be able to save voters details and who they casted votes to.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806027/online-voting-system",
+  "owner" : {
+    "user_id" : 6708715,
+    "user_type" : "registered",
+    "display_name" : "maurice",
+    "profile_image" : "https://www.gravatar.com/avatar/c96384ea9382b4935af5108de9a04ee0?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/6708715/maurice",
+    "reputation" : 3,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661710,
+  "last_activity_date" : 1498661710,
+  "tags" : [
+    "database",
+    "system",
+    "voting"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

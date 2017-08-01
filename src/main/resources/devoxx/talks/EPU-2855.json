@@ -1,0 +1,20 @@
+{
+  "trackId" : "future",
+  "talkType" : "Conference",
+  "track" : "Future, Robotique",
+  "summaryAsHtml" : "<p>​N​ombreux​, aujourd'hui,​ sont ​celles et ​ceux qui investissent les futurs ouvert​s​ par la \"révolution numérique\" (​une révolution ​qu'il s'agirait ​d'interroger). Tou​tes et tous​ justifient la sentence de G​. Berry selon qui \"le monde devient numérique\". Néanmoins, il y​ a​ là matière à poser au moins deux questions.​ La première semble évidente : qu'est-ce qui, au juste, devient numérique, se transforme ou disparaît au cours de ce processus ? ​</p>\n<p>P​arallèlement à ce devenir-numérique, d'autres chercheurs nous expliquent que nous sommes entrés dans l'Anthropocène, une période d'instabilité qui menace moins la planète que ​la​ civilisation​ actuelle​. Dans ce contexte, il est légitime de se poser la question suivante : ​\"le monde, s'il devient numérique, a-t-il réellement les moyens de l​e​ rester ?\".</p>\n<p>Les acteurs du numériques vantent souvent la disruption, mais la véritable​ ​disruption reste à venir : nous n'entrons pas dans un âge marqué ​​​par une révolution mais plusieurs ; autrement dit, les futurs que nous faisons éclore sont désormais divergents et il nous faut rapidement essayer de penser leur inévitable point de convergence avant qu'il ne s'impose à nous brutalement.</p>\n",
+  "id" : "EPU-2855",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/34016b86be1504e6686d37e2728728d976e30e9e",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Alexandre Monnin"
+      },
+      "name" : "Alexandre Monnin"
+    }
+  ],
+  "title" : "​​Le monde devient numérique, a-t-il les moyens de le rester ?",
+  "lang" : "fr",
+  "summary" : "​N​ombreux​, aujourd'hui,​ sont ​celles et ​ceux qui investissent les futurs ouvert​s​ par la \"révolution numérique\" (​une révolution ​qu'il s'agirait ​d'interroger). Tou​tes et tous​ justifient la sentence de G​. Berry selon qui \"le monde devient numérique\". Néanmoins, il y​ a​ là matière à poser au moins deux questions.​ La première semble évidente : qu'est-ce qui, au juste, devient numérique, se transforme ou disparaît au cours de ce processus ? ​\r\n\r\nP​arallèlement à ce devenir-numérique, d'autres chercheurs nous expliquent que nous sommes entrés dans l'Anthropocène, une période d'instabilité qui menace moins la planète que ​la​ civilisation​ actuelle​. Dans ce contexte, il est légitime de se poser la question suivante : ​\"le monde, s'il devient numérique, a-t-il réellement les moyens de l​e​ rester ?\". \r\n\r\nLes acteurs du numériques vantent souvent la disruption, mais la véritable​ ​disruption reste à venir : nous n'entrons pas dans un âge marqué ​​​par une révolution mais plusieurs ; autrement dit, les futurs que nous faisons éclore sont désormais divergents et il nous faut rapidement essayer de penser leur inévitable point de convergence avant qu'il ne s'impose à nous brutalement."
+}

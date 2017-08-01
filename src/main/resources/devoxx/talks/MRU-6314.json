@@ -1,0 +1,28 @@
+{
+  "trackId" : "lang",
+  "talkType" : "Hands-on Labs",
+  "track" : "Langages alternatifs",
+  "summaryAsHtml" : "<p>Dans ce codelab, nous commencerons par une présentation de la blockchain Ethereum et du principe des smart-contracts.</p>\n<p>Puis nous développerons une Dapp (application composée d’un smart contract en backend + une ihm) basique de pari en ligne sur Ethereum en utilisant le framework Truffle et Angular2.</p>\n<p>Cela permettra d'apprendre :</p>\n<p>• à créer et tester unitairement un smart contract,</p>\n<p>• à interfacer ce smart contract avec une IHM Web en Angular2 et Metamask (noeud Ethereum très light sous forme de plugin Chrome).</p>\n<p>Des connaissances du fonctionnement des concepts généraux des blockchains sont fortement conseillées pour ce codelab, même si il y aura quelques rappels au début.</p>\n<p>Par contre, pas besoin de connaître Ethereum, et la partie Angular2 sera fournie dans les grandes lignes aux participants.</p>\n<p><strong>Merci de réaliser en avance la préparation décrite <a href=\"https://github.com/benjaminfontaine/codelab-ethereum/\">ici</a></strong></p>\n",
+  "id" : "MRU-6314",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3186f484d55542f33dae60858498ee862337e9d9",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "François Kha"
+      },
+      "name" : "François Kha"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b7240ad81654b077a47f6ee931d8267845bbbde3",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Benjamin Fontaine"
+      },
+      "name" : "Benjamin Fontaine"
+    }
+  ],
+  "title" : "Développer une application de pari en ligne avec la blockchain Ethereum",
+  "lang" : "fr",
+  "summary" : "Dans ce codelab, nous commencerons par une présentation de la blockchain Ethereum et du principe des smart-contracts. \r\n\r\nPuis nous développerons une Dapp (application composée d’un smart contract en backend + une ihm) basique de pari en ligne sur Ethereum en utilisant le framework Truffle et Angular2.\r\n\r\nCela permettra d'apprendre : \r\n\r\n• à créer et tester unitairement un smart contract, \r\n\r\n• à interfacer ce smart contract avec une IHM Web en Angular2 et Metamask (noeud Ethereum très light sous forme de plugin Chrome). \r\n\r\nDes connaissances du fonctionnement des concepts généraux des blockchains sont fortement conseillées pour ce codelab, même si il y aura quelques rappels au début. \r\n\r\nPar contre, pas besoin de connaître Ethereum, et la partie Angular2 sera fournie dans les grandes lignes aux participants.\r\n\r\n**Merci de réaliser en avance la préparation décrite [ici]( https://github.com/benjaminfontaine/codelab-ethereum/)**"
+}

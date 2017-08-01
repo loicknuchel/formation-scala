@@ -1,0 +1,20 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "Conference",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>Que vous écriviez un serveur web, une queue de messages ou une base de données, les techniques employées pour améliorer la performance sont similaires. Comment réduire la latence? Comment gérer plus de connexions concurrentes? Comment obtenir un comportement stable?</p>\n<p>En comparant l'architecture de logiciels plus ou moins récents, nous verrons comment les changements au niveau du matériel ou de l'OS ont affecté le travail sur la performance, et comment les exploiter pour améliorer nos systèmes.</p>\n<p>Nous étudierons aussi comment certaines décisions, dès la conception du serveur, peuvent faciliter le développement d'un service fiable et rapide.</p>\n",
+  "id" : "CUP-6804",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/53ccd9e9b8ca4ae7aecbb5b31a9ebeab836174a6",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Geoffroy Couprie"
+      },
+      "name" : "Geoffroy Couprie"
+    }
+  ],
+  "title" : "Techniques modernes pour l'écriture de serveurs performants",
+  "lang" : "fr",
+  "summary" : "Que vous écriviez un serveur web, une queue de messages ou une base de données, les techniques employées pour améliorer la performance sont similaires. Comment réduire la latence? Comment gérer plus de connexions concurrentes? Comment obtenir un comportement stable?\r\n\r\nEn comparant l'architecture de logiciels plus ou moins récents, nous verrons comment les changements au niveau du matériel ou de l'OS ont affecté le travail sur la performance, et comment les exploiter pour améliorer nos systèmes.\r\n\r\nNous étudierons aussi comment certaines décisions, dès la conception du serveur, peuvent faciliter le développement d'un service fiable et rapide."
+}

@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825855,
+  "title" : "Retrive all maximum value from array using php",
+  "body" : "<p>I need to get all maximum values from array using php,for example array like below,</p>\n\n<pre><code>$arr = array('a'=&gt;10,'b'=&gt;20,'c'=&gt;5,'d'=&gt;20);\n</code></pre>\n\n<p>I used below code,</p>\n\n<pre><code>$key = array_search(max($arr), $arr);\n</code></pre>\n\n<p>but i get only 'b',I need to get both 'b' and 'd', Highest all values keys i needed, Anyhelp appreciated.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825855/retrive-all-maximum-value-from-array-using-php",
+  "owner" : {
+    "user_id" : 7789610,
+    "user_type" : "registered",
+    "display_name" : "Thiyagu",
+    "profile_image" : "https://www.gravatar.com/avatar/78cfca0f5ab5479c73084fb1339e747f?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7789610/thiyagu",
+    "reputation" : 126,
+    "accept_rate" : 70
+  },
+  "is_answered" : true,
+  "creation_date" : 1498741185,
+  "last_activity_date" : 1498742290,
+  "tags" : [
+    "php",
+    "arrays"
+  ],
+  "score" : -1,
+  "view_count" : 25,
+  "answer_count" : 2
+}

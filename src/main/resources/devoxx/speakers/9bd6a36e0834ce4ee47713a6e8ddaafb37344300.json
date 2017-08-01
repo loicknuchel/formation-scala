@@ -1,0 +1,32 @@
+{
+  "uuid" : "9bd6a36e0834ce4ee47713a6e8ddaafb37344300",
+  "bioAsHtml" : "<p>Graduated in 1999 from the ENSAE and doctor in 2004, Xavier Dupré began his career in a company specialized in automatic reading of cheques and handwriting recognition. After a short passage in finance, he joined Yahoo in 2008 to work on search query rewriting problems by implementing statistical algorithms designed for all languages. In 2010, Xavier joined Microsoft to participate in the local search engine. He contributed to the partnership between PagesJaunes and Bing. Xavier continues to work on very large scale problems for Microsoft&#x27;s search engine and contributes to the core of Azure Machine Learning. Meanwhile, Xavier Dupré have been teaching programming since 2001 at the ENSAE. The courses have expanded in 2014 to machine learning.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/OQY-0948",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9bd6a36e0834ce4ee47713a6e8ddaafb37344300",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Xavier dupré"
+        }
+      ],
+      "id" : "OQY-0948",
+      "title" : "Démocratisation de l’IA Microsoft : de la recherche aux technologies et outils à votre disposition !"
+    }
+  ],
+  "company" : "Microsoft",
+  "bio" : "Graduated in 1999 from the ENSAE and doctor in 2004, Xavier Dupré began his career in a company specialized in automatic reading of cheques and handwriting recognition. After a short passage in finance, he joined Yahoo in 2008 to work on search query rewriting problems by implementing statistical algorithms designed for all languages. In 2010, Xavier joined Microsoft to participate in the local search engine. He contributed to the partnership between PagesJaunes and Bing. Xavier continues to work on very large scale problems for Microsoft's search engine and contributes to the core of Azure Machine Learning. Meanwhile, Xavier Dupré have been teaching programming since 2001 at the ENSAE. The courses have expanded in 2014 to machine learning.",
+  "lastName" : "dupré",
+  "firstName" : "xavier",
+  "blog" : "https://www.microsoft.com/fr-fr/",
+  "avatarURL" : "https://media.licdn.com/media/p/1/000/1a5/1c3/06ecb05.jpg",
+  "twitter" : null,
+  "lang" : "fr"
+}

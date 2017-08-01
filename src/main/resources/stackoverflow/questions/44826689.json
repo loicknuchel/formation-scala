@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826689,
+  "title" : "How to call single ajax request by multiple components parallely in angular2 cli project",
+  "body" : "<p>The scenario is , there is a single service(json-data-service.ts) having a method getWebservicedata() which returns http.post(url) ie it makes an ajax call when method is called.\nI have different components like(pie-chart-components,bar-chart-component, line-chart components etc) and they all created at the same time on a single page. They all have their different metadata too.</p>\n\n<p>Is there any way, by which we can make a single ajax request by multiple components parallely?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826689/how-to-call-single-ajax-request-by-multiple-components-parallely-in-angular2-cli",
+  "owner" : {
+    "user_id" : 8226204,
+    "user_type" : "registered",
+    "display_name" : "Manzer Ahmad",
+    "profile_image" : "https://www.gravatar.com/avatar/6eeaced36b5b9d2db518ec3efc9cb758?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8226204/manzer-ahmad",
+    "reputation" : 6,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743343,
+  "last_activity_date" : 1498743343,
+  "tags" : [
+    "angular"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

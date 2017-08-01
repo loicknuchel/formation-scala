@@ -1,0 +1,37 @@
+{
+  "uuid" : "1c8c78210dc424eb8ee603ecb95626b44122eec5",
+  "bioAsHtml" : "<p>Passionné de programmation, Lead Engineer à Terracotta/Software AG, Aurelien a travaillé de nombreuses années dans l&#x27;écosystème Java.\nIl est l&#x27;auteur d&#x27;un framework open source de tests de performance, Rainfall, et s&#x27;intéresse aux méthodologies agile et aux principes du software craftsmanship.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/IYM-8175",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1c8c78210dc424eb8ee603ecb95626b44122eec5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Aurelien Broszniowski"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/407f394c16a1dc8684bda06a68d9be07e88f8d14",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Ludovic Orban"
+        }
+      ],
+      "id" : "IYM-8175",
+      "title" : "Caching et Performance"
+    }
+  ],
+  "company" : "Software AG",
+  "bio" : "Passionné de programmation, Lead Engineer à Terracotta/Software AG, Aurelien a travaillé de nombreuses années dans l'écosystème Java.\r\nIl est l'auteur d'un framework open source de tests de performance, Rainfall, et s'intéresse aux méthodologies agile et aux principes du software craftsmanship.",
+  "lastName" : "Broszniowski",
+  "firstName" : "Aurelien",
+  "blog" : "http://www.jsoft.biz",
+  "avatarURL" : "https://lh4.googleusercontent.com/-0fUijaQCd3U/AAAAAAAAAAI/AAAAAAAAA3k/8WCi2R-p9ow/photo.jpg",
+  "twitter" : "@AurBroszniowski",
+  "lang" : "fr"
+}

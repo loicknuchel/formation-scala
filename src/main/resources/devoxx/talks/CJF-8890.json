@@ -1,0 +1,20 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "Conference",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>L’architecture serverless, que certains qualifient de “zero infrastructure”, est le nouveau modèle en vogue dans le domaine de l’architecture logicielle. Mais que ce cache-t-il derrière ce paradigme ?</p>\n<p>Nous démystifierons ce concept afin de comprendre ensemble ses avantages, ses inconvénients et ses impacts sur la façon de concevoir et opérer des solutions.</p>\n",
+  "id" : "CJF-8890",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/701c8a3ef546d676193c33948a54fb65dceb3105",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Sébastien LECACHEUR"
+      },
+      "name" : "Sébastien LECACHEUR"
+    }
+  ],
+  "title" : "Fred ? Tous les serveurs ! On nous a volé tous les serveurs !",
+  "lang" : "fr",
+  "summary" : "L’architecture serverless, que certains qualifient de “zero infrastructure”, est le nouveau modèle en vogue dans le domaine de l’architecture logicielle. Mais que ce cache-t-il derrière ce paradigme ?\r\n\r\nNous démystifierons ce concept afin de comprendre ensemble ses avantages, ses inconvénients et ses impacts sur la façon de concevoir et opérer des solutions."
+}

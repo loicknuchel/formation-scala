@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826402,
+  "title" : "instant apps DAL fail",
+  "body" : "<p>I am developing an instant app following the instructions given in  <a href=\"https://developer.android.com/topic/instant-apps/getting-started/index.html\" rel=\"nofollow noreferrer\">Android Documentation</a>.</p>\n\n<p>For app link I am using the tool \"App links Assistant\" under Tools. Under \"App links assistant\" > \"Associate Website\" I clicked on \"Open Digital Asset Links File Generator\" button and successfully generated the file. But failed to link and verify. </p>\n\n<p><a href=\"https://i.stack.imgur.com/z8LkA.png\" rel=\"nofollow noreferrer\">Screenshot</a></p>\n\n<p>Does anybody have any idea how to resolve this?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826402/instant-apps-dal-fail",
+  "owner" : {
+    "user_id" : 8231861,
+    "user_type" : "registered",
+    "display_name" : "Someshwari Dhakate",
+    "profile_image" : "https://lh4.googleusercontent.com/-4QNHxMD2e7s/AAAAAAAAAAI/AAAAAAAAHFA/qaUpchw4o_4/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/8231861/someshwari-dhakate",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742661,
+  "last_activity_date" : 1498742661,
+  "tags" : [
+    "android",
+    "android-instant-apps"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

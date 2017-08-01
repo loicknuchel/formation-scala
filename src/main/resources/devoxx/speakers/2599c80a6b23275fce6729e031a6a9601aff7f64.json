@@ -1,0 +1,32 @@
+{
+  "uuid" : "2599c80a6b23275fce6729e031a6a9601aff7f64",
+  "bioAsHtml" : "<p>DevLead of the SRE Lake Team in charge of Criteo Hadoop clusters.</p>\n<p>Worked as a Software Engineer in a media startup on building an iOS product, as a Consultant/IT Architect focused on Agile, Big Data and other IT focused subjects and\nas a trainer while in consulting to deliver Hortonworks Hadoop trainings.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/MIB-7503",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/2599c80a6b23275fce6729e031a6a9601aff7f64",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Rémy Saissy"
+        }
+      ],
+      "id" : "MIB-7503",
+      "title" : "Hadoop sous pression — Retour sur une année d'exploitation à Criteo"
+    }
+  ],
+  "company" : "Critéo",
+  "bio" : "DevLead of the SRE Lake Team in charge of Criteo Hadoop clusters.\r\n\r\nWorked as a Software Engineer in a media startup on building an iOS product, as a Consultant/IT Architect focused on Agile, Big Data and other IT focused subjects and\r\nas a trainer while in consulting to deliver Hortonworks Hadoop trainings.\r\n",
+  "lastName" : "Saissy",
+  "firstName" : "Rémy",
+  "blog" : "http://blog.remysaissy.com",
+  "avatarURL" : "https://lh4.googleusercontent.com/-42wAb3RauBY/AAAAAAAAAAI/AAAAAAAAHy8/yDZ_ylxP62M/photo.jpg",
+  "twitter" : "@RemySaissy",
+  "lang" : "fr"
+}

@@ -1,0 +1,70 @@
+{
+  "uuid" : "96409f05d7b7849b819376e797097b7822d762ac",
+  "bioAsHtml" : "<p>CTO chez Saagie</p>\n<p>Passionné d&#x27;informatique  et de programmation depuis le CE2 (génération MO5/TO7), je suis un des activistes au sein du Normandy JUG et de Codeurs en Seine.</p>\n<p>J&#x27;ai fait 7 ans de prestation et de consulting en région parisienne, je suis passé développeur-manager chez Masternaut et je suis maintenant CTO chez Creative Data et je suis en charge de Saagie, une plateforme big data prête à l&#x27;emploi.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/OLL-8114",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/96409f05d7b7849b819376e797097b7822d762ac",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Youen Chéné"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/107a73b249ba18ce1d810e47cac9ba851e0d8fcd",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Aurélien Vandel"
+        }
+      ],
+      "id" : "OLL-8114",
+      "title" : "Spark Streaming and Suicidal Tendencies "
+    },
+    {
+      "talkType" : "University",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/IAW-7890",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/96409f05d7b7849b819376e797097b7822d762ac",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Youen Chéné"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/53d84e8731994ab75562de023302932a5454f3c0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Fabien Vauchelles"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5f3b5c7e2d3de6aa8d621dda5add4b222cde9ed5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Romain Picot-Clémente"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8840d491628893d4dcedbdec02c8126da649ffa0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sébastien Collet"
+        }
+      ],
+      "id" : "IAW-7890",
+      "title" : "Université de la datascience"
+    }
+  ],
+  "company" : "Saagie",
+  "bio" : "CTO chez Saagie\r\n\r\nPassionné d'informatique  et de programmation depuis le CE2 (génération MO5/TO7), je suis un des activistes au sein du Normandy JUG et de Codeurs en Seine.\r\n\r\nJ'ai fait 7 ans de prestation et de consulting en région parisienne, je suis passé développeur-manager chez Masternaut et je suis maintenant CTO chez Creative Data et je suis en charge de Saagie, une plateforme big data prête à l'emploi.\r\n",
+  "lastName" : "Chéné",
+  "firstName" : "Youen",
+  "blog" : "www.youenchene.fr",
+  "avatarURL" : "https://fr.gravatar.com/userimage/35157693/7c3d1b8505d9cd69060f60a2dc068dd5.jpg?size=200",
+  "twitter" : "@youen_chene",
+  "lang" : "fr"
+}

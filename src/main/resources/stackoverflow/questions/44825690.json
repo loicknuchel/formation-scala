@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825690,
+  "title" : "Can a CosmosDB DocumentCollection have it&#39;s partition key changed after creation?",
+  "body" : "<p>You can set a partition key when creating a `DocumentCollection:</p>\n\n<pre><code>var documentCollection = new DocumentCollection();\ndocumentCollection.PartitionKey.Paths.Add(\"/partitionKey\");\n</code></pre>\n\n<p>Can that be changed at a later point, and cause CosmosDB to re-partition the existing documents?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825690/can-a-cosmosdb-documentcollection-have-its-partition-key-changed-after-creation",
+  "owner" : {
+    "user_id" : 310988,
+    "user_type" : "registered",
+    "display_name" : "AndyJ",
+    "profile_image" : "https://www.gravatar.com/avatar/81f0d46dafda410f56eb6ee3a92f97b4?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/310988/andyj",
+    "reputation" : 2539,
+    "accept_rate" : 81
+  },
+  "is_answered" : false,
+  "creation_date" : 1498740756,
+  "last_activity_date" : 1498742990,
+  "tags" : [
+    "c#",
+    "azure-documentdb"
+  ],
+  "score" : 0,
+  "view_count" : 9,
+  "answer_count" : 1
+}

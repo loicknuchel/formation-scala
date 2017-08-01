@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826680,
+  "title" : "How to order this data in a ggplot barplot R",
+  "body" : "<p>I am having trouble sorting my barplot. </p>\n\n<p>I have the data and code here below what I use to creat the barplot: </p>\n\n<pre><code>library(ggplot2)\n\na &lt;- read.table(text = \"\ndrugName,type,score\npazero,yellow,1\npazero,purple,7\npazero,green,0\npazero,gray,0\nmanian,yellow,0\nmanian,purple,2\nmanian,green,0\nmanian,gray,0\nwelabin,yellow,1\nwelabin,purple,4\nwelabin,green,0\nwelabin,gray,0\nbandian,yellow,1\nbandian,purple,9\nbandian,green,0\nbandian,gray,0\nzentafia,yellow,1\nzentafia,purple,4\nzentafia,green,0\nzentafia,gray,0\n1,yellow,1\n1,purple,5\n1,green,0\n1,gray,0\n2,yellow,1\n2,purple,8\n2,green,0\n2,gray,0\n4,yellow,1\n4,purple,9\n4,green,0\n4,gray,0\n6,yellow,1\n6,purple,46\n6,green,9\n6,gray,2\n8A,yellow,1\n8A,purple,10\n8A,green,0\n8A,gray,0\nre,yellow,1\nre,purple,8\nre,green,0\nre,gray,0\ngg43,yellow,0\ngg43,purple,2\ngg43,green,0\ngg43,gray,0\n3uu,yellow,1\n3uu,purple,40\n3uu,green,9\n3uu,gray,2\nu45,yellow,1\nu45,purple,10\nu45,green,0\nu45,gray,0\n22,yellow,1\n22,purple,28\n22,green,2\n22,gray,0\n33t3,yellow,0\n33t3,purple,8\n33t3,green,0\n33t3,gray,0\nsoijs,yellow,1\nsoijs,purple,8\nsoijs,green,0\nsoijs,gray,0\n45u6,yellow,0\n45u6,purple,3\n45u6,green,0\n45u6,gray,0\n34,yellow,0\n34,purple,3\n34,green,0\n34,gray,0\n4m,yellow,0\n4m,purple,3\n4m,green,0\n4m,gray,0\n9mj,yellow,0\n9mj,purple,1\n9mj,green,0\n9mj,gray,0\n39,yellow,0\n39,purple,1\n39,green,0\n39,gray,0\ns01,yellow,1\ns01,purple,4\ns01,green,0\ns01,gray,0\n105,yellow,1\n105,purple,4\n105,green,0\n105,gray,0\n2rw,yellow,1\n2rw,purple,4\n2rw,green,0\n2rw,gray,0\n18343,yellow,1\n18343,purple,4\n18343,green,0\n18343,gray,0\nd98m3y76,yellow,0\nd98m3y76,purple,3\nd98m3y76,green,0\nd98m3y76,gray,0\nd8883,yellow,0\nd8883,purple,2\nd8883,green,0\nd8883,gray,0\n000,yellow,1\n000,purple,12\n000,green,6\n000,gray,1\n3331,yellow,1\n3331,purple,9\n3331,green,1\n3331,gray,0\n100298466,yellow,0\n100298466,purple,1\n100298466,green,0\n100298466,gray,0\nMENDA,yellow,1\nMENDA,purple,8\nMENDA,green,0\nMENDA,gray,0\nCHLORINOSTAT,yellow,1\nCHLORINOSTAT,purple,41\nCHLORINOSTAT,green,6\nCHLORINOSTAT,gray,1\nTAMIN,yellow,1\nTAMIN,purple,15\nTAMIN,green,1\nTAMIN,gray,0\nRADICOL,yellow,1\nRADICOL,purple,8\nRADICOL,green,0\nRADICOL,gray,0\nVENDIAN,yellow,1\nVENDIAN,purple,8\nVENDIAN,green,0\nVENDIAN,gray,0\nSTP,yellow,1\nSTP,purple,7\nSTP,green,0\nSTP,gray,0\nVALDIN,yellow,1\nVALDIN,purple,45\nVALDIN,green,11\nVALDIN,gray,2\nVOER99,yellow,1\nVOER99,purple,48\nVOER99,green,9\nVOER99,gray,1\nSS774JUSWE,yellow,0\nSS774JUSWE,purple,3\nSS774JUSWE,green,0\nSS774JUSWE,gray,0\n\",\nheader = TRUE, \nstringsAsFactors = FALSE,\nsep=\",\")\n\n\n\n# Create the barplot\nggplot(data=a, aes(x=drugName, y=score, fill=type)) +\n  geom_bar(stat=\"identity\") +  \n     theme(axis.text.x=element_text(angle=90,hjust=1,vjust=0.5))\n</code></pre>\n\n<p>The barplot looks like this : </p>\n\n<p><a href=\"https://i.stack.imgur.com/svi8x.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/svi8x.png\" alt=\"enter image description here\"></a></p>\n\n<p>What I would like to do is to move the largest bars from high to low to the left. </p>\n\n<p>And second, I want the category blue shown at the bottom within the bars, this is the orange color.</p>\n\n<p>I have no clue how to do this, I tried some things but it never works.</p>\n\n<p>I am vary greatfull for any help ! </p>\n\n<p>Regards,\nRick </p>\n",
+  "link" : "https://stackoverflow.com/questions/44826680/how-to-order-this-data-in-a-ggplot-barplot-r",
+  "owner" : {
+    "user_id" : 8111436,
+    "user_type" : "registered",
+    "display_name" : "Rick",
+    "profile_image" : "https://www.gravatar.com/avatar/e9b44e1e3b0031a546fafc2d7cf6c374?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8111436/rick",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743330,
+  "last_activity_date" : 1498743420,
+  "tags" : [
+    "r",
+    "ggplot2"
+  ],
+  "score" : 0,
+  "view_count" : 12,
+  "answer_count" : 0
+}

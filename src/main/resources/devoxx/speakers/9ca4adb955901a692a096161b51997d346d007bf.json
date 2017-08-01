@@ -1,0 +1,47 @@
+{
+  "uuid" : "9ca4adb955901a692a096161b51997d346d007bf",
+  "bioAsHtml" : "<p>Depuis une première rencontre avec l&#x27;Agilité en 2008, j&#x27;accompagne les équipes de développement en tant que Scrum Master, Product Owner ou Coach Agile.\nAgiliste convaincue, je participe activement à la diffusion de l&#x27;Agilité via l&#x27;organisation de Meetup et de conférences à Paris. J&#x27;ai fait partie de l&#x27;équipe organisatrice des 3 derniers ScrumDay et j&#x27;ai rejoint l&#x27;an dernier l&#x27;équipe Lean Kanban France. Parmi mes  projets personnels figurent aussi le développement du jeu d&#x27;apprentissage Kanbanzine et divers projets de traduction.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/TJI-4584",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9ca4adb955901a692a096161b51997d346d007bf",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Anne Gabrillagues"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/341ff3dc19b831ea24193dc1218debd921e6c528",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Dimitri BAELI"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/815c0c15a6796e465b21163604d6254d88871af0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Nils Lesieur"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f3217b928f67c17d94c5da8fd7c9fb14f0009ed5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yannick grenzinger"
+        }
+      ],
+      "id" : "TJI-4584",
+      "title" : "BoF Lean Kanban France : laissez vous surprendre."
+    }
+  ],
+  "company" : "Ippon Technologies",
+  "bio" : "Depuis une première rencontre avec l'Agilité en 2008, j'accompagne les équipes de développement en tant que Scrum Master, Product Owner ou Coach Agile.\r\nAgiliste convaincue, je participe activement à la diffusion de l'Agilité via l'organisation de Meetup et de conférences à Paris. J'ai fait partie de l'équipe organisatrice des 3 derniers ScrumDay et j'ai rejoint l'an dernier l'équipe Lean Kanban France. Parmi mes  projets personnels figurent aussi le développement du jeu d'apprentissage Kanbanzine et divers projets de traduction.",
+  "lastName" : "Gabrillagues",
+  "firstName" : "Anne",
+  "blog" : "http://blog.ippon.fr/author/agabrillagues/",
+  "avatarURL" : "http://www.gravatar.com/avatar/b104ebade63ac274f9ddd578089695af",
+  "twitter" : "@agabrillagues",
+  "lang" : "fr-FR"
+}

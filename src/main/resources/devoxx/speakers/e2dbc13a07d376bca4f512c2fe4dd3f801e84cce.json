@@ -1,0 +1,32 @@
+{
+  "uuid" : "e2dbc13a07d376bca4f512c2fe4dd3f801e84cce",
+  "bioAsHtml" : "<p>Père de 4 filles et habitant la Bretagne vannetaise, Philippe commence l&#x27;apprentissage de la programmation à 6 ans en autodidacte, grâce au guide de programmation en Basic livré avec l&#x27;Amstrad CPC 6128.\nConsultant freelance dans la conception de logiciels informatiques, il est spécialiste de la programmation de pilote de périphériques -en particulier pour la sécurité informatique-, de la conception de systèmes d&#x27;exploitations et du multi-threading.\nDepuis qu&#x27;il a co-fondé MediaWen International avec Erwan de Kerautem, il utilise ce nouveau paradigme de programmation et explore les opportunités d&#x27;optimisation des programmes qu’il implique.\nEn 2016 et en 2017, Philippe a été récompensé par IBM pour ses travaux et les outils qu&#x27;il a crées en utilisant les services de Watson pour le développement de STVHub, la plateforme de sous-titrage et de doublage de MediaWen. Il est à ce titre IBM Cloud Champion.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Keynote",
+      "track" : "Future, Robotique",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/JYF-9046",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e2dbc13a07d376bca4f512c2fe4dd3f801e84cce",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Philippe Anel"
+        }
+      ],
+      "id" : "JYF-9046",
+      "title" : "La disruption des langues a commencé."
+    }
+  ],
+  "company" : "Mediawen",
+  "bio" : "Père de 4 filles et habitant la Bretagne vannetaise, Philippe commence l'apprentissage de la programmation à 6 ans en autodidacte, grâce au guide de programmation en Basic livré avec l'Amstrad CPC 6128.\r\nConsultant freelance dans la conception de logiciels informatiques, il est spécialiste de la programmation de pilote de périphériques -en particulier pour la sécurité informatique-, de la conception de systèmes d'exploitations et du multi-threading.\r\nDepuis qu'il a co-fondé MediaWen International avec Erwan de Kerautem, il utilise ce nouveau paradigme de programmation et explore les opportunités d'optimisation des programmes qu’il implique.\r\nEn 2016 et en 2017, Philippe a été récompensé par IBM pour ses travaux et les outils qu'il a crées en utilisant les services de Watson pour le développement de STVHub, la plateforme de sous-titrage et de doublage de MediaWen. Il est à ce titre IBM Cloud Champion.",
+  "lastName" : "Anel",
+  "firstName" : "Philippe",
+  "blog" : "http://www.mediawen.com",
+  "avatarURL" : "https://pbs.twimg.com/profile_images/773760962553864193/od_klScn_400x400.jpg",
+  "twitter" : "@zexigh",
+  "lang" : "fr"
+}

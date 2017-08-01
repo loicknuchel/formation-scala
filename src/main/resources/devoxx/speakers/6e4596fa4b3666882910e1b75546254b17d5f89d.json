@@ -1,0 +1,37 @@
+{
+  "uuid" : "6e4596fa4b3666882910e1b75546254b17d5f89d",
+  "bioAsHtml" : "<p>Training Engineer chez Cloudbees, je suis un touche à tout technique, qui adore faire progresser mes interlocuteurs sur des sujets complexes. Fan de Docker de la première heure, j&#x27;adore jouer avec les techniques des devs, des ops et de tout ce qui va au milieu !</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/ULX-3789",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6e4596fa4b3666882910e1b75546254b17d5f89d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Damien DUPORTAL"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a73cc5bfb4ce4d8f07f209039ada742ee750a332",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Philippe Briend"
+        }
+      ],
+      "id" : "ULX-3789",
+      "title" : "BoF Jenkins"
+    }
+  ],
+  "company" : "CloudBees",
+  "bio" : "Training Engineer chez Cloudbees, je suis un touche à tout technique, qui adore faire progresser mes interlocuteurs sur des sujets complexes. Fan de Docker de la première heure, j'adore jouer avec les techniques des devs, des ops et de tout ce qui va au milieu !",
+  "lastName" : "DUPORTAL",
+  "firstName" : "Damien",
+  "blog" : "https://www.cloudbees.com",
+  "avatarURL" : "https://dl.dropboxusercontent.com/u/2524496/dduportal.jpg",
+  "twitter" : "@DamienDuportal",
+  "lang" : "fr"
+}

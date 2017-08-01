@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826757,
+  "title" : "Why does Math.Sign() throws exception when passed a NaN?",
+  "body" : "<p>Why does Math.Sign() throws an exception when passed a NaN? Why not return a NaN?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826757/why-does-math-sign-throws-exception-when-passed-a-nan",
+  "owner" : {
+    "user_id" : 1223712,
+    "user_type" : "registered",
+    "display_name" : "jambodev",
+    "profile_image" : "https://i.stack.imgur.com/5bMXr.png?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/1223712/jambodev",
+    "reputation" : 90,
+    "accept_rate" : 33
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743520,
+  "last_activity_date" : 1498743520,
+  "tags" : [
+    "c#",
+    "math",
+    "nan",
+    "sign"
+  ],
+  "score" : 0,
+  "view_count" : 17,
+  "answer_count" : 0
+}

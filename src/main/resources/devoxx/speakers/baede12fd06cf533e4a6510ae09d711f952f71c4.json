@@ -1,0 +1,37 @@
+{
+  "uuid" : "baede12fd06cf533e4a6510ae09d711f952f71c4",
+  "bioAsHtml" : "<p>Florent Benoit travaille pour Codenvy. Il participe au développement de Eclipse Che et de la solution hébergée Codenvy. Il développe la nouvelle console d&#x27;administration de Eclipse Che et Codenvy avec du TypeScript, participe au développement de plugins EclipseChe/Codenvy en Java, le CLI en bash et docker.\nFlorent est également un membre des spécifications Java EE 8 et un committer Eclipse Che</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/RUO-3082",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3102bb500b44d7043b3f063ab6076716978f3746",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Stévan Le Meur"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/baede12fd06cf533e4a6510ae09d711f952f71c4",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Florent Benoit"
+        }
+      ],
+      "id" : "RUO-3082",
+      "title" : "Introduction à Eclipse Che"
+    }
+  ],
+  "company" : "Codenvy",
+  "bio" : "Florent Benoit travaille pour Codenvy. Il participe au développement de Eclipse Che et de la solution hébergée Codenvy. Il développe la nouvelle console d'administration de Eclipse Che et Codenvy avec du TypeScript, participe au développement de plugins EclipseChe/Codenvy en Java, le CLI en bash et docker.\r\nFlorent est également un membre des spécifications Java EE 8 et un committer Eclipse Che",
+  "lastName" : "Benoit",
+  "firstName" : "Florent",
+  "blog" : "http://www.codenvy.com",
+  "avatarURL" : "http://www.gravatar.com/avatar/a00dceceaf614a4087c11fca309dacd4",
+  "twitter" : "@florentbenoit",
+  "lang" : "en"
+}

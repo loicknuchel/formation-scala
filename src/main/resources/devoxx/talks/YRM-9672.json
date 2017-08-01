@@ -1,0 +1,20 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Conference",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>Docker est un outil très puissant qui connait une adoption très rapide graĉe  aux nombreuses possibilités qu'il offre aux équipes.</p>\n<p>Après l'avoir essayé en dev puis avoir convaincu votre management et vos obs de le tester sur des environnements intermédiaires, il est temps de partir en prod, et là, c'est le drame ...\nLe passage d'une production sous Docker engendre des problématiques comme le monitoring, la gestion des logs, le scheduling ou la gestion des datas que l'on découvre.</p>\n<p>Dans cette présentation, je présenterai les problèmes rencontrés ainsi que leurs solutions.</p>\n",
+  "id" : "YRM-9672",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f3f156a480be59b1498a470ac9a64a309e99962e",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Francois Teychene"
+      },
+      "name" : "Francois Teychene"
+    }
+  ],
+  "title" : "Au secours, ma prod est sous Docker !",
+  "lang" : "fr",
+  "summary" : "Docker est un outil très puissant qui connait une adoption très rapide graĉe  aux nombreuses possibilités qu'il offre aux équipes.\r\n\r\nAprès l'avoir essayé en dev puis avoir convaincu votre management et vos obs de le tester sur des environnements intermédiaires, il est temps de partir en prod, et là, c'est le drame ...\r\nLe passage d'une production sous Docker engendre des problématiques comme le monitoring, la gestion des logs, le scheduling ou la gestion des datas que l'on découvre.\r\n\r\nDans cette présentation, je présenterai les problèmes rencontrés ainsi que leurs solutions."
+}

@@ -1,0 +1,37 @@
+{
+  "uuid" : "47af10c6702591ca371d85c6a11975f686cfcf95",
+  "bioAsHtml" : "<p>IBM Architecte</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/IPS-4761",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/301e7a81d2af1bfbc2b4e4453b1abadf582547f9",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Xavier Mary"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/47af10c6702591ca371d85c6a11975f686cfcf95",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Michel caussanel"
+        }
+      ],
+      "id" : "IPS-4761",
+      "title" : "Bluemix - Classification et ranking grace à Watson"
+    }
+  ],
+  "company" : "IBM",
+  "bio" : "IBM Architecte",
+  "lastName" : "caussanel",
+  "firstName" : "michel",
+  "blog" : null,
+  "avatarURL" : null,
+  "twitter" : null,
+  "lang" : "fr-FR"
+}

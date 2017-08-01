@@ -1,0 +1,28 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Tools-in-Action",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Flow est un outil qui permet d’enregistrer puis d’explorer visuellement et interactivement ce qu’il s’est passé durant l'exécution d’une application Java. Il a pour objectif d’aider le développeur à comprendre un scénario particulier de son application.</p>\n<p>Nous verrons comment interpréter les visualisations générées par Flow pour répondre facilement à des questions récurrentes.  Quels sont les packages, classes et méthodes impliqués ? Quelles sont les threads et dans quel ordre appellent-elles les méthodes ? Etc.</p>\n<p>Ce sera également l’occasion de comparer Flow avec des techniques plus traditionnelles comme lire du code, ajouter des logs ou encore utiliser le debugger.</p>\n<p>Pour plus d’informations : <a href=\"http://findtheflow.io\">http://findtheflow.io</a></p>\n",
+  "id" : "PTA-8724",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/22b1b5a9757f0b71f53a53fa52d7454b74295d13",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Yoann Buch"
+      },
+      "name" : "Yoann Buch"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/711109fd3ce1ae47e5ff29c5e3221ecdc669e0f1",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Yiquan Zhou"
+      },
+      "name" : "Yiquan Zhou"
+    }
+  ],
+  "title" : "Visualisez l'exécution de votre code avec Flow",
+  "lang" : "fr",
+  "summary" : "Flow est un outil qui permet d’enregistrer puis d’explorer visuellement et interactivement ce qu’il s’est passé durant l'exécution d’une application Java. Il a pour objectif d’aider le développeur à comprendre un scénario particulier de son application.\r\n\r\nNous verrons comment interpréter les visualisations générées par Flow pour répondre facilement à des questions récurrentes.  Quels sont les packages, classes et méthodes impliqués ? Quelles sont les threads et dans quel ordre appellent-elles les méthodes ? Etc.\r\n\r\nCe sera également l’occasion de comparer Flow avec des techniques plus traditionnelles comme lire du code, ajouter des logs ou encore utiliser le debugger.\r\n\r\nPour plus d’informations : <http://findtheflow.io>"
+}

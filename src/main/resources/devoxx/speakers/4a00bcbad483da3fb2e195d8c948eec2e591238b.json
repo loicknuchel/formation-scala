@@ -1,0 +1,32 @@
+{
+  "uuid" : "4a00bcbad483da3fb2e195d8c948eec2e591238b",
+  "bioAsHtml" : "<p>Développeur Java et C++ depuis 10 ans, j&#x27;écume les challenges d&#x27;IA depuis presque aussi longtemps!</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/SSI-2477",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4a00bcbad483da3fb2e195d8c948eec2e591238b",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Grégory Ribéron"
+        }
+      ],
+      "id" : "SSI-2477",
+      "title" : "De bronze à légendaire, comment réussir vos IA de bot"
+    }
+  ],
+  "company" : "Murex",
+  "bio" : "Développeur Java et C++ depuis 10 ans, j'écume les challenges d'IA depuis presque aussi longtemps!",
+  "lastName" : "Ribéron",
+  "firstName" : "Grégory",
+  "blog" : "https://github.com/Manwe56/",
+  "avatarURL" : "https://avatars3.githubusercontent.com/u/506148?v=3&s=460",
+  "twitter" : "@RiberonG",
+  "lang" : "fr"
+}

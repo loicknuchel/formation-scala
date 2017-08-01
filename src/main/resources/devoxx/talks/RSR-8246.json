@@ -1,0 +1,28 @@
+{
+  "trackId" : "future",
+  "talkType" : "Conference",
+  "track" : "Future, Robotique",
+  "summaryAsHtml" : "<p>Les machines peuvent-elles être intelligentes ? Comment le juger ? Que signifie être intelligent, pour une machine ? Sait-on de quoi rêveraient des androïdes ?\nDans cette présentation, nous explorerons les principes et les limitations du Test de Turing, une proposition pour estimer cette intelligence.\nNous évoquerons également la Chambre chinoise, une expérience de pensée qui peut être vue comme une réponse au Test de Turing.\nA l'issue de cette session, nous aurons une meilleure idée de ce qu'est l'intelligence artificielle dans son sens fort... et de sa faisabilité.</p>\n",
+  "id" : "RSR-8246",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/43094674f4188c5e4a121d85ed52edc83ea9b97d",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Eric Lefevre-Ardant"
+      },
+      "name" : "Eric Lefevre-Ardant"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ac32d58c4c544412b170ad7915a5c8beab99674a",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Sonia OUCHTAR"
+      },
+      "name" : "Sonia OUCHTAR"
+    }
+  ],
+  "title" : "Introduction à la Philosophie de l'intelligence artificielle",
+  "lang" : "fr",
+  "summary" : "Les machines peuvent-elles être intelligentes ? Comment le juger ? Que signifie être intelligent, pour une machine ? Sait-on de quoi rêveraient des androïdes ?\r\nDans cette présentation, nous explorerons les principes et les limitations du Test de Turing, une proposition pour estimer cette intelligence.\r\nNous évoquerons également la Chambre chinoise, une expérience de pensée qui peut être vue comme une réponse au Test de Turing.\r\nA l'issue de cette session, nous aurons une meilleure idée de ce qu'est l'intelligence artificielle dans son sens fort... et de sa faisabilité."
+}

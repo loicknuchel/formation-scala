@@ -1,0 +1,32 @@
+{
+  "uuid" : "8017e86ee8cf824e6a8c89c7c8b75fb00c6d8a90",
+  "bioAsHtml" : "<p>Ancien CTO de Zenika Paris, maintenant Software Engineer chez Red Hat et dev lead de la team Red Hat qui travaille sur <a href=\"https://github.com/eclipse/che\">Eclipse Che</a>. Auteur de <a href=\"https://github.com/l0rd/docker-unit\">docker-unit</a></p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/UUA-0367",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8017e86ee8cf824e6a8c89c7c8b75fb00c6d8a90",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Mario Loriedo"
+        }
+      ],
+      "id" : "UUA-0367",
+      "title" : "cUnit, le xUnit pour conteneurs"
+    }
+  ],
+  "company" : "Red Hat",
+  "bio" : "Ancien CTO de Zenika Paris, maintenant Software Engineer chez Red Hat et dev lead de la team Red Hat qui travaille sur [Eclipse Che](https://github.com/eclipse/che). Auteur de [docker-unit](https://github.com/l0rd/docker-unit)",
+  "lastName" : "Loriedo",
+  "firstName" : "Mario",
+  "blog" : "github.com/l0rd",
+  "avatarURL" : "http://www.gravatar.com/avatar/1ce80b1b85aa6c280cf64e5aab262558.png",
+  "twitter" : "@mariolet",
+  "lang" : "fr"
+}

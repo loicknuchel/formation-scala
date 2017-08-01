@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826642,
+  "title" : "Get all comments on URL share",
+  "body" : "<p>Im interested to know if there is a way using API to get list of consolidated comments for an URL shared in facebook. </p>\n\n<p>What I have tried is using following API to get object_ID of an URL \"<a href=\"http://graph.facebook.com/?id=\" rel=\"nofollow noreferrer\">http://graph.facebook.com/?id=</a>{URL}\"\nand then used \"{object_ID}/comments\". As a result, I got following output and not able to figure out what I have missed.</p>\n\n<p>{   \"data\": [   ] }</p>\n\n<p>Thanks for your answer.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826642/get-all-comments-on-url-share",
+  "owner" : {
+    "user_id" : 8231432,
+    "user_type" : "registered",
+    "display_name" : "Ashky",
+    "profile_image" : "https://graph.facebook.com/10203654036269007/picture?type=large",
+    "link" : "https://stackoverflow.com/users/8231432/ashky",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743261,
+  "last_activity_date" : 1498743261,
+  "tags" : [
+    "facebook-graph-api"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

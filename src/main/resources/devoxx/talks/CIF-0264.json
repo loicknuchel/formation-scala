@@ -1,0 +1,20 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Quickie",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Comment développer quand on travaille dans une startup?</p>\n<p>Qu'est ce qui attend un développeur en startup ? D'une certaine manière, c'est une expérience qui oblige à trouver un certain nombre de bonnes pratiques, sous peine de voir l'expérience échouer.\nTravailler vite, pratiquer les tests sans relâche, déployer souvent, faire de petits pas, être au plus près des clients... Autant de bonnes pratiques qui prennent un sens particulier dans une petite boite qui vit par sa technologie.\nDans ce retour d'expérience, venez découvrir comment les développeurs peuvent devenir une pièce centrale dans la vie d'un projet - et ce en quoi cela devrait bien plus souvent être la cas.</p>\n<p>Les apports de ce retour d'expérience ne sont pas théorisés. Je voudrais présenter  en quoi un ensemble de (fortes) contraintes et de bonnes pratiques peut créer un ensemble cohérent et qui aide à mieux faire son métier</p>\n",
+  "id" : "CIF-0264",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/043a31210de876082b469d82155bb25f5b2a83f5",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Gabriel Kastenbaum"
+      },
+      "name" : "Gabriel Kastenbaum"
+    }
+  ],
+  "title" : "Startup Driven Development",
+  "lang" : "fr",
+  "summary" : "Comment développer quand on travaille dans une startup?\r\n\r\nQu'est ce qui attend un développeur en startup ? D'une certaine manière, c'est une expérience qui oblige à trouver un certain nombre de bonnes pratiques, sous peine de voir l'expérience échouer. \r\nTravailler vite, pratiquer les tests sans relâche, déployer souvent, faire de petits pas, être au plus près des clients... Autant de bonnes pratiques qui prennent un sens particulier dans une petite boite qui vit par sa technologie.\r\nDans ce retour d'expérience, venez découvrir comment les développeurs peuvent devenir une pièce centrale dans la vie d'un projet - et ce en quoi cela devrait bien plus souvent être la cas.\r\n\r\n\r\nLes apports de ce retour d'expérience ne sont pas théorisés. Je voudrais présenter  en quoi un ensemble de (fortes) contraintes et de bonnes pratiques peut créer un ensemble cohérent et qui aide à mieux faire son métier "
+}

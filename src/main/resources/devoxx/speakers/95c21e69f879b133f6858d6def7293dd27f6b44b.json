@@ -1,0 +1,37 @@
+{
+  "uuid" : "95c21e69f879b133f6858d6def7293dd27f6b44b",
+  "bioAsHtml" : "<p>Gérôme EGRON, arrivé à Xebia en 2012, est passionné par le Cloud et les problématiques de Continuous Delivery. Développeur backend depuis 6 ans, il travaille actuellement sur les architectures réactives hébergées dans l&#x27;environnement AWS.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/FOE-4082",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b47a61591a2f2f83a28cee8f0c65337b6f749046",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Ivan Beauvais"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/95c21e69f879b133f6858d6def7293dd27f6b44b",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Gérôme EGRON"
+        }
+      ],
+      "id" : "FOE-4082",
+      "title" : "Elasticsearch : From Zero to Hero"
+    }
+  ],
+  "company" : "Xebia",
+  "bio" : "Gérôme EGRON, arrivé à Xebia en 2012, est passionné par le Cloud et les problématiques de Continuous Delivery. Développeur backend depuis 6 ans, il travaille actuellement sur les architectures réactives hébergées dans l'environnement AWS.",
+  "lastName" : "EGRON",
+  "firstName" : "Gérôme",
+  "blog" : "http://blog.xebia.fr/author/gegron/",
+  "avatarURL" : "http://www.gravatar.com/avatar/7c2af2505a6f7a791e1d0f2dd6ea7e87",
+  "twitter" : "@geromeegron",
+  "lang" : "fr-FR"
+}

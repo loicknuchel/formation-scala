@@ -1,0 +1,20 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Quickie",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>La loi de Conway nous explique que les organisations sont contraintes à produire des designs copiés sur leurs structures de communication.\nQuand Melvin Conway a établi cette théorie en 1967, il ne se doutait sans doute pas de la puissance de son constat. Il est aujourd'hui recommandé de maitriser ce concept avant d'organiser vos équipes et les aider à devenir DevOps.\nJe vous propose d'étudier quelques cas concrets qui vous permettront de comprendre les répercussions de vos choix d'organisations sur vos équipes IT et sur leurs livrables.</p>\n",
+  "id" : "VCX-4418",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b62311d57b2a14bdf5fc6edd7f8477b66d96ff9c",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Clément Rochas"
+      },
+      "name" : "Clément Rochas"
+    }
+  ],
+  "title" : "Comprendre la loi de Conway pour réussir sa transformation DevOps",
+  "lang" : "fr",
+  "summary" : "La loi de Conway nous explique que les organisations sont contraintes à produire des designs copiés sur leurs structures de communication.\r\nQuand Melvin Conway a établi cette théorie en 1967, il ne se doutait sans doute pas de la puissance de son constat. Il est aujourd'hui recommandé de maitriser ce concept avant d'organiser vos équipes et les aider à devenir DevOps.\r\nJe vous propose d'étudier quelques cas concrets qui vous permettront de comprendre les répercussions de vos choix d'organisations sur vos équipes IT et sur leurs livrables."
+}

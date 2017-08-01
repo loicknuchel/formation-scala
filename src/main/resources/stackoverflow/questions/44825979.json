@@ -1,0 +1,27 @@
+{
+  "question_id" : 44825979,
+  "title" : "Get arraylist of image file object from arraylist of url in android",
+  "body" : "<p>My Objective is:</p>\n\n<ul>\n<li>Need to get image path from api call in url string like: \"<a href=\"http://serverpath.com/projectname/images/imagename.png\" rel=\"nofollow noreferrer\">http://serverpath.com/projectname/images/imagename.png</a>\"</li>\n<li>Need to send image path to api call in file object.\nSo I am taking ArrayList only.</li>\n</ul>\n\n<p>I should show image path in imageview when its converted into file object.</p>\n\n<p>I am trying with some solutions with different file object are:</p>\n\n<pre><code>File f=null;\n    URL url = new URL(info4Model.getExternal_photos().get(position).getImage_path());\n        try {\n            f = new File(url.toURI());//java.lang.IllegalArgumentException: Expected file scheme in URI:\n            f = new File(url.getPath());//  not showing file object in imageview\n            f = new File(url.getFile());// not showing file object in imageview\n            f = getFileFromBitmap(info4Model.getExternal_photos().get(position).getImage_path());\n             //android.os.NetworkOnMainThreadException , AsyncTask option left only?\n\n        } catch (Exception e) {\n\n\n        }\n///////////////////////////////////\npublic static Bitmap getBitmapFromURL(String url) {\n    try {\n        URL url1 = new URL(url);\n        HttpURLConnection connection = (HttpURLConnection) url1.openConnection();\n        connection.setDoInput(true);\n        connection.connect();\n        InputStream input = connection.getInputStream();\n        Bitmap bitmapFrmUrl = BitmapFactory.decodeStream(input);\n        return bitmapFrmUrl;\n    } catch (IOException e) {\n        e.printStackTrace();\n        return null;\n    }catch (Exception e){\n        e.printStackTrace();\n        return null;\n    }\n}\nFile getFileFromBitmap(String url) {\n    Bitmap bmp = getBitmapFromURL(url);\n\n    SimpleDateFormat simpleDateFormat =\n            new SimpleDateFormat(\"MMddhhmmss\");\n    String dateAsString = simpleDateFormat.format(new Date());\n    File filesDir = getActivity().getFilesDir();\n    File imageFile = new File(filesDir, dateAsString + \".png\");\n\n    OutputStream os;\n    try {\n        os = new FileOutputStream(imageFile);\n        bmp.compress(Bitmap.CompressFormat.PNG, 100, os);\n        os.flush();\n        os.close();\n    } catch (Exception e) {\n        e.printStackTrace();\n    }\n    return imageFile;\n}\n</code></pre>\n\n<p>Here all the file objects are showing failure results in comments after the statement.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825979/get-arraylist-of-image-file-object-from-arraylist-of-url-in-android",
+  "owner" : {
+    "user_id" : 5421769,
+    "user_type" : "registered",
+    "display_name" : "shweta porwal",
+    "profile_image" : "https://www.gravatar.com/avatar/f4c759840549b24025bdb127fdbf1b25?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/5421769/shweta-porwal",
+    "reputation" : 25,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741486,
+  "last_activity_date" : 1498742983,
+  "tags" : [
+    "android",
+    "arraylist",
+    "android-bitmap",
+    "android-file"
+  ],
+  "score" : 0,
+  "view_count" : 21,
+  "answer_count" : 1
+}

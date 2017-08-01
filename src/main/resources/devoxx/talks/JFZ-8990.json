@@ -1,0 +1,28 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "University",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>Bases de données, caches, broker de messages sont les outils essentiels de nos architectures applicatives au même titre que les serveurs d'application et leurs frameworks. Ces systèmes ne se conçoivent plus sans être distribués pour assurer la scalabilité, la résilience ou de bonnes performances.</p>\n<p>Il existe aujourd'hui plein de solutions populaires (Cassandra, MongoDB, Kafka, Redis, Consul, etc...) qui sont régies par des contraintes propres aux systèmes distribués.</p>\n<ul>\n<li>Quelles sont les bases théoriques derrière ces contraintes ?</li>\n<li>Comment faire les choix adaptés à nos besoins projets ?</li>\n<li>Comment valider et intégrer ces solutions au sein de notre SI ?</li>\n</ul>\n<p>On parcourra ces questions et la façon dont on y répond chez Voyages-sncf.com.</p>\n",
+  "id" : "JFZ-8990",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/43b657d0f64af96db01911d3caebda26d7a5c389",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Guillaume Arnaud"
+      },
+      "name" : "Guillaume Arnaud"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/61c8bc763bddcb542f8fc71e617124f8e4484b7c",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "William Montaz"
+      },
+      "name" : "William Montaz"
+    }
+  ],
+  "title" : "Finalement, c'est quoi un système distribué ?",
+  "lang" : "fr",
+  "summary" : "Bases de données, caches, broker de messages sont les outils essentiels de nos architectures applicatives au même titre que les serveurs d'application et leurs frameworks. Ces systèmes ne se conçoivent plus sans être distribués pour assurer la scalabilité, la résilience ou de bonnes performances.\r\n\r\nIl existe aujourd'hui plein de solutions populaires (Cassandra, MongoDB, Kafka, Redis, Consul, etc...) qui sont régies par des contraintes propres aux systèmes distribués. \r\n\r\n* Quelles sont les bases théoriques derrière ces contraintes ? \r\n* Comment faire les choix adaptés à nos besoins projets ? \r\n* Comment valider et intégrer ces solutions au sein de notre SI ?\r\n\r\nOn parcourra ces questions et la façon dont on y répond chez Voyages-sncf.com."
+}

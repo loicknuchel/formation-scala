@@ -1,0 +1,52 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "BOF (Bird of a Feather)",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>En mode \"thérapie de groupe\" nous vous proposons un BOF pour tous les speakers, débutants et \"confirmés\". L'idée est que chacun puisse partager ses expériences, bonnes pratiques, checklists et idées qui n'ont pas bien marché sur les différentes étapes d'un talk :</p>\n<ul>\n<li>Soumission du CFP</li>\n<li>Préparation du discours et des supports</li>\n<li>Répétitions</li>\n<li>Le jour de la conf</li>\n<li>L'après...</li>\n</ul>\n<p>Cette thérapie de groupe est aussi l'occasion d'échanger sur ce que ça veut dire d'être speaker. Pourquoi nous faisons ça ? Pourquoi nous passons autant de temps sur nos présentations etc...</p>\n",
+  "id" : "ZNQ-7776",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9ef9ee08cfb1a46a285430223a056d889f99044c",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Hubert SABLONNIERE"
+      },
+      "name" : "Hubert SABLONNIERE"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1454e2d0a6c2fa871454dab3dbf66f5e16b61980",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Sebastien Blanc"
+      },
+      "name" : "Sebastien Blanc"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f4aea1c9996bf4e307a68c3080915b7a14cd1579",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Audrey Neveu"
+      },
+      "name" : "Audrey Neveu"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/996b582386dd98b7ea73098dbcc6f0bd037ba037",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Jean-Francois Garreau"
+      },
+      "name" : "Jean-Francois Garreau"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6dd4408eea453917089be404a1233df22818424b",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Philippe Antoine"
+      },
+      "name" : "Philippe Antoine"
+    }
+  ],
+  "title" : "Les speakers anonymes : thérapie de groupe",
+  "lang" : "fr",
+  "summary" : "En mode \"thérapie de groupe\" nous vous proposons un BOF pour tous les speakers, débutants et \"confirmés\". L'idée est que chacun puisse partager ses expériences, bonnes pratiques, checklists et idées qui n'ont pas bien marché sur les différentes étapes d'un talk :\r\n\r\n* Soumission du CFP\r\n* Préparation du discours et des supports\r\n* Répétitions\r\n* Le jour de la conf\r\n* L'après...\r\n\r\nCette thérapie de groupe est aussi l'occasion d'échanger sur ce que ça veut dire d'être speaker. Pourquoi nous faisons ça ? Pourquoi nous passons autant de temps sur nos présentations etc..."
+}

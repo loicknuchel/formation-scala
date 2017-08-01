@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826282,
+  "title" : "python：how to replace a list to none in a string",
+  "body" : "<p>I want to replace a list to nothing in a string.</p>\n\n<p>for example:\nthe list is :</p>\n\n<pre><code>[\"it's\",\"didn't\",isn't,\"don't\"]\n</code></pre>\n\n<p>the string is:</p>\n\n<pre><code>'it's a toy,isn't a tool.i don't know anything.'\n</code></pre>\n\n<p>Should I do to delete the it's... in string.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826282/python-how-to-replace-a-list-to-none-in-a-string",
+  "owner" : {
+    "user_id" : 8204152,
+    "user_type" : "registered",
+    "display_name" : "flystar",
+    "profile_image" : "https://i.stack.imgur.com/cHFuL.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/8204152/flystar",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742350,
+  "last_activity_date" : 1498742682,
+  "tags" : [
+    "python"
+  ],
+  "score" : -8,
+  "view_count" : 34,
+  "answer_count" : 1
+}

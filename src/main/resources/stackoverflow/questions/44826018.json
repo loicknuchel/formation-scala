@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826018,
+  "title" : "how to find number of active connection with c3p0?",
+  "body" : "<p>In My project am using EclipseLink JPA and I have set minimum and maximum connections using c3p0 pooled data source.</p>\n\n<p>I have passed c3p0 as a data source through spring bean in applicationContext.xml as follows,</p>\n\n<pre><code>&lt;bean id=\"entityManagerFactory\" class=\"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean\"&gt;\n.....\n  &lt;property name=\"dataSource\" ref=\"pooledDataSource\" /&gt;\n.....\n&lt;/bean&gt;\n\n &lt;bean id=\"pooledDataSource\" class=\"com.mchange.v2.c3p0.ComboPooledDataSource\" destroy-method=\"close\"&gt;\n    &lt;property name=\"driverClass\" value=\"com.microsoft.sqlserver.jdbc.SQLServerDriver\" /&gt;\n    &lt;property name=\"jdbcUrl\" value=\"jdbc:sqlserver://XXX.XX.XX.XX:XXXX;databaseName=XXX\" /&gt;\n    &lt;property name=\"user\" value=\"XXX\" /&gt;\n    &lt;property name=\"password\" value=\"XXX\" /&gt;\n\n    &lt;property name=\"minPoolSize\" value=\"1\" /&gt;\n    &lt;property name=\"maxPoolSize\" value=\"100\" /&gt;\n&lt;/bean&gt;\n</code></pre>\n\n<p>From this I need to monitor exact open connections.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826018/how-to-find-number-of-active-connection-with-c3p0",
+  "owner" : {
+    "user_id" : 8068917,
+    "user_type" : "registered",
+    "display_name" : "Prakash Krishnakumar",
+    "profile_image" : "https://lh5.googleusercontent.com/-L_0N1WuFfIs/AAAAAAAAAAI/AAAAAAAAAA0/tHNKnTSQG9Q/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/8068917/prakash-krishnakumar",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741565,
+  "last_activity_date" : 1498741565,
+  "tags" : [
+    "spring",
+    "jpa",
+    "eclipselink",
+    "c3p0"
+  ],
+  "score" : 0,
+  "view_count" : 8,
+  "answer_count" : 0
+}

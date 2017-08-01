@@ -1,0 +1,73 @@
+{
+  "uuid" : "06398fa2407ffee2f710f0173b45a0b480647d56",
+  "bioAsHtml" : "<p>Je suis un expert Java freelance, ainsi que formateur, bloggeur et conférencier.</p>\n<p>J&#x27;interviens depuis 2002 auprès de petits et grands comptes pour des missions d&#x27;architecture, de développement ou de redressement de projet.</p>\n<p>Passionné de veille technologique, j&#x27;essaie de transmettre mon enthousiasme à travers mon blog The Coder&#x27;s Breakfast (thecodersbreakfast.net) et lors de mes conférences aux JUGs et à Devoxx France.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/YJJ-1309",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/06398fa2407ffee2f710f0173b45a0b480647d56",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Olivier Croisier"
+        }
+      ],
+      "id" : "YJJ-1309",
+      "title" : "Twisted Java"
+    },
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/XGR-9005",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/06398fa2407ffee2f710f0173b45a0b480647d56",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Olivier Croisier"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/560138938aaa2b17bdb586fc90a34b268437c05f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Katia Aresti"
+        }
+      ],
+      "id" : "XGR-9005",
+      "title" : "Les indépendants, une espèce en voie de... développement ?"
+    },
+    {
+      "talkType" : "Conference",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/LXN-2290",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/06398fa2407ffee2f710f0173b45a0b480647d56",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Olivier Croisier"
+        }
+      ],
+      "id" : "LXN-2290",
+      "title" : "Log me tender"
+    }
+  ],
+  "company" : "Moka Technologies",
+  "bio" : "Je suis un expert Java freelance, ainsi que formateur, bloggeur et conférencier.\r\n\r\nJ'interviens depuis 2002 auprès de petits et grands comptes pour des missions d'architecture, de développement ou de redressement de projet.\r\n\r\nPassionné de veille technologique, j'essaie de transmettre mon enthousiasme à travers mon blog The Coder's Breakfast (thecodersbreakfast.net) et lors de mes conférences aux JUGs et à Devoxx France.",
+  "lastName" : "Croisier",
+  "firstName" : "Olivier",
+  "blog" : "http://thecodersbreakfast.net",
+  "avatarURL" : "https://lh6.googleusercontent.com/-NUv7AlsUBgI/AAAAAAAAAAI/AAAAAAAAD8I/gQK1fpXfUtk/photo.jpg",
+  "twitter" : "@OlivierCroisier",
+  "lang" : "fr"
+}

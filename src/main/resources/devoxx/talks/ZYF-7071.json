@@ -1,0 +1,28 @@
+{
+  "trackId" : "java",
+  "talkType" : "University",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>Une des fonctionnalités les plus puissantes de Spring Boot est l'auto-configuration. Ce <em>super-pouvoir</em> est la clé de l'approche \"convention-over-configuration\" qui donne ce gain de productivité aux développeurs Java. Un <em>super-pouvoir</em>, vraiment? Non!</p>\n<p>Cette présentation vous montrera la mécanique de Spring Boot et vous comprendrez comment l'auto-configuration et le modèle de configuration conditionnelle fonctionnent. Un très bon moyen d'être plus productifs quand vous développez vos applications Spring Boot.</p>\n<p>Nous feront aussi un point sur le support testing de Spring Boot. Ces améliorations apportent les même gains de productivité que Boot, mais cette fois-ci dans vos tests.</p>\n",
+  "id" : "ZYF-7071",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e8c67e2df13f82a0e69b26b1274d11fec44b0122",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Brian Clozel"
+      },
+      "name" : "Brian Clozel"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7ee8911b3983bb10774f99ed3b3da60b1854c839",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Stéphane Nicoll"
+      },
+      "name" : "Stéphane Nicoll"
+    }
+  ],
+  "title" : "Maîtrisez les super pouvoirs de Spring Boot",
+  "lang" : "fr",
+  "summary" : "Une des fonctionnalités les plus puissantes de Spring Boot est l'auto-configuration. Ce *super-pouvoir* est la clé de l'approche \"convention-over-configuration\" qui donne ce gain de productivité aux développeurs Java. Un *super-pouvoir*, vraiment? Non!\r\n\r\nCette présentation vous montrera la mécanique de Spring Boot et vous comprendrez comment l'auto-configuration et le modèle de configuration conditionnelle fonctionnent. Un très bon moyen d'être plus productifs quand vous développez vos applications Spring Boot.\r\n\r\nNous feront aussi un point sur le support testing de Spring Boot. Ces améliorations apportent les même gains de productivité que Boot, mais cette fois-ci dans vos tests."
+}

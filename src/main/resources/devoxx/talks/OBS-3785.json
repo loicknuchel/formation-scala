@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Conference",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Le temps est à l'origine de toutes les interactions qui se produisent sur les interfaces utilisateur que nous développons. Sans temps, rien ne se passe et nos interfaces ne reçoivent aucun évènement.</p>\n<p>Pourtant, le temps est rarement déclaré comme un paramètre explicite de nos programmes.</p>\n<p>Voyons ensemble comment la programmation fonctionnelle réactive et Cycle.js peuvent nous aider à déclarer nos applications comme pures fonctions du temps.</p>\n",
+  "id" : "OBS-3785",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0754b4972f5424c4cab4396145d2202ea19328e5",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Thomas Belin"
+      },
+      "name" : "Thomas Belin"
+    }
+  ],
+  "title" : "Les interfaces utilisateurs comme fonctions pures du temps",
+  "lang" : "fr",
+  "summary" : "Le temps est à l'origine de toutes les interactions qui se produisent sur les interfaces utilisateur que nous développons. Sans temps, rien ne se passe et nos interfaces ne reçoivent aucun évènement.\r\n\r\nPourtant, le temps est rarement déclaré comme un paramètre explicite de nos programmes. \r\n\r\nVoyons ensemble comment la programmation fonctionnelle réactive et Cycle.js peuvent nous aider à déclarer nos applications comme pures fonctions du temps."
+}

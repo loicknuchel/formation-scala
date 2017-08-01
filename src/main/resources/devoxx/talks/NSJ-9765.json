@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Conference",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Et si vous tiriez parti d'un bot pour préparer et ajuster votre agenda pour la conférence ? Est-ce qu'il y a des présentations sur le Machine Learning, ou sur Docker, ou votre langage de programmation préféré ? Qui présente cette session ?</p>\n<p>Dans cette session, nous allons regarder comment construire notre propre assistant, avec les APIs de reconnaissance vocale et d'analyse de langage naturel de Google Cloud, avec les services de API.AI pour construire des bots intelligents, et Google Cloud Functions pour implémenter la logique métier nécessaire.</p>\n",
+  "id" : "NSJ-9765",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3bb736546aa9cc376293b607a165b60c4233e704",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Guillaume Laforge"
+      },
+      "name" : "Guillaume Laforge"
+    }
+  ],
+  "title" : "Un bot pour gérer l'agenda de ta conférence",
+  "lang" : "fr",
+  "summary" : "Et si vous tiriez parti d'un bot pour préparer et ajuster votre agenda pour la conférence ? Est-ce qu'il y a des présentations sur le Machine Learning, ou sur Docker, ou votre langage de programmation préféré ? Qui présente cette session ? \r\n\r\nDans cette session, nous allons regarder comment construire notre propre assistant, avec les APIs de reconnaissance vocale et d'analyse de langage naturel de Google Cloud, avec les services de API.AI pour construire des bots intelligents, et Google Cloud Functions pour implémenter la logique métier nécessaire."
+}

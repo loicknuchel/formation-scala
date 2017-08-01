@@ -1,0 +1,28 @@
+{
+  "trackId" : "future",
+  "talkType" : "BOF (Bird of a Feather)",
+  "track" : "Future, Robotique",
+  "summaryAsHtml" : "<p>BOF des GDG Francais. Les Google Developer Groups (GDGs) sont des groupes de dévelopeurs intéressés par les technologies Google: Android, Chrome, Cloud, Go, Dart, Kubernetes, AngularJS, Firebase... ainsi que les API telles que Maps API, Cast API, YouTube API...</p>\n<p>Ce BOF présentera les GDGs ainsi que plusieurs technologies nouvelles du monde Google et sera co-organisé par plusieurs GDGs.</p>\n",
+  "id" : "VAQ-8019",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/bf8a71eed7ae0339dd4f1aca4899939fad7ad87b",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Alain Regnier"
+      },
+      "name" : "Alain Regnier"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4537de89f56b7966e34644ca43bb04407d264be9",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Thibault Pouget"
+      },
+      "name" : "Thibault Pouget"
+    }
+  ],
+  "title" : "BOF des Google Developer Group francais",
+  "lang" : "fr",
+  "summary" : "BOF des GDG Francais. Les Google Developer Groups (GDGs) sont des groupes de dévelopeurs intéressés par les technologies Google: Android, Chrome, Cloud, Go, Dart, Kubernetes, AngularJS, Firebase... ainsi que les API telles que Maps API, Cast API, YouTube API...\r\n\r\nCe BOF présentera les GDGs ainsi que plusieurs technologies nouvelles du monde Google et sera co-organisé par plusieurs GDGs.\r\n"
+}

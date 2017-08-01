@@ -1,0 +1,55 @@
+{
+  "uuid" : "4339329660c101f8f1a3755e856a1984c2dc54bf",
+  "bioAsHtml" : "<p>J&#x27;ai d&#x27;abord travaillé pendant huit ans comme consultant, principalement dans le domaine de l&#x27;infrastructure &amp; du cloud avant de m&#x27;intéresser plus largement aux problématiques DevOps. J&#x27;ai depuis intégré la Société Générale en tant qu&#x27;expert DevOps ; je m&#x27;attache désormais à évangéliser et intégrer les pratiques et outils du Continuous Delivery au sein de la DSI.</p>\n<p>Grand fan de Docker; je suis notamment co-organisateur de la communauté Meetup Docker de Paris, et suis Docker Captain.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/WIF-0197",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/25d88b19cb2f790435cbd6ba5c1e350e045d925f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Julien Corioland"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4339329660c101f8f1a3755e856a1984c2dc54bf",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Adrien Blind"
+        }
+      ],
+      "id" : "WIF-0197",
+      "title" : "Docker & DevOps : adopter les mêmes pratiques sous Windows et sous Linux!"
+    },
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/VKE-6295",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4339329660c101f8f1a3755e856a1984c2dc54bf",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Adrien Blind"
+        }
+      ],
+      "id" : "VKE-6295",
+      "title" : "BOF Docker"
+    }
+  ],
+  "company" : "Société Générale",
+  "bio" : "J'ai d'abord travaillé pendant huit ans comme consultant, principalement dans le domaine de l'infrastructure & du cloud avant de m'intéresser plus largement aux problématiques DevOps. J'ai depuis intégré la Société Générale en tant qu'expert DevOps ; je m'attache désormais à évangéliser et intégrer les pratiques et outils du Continuous Delivery au sein de la DSI.\r\n\r\nGrand fan de Docker; je suis notamment co-organisateur de la communauté Meetup Docker de Paris, et suis Docker Captain.",
+  "lastName" : "Blind",
+  "firstName" : "Adrien",
+  "blog" : "http://www.societegenerale.com",
+  "avatarURL" : "http://blog.docker.com/media/20141204_DockerCon-Thursday_102-7907.jpg",
+  "twitter" : "@adrienblind",
+  "lang" : "fr"
+}

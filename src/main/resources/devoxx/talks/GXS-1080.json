@@ -1,0 +1,28 @@
+{
+  "trackId" : "lang",
+  "talkType" : "Hands-on Labs",
+  "track" : "Langages alternatifs",
+  "summaryAsHtml" : "<p>modèle distribué à base d'acteurs, fault-tolerence, supervision, hot-swap, 99,99% de disponibilité, base de données distribuée : telles sont les fonctionnalités intrinsèques à la plateforme du langage Erlang.\n<strong>Le Reactive Manifesto ? La programmation fonctionnelle ?</strong> Erlang le fait déjà depuis sa création dans les locaux d'Ericsson et vous l'offre depuis 1998, lorsqu'il est devenu open-source.\nPour ce qui est des références sur le marché, ce langage multi-paradigmes est utilisé par des applications comme Chef, Riak, RabbitMQ ou encore le très populaire WhatsApp.</p>\n<p>\"Comment ai-je pu passer à côté de ça ?\" : <strong>On a pensé à vous !</strong>\nA travers ce Hands-On, vous découvrirez comment programmer et designer une application en Erlang, utiliser OTP et comment sont implémentés les mécanismes qui font la force de ce langage.</p>\n<p>Durant ces 3h, nous allons apprendre Erlang en <strong>programmant un jeu distribué en se basant sur le jeu de société Pandémie</strong> : chaque ville du jeu sera un process Erlang qui tournera sur vos machines !</p>\n<p><em>Matériel nécessaire</em> : un ordinateur avec les droits nécessaires pour installer un langage, l'envie de programmer et découvrir de nouvelles choses dans la bonne humeur.</p>\n",
+  "id" : "GXS-1080",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b4f2685d545ff927785480eceb1005e93d136a28",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Yvan VU"
+      },
+      "name" : "Yvan VU"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/96861b9f4bd67f986e22eb98c5e9b0d1fdf3f689",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Arnauld Loyer"
+      },
+      "name" : "Arnauld Loyer"
+    }
+  ],
+  "title" : "Erlang : Reactive Microservices since 1987",
+  "lang" : "fr",
+  "summary" : "\r\nmodèle distribué à base d'acteurs, fault-tolerence, supervision, hot-swap, 99,99% de disponibilité, base de données distribuée : telles sont les fonctionnalités intrinsèques à la plateforme du langage Erlang.\r\n**Le Reactive Manifesto ? La programmation fonctionnelle ?** Erlang le fait déjà depuis sa création dans les locaux d'Ericsson et vous l'offre depuis 1998, lorsqu'il est devenu open-source.\r\nPour ce qui est des références sur le marché, ce langage multi-paradigmes est utilisé par des applications comme Chef, Riak, RabbitMQ ou encore le très populaire WhatsApp.\r\n\r\n\"Comment ai-je pu passer à côté de ça ?\" : **On a pensé à vous !**\r\nA travers ce Hands-On, vous découvrirez comment programmer et designer une application en Erlang, utiliser OTP et comment sont implémentés les mécanismes qui font la force de ce langage.\r\n\r\nDurant ces 3h, nous allons apprendre Erlang en **programmant un jeu distribué en se basant sur le jeu de société Pandémie** : chaque ville du jeu sera un process Erlang qui tournera sur vos machines !\r\n\r\n_Matériel nécessaire_ : un ordinateur avec les droits nécessaires pour installer un langage, l'envie de programmer et découvrir de nouvelles choses dans la bonne humeur."
+}

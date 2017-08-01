@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "Conference",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>La nouvelle génération de Spring Framework est bientôt disponible !</p>\n<p>Pour fonctionner sur Spring 5.0, les applications devront respecter de <strong>nouveaux pré-requis</strong> (versions minimales de JDK, conteneurs, libraries...). En contrepartie, vous pourrez vous préparer à l'arrivée de <strong>JDK9</strong>, activer les nouvelles <strong>améliorations de performance</strong> et migrer vers <strong>HTTP/2 et Servlet 4</strong>.</p>\n<p>Vos nouvelles applications pourront profiter aussi du <strong>support de Kotlin</strong> et même du nouveau <strong>Spring Reactive</strong>.</p>\n",
+  "id" : "JCU-5456",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7ee8911b3983bb10774f99ed3b3da60b1854c839",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Stéphane Nicoll"
+      },
+      "name" : "Stéphane Nicoll"
+    }
+  ],
+  "title" : "Spring Framework 5.0",
+  "lang" : "fr",
+  "summary" : "La nouvelle génération de Spring Framework est bientôt disponible !\r\n\r\nPour fonctionner sur Spring 5.0, les applications devront respecter de **nouveaux pré-requis** (versions minimales de JDK, conteneurs, libraries...). En contrepartie, vous pourrez vous préparer à l'arrivée de **JDK9**, activer les nouvelles **améliorations de performance** et migrer vers **HTTP/2 et Servlet 4**.\r\n\r\nVos nouvelles applications pourront profiter aussi du **support de Kotlin** et même du nouveau **Spring Reactive**."
+}

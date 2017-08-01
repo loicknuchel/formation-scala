@@ -1,0 +1,32 @@
+{
+  "uuid" : "461c61f74a62966ae1a3fbb31bbfc1f85034eedb",
+  "bioAsHtml" : "<p>Cédric Champeau est committer du langage Apache Groovy. Après avoir passé plus de 3 ans à développer ce langage au sein de Pivotal, où il a développé le compilateur statique, les traits, le support Android et autres fonctionnalités liées aux DSLs, Cédric a rejoint Gradle, Inc. pour développer le logiciel de build open source éponyme. Passionné par le métier, en particulier tout ce qui touche à l&#x27;outillage, Cédric aime avant tout développer des outils qui simplifient la vie des autres développeurs : langages, frameworks, build system, ...</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/NPZ-6166",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/461c61f74a62966ae1a3fbb31bbfc1f85034eedb",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Cédric Champeau"
+        }
+      ],
+      "id" : "NPZ-6166",
+      "title" : "Des builds incroyablement rapides avec Gradle 4"
+    }
+  ],
+  "company" : "Gradle, Inc.",
+  "bio" : "Cédric Champeau est committer du langage Apache Groovy. Après avoir passé plus de 3 ans à développer ce langage au sein de Pivotal, où il a développé le compilateur statique, les traits, le support Android et autres fonctionnalités liées aux DSLs, Cédric a rejoint Gradle, Inc. pour développer le logiciel de build open source éponyme. Passionné par le métier, en particulier tout ce qui touche à l'outillage, Cédric aime avant tout développer des outils qui simplifient la vie des autres développeurs : langages, frameworks, build system, ...",
+  "lastName" : "Champeau",
+  "firstName" : "Cédric",
+  "blog" : "http://melix.github.io/blog",
+  "avatarURL" : "https://lh3.googleusercontent.com/-G_v8HTWswjo/V6g0d2DAjKI/AAAAAAAAAIg/Bk4Al3torrEC1laV5BJgO82uHgdQ-AkPgCEw/w280-h278-p/IMG_4341.JPG",
+  "twitter" : "@CedricChampeau",
+  "lang" : "en-US"
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "University",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Google a récemment publié son framework d’intelligence artificielle appelé Tensorflow. Avec ce nouvel outil, l’apprentissage automatique franchit le pas entre la science de laboratoire et le métier d’ingénieur. Dans cette session, nos vous monterons comment choisir la bonne architecture de réseau de neurones pour votre problème et comment bien gérer son apprentissage. Savoir résoudre des équations différentielles n’est plus nécessaire. Des problèmes difficiles comme la reconnaissance de l’écriture manuscrite peuvent maintenant être résolus avec quelques lignes de Python/Tensorflow et une collection de trucs &amp; astuces d’ingénieur.\nCette Université s'adresse à tous les développeurs qui souhaitent entrer dans le monde des réseaux de neurones en 3 heures intenses mais accessibles. Elle couvre les réseaux denses, convolutionels et récurrents.</p>\n",
+  "id" : "RPG-3291",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/61dfd901ae785202fd5a87ed358657cf02b568ed",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Martin Görner"
+      },
+      "name" : "Martin Görner"
+    }
+  ],
+  "title" : "University: Tensorflow et l'apprentissage profond, sans les équations différentielles",
+  "lang" : "fr",
+  "summary" : "Google a récemment publié son framework d’intelligence artificielle appelé Tensorflow. Avec ce nouvel outil, l’apprentissage automatique franchit le pas entre la science de laboratoire et le métier d’ingénieur. Dans cette session, nos vous monterons comment choisir la bonne architecture de réseau de neurones pour votre problème et comment bien gérer son apprentissage. Savoir résoudre des équations différentielles n’est plus nécessaire. Des problèmes difficiles comme la reconnaissance de l’écriture manuscrite peuvent maintenant être résolus avec quelques lignes de Python/Tensorflow et une collection de trucs & astuces d’ingénieur.\r\nCette Université s'adresse à tous les développeurs qui souhaitent entrer dans le monde des réseaux de neurones en 3 heures intenses mais accessibles. Elle couvre les réseaux denses, convolutionels et récurrents."
+}

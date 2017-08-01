@@ -1,0 +1,20 @@
+{
+  "trackId" : "mobile",
+  "talkType" : "Conference",
+  "track" : "Mobile, IoT",
+  "summaryAsHtml" : "<p>Vous avez l'âme d'un bidouilleur / maker où vous voulez vous mettre à la bidouille alors ce talk est fait pour vous !</p>\n<p>Le contenu de cette conférence est un condensé de retours d'expériences de plusieurs années. Vous aurez de quoi gagner en efficacité pour vos propres bidouilles.</p>\n<p>Il y aura du soft et du hard et en grande variété !</p>\n<p>Quelques exemples de sujets abordés :</p>\n<ul>\n<li><strong>Comment arrêter de voir vos Raspberry Pi comme des tueuses de cartes SD</strong></li>\n<li><strong>Trouver un oscillo à pas cher</strong></li>\n<li><strong>Plusieurs solutions d'interfaçage de composants hardware avec Java</strong></li>\n<li>...</li>\n</ul>\n<p>Que vous soyez un bidouilleur débutant ou averti, Il y en aura pour tout le monde et pour tous les goûts !</p>\n",
+  "id" : "BEH-8866",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/021614c570fa26e9c91b343a6fdcb486d69cbabe",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Laurent HUET"
+      },
+      "name" : "Laurent HUET"
+    }
+  ],
+  "title" : "Kit de survie pour l'IoT façon DIY",
+  "lang" : "fr",
+  "summary" : "Vous avez l'âme d'un bidouilleur / maker où vous voulez vous mettre à la bidouille alors ce talk est fait pour vous !\r\n\r\nLe contenu de cette conférence est un condensé de retours d'expériences de plusieurs années. Vous aurez de quoi gagner en efficacité pour vos propres bidouilles.\r\n\r\nIl y aura du soft et du hard et en grande variété !\r\n\r\nQuelques exemples de sujets abordés :\r\n\r\n* **Comment arrêter de voir vos Raspberry Pi comme des tueuses de cartes SD** \r\n* **Trouver un oscillo à pas cher**\r\n* **Plusieurs solutions d'interfaçage de composants hardware avec Java**\r\n* ...\r\n\r\nQue vous soyez un bidouilleur débutant ou averti, Il y en aura pour tout le monde et pour tous les goûts !"
+}

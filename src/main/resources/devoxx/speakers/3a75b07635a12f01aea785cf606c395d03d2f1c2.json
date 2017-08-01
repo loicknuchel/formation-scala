@@ -1,0 +1,42 @@
+{
+  "uuid" : "3a75b07635a12f01aea785cf606c395d03d2f1c2",
+  "bioAsHtml" : "<p>Committer Maven depuis 2007, Chair de juillet 2014 à juillet 2016\nMembre de la Fondation Apache depuis 2011\nTouche à tout de l&#x27;ensemble du code Maven...</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/OKR-3855",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3a75b07635a12f01aea785cf606c395d03d2f1c2",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Hervé Boutemy"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a4aa19fa64372b927a62ff039428f4b4aafc687d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Arnaud Héritier"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9851a429a45bee3543469ba6385e1d552790420f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Brian Fox"
+        }
+      ],
+      "id" : "OKR-3855",
+      "title" : "BOF Apache Maven"
+    }
+  ],
+  "company" : "ASF",
+  "bio" : "Committer Maven depuis 2007, Chair de juillet 2014 à juillet 2016\r\nMembre de la Fondation Apache depuis 2011\r\nTouche à tout de l'ensemble du code Maven...",
+  "lastName" : "Boutemy",
+  "firstName" : "Hervé",
+  "blog" : "http://people.apache.org/~hboutemy",
+  "avatarURL" : "http://www.gravatar.com/avatar/35b0cc47b5e6d602734c636082d630df",
+  "twitter" : "@hboutemy",
+  "lang" : "fr"
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Quickie",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p><code>null</code> est une des plus grandes erreurs de la création. Qui n’a jamais pleuré devant une <code>NullPointerException</code> ou autre segmentation fault ? Qui n’a jamais pesté devant les séries de <code>if(foo != null)</code> ?</p>\n<p>Il a engendré tant de malheurs parmi les développeurs, qu’il fallait bien faire quelque chose. Ce quickie propose quelques idées pour s’en passer, et ne plus vivre ces terribles moments.</p>\n",
+  "id" : "RSK-9259",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/66792ec2f279d6825695b479a0e510c0f90d6beb",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Cyril Delmas"
+      },
+      "name" : "Cyril Delmas"
+    }
+  ],
+  "title" : "Null pour les nuls - ou comment l'éviter",
+  "lang" : "fr",
+  "summary" : "`null` est une des plus grandes erreurs de la création. Qui n’a jamais pleuré devant une `NullPointerException` ou autre segmentation fault ? Qui n’a jamais pesté devant les séries de `if(foo != null)` ?\r\n\r\nIl a engendré tant de malheurs parmi les développeurs, qu’il fallait bien faire quelque chose. Ce quickie propose quelques idées pour s’en passer, et ne plus vivre ces terribles moments."
+}

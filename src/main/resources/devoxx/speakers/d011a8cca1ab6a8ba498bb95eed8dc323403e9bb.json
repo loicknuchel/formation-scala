@@ -1,0 +1,32 @@
+{
+  "uuid" : "d011a8cca1ab6a8ba498bb95eed8dc323403e9bb",
+  "bioAsHtml" : "<p>I help Java customers and partners recognize the value of working with Microsoft Azure.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/WEK-3277",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d011a8cca1ab6a8ba498bb95eed8dc323403e9bb",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Brian Benz"
+        }
+      ],
+      "id" : "WEK-3277",
+      "title" : "The State of Java in the Cloud"
+    }
+  ],
+  "company" : "Microsoft",
+  "bio" : "I help Java customers and partners recognize the value of working with Microsoft Azure.",
+  "lastName" : "Benz",
+  "firstName" : "Brian",
+  "blog" : "https://azure.microsoft.com/blog/",
+  "avatarURL" : "https://media.licdn.com/mpr/mprx/0_sMe3tiBFzc4Su_hAV4H-tTzWzng826TA4YyYt8NJoPWK1Cnl9xZDphhcR4jx738jUsE0gFouOyZn",
+  "twitter" : "@bbenz",
+  "lang" : "en"
+}

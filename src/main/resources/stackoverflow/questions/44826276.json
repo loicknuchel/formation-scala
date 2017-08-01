@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826276,
+  "title" : "Checkbox state not toggle. Material UI React",
+  "body" : "<p>I use Material UI checkbox component, and try toggle state onCheck, in console state changes but in UI not, the check mark does not toggle. what did I mess.</p>\n\n<pre><code>class CheckboxInteractivity extends React.Component {\n\n    state = {\n        switched: false,\n    }\n\n    componentWillMount() {\n        const {checked} = this.props\n        if (checked) {\n            this.setState({\n                switched: true,\n            })\n        }\n    }\n\n    handleChange = (event, switched) =&gt; {\n        this.setState({switched: !this.state.switched})\n    }\n\n    render () {\n        const {switched} = this.state\n\n        return &lt;Checkbox\n            label=\"Label\"\n            checked={switched}\n            onCheck={this.handleChange}\n            {...this.props}\n                /&gt;\n    }\n}\n\nCheckboxInteractivity.propTypes = {\n    checked: PropTypes.bool,\n}\n\nexport default CheckboxInteractivity\n</code></pre>\n\n<p>components </p>\n\n<pre><code>&lt;CheckboxInteractivity /&gt; \n//working correctly\n&lt;CheckboxInteractivity checked/&gt;\n//not working \n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826276/checkbox-state-not-toggle-material-ui-react",
+  "owner" : {
+    "user_id" : 5692612,
+    "user_type" : "registered",
+    "display_name" : "Palaniichuk Dmytro",
+    "profile_image" : "https://graph.facebook.com/1011474795560864/picture?type=large",
+    "link" : "https://stackoverflow.com/users/5692612/palaniichuk-dmytro",
+    "reputation" : 118,
+    "accept_rate" : 23
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742320,
+  "last_activity_date" : 1498743567,
+  "tags" : [
+    "javascript",
+    "reactjs",
+    "material-ui"
+  ],
+  "score" : 0,
+  "view_count" : 18,
+  "answer_count" : 1
+}

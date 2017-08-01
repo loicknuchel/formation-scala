@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826150,
+  "title" : "How to copy the same list to another entity",
+  "body" : "<p>I need to copy a existent list to another entities, but when the entity framework save only one entity persit the list.</p>\n\n<pre><code>var myList = GetList();\n\nvar newList = myEntities.Select(x =&gt;\n{\n   var entity = x.GetEntity();\n\n   entity.List = myList.ToList();\n\n   return entity;\n}).ToList()\n\nRepository.SaveMany(newList);\nRepository.SaveChanges();\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826150/how-to-copy-the-same-list-to-another-entity",
+  "owner" : {
+    "user_id" : 8231867,
+    "user_type" : "registered",
+    "display_name" : "Tulio Filho",
+    "profile_image" : "https://lh6.googleusercontent.com/-4h-kdOFy1YM/AAAAAAAAAAI/AAAAAAAAAE0/AdWpyVAVls0/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/8231867/tulio-filho",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741991,
+  "last_activity_date" : 1498741991,
+  "tags" : [
+    "c#-4.0",
+    "entity-framework-4"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

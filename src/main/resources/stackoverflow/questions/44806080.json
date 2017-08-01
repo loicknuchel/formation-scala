@@ -1,0 +1,25 @@
+{
+  "question_id" : 44806080,
+  "title" : "Angular change Route but keep navigation as is",
+  "body" : "<p>Angular is built for Single Page Applications, so it should be possible to change the route but only have certain elements in the browser window changed, right?</p>\n\n<p>For example I have a simple page with a main navigation component and a content area component.</p>\n\n<p>Would it be possible to navigate to a different route and keep the main navigation component untouched?</p>\n\n<p>Currently, when I do navigate to a different route, the main navigation component is always reloaded (OnInit is fired).</p>\n\n<p>Any thoughts?</p>\n\n<p>Thanks a lot!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806080/angular-change-route-but-keep-navigation-as-is",
+  "owner" : {
+    "user_id" : 6698988,
+    "user_type" : "registered",
+    "display_name" : "Carli Beeli",
+    "profile_image" : "https://www.gravatar.com/avatar/f54e2affb669942399fdffc394721509?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/6698988/carli-beeli",
+    "reputation" : 28,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661831,
+  "last_activity_date" : 1498661831,
+  "tags" : [
+    "angular",
+    "angular2-routing"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

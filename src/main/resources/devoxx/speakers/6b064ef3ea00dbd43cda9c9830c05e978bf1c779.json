@@ -1,0 +1,32 @@
+{
+  "uuid" : "6b064ef3ea00dbd43cda9c9830c05e978bf1c779",
+  "bioAsHtml" : "<p>Après des études de statistique, développeur de logiciels d’analyse statistique au Département informatique de l’INSEE, puis ingénieur système et réseau.</p>\n<p>De 1981 à 2001, responsable des équipes d’informatique scientifique et des infrastructures informatiques, successivement, de l&#x27;Institut national d’Études démographiques, du Conservatoire national des Arts et métiers (CNAM), de l&#x27;Institut Pasteur. J&#x27;ai ainsi participé au démarrage de l’Internet en France. De 2001 à 2008 : RSSI de l’Inserm, certification &quot;Lead Auditor ISO 27001&quot; et publication d’un manuel de sécurité informatique chez Eyrolles. De 2008 à 2012 : DSI de l’Université Paris-Dauphine. Actuellement chercheur en cyberstratégie et membre de l&#x27;Institut de l&#x27;Iconomie.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Keynote",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/IAK-9866",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6b064ef3ea00dbd43cda9c9830c05e978bf1c779",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Laurent Bloch"
+        }
+      ],
+      "id" : "IAK-9866",
+      "title" : "Révolution cyberindustrielle en France"
+    }
+  ],
+  "company" : "Institut de l'Iconomie",
+  "bio" : "Après des études de statistique, développeur de logiciels d’analyse statistique au Département informatique de l’INSEE, puis ingénieur système et réseau.\r\n\r\nDe 1981 à 2001, responsable des équipes d’informatique scientifique et des infrastructures informatiques, successivement, de l'Institut national d’Études démographiques, du Conservatoire national des Arts et métiers (CNAM), de l'Institut Pasteur. J'ai ainsi participé au démarrage de l’Internet en France. De 2001 à 2008 : RSSI de l’Inserm, certification \"Lead Auditor ISO 27001\" et publication d’un manuel de sécurité informatique chez Eyrolles. De 2008 à 2012 : DSI de l’Université Paris-Dauphine. Actuellement chercheur en cyberstratégie et membre de l'Institut de l'Iconomie.",
+  "lastName" : "Bloch",
+  "firstName" : "Laurent",
+  "blog" : "http://www.laurentbloch.org/",
+  "avatarURL" : "http://www.laurentbloch.org/MySpip3/Curriculum-vitae#outil_sommaire_25",
+  "twitter" : "@laubloch",
+  "lang" : "fr-FR"
+}

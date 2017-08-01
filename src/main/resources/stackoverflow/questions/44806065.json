@@ -1,0 +1,26 @@
+{
+  "question_id" : 44806065,
+  "title" : "Topbar covering webpage header",
+  "body" : "<p>I'm making a website and want a navigation bar that stays at the top of the screen. I can do this fine but when I scroll to top it goes above header. How do I get it to stop scrolling with the user before the top of the page? I have watched countless tutorials but none seem to work. I think I need JavaScript to unstick the bar at a certain height, but unsure how. Also how do I restick it when the user scrolls back down?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806065/topbar-covering-webpage-header",
+  "owner" : {
+    "user_id" : 8221260,
+    "user_type" : "registered",
+    "display_name" : "user8221260",
+    "profile_image" : "https://www.gravatar.com/avatar/b64141eb276f1ee4570b0e09db9d6890?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/8221260/user8221260",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661798,
+  "last_activity_date" : 1498661798,
+  "tags" : [
+    "javascript",
+    "html",
+    "css"
+  ],
+  "score" : -2,
+  "view_count" : 5,
+  "answer_count" : 0
+}

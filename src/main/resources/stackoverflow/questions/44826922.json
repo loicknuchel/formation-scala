@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826922,
+  "title" : "Is the content of Buckys C++ YouTube tutorials technically accurate?",
+  "body" : "<p>Right now i have a lot of waiting times at work and I'm trying to make the best out of my time. I was looking for some good C++ Tutorials without Indian accent and i came accross Buckys Tutorials. He has a lot of views and a really fun and easy way to explain things. Right now I'm at video the video about polymorphism and virtual functions and his example is extremly helpful and easy to understand. <br>\nI enjoy watching his tutorials but sometimes I wonder if all the content is technically accurate. I know he made some errors when explaining private variables and i also had the feeling he wasn't to certain when explaining Recursion. <br>\nSo what is your opinion of Bucky? Is he a good source of information? Do you know of any other videos with errors?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826922/is-the-content-of-buckys-c-youtube-tutorials-technically-accurate",
+  "owner" : {
+    "user_id" : 7467950,
+    "user_type" : "registered",
+    "display_name" : "MilloMille",
+    "profile_image" : "https://www.gravatar.com/avatar/2a47ec32ccfc63e09d1826b8b0bcdb7b?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7467950/millomille",
+    "reputation" : 5,
+    "accept_rate" : 50
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743876,
+  "last_activity_date" : 1498743876,
+  "tags" : [
+    "c++",
+    "youtube"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

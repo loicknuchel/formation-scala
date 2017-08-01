@@ -1,0 +1,44 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Hands-on Labs",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Apache Kafka introduit deux librairies Java d'ingestion, de processing et d'export : Kafka Streams et Kafka Connect.\nDans ce Hands'on nous verrons comment Kafka Connect nous permet d'ingérer et d'exporter des données sans écrire de code et comment les abstractions offertes par le DSL KafkaStreams nous permettent de réaliser facilement des pipelines temps réel.</p>\n<p>Les participants verront comment avec Kafka Streams on peut :\n- Composer des microservices de streaming faiblement couplés\n- Agréger en continu les topics Kafka, entre eux et avec des référentiels externes.\n- Produire une architecture élastique qui évolue avec le volume de messages\n- Connecter sans coder les streams à des sources et destinations multiples (JDBC / Fichiers logs / HDFS / Elasticsearch).</p>\n<p>Les exemples seront illustrés en Java et Scala.</p>\n<p><strong>Pré-requis:</strong></p>\n<ul>\n<li>Docker avec l'image <a href=\"https://github.com/Landoop/fast-data-dev/\">landoop/fast-data-dev</a></li>\n<li>Java 8</li>\n<li>Maven</li>\n</ul>\n",
+  "id" : "TJZ-5762",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/eb5fc40f11485d015a1bb7d20fa5c9c40f941569",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Simon Dumas"
+      },
+      "name" : "Simon Dumas"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/68e3eb4644fd25d25ece568b8ad434fe8cab5e29",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Fred CECILIA"
+      },
+      "name" : "Fred CECILIA"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/808c73e08775c96b4bb2121e5ab2ee914b8837e6",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Hayssam Saleh"
+      },
+      "name" : "Hayssam Saleh"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/792c98760a898dc32a5b23f793e2519a657d5a6b",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Valentin Kasas"
+      },
+      "name" : "Valentin Kasas"
+    }
+  ],
+  "title" : "Hands-on Kafka Streams",
+  "lang" : "fr",
+  "summary" : "Apache Kafka introduit deux librairies Java d'ingestion, de processing et d'export : Kafka Streams et Kafka Connect.\r\nDans ce Hands'on nous verrons comment Kafka Connect nous permet d'ingérer et d'exporter des données sans écrire de code et comment les abstractions offertes par le DSL KafkaStreams nous permettent de réaliser facilement des pipelines temps réel.\r\n\r\nLes participants verront comment avec Kafka Streams on peut :\r\n- Composer des microservices de streaming faiblement couplés\r\n- Agréger en continu les topics Kafka, entre eux et avec des référentiels externes.\r\n- Produire une architecture élastique qui évolue avec le volume de messages\r\n- Connecter sans coder les streams à des sources et destinations multiples (JDBC / Fichiers logs / HDFS / Elasticsearch).\r\n\r\nLes exemples seront illustrés en Java et Scala.\r\n\r\n**Pré-requis:**\r\n\r\n  * Docker avec l'image [landoop/fast-data-dev](https://github.com/Landoop/fast-data-dev/) \r\n  * Java 8 \r\n  * Maven "
+}

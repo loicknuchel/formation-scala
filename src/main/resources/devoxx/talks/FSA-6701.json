@@ -1,0 +1,28 @@
+{
+  "trackId" : "java",
+  "talkType" : "Conference",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>Spring 5.0 arrive dans le monde Reactive avec un nouveau framework web <a href=\"http://docs.spring.io/spring/docs/5.0.x/spring-framework-reference/html/web-reactive.html\"><strong>Spring WebFlux</strong></a> qui se base à 100% sur Reactive Streams et s'adapte aux APIs réactives telles que Reactor 3 ou RxJava 2, mais également avec les différents projets de la galaxie Spring qui ajoutent progressivement le support de ce type de programmation.</p>\n<p>Cette session de live coding va vous montrer comment créer une application réactive avec Spring 5.0 et Spring Boot 2.0. Nous coderons ensemble <strong>une API REST JSON</strong>, des <strong>vues HTML avec Mustache</strong> enrichies avec du <strong>push Server-Sent Events</strong>, du micro-batching, le tout avec une couche persistence utilisant <strong>Spring Data Reactive Mongo</strong> et le nouveau <code>WebClient</code> pour composer des données issues de services distants (API REST ou streaming). L'application utilisera <strong>Netty</strong> comme moteur HTTP côté client et serveur.</p>\n<p>Nous vous donnerons également un aperçu de l'API fonctionnelle WebFlux (basée sur des lambdas au lieu des annotations) en Java 8 et en Kotlin.</p>\n",
+  "id" : "FSA-6701",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d84b817a907825ede4a9d5a74665bc23be072608",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Sebastien Deleuze"
+      },
+      "name" : "Sebastien Deleuze"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e8c67e2df13f82a0e69b26b1274d11fec44b0122",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Brian Clozel"
+      },
+      "name" : "Brian Clozel"
+    }
+  ],
+  "title" : "Reactive Spring",
+  "lang" : "fr",
+  "summary" : "Spring 5.0 arrive dans le monde Reactive avec un nouveau framework web [**Spring WebFlux**](http://docs.spring.io/spring/docs/5.0.x/spring-framework-reference/html/web-reactive.html) qui se base à 100% sur Reactive Streams et s'adapte aux APIs réactives telles que Reactor 3 ou RxJava 2, mais également avec les différents projets de la galaxie Spring qui ajoutent progressivement le support de ce type de programmation.\r\n\r\nCette session de live coding va vous montrer comment créer une application réactive avec Spring 5.0 et Spring Boot 2.0. Nous coderons ensemble **une API REST JSON**, des **vues HTML avec Mustache** enrichies avec du **push Server-Sent Events**, du micro-batching, le tout avec une couche persistence utilisant **Spring Data Reactive Mongo** et le nouveau `WebClient` pour composer des données issues de services distants (API REST ou streaming). L'application utilisera **Netty** comme moteur HTTP côté client et serveur.\r\n\r\nNous vous donnerons également un aperçu de l'API fonctionnelle WebFlux (basée sur des lambdas au lieu des annotations) en Java 8 et en Kotlin."
+}

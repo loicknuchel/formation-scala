@@ -1,0 +1,60 @@
+{
+  "uuid" : "73ebde8b6affccfdd3cdfceebac253655a224f63",
+  "bioAsHtml" : "<p>Spaniard lost in Brittany, unconformist coder, Java craftsman, dreamer and all-around geek</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/RMC-9585",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/73ebde8b6affccfdd3cdfceebac253655a224f63",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Horacio Gonzalez"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1693d28c079e6c28269b9aa86ae04a4549ad3074",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Fabrice Sznajderman"
+        }
+      ],
+      "id" : "RMC-9585",
+      "title" : "Une application sociale pour Devoxx"
+    },
+    {
+      "talkType" : "Conference",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/NQJ-5142",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/02cc1a9ee35911062a9a42476a8a09d04fd0149d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Cyril Balit"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/73ebde8b6affccfdd3cdfceebac253655a224f63",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Horacio Gonzalez"
+        }
+      ],
+      "id" : "NQJ-5142",
+      "title" : "Mixité dans le monde des webcomponents"
+    }
+  ],
+  "company" : "Cityzen Data",
+  "bio" : "Spaniard lost in Brittany, unconformist coder, Java craftsman, dreamer and all-around geek",
+  "lastName" : "Gonzalez",
+  "firstName" : "Horacio",
+  "blog" : "https://lostinbrittany.org",
+  "avatarURL" : "https://lh4.googleusercontent.com/-6krIgoWnkGk/AAAAAAAAAAI/AAAAAAAAPhA/3V6oHPZzcM8/photo.jpg",
+  "twitter" : "@LostInBrittany",
+  "lang" : "en-US"
+}

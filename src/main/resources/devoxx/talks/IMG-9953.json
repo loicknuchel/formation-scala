@@ -1,0 +1,20 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "Tools-in-Action",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>Mesurer la latence avec précision, sans dégrader les performances d'un système, il y a des pièges et c'est vite très compliqué...<br  />\nHeureusement il y a HdrHistogram !<br  />\nCette petite pépite s'est très vite imposée comme la référence dans le domaine de la latence. Implémenté à l'origine en Java, elle a été par la suite portée dans de nombreux langages comme C#, C, Go et depuis peu Rust et TypeScript.\nLors de ce tools in action nous ferons un tour d'horizon des principales fonctionnalités proposées par HdrHistogram.<br  />\nMais comme en matière de performances il n'est jamais bon d'avoir affaire à une boite noire, je vous propose aussi de lever un peu le capot et d'aller voir comment cela fonctionne.</p>\n",
+  "id" : "IMG-9953",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/86661baacfba951a7f5d939f3afa85960072b679",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Alexandre Victoor"
+      },
+      "name" : "Alexandre Victoor"
+    }
+  ],
+  "title" : "HdrHistogram: l'outil indispensable pour mesurer la latence",
+  "lang" : "fr",
+  "summary" : "Mesurer la latence avec précision, sans dégrader les performances d'un système, il y a des pièges et c'est vite très compliqué...  \r\nHeureusement il y a HdrHistogram !   \r\nCette petite pépite s'est très vite imposée comme la référence dans le domaine de la latence. Implémenté à l'origine en Java, elle a été par la suite portée dans de nombreux langages comme C#, C, Go et depuis peu Rust et TypeScript.\r\nLors de ce tools in action nous ferons un tour d'horizon des principales fonctionnalités proposées par HdrHistogram.   \r\nMais comme en matière de performances il n'est jamais bon d'avoir affaire à une boite noire, je vous propose aussi de lever un peu le capot et d'aller voir comment cela fonctionne.\r\n"
+}

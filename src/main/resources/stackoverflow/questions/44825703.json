@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825703,
+  "title" : "Flask: form.validate_on_submit() throwing type error",
+  "body" : "<p>Everytime I submit my form on '/signup' view, <code>form.validate_on_submit()</code> in my <code>views.py</code> throws the error below:</p>\n\n<pre><code>TypeError: __init__() takes from 1 to 2 positional arguments but 3 were given\n</code></pre>\n\n<p>The stack trace is pretty long and I don't see anything immediately obvious. I have no idea why it is doing this. I followed the <a href=\"https://flask-wtf.readthedocs.io/en/stable/quickstart.html\" rel=\"nofollow noreferrer\">Flask-WTF docs</a> for validating forms.</p>\n\n<p>EDIT: <a href=\"https://pastebin.com/vWUeHWSd\" rel=\"nofollow noreferrer\">Here</a> is the stack trace I am seeing.</p>\n\n<h3>views.py</h3>\n\n<pre><code>from myapp import app\nfrom flask import render_template, redirect\nfrom forms import RegistrationForm\n\n@app.route('/', methods=['POST', 'GET'])\n@app.route('/signup', methods=['POST', 'GET'])\ndef signup():\n    form = RegistrationForm()\n    if form.validate_on_submit():\n        # Redirect to Dash Board\n        return redirect('/dashboard')\n    return render_template(\"signup.html\", form=form)\n\n@app.route('/login')\ndef login():\n    return \"&lt;h1&gt;Login&lt;/h1&gt;\"\n\n@app.route('/dashboard')\ndef dashboard():\n    return \"&lt;h1&gt;Dashboard&lt;/h1&gt;\"\n</code></pre>\n\n<h3>forms.py</h3>\n\n<pre><code>from flask_wtf import FlaskForm\nfrom wtforms import TextField, PasswordField\nfrom wtforms.validators import InputRequired, Email, Length\n\nclass RegistrationForm(FlaskForm):\n    username = TextField('username', validators=[InputRequired(), Length(min=4, max=30)])\n    email = TextField('email', validators=[InputRequired(), Email, Length(max=25)])\n    password = PasswordField('password', validators=[InputRequired(), Length(min=8, max=80)])\n\nclass LoginForm(FlaskForm):\n    username = TextField('username', validators=[InputRequired(), Length(min=4, max=30)])\n    password = PasswordField('password', validators=[InputRequired(), Length(min=8, max=80)])\n</code></pre>\n\n<h3>signup.html</h3>\n\n<pre><code>{% extends \"base.html\" %}\n{% block content %}\n&lt;h1&gt;Sign Up&lt;/h1&gt;\n\n&lt;form method=\"POST\" action=\"/signup\"&gt;\n{{ form.hidden_tag() }}\n&lt;p&gt;Username:&lt;/p&gt;\n{{ form.username() }}\n&lt;p&gt;Email:&lt;/p&gt;\n{{ form.email() }}\n&lt;p&gt;Password:&lt;/p&gt;\n{{ form.password() }}\n&lt;br/&gt;\n&lt;br/&gt;\n&lt;button type=\"Submit\" value=\"submit\" name=\"submit\"&gt;Submit&lt;/button&gt;\n&lt;/form&gt;\n{% endblock %}\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44825703/flask-form-validate-on-submit-throwing-type-error",
+  "owner" : {
+    "user_id" : 4963988,
+    "user_type" : "registered",
+    "display_name" : "Timothy Pulliam",
+    "profile_image" : "https://www.gravatar.com/avatar/51e85445e0c349fd378dffa3db285011?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4963988/timothy-pulliam",
+    "reputation" : 119,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498740785,
+  "last_activity_date" : 1498741636,
+  "tags" : [
+    "flask",
+    "flask-wtforms"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 1
+}

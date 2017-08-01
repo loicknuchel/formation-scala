@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "Quickie",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>Soyez une \"feign\"-asse quand vous écrivez un client REST java</p>\n<p>Le but de ce quicky est de vous faire découvrir feign, une libraire opensource avec une approche originale de simplicité pour créer des clients REST java comparée aux jaxrs, restTemplate à base d'interface et d'annotations.</p>\n<p>Cette lib opensource a été créé par Netflix et est notamment utilisée dans spring-cloud / spring-boot avec eureka et ribbon.</p>\n<p>Si vous ne connaissez pas du tout feign, que vous commencez à appeler pas mal d'api REST et à créer des microservices via spring-boot, cette présentation peut vous intéresser.</p>\n",
+  "id" : "QBX-0528",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f16ea01bc16ec2fe917253821523bee4a35d7b07",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Alexandre Navarro"
+      },
+      "name" : "Alexandre Navarro"
+    }
+  ],
+  "title" : "Soyez une \"feign\"-asse quand vous écrivez un client REST java",
+  "lang" : "fr",
+  "summary" : "Soyez une \"feign\"-asse quand vous écrivez un client REST java\r\n\r\nLe but de ce quicky est de vous faire découvrir feign, une libraire opensource avec une approche originale de simplicité pour créer des clients REST java comparée aux jaxrs, restTemplate à base d'interface et d'annotations.\r\n\r\nCette lib opensource a été créé par Netflix et est notamment utilisée dans spring-cloud / spring-boot avec eureka et ribbon.\r\n\r\nSi vous ne connaissez pas du tout feign, que vous commencez à appeler pas mal d'api REST et à créer des microservices via spring-boot, cette présentation peut vous intéresser."
+}

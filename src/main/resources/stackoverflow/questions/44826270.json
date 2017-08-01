@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826270,
+  "title" : "Remote debugging of Bluemix CF Java buildpack application",
+  "body" : "<p>I have a standalone java application deployed on IBM BLuemix as Cloud Foundry Java buildpack.\nIs there a way to perform remote debugging on it in Eclipse?\nI could find only docs for remote debugging of Java Liberty buildpack applications.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826270/remote-debugging-of-bluemix-cf-java-buildpack-application",
+  "owner" : {
+    "user_id" : 5866851,
+    "user_type" : "registered",
+    "display_name" : "Caroh",
+    "profile_image" : "https://www.gravatar.com/avatar/e3a2cb6605d09035be3d4964b4fcfb35?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/5866851/caroh",
+    "reputation" : 46,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742300,
+  "last_activity_date" : 1498742300,
+  "tags" : [
+    "ibm-bluemix",
+    "remote-debugging",
+    "cloudfoundry",
+    "bluemix-plugin"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

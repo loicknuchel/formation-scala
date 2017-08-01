@@ -1,0 +1,65 @@
+{
+  "uuid" : "1693d28c079e6c28269b9aa86ae04a4549ad3074",
+  "bioAsHtml" : "<p>Fabrice Sznajderman est un développeur passionné à Zenika Paris. Javaiste depuis plus de 15 ans, il s’intéresse particulièrement aujourd’hui au paradigme fonctionnel au travers du langage Scala et son écosystème. Dans sa ligne de mire, on retrouve également les technologies estampillées BigData comme Spark. Comme tout passionné, Fabrice aime partager ses connaissances via des formations sur Java ou Scala, des conférences ou encore des déjeuners techniques dans le cadre des BBL’s. (http://www.brownbaglunch.fr/baggers.html#Paris)</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/XPI-0919",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/09a79f4e4592cf77e5ebf0965489e6c7ec0438cd",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Loïc KNUCHEL"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1693d28c079e6c28269b9aa86ae04a4549ad3074",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Fabrice Sznajderman"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d167a51898267ed3b5913c1789f1ae6110a6ecf5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Walid chergui"
+        }
+      ],
+      "id" : "XPI-0919",
+      "title" : "Scala class, bien démarrer avec Scala"
+    },
+    {
+      "talkType" : "Conference",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/RMC-9585",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/73ebde8b6affccfdd3cdfceebac253655a224f63",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Horacio Gonzalez"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1693d28c079e6c28269b9aa86ae04a4549ad3074",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Fabrice Sznajderman"
+        }
+      ],
+      "id" : "RMC-9585",
+      "title" : "Une application sociale pour Devoxx"
+    }
+  ],
+  "company" : "Zenika",
+  "bio" : "Fabrice Sznajderman est un développeur passionné à Zenika Paris. Javaiste depuis plus de 15 ans, il s’intéresse particulièrement aujourd’hui au paradigme fonctionnel au travers du langage Scala et son écosystème. Dans sa ligne de mire, on retrouve également les technologies estampillées BigData comme Spark. Comme tout passionné, Fabrice aime partager ses connaissances via des formations sur Java ou Scala, des conférences ou encore des déjeuners techniques dans le cadre des BBL’s. (http://www.brownbaglunch.fr/baggers.html#Paris)",
+  "lastName" : "Sznajderman",
+  "firstName" : "Fabrice",
+  "blog" : "https://plus.google.com/u/0/112440333946538821016/posts",
+  "avatarURL" : "http://goo.gl/c9H8n1",
+  "twitter" : "@fsznajderman",
+  "lang" : "fr"
+}

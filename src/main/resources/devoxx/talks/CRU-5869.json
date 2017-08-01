@@ -1,0 +1,20 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Tools-in-Action",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Découvrez en moins de 30 minutes des outils, des APIS et des services pour votre projet, votre équipe, votre produit ou votre startup.</p>\n<p>L'envoi d'emails transactionnels, la gestion du support, le live-chat, le suivi de production, le déploiement continu, les tests avec un navigateur web que vous n'avez pas, l'intégration continue sur iOS, les tests de sécurité, la veille technique, le recrutement, les envois d'emails...</p>\n<p>Je vous propose de découvrir et de voir en situation tout un ensemble de services, à utiliser sur votre projet dès le lundi suivant. J'utiliserai des exemples tirés des différentes sociétés où j'ai travaillé, ainsi que de Devoxx France.</p>\n",
+  "id" : "CRU-5869",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b14651a3cd78ab4fd03d522ebef81cdac1d5755c",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Nicolas Martignole"
+      },
+      "name" : "Nicolas Martignole"
+    }
+  ],
+  "title" : "Recettes, outils, API et services pour construire son équipe ou sa startup",
+  "lang" : "fr",
+  "summary" : "Découvrez en moins de 30 minutes des outils, des APIS et des services pour votre projet, votre équipe, votre produit ou votre startup. \r\n\r\nL'envoi d'emails transactionnels, la gestion du support, le live-chat, le suivi de production, le déploiement continu, les tests avec un navigateur web que vous n'avez pas, l'intégration continue sur iOS, les tests de sécurité, la veille technique, le recrutement, les envois d'emails... \r\n\r\nJe vous propose de découvrir et de voir en situation tout un ensemble de services, à utiliser sur votre projet dès le lundi suivant. J'utiliserai des exemples tirés des différentes sociétés où j'ai travaillé, ainsi que de Devoxx France.\r\n\r\n\r\n\r\n\r\n\r\n"
+}

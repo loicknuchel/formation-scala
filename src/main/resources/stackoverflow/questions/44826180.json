@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826180,
+  "title" : "upload DB to bigquery",
+  "body" : "<p>if I have a mysql DB, sized of 180 GB.\nwhat will be the easiest way to upload it to google bigquery?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826180/upload-db-to-bigquery",
+  "owner" : {
+    "user_id" : 2835021,
+    "user_type" : "registered",
+    "display_name" : "Naty",
+    "profile_image" : "https://www.gravatar.com/avatar/9f27598744455fee4f721e4b4de47e2b?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/2835021/naty",
+    "reputation" : 319,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742070,
+  "last_activity_date" : 1498742070,
+  "tags" : [
+    "mysql",
+    "sql",
+    "amazon-web-services",
+    "google-bigquery",
+    "bigdata"
+  ],
+  "score" : -3,
+  "view_count" : 12,
+  "answer_count" : 0
+}

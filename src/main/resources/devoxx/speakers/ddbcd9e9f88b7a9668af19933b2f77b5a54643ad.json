@@ -1,0 +1,32 @@
+{
+  "uuid" : "ddbcd9e9f88b7a9668af19933b2f77b5a54643ad",
+  "bioAsHtml" : "<p>Jean-Sébastien Dupuy est évangéliste technique chez Microsoft France. Passionné par le développement d’applications mobiles, les objets connectés et plus récemment les bots, il anime régulièrement des sessions sur ces différents sujets. Vous pouvez suivre son actualité sur twitter @dupuyjs ou sur son blog https://blogs.msdn.microsoft.com/jdupuy/.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/MRR-6414",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ddbcd9e9f88b7a9668af19933b2f77b5a54643ad",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Sébastien Dupuy"
+        }
+      ],
+      "id" : "MRR-6414",
+      "title" : "Rendez vos applications plus humaines avec Cognitive Services"
+    }
+  ],
+  "company" : "Microsoft",
+  "bio" : "Jean-Sébastien Dupuy est évangéliste technique chez Microsoft France. Passionné par le développement d’applications mobiles, les objets connectés et plus récemment les bots, il anime régulièrement des sessions sur ces différents sujets. Vous pouvez suivre son actualité sur twitter @dupuyjs ou sur son blog https://blogs.msdn.microsoft.com/jdupuy/.",
+  "lastName" : "Dupuy",
+  "firstName" : "Jean-Sébastien",
+  "blog" : "https://blogs.msdn.microsoft.com/jdupuy/",
+  "avatarURL" : "https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/15037201_10154707121062498_5209467274865005612_n.jpg?oh=e91a8677b849e9d315bc6482890d40b6&oe=58BEF05B",
+  "twitter" : "@dupuyjs",
+  "lang" : "en"
+}

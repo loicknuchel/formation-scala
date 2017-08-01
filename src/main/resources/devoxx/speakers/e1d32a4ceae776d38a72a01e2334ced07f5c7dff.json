@@ -1,0 +1,32 @@
+{
+  "uuid" : "e1d32a4ceae776d38a72a01e2334ced07f5c7dff",
+  "bioAsHtml" : "<p>François est développeur et &quot;PO technique&quot; chez Voyages-sncf. Passionné par les pratiques autant que les outils, il faisait de l&#x27;Intégration Continue &quot;tout terrain&quot; sur de gros projets (#maven #git) avant de devenir architecte suivi de production (#bigdata #monitoringlove #devops).</p>\n<p>Quand il n&#x27;est pas en train de développer, François présente des démos ou anime des formations. Il a survécu à son premier Devoxx en 2013 et intervient régulièrement au Meetup @parismonitoring.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/JZK-8395",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e1d32a4ceae776d38a72a01e2334ced07f5c7dff",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Francois NOLLEN"
+        }
+      ],
+      "id" : "JZK-8395",
+      "title" : "Introduction à la détection d'anomalies avec Graphite"
+    }
+  ],
+  "company" : "VSC Technologies",
+  "bio" : "François est développeur et \"PO technique\" chez Voyages-sncf. Passionné par les pratiques autant que les outils, il faisait de l'Intégration Continue \"tout terrain\" sur de gros projets (#maven #git) avant de devenir architecte suivi de production (#bigdata #monitoringlove #devops).\r\n\r\nQuand il n'est pas en train de développer, François présente des démos ou anime des formations. Il a survécu à son premier Devoxx en 2013 et intervient régulièrement au Meetup @parismonitoring.",
+  "lastName" : "NOLLEN",
+  "firstName" : "Francois",
+  "blog" : null,
+  "avatarURL" : "http://www.gravatar.com/avatar/a080a7d45ea205880465ad70b5ffd22f",
+  "twitter" : null,
+  "lang" : "fr"
+}

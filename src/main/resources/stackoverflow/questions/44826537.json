@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826537,
+  "title" : "Email @ converted to %40 in GET - Using Swagger UI + Spring Rest",
+  "body" : "<p>I supply a correct email parameter as part of the request in my swagger-ui GET email service, which it is supposed to return a 200 with the the response json object, yet it comes back with a 404 and the email is there in the database, when </p>\n\n<p>I have noticed that it changes the @ to %40 in the url request\n<a href=\"http://localhost:8080/EmailApp/user/email/test%40email.com\" rel=\"nofollow noreferrer\">http://localhost:8080/EmailApp/user/email/test%40email.com</a> </p>\n\n<p>Below is my restful web service method</p>\n\n<pre><code>@ApiOperation(value = \"Returns a user by email\", notes = \"Returns a user \nand its details by email.\", response = User.class)\n@ApiResponses(value = {\n        @ApiResponse(code = 200, message = \"Successful retrieval of a User\", response = User.class),\n        @ApiResponse(code = 404, message = \"User with given email does not exist\"),\n        @ApiResponse(code = 500, message = \"Internal server error\")}\n)\n@RequestMapping(value = \"/user/email/{email}\", method = RequestMethod.GET)\npublic ResponseEntity&lt;?&gt; getUserByEmail(@ApiParam(name = \"email\", value = \"The user email\", required = true)@PathVariable(\"email\") String email) {\n    log.info(\"Fetching User with email {}\", email);\n    User user = userService.findByEmail(email);\n    if (user == null) {\n        log.error(\"User with email {} not found.\", email);\n        return new ResponseEntity(new CustomErrorType(\"User with email \" + email\n                + \" not found\"), HttpStatus.NOT_FOUND);\n    }\n    return new ResponseEntity&lt;&gt;(user, HttpStatus.OK);\n}\n</code></pre>\n\n<p>How do I make sure that the @ is preserved in the url request in GET http protocol?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826537/email-converted-to-40-in-get-using-swagger-ui-spring-rest",
+  "owner" : {
+    "user_id" : 6889482,
+    "user_type" : "registered",
+    "display_name" : "Lwax",
+    "profile_image" : "https://i.stack.imgur.com/olbQT.png?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/6889482/lwax",
+    "reputation" : 21,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742974,
+  "last_activity_date" : 1498742974,
+  "tags" : [
+    "java",
+    "spring",
+    "swagger",
+    "swagger-ui",
+    "spring-restcontroller"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

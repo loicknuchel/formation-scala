@@ -1,0 +1,37 @@
+{
+  "uuid" : "4d5f418962faf283703a0c131d65f6825ea7ea16",
+  "bioAsHtml" : "<p>Fort de plus de 20 ans d&#x27;expérience en développement et direction de projets, Christophe conseille les grands comptes sur la mise en oeuvre de démarches permettant de livrer plus vite de meilleurs logiciels. Son expertise s&#x27;appuie sur un apprentissage en continu des méthodes et des modèles. C&#x27;est également un facilitateur et un coach, un observateur attentif, pratiquant l&#x27;écoute active.</p>\n<p>Communiquant reconnu au sein de la communauté agile, Christophe intervient régulièrement dans les conférences Agile France, Software Practice Advancement, XP Days Benelux, ainsi qu&#x27;à l&#x27;USI. Il est un des cofondateur du dojo de programmation. Au sein d&#x27;OCTO, Christophe diffuse les pratiques de développement telles</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/LBA-2322",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b79d2812e5f3a077ae9678e34e513933915cf677",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Xavier Detant"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4d5f418962faf283703a0c131d65f6825ea7ea16",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Christophe Thibaut"
+        }
+      ],
+      "id" : "LBA-2322",
+      "title" : "Tranches de Programmation Fonctionnelle -- Découverte de la programmation fonctionnelle avec Haskell"
+    }
+  ],
+  "company" : "OCTO Technology",
+  "bio" : "Fort de plus de 20 ans d'expérience en développement et direction de projets, Christophe conseille les grands comptes sur la mise en oeuvre de démarches permettant de livrer plus vite de meilleurs logiciels. Son expertise s'appuie sur un apprentissage en continu des méthodes et des modèles. C'est également un facilitateur et un coach, un observateur attentif, pratiquant l'écoute active. \r\n\r\nCommuniquant reconnu au sein de la communauté agile, Christophe intervient régulièrement dans les conférences Agile France, Software Practice Advancement, XP Days Benelux, ainsi qu'à l'USI. Il est un des cofondateur du dojo de programmation. Au sein d'OCTO, Christophe diffuse les pratiques de développement telles",
+  "lastName" : "Thibaut",
+  "firstName" : "Christophe",
+  "blog" : null,
+  "avatarURL" : "http://www.gravatar.com/avatar/9a034f987cc1e44dd51fd17133974623",
+  "twitter" : "@ToF_",
+  "lang" : "fr"
+}

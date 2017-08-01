@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Keynote",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>This talk and performance between Albert (a human) and A.L.Ex (an artificial intelligence embodied by a robot) from HumanMachine will showcase how improv comedy can be assisted (or made difficult) by a computer stage partner. The show was co-created by Piotr Mirowski and Kory Mathewson, two research scientists in artificial intelligence with a shared passion for building things as well as for drama and performing arts.\nThe aim of the show is to build bridges between the artistic / acting and AI / hacker communities, and to raise questions about the nature of spontaneity and communication. Can we model language by patterns? How can a statistical language model inform improvised theatre, which is about doing the most \"obvious\" thing? How easily do we suspend disbelief? Why should we follow the basic improvisation principles of always saying \"Yes, and...\" and of making one's (stage) partner look good?\nThe improv show will be in English, the following talk will be in French.</p>\n",
+  "id" : "QBS-0960",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7387fa628230b939e83702a39622afe4835808d0",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Piotr Mirowski"
+      },
+      "name" : "Piotr Mirowski"
+    }
+  ],
+  "title" : "Human / Machine Improvised Theatre",
+  "lang" : "fr",
+  "summary" : "This talk and performance between Albert (a human) and A.L.Ex (an artificial intelligence embodied by a robot) from HumanMachine will showcase how improv comedy can be assisted (or made difficult) by a computer stage partner. The show was co-created by Piotr Mirowski and Kory Mathewson, two research scientists in artificial intelligence with a shared passion for building things as well as for drama and performing arts. \r\nThe aim of the show is to build bridges between the artistic / acting and AI / hacker communities, and to raise questions about the nature of spontaneity and communication. Can we model language by patterns? How can a statistical language model inform improvised theatre, which is about doing the most \"obvious\" thing? How easily do we suspend disbelief? Why should we follow the basic improvisation principles of always saying \"Yes, and...\" and of making one's (stage) partner look good?\r\nThe improv show will be in English, the following talk will be in French."
+}

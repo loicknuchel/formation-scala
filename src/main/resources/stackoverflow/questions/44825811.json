@@ -1,0 +1,28 @@
+{
+  "question_id" : 44825811,
+  "title" : "AWS API Gateway Custom Authorizer lambda",
+  "body" : "<p>I am trying to authorise the API calls though AWS API Gateway's Custom authorizer, \n<br>which is basically a custom lambda function which takes in the following header of following format-</p>\n\n<pre><code>{\n    \"authorizationToken\": \"0c34ba00bde34200b383abe22bcfef96\",\n    \"methodArn\": \"arn:aws:execute-api:ap-southeast-1:855399270504:z6t3cv0z4m/null/GET/\",\n    \"type\": \"TOKEN\"\n}\n</code></pre>\n\n<p><strong>And expects a response in the following format -</strong></p>\n\n<pre><code>{\n  \"principalId\": \"xxxxxxx\", // the principal user identification associated with the token send by the client\n  \"policyDocument\": { // example policy shown below, but this value is any valid policy\n    \"Version\": \"2012-10-17\",\n    \"Statement\": [\n      {\n        \"Effect\": \"Allow\",\n        \"Action\": [\n          \"execute-api:Invoke\"\n        ],\n        \"Resource\": [\n          \"arn:aws:execute-api:us-east-1:xxxxxxxxxxxx:xxxxxxxx:/test/*/mydemoresource/*\"\n        ]\n      }\n    ]\n  }\n}\n</code></pre>\n\n<p><strong>I am able to do the internal logic with the authorizationToken and  validate whether the function should respond in a \"Allow\" or \"Deny\" policy</strong>,<br>\nBut I am getting a parsing error when I tried to test the Authorizer from the console,<br>\nFollowing are my request logs -<br></p>\n\n<pre><code>Execution log for request test-request\nThu Jun 29 11:48:10 UTC 2017 : Starting authorizer: 1o3dvk for request: test-request\nThu Jun 29 11:48:10 UTC 2017 : Incoming identity: **************************cfef96\nThu Jun 29 11:48:10 UTC 2017 : Endpoint request URI: https://lambda.ap-southeast-1.amazonaws.com/2015-03-31/functions/arn:aws:lambda:ap-southeast-1:855399270504:function:um_guestSessionAuthoriser/invocations\nThu Jun 29 11:48:10 UTC 2017 : Endpoint request headers: {x-amzn-lambda-integration-tag=test-request, Authorization=*********************************************************************************************************************************************************************************************************************************************************************************************************************************************751e60, X-Amz-Date=20170629T114810Z, x-amzn-apigateway-api-id=z6t3cv0z4m, X-Amz-Source-Arn=arn:aws:execute-api:ap-southeast-1:855399270504:z6t3cv0z4m/authorizers/1o3dvk, Accept=application/json, User-Agent=AmazonAPIGateway_z6t3cv0z4m, X-Amz-Security-Token=FQoDYXdzEHQaDOcIbaPscYGsl1wF4iLBAxzOTpZlR2r3AO3g96xwhRuQjEhU9OjOaRieBWQPeosNqv53aGKnBTT2CmkrVzHo3UqOdT1eakuS7tAXAbEcUIHVheWpBnvxqTkaPcknRL7QE79RSqVeryoXo2R1Kmk0Q9Iq+JGFlOJYQQJqvY/hcUg189xqbpTGrhZjcA+pjuSp+M9D97Kce0VP0e3peu/YvON0eGvUlj59MAJAwGVPIzplMKTDFrFg5NKEj79RSxNrNE8y4bAebOwlD8xLv649Zny7++xlMBBwHqMNHu3K9lFXSnKY9DHf6kvezZmpoFB2uu8WbrpInH0eQ/bIAd [TRUNCATED]\nThu Jun 29 11:48:10 UTC 2017 : Endpoint request body after transformations: {\"type\":\"TOKEN\",\"methodArn\":\"arn:aws:execute-api:ap-southeast-1:855399270504:z6t3cv0z4m/null/GET/\",\"authorizationToken\":\"0c34ba00bde34200b383abe22bcfef96\"}\nThu Jun 29 11:48:10 UTC 2017 : Sending request to https://lambda.ap-southeast-1.amazonaws.com/2015-03-31/functions/arn:aws:lambda:ap-southeast-1:855399270504:function:um_guestSessionAuthoriser/invocations\nThu Jun 29 11:48:21 UTC 2017 : Authorizer result body before parsing: {\"principalId\":\"user\",\"policyDocument\":{\"version\":\"2012-10-17\",\"statement\":[{\"resource\":\"arn:aws:execute-api:ap-southeast-1:855399270504:z6t3cv0z4m/null/GET/\",\"action\":\"execute-api:Invoke\",\"effect\":\"Allow\"}]}}\nThu Jun 29 11:48:21 UTC 2017 : Execution failed due to configuration error: Could not parse policy: {\"version\":\"2012-10-17\",\"statement\":[{\"resource\":\"arn:aws:execute-api:ap-southeast-1:855399270504:z6t3cv0z4m/null/GET/\",\"action\":\"execute-api:Invoke\",\"effect\":\"Allow\"}]}\nThu Jun 29 11:48:21 UTC 2017 : AuthorizerConfigurationException\n</code></pre>\n\n<p>I am using Java on the Lambda function and I have build and returned the policy using a a PoJo class(setter-getter class)<br>\nAfter beautifying the lambda response my Policy looks like follows -<br></p>\n\n<pre><code>{\n    \"principalId\": \"user\",\n    \"policyDocument\": {\n        \"version\": \"2012-10-17\",\n        \"statement\": [{\n            \"resource\": \"arn:aws:execute-api:ap-southeast-1:855399270504:z6t3cv0z4m/null/GET/\",\n            \"action\": \"execute-api:Invoke\",\n            \"effect\": \"Allow\"\n        }]\n    }\n}\n</code></pre>\n\n<p>I am wondering why it's not able to parse my response?<br></p>\n",
+  "link" : "https://stackoverflow.com/questions/44825811/aws-api-gateway-custom-authorizer-lambda",
+  "owner" : {
+    "user_id" : 5433178,
+    "user_type" : "registered",
+    "display_name" : "Aniruddha Raje",
+    "profile_image" : "https://lh6.googleusercontent.com/-dl_4GLzO4Jk/AAAAAAAAAAI/AAAAAAAAAms/KR9KRWgEsqA/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/5433178/aniruddha-raje",
+    "reputation" : 374,
+    "accept_rate" : 75
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741087,
+  "last_activity_date" : 1498743220,
+  "tags" : [
+    "java",
+    "amazon-web-services",
+    "aws-lambda",
+    "aws-api-gateway",
+    "amazon-iam"
+  ],
+  "score" : 0,
+  "view_count" : 8,
+  "answer_count" : 1
+}

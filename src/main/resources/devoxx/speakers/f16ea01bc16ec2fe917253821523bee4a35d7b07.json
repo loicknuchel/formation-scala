@@ -1,0 +1,32 @@
+{
+  "uuid" : "f16ea01bc16ec2fe917253821523bee4a35d7b07",
+  "bioAsHtml" : "<p>Architecte technique et leader technique à la SGCIB, Alexandre a travaillé sur de nombreuses  applications de Trading en java où le design, la performance ainsi qu&#x27;un code propre sont essentiels.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/QBX-0528",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f16ea01bc16ec2fe917253821523bee4a35d7b07",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Alexandre Navarro"
+        }
+      ],
+      "id" : "QBX-0528",
+      "title" : "Soyez une \"feign\"-asse quand vous écrivez un client REST java"
+    }
+  ],
+  "company" : "SGCIB",
+  "bio" : "Architecte technique et leader technique à la SGCIB, Alexandre a travaillé sur de nombreuses  applications de Trading en java où le design, la performance ainsi qu'un code propre sont essentiels.",
+  "lastName" : "Navarro",
+  "firstName" : "Alexandre",
+  "blog" : null,
+  "avatarURL" : "http://www.gravatar.com/avatar/093d627d14a97f7d89810a9b92dabdc5",
+  "twitter" : "@alex_j_navarro",
+  "lang" : "fr"
+}

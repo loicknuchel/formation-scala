@@ -1,0 +1,32 @@
+{
+  "uuid" : "7da184f5d275532ef0c27f545c0e1cfff1ccaee8",
+  "bioAsHtml" : "<p>Mes 17 années d&#x27;expérience dans le monde de l&#x27;IT m&#x27;ont permis de toucher à plusieurs métiers : développeur et IT Architect Applicatif, Consultant IT, Business Analyst, ODM Performance Architect, Evangelist Bluemix, créateur du premier Meetup PaaS en Europe (Bluemix Paris Meetup). En 2016, j&#x27;ai notamment été contributeur OSS IBM sur Node-RED sur des noeuds Watson et Business Rules.\nAujourd&#x27;hui : je travaille en tant que Software Engineer @IBMFranceLab sur le service Bluemix Business Rules. (famille de produit Operational Decision Manager - Outils de gestion des Règles Métiers).\nMes centres d&#x27;intérêts du moment : Node-RED, Watson, Internet of Things, Node.js</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/YWB-9589",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7da184f5d275532ef0c27f545c0e1cfff1ccaee8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yves LE CLEACH"
+        }
+      ],
+      "id" : "YWB-9589",
+      "title" : "Watson API Labs using Node-RED on Bluemix"
+    }
+  ],
+  "company" : "IBM",
+  "bio" : "Mes 17 années d'expérience dans le monde de l'IT m'ont permis de toucher à plusieurs métiers : développeur et IT Architect Applicatif, Consultant IT, Business Analyst, ODM Performance Architect, Evangelist Bluemix, créateur du premier Meetup PaaS en Europe (Bluemix Paris Meetup). En 2016, j'ai notamment été contributeur OSS IBM sur Node-RED sur des noeuds Watson et Business Rules.\r\nAujourd'hui : je travaille en tant que Software Engineer @IBMFranceLab sur le service Bluemix Business Rules. (famille de produit Operational Decision Manager - Outils de gestion des Règles Métiers).\r\nMes centres d'intérêts du moment : Node-RED, Watson, Internet of Things, Node.js",
+  "lastName" : "LE CLEACH",
+  "firstName" : "Yves",
+  "blog" : "http://usergroup.bluemix.fr",
+  "avatarURL" : "http://www.gravatar.com/avatar/d15c1d9d6bdb42da5e10aacec702bbe7.png",
+  "twitter" : "@ylecleach",
+  "lang" : "en"
+}

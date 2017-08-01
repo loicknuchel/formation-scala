@@ -1,0 +1,60 @@
+{
+  "uuid" : "eec27b231d20ebc4d7e2e2899fb37ffa7e0bbbac",
+  "bioAsHtml" : "<p>Florian Garcia est consultant Java chez Ippon technologies. Il intervient principalement sur de la conception et réalisation back-end (microservices, spring, kafka, ...).\nPassionné et hyper enthousiaste il travaille aussi sur des sujets relatifs aux architectures cloud ainsi qu&#x27;à la mouvance Devops (docker, jenkins, mesos...).</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/AXJ-0444",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/eec27b231d20ebc4d7e2e2899fb37ffa7e0bbbac",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Florian Garcia"
+        }
+      ],
+      "id" : "AXJ-0444",
+      "title" : "Spring cloud et Zipkin à la rescousse du tracing distribué"
+    },
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/MDG-6935",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/587c46e7b957f7e92a63246bdcc683e5d5e612a8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jérémie MONSINJON"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3c458756e883af773c547d9dba7cc5c2be2e3cee",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Christophe Labouisse"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/eec27b231d20ebc4d7e2e2899fb37ffa7e0bbbac",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Florian Garcia"
+        }
+      ],
+      "id" : "MDG-6935",
+      "title" : "Plateforme dynamique, #docker #dns #scalabilité... Où sont mes microservices ?"
+    }
+  ],
+  "company" : "Ippon Technologies",
+  "bio" : "Florian Garcia est consultant Java chez Ippon technologies. Il intervient principalement sur de la conception et réalisation back-end (microservices, spring, kafka, ...). \r\nPassionné et hyper enthousiaste il travaille aussi sur des sujets relatifs aux architectures cloud ainsi qu'à la mouvance Devops (docker, jenkins, mesos...).",
+  "lastName" : "Garcia",
+  "firstName" : "Florian",
+  "blog" : "http://blog.ippon.fr",
+  "avatarURL" : "https://lh3.googleusercontent.com/-0StPaxAeDwo/UyhOr9BUpPI/AAAAAAAAAYM/Yjes-ImXmyMprpuhFaw8kGw9pS-aXWGTACEw/w140-h140-p/e0c620c0-22d7-44b4-a757-e31cee364b26",
+  "twitter" : "@Im_flog",
+  "lang" : "fr"
+}

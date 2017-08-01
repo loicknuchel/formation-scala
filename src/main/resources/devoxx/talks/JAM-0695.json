@@ -1,0 +1,20 @@
+{
+  "trackId" : "lang",
+  "talkType" : "Keynote",
+  "track" : "Langages alternatifs",
+  "summaryAsHtml" : "<p>Nous sommes tous tenus au devoir de responsabilité. À l’égard de nous-mêmes, des autres et de la société. Tous, nous sommes égaux devant cet impératif qui nous est imposé par le fait même d’exister. En revanche, le poids de responsabilité de chacun, lui, n’est pas égal. Car le degré de responsabilité est fonction d’un pouvoir exercé dans la mesure où les actes engagent bien au-delà de soi-même.\nSi l’on se fie à ce critère, apparaît alors une cartographie très diverse des responsabilités. On peut distinguer, sur l’un des reliefs les plus élevés, la présence d’une catégorie de personnes exerçant une activité à laquelle nous n’aurions pas immédiatement pensée parce qu’elle nous semble, de prime abord, presque aussi commune et banale que tant d’autres.\nCette profession qui, aujourd’hui se situerait au plus haut sur cette cartographie des responsabilités, c’est celle des ingénieurs. Car les ingénieurs, particulièrement les concepteurs d’algorithmes et les programmeurs, pratiquent un métier qui engage l’une des plus importantes, sinon la plus importante, charge de responsabilité au sein de la société. Vu que leurs actes entraînent toute sorte de conséquences sur nos vies individuelles</p>\n",
+  "id" : "JAM-0695",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0c15fff028d0d015fd98a53ded3d6ab77aefb332",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Eric  Sadin"
+      },
+      "name" : "Eric  Sadin"
+    }
+  ],
+  "title" : "De la responsabilité des ingénieurs",
+  "lang" : "fr",
+  "summary" : "Nous sommes tous tenus au devoir de responsabilité. À l’égard de nous-mêmes, des autres et de la société. Tous, nous sommes égaux devant cet impératif qui nous est imposé par le fait même d’exister. En revanche, le poids de responsabilité de chacun, lui, n’est pas égal. Car le degré de responsabilité est fonction d’un pouvoir exercé dans la mesure où les actes engagent bien au-delà de soi-même. \r\nSi l’on se fie à ce critère, apparaît alors une cartographie très diverse des responsabilités. On peut distinguer, sur l’un des reliefs les plus élevés, la présence d’une catégorie de personnes exerçant une activité à laquelle nous n’aurions pas immédiatement pensée parce qu’elle nous semble, de prime abord, presque aussi commune et banale que tant d’autres. \r\nCette profession qui, aujourd’hui se situerait au plus haut sur cette cartographie des responsabilités, c’est celle des ingénieurs. Car les ingénieurs, particulièrement les concepteurs d’algorithmes et les programmeurs, pratiquent un métier qui engage l’une des plus importantes, sinon la plus importante, charge de responsabilité au sein de la société. Vu que leurs actes entraînent toute sorte de conséquences sur nos vies individuelles"
+}

@@ -1,0 +1,32 @@
+{
+  "uuid" : "9a0c89b3b8f24e94216f6fe3ee13c08e3acb1cee",
+  "bioAsHtml" : "<p>Docteur en informatique, j&#x27;occupe actuellement le poste d&#x27;ingénieur R&amp;D chez Scalingo. Scalingo est une entreprise de Platform-as-a-Service (PaaS) française.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/XYA-5266",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9a0c89b3b8f24e94216f6fe3ee13c08e3acb1cee",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Étienne Michon"
+        }
+      ],
+      "id" : "XYA-5266",
+      "title" : "Prise en main d'InfluxDB : utilisation d'une base de données time series"
+    }
+  ],
+  "company" : "Scalingo",
+  "bio" : "Docteur en informatique, j'occupe actuellement le poste d'ingénieur R&D chez Scalingo. Scalingo est une entreprise de Platform-as-a-Service (PaaS) française.",
+  "lastName" : "Michon",
+  "firstName" : "Étienne",
+  "blog" : "https://scalingo.com/",
+  "avatarURL" : "http://www.gravatar.com/avatar/480c959f14dc7009f9db50aa8cc92b0f",
+  "twitter" : "@ScalingoHQ",
+  "lang" : "en"
+}

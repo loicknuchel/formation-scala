@@ -1,0 +1,47 @@
+{
+  "uuid" : "792c98760a898dc32a5b23f793e2519a657d5a6b",
+  "bioAsHtml" : "<p>After many years using Java (and loving it), I discovered Scala, at DevoxxFR in 2012. That was a blast. Since then, I became rather obsessed with that language and sought every opportunity to learn more about it, and about FP in general. I&#x27;ve learned what a monad is, and then I learned not to worry about what a monad is. I&#x27;ve learned about higher-kinded types and all sort of bizarre things only people who know why SI-2712 is a bad bug care about. Meanwhile, I met those people who care about SI-2712 and made some friends.\nNow, I thrive to share my enthusiasm about Scala with more and more people, and to make more friends by not talking too much about monads.</p>\n<p>Also, I wear suits.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/TJZ-5762",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/eb5fc40f11485d015a1bb7d20fa5c9c40f941569",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Simon Dumas"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/68e3eb4644fd25d25ece568b8ad434fe8cab5e29",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Fred CECILIA"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/808c73e08775c96b4bb2121e5ab2ee914b8837e6",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Hayssam Saleh"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/792c98760a898dc32a5b23f793e2519a657d5a6b",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Valentin Kasas"
+        }
+      ],
+      "id" : "TJZ-5762",
+      "title" : "Hands-on Kafka Streams"
+    }
+  ],
+  "company" : "KANAKA",
+  "bio" : "After many years using Java (and loving it), I discovered Scala, at DevoxxFR in 2012. That was a blast. Since then, I became rather obsessed with that language and sought every opportunity to learn more about it, and about FP in general. I've learned what a monad is, and then I learned not to worry about what a monad is. I've learned about higher-kinded types and all sort of bizarre things only people who know why SI-2712 is a bad bug care about. Meanwhile, I met those people who care about SI-2712 and made some friends.\r\nNow, I thrive to share my enthusiasm about Scala with more and more people, and to make more friends by not talking too much about monads.\r\n\r\nAlso, I wear suits.",
+  "lastName" : "Kasas",
+  "firstName" : "Valentin",
+  "blog" : "http://kanaka.io",
+  "avatarURL" : "https://media.licdn.com/mpr/mprx/0_tlYgpl8pM9rK1hc_-P2Gp1htJ-zYPhn_rKEGp-_i6c37ukTiOBmlttcDcyv8rFB7Pty_1vl-nNg2",
+  "twitter" : "@ValentinKasas",
+  "lang" : "fr"
+}

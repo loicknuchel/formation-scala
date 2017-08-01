@@ -1,0 +1,32 @@
+{
+  "uuid" : "c9ee40f365c35e302f4cce756c593e8f08f9ae39",
+  "bioAsHtml" : "<p>Pragmastism Driven Developer passionate about xDD (TDD/BDD/DDD), clean architectures (Event Sourcing and al.) and code quality. Enthusiastic defender of knowledge sharing and human skills.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/HSF-1743",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c9ee40f365c35e302f4cce756c593e8f08f9ae39",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Clément Heliou"
+        }
+      ],
+      "id" : "HSF-1743",
+      "title" : "CQRS/EventSourcing par la pratique"
+    }
+  ],
+  "company" : "Xebia",
+  "bio" : "Pragmastism Driven Developer passionate about xDD (TDD/BDD/DDD), clean architectures (Event Sourcing and al.) and code quality. Enthusiastic defender of knowledge sharing and human skills.",
+  "lastName" : "Heliou",
+  "firstName" : "Clément",
+  "blog" : "http://blog.xebia.fr",
+  "avatarURL" : "https://lh3.googleusercontent.com/-e4m3toY4tV4/AAAAAAAAAAI/AAAAAAAAAEo/YSme2J9fxMQ/photo.jpg",
+  "twitter" : "@c_heliou",
+  "lang" : "fr-FR"
+}

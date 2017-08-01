@@ -1,0 +1,32 @@
+{
+  "uuid" : "b5b7ff65df4c04074155e7c38c1d3b74778fcd2e",
+  "bioAsHtml" : "<p>Christian Fauré est ingénieur et philosophe.\nIl est partner chez OCTO Technology, ancien Président de l’Institut de Recherche et d’Innovation au Centre Pompidou, et membre du Conseil d’Administration de l’association Ars Industrialis, fondée par le philosophe Bernard Stiegler.</p>\n<p>Il est auteur et co-auteur de plusieurs ouvrages dont : « Pour en finir avec la mécroissance », Flammarion, 2009, « Culture politique et ingénierie des réseaux Sociaux », 2012, FYP, « Organologie des savoirs et technologies de la connaissance », FYP, 2014.</p>\n<p>Il intervient comme consultant et également comme conférencier.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Future, Robotique",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/DUV-4621",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b5b7ff65df4c04074155e7c38c1d3b74778fcd2e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Christian Fauré"
+        }
+      ],
+      "id" : "DUV-4621",
+      "title" : "La nouvelle éthique technologique"
+    }
+  ],
+  "company" : "OCTO",
+  "bio" : "Christian Fauré est ingénieur et philosophe.\r\nIl est partner chez OCTO Technology, ancien Président de l’Institut de Recherche et d’Innovation au Centre Pompidou, et membre du Conseil d’Administration de l’association Ars Industrialis, fondée par le philosophe Bernard Stiegler.\r\n\r\nIl est auteur et co-auteur de plusieurs ouvrages dont : « Pour en finir avec la mécroissance », Flammarion, 2009, « Culture politique et ingénierie des réseaux Sociaux », 2012, FYP, « Organologie des savoirs et technologies de la connaissance », FYP, 2014.\r\n\r\nIl intervient comme consultant et également comme conférencier.\r\n",
+  "lastName" : "Fauré",
+  "firstName" : "Christian",
+  "blog" : "http://www.christian-faure.net/",
+  "avatarURL" : "https://media.licdn.com/media/p/3/005/034/346/39f3b28.jpg",
+  "twitter" : "@ChristianFaure",
+  "lang" : "fr"
+}

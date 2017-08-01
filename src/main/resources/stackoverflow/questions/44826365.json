@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826365,
+  "title" : "How to automatically number columns in calc/excel",
+  "body" : "<p>In spreadsheet software such as LibreOffice Calc, or MS Excel, rows are numbered starting at 1, and column identifiers are assigned with a letter (A, B, C, etc.).</p>\n\n<p>Is it possible to add an extra row and enumerate all columns progamatically like in the picture below?</p>\n\n<p><a href=\"https://i.stack.imgur.com/SXHT6.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/SXHT6.png\" alt=\"enter image description here\"></a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44826365/how-to-automatically-number-columns-in-calc-excel",
+  "owner" : {
+    "user_id" : 8215719,
+    "user_type" : "registered",
+    "display_name" : "Javier Arias",
+    "profile_image" : "https://i.stack.imgur.com/lJHEf.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/8215719/javier-arias",
+    "reputation" : 169,
+    "accept_rate" : null
+  },
+  "is_answered" : true,
+  "creation_date" : 1498742557,
+  "last_activity_date" : 1498743001,
+  "tags" : [
+    "excel",
+    "libreoffice-calc"
+  ],
+  "score" : 1,
+  "view_count" : 10,
+  "answer_count" : 1
+}

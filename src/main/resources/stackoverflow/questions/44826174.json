@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826174,
+  "title" : "Changing the value of a parameter in Angular 4",
+  "body" : "<p>I'm building a unit test in Angular 4\nI want to be able to pass in a variable to my router (as if I was on a webpage and navigating to url/3 where 3 is the variable I'm referring to)</p>\n\n<p>I have achieved this with the following</p>\n\n<pre><code>      { provide: ActivatedRoute, useValue: { 'params': Observable.from([{ 'id': 5}]) } },\n</code></pre>\n\n<p>What I want to achieve is, one test varifies that I query the proper database hit (through mocks) and that said object returns with ID 5</p>\n\n<p>In another test, i want to ensure that my component is listening to URL events.</p>\n\n<p>How do I go about 'emitting' a change in this ActivatedRoute parameter so in another test, i can write Parameter=10; expect returned object.id=10</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826174/changing-the-value-of-a-parameter-in-angular-4",
+  "owner" : {
+    "user_id" : 2725284,
+    "user_type" : "registered",
+    "display_name" : "furiousgreg",
+    "profile_image" : "https://www.gravatar.com/avatar/9d9a33fca150b5a88cacb8303dc775a5?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/2725284/furiousgreg",
+    "reputation" : 13,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742057,
+  "last_activity_date" : 1498742057,
+  "tags" : [
+    "angular",
+    "observable"
+  ],
+  "score" : 0,
+  "view_count" : 16,
+  "answer_count" : 0
+}

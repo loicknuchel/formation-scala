@@ -1,0 +1,20 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Conference",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>Créer, démarrer un conteneur sur une machine est devenu un jeu\nd'enfant grâce à Docker. Mais il est encore relativement compliqué de\nmonter un cluster de machine de façon fiable et robuste. Et s'il était possible de mettre en place un cluster Docker de façon simple sans une armée d'expert ?</p>\n<p>C'est un sujet sur lequel les équipes de Docker se sont posés et la\nnouvelle version 1.12 est la première étape !</p>\n<p>À partir de le version 1.12, Docker embarque des fonctionnalités\nd'orchestration très simple à mettre en place, robuste et sécurisé.</p>\n<p>Nous allons explorer les nouveautés apportées par la version 1.12 (et\nsuperieurs) en mettant en place rapidement et simplement un cluster\nDocker, en quelques commandes.</p>\n",
+  "id" : "SFL-2161",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f152133e6107190056f5706e22c92c95468dde9a",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Vincent Demeester"
+      },
+      "name" : "Vincent Demeester"
+    }
+  ],
+  "title" : "Kit d'orchestration avec docker swarm mode",
+  "lang" : "fr",
+  "summary" : "Créer, démarrer un conteneur sur une machine est devenu un jeu\r\nd'enfant grâce à Docker. Mais il est encore relativement compliqué de\r\nmonter un cluster de machine de façon fiable et robuste. Et s'il était possible de mettre en place un cluster Docker de façon simple sans une armée d'expert ?\r\n\r\nC'est un sujet sur lequel les équipes de Docker se sont posés et la\r\nnouvelle version 1.12 est la première étape !\r\n\r\nÀ partir de le version 1.12, Docker embarque des fonctionnalités\r\nd'orchestration très simple à mettre en place, robuste et sécurisé.\r\n\r\nNous allons explorer les nouveautés apportées par la version 1.12 (et\r\nsuperieurs) en mettant en place rapidement et simplement un cluster\r\nDocker, en quelques commandes."
+}

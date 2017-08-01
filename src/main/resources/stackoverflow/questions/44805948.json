@@ -1,0 +1,26 @@
+{
+  "question_id" : 44805948,
+  "title" : "Is it a risk to disable joomla session handler",
+  "body" : "<p>I want to disable session handler for guests in my joomla 3.7 site because </p>\n\n<ol>\n<li>The site does not have login option front end</li>\n<li>The host is already overloaded. Suspended the account twice in a month.</li>\n<li>Mysql crashed several times.</li>\n</ol>\n\n<p>So, please tell me which process is the best to disable session for guest (viewers). Also, if it is safe or not.\nThanks in advance.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44805948/is-it-a-risk-to-disable-joomla-session-handler",
+  "owner" : {
+    "user_id" : 4657768,
+    "user_type" : "registered",
+    "display_name" : "Jiban",
+    "profile_image" : "https://www.gravatar.com/avatar/763f3d607ec726ae1bf0c9b9c45cf757?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4657768/jiban",
+    "reputation" : 16,
+    "accept_rate" : 0
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661537,
+  "last_activity_date" : 1498661537,
+  "tags" : [
+    "php",
+    "session",
+    "joomla"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

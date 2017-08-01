@@ -1,0 +1,32 @@
+{
+  "uuid" : "f3f156a480be59b1498a470ac9a64a309e99962e",
+  "bioAsHtml" : "<p>Devops la journée, JUG Leader le soir sur Montpellier, j&#x27;aime discuter de developpements et surtout de Docker.\nAncien développeur (Java/Clojure/Python) et gestionnaire de build, j&#x27;ai passé le cap vers le Devops et me focus notamment Docker sur lequel j&#x27;aime tester de nouvelles choses et mettre en place des services pour les équipes avec lesquelles je travaille.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/YRM-9672",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f3f156a480be59b1498a470ac9a64a309e99962e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Francois Teychene"
+        }
+      ],
+      "id" : "YRM-9672",
+      "title" : "Au secours, ma prod est sous Docker !"
+    }
+  ],
+  "company" : "TabMo",
+  "bio" : "Devops la journée, JUG Leader le soir sur Montpellier, j'aime discuter de developpements et surtout de Docker. \r\nAncien développeur (Java/Clojure/Python) et gestionnaire de build, j'ai passé le cap vers le Devops et me focus notamment Docker sur lequel j'aime tester de nouvelles choses et mettre en place des services pour les équipes avec lesquelles je travaille.",
+  "lastName" : "Teychene",
+  "firstName" : "Francois",
+  "blog" : null,
+  "avatarURL" : "https://pbs.twimg.com/profile_images/725431505565179904/eb6WvtkM_400x400.jpg",
+  "twitter" : "@fteychene",
+  "lang" : "fr-FR"
+}

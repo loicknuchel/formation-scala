@@ -1,0 +1,20 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "Quickie",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>Aujourd’hui, pratiquement toutes les applications possèdent des informations à caractère personnel, ne serait-ce que l'adresse électronique et le mot de passe de l'utilisateur. Et il est de votre responsabilité, morale et légale, de protéger ces données.</p>\n<p>L'anonymisation et la pseudonymie sont deux techniques utiles pour parvenir à cette tâche. Mais gare aux pièges ! Une mise en œuvre naïve peut être facilement déjouée.</p>\n<p>Nous verrons au cours de cette présentation, pourquoi les utiliser, ainsi que quelques méthodes efficaces pour y parvenir.</p>\n",
+  "id" : "SPT-3387",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0e3d8d4c3a1bcac12432df36292f9b358763a612",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Jérôme Mainaud"
+      },
+      "name" : "Jérôme Mainaud"
+    }
+  ],
+  "title" : "Anonymisation des données",
+  "lang" : "fr",
+  "summary" : "Aujourd’hui, pratiquement toutes les applications possèdent des informations à caractère personnel, ne serait-ce que l'adresse électronique et le mot de passe de l'utilisateur. Et il est de votre responsabilité, morale et légale, de protéger ces données.\r\n\r\nL'anonymisation et la pseudonymie sont deux techniques utiles pour parvenir à cette tâche. Mais gare aux pièges ! Une mise en œuvre naïve peut être facilement déjouée.\r\n\r\nNous verrons au cours de cette présentation, pourquoi les utiliser, ainsi que quelques méthodes efficaces pour y parvenir."
+}

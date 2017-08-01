@@ -1,0 +1,42 @@
+{
+  "uuid" : "d167a51898267ed3b5913c1789f1ae6110a6ecf5",
+  "bioAsHtml" : "<p>Développeur Java / Scala , passionné par la data et les architectures distribués .</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/XPI-0919",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/09a79f4e4592cf77e5ebf0965489e6c7ec0438cd",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Loïc KNUCHEL"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1693d28c079e6c28269b9aa86ae04a4549ad3074",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Fabrice Sznajderman"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d167a51898267ed3b5913c1789f1ae6110a6ecf5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Walid chergui"
+        }
+      ],
+      "id" : "XPI-0919",
+      "title" : "Scala class, bien démarrer avec Scala"
+    }
+  ],
+  "company" : "Freelance",
+  "bio" : "Développeur Java / Scala , passionné par la data et les architectures distribués .",
+  "lastName" : "chergui",
+  "firstName" : "walid",
+  "blog" : null,
+  "avatarURL" : "https://pbs.twimg.com/profile_images/735845961289859072/mey2SXqi.jpg",
+  "twitter" : "@walidchergui",
+  "lang" : "fr"
+}

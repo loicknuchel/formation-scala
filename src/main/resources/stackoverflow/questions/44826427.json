@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826427,
+  "title" : "Problems with @PrepareForTest annotation",
+  "body" : "<p>Is there any way to use one @PrepareForTest annotation for all the tests inside the class?\nI see that despite writing for example @PrepareForTest(PortalUtil.class) befor setUp method, I have to write this again with every test method which uses PortalUtil.class.. Can be this solved?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826427/problems-with-preparefortest-annotation",
+  "owner" : {
+    "user_id" : 5134334,
+    "user_type" : "registered",
+    "display_name" : "Łukasz Bocheński",
+    "profile_image" : "https://graph.facebook.com/992345964149611/picture?type=large",
+    "link" : "https://stackoverflow.com/users/5134334/%c5%81ukasz-boche%c5%84ski",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742734,
+  "last_activity_date" : 1498742734,
+  "tags" : [
+    "java",
+    "junit",
+    "mockito",
+    "powermockito"
+  ],
+  "score" : 0,
+  "view_count" : 9,
+  "answer_count" : 0
+}

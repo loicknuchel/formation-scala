@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Hands-on Labs",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Learn how to set your environment up from scratch, develop a simple app, test it, integrating CSS frameworks (Angular Material or Bootstrap), secure it with OpenID Connect, and deploy it to the cloud. Could even turn it into a PWA if there's time.</p>\n<p><strong>Pre-requisites:</strong></p>\n<ul>\n<li>Node.js</li>\n<li>npm</li>\n<li>Angular CLI</li>\n</ul>\n",
+  "id" : "MFG-0249",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f387c127f51cd63fec084d5c55d5e111fa4ece93",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Matt Raible"
+      },
+      "name" : "Matt Raible"
+    }
+  ],
+  "title" : "The Ultimate Getting Started with Angular Workshop",
+  "lang" : "en",
+  "summary" : "Learn how to set your environment up from scratch, develop a simple app, test it, integrating CSS frameworks (Angular Material or Bootstrap), secure it with OpenID Connect, and deploy it to the cloud. Could even turn it into a PWA if there's time.\r\n\r\n**Pre-requisites:**\r\n\r\n  * Node.js \r\n  * npm\r\n  * Angular CLI"
+}

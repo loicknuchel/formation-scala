@@ -1,0 +1,32 @@
+{
+  "uuid" : "0ea5c47927cf932a6143d284b92d9911d0f404ed",
+  "bioAsHtml" : "<p>L&#x27;un des deux Octocats Français. Par conséquent, je fais tout, mais à moitié! Arrivé chez GitHub après être passé chez MongoDB, dynaTrace et BEA, j&#x27;ai démarré Linux avec le kernel 0.9 et Java avec le JDK 1.0. Je reste à l&#x27;affut des nouveautés technologiques et toujours curieux de la manière dont elles sont utilisées par les membres de mon espèce.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/TDH-1697",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0ea5c47927cf932a6143d284b92d9911d0f404ed",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Alain Hélaïli"
+        }
+      ],
+      "id" : "TDH-1697",
+      "title" : "Le changement c'est maintenant!"
+    }
+  ],
+  "company" : "GitHub",
+  "bio" : "L'un des deux Octocats Français. Par conséquent, je fais tout, mais à moitié! Arrivé chez GitHub après être passé chez MongoDB, dynaTrace et BEA, j'ai démarré Linux avec le kernel 0.9 et Java avec le JDK 1.0. Je reste à l'affut des nouveautés technologiques et toujours curieux de la manière dont elles sont utilisées par les membres de mon espèce. \r\n",
+  "lastName" : "Hélaïli",
+  "firstName" : "Alain",
+  "blog" : "http://helaili.github.io",
+  "avatarURL" : "http://www.gravatar.com/avatar/71012cb8bfc5382943c202690e3562a8",
+  "twitter" : "@AlainHelaili",
+  "lang" : "en-US"
+}

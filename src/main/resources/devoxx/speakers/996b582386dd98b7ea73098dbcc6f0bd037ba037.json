@@ -1,0 +1,70 @@
+{
+  "uuid" : "996b582386dd98b7ea73098dbcc6f0bd037ba037",
+  "bioAsHtml" : "<p>Je suis développeur depuis 10 ans. J&#x27;ai évolué pendant longtemps sur des stack java et android. Depuis maintenant 4 ans je m’intéresse plus en profondeur au Web et à ses nouvelles possibilités. J&#x27;ai ainsi optenu le status de GDE (Google Developer Expert) sur la partie WebTechnology.</p>\n<p>En dehors du travail, je suis co-fondateur du GDG Nantes, organisateur du DevFest Nantes, co-créateur des Nantes Wit et organisateur de Devoxx4Kids</p>\n<p>Retrouvez l&#x27;ensemble de mes contributions sur https://github.com/jefBinomed</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/ZNQ-7776",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9ef9ee08cfb1a46a285430223a056d889f99044c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Hubert SABLONNIERE"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1454e2d0a6c2fa871454dab3dbf66f5e16b61980",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sebastien Blanc"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f4aea1c9996bf4e307a68c3080915b7a14cd1579",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Audrey Neveu"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/996b582386dd98b7ea73098dbcc6f0bd037ba037",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Francois Garreau"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6dd4408eea453917089be404a1233df22818424b",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Philippe Antoine"
+        }
+      ],
+      "id" : "ZNQ-7776",
+      "title" : "Les speakers anonymes : thérapie de groupe"
+    },
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/VLA-9192",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/996b582386dd98b7ea73098dbcc6f0bd037ba037",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Francois Garreau"
+        }
+      ],
+      "id" : "VLA-9192",
+      "title" : "Les Web DevTools en 2017"
+    }
+  ],
+  "company" : "Lucca / GDG Nantes / Nantes Wit / Devoxx4Kids",
+  "bio" : "Je suis développeur depuis 10 ans. J'ai évolué pendant longtemps sur des stack java et android. Depuis maintenant 4 ans je m’intéresse plus en profondeur au Web et à ses nouvelles possibilités. J'ai ainsi optenu le status de GDE (Google Developer Expert) sur la partie WebTechnology.\r\n\r\n\r\nEn dehors du travail, je suis co-fondateur du GDG Nantes, organisateur du DevFest Nantes, co-créateur des Nantes Wit et organisateur de Devoxx4Kids\r\n\r\nRetrouvez l'ensemble de mes contributions sur https://github.com/jefBinomed",
+  "lastName" : "Garreau",
+  "firstName" : "Jean-Francois",
+  "blog" : "http://jef.binomed.fr",
+  "avatarURL" : "https://lh6.googleusercontent.com/-jDbKZi8b1pE/AAAAAAAAAAI/AAAAAAAAI1Y/U__w3uJ4Nv0/photo.jpg",
+  "twitter" : "@jefBinomed",
+  "lang" : "fr"
+}

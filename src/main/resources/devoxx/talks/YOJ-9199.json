@@ -1,0 +1,28 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Tools-in-Action",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Si vous avez déjà écris des tests d'intégration, vous avez probablement rencontré des difficultés à faire tourner vos dépendances.\nEn effet, il faut :</p>\n<ul>\n<li>démarrer la dépendance</li>\n<li>s'assurer que la dépendance est dans un état correct avant de lancer le test</li>\n<li>arrêter la dépendance à la fin du test</li>\n</ul>\n<p>À tout ceci se rajoute le problème de reproductibilité du test (différents environments, système d'exploitation).\nCela peut s’avérer assez complexe. Heureusement, grâce à docker, le problème de reproductibilité est en grande partie résolue, mais encore faut-il pouvoir l'utiliser dans nos tests !\nNous avons écris une extension à JUnit 5 qui rends tout ceci beaucoup plus simple.\nDurant ce talk, nous vous présenterons notre solution après avoir fais une présentation de jUnit 5.</p>\n",
+  "id" : "YOJ-9199",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b79d2812e5f3a077ae9678e34e513933915cf677",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Xavier Detant"
+      },
+      "name" : "Xavier Detant"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f152133e6107190056f5706e22c92c95468dde9a",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Vincent Demeester"
+      },
+      "name" : "Vincent Demeester"
+    }
+  ],
+  "title" : "JUnit-docker",
+  "lang" : "fr",
+  "summary" : "Si vous avez déjà écris des tests d'intégration, vous avez probablement rencontré des difficultés à faire tourner vos dépendances.\r\nEn effet, il faut :\r\n\r\n* démarrer la dépendance\r\n* s'assurer que la dépendance est dans un état correct avant de lancer le test\r\n* arrêter la dépendance à la fin du test\r\n\r\nÀ tout ceci se rajoute le problème de reproductibilité du test (différents environments, système d'exploitation).\r\nCela peut s’avérer assez complexe. Heureusement, grâce à docker, le problème de reproductibilité est en grande partie résolue, mais encore faut-il pouvoir l'utiliser dans nos tests !\r\nNous avons écris une extension à JUnit 5 qui rends tout ceci beaucoup plus simple.\r\nDurant ce talk, nous vous présenterons notre solution après avoir fais une présentation de jUnit 5."
+}

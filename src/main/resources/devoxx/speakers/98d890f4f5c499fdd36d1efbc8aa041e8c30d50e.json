@@ -1,0 +1,55 @@
+{
+  "uuid" : "98d890f4f5c499fdd36d1efbc8aa041e8c30d50e",
+  "bioAsHtml" : "<p>Je suis développeur et formateur Java depuis une quinzaine d&#x27;années et indépendant depuis plus de dix ans. J&#x27;aide mes clients à améliorer leur façon de développer, en codant avec eux ou en faisant des audits de leur code ou architecture. Je les aide aussi à déployer et administrer leurs applications Java sur Tomcat ou JBoss / WildFly.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "University",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/KHV-4031",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/98d890f4f5c499fdd36d1efbc8aa041e8c30d50e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Alexis Hassler"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b967a0dc26fb6feaaa8795f375103b0d7aff319e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Remi Forax"
+        }
+      ],
+      "id" : "KHV-4031",
+      "title" : "Préparez-vous à la modularité selon Java 9"
+    },
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/AHF-1145",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/98d890f4f5c499fdd36d1efbc8aa041e8c30d50e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Alexis Hassler"
+        }
+      ],
+      "id" : "AHF-1145",
+      "title" : "Migrer à Jigsaw : en douleur ou en douceur ?"
+    }
+  ],
+  "company" : "sewatech",
+  "bio" : "Je suis développeur et formateur Java depuis une quinzaine d'années et indépendant depuis plus de dix ans. J'aide mes clients à améliorer leur façon de développer, en codant avec eux ou en faisant des audits de leur code ou architecture. Je les aide aussi à déployer et administrer leurs applications Java sur Tomcat ou JBoss / WildFly.",
+  "lastName" : "Hassler",
+  "firstName" : "Alexis",
+  "blog" : "https://plus.google.com/+AlexisHassler",
+  "avatarURL" : "https://lh5.googleusercontent.com/-8JQ-kI9Drws/AAAAAAAAAAI/AAAAAAAACjs/WcewU0G-bW0/photo.jpg",
+  "twitter" : "@AlexisHassler",
+  "lang" : "en-US"
+}

@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825791,
+  "title" : "Get results from multiple tables based on relationship table",
+  "body" : "<p>I have dbo.Users tables</p>\n\n<pre><code>Id, Name\n1, John\n2, Mary\n3, Michael\n</code></pre>\n\n<p>Then I have dbo.Phones table</p>\n\n<pre><code>Id, Phonenumber\n10, 1234\n11, 5555\n</code></pre>\n\n<p>Then I have dbo.Relationship table</p>\n\n<pre><code>Id, ChildId\n1, 10\n2, 11\n</code></pre>\n\n<p>How could I make a query that returns</p>\n\n<pre><code>Id, Name, Phonenumber\n1, John, 1234\n2, Mary, 5555\n3, Michael, NULL\n</code></pre>\n\n<p>This is what I got so far.</p>\n\n<pre><code>SELECT u.Id, u.Name, p.Phonenumber\nFROM dbo.Users as u\nLEFT JOIN dbo.Phones as p\n-- Something\n</code></pre>\n\n<p><a href=\"http://sqlfiddle.com/#!6/a8fe7/3\" rel=\"nofollow noreferrer\"><kbd>SQL Fiddle</kbd></a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44825791/get-results-from-multiple-tables-based-on-relationship-table",
+  "owner" : {
+    "user_id" : 2375099,
+    "user_type" : "registered",
+    "display_name" : "Pegaz",
+    "profile_image" : "https://www.gravatar.com/avatar/fd1ba9d67ab52cdb6d5834cb70b42561?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/2375099/pegaz",
+    "reputation" : 11,
+    "accept_rate" : null
+  },
+  "is_answered" : true,
+  "creation_date" : 1498741030,
+  "last_activity_date" : 1498742670,
+  "tags" : [
+    "sql",
+    "sql-server",
+    "relationship"
+  ],
+  "score" : 1,
+  "view_count" : 42,
+  "answer_count" : 3
+}

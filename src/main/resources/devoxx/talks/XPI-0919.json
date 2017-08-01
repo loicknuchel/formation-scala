@@ -1,0 +1,36 @@
+{
+  "trackId" : "lang",
+  "talkType" : "Hands-on Labs",
+  "track" : "Langages alternatifs",
+  "summaryAsHtml" : "<p>Tu entends de plus en plus parler de Scala, mais le temps te manque pour démarrer ?<br  />\nTu as peur de te lancer car le langage semble compliqué ?<br  />\nOu tu souhaites tout simplement revoir les bases ?<br  />\nDans ce cas, viens à ce hands-on !</p>\n<p>L'objectif est de partir de 0, progresser pas à pas et poser plein de questions dans la bonne humeur !<br  />\nCe hands-on devrait te permettre d'avoir les connaissances nécessaires pour comprendre et écrire du Scala au quotidien :)</p>\n<p>Pour ceux qui se poseraient la question, Scala est un langage sur la JVM qui permet de la programmation fonctionnelle et objet et reste entièrement interopérable avec Java. Il est notamment très utilisé dans le monde Big Data (via Spark et Scalding entre autres).</p>\n<p><strong>Il est conseillé de <a href=\"https://github.com/loicknuchel/scala-class/blob/master/getting_started.md#configurer-lenvironnement\">préparer votre environnement</a> avant la session.</strong></p>\n",
+  "id" : "XPI-0919",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/09a79f4e4592cf77e5ebf0965489e6c7ec0438cd",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Loïc KNUCHEL"
+      },
+      "name" : "Loïc KNUCHEL"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1693d28c079e6c28269b9aa86ae04a4549ad3074",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Fabrice Sznajderman"
+      },
+      "name" : "Fabrice Sznajderman"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d167a51898267ed3b5913c1789f1ae6110a6ecf5",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Walid chergui"
+      },
+      "name" : "Walid chergui"
+    }
+  ],
+  "title" : "Scala class, bien démarrer avec Scala",
+  "lang" : "fr",
+  "summary" : "Tu entends de plus en plus parler de Scala, mais le temps te manque pour démarrer ?  \r\nTu as peur de te lancer car le langage semble compliqué ?  \r\nOu tu souhaites tout simplement revoir les bases ?  \r\nDans ce cas, viens à ce hands-on !\r\n\r\nL'objectif est de partir de 0, progresser pas à pas et poser plein de questions dans la bonne humeur !  \r\nCe hands-on devrait te permettre d'avoir les connaissances nécessaires pour comprendre et écrire du Scala au quotidien :)\r\n\r\nPour ceux qui se poseraient la question, Scala est un langage sur la JVM qui permet de la programmation fonctionnelle et objet et reste entièrement interopérable avec Java. Il est notamment très utilisé dans le monde Big Data (via Spark et Scalding entre autres).\r\n\r\n**Il est conseillé de [préparer votre environnement](https://github.com/loicknuchel/scala-class/blob/master/getting_started.md#configurer-lenvironnement) avant la session.**"
+}

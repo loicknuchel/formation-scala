@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Tools-in-Action",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p><img src=\"https://pbs.twimg.com/media/C8PKbYbVYAAwka_.jpg\" alt=\"Le Web multi-écrans en action\" /></p>\n<p>Les environnements de travail multi-écrans sont de plus en plus communs et pourtant nous développons encore des applications Web sans en tirer parti. Pourtant, des APIs Web et des bidouilles existent pour faire communiquer plusieurs fenêtres de navigateur (sans serveur). Profitons en !</p>\n<p>Dans cette session, je vous propose de découvrir comment j’ai utilisé ces techniques sur mon dernier projet pour proposer à mes utilisateurs des expériences multi-écrans.</p>\n",
+  "id" : "YOC-1441",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9ef9ee08cfb1a46a285430223a056d889f99044c",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Hubert SABLONNIERE"
+      },
+      "name" : "Hubert SABLONNIERE"
+    }
+  ],
+  "title" : "Le Web multi-écrans en action",
+  "lang" : "fr",
+  "summary" : "![Le Web multi-écrans en action](https://pbs.twimg.com/media/C8PKbYbVYAAwka_.jpg)\r\n\r\nLes environnements de travail multi-écrans sont de plus en plus communs et pourtant nous développons encore des applications Web sans en tirer parti. Pourtant, des APIs Web et des bidouilles existent pour faire communiquer plusieurs fenêtres de navigateur (sans serveur). Profitons en !\r\n\r\nDans cette session, je vous propose de découvrir comment j’ai utilisé ces techniques sur mon dernier projet pour proposer à mes utilisateurs des expériences multi-écrans."
+}

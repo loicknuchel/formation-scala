@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826539,
+  "title" : "Why isn&#39;t Math.nextAfter(Double.MAX_VALUE, 1) equal to Double.INFINITY?",
+  "body" : "<p>According to <a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#nextAfter-double-double-\" rel=\"nofollow noreferrer\">the Javadoc</a>:</p>\n\n<blockquote>\n<pre><code>public static double nextAfter(double start,\n                           double direction)\n</code></pre>\n  \n  <p>...</p>\n  \n  <ul>\n  <li>If start is equal to ± Double.MAX_VALUE and direction has a value such that the result should have a larger magnitude, an infinity with same sign as start is returned.</li>\n  </ul>\n</blockquote>\n\n<p>But according to <a href=\"http://ideone.com/ViXB2j\" rel=\"nofollow noreferrer\"><kbd>this example</kbd></a>:</p>\n\n<pre><code>System.out.println(Double.MAX_VALUE);\nSystem.out.println(Math.nextAfter(Double.MAX_VALUE, 1));\nSystem.out.println(Math.nextAfter(Double.MAX_VALUE, 1) == Double.POSITIVE_INFINITY);\n</code></pre>\n\n<p>Output:</p>\n\n<pre><code>1.7976931348623157E308\n1.7976931348623155E308\nfalse\n</code></pre>\n\n<p>Eh? Not only is it not <code>Double.POSITIVE_INFINITY</code>, it's actually <em>smaller</em> in magnitude.</p>\n\n<pre><code>...157E308\n...155E308\n</code></pre>\n\n<p>Am I just completely misreading the Javadoc?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826539/why-isnt-math-nextafterdouble-max-value-1-equal-to-double-infinity",
+  "owner" : {
+    "user_id" : 3788176,
+    "user_type" : "registered",
+    "display_name" : "Andy Turner",
+    "profile_image" : "https://www.gravatar.com/avatar/9c18d321d8948803c05643d87b003dc2?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/3788176/andy-turner",
+    "reputation" : 47276,
+    "accept_rate" : 67
+  },
+  "is_answered" : true,
+  "creation_date" : 1498742976,
+  "last_activity_date" : 1498743610,
+  "tags" : [
+    "java",
+    "floating-point"
+  ],
+  "score" : 5,
+  "view_count" : 33,
+  "answer_count" : 1
+}

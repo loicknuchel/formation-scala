@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826712,
+  "title" : "Android App - Clicking on Button does not open new activity",
+  "body" : "<p>Hi my problem is as follows: I have an activity <code>activity transport</code>. On this activity I have one button <code>Auto</code> which should open the new activity: <code>activity_auto</code>. Whenever I click on this button the first activity <code>activity transport</code> opens again. No errors are shown and the references are ok, i think.\nI hope someone can help me.</p>\n\n<p>I attached my code snippet</p>\n\n<p>Class: activity_transport</p>\n\n<pre><code>package com.group6.travlhoe;\n\nimport android.content.Intent;\nimport android.support.annotation.NonNull;\nimport android.support.design.widget.BottomNavigationView;\nimport android.support.v7.app.AppCompatActivity;\nimport android.os.Bundle;\nimport android.view.MenuItem;\nimport android.view.View;\nimport android.widget.Button;\n\npublic class activity_transport extends AppCompatActivity implements View.OnClickListener {\n\nButton btnAuto;\nprivate BottomNavigationView bottomNavigationView;\n\n\n@Override\nprotected void onCreate(Bundle savedInstanceState) {\n    super.onCreate(savedInstanceState);\n    setContentView(R.layout.activity_transport);\n\n\n    btnAuto = (Button) findViewById(R.id.Auto);\n    btnAuto.setOnClickListener(this);\n\n\n    bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNavigationView);\n\n    bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener(){\n        @Override\n        public boolean onNavigationItemSelected(@NonNull MenuItem item){\n            if (item.getItemId()==R.id.menu_start){\n                startActivity(new Intent(activity_transport.this, MainActivity.class));\n            } else if(item.getItemId()==R.id.menu_allgemein){\n                startActivity(new Intent(activity_transport.this, activity_allgemein.class));\n            } else if(item.getItemId()==R.id.menu_transport){\n                startActivity(new Intent(activity_transport.this, activity_transport.class));\n            } else if(item.getItemId()==R.id.menu_rechnung){\n                startActivity(new Intent(activity_transport.this, activity_rechnung.class));\n            } else if(item.getItemId()==R.id.menu_unterkunft){\n                startActivity(new Intent(activity_transport.this, activity_unterkunft.class));\n            }\n            return true;\n        }\n    });\n\n    bottomNavigationView.setSelectedItemId(R.id.menu_transport);\n}\n\n\n\n@Override\npublic void onClick(View v) {\n    if (v.getId() == R.id.Auto) {\n        startActivity(new Intent(activity_transport.this, activity_auto.class));\n    }\n}\n\n\n\n}\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826712/android-app-clicking-on-button-does-not-open-new-activity",
+  "owner" : {
+    "user_id" : 8200516,
+    "user_type" : "registered",
+    "display_name" : "S.Tzavelas",
+    "profile_image" : "https://www.gravatar.com/avatar/1c4dce710f14aac46289ad9180e8bd21?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8200516/s-tzavelas",
+    "reputation" : 8,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743404,
+  "last_activity_date" : 1498743454,
+  "tags" : [
+    "java",
+    "android",
+    "button",
+    "android-activity"
+  ],
+  "score" : 0,
+  "view_count" : 21,
+  "answer_count" : 0
+}

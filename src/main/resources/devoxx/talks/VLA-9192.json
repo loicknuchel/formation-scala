@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Tools-in-Action",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<ul>\n<li>Utiliser le debugger : [✓]</li>\n<li>Utiliser le sourcemapping pour voir mon sass au lieu de mon css : [✓]</li>\n<li>Utiliser le nouveau color picker pour tester des couleurs : Quoi ? il y a un color picker dans les devtools.</li>\n<li>Analyser les screenshots de mon site pour comprendre comment mon site s'affiche : Quoi ? Je peux faire ça ?</li>\n</ul>\n<p>Bon nombre des nouveautés des devtools restent encore inconnues du grand public. Venez dans ce talk pour découvrir et redécouvrir comment les devtools peuvent vous aider voir vous sauvez la vie !</p>\n",
+  "id" : "VLA-9192",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/996b582386dd98b7ea73098dbcc6f0bd037ba037",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Jean-Francois Garreau"
+      },
+      "name" : "Jean-Francois Garreau"
+    }
+  ],
+  "title" : "Les Web DevTools en 2017",
+  "lang" : "fr",
+  "summary" : "* Utiliser le debugger : [✓]\r\n* Utiliser le sourcemapping pour voir mon sass au lieu de mon css : [✓]\r\n* Utiliser le nouveau color picker pour tester des couleurs : Quoi ? il y a un color picker dans les devtools.\r\n* Analyser les screenshots de mon site pour comprendre comment mon site s'affiche : Quoi ? Je peux faire ça ?\r\n\r\nBon nombre des nouveautés des devtools restent encore inconnues du grand public. Venez dans ce talk pour découvrir et redécouvrir comment les devtools peuvent vous aider voir vous sauvez la vie !"
+}

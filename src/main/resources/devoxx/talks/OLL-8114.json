@@ -1,0 +1,28 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Conference",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Essayer de mettre du spark streaming en production, faire des calculs savants pour avoir le bon batch intervalle, jouer sur une quinzaine de propriétés Spark plus prometteuse les unes que les autres afin que le temps de traitement moyen d'un batch soit inférieur au batch intervalle calculé, scruté la Spark UI pour essayer de constater des changements... avoir des envies de suicide car tout ça sans succès.\nCe qui fait tenir l'espoir de trouver la propriété qui changera tout, se dire que ce nouveau métier de chercheur (qui ne trouve pas) offre des possibilités inattendues de reconversion professionnelles...\nFinalement trouver une solution et commencer à jouer avec les types complexes en SPARK SQL, c'est reparti pour des envies de suicide...\nspark.Cordes = interdit, spark.médicaments=interdit,spark. rasoirs=interdits!!!</p>\n",
+  "id" : "OLL-8114",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/96409f05d7b7849b819376e797097b7822d762ac",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Youen Chéné"
+      },
+      "name" : "Youen Chéné"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/107a73b249ba18ce1d810e47cac9ba851e0d8fcd",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Aurélien Vandel"
+      },
+      "name" : "Aurélien Vandel"
+    }
+  ],
+  "title" : "Spark Streaming and Suicidal Tendencies ",
+  "lang" : "fr",
+  "summary" : "Essayer de mettre du spark streaming en production, faire des calculs savants pour avoir le bon batch intervalle, jouer sur une quinzaine de propriétés Spark plus prometteuse les unes que les autres afin que le temps de traitement moyen d'un batch soit inférieur au batch intervalle calculé, scruté la Spark UI pour essayer de constater des changements... avoir des envies de suicide car tout ça sans succès.\r\nCe qui fait tenir l'espoir de trouver la propriété qui changera tout, se dire que ce nouveau métier de chercheur (qui ne trouve pas) offre des possibilités inattendues de reconversion professionnelles...\r\nFinalement trouver une solution et commencer à jouer avec les types complexes en SPARK SQL, c'est reparti pour des envies de suicide... \r\nspark.Cordes = interdit, spark.médicaments=interdit,spark. rasoirs=interdits!!!"
+}

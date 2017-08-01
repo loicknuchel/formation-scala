@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826319,
+  "title" : "Does u-boot allow snapshot restoration?",
+  "body" : "<p>I am not familiar with U-boot, as title says, does U-boot for smdk2410 allow swsusp snapshot restoration ?</p>\n\n<p>Or can anyone send me some documents would help on my question, thanks a lot.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826319/does-u-boot-allow-snapshot-restoration",
+  "owner" : {
+    "user_id" : 6425594,
+    "user_type" : "registered",
+    "display_name" : "wenshizhang",
+    "profile_image" : "https://www.gravatar.com/avatar/e24f0baaee0d03cd8ed74622a1e2c182?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/6425594/wenshizhang",
+    "reputation" : 6,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742420,
+  "last_activity_date" : 1498742420,
+  "tags" : [
+    "arm",
+    "snapshot",
+    "u-boot"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

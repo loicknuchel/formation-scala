@@ -1,0 +1,32 @@
+{
+  "uuid" : "e452d5162fbc8c0c94995c26312dec1e8fae9fc8",
+  "bioAsHtml" : "<p>Who am I? That’s a good question. I had several professional lives, from academic positions to management. Currently, I’m working for Red Hat as Vert.x core developer. I have been involved in projects and products touching many domains and technologies such as OSGi, mobile app development, continuous delivery, DevOps… My main point of interest? Software engineering, so processes, methods, tools that make the development of software more efficient and also more fun. I’m also an active contributor to many open source projects such as Apache Felix, iPOJO, Wisdom Framework, and obviously, Eclipse Vert.x. </p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/UQK-6164",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e452d5162fbc8c0c94995c26312dec1e8fae9fc8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Clement Escoffier"
+        }
+      ],
+      "id" : "UQK-6164",
+      "title" : "Microservices réactifs avec Eclipse Vert.x et Kubernetes"
+    }
+  ],
+  "company" : "Red Hat",
+  "bio" : "Who am I? That’s a good question. I had several professional lives, from academic positions to management. Currently, I’m working for Red Hat as Vert.x core developer. I have been involved in projects and products touching many domains and technologies such as OSGi, mobile app development, continuous delivery, DevOps… My main point of interest? Software engineering, so processes, methods, tools that make the development of software more efficient and also more fun. I’m also an active contributor to many open source projects such as Apache Felix, iPOJO, Wisdom Framework, and obviously, Eclipse Vert.x. ",
+  "lastName" : "Escoffier",
+  "firstName" : "Clement",
+  "blog" : "https://plus.google.com/+clementescoffier",
+  "avatarURL" : "https://lh4.googleusercontent.com/-7MtLnBNyFJ0/AAAAAAAAAAI/AAAAAAAAIIs/EjwAHiYj6sM/photo.jpg",
+  "twitter" : "@clementplop",
+  "lang" : "fr"
+}

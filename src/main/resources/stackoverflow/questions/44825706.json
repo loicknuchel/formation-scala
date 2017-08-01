@@ -1,0 +1,24 @@
+{
+  "question_id" : 44825706,
+  "title" : "Remove all files in folder (non-recursive) in PowerShell",
+  "body" : "<p>In PowerShell, how can I delete all the files in a folder, but without deleting folders or going into the subfolders? Nothing fancy, just an equivalent to <code>del C:\\Path\\To\\Folder\\*</code></p>\n",
+  "link" : "https://stackoverflow.com/questions/44825706/remove-all-files-in-folder-non-recursive-in-powershell",
+  "owner" : {
+    "user_id" : 492336,
+    "user_type" : "registered",
+    "display_name" : "sashoalm",
+    "profile_image" : "https://i.stack.imgur.com/UjW5c.png?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/492336/sashoalm",
+    "reputation" : 22258,
+    "accept_rate" : 84
+  },
+  "is_answered" : true,
+  "creation_date" : 1498740792,
+  "last_activity_date" : 1498742652,
+  "tags" : [
+    "powershell"
+  ],
+  "score" : -1,
+  "view_count" : 18,
+  "answer_count" : 1
+}

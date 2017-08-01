@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Keynote",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>A l’heure où tout le monde s’inquiète de la singularité technologique, de l’avènement des machines, et de la prise de contrôle du monde par les micro-ondes connectés, un domaine entier de l’informatique lutte et résiste de toute ses forces pour que le pire soit évité. Ce domaine, qui cherche à tout prix à éviter l’IA parfaite, c’est le jeu vidéo.</p>\n<p>Petite rétrospective sur l’état de l’Intelligence Artificielle au sein des jeux vidéo. Ou, comment, chez nous, le fun ne peut venir que grâce à des IA bancales.</p>\n",
+  "id" : "KUB-0999",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1456a29fcbede6cede049d7ccca763919ec424bb",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Laurent Victorino"
+      },
+      "name" : "Laurent Victorino"
+    }
+  ],
+  "title" : "Video games: The quest for smart dumbness.",
+  "lang" : "fr",
+  "summary" : "A l’heure où tout le monde s’inquiète de la singularité technologique, de l’avènement des machines, et de la prise de contrôle du monde par les micro-ondes connectés, un domaine entier de l’informatique lutte et résiste de toute ses forces pour que le pire soit évité. Ce domaine, qui cherche à tout prix à éviter l’IA parfaite, c’est le jeu vidéo.\r\n\r\nPetite rétrospective sur l’état de l’Intelligence Artificielle au sein des jeux vidéo. Ou, comment, chez nous, le fun ne peut venir que grâce à des IA bancales. "
+}

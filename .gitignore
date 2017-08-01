@@ -1,0 +1,6 @@
+target/
+src/main/resources/stackoverflow/users
+src/main/resources/stackoverflow/answers
+src/main/resources/stackoverflow/comments
+.idea/
+.DS_Store

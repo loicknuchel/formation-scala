@@ -1,0 +1,28 @@
+{
+  "trackId" : "future",
+  "talkType" : "Conference",
+  "track" : "Future, Robotique",
+  "summaryAsHtml" : "<p>Avec l'explosion du machine learning, vous avez sans doute rêvé de rendre plus intelligentes vos applications. Lorsque vous avez regardé ces technologies, vous avez pris peur devant ces nouveaux domaines de l'informatique à appréhender : les réseaux neuronaux, le deep learning, le natural language processing, ...\nEt si vous vous reposiez sur des services existants ?\nNous vous proposons de construire un jeu de \"Qui est ce ?\" en utilisant différents web services et une pile de photos.\nNous ferons un petit panorama des API de vision, du Text to Speech, du Natural Langage Processing. Nous verrons aussi comment vous pouvez utiliser un bot pour simplifier l'implémentation du jeu.</p>\n",
+  "id" : "SPS-7476",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5794b8f0e64983cad9ce6a65c12fa63114a1c18d",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Christophe Jollivet"
+      },
+      "name" : "Christophe Jollivet"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/eb907624328fb5d99c8819af562f8b47d7b8515d",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Mickael Débonnaire"
+      },
+      "name" : "Mickael Débonnaire"
+    }
+  ],
+  "title" : "Une application qui voit, entend et répond",
+  "lang" : "fr",
+  "summary" : "Avec l'explosion du machine learning, vous avez sans doute rêvé de rendre plus intelligentes vos applications. Lorsque vous avez regardé ces technologies, vous avez pris peur devant ces nouveaux domaines de l'informatique à appréhender : les réseaux neuronaux, le deep learning, le natural language processing, ...\r\nEt si vous vous reposiez sur des services existants ?\r\nNous vous proposons de construire un jeu de \"Qui est ce ?\" en utilisant différents web services et une pile de photos.\r\nNous ferons un petit panorama des API de vision, du Text to Speech, du Natural Langage Processing. Nous verrons aussi comment vous pouvez utiliser un bot pour simplifier l'implémentation du jeu. "
+}

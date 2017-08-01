@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Conference",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Les données sont au coeur de nos applications, et sont créées de façon continue sous forme de flux (stream). L'architecture orientée flux (Streaming Architecture) permet de réduire la latence entre l'émission d'un évènement et les décisions à prendre en fonction des évènements passés et en cours, tout en gardant une architecture globale simple et efficace. Apache Flink est un framework permettant de créer des application orientées flux, avec:</p>\n<ul>\n<li>Une API en Java et Scala qui facilite l'analyse et le traitement des flux</li>\n<li>Intégration avec l'ecosystème Big Data : Kafka,  YARN, HDFS, MapR-FS, HBase, MapR-* * Des fonctionnalités avancées: Complex Event Processing, Machne Learning et Gestion des Graphes de données.\nDB, Cascading, Elasticsearch)</li>\n</ul>\n<p>Le tout déployé de façon distribuée et hautement disponible.</p>\n<p>Cette présentation est l'occasion de découvrir Flink, son coeur, ses APIs et l'approche \"streaming first\" pour vos applications.</p>\n<p>Flink est utilisé en production par de nombreuses entreprises: Bouygues Telecom, Netflix, Alibaba, Ericsson, King, Zalando, et bien d'autres, supporté par la société Data Artisans et une communauté de plus de 140 contributeurs.</p>\n",
+  "id" : "KEP-1372",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/08cb871e113de90665a8b134986af5ad031f4475",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Tugdual Grall"
+      },
+      "name" : "Tugdual Grall"
+    }
+  ],
+  "title" : "Stream Processing avec Apache Flink",
+  "lang" : "fr",
+  "summary" : "Les données sont au coeur de nos applications, et sont créées de façon continue sous forme de flux (stream). L'architecture orientée flux (Streaming Architecture) permet de réduire la latence entre l'émission d'un évènement et les décisions à prendre en fonction des évènements passés et en cours, tout en gardant une architecture globale simple et efficace. Apache Flink est un framework permettant de créer des application orientées flux, avec:\r\n\r\n* Une API en Java et Scala qui facilite l'analyse et le traitement des flux\r\n* Intégration avec l'ecosystème Big Data : Kafka,  YARN, HDFS, MapR-FS, HBase, MapR-* * Des fonctionnalités avancées: Complex Event Processing, Machne Learning et Gestion des Graphes de données.\r\nDB, Cascading, Elasticsearch)\r\n\r\nLe tout déployé de façon distribuée et hautement disponible.\r\n\r\nCette présentation est l'occasion de découvrir Flink, son coeur, ses APIs et l'approche \"streaming first\" pour vos applications.\r\n\r\nFlink est utilisé en production par de nombreuses entreprises: Bouygues Telecom, Netflix, Alibaba, Ericsson, King, Zalando, et bien d'autres, supporté par la société Data Artisans et une communauté de plus de 140 contributeurs.\r\n"
+}

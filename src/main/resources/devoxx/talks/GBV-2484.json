@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Conference",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Avez-vous déjà développé une <strong>App Front</strong> de 5K+ lignes de  JS ? Ne vous êtes-vous jamais senti perdu lorsque vous êtes revenus sur votre propre code sans connaître la structure et les méthodes des objets que vous manipuliez ?.. Et ne parlons même pas du code écrit par vos collègues !</p>\n<p><strong>TypeScript (TS) et son typage statique</strong> peut vous aider à passer moins de temps à debugger dans votre browser en codant de manière <strong>type-safe</strong> !\nEt bonne nouvelle : vous n'avez pas besoin de démarrer un projet from scratch sous Angular 2 pour commencer à l'utiliser !</p>\n<p>Ce talk sera <strong>100% livecoding</strong> et montrera une mise en place <strong>progressive de TypeScript</strong> sur <strong>un projet legacy écrit en JS</strong>.</p>\n<p>Nous verrons :</p>\n<ul>\n<li>Comment mettre en place la <strong>compilation TS</strong> en tâche de fond sur le projet, faire cohabiter les fichiers TS avec les fichiers JS ainsi que comprendre le code généré</li>\n<li>L'interopérabilité avec les librairies JS non écrites en TS via <strong>les fichier de déclaration</strong></li>\n<li>Enfin, nous <strong>migrerons</strong> du code JS en TS pour identifier les bienfaits apportés par le langage : types (classes/interfaces), modules, closures, immutabilité, paramètres optionnels, union types, complétion, doc implicite</li>\n</ul>\n",
+  "id" : "GBV-2484",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ad8a2bc1ca2e061e9473a3595dc1c9276d4c7a84",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Frédéric Camblor"
+      },
+      "name" : "Frédéric Camblor"
+    }
+  ],
+  "title" : "TypeScript : dès lundi sur votre App Legacy",
+  "lang" : "fr",
+  "summary" : "Avez-vous déjà développé une **App Front** de 5K+ lignes de  JS ? Ne vous êtes-vous jamais senti perdu lorsque vous êtes revenus sur votre propre code sans connaître la structure et les méthodes des objets que vous manipuliez ?.. Et ne parlons même pas du code écrit par vos collègues !\r\n\r\n**TypeScript (TS) et son typage statique** peut vous aider à passer moins de temps à debugger dans votre browser en codant de manière **type-safe** !\r\nEt bonne nouvelle : vous n'avez pas besoin de démarrer un projet from scratch sous Angular 2 pour commencer à l'utiliser !\r\n\r\nCe talk sera **100% livecoding** et montrera une mise en place **progressive de TypeScript** sur **un projet legacy écrit en JS**.\r\n\r\nNous verrons :\r\n\r\n* Comment mettre en place la **compilation TS** en tâche de fond sur le projet, faire cohabiter les fichiers TS avec les fichiers JS ainsi que comprendre le code généré\r\n* L'interopérabilité avec les librairies JS non écrites en TS via **les fichier de déclaration**\r\n* Enfin, nous **migrerons** du code JS en TS pour identifier les bienfaits apportés par le langage : types (classes/interfaces), modules, closures, immutabilité, paramètres optionnels, union types, complétion, doc implicite"
+}

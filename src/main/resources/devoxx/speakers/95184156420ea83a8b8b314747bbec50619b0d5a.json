@@ -1,0 +1,32 @@
+{
+  "uuid" : "95184156420ea83a8b8b314747bbec50619b0d5a",
+  "bioAsHtml" : "<p>Développeur depuis 15 ans et actuellement Architecte Java chez Ekino. Je travaille actuellement sur une plate-forme web à fort traffic.\nMes centre d&#x27;intérêts actuels tournent autour des architecture micro-services et reactive.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/DIW-3931",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/95184156420ea83a8b8b314747bbec50619b0d5a",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Julien Roy"
+        }
+      ],
+      "id" : "DIW-3931",
+      "title" : "Spring Data : Une API, quinze possibilités"
+    }
+  ],
+  "company" : "Ekino",
+  "bio" : "Développeur depuis 15 ans et actuellement Architecte Java chez Ekino. Je travaille actuellement sur une plate-forme web à fort traffic.\r\nMes centre d'intérêts actuels tournent autour des architecture micro-services et reactive.",
+  "lastName" : "Roy",
+  "firstName" : "Julien",
+  "blog" : "https://github.com/VanRoy",
+  "avatarURL" : "http://www.gravatar.com/avatar/858275282cf240a0dd280a13fbd0f942",
+  "twitter" : "@vanr0y",
+  "lang" : "fr-FR"
+}

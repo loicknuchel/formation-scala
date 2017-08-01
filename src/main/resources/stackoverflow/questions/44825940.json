@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825940,
+  "title" : "Don&#39;t track the visit with GoogleAnalytics if specific User Agent",
+  "body" : "<p><strong>How to disable GoogleAnalytics Javascript tracking code if the user agent is <code>UserAgentXUI765DQZ</code>?</strong></p>\n\n<p>Is this good practice or bad:</p>\n\n<pre><code>&lt;script&gt;\n\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n  ga('create', 'UA-xxxxxxxxxx-7', 'auto');\n  if (navigator.userAgent != \"UserAgentXUI765DQZ\")  // addition here\n      ga('send', 'pageview');\n\n&lt;/script&gt;\n</code></pre>\n\n<hr>\n\n<p>Context:</p>\n\n<p>I don't have a static IP, and my goal is to <strong>not-track my own traffic on Google Analytics</strong>. These solutions don't fit my needs:</p>\n\n<ol>\n<li>visiting my website only as logged => no, I really want to see how normal visitors see my website</li>\n<li>visiting my website only from <a href=\"http://internaltraffic.example.com\" rel=\"nofollow noreferrer\">http://internaltraffic.example.com</a> instead of <a href=\"http://www.example.com\" rel=\"nofollow noreferrer\">http://www.example.com</a> => same reason than 1. + sometimes you forget, you follow a link and end up as <a href=\"http://www.example.com\" rel=\"nofollow noreferrer\">http://www.example.com</a></li>\n<li>Google Tag Manager, a bit labyrinthic for me</li>\n</ol>\n\n<p>For this, I have set up a custom UserAgent \"UserAgentXUI765DQZ\" in Firefox and Chrome thanks to <a href=\"https://addons.mozilla.org/en-US/firefox/addon/custom-useragent-string/\" rel=\"nofollow noreferrer\">this exension</a>.</p>\n\n<p>But then I noticed that <a href=\"https://stackoverflow.com/a/44634482/1422096\">filtering out the traffic from a specific user agent</a> is tricky in Google Analytics, it requires Tag Manager, and to do multiple steps, that I would have to repeat for every website (every Property) of Google Analytics, etc.</p>\n\n<p>That's why I decided to modify the GA <code>&lt;script&gt;&lt;/script&gt;</code> to not track the specific user agent.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825940/dont-track-the-visit-with-googleanalytics-if-specific-user-agent",
+  "owner" : {
+    "user_id" : 1422096,
+    "user_type" : "registered",
+    "display_name" : "Basj",
+    "profile_image" : "https://www.gravatar.com/avatar/da3871bf5450fa726f20557fa3f18f51?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1422096/basj",
+    "reputation" : 2848,
+    "accept_rate" : 64
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741392,
+  "last_activity_date" : 1498741392,
+  "tags" : [
+    "javascript",
+    "google-analytics",
+    "user-agent"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

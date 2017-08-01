@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826371,
+  "title" : "Use a complex type for XAML Binding FallBackValue",
+  "body" : "<p>I was searching for a way to bind a UI element to a complex type and have another complex type as <code>FallBackValue</code>. Unfortunately I didn't find anything on that topic. When I set <code>FallBackValue</code> to the name of a property or a type it is always displayed as a <code>string</code> :</p>\n\n<pre><code>&lt;ContentControl Content=\"{Binding MyPathSelector, FallbackValue=model:PathSelector}\"/&gt;\n</code></pre>\n\n<p>In this case the string </p>\n\n<blockquote>\n  <p>model:PathSelector</p>\n</blockquote>\n\n<p>will be displayed</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826371/use-a-complex-type-for-xaml-binding-fallbackvalue",
+  "owner" : {
+    "user_id" : 2164312,
+    "user_type" : "registered",
+    "display_name" : "Romano Zumb&#233;",
+    "profile_image" : "https://www.gravatar.com/avatar/53c237acd9556aa4e37ca553ab882dd0?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/2164312/romano-zumb%c3%a9",
+    "reputation" : 3732,
+    "accept_rate" : 71
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742579,
+  "last_activity_date" : 1498743559,
+  "tags" : [
+    "c#",
+    "wpf",
+    "xaml",
+    "data-binding"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 2
+}

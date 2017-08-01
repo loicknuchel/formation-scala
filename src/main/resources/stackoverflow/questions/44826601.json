@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826601,
+  "title" : "How to speed up local action with loop (with_items or with_sequence)",
+  "body" : "<p>Given the following playbook:</p>\n\n<pre><code>---\n- name: test local_action with_items\n  hosts: localhost\n  gather_facts: false\n  tasks:\n    - name: \"add something to a file\"\n      shell: echo '{{item}}' &gt;&gt; foo.txt\n      with_items:\n      - \"aaaaa\"\n      - \"aaaaa\"\n# using 40 items\n</code></pre>\n\n<p>or</p>\n\n<pre><code>---\n- name: test local_action with_items\n  hosts: localhost\n  gather_facts: false\n  tasks:\n    - name: \"add something to a file\"\n      shell: echo '{{item}}' &gt;&gt; foo.txt\n      with_sequence: count=40\n</code></pre>\n\n<p>The latter playbook run 5 seconds.</p>\n\n<p><a href=\"https://stackoverflow.com/questions/49110/how-do-i-write-a-for-loop-in-bash\">Using a bash loop is obviously much</a> (1000 times) faster and takes 5 ms:</p>\n\n<pre><code>time for i in $(seq 1 40); do echo $i &gt;&gt; foo.txt;     done\n</code></pre>\n\n<p>Now it is clear that Ansible has some overhead, but is there any possibility to speed this up?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826601/how-to-speed-up-local-action-with-loop-with-items-or-with-sequence",
+  "owner" : {
+    "user_id" : 4945535,
+    "user_type" : "registered",
+    "display_name" : "user140547",
+    "profile_image" : "https://www.gravatar.com/avatar/e6b1a1aff0a2c0762155a910b6fb18d5?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/4945535/user140547",
+    "reputation" : 3512,
+    "accept_rate" : 57
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743136,
+  "last_activity_date" : 1498743136,
+  "tags" : [
+    "ansible"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

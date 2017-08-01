@@ -1,0 +1,37 @@
+{
+  "uuid" : "4a69a65acb125bda501fc249bef6374250a31444",
+  "bioAsHtml" : "<p>Laurène a été et est encore à l&#x27;occasion développeur, Scrum Master et Product Owner. Pour autant elle passe le plus clair de son temps comme Coach Agile chez des clients diverses et variés et Studio Delivery Manager au Studio de Xebia.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/IUX-9849",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ed350128cb4bddd55f77d149b9a12f92b7ec886b",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Meriem El Aaboudi"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4a69a65acb125bda501fc249bef6374250a31444",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Laurène Thénoz"
+        }
+      ],
+      "id" : "IUX-9849",
+      "title" : "Les 5 questions con(tre) l'agilité et comment y répondre"
+    }
+  ],
+  "company" : "Xebia",
+  "bio" : "Laurène a été et est encore à l'occasion développeur, Scrum Master et Product Owner. Pour autant elle passe le plus clair de son temps comme Coach Agile chez des clients diverses et variés et Studio Delivery Manager au Studio de Xebia. \r\n",
+  "lastName" : "Thénoz",
+  "firstName" : "Laurène",
+  "blog" : "http://blog.xebia.fr/category/agilite/",
+  "avatarURL" : "http://www.gravatar.com/avatar/6b7741895f0a729695a408cece6affb1",
+  "twitter" : "@lvolmonn",
+  "lang" : "fr"
+}

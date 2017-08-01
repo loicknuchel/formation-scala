@@ -1,0 +1,37 @@
+{
+  "uuid" : "301e7a81d2af1bfbc2b4e4453b1abadf582547f9",
+  "bioAsHtml" : "<p>Xavier Mary has extensive experience in IT Services and Consulting. Working on large scale projects since 20+ years, Xavier has proven successful experiences in the full lifecycle of end-to-end architectures.\nConsidering to be at the crossroads between Business and IT, Xavier has a wide range of experiences among various industries (Life Science, Healthcare, Retail, Banking / Insurance, ...). Always curious about business issues, he likes to explore innovative solutions and see how they can improve business outcome.\nApplied leadership, technical leader on many projects, facilitator between customer/local teams and development/labs teams, and professional mentor.\nSpecialties: Analytics, Watson, Bluemix</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/IPS-4761",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/301e7a81d2af1bfbc2b4e4453b1abadf582547f9",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Xavier Mary"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/47af10c6702591ca371d85c6a11975f686cfcf95",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Michel caussanel"
+        }
+      ],
+      "id" : "IPS-4761",
+      "title" : "Bluemix - Classification et ranking grace à Watson"
+    }
+  ],
+  "company" : "IBM",
+  "bio" : "Xavier Mary has extensive experience in IT Services and Consulting. Working on large scale projects since 20+ years, Xavier has proven successful experiences in the full lifecycle of end-to-end architectures.\r\nConsidering to be at the crossroads between Business and IT, Xavier has a wide range of experiences among various industries (Life Science, Healthcare, Retail, Banking / Insurance, ...). Always curious about business issues, he likes to explore innovative solutions and see how they can improve business outcome.\r\nApplied leadership, technical leader on many projects, facilitator between customer/local teams and development/labs teams, and professional mentor.\r\nSpecialties: Analytics, Watson, Bluemix",
+  "lastName" : "Mary",
+  "firstName" : "Xavier",
+  "blog" : null,
+  "avatarURL" : "https://media.licdn.com/mpr/mprx/0_9fXpR8wHYGglIqeTneCfRiyIpCVjwBJTNSr_RiDsibaDN1a3sdqrv_MN-2sGHK4Sc26GqkxD5ZTe",
+  "twitter" : null,
+  "lang" : "en"
+}

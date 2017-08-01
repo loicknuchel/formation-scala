@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "University",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p><a href=\"https://jhipster.github.io/\">JHipster</a> est un générateur d'applications Spring Boot + AngularJS, entièrement Open Source, qui vous permet de démarrer, développer et mettre en production votre projet en un temps record.</p>\n<p>Largement utilisé, il possède une importante communauté de développeurs (plus de 261 contributeurs!), et de nombreuses entreprises l'ont choisi comme framework de référence (plus de 120 sociétés sont officiellement listées!).</p>\n<p>Ces très nombreuses contributions font que JHipster possède un grand nombre d'outils, astuces et idées, qui correctement utilisés vous permettent de gagner du temps à toutes les phases de votre projet.</p>\n<p>Dans cette session de 3h,  <a href=\"https://twitter.com/juliendubois\">Julien Dubois</a> (le créateur et principal développeur de JHipster) vous guidera à travers les principaux workflows officiels de JHipster, ainsi que quelques-uns moins connus, ou à paraître dans les futures releases!</p>\n",
+  "id" : "GRJ-5404",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/de3da7575830a16e641d43204cab18b671809dec",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Julien Dubois"
+      },
+      "name" : "Julien Dubois"
+    }
+  ],
+  "title" : "Etre productif avec JHipster",
+  "lang" : "fr",
+  "summary" : "[JHipster](https://jhipster.github.io/) est un générateur d'applications Spring Boot + AngularJS, entièrement Open Source, qui vous permet de démarrer, développer et mettre en production votre projet en un temps record.\r\n\r\nLargement utilisé, il possède une importante communauté de développeurs (plus de 261 contributeurs!), et de nombreuses entreprises l'ont choisi comme framework de référence (plus de 120 sociétés sont officiellement listées!).\r\n\r\nCes très nombreuses contributions font que JHipster possède un grand nombre d'outils, astuces et idées, qui correctement utilisés vous permettent de gagner du temps à toutes les phases de votre projet.\r\n\r\nDans cette session de 3h,  [Julien Dubois](https://twitter.com/juliendubois) (le créateur et principal développeur de JHipster) vous guidera à travers les principaux workflows officiels de JHipster, ainsi que quelques-uns moins connus, ou à paraître dans les futures releases!"
+}

@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825688,
+  "title" : "Artifacts with jar packaging which could be become bundles too accordind to some profile",
+  "body" : "<p>I would like to ask you some hints about the proper way to configure maven in the following scenario:\nI have some artifacts which are currently packaged as jar, but they have maven-bundle-plugin too because I want them become OSGI bundles, nevertheless I didn't change their package to bundle because it exists the case that I want build them as jar (or war sometimes).</p>\n\n<p>To use maven-bundle-plugin with package jar I have followed <a href=\"http://felix.apache.org/documentation/subprojects/apache-felix-maven-bundle-plugin-bnd.html#adding-osgi-metadata-to-existing-projects-without-changing-the-packaging-type\" rel=\"nofollow noreferrer\">this chapter</a> and all worked fine, but now I'm considering to package them with bundle, to gain the full features of maven-bundle-plugin and because my default deploy is to OSGI.</p>\n\n<p>So I would like to know if packaging artifacts as bundles but using them in a not OSGI container may results in troubles, what do you think? Thx</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825688/artifacts-with-jar-packaging-which-could-be-become-bundles-too-accordind-to-some",
+  "owner" : {
+    "user_id" : 2634852,
+    "user_type" : "registered",
+    "display_name" : "Gamby",
+    "profile_image" : "https://i.stack.imgur.com/Lg17I.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/2634852/gamby",
+    "reputation" : 44,
+    "accept_rate" : 0
+  },
+  "is_answered" : false,
+  "creation_date" : 1498740750,
+  "last_activity_date" : 1498740750,
+  "tags" : [
+    "osgi",
+    "apache-felix",
+    "bnd"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

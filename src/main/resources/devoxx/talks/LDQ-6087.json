@@ -1,0 +1,36 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "University",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Paris, 5 avril 2017, une idée, trois développeurs, et c'est parti !</p>\n<p>Dans cette session nous allons développer en live et from scratch le Minimum Viable Product de notre géniale idée : <strong>Open Wines Database</strong></p>\n<p>L'occasion de mettre en application les bons patterns pour réussir ce genre de défi :</p>\n<ul>\n<li>Définir les features du MVP</li>\n<li>Choisir les bons outils pour démarrer rapidement</li>\n<li>Coder</li>\n<li>Utiliser des services SaaS pour ne pas réinventer la roue (ex: Auth0, Prismic)</li>\n<li>Coder</li>\n<li>Mettre en ligne rapide grâce au PaaS (ex: Clever Cloud)</li>\n<li>Coder</li>\n<li>Profiter des compétences et expérience de chaque membre de l'équipe pour être efficace</li>\n<li>Et continuer à coder, évidemment ;-)</li>\n</ul>\n<p>Trois heures de live coding avec Chris, Mathieu, Sébastien ... et bien évidemment toi public qui viendra assister à cette session !</p>\n",
+  "id" : "LDQ-6087",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c12f4700653d4486770fc18d20419e9766c60cd2",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Sébastien PRUNIER"
+      },
+      "name" : "Sébastien PRUNIER"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c7161bbb4136867cd2db30cabd9472a3533260a1",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Chris Woodrow"
+      },
+      "name" : "Chris Woodrow"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/928fb729aded7d9a2e1452ca269e0559e8cab7ff",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Mathieu ANCELIN"
+      },
+      "name" : "Mathieu ANCELIN"
+    }
+  ],
+  "title" : "Minimum Viable Product In Action",
+  "lang" : "fr",
+  "summary" : "Paris, 5 avril 2017, une idée, trois développeurs, et c'est parti !\r\n\r\nDans cette session nous allons développer en live et from scratch le Minimum Viable Product de notre géniale idée : **Open Wines Database**\r\n\r\nL'occasion de mettre en application les bons patterns pour réussir ce genre de défi :\r\n\r\n* Définir les features du MVP\r\n* Choisir les bons outils pour démarrer rapidement\r\n* Coder\r\n* Utiliser des services SaaS pour ne pas réinventer la roue (ex: Auth0, Prismic)\r\n* Coder\r\n* Mettre en ligne rapide grâce au PaaS (ex: Clever Cloud)\r\n* Coder\r\n* Profiter des compétences et expérience de chaque membre de l'équipe pour être efficace\r\n* Et continuer à coder, évidemment ;-)\r\n\r\nTrois heures de live coding avec Chris, Mathieu, Sébastien ... et bien évidemment toi public qui viendra assister à cette session !\r\n"
+}

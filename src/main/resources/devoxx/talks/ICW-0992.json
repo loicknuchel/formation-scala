@@ -1,0 +1,28 @@
+{
+  "trackId" : "lang",
+  "talkType" : "Hands-on Labs",
+  "track" : "Langages alternatifs",
+  "summaryAsHtml" : "<p>Kotlin se situe entre Java et Scala : plus puissant que Java par l'apport de class immuable, de méthode d'extensions, et autres fonctionnalités, sans pour autant tomber dans la complexité que peut apporter Scala.</p>\n<p>A l'occasion de la création d'un catalogue interactif de films, venez découvrir les fonctionnalités majeures de Kotlin, ces différences et son intégration avec Java, comment Kotlin est un langage productif, et comment il peut vous rendre plus productif.</p>\n<p><strong>Pré-requis:</strong></p>\n<ul>\n<li>JDK 8</li>\n<li>2/3 Go de libre pour copier le contenu d'une clé USB (sur la clé : Doc + atelier+ gradle + intellij 2017.1+ dépendances)</li>\n</ul>\n",
+  "id" : "ICW-0992",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b8cfc2c5b0d9f98410ec6cc7b51c47419cb634dd",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "David Wursteisen"
+      },
+      "name" : "David Wursteisen"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/2672fcd594fa85df6f371818de903c34f6177394",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Mounir BOUDRAA"
+      },
+      "name" : "Mounir BOUDRAA"
+    }
+  ],
+  "title" : "À la découverte de Kotlin",
+  "lang" : "fr",
+  "summary" : "Kotlin se situe entre Java et Scala : plus puissant que Java par l'apport de class immuable, de méthode d'extensions, et autres fonctionnalités, sans pour autant tomber dans la complexité que peut apporter Scala.\r\n\r\nA l'occasion de la création d'un catalogue interactif de films, venez découvrir les fonctionnalités majeures de Kotlin, ces différences et son intégration avec Java, comment Kotlin est un langage productif, et comment il peut vous rendre plus productif.\r\n\r\n**Pré-requis:**\r\n\r\n  * JDK 8\r\n  * 2/3 Go de libre pour copier le contenu d'une clé USB (sur la clé : Doc + atelier+ gradle + intellij 2017.1+ dépendances)"
+}

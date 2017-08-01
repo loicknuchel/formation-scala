@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826237,
+  "title" : "GCM - One registration id receiving duplicate notifications",
+  "body" : "<p>When I send a message to a certain registration id, the device always receives two notifications (which are exactly the same).</p>\n\n<p>This is a one-to-one operation - One notification to one registration id.</p>\n\n<p>I've done the test through an FCM message test service (such as <a href=\"http://pushtry.com/\" rel=\"nofollow noreferrer\">http://pushtry.com/</a>). One message triggers two notifications.</p>\n\n<p>Any ideas on how that can be possible?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826237/gcm-one-registration-id-receiving-duplicate-notifications",
+  "owner" : {
+    "user_id" : 2661793,
+    "user_type" : "registered",
+    "display_name" : "ivopintodasilva",
+    "profile_image" : "https://www.gravatar.com/avatar/df9fda3a3f58a1e6c9c77f432be72c0c?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/2661793/ivopintodasilva",
+    "reputation" : 58,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742216,
+  "last_activity_date" : 1498742216,
+  "tags" : [
+    "android",
+    "firebase",
+    "firebase-cloud-messaging"
+  ],
+  "score" : 0,
+  "view_count" : 16,
+  "answer_count" : 0
+}

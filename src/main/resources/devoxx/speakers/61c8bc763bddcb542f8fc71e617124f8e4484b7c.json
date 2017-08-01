@@ -1,0 +1,37 @@
+{
+  "uuid" : "61c8bc763bddcb542f8fc71e617124f8e4484b7c",
+  "bioAsHtml" : "<p>Développeur passionné par les problématiques de performances et les architectures distribuées.\nJ&#x27;ai commencé mon parcours chez Octo puis Xebia pour finalement rejoindre la cellule d&#x27;expert production de Voyages-sncf.com</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "University",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/JFZ-8990",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/43b657d0f64af96db01911d3caebda26d7a5c389",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Guillaume Arnaud"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/61c8bc763bddcb542f8fc71e617124f8e4484b7c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "William Montaz"
+        }
+      ],
+      "id" : "JFZ-8990",
+      "title" : "Finalement, c'est quoi un système distribué ?"
+    }
+  ],
+  "company" : "VSCT",
+  "bio" : "Développeur passionné par les problématiques de performances et les architectures distribuées.\r\nJ'ai commencé mon parcours chez Octo puis Xebia pour finalement rejoindre la cellule d'expert production de Voyages-sncf.com",
+  "lastName" : "Montaz",
+  "firstName" : "William",
+  "blog" : "https://plus.google.com/107319875471984205254",
+  "avatarURL" : "https://lh6.googleusercontent.com/-ri0lmMl2K0o/AAAAAAAAAAI/AAAAAAAAAMg/p8D1gzn2zN0/photo.jpg",
+  "twitter" : null,
+  "lang" : "fr"
+}

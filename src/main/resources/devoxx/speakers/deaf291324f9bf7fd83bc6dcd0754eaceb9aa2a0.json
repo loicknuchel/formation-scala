@@ -1,0 +1,37 @@
+{
+  "uuid" : "deaf291324f9bf7fd83bc6dcd0754eaceb9aa2a0",
+  "bioAsHtml" : "<p>Jeune développeur agiliste et javaiste (entre autres), favorable à la libération des entreprises et des intellects.\nAime les pâtes au pesto.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/WZM-8004",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f8e03ec88abe5a93f61949cc2722c8a71a369a42",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Charlotte Cavalier"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/deaf291324f9bf7fd83bc6dcd0754eaceb9aa2a0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Christophe Pont"
+        }
+      ],
+      "id" : "WZM-8004",
+      "title" : "Être geek en SSII : guide de survie en milieu hostile"
+    }
+  ],
+  "company" : null,
+  "bio" : "Jeune développeur agiliste et javaiste (entre autres), favorable à la libération des entreprises et des intellects.\r\nAime les pâtes au pesto.",
+  "lastName" : "Pont",
+  "firstName" : "Christophe",
+  "blog" : null,
+  "avatarURL" : "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/053/091/24e9046.jpg",
+  "twitter" : "@christophe_pc",
+  "lang" : "fr"
+}

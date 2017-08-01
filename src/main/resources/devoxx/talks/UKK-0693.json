@@ -1,0 +1,28 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "Conference",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>Les systèmes in-memory comme Infinispan sont largement utilisés et deviennent le lubrifiant WD-40 de la donnée: accélérer l'accès aux données, tailler la donnée aux petits oignons pour le cas d'utilisation, etc.\nCes outils sont versatiles et peuvent être utilisés d'un milliard de façons différentes.\nMais contrairement au ruban adhésif et au WD-40, il n'est pas intuitif de savoir quand et comment les utiliser.</p>\n<p><img src=\"http://www.mcmproductions.com/wp-content/uploads/2013/10/WD-40-and-Duct-Tape-Flow-Chart.jpg\" alt=\"WD140 ou ruban adhesif\" /></p>\n<p>Dans cette session, nous allons explorer des architectures et des cas d'utilisation pratiques où les systèmes in-memory font la différence.\nVous sortirez de cette présentation avec des exemples concrets pour dégripper vos données.</p>\n",
+  "id" : "UKK-0693",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/419d72a808d490afdf5721dc44e29c64fa02524c",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Emmanuel Bernard"
+      },
+      "name" : "Emmanuel Bernard"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ba82dfb0cd56f32a8507cbb7c0a9677dabb4ce71",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Galder Zamarreño"
+      },
+      "name" : "Galder Zamarreño"
+    }
+  ],
+  "title" : "Architecture par la pratique: patterns d’utilisation de systèmes in-memory - WD-40 entre vos données et vos applis",
+  "lang" : "fr",
+  "summary" : "Les systèmes in-memory comme Infinispan sont largement utilisés et deviennent le lubrifiant WD-40 de la donnée: accélérer l'accès aux données, tailler la donnée aux petits oignons pour le cas d'utilisation, etc.\r\nCes outils sont versatiles et peuvent être utilisés d'un milliard de façons différentes.\r\nMais contrairement au ruban adhésif et au WD-40, il n'est pas intuitif de savoir quand et comment les utiliser.\r\n\r\n![WD140 ou ruban adhesif](http://www.mcmproductions.com/wp-content/uploads/2013/10/WD-40-and-Duct-Tape-Flow-Chart.jpg)\r\n\r\nDans cette session, nous allons explorer des architectures et des cas d'utilisation pratiques où les systèmes in-memory font la différence.\r\nVous sortirez de cette présentation avec des exemples concrets pour dégripper vos données."
+}

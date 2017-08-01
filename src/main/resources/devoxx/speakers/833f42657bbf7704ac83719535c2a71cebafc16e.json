@@ -1,0 +1,37 @@
+{
+  "uuid" : "833f42657bbf7704ac83719535c2a71cebafc16e",
+  "bioAsHtml" : "<p>Issu d&#x27;un parcours BI et CRM j&#x27;accompagne aujourd&#x27;hui mes clients dans leur ouverture aux solutions Big Data en qualité de Data Engineer chez Ebiznext</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "University",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/PLK-3557",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d78f17b882fb6ed14fc7d64a434ec08c7fc11e93",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jonathan Winandy"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/833f42657bbf7704ac83719535c2a71cebafc16e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Bachir Aït M'Barek"
+        }
+      ],
+      "id" : "PLK-3557",
+      "title" : "Spark-adabra : Comment construire un datalake !"
+    }
+  ],
+  "company" : "Ebiznext",
+  "bio" : "Issu d'un parcours BI et CRM j'accompagne aujourd'hui mes clients dans leur ouverture aux solutions Big Data en qualité de Data Engineer chez Ebiznext",
+  "lastName" : "Aït M'Barek",
+  "firstName" : "Bachir",
+  "blog" : null,
+  "avatarURL" : "http://www.gravatar.com/avatar/baf9f02616f57cf7ccd28015041bd523",
+  "twitter" : null,
+  "lang" : "fr"
+}

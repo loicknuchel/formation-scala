@@ -1,0 +1,20 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "University",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>Dans la machine virtuelle Java, les instructions (bytecode) sont chargées, interprétées pour un temps, puis profilées, optimisées, compilées, ... et encore optimisées et recompilées; le tout pour non seulement une performance optimale, mais également une exécution sécuritaire de notre code.\nMais que ce passe-t-il vraiment lorsque nos processeurs exécutent notre code? Lors de cette session nous regarderons sous le capot en regardant comment nos ordinateurs execute notre code: en regardant du code C, de l'assembleur, du C++ ... du code de la JVM et ainsi que d'autre environment d'éxecution. Afin de mieux comprendre ce qu'est de la mémoire, comment elle est utilisée, tout ce qui peut \"mal se passer\" et ce que les machines virtuelles adressent comme problème pour nous, afin de rendre notre vie plus simple, mais en tâchant de comprendre les compromis qui en découle.\nFinalement nous regarderont comment d'autre approches pourraient addresser ces problématiques de façon différente.</p>\n",
+  "id" : "KGN-4315",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1a2874344ca64ffa85a87ff980c80aa2cfcd3c58",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Alex Snaps"
+      },
+      "name" : "Alex Snaps"
+    }
+  ],
+  "title" : "Execution de code — mais que se passe-t-il vraiment?",
+  "lang" : "fr",
+  "summary" : "Dans la machine virtuelle Java, les instructions (bytecode) sont chargées, interprétées pour un temps, puis profilées, optimisées, compilées, ... et encore optimisées et recompilées; le tout pour non seulement une performance optimale, mais également une exécution sécuritaire de notre code. \r\nMais que ce passe-t-il vraiment lorsque nos processeurs exécutent notre code? Lors de cette session nous regarderons sous le capot en regardant comment nos ordinateurs execute notre code: en regardant du code C, de l'assembleur, du C++ ... du code de la JVM et ainsi que d'autre environment d'éxecution. Afin de mieux comprendre ce qu'est de la mémoire, comment elle est utilisée, tout ce qui peut \"mal se passer\" et ce que les machines virtuelles adressent comme problème pour nous, afin de rendre notre vie plus simple, mais en tâchant de comprendre les compromis qui en découle.\r\nFinalement nous regarderont comment d'autre approches pourraient addresser ces problématiques de façon différente."
+}

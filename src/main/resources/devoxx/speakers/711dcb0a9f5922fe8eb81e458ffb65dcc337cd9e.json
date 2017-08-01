@@ -1,0 +1,55 @@
+{
+  "uuid" : "711dcb0a9f5922fe8eb81e458ffb65dcc337cd9e",
+  "bioAsHtml" : "<p>Romain a longtemps développé des applications en Java, avant de migrer petit à petit vers le merveilleux - mais très évolutif - monde du web.\nAmoureux des technologies front-end, et même du JavaScript (c&#x27;est dire !), il est devenu un évangéliste des technologies web mondialement reconnu au sein de Société Générale à Paris.\nIl est désormais le leader technique du framework interne basé sur angular et utilisé par des milliers de développeurs.\nDepuis, il parcourt le monde (disons l&#x27;Europe) pour parler dans différentes conférences, en particulier les conférences Devoxx.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/MQX-7143",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b66b20ac13dca6d08b7edd4495765f43812ad042",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Cyril Lakech"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/711dcb0a9f5922fe8eb81e458ffb65dcc337cd9e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Romain Linsolas"
+        }
+      ],
+      "id" : "MQX-7143",
+      "title" : "10 méthodes pour rendre heureux les développeurs, la 7e va vous étonner !"
+    },
+    {
+      "talkType" : "Quickie",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/RPN-5925",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/711dcb0a9f5922fe8eb81e458ffb65dcc337cd9e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Romain Linsolas"
+        }
+      ],
+      "id" : "RPN-5925",
+      "title" : "Le ShadowDOM pour les nuls"
+    }
+  ],
+  "company" : "Société Générale",
+  "bio" : "Romain a longtemps développé des applications en Java, avant de migrer petit à petit vers le merveilleux - mais très évolutif - monde du web.\r\nAmoureux des technologies front-end, et même du JavaScript (c'est dire !), il est devenu un évangéliste des technologies web mondialement reconnu au sein de Société Générale à Paris.\r\nIl est désormais le leader technique du framework interne basé sur angular et utilisé par des milliers de développeurs.\r\nDepuis, il parcourt le monde (disons l'Europe) pour parler dans différentes conférences, en particulier les conférences Devoxx.\r\n",
+  "lastName" : "Linsolas",
+  "firstName" : "Romain",
+  "blog" : "http://linsolas.github.io",
+  "avatarURL" : "http://m.c.lnkd.licdn.com/media/p/4/005/046/246/1b274c9.jpg",
+  "twitter" : "@romaintaz",
+  "lang" : "fr"
+}

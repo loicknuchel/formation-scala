@@ -1,0 +1,28 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Conference",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Qui n’a jamais rêvé de trouver la meilleure bière près de chez lui ?<br  /></p>\n<p>L’enjeu de notre talk est double :</p>\n<ul>\n<li>Vous permettre de résoudre ce besoin essentiel !</li>\n<li>L’implémenter en live coding sur scène !</li>\n</ul>\n<p>La première partie du talk vous énoncera les données du problème et vous expliquera, au travers de l’analyse de ce dernier, quels grands concepts du big data vous permettront de résoudre ce type de problème.</p>\n<p>La deuxième partie du talk, elle, se focalisera sur l’implémentation de la solution, afin de démontrer à chaque personne présente, comment coder en utilisant hadoop, spark &amp; cie …</p>\n<p>Attention, la bière n’est pas inclus au sein de ce talk !</p>\n",
+  "id" : "FGB-3240",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8afbf53e07d46197854f422b4f7f41a860a2b89b",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Alexis Slawny"
+      },
+      "name" : "Alexis Slawny"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1c6ce40eb57e4482b241683e81d7cd6774709dd1",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Mathias kluba"
+      },
+      "name" : "Mathias kluba"
+    }
+  ],
+  "title" : "Big Binouze : Le Big Data, de la récolte jusqu'à la production à grande échelle !",
+  "lang" : "fr",
+  "summary" : "Qui n’a jamais rêvé de trouver la meilleure bière près de chez lui ?  \r\n\r\nL’enjeu de notre talk est double : \r\n\r\n-\tVous permettre de résoudre ce besoin essentiel !\r\n-\tL’implémenter en live coding sur scène !\r\n\r\nLa première partie du talk vous énoncera les données du problème et vous expliquera, au travers de l’analyse de ce dernier, quels grands concepts du big data vous permettront de résoudre ce type de problème.\r\n\r\nLa deuxième partie du talk, elle, se focalisera sur l’implémentation de la solution, afin de démontrer à chaque personne présente, comment coder en utilisant hadoop, spark & cie …\r\n\r\nAttention, la bière n’est pas inclus au sein de ce talk !\r\n"
+}

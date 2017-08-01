@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826558,
+  "title" : "How to keep part of Observable alive regardless upstream?",
+  "body" : "<p>So in this talk. Jake introduce an Architecture that based on ObservableTransformer. And manage state via Event/Action/Result/ViewModel. \nSo basically it looks like this:</p>\n\n<pre><code>//Your events\nObservable events = Observable.merge(\nRxView.clicks().map(it -&gt; new clickEvent()),//and other events);\n\n//Your Transformer\ntransformer = actions -&gt; Observable.merge(\n      actions.doStuff1(),\n      actions.doStuff2()\n).scan(initialState, (state, result) -&gt; /* ... */ );\n\n//Your Result\nresult.subscribe(//Your UI binding);\n</code></pre>\n\n<p>So in Jake's talk.He mention that inside Transformer, Those actions can run regardless your downstream(Your UI/Fragment/Activity) disposed. So if you meet a configuration change. You still can get the result of your network call via <code>replay(1).autoConnect()</code>. \nBut I found it's impossible to get the replay value. Because you will get a completely new <code>Observable</code> every time you use your Transformer.\nSo in this reddit comment: <a href=\"https://www.reddit.com/r/androiddev/comments/656ter/managing_state_with_rxjava_by_jake_wharton/dg9a6m9/\" rel=\"nofollow noreferrer\">reddit</a> \n   Jake mentions that you can use a Subject to present those actions. So I change my implementation like:</p>\n\n<pre><code>Subject&lt;Action&gt; subject = PublishSubject&lt;&gt;.create();\nObservable&lt;ViewModel&gt; observable = subject.publish(actions -&gt; \n    Observable.merge(\n        actions.doStuff1(),\n        actions.doStuff2()\n    )\n)\n.scan(//scan)\n.replay(1)\n.autoConnect();\n\ntransformer = actions -&gt; {\n    actions.subscribe(subject);\n    return observable;\n}\n</code></pre>\n\n<p>So this approach can work, But there are problems:</p>\n\n<ol>\n<li><p>You will lose some events from upstream since you subscribe to it to early inside transformer. </p></li>\n<li><p>The dispose part seems really hard to control. </p></li>\n</ol>\n\n<p>So is there some better approach or I don't understand this \"Architecture\" correctly? \nThanks!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826558/how-to-keep-part-of-observable-alive-regardless-upstream",
+  "owner" : {
+    "user_id" : 6527510,
+    "user_type" : "registered",
+    "display_name" : "Phoenix Wang",
+    "profile_image" : "https://lh4.googleusercontent.com/-iRInSyzvnkY/AAAAAAAAAAI/AAAAAAAAAD4/rGS1YnMznYA/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/6527510/phoenix-wang",
+    "reputation" : 730,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743002,
+  "last_activity_date" : 1498743002,
+  "tags" : [
+    "android",
+    "rx-java",
+    "rx-binding"
+  ],
+  "score" : 0,
+  "view_count" : 11,
+  "answer_count" : 0
+}

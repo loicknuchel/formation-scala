@@ -1,0 +1,50 @@
+{
+  "uuid" : "762e5d195bf1569b3882803eb2ab046a76a047ee",
+  "bioAsHtml" : "<p>Développeur Java depuis plus de 10 ans.\nJe découvre Android en 2008 et organise les premières rencontres de développeurs autour du sujet.\nDepuis 2009, je travaille dans le domaine de la géolocalisation.\nGénéraliste, la philosophie devops est une réalité depuis plus de deux ans.\nEnfin, l&#x27;IoT est le sujet qui m&#x27;occupe plus particulièrement depuis un an..</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Mobile, IoT",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/RYV-9409",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/762e5d195bf1569b3882803eb2ab046a76a047ee",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sylvain Maucourt"
+        }
+      ],
+      "id" : "RYV-9409",
+      "title" : "Fastlane, le continuous delivery du mobile "
+    },
+    {
+      "talkType" : "Quickie",
+      "track" : "Mobile, IoT",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/USW-2500",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/762e5d195bf1569b3882803eb2ab046a76a047ee",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sylvain Maucourt"
+        }
+      ],
+      "id" : "USW-2500",
+      "title" : "Mqtt, le protocole IoT"
+    }
+  ],
+  "company" : "Deveryware",
+  "bio" : "Développeur Java depuis plus de 10 ans.\r\nJe découvre Android en 2008 et organise les premières rencontres de développeurs autour du sujet.\r\nDepuis 2009, je travaille dans le domaine de la géolocalisation.\r\nGénéraliste, la philosophie devops est une réalité depuis plus de deux ans.\r\nEnfin, l'IoT est le sujet qui m'occupe plus particulièrement depuis un an..\r\n",
+  "lastName" : "Maucourt",
+  "firstName" : "Sylvain",
+  "blog" : "https://github.com/sylvek",
+  "avatarURL" : "https://lh3.googleusercontent.com/-4zvcWomzyus/AAAAAAAAAAI/AAAAAAAADRA/dwhFLNZ18Xs/photo.jpg",
+  "twitter" : "@sylv3k",
+  "lang" : "fr-FR"
+}

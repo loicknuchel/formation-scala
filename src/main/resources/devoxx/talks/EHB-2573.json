@@ -1,0 +1,52 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Conference",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>Elément incontournable - incontourné on espère ;) - de cette fin de Devoxx, venez faire un petit débrief de cette édition avec les vrais de vrais, celles et ceux qui restent jusqu'à la dernière heure. Objectifs:</p>\n<ul>\n<li>Bonne ambiance</li>\n<li>Bonnes discussions</li>\n<li>Bonne relaxation</li>\n<li>Bonne bière(*) fraiche</li>\n</ul>\n<p>C’est pas mal déjà.</p>\n<p>Les Cast Codeurs est un podcast en français sur Java et la JVM de, par et pour les développeurs. Mais ils sortent de leur cave de temps en temps pour faire des émissions endiablées, en direct devant une foule en délire. C'est notre perspective en tous cas.</p>\n<p>(*) L’abus d’alcool, c’est mal.</p>\n<p>(*) On n’a pas encore demandé pour les bières mais ça va le faire en demandant gentiment.</p>\n",
+  "id" : "EHB-2573",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/419d72a808d490afdf5721dc44e29c64fa02524c",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Emmanuel Bernard"
+      },
+      "name" : "Emmanuel Bernard"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a155ad6f93b3ce5d20a72c893a9b17b4e007b9a2",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Vincent Massol"
+      },
+      "name" : "Vincent Massol"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/2b935a5bfa04635d2e4c196afa7385ee2d254dde",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Antonio Goncalves"
+      },
+      "name" : "Antonio Goncalves"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a4aa19fa64372b927a62ff039428f4b4aafc687d",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Arnaud Héritier"
+      },
+      "name" : "Arnaud Héritier"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3bb736546aa9cc376293b607a165b60c4233e704",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Guillaume Laforge"
+      },
+      "name" : "Guillaume Laforge"
+    }
+  ],
+  "title" : "Les Cast Codeurs Podcast : tu prends ta bière(*), tu tends les jambes sous la chaise de ton voisin et tu te relaxes",
+  "lang" : "fr",
+  "summary" : "Elément incontournable - incontourné on espère ;) - de cette fin de Devoxx, venez faire un petit débrief de cette édition avec les vrais de vrais, celles et ceux qui restent jusqu'à la dernière heure. Objectifs:\r\n\r\n* Bonne ambiance\r\n* Bonnes discussions\r\n* Bonne relaxation\r\n* Bonne bière(*) fraiche\r\n\r\nC’est pas mal déjà.\r\n\r\nLes Cast Codeurs est un podcast en français sur Java et la JVM de, par et pour les développeurs. Mais ils sortent de leur cave de temps en temps pour faire des émissions endiablées, en direct devant une foule en délire. C'est notre perspective en tous cas.\r\n\r\n(*) L’abus d’alcool, c’est mal.\r\n\r\n(*) On n’a pas encore demandé pour les bières mais ça va le faire en demandant gentiment."
+}

@@ -1,0 +1,28 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Hands-on Labs",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Depuis le temps que vous allez à des conférences, vous avez sûrement participé à des codelabs React et/ou Angular2. Vous êtes même devenu peut-être un expert sur l'une de ces technos. C'est pour cela que nous avons décidé de ne pas choisir l'un de ces deux projets.</p>\n<p>Pendant ce codelab, nous avons choisi une toute autre librairie que nous sommes en train de tester pour des projets perso : VueJS. A travers ces 3 heures, nous allons aborder tous les concepts vous permettant de créer une application riche : composants, directives, mixins, routers, ...</p>\n<p>A la fin de ce codelab, vous allez pouvoir vous rendre compte que VueJS gagne le combat des frameworks/librairies JavaScript par sa simplicité et sa facilité de mise en oeuvre, tout en réutilisant certains concepts de ses deux concurrents.</p>\n<p><strong>Pré-requis: clonez le projet https://github.com/Gillespie59/devoxx-vuejs et installer les pré-requis décris dans <a href=\"https://github.com/Gillespie59/devoxx-vuejs/blob/master/docs/index.md\">docs/index.md</a></strong></p>\n",
+  "id" : "USM-5688",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9a0499cb7699c4d6f32a5d248e814f423a7d611b",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Emmanuel DEMEY"
+      },
+      "name" : "Emmanuel DEMEY"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e52b42078da54ebd3d8bf02fe7c4d1d442bf52c0",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Aurélien Loyer"
+      },
+      "name" : "Aurélien Loyer"
+    }
+  ],
+  "title" : "Après Angular et React, voici ... VueJS",
+  "lang" : "fr",
+  "summary" : "Depuis le temps que vous allez à des conférences, vous avez sûrement participé à des codelabs React et/ou Angular2. Vous êtes même devenu peut-être un expert sur l'une de ces technos. C'est pour cela que nous avons décidé de ne pas choisir l'un de ces deux projets. \r\n\r\nPendant ce codelab, nous avons choisi une toute autre librairie que nous sommes en train de tester pour des projets perso : VueJS. A travers ces 3 heures, nous allons aborder tous les concepts vous permettant de créer une application riche : composants, directives, mixins, routers, ...\r\n\r\nA la fin de ce codelab, vous allez pouvoir vous rendre compte que VueJS gagne le combat des frameworks/librairies JavaScript par sa simplicité et sa facilité de mise en oeuvre, tout en réutilisant certains concepts de ses deux concurrents. \r\n\r\n**Pré-requis: clonez le projet https://github.com/Gillespie59/devoxx-vuejs et installer les pré-requis décris dans [docs/index.md](https://github.com/Gillespie59/devoxx-vuejs/blob/master/docs/index.md)**"
+}

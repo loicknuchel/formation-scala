@@ -1,0 +1,25 @@
+{
+  "question_id" : 44805965,
+  "title" : "&quot;Custom&quot; selection mode in DataGridView",
+  "body" : "<p>I have set up a DataGridView which shows hourly values in a grid (1 column for each day, 24 rows). For my users' convenience, I would like them to be able to easily select a time interval and include all the values in between (see pictures). Preferably via a Shift+Click+DrawMouse operation, or a Click followed by a Shift+Click.</p>\n\n<p>This doesn't seem to be a standard selection mode in DataGridView. Does anyone have a suggestion for solving this?</p>\n\n<p><a href=\"https://i.stack.imgur.com/KBVr7.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/KBVr7.png\" alt=\"Right way\"></a> \n<a href=\"https://i.stack.imgur.com/OAe5N.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/OAe5N.png\" alt=\"Wrong way\"></a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44805965/custom-selection-mode-in-datagridview",
+  "owner" : {
+    "user_id" : 4584065,
+    "user_type" : "registered",
+    "display_name" : "schneiju",
+    "profile_image" : "https://www.gravatar.com/avatar/ef22455ad1b84ada1703076ede0a3ff5?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4584065/schneiju",
+    "reputation" : 38,
+    "accept_rate" : 86
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661577,
+  "last_activity_date" : 1498661577,
+  "tags" : [
+    "c#",
+    "datagridview"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 0
+}

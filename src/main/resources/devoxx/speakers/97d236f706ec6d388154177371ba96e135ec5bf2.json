@@ -1,0 +1,32 @@
+{
+  "uuid" : "97d236f706ec6d388154177371ba96e135ec5bf2",
+  "bioAsHtml" : "<p>Alexandre Delègue est ingénieur d&#x27;études chez SERLI. Développeur java, scala et javascript, il apprécie particulièrement la programmation fonctionnelle ainsi que la programmation réactive.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/WDK-9320",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/97d236f706ec6d388154177371ba96e135ec5bf2",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Alexandre Delègue"
+        }
+      ],
+      "id" : "WDK-9320",
+      "title" : "Akka avec java 8 finalement c'est cool ! "
+    }
+  ],
+  "company" : "serli",
+  "bio" : "Alexandre Delègue est ingénieur d'études chez SERLI. Développeur java, scala et javascript, il apprécie particulièrement la programmation fonctionnelle ainsi que la programmation réactive. ",
+  "lastName" : "Delègue",
+  "firstName" : "Alexandre",
+  "blog" : "https://plus.google.com/108968818453090484968",
+  "avatarURL" : "https://lh6.googleusercontent.com/-rVqI1e_VhvM/AAAAAAAAAAI/AAAAAAAAABY/oiX0TusmgTE/photo.jpg",
+  "twitter" : "@chanksleroux",
+  "lang" : "fr"
+}

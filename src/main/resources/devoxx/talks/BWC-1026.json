@@ -1,0 +1,36 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "Hands-on Labs",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>Le but de cet atelier est de vous montrer une méthode de développement qui se focalise sur les problématiques métiers et non technique. Pas besoin d'un langage de programmation ou d'un Framework spécifique.\nNous ferons émerger une application pendant l’atelier. Et nous verrons comment l'event sourcing et CQRS se présentent d’eux même pour supprimer les problématiques techniques que nous rencontrons souvent dans une application en couche, même de petite taille.\nUn pc avec GIT (2.5 ou plus), son environnement de développement et de test opérationnel est obligatoire. Nous fournirons une base de code dans les langages/plateformes suivantes :\n•   Java 8/Maven,\n•   C#/.NET4.5.1/VS2013,\n•   JS/Node,\n•   PHP5.5/Composer</p>\n",
+  "id" : "BWC-1026",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7f72bec97e79afd0f742fc87c486bd2a30d29fea",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Florent Pellet"
+      },
+      "name" : "Florent Pellet"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/36240f860ac768bbe44736a2f8c028b7651fb949",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Clement Bouillier"
+      },
+      "name" : "Clement Bouillier"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/71088009efb094754d81152df165eba94cd3dac4",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Emilien Pecoul"
+      },
+      "name" : "Emilien Pecoul"
+    }
+  ],
+  "title" : "Agilité par le code grâce à CQRS et EventSourcing",
+  "lang" : "fr",
+  "summary" : "Le but de cet atelier est de vous montrer une méthode de développement qui se focalise sur les problématiques métiers et non technique. Pas besoin d'un langage de programmation ou d'un Framework spécifique.\r\nNous ferons émerger une application pendant l’atelier. Et nous verrons comment l'event sourcing et CQRS se présentent d’eux même pour supprimer les problématiques techniques que nous rencontrons souvent dans une application en couche, même de petite taille.\r\nUn pc avec GIT (2.5 ou plus), son environnement de développement et de test opérationnel est obligatoire. Nous fournirons une base de code dans les langages/plateformes suivantes :\r\n•\tJava 8/Maven, \r\n•\tC#/.NET4.5.1/VS2013, \r\n•\tJS/Node,\r\n•\tPHP5.5/Composer\r\n"
+}

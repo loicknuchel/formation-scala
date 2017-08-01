@@ -1,0 +1,32 @@
+{
+  "uuid" : "f487d23e3cea22f9193b9b372a295e2e403a1d42",
+  "bioAsHtml" : "<p>Erwan est consultant full-stack chez Carbon IT, et actuellement en mission chez VSCT (voyages-scnf.com).</p>\n<p>Il intervient principalement sur les technologies de l&#x27;écosystème Java, Javascript et sur les technologies de Search (Elasticsearch, Solr...).\nIl s&#x27;intéresse également à la data au sens large, et aux technologies de streaming/big data (kafka, spark...)</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/GKQ-4568",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f487d23e3cea22f9193b9b372a295e2e403a1d42",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Erwan Deruelle"
+        }
+      ],
+      "id" : "GKQ-4568",
+      "title" : "Yarn, encore un package-manager ?"
+    }
+  ],
+  "company" : "Carbon IT",
+  "bio" : "Erwan est consultant full-stack chez Carbon IT, et actuellement en mission chez VSCT (voyages-scnf.com).\r\n\r\nIl intervient principalement sur les technologies de l'écosystème Java, Javascript et sur les technologies de Search (Elasticsearch, Solr...). \r\nIl s'intéresse également à la data au sens large, et aux technologies de streaming/big data (kafka, spark...)",
+  "lastName" : "Deruelle",
+  "firstName" : "Erwan",
+  "blog" : null,
+  "avatarURL" : "http://www.gravatar.com/avatar/b5620b77648d6e3dfed121fc81e3f2f2",
+  "twitter" : "@d3rwan",
+  "lang" : "fr"
+}

@@ -1,0 +1,28 @@
+{
+  "trackId" : "mobile",
+  "talkType" : "Tools-in-Action",
+  "track" : "Mobile, IoT",
+  "summaryAsHtml" : "<p>Développer sur mobile en 2017, c’est incontournable. Pour un développeur front-end ou full-stack le coût d’entrée est parfois élevé. Que ce soit sur iOS ou Android, avant d’être à l’aise, on peut passer pas mal de temps à apprendre les APIs natives, les outils et peut-être même le langage.</p>\n<p>Avec React Native, le jeu a changé, si vous connaissez React, vous avez tout ce qu’il faut pour développer une application native pour les deux plate-formes.</p>\n<p>Au cours de cette présentation, nous développerons en moins de vingt minutes une application pour choisir le prénom d’un nouveau-né pour iOS et Android en utilisant React Native, ES2017 et Flow.</p>\n",
+  "id" : "KXN-1864",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1a669acc8d193f14296af073cacf6e9446525c61",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Florent Le Gall"
+      },
+      "name" : "Florent Le Gall"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/87e03893af48cf11409cc4f7375993399a8af521",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Thierry Abaléa"
+      },
+      "name" : "Thierry Abaléa"
+    }
+  ],
+  "title" : "React Native ou comment faire une application iOS & Android quand on est développeur web",
+  "lang" : "fr",
+  "summary" : "Développer sur mobile en 2017, c’est incontournable. Pour un développeur front-end ou full-stack le coût d’entrée est parfois élevé. Que ce soit sur iOS ou Android, avant d’être à l’aise, on peut passer pas mal de temps à apprendre les APIs natives, les outils et peut-être même le langage.\r\n\r\nAvec React Native, le jeu a changé, si vous connaissez React, vous avez tout ce qu’il faut pour développer une application native pour les deux plate-formes.\r\n\r\nAu cours de cette présentation, nous développerons en moins de vingt minutes une application pour choisir le prénom d’un nouveau-né pour iOS et Android en utilisant React Native, ES2017 et Flow."
+}

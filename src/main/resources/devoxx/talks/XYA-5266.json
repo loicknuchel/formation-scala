@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Tools-in-Action",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Les bases de données time series sont des bases de données optimisées pour gérer des données\ntemporelles. Si l'utilisation d'une base de données relationnelle pour gérer ce type de données est\ntout à fait possible, les base de données time series offrent des fonctionnalités spécifiques\npuissantes pour ces cas spécifiques. Elles sont typiquement utilisées dans le cadre de l'IoT ou du\nstockage de données de monitoring.</p>\n<p>Cette présentation est une introduction à l'utilisation de ces bases en s'appuyant sur un cas\nd'utilisation concret que nous avons mis en œuvre chez Scalingo. Nous avons utilisé InfluxDB afin de\nstocker les millions de données remontées chaque jour par nos capteurs pour suivre les métriques des\napplications de nos clients\n(https://blog.scalingo.com/2016/07/28/introducing-the-new-metrics-view-container.html).</p>\n",
+  "id" : "XYA-5266",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9a0c89b3b8f24e94216f6fe3ee13c08e3acb1cee",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Étienne Michon"
+      },
+      "name" : "Étienne Michon"
+    }
+  ],
+  "title" : "Prise en main d'InfluxDB : utilisation d'une base de données time series",
+  "lang" : "fr",
+  "summary" : "Les bases de données time series sont des bases de données optimisées pour gérer des données\r\ntemporelles. Si l'utilisation d'une base de données relationnelle pour gérer ce type de données est\r\ntout à fait possible, les base de données time series offrent des fonctionnalités spécifiques\r\npuissantes pour ces cas spécifiques. Elles sont typiquement utilisées dans le cadre de l'IoT ou du\r\nstockage de données de monitoring. \r\n\r\nCette présentation est une introduction à l'utilisation de ces bases en s'appuyant sur un cas\r\nd'utilisation concret que nous avons mis en œuvre chez Scalingo. Nous avons utilisé InfluxDB afin de\r\nstocker les millions de données remontées chaque jour par nos capteurs pour suivre les métriques des\r\napplications de nos clients\r\n(https://blog.scalingo.com/2016/07/28/introducing-the-new-metrics-view-container.html)."
+}

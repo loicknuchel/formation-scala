@@ -1,0 +1,28 @@
+{
+  "trackId" : "lang",
+  "talkType" : "Conference",
+  "track" : "Langages alternatifs",
+  "summaryAsHtml" : "<p>Découvrez la dernière évolution multi-plateforme et open source du framework .NET.\nL'objectif de cette session et d'expliquer ce que sont .NET CORE et ASP.NET CORE.\nNous souhaitons vous montrer les bases du framework et ces outils utilitaires, vous expliquer l'histoire de cette plateforme et sa compatibilité avec celles qui existaient auparavant.</p>\n<p>Pour ceux qui ne travaillent pas sous Windows, nous allons vous montrer comment on peut coder/tester/debugger avec Visual Studio Code (qui au passage s'appuie sur Omnisharp et Roslyn) l’outil de développement multi-plateforme de Microsoft.</p>\n<p>Enfin, nous vous prouverons qu’il est tout aussi simple de déployer nos applications ASP.NET Core sur une Web App Azure.</p>\n",
+  "id" : "FVO-7221",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/25caa5982357f777f7decde364fa8eaf84cc0160",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Guillaume Chervet"
+      },
+      "name" : "Guillaume Chervet"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f438d366b844714aa984938792c23059b6ac9776",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Simon Dib"
+      },
+      "name" : "Simon Dib"
+    }
+  ],
+  "title" : "Découverte ASP.NET CORE et son écosystème",
+  "lang" : "fr",
+  "summary" : "Découvrez la dernière évolution multi-plateforme et open source du framework .NET.\r\nL'objectif de cette session et d'expliquer ce que sont .NET CORE et ASP.NET CORE. \r\nNous souhaitons vous montrer les bases du framework et ces outils utilitaires, vous expliquer l'histoire de cette plateforme et sa compatibilité avec celles qui existaient auparavant.\r\n\r\nPour ceux qui ne travaillent pas sous Windows, nous allons vous montrer comment on peut coder/tester/debugger avec Visual Studio Code (qui au passage s'appuie sur Omnisharp et Roslyn) l’outil de développement multi-plateforme de Microsoft.\r\n\r\nEnfin, nous vous prouverons qu’il est tout aussi simple de déployer nos applications ASP.NET Core sur une Web App Azure.\r\n"
+}

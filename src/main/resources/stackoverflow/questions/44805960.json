@@ -1,0 +1,26 @@
+{
+  "question_id" : 44805960,
+  "title" : "Removing some labels(Temples, Restaurents etc) from Google Maps(Google Maps iOS Swift)",
+  "body" : "<p>I am implementing Google Maps in my iOS App. I want to remove certain labels from the map. I want to keep street names but want to remove malls, temples, restuarents etc labels from the map. How can i do this?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44805960/removing-some-labelstemples-restaurents-etc-from-google-mapsgoogle-maps-ios",
+  "owner" : {
+    "user_id" : 7344479,
+    "user_type" : "registered",
+    "display_name" : "Bharath Reddy ",
+    "profile_image" : "https://www.gravatar.com/avatar/da180e8c78219287b6a0ddb3ee266c41?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7344479/bharath-reddy",
+    "reputation" : 41,
+    "accept_rate" : 40
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661567,
+  "last_activity_date" : 1498661567,
+  "tags" : [
+    "ios",
+    "swift",
+    "google-maps"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

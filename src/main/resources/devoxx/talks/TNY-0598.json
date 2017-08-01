@@ -1,0 +1,28 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "University",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Apache Cassandra est l'une des bases NoSQL les plus populaires grâce à ses excellentes performances, à son impressionnante scalabilité horizontale et à son architecture hautement résiliente.</p>\n<p>Maintenir un cluster Apache Cassandra en production demande une bonne compréhension de son fonctionnement, de choisir les bons paramètres, et d'effectuer les opérations de maintenance dans de bonnes conditions pour garantir un fonctionnement sans interruption.</p>\n<p>Cette université, aborde les éléments essentiels pour faire tourner Apache Cassandra en production. Parmi lesquels :</p>\n<ul>\n<li>Choix et dimensionnement du matériel</li>\n<li>Choix des principaux paramètres</li>\n<li>Stratégies de compaction</li>\n<li>Ajouter, retirer et remplacer des noeuds</li>\n<li>Mettre à jour le cluster.</li>\n<li>Travailler avec plusieurs datacenters</li>\n<li>Les opérations quotidiennes\n<em></em> repair\n<em></em> sauvegardes\n<em></em> monitoring</li>\n<li>Purger les données</li>\n<li>Gérer les incidents</li>\n</ul>\n<p>Forts de notre expérience sur des clusters de toutes tailles, nous partagerons ici les techniques à mettre en œuvre pour assurer une production sereine d'Apache Cassandra au cours d'une discussion à laquelle nous vous invitons à contribuer par vos questions et vos propres retours d'expérience.</p>\n",
+  "id" : "TNY-0598",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0e3d8d4c3a1bcac12432df36292f9b358763a612",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Jérôme Mainaud"
+      },
+      "name" : "Jérôme Mainaud"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5f4b15ca15d4b5abea8c35832f28ab50efa40ec8",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Alexander DEJANOVSKI"
+      },
+      "name" : "Alexander DEJANOVSKI"
+    }
+  ],
+  "title" : "Apache Cassandra en production",
+  "lang" : "fr",
+  "summary" : "Apache Cassandra est l'une des bases NoSQL les plus populaires grâce à ses excellentes performances, à son impressionnante scalabilité horizontale et à son architecture hautement résiliente. \r\n\r\nMaintenir un cluster Apache Cassandra en production demande une bonne compréhension de son fonctionnement, de choisir les bons paramètres, et d'effectuer les opérations de maintenance dans de bonnes conditions pour garantir un fonctionnement sans interruption.\r\n\r\nCette université, aborde les éléments essentiels pour faire tourner Apache Cassandra en production. Parmi lesquels :\r\n\r\n* Choix et dimensionnement du matériel\r\n* Choix des principaux paramètres\r\n* Stratégies de compaction\r\n* Ajouter, retirer et remplacer des noeuds\r\n* Mettre à jour le cluster.\r\n* Travailler avec plusieurs datacenters\r\n* Les opérations quotidiennes\r\n** repair\r\n** sauvegardes\r\n** monitoring\r\n* Purger les données\r\n* Gérer les incidents\r\n\r\nForts de notre expérience sur des clusters de toutes tailles, nous partagerons ici les techniques à mettre en œuvre pour assurer une production sereine d'Apache Cassandra au cours d'une discussion à laquelle nous vous invitons à contribuer par vos questions et vos propres retours d'expérience."
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "Tools-in-Action",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>Vous avez besoin d’intégrer une nouveau type de stockage ( Elasticsearch, Cassandra, Redis, Neo4j ) dans votre application mais l’apprentissage d’une nouvelle API vous fait hésiter ? Spring Data est fait pour vous ! Grâce à Spring Data, vous avez à disposition une interface unique pour communiquer avec tous vos backends. Venez découvrir comment faire un stream de données depuis Postgresql, faire des agrégations avec Elasticsearch, enregistrer des documents dans MongoDB, le tout en quelques lignes de code et sans efforts. Nous finirons cette session en détaillant les nouveautés apportées par la version 2.0 autour de la programmation réactive.</p>\n",
+  "id" : "DIW-3931",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/95184156420ea83a8b8b314747bbec50619b0d5a",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Julien Roy"
+      },
+      "name" : "Julien Roy"
+    }
+  ],
+  "title" : "Spring Data : Une API, quinze possibilités",
+  "lang" : "fr",
+  "summary" : "Vous avez besoin d’intégrer une nouveau type de stockage ( Elasticsearch, Cassandra, Redis, Neo4j ) dans votre application mais l’apprentissage d’une nouvelle API vous fait hésiter ? Spring Data est fait pour vous ! Grâce à Spring Data, vous avez à disposition une interface unique pour communiquer avec tous vos backends. Venez découvrir comment faire un stream de données depuis Postgresql, faire des agrégations avec Elasticsearch, enregistrer des documents dans MongoDB, le tout en quelques lignes de code et sans efforts. Nous finirons cette session en détaillant les nouveautés apportées par la version 2.0 autour de la programmation réactive."
+}

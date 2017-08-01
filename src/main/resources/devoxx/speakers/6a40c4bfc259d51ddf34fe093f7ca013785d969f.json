@@ -1,0 +1,37 @@
+{
+  "uuid" : "6a40c4bfc259d51ddf34fe093f7ca013785d969f",
+  "bioAsHtml" : "<p>Je suis un ingénieur en systèmes d&#x27;information et réseaux, avec une spécialisation supplémentaire en UX et &quot;Interaction Design&quot;, avec de l&#x27;expérience principalement dans le domaines des technologies du Web, notamment en java et javascript.</p>\n<p>Je mets à profit ma passion et mes compétences au service de projets audacieux, rassemblant le cloud et les objets connectés.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/NHQ-4531",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3f12729c30fd8a457c3c89fe430d7e83aa88cdd0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Etienne Peiniau"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6a40c4bfc259d51ddf34fe093f7ca013785d969f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Frédéric Boulet"
+        }
+      ],
+      "id" : "NHQ-4531",
+      "title" : "Serverless, le framework que votre lambda AWS attendait"
+    }
+  ],
+  "company" : "Today I Learned",
+  "bio" : "Je suis un ingénieur en systèmes d'information et réseaux, avec une spécialisation supplémentaire en UX et \"Interaction Design\", avec de l'expérience principalement dans le domaines des technologies du Web, notamment en java et javascript.\r\n\r\nJe mets à profit ma passion et mes compétences au service de projets audacieux, rassemblant le cloud et les objets connectés.",
+  "lastName" : "Boulet",
+  "firstName" : "Frédéric",
+  "blog" : "https://github.com/fredoche",
+  "avatarURL" : "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAcuAAAAJDI4NTAyNGQ0LWJhZmEtNDVlNy1iMWMwLTIyMzZjYTJhN2JmNg.jpg",
+  "twitter" : null,
+  "lang" : "fr"
+}

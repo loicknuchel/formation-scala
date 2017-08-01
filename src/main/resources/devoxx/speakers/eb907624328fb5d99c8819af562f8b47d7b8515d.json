@@ -1,0 +1,37 @@
+{
+  "uuid" : "eb907624328fb5d99c8819af562f8b47d7b8515d",
+  "bioAsHtml" : "<p>Lead Developer chez Apside Top à Tours. Passionné et partageur, j&#x27;interviens principalement sur la plateforme Java mais j&#x27;explore d&#x27;autres contrées comme l’écosystème Javascript, Bigdata et la programmation fonctionnelle.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Future, Robotique",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/SPS-7476",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5794b8f0e64983cad9ce6a65c12fa63114a1c18d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Christophe Jollivet"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/eb907624328fb5d99c8819af562f8b47d7b8515d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Mickael Débonnaire"
+        }
+      ],
+      "id" : "SPS-7476",
+      "title" : "Une application qui voit, entend et répond"
+    }
+  ],
+  "company" : "Apside",
+  "bio" : "Lead Developer chez Apside Top à Tours. Passionné et partageur, j'interviens principalement sur la plateforme Java mais j'explore d'autres contrées comme l’écosystème Javascript, Bigdata et la programmation fonctionnelle. ",
+  "lastName" : "Débonnaire",
+  "firstName" : "mickael",
+  "blog" : null,
+  "avatarURL" : "https://avatars0.githubusercontent.com/u/404207?v=3&u=60848766b2ee42635df478394a653c2385d9f83e&s=400",
+  "twitter" : "@mdebonnaire",
+  "lang" : "fr-FR"
+}

@@ -1,0 +1,32 @@
+{
+  "uuid" : "de48bbb17a914b6c9d36d564e8c8464944559302",
+  "bioAsHtml" : "<p>Après avoir tester différents métiers de l&#x27;IT pendant plusieurs années je suis revenu à mes premiers amours le développement.  Je suis très attaché aux pratiques liées aux méthodes agiles (organisationnelles ou techniques). Enfin je me sens aujourd&#x27;hui libre dans mon travail depuis que je suis freelance via ma société Dev-Mind. Je me définis donc aujourd&#x27;hui comme un Développeur Agile Libre (Java, Web, Android...).</p>\n<p>Je tiens également un blog qui se nomme javamind, sur lequel je parle de ma passion pour le développement. Je fais aussi partie du staff de l&#x27;équipe Mix-IT (la conférence lyonnaise avec des crêpes et du cœur)</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/DOZ-6256",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/de48bbb17a914b6c9d36d564e8c8464944559302",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Guillaume EHRET"
+        }
+      ],
+      "id" : "DOZ-6256",
+      "title" : "Optimiser les performances d'une webapp"
+    }
+  ],
+  "company" : "Dev-Mind",
+  "bio" : "Après avoir tester différents métiers de l'IT pendant plusieurs années je suis revenu à mes premiers amours le développement.  Je suis très attaché aux pratiques liées aux méthodes agiles (organisationnelles ou techniques). Enfin je me sens aujourd'hui libre dans mon travail depuis que je suis freelance via ma société Dev-Mind. Je me définis donc aujourd'hui comme un Développeur Agile Libre (Java, Web, Android...). \r\n\r\nJe tiens également un blog qui se nomme javamind, sur lequel je parle de ma passion pour le développement. Je fais aussi partie du staff de l'équipe Mix-IT (la conférence lyonnaise avec des crêpes et du cœur) ",
+  "lastName" : "EHRET",
+  "firstName" : "Guillaume",
+  "blog" : "https://dev-mind.fr/",
+  "avatarURL" : "https://avatars0.githubusercontent.com/u/1812822?v=3&u=c35a137fd7383f1ba2eb5eaea89c31a25d5ea03f",
+  "twitter" : "@guillaumeehret",
+  "lang" : "fr-FR"
+}

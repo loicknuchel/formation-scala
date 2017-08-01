@@ -1,0 +1,55 @@
+{
+  "uuid" : "02cc1a9ee35911062a9a42476a8a09d04fd0149d",
+  "bioAsHtml" : "<p>Cyril Balit est CTO Front chez SFEIR et Goole Developer Expert sur les technologies Web. Développeur passionné, il construit des Single Page Application en javascript depuis 2003 et tombe amoureux d’Angular en 2013. Il est un membre actif de la communauté web français sur plusieurs sujets comme Angular, Polymer  et les Progressives Web App . Organisateur de conférences et de meetups , speaker et formateur , Cyril aime partager avec les communautés.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/NQJ-5142",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/02cc1a9ee35911062a9a42476a8a09d04fd0149d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Cyril Balit"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/73ebde8b6affccfdd3cdfceebac253655a224f63",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Horacio Gonzalez"
+        }
+      ],
+      "id" : "NQJ-5142",
+      "title" : "Mixité dans le monde des webcomponents"
+    },
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/OKG-4700",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/02cc1a9ee35911062a9a42476a8a09d04fd0149d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Cyril Balit"
+        }
+      ],
+      "id" : "OKG-4700",
+      "title" : "Vue.js, à l'ombre des géants"
+    }
+  ],
+  "company" : "Sfeir",
+  "bio" : "Cyril Balit est CTO Front chez SFEIR et Goole Developer Expert sur les technologies Web. Développeur passionné, il construit des Single Page Application en javascript depuis 2003 et tombe amoureux d’Angular en 2013. Il est un membre actif de la communauté web français sur plusieurs sujets comme Angular, Polymer  et les Progressives Web App . Organisateur de conférences et de meetups , speaker et formateur , Cyril aime partager avec les communautés. \r\n",
+  "lastName" : "Balit",
+  "firstName" : "Cyril",
+  "blog" : "http://www.itaware.eu/",
+  "avatarURL" : "http://www.gravatar.com/avatar/2bacdce483ae07e586c9593312c8dad4.png",
+  "twitter" : "@cbalit",
+  "lang" : "fr"
+}

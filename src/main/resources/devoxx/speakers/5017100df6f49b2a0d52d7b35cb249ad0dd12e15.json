@@ -1,0 +1,32 @@
+{
+  "uuid" : "5017100df6f49b2a0d52d7b35cb249ad0dd12e15",
+  "bioAsHtml" : "<p>Consultant indépendant, Romain Maton s’est forgé une solide expérience en développement Web et logiciel depuis 2005. Il dispose ainsi d’une très large compétence sur l’ensemble de l’écosystème Java/JEE et Node.js, que ce soit sur les bonnes pratiques d’architecture, sur les frameworks de développement ou sur les applications single page.</p>\n<p>Il est intervenu dans plusieurs conférences et JUG de France sur des sujets tels que Scala, Node.js, l’optimisation de sites Web mobiles, live coding Marionette.js ou la-quête-du-graal.js. Créateur de web-tambouille.fr, où vous pourrez lire des articles sur des sujets tels que Java, Node.js, Javascript, Programmation Fonctionnelle, Android et bien d’autres !</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/ZCK-5980",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5017100df6f49b2a0d52d7b35cb249ad0dd12e15",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Romain Maton"
+        }
+      ],
+      "id" : "ZCK-5980",
+      "title" : "Node.js comme les grands"
+    }
+  ],
+  "company" : "TamLab",
+  "bio" : "Consultant indépendant, Romain Maton s’est forgé une solide expérience en développement Web et logiciel depuis 2005. Il dispose ainsi d’une très large compétence sur l’ensemble de l’écosystème Java/JEE et Node.js, que ce soit sur les bonnes pratiques d’architecture, sur les frameworks de développement ou sur les applications single page.\r\n\r\nIl est intervenu dans plusieurs conférences et JUG de France sur des sujets tels que Scala, Node.js, l’optimisation de sites Web mobiles, live coding Marionette.js ou la-quête-du-graal.js. Créateur de web-tambouille.fr, où vous pourrez lire des articles sur des sujets tels que Java, Node.js, Javascript, Programmation Fonctionnelle, Android et bien d’autres !",
+  "lastName" : "Maton",
+  "firstName" : "Romain",
+  "blog" : "http://www.web-tambouille.fr/",
+  "avatarURL" : "http://www.gravatar.com/avatar/87f306c4e43982b6a28d773b1054fb46",
+  "twitter" : "@rmat0n",
+  "lang" : "fr"
+}

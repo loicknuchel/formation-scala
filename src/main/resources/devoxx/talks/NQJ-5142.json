@@ -1,0 +1,28 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Conference",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Ah, les web components, quelle belle idée ! Un nouveau standard, du développement web basé enfin sur une vraie architecture en composants,\nde la réutilisation, de la modularisation, de l'encapsulation... Des choses que les développeurs backend ont depuis plus de trente ans enfin\ndisponibles pour les développeurs web...\nMais en attendant que le W3C décide de sortir le standard, ce qu'on a  c'est la promesse d'un bel avenir et une panoplie de\nbibliothèques : Polymer, X-Tag, Bosoonic... Et récemment, React, Aurelia et  Angular 2,\nil semble que tous les frameworks JS modernes s'orientent vers cette notion de composants.\nDans ce talk on va essayer de répondre à une des questions qu'on nous pose le plus souvent quand nous parlons de web components :\n\"OK, le futur sera beau, mais aujourd'hui, si je fais des composant avec une bibliothèque X et mon pote en fait avec une bibliothèque Y,\nje peux les utiliser dans la même application ? Et ils marcheront dans mon framework favori ?\"\nCar face à cette querelle de chapelles type Angula vs React vs Aurelia vs Polymer vs ...\nnous préférons le slogan <strong>Let's work hand in hand and move the web forward</strong></p>\n",
+  "id" : "NQJ-5142",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/02cc1a9ee35911062a9a42476a8a09d04fd0149d",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Cyril Balit"
+      },
+      "name" : "Cyril Balit"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/73ebde8b6affccfdd3cdfceebac253655a224f63",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Horacio Gonzalez"
+      },
+      "name" : "Horacio Gonzalez"
+    }
+  ],
+  "title" : "Mixité dans le monde des webcomponents",
+  "lang" : "fr",
+  "summary" : "Ah, les web components, quelle belle idée ! Un nouveau standard, du développement web basé enfin sur une vraie architecture en composants, \r\nde la réutilisation, de la modularisation, de l'encapsulation... Des choses que les développeurs backend ont depuis plus de trente ans enfin\r\ndisponibles pour les développeurs web...\r\nMais en attendant que le W3C décide de sortir le standard, ce qu'on a  c'est la promesse d'un bel avenir et une panoplie de \r\nbibliothèques : Polymer, X-Tag, Bosoonic... Et récemment, React, Aurelia et  Angular 2, \r\nil semble que tous les frameworks JS modernes s'orientent vers cette notion de composants.\r\nDans ce talk on va essayer de répondre à une des questions qu'on nous pose le plus souvent quand nous parlons de web components : \r\n\"OK, le futur sera beau, mais aujourd'hui, si je fais des composant avec une bibliothèque X et mon pote en fait avec une bibliothèque Y,\r\nje peux les utiliser dans la même application ? Et ils marcheront dans mon framework favori ?\"\r\nCar face à cette querelle de chapelles type Angula vs React vs Aurelia vs Polymer vs ...\r\nnous préférons le slogan **Let's work hand in hand and move the web forward**"
+}

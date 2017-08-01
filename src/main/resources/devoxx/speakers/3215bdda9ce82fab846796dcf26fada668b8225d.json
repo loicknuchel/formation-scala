@@ -1,0 +1,32 @@
+{
+  "uuid" : "3215bdda9ce82fab846796dcf26fada668b8225d",
+  "bioAsHtml" : "<p>Geek convaincu et fervent défenseur du métier de développeur, je participe activement au JUG de Softeam Cadextan.\nJ&#x27;aime le code propre, les casse-têtes techniques, et suis un évangéliste de la doc (dans le wiki je crois !).</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/FEU-0240",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3215bdda9ce82fab846796dcf26fada668b8225d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Thomas SCHWENDER"
+        }
+      ],
+      "id" : "FEU-0240",
+      "title" : "Sorcellerie en Java : outrepasser les interdits avec sun.misc.Unsafe"
+    }
+  ],
+  "company" : "Softeam Cadextan",
+  "bio" : "Geek convaincu et fervent défenseur du métier de développeur, je participe activement au JUG de Softeam Cadextan.\r\nJ'aime le code propre, les casse-têtes techniques, et suis un évangéliste de la doc (dans le wiki je crois !).\r\n\r\n",
+  "lastName" : "SCHWENDER",
+  "firstName" : "Thomas",
+  "blog" : "https://github.com/Ardemius",
+  "avatarURL" : "http://www.gravatar.com/avatar/849f00ab4e13e0e8febe4135f0d17052",
+  "twitter" : "@thomasschwender",
+  "lang" : "fr-FR"
+}

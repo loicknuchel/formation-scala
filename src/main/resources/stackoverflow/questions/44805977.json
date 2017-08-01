@@ -1,0 +1,26 @@
+{
+  "question_id" : 44805977,
+  "title" : "Nested {{each}} loops with Handlebars template",
+  "body" : "<p>Im trying to iterate an Array of Objects for putting their values in a Handlebars template using the each loop inside the structure of the array.\nHere you can see the array:</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var datosSensores = [    \r\n    {\r\n        name:'John Pinard',\r\n        email:'jp@aol.com',\r\n        ph: [\r\n            '7.80',\r\n            '7.90',\r\n            '7.60',\r\n            fecha: [\r\n                '2016-06-20 09:00',\r\n                '2016-06-21 10:00'\r\n            ],\r\n        \r\n        ],\r\n        \r\n    }\r\n];</code></pre>\r\n</div>\r\n</div>\r\n</p>\n\n<p>And the each loop if've tried as you can see:</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>{{#each ph}}\r\n....\r\n.....\r\n    {{#each ph.fechaPH}}\r\n        {{this.fechaPH}} //This would be the value of each DATE in the array\r\n    {{/each}}  \r\n\r\n{{/each}}</code></pre>\r\n</div>\r\n</div>\r\n</p>\n\n<p>I dont know how to solve it or what I'm doing wrong.\nI appreciate any comment about this issue\nThanks a lot!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44805977/nested-each-loops-with-handlebars-template",
+  "owner" : {
+    "user_id" : 7786862,
+    "user_type" : "registered",
+    "display_name" : "Juan Pablo TM",
+    "profile_image" : "https://www.gravatar.com/avatar/cd644f32acb51f23ffd152ce746be630?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7786862/juan-pablo-tm",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661605,
+  "last_activity_date" : 1498661605,
+  "tags" : [
+    "json",
+    "templates",
+    "handlebars.js"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

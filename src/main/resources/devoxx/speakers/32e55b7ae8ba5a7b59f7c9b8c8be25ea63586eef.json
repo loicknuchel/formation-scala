@@ -1,0 +1,32 @@
+{
+  "uuid" : "32e55b7ae8ba5a7b59f7c9b8c8be25ea63586eef",
+  "bioAsHtml" : "<p>Damien est développeur depuis 10 ans et membre de la tribu Software Craftsmanship chez OCTO Technology.\nConvaincu qu&#x27;un logiciel bien conçu est nécessaire en plus d&#x27;un logiciel fonctionnel, il intervient en tant que Tech Lead chez ses clients, ou en tant que formateur sur les pratiques telles que Test Driven Development.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/LJI-3517",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/32e55b7ae8ba5a7b59f7c9b8c8be25ea63586eef",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Damien Beaufils"
+        }
+      ],
+      "id" : "LJI-3517",
+      "title" : "Comment être Tech Lead dans une pizza team XXL sans finir sous l'eau ?"
+    }
+  ],
+  "company" : "OCTO Technology",
+  "bio" : "Damien est développeur depuis 10 ans et membre de la tribu Software Craftsmanship chez OCTO Technology. \r\nConvaincu qu'un logiciel bien conçu est nécessaire en plus d'un logiciel fonctionnel, il intervient en tant que Tech Lead chez ses clients, ou en tant que formateur sur les pratiques telles que Test Driven Development.",
+  "lastName" : "Beaufils",
+  "firstName" : "Damien",
+  "blog" : "blog.octo.com",
+  "avatarURL" : "https://lh3.googleusercontent.com/-bnAXk8JcPik/AAAAAAAAAAI/AAAAAAAABWg/xaaDd33RWrM/photo.jpg",
+  "twitter" : "@damienbeaufils",
+  "lang" : "fr-FR"
+}

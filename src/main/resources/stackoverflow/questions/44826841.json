@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826841,
+  "title" : "IOS Issue with animated SVG inside border-image",
+  "body" : "<p>i'm using a SVG Animation that is appended to the <code>border-image</code> property of an Element.</p>\n\n<p>On IOS 10.3 / 10.2 this Animation isn't playing. So what is going wrong here?\nAnd do somebody know if this is fixable?</p>\n\n<p>SVG, animated</p>\n\n<pre><code>&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;\n&lt;!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\"&gt;\n&lt;svg width=\"160\" height=\"70\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"&gt;\n    &lt;defs&gt;\n        &lt;linearGradient id=\"linear\" x1=\"50%\" y1=\"0%\" x2=\"50%\" y2=\"100%\" gradientTransform=\"rotate(-45)\"&gt;\n            &lt;stop offset=\"0%\" stop-color=\"#5ac6d2\"&gt;\n                &lt;animate attributeName=\"stop-color\" values=\"#5ac6d2; #8fdd5f; #fdd406; #5ac6d2;\" dur=\"4s\" repeatCount=\"indefinite\"&gt;&lt;/animate&gt;\n            &lt;/stop&gt;\n            &lt;stop offset=\"100%\" stop-color=\"#fdd406\"&gt;\n                &lt;animate attributeName=\"stop-color\" values=\"#fdd406; #5ac6d2; #8fdd5f; #fdd406;\" dur=\"4s\" repeatCount=\"indefinite\"&gt;&lt;/animate&gt;\n            &lt;/stop&gt;\n        &lt;/linearGradient&gt;\n    &lt;/defs&gt;\n    &lt;rect x=\"5\" y=\"5\" width=\"150\" height=\"60\" fill=\"url(#linear)\"&gt;&lt;/rect&gt;\n&lt;/svg&gt;\n</code></pre>\n\n<p>SASS</p>\n\n<pre><code>.btn {\n  padding: rem-calc(5) rem-calc(15);\n  text-decoration: none;\n  text-transform: uppercase;\n  color: $white-button;\n  border-style: solid;\n  border-width: 5px;\n\n\n  &amp;.btn__get-tickets {\n    margin-top: -2px;\n    margin-left: rem-calc(10);\n    border-image: url(\"images/rainbow.svg\");\n    border-image-slice: 25;\n    border-color: white;\n    transition: border-image 2s ease-in-out;\n  }\n}\n\n.scrolling {\n  .btn__get-tickets {\n    border-image: url(\"images/rainbow-scrolling.svg\");\n    border-image-slice: 25;\n    margin-top: -2px;\n    margin-left: rem-calc(10);\n  }\n}\n</code></pre>\n\n<p>And the Button itself</p>\n\n<pre><code>&lt;a href=\"#\" class=\"btn btn__get-tickets\"&gt;Get Tickets&lt;/a&gt;\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826841/ios-issue-with-animated-svg-inside-border-image",
+  "owner" : {
+    "user_id" : 1903653,
+    "user_type" : "registered",
+    "display_name" : "magic.77",
+    "profile_image" : "https://www.gravatar.com/avatar/bf046d264f0f0f5ddcfff5eab2d5c078?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1903653/magic-77",
+    "reputation" : 67,
+    "accept_rate" : 44
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743715,
+  "last_activity_date" : 1498743715,
+  "tags" : [
+    "html",
+    "css"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

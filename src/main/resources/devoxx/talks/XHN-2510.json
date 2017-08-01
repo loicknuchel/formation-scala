@@ -1,0 +1,28 @@
+{
+  "trackId" : "lang",
+  "talkType" : "Conference",
+  "track" : "Langages alternatifs",
+  "summaryAsHtml" : "<p>Découvrez la simplicité élégante de la programmation fonctionnelle au travers d’un live coding, en duo, d’un Tic-Tac-Toe web.</p>\n<ul>\n<li>45 minutes de code</li>\n<li>4 lignes d’effets de bord</li>\n<li>Un Ctrl-Z en 1 ligne</li>\n<li>Une architecture testable</li>\n</ul>\n<p>Nous programmerons en Clojurescript, une variante de Clojure qui transcompile en Javascript.</p>\n<p>Durant la présentation, nous expliquerons nos choix de design et d'implémentation. Ce faisant, nous aborderons concrètement plusieurs notions centrales du paradigme fonctionnel. L'universalité de ces concepts les rend utiles dans le monde du développement en général, y compris en entreprise.</p>\n<p>Le code final sera mis à disposition sur GitHub. Nous y ajouterons tout le nécessaire pour vous lancer sur un premier projet.</p>\n<p>Aucune connaissance en Clojure ou Clojurescript n'est requise.</p>\n",
+  "id" : "XHN-2510",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9511b2cfaee3384d5a43bd6ca080619b1ffbc5e3",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Quentin Duval"
+      },
+      "name" : "Quentin Duval"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6d72e052248d79e6d221fbff1a32e3e0cb3c44c8",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Guillaume Eveillard"
+      },
+      "name" : "Guillaume Eveillard"
+    }
+  ],
+  "title" : "Le fonctionnel par la pratique : live coding d’un jeu web",
+  "lang" : "fr",
+  "summary" : "Découvrez la simplicité élégante de la programmation fonctionnelle au travers d’un live coding, en duo, d’un Tic-Tac-Toe web.\r\n\r\n* 45 minutes de code\r\n* 4 lignes d’effets de bord\r\n* Un Ctrl-Z en 1 ligne\r\n* Une architecture testable\r\n\r\nNous programmerons en Clojurescript, une variante de Clojure qui transcompile en Javascript.\r\n\r\nDurant la présentation, nous expliquerons nos choix de design et d'implémentation. Ce faisant, nous aborderons concrètement plusieurs notions centrales du paradigme fonctionnel. L'universalité de ces concepts les rend utiles dans le monde du développement en général, y compris en entreprise.\r\n\r\nLe code final sera mis à disposition sur GitHub. Nous y ajouterons tout le nécessaire pour vous lancer sur un premier projet.\r\n\r\nAucune connaissance en Clojure ou Clojurescript n'est requise.\r\n"
+}

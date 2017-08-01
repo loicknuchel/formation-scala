@@ -1,0 +1,37 @@
+{
+  "uuid" : "9511b2cfaee3384d5a43bd6ca080619b1ffbc5e3",
+  "bioAsHtml" : "<p>Quentin Duval is a Senior Software Developer at Murex, team leader of the trade repository of the platform.</p>\n<p>Quentin has a long lasting love affair with both Haskell and Clojure. He animates with Guillaume Eveillard the Daily Functional Programming series, 15 minutes daily courses in which they teach functional programming to other developers at Murex.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/XHN-2510",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9511b2cfaee3384d5a43bd6ca080619b1ffbc5e3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Quentin Duval"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6d72e052248d79e6d221fbff1a32e3e0cb3c44c8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Guillaume Eveillard"
+        }
+      ],
+      "id" : "XHN-2510",
+      "title" : "Le fonctionnel par la pratique : live coding d’un jeu web"
+    }
+  ],
+  "company" : "Murex",
+  "bio" : "Quentin Duval is a Senior Software Developer at Murex, team leader of the trade repository of the platform.\r\n\r\nQuentin has a long lasting love affair with both Haskell and Clojure. He animates with Guillaume Eveillard the Daily Functional Programming series, 15 minutes daily courses in which they teach functional programming to other developers at Murex.\r\n",
+  "lastName" : "Duval",
+  "firstName" : "Quentin",
+  "blog" : "https://deque.blog/",
+  "avatarURL" : "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAlKAAAAJDJhYTJiODUzLTgwOTYtNDY0Ny05MDI2LTM5NzliMDUxYTAxZA.jpg",
+  "twitter" : "@quduval",
+  "lang" : "fr"
+}

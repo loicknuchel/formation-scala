@@ -1,0 +1,28 @@
+{
+  "trackId" : "lang",
+  "talkType" : "BOF (Bird of a Feather)",
+  "track" : "Langages alternatifs",
+  "summaryAsHtml" : "<p>We live in a time of changes. Functional programming (FP) is not widely known and has an image of being too be academic or being ill-suited for real-world systems. Myths have a thin bit of truth. Somehow, a number of ecosystem changes are now shaking things up.</p>\n<p>On the one hand, technology improves, multi-core machines and multi-machines systems are common with the cloud. Algorithms and data-structures developped for FP are useful in these distributed environments.\nOn the other hand, FP languages gain maturity and reach new platforms such as the JVM, .Net and the web, which means that more real-world problems are within the range of functional programmers.</p>\n<p>Java, C++ both got anonymous lambdas and optional types in the recent years. Meanwhile, Swift started with these features. Also, immutable infrastructure is taking up. These illustrative facts are not a coincidence, they tell that FP is a direction, and functional programmers are pulling the whole industry in their direction.</p>\n<p>The Functional Programmers Paris Meetup gathers FP users and implementers and stresses the importance of cross-pollinisation between language-specific FP communities.</p>\n",
+  "id" : "EBX-7555",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a443b4669779a955877e2c0415406761195dc2c8",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Lucas DiCioccio"
+      },
+      "name" : "Lucas DiCioccio"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/68e3eb4644fd25d25ece568b8ad434fe8cab5e29",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Fred CECILIA"
+      },
+      "name" : "Fred CECILIA"
+    }
+  ],
+  "title" : "BOF - Meetup Functional Programmers",
+  "lang" : "en",
+  "summary" : "We live in a time of changes. Functional programming (FP) is not widely known and has an image of being too be academic or being ill-suited for real-world systems. Myths have a thin bit of truth. Somehow, a number of ecosystem changes are now shaking things up.\r\n\r\nOn the one hand, technology improves, multi-core machines and multi-machines systems are common with the cloud. Algorithms and data-structures developped for FP are useful in these distributed environments.\r\nOn the other hand, FP languages gain maturity and reach new platforms such as the JVM, .Net and the web, which means that more real-world problems are within the range of functional programmers.\r\n\r\nJava, C++ both got anonymous lambdas and optional types in the recent years. Meanwhile, Swift started with these features. Also, immutable infrastructure is taking up. These illustrative facts are not a coincidence, they tell that FP is a direction, and functional programmers are pulling the whole industry in their direction.\r\n\r\nThe Functional Programmers Paris Meetup gathers FP users and implementers and stresses the importance of cross-pollinisation between language-specific FP communities."
+}

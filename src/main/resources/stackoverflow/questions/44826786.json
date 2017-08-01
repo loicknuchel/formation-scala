@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826786,
+  "title" : "Convert vector&lt;Rect&gt; OpenCV to vector&lt;vector&lt;float&gt;&gt; in C++",
+  "body" : "<p>I am trying to convert the <code>vector Rect</code> datatype to <code>vector vector float</code> to use non maximum suppression on the vector. vector contains rectangle points of faces. I want to apply <code>nms</code> as seen here:<a href=\"https://github.com/martinkersner/non-maximum-suppression-cpp/blob/master/example.cpp\" rel=\"nofollow noreferrer\">Non Maximum Suppression</a>.</p>\n\n<p>When trying to compile I get following error:</p>\n\n<p>**</p>\n\n<pre><code>undefined reference to `nms(std::vector&lt;std::vector&lt;float, std::allocator&lt;float&gt; &gt;, std::allocator&lt;std::vector&lt;float, std::allocator&lt;float&gt; &gt; &gt; &gt; const&amp;, float const&amp;)'\ncollect2: error: ld returned 1 exit status\n</code></pre>\n\n<p>**</p>\n\n<p>I dont know why it is giving the <code>nms</code> function 2x <code>vector vector float</code>?\nThanks for help!</p>\n\n<pre><code>   vector&lt;Rect&gt; apply_pre_filters(vector&lt;Rect&gt;faces_vector){\n\n\n    // Non Max Suppression\n    float threshold = 0.5;\n    vector&lt;vector&lt;float&gt;&gt; faces_vector_float_container;\n    cout &lt;&lt; \"original vector size\" &lt;&lt; faces_vector.size() &lt;&lt; endl;\n\n    for (int i=0; i &lt; faces_vector.size(); i++) {\n        vector&lt;int&gt; faces_vector_int = {faces_vector[i].tl().x,faces_vector[i].tl().y,faces_vector[i].br().x, faces_vector[i].br().y};\n        vector&lt;float&gt; faces_vector_float(faces_vector_int.begin(), faces_vector_int.end());\n\n        faces_vector_float_container.push_back(faces_vector_float);\n    }\n\n    cout &lt;&lt; \"modified vector size\" &lt;&lt; faces_vector_float_container.size() &lt;&lt; endl;\n    vector&lt;Rect&gt; filtered_faces_vector = nms(faces_vector_float_container, threshold);\n\n    // Change Faces detected flag\n    if(faces_vector.size() &gt; 0){\n        faces_detected = true;\n    }else{\n        faces_detected = false;\n    }\n\n    return faces_vector;\n}\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826786/convert-vectorrect-opencv-to-vectorvectorfloat-in-c",
+  "owner" : {
+    "user_id" : 1483518,
+    "user_type" : "registered",
+    "display_name" : "zer02",
+    "profile_image" : "https://i.stack.imgur.com/ywXUt.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/1483518/zer02",
+    "reputation" : 1084,
+    "accept_rate" : 74
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743586,
+  "last_activity_date" : 1498743586,
+  "tags" : [
+    "c++",
+    "opencv",
+    "computer-vision"
+  ],
+  "score" : 0,
+  "view_count" : 8,
+  "answer_count" : 0
+}

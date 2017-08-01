@@ -1,0 +1,65 @@
+{
+  "uuid" : "71088009efb094754d81152df165eba94cd3dac4",
+  "bioAsHtml" : "<p>Become a software craftsman...Or die trying.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/BWC-1026",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7f72bec97e79afd0f742fc87c486bd2a30d29fea",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Florent Pellet"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/36240f860ac768bbe44736a2f8c028b7651fb949",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Clement Bouillier"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/71088009efb094754d81152df165eba94cd3dac4",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Emilien Pecoul"
+        }
+      ],
+      "id" : "BWC-1026",
+      "title" : "Agilité par le code grâce à CQRS et EventSourcing"
+    },
+    {
+      "talkType" : "University",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/GNR-4303",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/71088009efb094754d81152df165eba94cd3dac4",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Emilien Pecoul"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7f72bec97e79afd0f742fc87c486bd2a30d29fea",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Florent Pellet"
+        }
+      ],
+      "id" : "GNR-4303",
+      "title" : "CQRS/ES from scratch"
+    }
+  ],
+  "company" : "OWARE",
+  "bio" : "Become a software craftsman...Or die trying.",
+  "lastName" : "Pecoul",
+  "firstName" : "Emilien",
+  "blog" : "http://ouarzy.azurewebsites.net/",
+  "avatarURL" : "https://lh5.googleusercontent.com/-wQVGRu23Npw/AAAAAAAAAAI/AAAAAAAAAy4/MRzA3kQd_wQ/photo.jpg",
+  "twitter" : "@ouarzy",
+  "lang" : "fr"
+}

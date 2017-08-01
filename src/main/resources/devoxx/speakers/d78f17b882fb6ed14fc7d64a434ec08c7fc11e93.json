@@ -1,0 +1,37 @@
+{
+  "uuid" : "d78f17b882fb6ed14fc7d64a434ec08c7fc11e93",
+  "bioAsHtml" : "<p>Jonathan est ingénieur Data.</p>\n<p>Il a travaillé dans différents contextes, MOA/MOE, développeur Java/Scala/Clojure pour des éditeurs/startups, architecte de plateformes distribuées.  Au cours de son expérience professionnelle, Jonathan s’est spécialisé dans l’analyse de sources de données pour faciliter la construction d’entrepôt de données.</p>\n<p>Il présente régulièrement des sujets d’actualité lors de conférences.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "University",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/PLK-3557",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d78f17b882fb6ed14fc7d64a434ec08c7fc11e93",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jonathan Winandy"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/833f42657bbf7704ac83719535c2a71cebafc16e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Bachir Aït M'Barek"
+        }
+      ],
+      "id" : "PLK-3557",
+      "title" : "Spark-adabra : Comment construire un datalake !"
+    }
+  ],
+  "company" : "Univalence",
+  "bio" : "Jonathan est ingénieur Data.\r\n \r\nIl a travaillé dans différents contextes, MOA/MOE, développeur Java/Scala/Clojure pour des éditeurs/startups, architecte de plateformes distribuées.  Au cours de son expérience professionnelle, Jonathan s’est spécialisé dans l’analyse de sources de données pour faciliter la construction d’entrepôt de données. \r\n\r\nIl présente régulièrement des sujets d’actualité lors de conférences.",
+  "lastName" : "Winandy",
+  "firstName" : "Jonathan",
+  "blog" : null,
+  "avatarURL" : "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAZwAAAAJGE5ZGVkNTQzLWE0ZGQtNDRkZi04NzgwLTcyZWQxNjQ2N2EwYQ.jpg",
+  "twitter" : "@ahoy_jon",
+  "lang" : "fr"
+}

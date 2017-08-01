@@ -1,0 +1,60 @@
+{
+  "uuid" : "a73cc5bfb4ce4d8f07f209039ada742ee750a332",
+  "bioAsHtml" : "<p>Solutions Architect chez CloudBees, je côtoie tous les jours des serveurs Jenkins dans des environnements hétérogènes. Après avoir évangélisé les bonnes pratiques de développement dans mes vies précédentes en tant que consultant, j&#x27;essaye désormais de pousser la culture DevOps à tous les niveaux en entreprise.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/PFS-2970",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a73cc5bfb4ce4d8f07f209039ada742ee750a332",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Philippe Briend"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/25d88b19cb2f790435cbd6ba5c1e350e045d925f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Julien Corioland"
+        }
+      ],
+      "id" : "PFS-2970",
+      "title" : "Applications conteneurisées : déploiement continue et passage à l'échelle dans le cloud"
+    },
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/ULX-3789",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6e4596fa4b3666882910e1b75546254b17d5f89d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Damien DUPORTAL"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a73cc5bfb4ce4d8f07f209039ada742ee750a332",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Philippe Briend"
+        }
+      ],
+      "id" : "ULX-3789",
+      "title" : "BoF Jenkins"
+    }
+  ],
+  "company" : "CloudBees, Inc.",
+  "bio" : "Solutions Architect chez CloudBees, je côtoie tous les jours des serveurs Jenkins dans des environnements hétérogènes. Après avoir évangélisé les bonnes pratiques de développement dans mes vies précédentes en tant que consultant, j'essaye désormais de pousser la culture DevOps à tous les niveaux en entreprise.",
+  "lastName" : "Briend",
+  "firstName" : "Jean-Philippe",
+  "blog" : "http://www.jpbriend.fr",
+  "avatarURL" : "http://www.gravatar.com/avatar/5dda32b731a0b29a5610e46a9ecae906",
+  "twitter" : "@jpbriend",
+  "lang" : "fr"
+}

@@ -1,0 +1,37 @@
+{
+  "uuid" : "2672fcd594fa85df6f371818de903c34f6177394",
+  "bioAsHtml" : "<p>Développeur Android @ Snips. Adepte du Software Craftsmanship. ML enthousiaste</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/ICW-0992",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b8cfc2c5b0d9f98410ec6cc7b51c47419cb634dd",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "David Wursteisen"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/2672fcd594fa85df6f371818de903c34f6177394",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Mounir BOUDRAA"
+        }
+      ],
+      "id" : "ICW-0992",
+      "title" : "À la découverte de Kotlin"
+    }
+  ],
+  "company" : "Snips",
+  "bio" : "Développeur Android @ Snips. Adepte du Software Craftsmanship. ML enthousiaste ",
+  "lastName" : "BOUDRAA",
+  "firstName" : "Mounir",
+  "blog" : null,
+  "avatarURL" : "http://www.gravatar.com/avatar/e139aa7ae2b6c738a42bc6f0303df361?s=120",
+  "twitter" : "@_mboudraa",
+  "lang" : "fr"
+}

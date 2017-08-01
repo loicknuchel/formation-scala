@@ -1,0 +1,37 @@
+{
+  "uuid" : "9d6bbdb959a69d70b9ab97874fd1948575c88add",
+  "bioAsHtml" : "<p>Bruno Boucard est coach agile, software craftsman, formateur sur les pratiques XP. Il possède une vaste expérience de programmation depuis la programmation système et noyau sur serveur Unix à la programmation parallèle sur CPU et GPU sur Windows. Aujourd’hui il pratique un coaching pendant 6 mois pour des développeurs C# et Java où il enseigne le TDD, le Refactoring de code legacy, le BDD avec une pointe de DDD.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/MRW-9762",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c0930e0e3ea2569762723c720652455cb195328c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Thomas Pierrain"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9d6bbdb959a69d70b9ab97874fd1948575c88add",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Bruno Boucard"
+        }
+      ],
+      "id" : "MRW-9762",
+      "title" : "Legacy Club"
+    }
+  ],
+  "company" : "42 Skillz",
+  "bio" : "Bruno Boucard est coach agile, software craftsman, formateur sur les pratiques XP. Il possède une vaste expérience de programmation depuis la programmation système et noyau sur serveur Unix à la programmation parallèle sur CPU et GPU sur Windows. Aujourd’hui il pratique un coaching pendant 6 mois pour des développeurs C# et Java où il enseigne le TDD, le Refactoring de code legacy, le BDD avec une pointe de DDD.",
+  "lastName" : "Boucard",
+  "firstName" : "Bruno",
+  "blog" : "http://brunoboucard.com/",
+  "avatarURL" : "http://www.gravatar.com/avatar/61f07c096d20b46d5c861ebf008c21ee",
+  "twitter" : "@brunoboucard",
+  "lang" : "fr"
+}

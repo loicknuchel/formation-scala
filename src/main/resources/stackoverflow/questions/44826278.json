@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826278,
+  "title" : "C# RestSharp POST Body using models",
+  "body" : "<p>I'm just starting out with RestSharp using C#. </p>\n\n<p>I encountered an error while doing the following scenario. </p>\n\n<p>I have a class that I want to post to my WCF service via RestSharp. However, I found out that the date time property is causing the request fail to post. </p>\n\n<p>This is the error message return from Rest Sharp.</p>\n\n<blockquote>\n  <p>The server encountered an error processing the request. See server logs for more details.</p>\n</blockquote>\n\n<pre><code>/*Model to POST to WCF*/\npublic class Ticket {\n  public string Name {get;set;}\n  public DateTime Time {get;set;}\n}\n\n/*WCF Api Endpoint*/\n[OperationContract, WebInvoke(UriTemplate = \"/placeTicket\", Method \n= \"POST\", BodyStyle = WebMessageBodyStyle.Bare, RequestFormat = \nWebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]\nNewTicket MakeNewTicket(Ticket requestParams);\n\n/*Rest Sharp Operation*/\nTicket model = new Ticket();\nmodel.Name = \"Danial\";\nmodel.Time = new DateTime();\n\nvar client = new RestClient(url);\nvar request = new RestRequest(\"/MakeNewTicket\", Method.POST);\nrequest.RequestFormat = DataFormat.Json;\nrequest.AddBody(model);\n</code></pre>\n\n<p>If i change the Time property to string, it works perfectly.</p>\n\n<p>I've been stretching my head trying to solve this problem. Anyone able to guide me on this will be appreciated.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826278/c-restsharp-post-body-using-models",
+  "owner" : {
+    "user_id" : 4165804,
+    "user_type" : "registered",
+    "display_name" : "Danial Chong",
+    "profile_image" : "https://lh5.googleusercontent.com/-9OBXcYF1EKQ/AAAAAAAAAAI/AAAAAAAAAFc/ocZUwJ12fkw/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/4165804/danial-chong",
+    "reputation" : 11,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742334,
+  "last_activity_date" : 1498742334,
+  "tags" : [
+    "c#",
+    "json",
+    "wcf",
+    "datetime",
+    "restsharp"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

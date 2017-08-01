@@ -1,0 +1,28 @@
+{
+  "question_id" : 44806049,
+  "title" : "How to write an Android UI test where the contents of views are determined at runtime?",
+  "body" : "<h2>The Situation</h2>\n\n<p>I'm writing a timetable-viewing application and the first feature to be implemented is choosing the course for which to view the timetable.</p>\n\n<p>The user chooses the name of their course from a list and is taken to another screen to further specify which year, group etc. of the course they're currently in.  The screens to choose your course and edit your course details are as follows:</p>\n\n<p><a href=\"https://i.stack.imgur.com/bq19K.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/bq19K.png\" alt=\"enter image description here\"></a></p>\n\n<p><a href=\"https://i.stack.imgur.com/8ioI8.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/8ioI8.png\" alt=\"enter image description here\"></a></p>\n\n<hr>\n\n<h2>The Goal</h2>\n\n<p>Inspired by the <a href=\"https://www.youtube.com/watch?v=pK7W5npkhho&amp;feature=youtu.be&amp;t=318\" rel=\"nofollow noreferrer\">Google I/O 17 talk on Test-Driven Development on Android</a>, what I wish to write is a UI test case to test this feature.  Specifically, I want my test to confirm that if the user clicks on one of the course names they will be taken to the 'edit course details' screen and that the course title at the top e.g. 'Accounting and Finance' matches the one that was clicked in the list.</p>\n\n<hr>\n\n<h2>The Problem</h2>\n\n<p>The test, using <a href=\"https://google.github.io/android-testing-support-library/docs/espresso/\" rel=\"nofollow noreferrer\">Espresso</a>, for the specific case of choosing the course titled 'Accounting and Finance' and seeing if the correct title shows up on the next screen, would look (roughly) like this:</p>\n\n<pre><code>@Test\npublic void chooseCourse() {\n    onView(withId(R.id.rv_course_list))\n            .perform(RecyclerViewActions.actionOnItemAtPosition(\n                    /*Somehow find position of Accounting and Finance*/,\n                    click())\n            );\n\n\n    onView(withId(R.id.course_title))\n            .check(matches(withText(\"Accounting and Finance\")))\n            .check(matches(isDisplayed()));\n}\n</code></pre>\n\n<p>My problem is that the <code>RecyclerView</code> course list will be populated using results from a HTTP request or a SQLite database at runtime and there is no way of knowing beforehand whether the list will contain 'Accounting and Finance' or something else  (I don't want the test to fail just because a specific course isn't in the list when the application runs).</p>\n\n<p>Taking this into consideration I cannot hard-code the course name into the test.  Please note that <em>I'm not trying to write a unit test</em> where I would just mock the dependency of obtaining the course list to ensure that 'Accounting and Finance' is in the list (and would probably just isolate the <code>ChooseCourseActivity</code> class, capturing its <code>Intent</code>s).</p>\n\n<p>In the video I linked to above, the presenter talks us through a UI test of the add-note feature of a notes application where the test is as follows:</p>\n\n<ol>\n<li>Click on the 'add note' button</li>\n<li>Enter title and description of the note</li>\n<li>Click on the 'save note' button</li>\n<li>Verify that a new note with the details from step 2 is contained in the list</li>\n</ol>\n\n<p>In that scenario hard-coding the text (title and description) used to find the views works great because the code in the test <em>determines</em> the contents of the view i.e. the note in the notes list.  In my case, the contents of the view will be determined by a HTTP response or db query</p>\n\n<hr>\n\n<h2>The Question</h2>\n\n<ul>\n<li>How do I write an adequate UI test for the choose-course feature before implementing it? </li>\n<li>Is the method used in the video to test the notes app simply not applicable to my feature (because I cannot hard-code the course title that is to be chosen from the list)?</li>\n<li>Am I just misunderstanding UI testing and should be mocking dependencies (even though the speaker in the video did not)?</li>\n</ul>\n",
+  "link" : "https://stackoverflow.com/questions/44806049/how-to-write-an-android-ui-test-where-the-contents-of-views-are-determined-at-ru",
+  "owner" : {
+    "user_id" : 4184412,
+    "user_type" : "registered",
+    "display_name" : "Dziugas",
+    "profile_image" : "https://www.gravatar.com/avatar/187dec6e6e815b1dbeee556a8f853ba6?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4184412/dziugas",
+    "reputation" : 547,
+    "accept_rate" : 89
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661750,
+  "last_activity_date" : 1498661750,
+  "tags" : [
+    "android",
+    "automated-tests",
+    "tdd",
+    "android-espresso",
+    "ui-testing"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

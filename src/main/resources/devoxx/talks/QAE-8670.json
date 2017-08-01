@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "Conference",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>Votre application Java/Scala/autres en production ne répond plus ! Que faire pour diagnostiquer d'où vient le problème ? Un thread bloqué ? un CPU à 100% ? le GC qui s'emballe ? une OutOfMemoryError ? par où commencer ?\nCette présentation vous donnera les outils et méthodologie pour être capable de répondre à ce genre de situation. Nous verrons ce que la JVM propose comme informations et métriques ainsi que la bonne façon de les interpréter.</p>\n",
+  "id" : "QAE-8670",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b800a8a13a35cf87947f7b22344d05e12fca36f3",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Jean-Philippe Bempel"
+      },
+      "name" : "Jean-Philippe Bempel"
+    }
+  ],
+  "title" : "Le guide de dépannage de la JVM",
+  "lang" : "fr",
+  "summary" : "Votre application Java/Scala/autres en production ne répond plus ! Que faire pour diagnostiquer d'où vient le problème ? Un thread bloqué ? un CPU à 100% ? le GC qui s'emballe ? une OutOfMemoryError ? par où commencer ?\r\nCette présentation vous donnera les outils et méthodologie pour être capable de répondre à ce genre de situation. Nous verrons ce que la JVM propose comme informations et métriques ainsi que la bonne façon de les interpréter."
+}

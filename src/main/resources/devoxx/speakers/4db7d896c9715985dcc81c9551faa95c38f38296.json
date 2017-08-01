@@ -1,0 +1,37 @@
+{
+  "uuid" : "4db7d896c9715985dcc81c9551faa95c38f38296",
+  "bioAsHtml" : "<p>Yvonnick développeur javascript chez Zenika Nantes. Curieux et passionné, il aime découvrir les dernières technologies du Web. Adepte d’AngularJs depuis déjà deux ans, il se met à explorer le Flux avec React. Social, il écume les meetups nantais en quête de nouveautés.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/VGQ-1820",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/61115f730ed765d596658412405a9bd16c36dbab",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Eric Briand"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4db7d896c9715985dcc81c9551faa95c38f38296",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yvonnick Frin"
+        }
+      ],
+      "id" : "VGQ-1820",
+      "title" : "Développez des applications web desktop avec Electron de Github"
+    }
+  ],
+  "company" : "Zenika",
+  "bio" : "Yvonnick développeur javascript chez Zenika Nantes. Curieux et passionné, il aime découvrir les dernières technologies du Web. Adepte d’AngularJs depuis déjà deux ans, il se met à explorer le Flux avec React. Social, il écume les meetups nantais en quête de nouveautés. ",
+  "lastName" : "Frin",
+  "firstName" : "Yvonnick",
+  "blog" : "https://plus.google.com/109071561565803681826",
+  "avatarURL" : "https://lh6.googleusercontent.com/-CV-wFF1rBaM/AAAAAAAAAAI/AAAAAAAAARw/TqSDGfUfHYs/photo.jpg",
+  "twitter" : "@YvonnickFrin",
+  "lang" : "en"
+}

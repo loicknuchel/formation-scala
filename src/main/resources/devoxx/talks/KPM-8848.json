@@ -1,0 +1,28 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Conference",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>Nous avons tout juste commencé à utiliser les containers Docker, et voilà que des solutions concurrentes apparaissent et sèment la confusion.\nEst-ce que Docker est insuffisant ? Faut-il lui préférer CoreOS Rocket ? Que vient faire RunC là dedans ? Et LXD dans tout ça ? C'est quoi ce délire avec Systemd ?</p>\n<p>Cette session va (essayer de) mettre les idées au clair sur ce qu'est un conteneur, comment les runtimes se différencient techniquement et pourquoi utiliser untel plutôt qu'un autre, ou peut être les combiner ensemble, pourquoi, comment, quelles sont les contraintes pour que cela fonctionne.</p>\n",
+  "id" : "KPM-8848",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e093b878c9a06101b3291a9c1aa28dbd0dd7533a",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Nicolas de Loof"
+      },
+      "name" : "Nicolas de Loof"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e3dfcbef2c6e2315e09123552f721da3965b76c6",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Yoann Dubreuil"
+      },
+      "name" : "Yoann Dubreuil"
+    }
+  ],
+  "title" : "Containers' Jungle. Docker, Rocket, RunC, LXD ... WTF ?",
+  "lang" : "fr",
+  "summary" : "Nous avons tout juste commencé à utiliser les containers Docker, et voilà que des solutions concurrentes apparaissent et sèment la confusion. \r\nEst-ce que Docker est insuffisant ? Faut-il lui préférer CoreOS Rocket ? Que vient faire RunC là dedans ? Et LXD dans tout ça ? C'est quoi ce délire avec Systemd ?\r\n\r\nCette session va (essayer de) mettre les idées au clair sur ce qu'est un conteneur, comment les runtimes se différencient techniquement et pourquoi utiliser untel plutôt qu'un autre, ou peut être les combiner ensemble, pourquoi, comment, quelles sont les contraintes pour que cela fonctionne."
+}

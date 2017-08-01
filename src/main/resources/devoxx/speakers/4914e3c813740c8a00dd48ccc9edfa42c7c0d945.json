@@ -1,0 +1,37 @@
+{
+  "uuid" : "4914e3c813740c8a00dd48ccc9edfa42c7c0d945",
+  "bioAsHtml" : "<p>Baha fait parti de l’équipe des Solutions Architect qui intervient dans la phase d’avant ventes sur des sujets d’architectures techniques, et prouve la valeur de stack Elastic au regard des besoins du client.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/VRT-8136",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4a822ea73a5cb708b3eb656ce77b48748c5cc7c7",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "David Pilato"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4914e3c813740c8a00dd48ccc9edfa42c7c0d945",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Baha Azarmi"
+        }
+      ],
+      "id" : "VRT-8136",
+      "title" : "BOF elastic and tools"
+    }
+  ],
+  "company" : "Elastic",
+  "bio" : "Baha fait parti de l’équipe des Solutions Architect qui intervient dans la phase d’avant ventes sur des sujets d’architectures techniques, et prouve la valeur de stack Elastic au regard des besoins du client.",
+  "lastName" : "Azarmi",
+  "firstName" : "Baha",
+  "blog" : "https://plus.google.com/109982112041781624566",
+  "avatarURL" : "https://lh4.googleusercontent.com/-nK2ghc4suB4/AAAAAAAAAAI/AAAAAAAABs0/Et2BYiBTlrY/photo.jpg",
+  "twitter" : "@bahaaldine",
+  "lang" : "en"
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "Conference",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>When people think about the OpenJDK, they usually align it with a library and a set of API’s. However, the OpenJDK offers much more potential. It allows us to customise the behaviour of our application as well as open up other opportunities. In this talk, we are going to see a real case scenario of taking the OpenJDK and building on top of it to provide value to end products. We will cover best practices around building, testing, bundling as well as see how to keep compatibility with Oracle JDK while at the same time contribute back to the project. All this might sound daunting, in fact, it is a very viable solution that provides many benefits and embraces one of the core ideas behind Open Source.</p>\n",
+  "id" : "OEY-7468",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c3cc612b5f03c54910bd7a80271a376e2a926b19",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Denis Fokin"
+      },
+      "name" : "Denis Fokin"
+    }
+  ],
+  "title" : "OpenJDK - Not just a set of APIs",
+  "lang" : "en",
+  "summary" : "When people think about the OpenJDK, they usually align it with a library and a set of API’s. However, the OpenJDK offers much more potential. It allows us to customise the behaviour of our application as well as open up other opportunities. In this talk, we are going to see a real case scenario of taking the OpenJDK and building on top of it to provide value to end products. We will cover best practices around building, testing, bundling as well as see how to keep compatibility with Oracle JDK while at the same time contribute back to the project. All this might sound daunting, in fact, it is a very viable solution that provides many benefits and embraces one of the core ideas behind Open Source."
+}

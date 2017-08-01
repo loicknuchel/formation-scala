@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826593,
+  "title" : "Get all combination of list with repeated values",
+  "body" : "<p>\nHow can i get a list of all possible values of a list with also repeated ones?</p>\n\n<p>I've tried <code>itertools.combination_with_replacement</code> and <code>itertools.permutation</code> but the first exclude the inverted order (such as <code>[3, 2, 1]</code>) and the second exclude multiple values (such as <code>[3, 3, 1]</code>).</p>\n\n<p>I need something like this:</p>\n\n<p>Example:</p>\n\n<pre><code>list = [1, 2, 3]\n\nresults =\n[1, 1, 1]\n[1, 1, 2]\n[1, 1, 3]\n...\n[3, 1, 1]\n[3, 1, 2]\n[3, 1, 3]\n...\n</code></pre>\n\n<p>What can I do in Python to achieve this?\nThanks in advance.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826593/get-all-combination-of-list-with-repeated-values",
+  "owner" : {
+    "user_id" : 6086886,
+    "user_type" : "registered",
+    "display_name" : "Federico Lolli",
+    "profile_image" : "https://graph.facebook.com/566717456830550/picture?type=large",
+    "link" : "https://stackoverflow.com/users/6086886/federico-lolli",
+    "reputation" : 20,
+    "accept_rate" : null
+  },
+  "is_answered" : true,
+  "creation_date" : 1498743107,
+  "last_activity_date" : 1498743310,
+  "tags" : [
+    "python",
+    "iteration",
+    "combinations"
+  ],
+  "score" : 1,
+  "view_count" : 18,
+  "answer_count" : 1
+}

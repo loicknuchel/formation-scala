@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826806,
+  "title" : "Angular chart.js onClick is not working - how to get all elements of a bar when it is clicked on",
+  "body" : "<p>I am a beginner to Chart.js and I am trying to create click events when a chart is created.</p>\n\n<p>I am trying to access all the elements of a bar when it is clicked on, but right now, the onClick method is not even running properly. The chart is rendering just fine - any html should not be needed as the canvas is created in the code. I would appreciate help in order to solve this problem </p>\n\n<pre><code>controller($state, $scope, $rootScope) {\n    $scope.myChart;\n</code></pre>\n\n<p>....</p>\n\n<pre><code>    $scope.go = function myFunc() {\n      document.getElementById(\"chartContainer\").innerHTML = '&amp;nbsp;';\n      document.getElementById(\"chartContainer\").innerHTML = '&lt;canvas style=\"margin-top: 10px; padding-top: 20px; height:90% ; background-color: ' + vm.options.backgroundColor + '; \" id=\"myChart\" click=\"onClick\"&gt;&lt;/canvas&gt;';\n    var ctx = document.getElementById(\"myChart\").getContext('2d');\n\n       render($scope.myChart, ctx, vm.options.barColor, vm.options.backgroundColor, labelVal, value);\n  };\n  $scope.onClick = function (evt) {\n    console.log(\"Testing\"); \n  };\n\n}\nvar render = function createChart(myChart, ctx, barColor, backgroundColor, labels, values) {\n\n\nmyChart = new Chart(ctx, {\n    type: 'bar',\n\n    data: {\n        labels: labels,\n        datasets: [{\n            backgroundColor: barColor,\n\n            data: values,\n                }]\n\n    },\n    options: {\n        events: ['click'],\n        chartArea: {\n            backgroundColor: backgroundColor,\n        },\n        global: {\n            responsive: true,\n            maintainAspectRatio: false,\n        },\n        scaleBeginAtZero: true,\n        maintainAspectRatio: false,\n\n        scales: {\n            xAxes: [{\n                ticks: {\n                    autoSkip: false,\n                }\n                }],\n            yAxes: [{\n                ticks: {\n                    beginAtZero: true,\n                    min: 0\n                }\n                    }]\n        }\n    }\n});\n\n}\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826806/angular-chart-js-onclick-is-not-working-how-to-get-all-elements-of-a-bar-when",
+  "owner" : {
+    "user_id" : 6029203,
+    "user_type" : "registered",
+    "display_name" : "Anonymous Dodo",
+    "profile_image" : "https://lh6.googleusercontent.com/-KvOvvXYLJWE/AAAAAAAAAAI/AAAAAAAAAAA/-feFdjBympk/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/6029203/anonymous-dodo",
+    "reputation" : 34,
+    "accept_rate" : 100
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743640,
+  "last_activity_date" : 1498743640,
+  "tags" : [
+    "javascript",
+    "angularjs",
+    "angularjs-scope",
+    "bar-chart",
+    "chart.js"
+  ],
+  "score" : 0,
+  "view_count" : 8,
+  "answer_count" : 0
+}

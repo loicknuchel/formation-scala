@@ -1,0 +1,28 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "Hands-on Labs",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>Fatigué par les alertes ('xss') et autres attaques web?\nVous voulez apprendre les techniques avancées de test de pénétration des applications web et comment écrire du code sécurisé par conception alors cet hands-on est pour vous.\nLa formation débute par la réalisation de certaines attaques OWASP TOP 10 d'une application Web de type CMS, ensuite on passe à des tâches plus avancées telles que le contournement des filtres XSS, des attaques HTML5 et des vulnérabilités récentes telles que Shellshock, Heartbleed, POODLE etc.\nVous apprendrez comment obtenir un shell sur le serveur hébergeant l'application en utilisant les vulnérabilités des applications Web OWASP TOP 10 2017. Cette formation est orientée pratique sur le Pentesting Web et le codage sécurisé. Cette formation couvre à la fois l'approche offensive et défensive envers les applications Web.</p>\n<p><strong>La machine virtuelle pour le hands-on est téléchargeable <a href=\"https://drive.google.com/open?id=0BxtBUHsCQXbmM2hWTWg0ZlhzX1E\">ici</a>. Tous les participants doivent télécharger cette machine virtuelle et l'installer sous VMWare Workstation ou VMPLayer avant le démarrage de la session.</strong></p>\n",
+  "id" : "GYS-3426",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6886c10c4a4b581c869ff626d929267d1a5a69dc",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "RAMRAMI AZZEDDINE"
+      },
+      "name" : "RAMRAMI AZZEDDINE"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c4e0e073bebbea28f75c1e1904ca04c01ded25b4",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Laurent Broto"
+      },
+      "name" : "Laurent Broto"
+    }
+  ],
+  "title" : "Test de pénétration Web avancé et codage sécurisé",
+  "lang" : "fr",
+  "summary" : "Fatigué par les alertes ('xss') et autres attaques web?\r\nVous voulez apprendre les techniques avancées de test de pénétration des applications web et comment écrire du code sécurisé par conception alors cet hands-on est pour vous.\r\nLa formation débute par la réalisation de certaines attaques OWASP TOP 10 d'une application Web de type CMS, ensuite on passe à des tâches plus avancées telles que le contournement des filtres XSS, des attaques HTML5 et des vulnérabilités récentes telles que Shellshock, Heartbleed, POODLE etc.\r\nVous apprendrez comment obtenir un shell sur le serveur hébergeant l'application en utilisant les vulnérabilités des applications Web OWASP TOP 10 2017. Cette formation est orientée pratique sur le Pentesting Web et le codage sécurisé. Cette formation couvre à la fois l'approche offensive et défensive envers les applications Web.\r\n\r\n**La machine virtuelle pour le hands-on est téléchargeable [ici] (https://drive.google.com/open?id=0BxtBUHsCQXbmM2hWTWg0ZlhzX1E). Tous les participants doivent télécharger cette machine virtuelle et l'installer sous VMWare Workstation ou VMPLayer avant le démarrage de la session.**"
+}

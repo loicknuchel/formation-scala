@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826325,
+  "title" : "What&#39;s wrong with my List Comprehension?",
+  "body" : "<p>How come this runs</p>\n\n<pre><code>[int(x, 16) for x in ['BB', 'A7', 'F6', '9E']]\n</code></pre>\n\n<p>But this doesn't?</p>\n\n<pre><code>mylist = ['BB','A7','F6','9E']\nmylist2 = [int(x, 16) for x in [mylist]]\n</code></pre>\n\n<p>Am I missing something fundamental here?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826325/whats-wrong-with-my-list-comprehension",
+  "owner" : {
+    "user_id" : 5550969,
+    "user_type" : "registered",
+    "display_name" : "eddiewastaken",
+    "profile_image" : "https://www.gravatar.com/avatar/5bca48e6f7cd5e529c9d1f686085d6dc?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/5550969/eddiewastaken",
+    "reputation" : 111,
+    "accept_rate" : 50
+  },
+  "is_answered" : true,
+  "creation_date" : 1498742442,
+  "last_activity_date" : 1498742910,
+  "tags" : [
+    "python"
+  ],
+  "score" : 0,
+  "view_count" : 48,
+  "answer_count" : 2
+}

@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826470,
+  "title" : "How to add &quot;video element&quot; in the template html in Weebly",
+  "body" : "<p>I am out after adding a video element in the template level as it is possible to add a button element like the following;</p>\n\n<pre><code>{action:button}\n</code></pre>\n\n<p>Is there any way of doing it like this;</p>\n\n<pre><code>{media:video}\n</code></pre>\n\n<p>I am building a custom template, that's why I should statically give such elements in the html so that user can see that there is a video element in the content ( it is mandatory ) and s/he will edit the source of  with the desired url.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826470/how-to-add-video-element-in-the-template-html-in-weebly",
+  "owner" : {
+    "user_id" : 2790804,
+    "user_type" : "registered",
+    "display_name" : "shamaleyte",
+    "profile_image" : "https://i.stack.imgur.com/5sI7T.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/2790804/shamaleyte",
+    "reputation" : 692,
+    "accept_rate" : 50
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742824,
+  "last_activity_date" : 1498742824,
+  "tags" : [
+    "weebly"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826902,
+  "title" : "Jedis Pool : create new connections on exhaust",
+  "body" : "<p>We are using redis for caching purpose in our application. </p>\n\n<p>Our aim is to create new connections whenever the existing pool gets exhausted, so that we can keep the number of idle connections minimal.This way a redis-server resource is given to an application-server(s) which really requires it.</p>\n\n<p>Till now we were using  JedisConnectionFactory of spring-data-redis 1.4.2 which uses Jedis 2.6.2 and commons-pool 2.0 version which does not have option of whenExhaustAction like earlier versions.</p>\n\n<p>Please suggest how can we achieve this.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826902/jedis-pool-create-new-connections-on-exhaust",
+  "owner" : {
+    "user_id" : 5901693,
+    "user_type" : "registered",
+    "display_name" : "ankur garg",
+    "profile_image" : "https://www.gravatar.com/avatar/a7e5244e52609dd3139897a7e1d94559?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/5901693/ankur-garg",
+    "reputation" : 11,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743845,
+  "last_activity_date" : 1498743845,
+  "tags" : [
+    "spring",
+    "redis",
+    "jedis",
+    "apache-commons-pool"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Tools-in-Action",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>In this live-coding session I'll use the open <a href=\"http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml\">NYC Taxi Trip Record Data</a> enriched with routing information and transformed into a realtime stream and walk you through some data discovery scenarios using <a href=\"https://beam.apache.org\">Apache Beam</a>. Let's see what we can find! You'll take away techniques, best practices and insights working with the new open data processing model and toolset.</p>\n",
+  "id" : "SCA-4407",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5d6685dc68a9b43d75febcbecadd0dccb4fd27a2",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Robert Kubis"
+      },
+      "name" : "Robert Kubis"
+    }
+  ],
+  "title" : "Apache Beam, live data discovery from the open NYC Taxi Trip Records stream",
+  "lang" : "en",
+  "summary" : "In this live-coding session I'll use the open [NYC Taxi Trip Record Data](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml) enriched with routing information and transformed into a realtime stream and walk you through some data discovery scenarios using [Apache Beam](https://beam.apache.org). Let's see what we can find! You'll take away techniques, best practices and insights working with the new open data processing model and toolset."
+}

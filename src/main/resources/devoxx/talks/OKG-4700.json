@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Tools-in-Action",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Dans l'écosystème front, Angular et React se taille la part du lion. Chaque famework apporte son lot d'innovations pour des applications toujours plus élaborées mais existe-il aujourd'hui une alternative ? Et si nous sortions de cette course technique pour revenir aux fondamentaux. C'est ce que propose Vue.js,  simplicité et performance.  Nous vous proposons une immersion dans le framework pour voir si il répond à nos problématiques quotidiennes (productivité, navigation, validation...)</p>\n",
+  "id" : "OKG-4700",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/02cc1a9ee35911062a9a42476a8a09d04fd0149d",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Cyril Balit"
+      },
+      "name" : "Cyril Balit"
+    }
+  ],
+  "title" : "Vue.js, à l'ombre des géants",
+  "lang" : "fr",
+  "summary" : "Dans l'écosystème front, Angular et React se taille la part du lion. Chaque famework apporte son lot d'innovations pour des applications toujours plus élaborées mais existe-il aujourd'hui une alternative ? Et si nous sortions de cette course technique pour revenir aux fondamentaux. C'est ce que propose Vue.js,  simplicité et performance.  Nous vous proposons une immersion dans le framework pour voir si il répond à nos problématiques quotidiennes (productivité, navigation, validation...)"
+}

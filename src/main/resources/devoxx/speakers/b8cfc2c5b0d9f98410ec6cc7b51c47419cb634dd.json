@@ -1,0 +1,73 @@
+{
+  "uuid" : "b8cfc2c5b0d9f98410ec6cc7b51c47419cb634dd",
+  "bioAsHtml" : "<p>David intervient chez différents clients au domaine fonctionnel varié, pour les aider à réaliser leurs projets.\nPour lui le développement logiciel n’est pas qu’une affaire de technique.\nSon rôle est d’aider ses clients à prendre en compte d’autres aspects, pour que leurs développements informatiques ne soient plus un frein à leur activité mais un atout.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "Mobile, IoT",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/CGE-2770",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b8cfc2c5b0d9f98410ec6cc7b51c47419cb634dd",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "David Wursteisen"
+        }
+      ],
+      "id" : "CGE-2770",
+      "title" : "Développer un jeu vidéo (quand on n’y connait rien en développement de jeux vidéo)"
+    },
+    {
+      "talkType" : "Conference",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/HMD-5890",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b8cfc2c5b0d9f98410ec6cc7b51c47419cb634dd",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "David Wursteisen"
+        }
+      ],
+      "id" : "HMD-5890",
+      "title" : "RxJava, RxJava 2, Reactor : Etat de l’art des Reactive Streams en Java"
+    },
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/ICW-0992",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b8cfc2c5b0d9f98410ec6cc7b51c47419cb634dd",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "David Wursteisen"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/2672fcd594fa85df6f371818de903c34f6177394",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Mounir BOUDRAA"
+        }
+      ],
+      "id" : "ICW-0992",
+      "title" : "À la découverte de Kotlin"
+    }
+  ],
+  "company" : "SOAT",
+  "bio" : "David intervient chez différents clients au domaine fonctionnel varié, pour les aider à réaliser leurs projets.\r\nPour lui le développement logiciel n’est pas qu’une affaire de technique.\r\nSon rôle est d’aider ses clients à prendre en compte d’autres aspects, pour que leurs développements informatiques ne soient plus un frein à leur activité mais un atout.",
+  "lastName" : "Wursteisen",
+  "firstName" : "David",
+  "blog" : "https://plus.google.com/118025745356901983994",
+  "avatarURL" : "https://lh6.googleusercontent.com/-ik6pQvfCBVY/AAAAAAAAAAI/AAAAAAAAAL8/-Sfv4sKFObE/photo.jpg",
+  "twitter" : "@dwursteisen",
+  "lang" : "fr"
+}

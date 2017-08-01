@@ -1,0 +1,20 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "Conference",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>La tendance est au délaissement des architectures monolithiques au profit de\nmicro-services bien découpés. Ainsi nous facilitons le passage à l'échelle,\nréduisons la taille de chaque projet et pouvons utiliser la pile techno\nadaptée à chaque module.</p>\n<p>Cependant, en séparant ces briques, nous repoussons la complexité à la limite\nentre chaque module. La cohérence fournie par une base de code atomique et son\nsystème de types est perdue.</p>\n<p>Dans cette session, je montrerai comment tenir compte explicitement des\nfrontières entre modules permet de réduire le risque de données incohérentes.\nJe montrerai comment encoder les messages inter-modules, en déclarant\nexplicitement pour chaque brique, la structure nécessaire et ce qui doit\npouvoir évoluer sans impacter le module. La <em>serialisation</em> implicite a beau\netre plus simple au début, l'explicite aide beaucoup.</p>\n<p>Je donnerai des exemples en scala et javascript, tout en tirant des\ncomparaisons avec mon expérience en développement web, où on a une expérience\nfournie de ce qui se passe quand les développeurs essayent d'ignorer les\nfrontières entre coté serveur et coté client.</p>\n",
+  "id" : "PBE-1859",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/bd180439d18ae1d3bf3d3fc1b87113509b650c2e",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Clément Delafargue"
+      },
+      "name" : "Clément Delafargue"
+    }
+  ],
+  "title" : "Les bornes des limites : comment maintenir de la cohérence dans votre architecture microservices",
+  "lang" : "fr",
+  "summary" : "La tendance est au délaissement des architectures monolithiques au profit de\r\nmicro-services bien découpés. Ainsi nous facilitons le passage à l'échelle,\r\nréduisons la taille de chaque projet et pouvons utiliser la pile techno\r\nadaptée à chaque module.\r\n\r\nCependant, en séparant ces briques, nous repoussons la complexité à la limite\r\nentre chaque module. La cohérence fournie par une base de code atomique et son\r\nsystème de types est perdue.\r\n\r\nDans cette session, je montrerai comment tenir compte explicitement des\r\nfrontières entre modules permet de réduire le risque de données incohérentes.\r\nJe montrerai comment encoder les messages inter-modules, en déclarant\r\nexplicitement pour chaque brique, la structure nécessaire et ce qui doit\r\npouvoir évoluer sans impacter le module. La *serialisation* implicite a beau\r\netre plus simple au début, l'explicite aide beaucoup.\r\n\r\nJe donnerai des exemples en scala et javascript, tout en tirant des\r\ncomparaisons avec mon expérience en développement web, où on a une expérience\r\nfournie de ce qui se passe quand les développeurs essayent d'ignorer les\r\nfrontières entre coté serveur et coté client.\r\n"
+}

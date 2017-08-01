@@ -1,0 +1,47 @@
+{
+  "uuid" : "341ff3dc19b831ea24193dc1218debd921e6c528",
+  "bioAsHtml" : "<p>Speaker Devoxx de nombreuses fois, bio plus complète à venir.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/TJI-4584",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9ca4adb955901a692a096161b51997d346d007bf",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Anne Gabrillagues"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/341ff3dc19b831ea24193dc1218debd921e6c528",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Dimitri BAELI"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/815c0c15a6796e465b21163604d6254d88871af0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Nils Lesieur"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f3217b928f67c17d94c5da8fd7c9fb14f0009ed5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yannick grenzinger"
+        }
+      ],
+      "id" : "TJI-4584",
+      "title" : "BoF Lean Kanban France : laissez vous surprendre."
+    }
+  ],
+  "company" : "LesFurets.com",
+  "bio" : "Speaker Devoxx de nombreuses fois, bio plus complète à venir. ",
+  "lastName" : "BAELI",
+  "firstName" : "Dimitri",
+  "blog" : "http://www.lesfurets.com",
+  "avatarURL" : "http://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e",
+  "twitter" : "@dbaeli",
+  "lang" : "en"
+}

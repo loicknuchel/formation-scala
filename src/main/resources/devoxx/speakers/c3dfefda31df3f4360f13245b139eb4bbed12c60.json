@@ -1,0 +1,32 @@
+{
+  "uuid" : "c3dfefda31df3f4360f13245b139eb4bbed12c60",
+  "bioAsHtml" : "<p>Développeur depuis 5 ans dans l&#x27;édition de logiciels pour la finance chez Murex, je me concentre sur la recherche de l&#x27;expressivité dans le code.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/VCP-9294",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c3dfefda31df3f4360f13245b139eb4bbed12c60",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jonathan Boccara"
+        }
+      ],
+      "id" : "VCP-9294",
+      "title" : "Les Dailies: une nouvelle façon agile d'apprendre en entreprise"
+    }
+  ],
+  "company" : "Murex",
+  "bio" : "Développeur depuis 5 ans dans l'édition de logiciels pour la finance chez Murex, je me concentre sur la recherche de l'expressivité dans le code.",
+  "lastName" : "Boccara",
+  "firstName" : "Jonathan",
+  "blog" : "http://www.fluentcpp.com",
+  "avatarURL" : "http://www.gravatar.com/avatar/11bd501bb5da593c19aa7ae0b637649b",
+  "twitter" : "@JoBoccara",
+  "lang" : "fr"
+}

@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826917,
+  "title" : "Function loading an array, then returning multiple values in C?",
+  "body" : "<p>I got an assignment that I need to complete till tomorrow 12 am to write a function that loads an array of n numbers, then returns arithmetic mean and largest number in array. </p>\n\n<p>How to I do that? I tried, but function simply crashes. Tried reading up about different methods, but none worked. Everything is working fine, while in main, but crashes when trying to use it as function.</p>\n\n<p>Please help.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826917/function-loading-an-array-then-returning-multiple-values-in-c",
+  "owner" : {
+    "user_id" : 8231477,
+    "user_type" : "registered",
+    "display_name" : "Tantal",
+    "profile_image" : "https://www.gravatar.com/avatar/308f3df92679c0b36db0630613cd2517?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8231477/tantal",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743870,
+  "last_activity_date" : 1498743870,
+  "tags" : [
+    "c"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

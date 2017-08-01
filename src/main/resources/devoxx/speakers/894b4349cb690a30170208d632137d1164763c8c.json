@@ -1,0 +1,32 @@
+{
+  "uuid" : "894b4349cb690a30170208d632137d1164763c8c",
+  "bioAsHtml" : "<p>Développeur Senior chez Samsung  sur la platform IoT ARTIK Cloud, après plus de 10 ans en freelance.\nJe suis un polyglotte informatiques : Java, Scala, Dart, GLSL, Go, Rust avec plusieurs contributions Open source : des plugins maven dont scala-maven-plugin, mainteneur de scala-ide (pour scala 2.8), plusieurs libs pour jMonkeyEngine3, Dart et créateur du format XBuf (www.xbuf.org).</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/NVB-4379",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/894b4349cb690a30170208d632137d1164763c8c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "David Bernard"
+        }
+      ],
+      "id" : "NVB-4379",
+      "title" : "Feature Flags, Oui mais..."
+    }
+  ],
+  "company" : "Samsung",
+  "bio" : "Développeur Senior chez Samsung  sur la platform IoT ARTIK Cloud, après plus de 10 ans en freelance.\r\nJe suis un polyglotte informatiques : Java, Scala, Dart, GLSL, Go, Rust avec plusieurs contributions Open source : des plugins maven dont scala-maven-plugin, mainteneur de scala-ide (pour scala 2.8), plusieurs libs pour jMonkeyEngine3, Dart et créateur du format XBuf (www.xbuf.org).\r\n",
+  "lastName" : "Bernard",
+  "firstName" : "David",
+  "blog" : "http://dwayneb.free.fr",
+  "avatarURL" : "http://www.gravatar.com/avatar/d4e60024c0f6cba6a076bc41bf481024",
+  "twitter" : "@davidbernard31",
+  "lang" : "fr"
+}

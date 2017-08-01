@@ -1,0 +1,37 @@
+{
+  "uuid" : "bdcd981e013426ad1fa33b18d7cbe1df92d9874c",
+  "bioAsHtml" : "<p>Développeur backend chez SFEIR. Après 10 années de Java dans des environnements distribués, j&#x27;ai récemment sauté le pas pour le Go chez nos clients dans le domaine de l&#x27;IoT.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/WXR-3840",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/bdcd981e013426ad1fa33b18d7cbe1df92d9874c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sébastien FRIESS"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/da90527e0f6fbe2960f3594b274551f753e28859",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Romain lespinasse"
+        }
+      ],
+      "id" : "WXR-3840",
+      "title" : "Votre premier microservice en Go"
+    }
+  ],
+  "company" : "SFEIR",
+  "bio" : "Développeur backend chez SFEIR. Après 10 années de Java dans des environnements distribués, j'ai récemment sauté le pas pour le Go chez nos clients dans le domaine de l'IoT.",
+  "lastName" : "FRIESS",
+  "firstName" : "Sébastien",
+  "blog" : "http://lemag.sfeir.com/",
+  "avatarURL" : "http://www.gravatar.com/avatar/7dd6e266f4cdf9bb1c6d8c5bb2b3c66c",
+  "twitter" : "@sebastienfriess",
+  "lang" : "fr-FR"
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "Quickie",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>La génération de bytecode JVM n'est pas nouvelle (ASM, BCEL, Javassist, CGLIB), mais elle est souvent méconnue. De nombreux frameworks et librairies s'appuient sur celle-ci pour effectuer des opérations transparentes mais essentielles.</p>\n<p><code>Byte Buddy</code> est la lib de bytecode gen qui fait parler d'elle en ce moment ! Elle vient d'ailleurs de fraîchement être mergée dans de nombreux projets (<code>Mockito 2.1</code>, <code>Hibernate</code>).</p>\n<p>Venez apprendre en 15 minutes comment Byte Buddy rend la génération de bytecode amusante et élégante, et surtout à quelles fins elle peut servir au travers de petits exemples parlants live-codés !</p>\n",
+  "id" : "DAB-8358",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8ae1f5493753aebb0fbc73b4a21d08bb9a208b1f",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Nicolas Comet"
+      },
+      "name" : "Nicolas Comet"
+    }
+  ],
+  "title" : "Byte Buddy : la génération de bytecode facile ! ",
+  "lang" : "fr",
+  "summary" : "La génération de bytecode JVM n'est pas nouvelle (ASM, BCEL, Javassist, CGLIB), mais elle est souvent méconnue. De nombreux frameworks et librairies s'appuient sur celle-ci pour effectuer des opérations transparentes mais essentielles.\r\n\r\n`Byte Buddy` est la lib de bytecode gen qui fait parler d'elle en ce moment ! Elle vient d'ailleurs de fraîchement être mergée dans de nombreux projets (`Mockito 2.1`, `Hibernate`).\r\n\r\nVenez apprendre en 15 minutes comment Byte Buddy rend la génération de bytecode amusante et élégante, et surtout à quelles fins elle peut servir au travers de petits exemples parlants live-codés !"
+}

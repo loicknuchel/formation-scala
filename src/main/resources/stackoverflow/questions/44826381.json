@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826381,
+  "title" : "Subclass of HTTPclient",
+  "body" : "<p>The problem:<br>\nWe have created a ProxyClass for our API.<br>\nIn this proxyclass we have made several methods which calls:</p>\n\n<ul>\n<li>HttpClient.SendAsync()</li>\n<li>HttpClient.DeleteAsync()</li>\n<li>HttpClient.GetStreamAsync()</li>\n<li>HttpClient. and so on.</li>\n</ul>\n\n<p>This is all fine. But now we need to implement some logic, which is called every time before making the http request if ever making the request.</p>\n\n<p>My initial approach looks like this:</p>\n\n<pre><code>CustomHttpClient : HttpClient\n</code></pre>\n\n<p>and then:</p>\n\n<pre><code>    public async Task&lt;HttpResponseMessage&gt; GetAsync(string requestUri)\n    {\n        var logic = true;\n\n        if (logic)\n        {\n            return await base.GetAsync(requestUri);\n        }\n        var badResponse = new HttpResponseMessage(HttpStatusCode.Conflict);\n        return await new Task&lt;HttpResponseMessage&gt;(() =&gt; badResponse);\n    }\n</code></pre>\n\n<p>But this way, I have to create same logic for all method variants.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826381/subclass-of-httpclient",
+  "owner" : {
+    "user_id" : 3392642,
+    "user_type" : "registered",
+    "display_name" : "Kiksen",
+    "profile_image" : "https://graph.facebook.com/640730624/picture?type=large",
+    "link" : "https://stackoverflow.com/users/3392642/kiksen",
+    "reputation" : 251,
+    "accept_rate" : 100
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742601,
+  "last_activity_date" : 1498742601,
+  "tags" : [
+    "c#",
+    ".net",
+    ".net-core"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

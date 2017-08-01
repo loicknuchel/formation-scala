@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Tools-in-Action",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Ce talk est une présentation du projet Angular Universal. Universal est le module officiel d'Angular 2+ permettant d'ajouter entre autres le support du server-rendering ou facilité la gestion du SEO à nos Web apps. Mieux encore, avec Angular Universal il sera possible d'exécuter une même application Angular dans plusieurs environnement (navigateur, Web Worker, serveur, raspberry-pi...).\nAvant, nous avions l'isomorphisme, avec Angular 2+ nous avons l'universalisme.</p>\n",
+  "id" : "CXH-6084",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3c4cdf9d4d887ba8b7f97994a17ca2fbc64b432e",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Wassim Chegham"
+      },
+      "name" : "Wassim Chegham"
+    }
+  ],
+  "title" : "Exécutez vos applications Angular hors navigateur",
+  "lang" : "fr",
+  "summary" : "Ce talk est une présentation du projet Angular Universal. Universal est le module officiel d'Angular 2+ permettant d'ajouter entre autres le support du server-rendering ou facilité la gestion du SEO à nos Web apps. Mieux encore, avec Angular Universal il sera possible d'exécuter une même application Angular dans plusieurs environnement (navigateur, Web Worker, serveur, raspberry-pi...). \r\nAvant, nous avions l'isomorphisme, avec Angular 2+ nous avons l'universalisme."
+}

@@ -1,0 +1,28 @@
+{
+  "trackId" : "java",
+  "talkType" : "BOF (Bird of a Feather)",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>Indépendant... Ce statut peut à la fois faire rêver et faire peur.\nQuid de l'aspect administratif ? Est-il facile de trouver des missions ? Comment se maintenir \"bankable\" sur le marché ? Et surtout, champagne ou caviar ?</p>\n<p>Ce BOF est l'occasion de rencontrer un panel d'indépendants qui pourront répondre à toutes vos questions, partager leur expérience concrète et fournir des conseils pour se lancer sans stresser !</p>\n",
+  "id" : "XGR-9005",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/06398fa2407ffee2f710f0173b45a0b480647d56",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Olivier Croisier"
+      },
+      "name" : "Olivier Croisier"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/560138938aaa2b17bdb586fc90a34b268437c05f",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Katia Aresti"
+      },
+      "name" : "Katia Aresti"
+    }
+  ],
+  "title" : "Les indépendants, une espèce en voie de... développement ?",
+  "lang" : "fr",
+  "summary" : "Indépendant... Ce statut peut à la fois faire rêver et faire peur.\r\nQuid de l'aspect administratif ? Est-il facile de trouver des missions ? Comment se maintenir \"bankable\" sur le marché ? Et surtout, champagne ou caviar ?\r\n\r\nCe BOF est l'occasion de rencontrer un panel d'indépendants qui pourront répondre à toutes vos questions, partager leur expérience concrète et fournir des conseils pour se lancer sans stresser !\r\n"
+}

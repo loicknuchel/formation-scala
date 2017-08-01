@@ -1,0 +1,20 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Quickie",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Traditionnellement, l'organisation du code source d’une entreprise est calquée sur ces applications: un repository par application. Récemment, avec l'adoption d'architecture de type microservices et la popularité de GitHub au sein de nos entreprises, on peut observer une tendance à créer de multiples repositories par application. Cependant peu de développeurs savent que trois des grands du web, Google, Facebook et Twitter, gèrent leur code avec un unique repository. Alors que certains d'entre nous prennent le chemin inverse de ces entreprises, il est intéressant de se demander ce qui leurs ont poussés à faire ce choix et à vouloir le conserver. Ce talk répondra à cette question et montrera que ce n'est pas réservé aux grands du web.</p>\n<p>Vous apprendrez ainsi les nombreux avantages de ce type d'organisation, tels que par exemple:</p>\n<ul>\n<li><p>La facilité de partager du code,</p>\n</li>\n<li><p>L'accroissement des contributions cross-équipe,</p>\n</li>\n<li><p>La suppression de gestion des versions,</p>\n</li>\n<li><p>Une Continuous Integration cross-applications qui fonctionne.</p>\n</li>\n</ul>\n<p>Nous verrons également comment cela fonctionne en pratique et quels sont les inconvénients.</p>\n",
+  "id" : "QXG-7186",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/87e03893af48cf11409cc4f7375993399a8af521",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Thierry Abaléa"
+      },
+      "name" : "Thierry Abaléa"
+    }
+  ],
+  "title" : "Pourquoi votre entreprise, à l'instar de Google et Facebook, devrait stocker l'ensemble de son code dans un seul repo ?",
+  "lang" : "fr",
+  "summary" : "Traditionnellement, l'organisation du code source d’une entreprise est calquée sur ces applications: un repository par application. Récemment, avec l'adoption d'architecture de type microservices et la popularité de GitHub au sein de nos entreprises, on peut observer une tendance à créer de multiples repositories par application. Cependant peu de développeurs savent que trois des grands du web, Google, Facebook et Twitter, gèrent leur code avec un unique repository. Alors que certains d'entre nous prennent le chemin inverse de ces entreprises, il est intéressant de se demander ce qui leurs ont poussés à faire ce choix et à vouloir le conserver. Ce talk répondra à cette question et montrera que ce n'est pas réservé aux grands du web.\r\n\r\nVous apprendrez ainsi les nombreux avantages de ce type d'organisation, tels que par exemple:\r\n\r\n* La facilité de partager du code,\r\n\r\n* L'accroissement des contributions cross-équipe,\r\n\r\n* La suppression de gestion des versions,\r\n\r\n* Une Continuous Integration cross-applications qui fonctionne.\r\n\r\nNous verrons également comment cela fonctionne en pratique et quels sont les inconvénients."
+}

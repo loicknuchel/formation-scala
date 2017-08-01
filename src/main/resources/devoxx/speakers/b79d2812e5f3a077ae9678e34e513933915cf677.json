@@ -1,0 +1,60 @@
+{
+  "uuid" : "b79d2812e5f3a077ae9678e34e513933915cf677",
+  "bioAsHtml" : "<p>Amoureux de la programmation fonctionnelle et du code élégant, le plaisir de programmer et d&#x27;expliquer cet art ont fait de moi un craftsman passionné.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/YOJ-9199",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b79d2812e5f3a077ae9678e34e513933915cf677",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Xavier Detant"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f152133e6107190056f5706e22c92c95468dde9a",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Vincent Demeester"
+        }
+      ],
+      "id" : "YOJ-9199",
+      "title" : "JUnit-docker"
+    },
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/LBA-2322",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b79d2812e5f3a077ae9678e34e513933915cf677",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Xavier Detant"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4d5f418962faf283703a0c131d65f6825ea7ea16",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Christophe Thibaut"
+        }
+      ],
+      "id" : "LBA-2322",
+      "title" : "Tranches de Programmation Fonctionnelle -- Découverte de la programmation fonctionnelle avec Haskell"
+    }
+  ],
+  "company" : "Soat",
+  "bio" : "Amoureux de la programmation fonctionnelle et du code élégant, le plaisir de programmer et d'expliquer cet art ont fait de moi un craftsman passionné.\r\n",
+  "lastName" : "Detant",
+  "firstName" : "Xavier",
+  "blog" : null,
+  "avatarURL" : null,
+  "twitter" : "@XDetant",
+  "lang" : "en"
+}

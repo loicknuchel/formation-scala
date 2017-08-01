@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826249,
+  "title" : "BitmapIcon vs BitmapImage. Why are they in different Frameworks?",
+  "body" : "<p>I have been recently developing a tool for a video game I play by using Visual Studio. Part of my tool allows you to look up character data and will display an image of that character along with it. For the longest time, I had an issue of trying to figure out how to make the Image object on my .xaml sheet create from a URL I was pulling from a site of all character images. Everywhere I looked, I found things about BitmapImage, but when I went to use it, I didn't have the framework. </p>\n\n<p>This alone, embarrassingly enough, took me longer than it should have to figure out. Once I finally referenced the correct .dll file, I was able to use BitmapImage and the problem was solved. The reason I had gotten stuck for so long was because Windows.UI.Xaml.Controls contains a type \"BitmapIcon\". I had thought that this may have been an updated version of a previously scrapped type since it contained an option to create from URI. However, BitmapIcon cannot be used to create the Image object. </p>\n\n<p>My question(s) are :\nWhat is the critical difference between these two?\nWhat is the point of having such similarly named Objects in much different frameworks?\nWhy is BitmapImage.Source able to be used as an ImageSource, but BitmapIcon.Source is not?</p>\n\n<p>This is purely for my own learning and curiousity, as I can not find anything online that answers these questions. Thank you ahead of time! </p>\n",
+  "link" : "https://stackoverflow.com/questions/44826249/bitmapicon-vs-bitmapimage-why-are-they-in-different-frameworks",
+  "owner" : {
+    "user_id" : 8093189,
+    "user_type" : "registered",
+    "display_name" : "spaff",
+    "profile_image" : "https://www.gravatar.com/avatar/6f717c6a2f7dd387511cd4f82c08b245?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8093189/spaff",
+    "reputation" : 33,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742249,
+  "last_activity_date" : 1498742249,
+  "tags" : [
+    "c#",
+    "xaml",
+    "visual-studio-2017",
+    "bitmapimage"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

@@ -1,0 +1,32 @@
+{
+  "uuid" : "5cebcb429230861cb0b2c4c6218383adedd1273d",
+  "bioAsHtml" : "<p>Développeur Java depuis plus de 10 ans.</p>\n<p>Je m&#x27;intéresse tout particulièrement aux outils permettant de simplifier la vie des développeurs ou d’améliorer la qualité du code produit, que ce soit par la mise en place d&#x27;intégration continue, de tests ou du suivie de la dette technique.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/UWP-8703",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5cebcb429230861cb0b2c4c6218383adedd1273d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Clément Cunin"
+        }
+      ],
+      "id" : "UWP-8703",
+      "title" : "Devops Paris Meetup"
+    }
+  ],
+  "company" : "D2-SI",
+  "bio" : "Développeur Java depuis plus de 10 ans.\r\n\r\nJe m'intéresse tout particulièrement aux outils permettant de simplifier la vie des développeurs ou d’améliorer la qualité du code produit, que ce soit par la mise en place d'intégration continue, de tests ou du suivie de la dette technique.\r\n",
+  "lastName" : "Cunin",
+  "firstName" : "Clément",
+  "blog" : null,
+  "avatarURL" : "https://lh4.googleusercontent.com/-roKRGEJ_Gg8/AAAAAAAAAAI/AAAAAAAAAEM/2oX_8qqaDfU/photo.jpg",
+  "twitter" : "@cunincl",
+  "lang" : "fr"
+}

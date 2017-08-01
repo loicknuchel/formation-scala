@@ -1,0 +1,37 @@
+{
+  "uuid" : "8f0a4f40125f3b2b26b00a5657779e65fa7c0114",
+  "bioAsHtml" : "<p>Développeur &amp; consultant en développement java. J&#x27;interviens sur les architectures distribuées, les infrastructures et les solutions cloud (devops, base de données ...). Je suis développeur android depuis quelques années et je m&#x27;intéresse aux &quot;nouveaux&quot; langages comme Kotlin, Swift ou Go, ainsi qu&#x27;aux nouveaux paradigmes comme la programmation fonctionnelle, développement applications réactives ...</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Mobile, IoT",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/MQA-5978",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8f1689f3952d56329f58981337f7fc4bce9162e1",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Laurent Baresse"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8f0a4f40125f3b2b26b00a5657779e65fa7c0114",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Arnaud Giuliani"
+        }
+      ],
+      "id" : "MQA-5978",
+      "title" : "Développez une application Android de météo avec Kotlin"
+    }
+  ],
+  "company" : "ekito",
+  "bio" : "Développeur & consultant en développement java. J'interviens sur les architectures distribuées, les infrastructures et les solutions cloud (devops, base de données ...). Je suis développeur android depuis quelques années et je m'intéresse aux \"nouveaux\" langages comme Kotlin, Swift ou Go, ainsi qu'aux nouveaux paradigmes comme la programmation fonctionnelle, développement applications réactives ...",
+  "lastName" : "Giuliani",
+  "firstName" : "Arnaud",
+  "blog" : "https://www.ekito.fr/people/",
+  "avatarURL" : "https://pbs.twimg.com/profile_images/782930216243064832/H5CZoHjK_bigger.jpg",
+  "twitter" : "@arnogiu",
+  "lang" : "fr"
+}

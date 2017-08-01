@@ -1,0 +1,37 @@
+{
+  "uuid" : "b7240ad81654b077a47f6ee931d8267845bbbde3",
+  "bioAsHtml" : "<p>Je suis développeur fullstack JEE et web depuis une petite dizaine d&#x27;années et je suis passionné de blockchain. Je me suis lancé dans une mission d&#x27;évangélisation :) pour faire rayonner la connaissance de cette techno (speaker et co-fondateur du meetup blockchain à Nantes) qui est à mon sens l&#x27;une des plus révolutionnaires à l&#x27;heure actuelle.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/MRU-6314",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3186f484d55542f33dae60858498ee862337e9d9",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "François Kha"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b7240ad81654b077a47f6ee931d8267845bbbde3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Benjamin Fontaine"
+        }
+      ],
+      "id" : "MRU-6314",
+      "title" : "Développer une application de pari en ligne avec la blockchain Ethereum"
+    }
+  ],
+  "company" : "Zenika",
+  "bio" : "Je suis développeur fullstack JEE et web depuis une petite dizaine d'années et je suis passionné de blockchain. Je me suis lancé dans une mission d'évangélisation :) pour faire rayonner la connaissance de cette techno (speaker et co-fondateur du meetup blockchain à Nantes) qui est à mon sens l'une des plus révolutionnaires à l'heure actuelle.",
+  "lastName" : "Fontaine",
+  "firstName" : "Benjamin",
+  "blog" : "https://plus.google.com/100218727706940554885",
+  "avatarURL" : "https://lh3.googleusercontent.com/-WipNIh14x9A/AAAAAAAAAAI/AAAAAAAAAcc/ItiOgdh6WZ0/photo.jpg",
+  "twitter" : "@benjifontaine5",
+  "lang" : "fr-FR"
+}

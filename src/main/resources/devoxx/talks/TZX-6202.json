@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "Conference",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>Dans cette introduction au <strong>Reactive Programming</strong>, nous verrons comment <strong>Reactor 3</strong>, au même titre que RxJava, permet de mieux conceptualiser et implémenter les traitements asynchrones dans les applications sur la JVM. Nous nous intéresserons à ses types réactifs (<code>Flux</code>/<code>Mono</code>), au vocabulaire d'opérateurs Rx et à l'évolution parallèle de Reactor, RxJava 1 et RxJava 2 (avec leurs points communs et leurs divergences). Nous pourrons ensuite tout comme Reactor nous focaliser sur un contexte Java 8, la spécification Reactive Streams et le concept de backpressure ainsi que les optimisations de chaîne d'opérateurs. Enfin, nous élargirons notre perspective vers les tests et la couche réseau (reactor-netty, reactor-kafka)...</p>\n",
+  "id" : "TZX-6202",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/89a849add91029107d06f2981979f4c8d857ece3",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Simon Baslé"
+      },
+      "name" : "Simon Baslé"
+    }
+  ],
+  "title" : "Reactor 3 et la programmation réactive sur la JVM",
+  "lang" : "fr",
+  "summary" : "Dans cette introduction au **Reactive Programming**, nous verrons comment **Reactor 3**, au même titre que RxJava, permet de mieux conceptualiser et implémenter les traitements asynchrones dans les applications sur la JVM. Nous nous intéresserons à ses types réactifs (`Flux`/`Mono`), au vocabulaire d'opérateurs Rx et à l'évolution parallèle de Reactor, RxJava 1 et RxJava 2 (avec leurs points communs et leurs divergences). Nous pourrons ensuite tout comme Reactor nous focaliser sur un contexte Java 8, la spécification Reactive Streams et le concept de backpressure ainsi que les optimisations de chaîne d'opérateurs. Enfin, nous élargirons notre perspective vers les tests et la couche réseau (reactor-netty, reactor-kafka)..."
+}

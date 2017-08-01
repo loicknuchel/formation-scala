@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826222,
+  "title" : "How to add symbols like &quot;%&quot; in labels in Vega?",
+  "body" : "<p>I have this code following :\n<div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>{\r\n  \"$schema\": \"https://vega.github.io/schema/vega/v3.0.json\",\r\n  \"width\": 700,\r\n  \"height\": 100,\r\n  \"padding\": 5,\r\n  \"data\": [\r\n    {\r\n      \"name\": \"table\",\r\n      \"values\": [\r\n        {\"category\": \"MOYENNE\",\"position\": 0,\"value\": 91},\r\n        {\"category\": \"MOYENNE\",\"position\": 1,\"value\": 9}\r\n      ]\r\n    }\r\n  ],\r\n  \"scales\": [\r\n    {\r\n      \"name\": \"yscale\",\r\n      \"type\": \"band\",\r\n      \"domain\": {\"data\": \"table\",\"field\": \"category\"},\r\n      \"range\": \"height\"\r\n    },\r\n    {\r\n      \"name\": \"xscale\",\r\n      \"type\": \"linear\",\r\n      \"domain\": {\"data\": \"table\",\"field\": \"value\"},\r\n      \"range\": \"width\",\r\n      \"round\": true,\r\n      \"zero\": true,\r\n      \"nice\": true\r\n    },\r\n    {\r\n      \"name\": \"color\",\r\n      \"type\": \"ordinal\",\r\n      \"domain\": {\"data\": \"table\",\"field\": \"position\"},\r\n      \"range\": [\"#C8E6C9\", \"#FF8A65\"]\r\n    }\r\n  ],\r\n  \"axes\": [\r\n    {\r\n      \"orient\": \"left\",\r\n      \"scale\": \"yscale\",\r\n      \"tickSize\": 0,\r\n      \"labelPadding\": 4,\r\n      \"zindex\": 1\r\n    }\r\n  ],\r\n  \"marks\": [\r\n    {\r\n      \"type\": \"group\",\r\n      \"from\": {\r\n        \"facet\": {\r\n          \"data\": \"table\",\r\n          \"name\": \"facet\",\r\n          \"groupby\": \"category\"\r\n        }\r\n      },\r\n      \"encode\": {\r\n        \"enter\": {\"y\": {\"scale\": \"yscale\",\"field\": \"category\"}}\r\n      },\r\n      \"signals\": [{\"name\": \"height\",\"update\": \"bandwidth('yscale')\"}],\r\n      \"scales\": [\r\n        {\r\n          \"name\": \"pos\",\r\n          \"type\": \"band\",\r\n          \"range\": \"height\",\r\n          \"domain\": {\"data\": \"facet\",\"field\": \"position\"}\r\n        }\r\n      ],\r\n      \"marks\": [\r\n        {\r\n          \"name\": \"bars\",\r\n          \"from\": {\"data\": \"facet\"},\r\n          \"type\": \"rect\",\r\n          \"encode\": {\r\n            \"enter\": {\r\n              \"y\": {\"scale\": \"pos\",\"field\": \"position\"},\r\n              \"height\": {\"scale\": \"pos\",\"band\": 1},\r\n              \"x\": {\"scale\": \"xscale\",\"field\": \"value\"},\r\n              \"x2\": {\"scale\": \"xscale\",\"value\": 0},\r\n              \"fill\": {\"scale\": \"color\",\"field\": \"position\"}\r\n            }\r\n          }\r\n        },\r\n        {\r\n          \"type\": \"text\",\r\n          \"from\": {\"data\": \"bars\"},\r\n          \"encode\": {\r\n            \"enter\": {\r\n              \"x\": {\"field\": \"x2\",\"offset\": 15},\r\n              \"y\": {\r\n                \"field\": \"y\",\r\n                \"offset\": {\"field\": \"height\",\"mult\": 0.5}\r\n              },\r\n              \"fill\": {\"value\": \"black\"},\r\n              \"align\": {\"value\": \"right\"},\r\n              \"baseline\": {\"value\": \"middle\"},\r\n              \"text\": {\"field\": \"datum.value\"}\r\n            }\r\n          }\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}</code></pre>\r\n</div>\r\n</div>\r\n</p>\n\n<p>I just want to put % in my labels to have 91% and 9%.</p>\n\n<p>I think that is in the last line : \"text\": {\"field\": \"datum.value\"}, but i can't just do the following : \"text\": {\"field\": \"datum.value\" + \"%\"} or something like this...</p>\n\n<p>Anyone can help me please?? Thank you very much in advance :)</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826222/how-to-add-symbols-like-in-labels-in-vega",
+  "owner" : {
+    "user_id" : 7953778,
+    "user_type" : "registered",
+    "display_name" : "guks88",
+    "profile_image" : "https://www.gravatar.com/avatar/088ae49676d3e6f4d1c986fe5158cecd?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7953778/guks88",
+    "reputation" : 3,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742172,
+  "last_activity_date" : 1498742172,
+  "tags" : [
+    "javascript",
+    "data-visualization",
+    "vega"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

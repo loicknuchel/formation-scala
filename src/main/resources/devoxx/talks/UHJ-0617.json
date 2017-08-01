@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Tools-in-Action",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Parfois, il faut savoir être <strong>pragmatique</strong> lorsque son temps est compté, par exemple lorsque, la nuit, on s'attèle à organiser une conférence qui réunit plus de 500 développeurs.</p>\n<p>C'est l'anecdote que je souhaite partager avec vous aujourd'hui : saviez-vous que le site de la conférence BDX I/O, ainsi qu'un bon nombre d'outils utilisés pour son organisation se reposaient uniquement sur des Spreadsheets Google ?</p>\n<p>Après tout :</p>\n<ul>\n<li><strong>pas besoin d'infra</strong> sur laquelle déployer une application : nos données sont dans une spreadsheet gérée par l'infra Google<br  /></li>\n<li>les données sont exportables/accessibles <strong>en JSON</strong> (sisi !)<br  /></li>\n<li>elles sont <strong>versionnées</strong>, et un rollback est possible à tout moment<br  /></li>\n<li>vous pouvez <strong>partager facilement l'accès en écriture</strong> à ces données, vous pouvez même l'alimenter avec des réponses à des gforms<br  /></li>\n<li>vous pouvez effectuer des traitements complexes avec <strong>l'éditeur de scripts</strong> qui parle JS (<em>parce que VB, c'est has been ! ;-)</em>) et dispose d'une API très fournie<br  /></li>\n</ul>\n<p>Pendant 30min, nous ne verrons peut-être pas les libs les plus hypes du moment, mais vous ressortirez sûrement avec un regard nouveau sur les Spreadsheets Google !</p>\n",
+  "id" : "UHJ-0617",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ad8a2bc1ca2e061e9473a3595dc1c9276d4c7a84",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Frédéric Camblor"
+      },
+      "name" : "Frédéric Camblor"
+    }
+  ],
+  "title" : "Et si votre backend était une Google Spreadsheet ?",
+  "lang" : "fr",
+  "summary" : "Parfois, il faut savoir être **pragmatique** lorsque son temps est compté, par exemple lorsque, la nuit, on s'attèle à organiser une conférence qui réunit plus de 500 développeurs.\r\n\r\nC'est l'anecdote que je souhaite partager avec vous aujourd'hui : saviez-vous que le site de la conférence BDX I/O, ainsi qu'un bon nombre d'outils utilisés pour son organisation se reposaient uniquement sur des Spreadsheets Google ?\r\n\r\nAprès tout :\r\n\r\n* **pas besoin d'infra** sur laquelle déployer une application : nos données sont dans une spreadsheet gérée par l'infra Google  \r\n* les données sont exportables/accessibles **en JSON** (sisi !)  \r\n* elles sont **versionnées**, et un rollback est possible à tout moment  \r\n* vous pouvez **partager facilement l'accès en écriture** à ces données, vous pouvez même l'alimenter avec des réponses à des gforms  \r\n* vous pouvez effectuer des traitements complexes avec **l'éditeur de scripts** qui parle JS (_parce que VB, c'est has been ! ;-)_) et dispose d'une API très fournie  \r\n\r\nPendant 30min, nous ne verrons peut-être pas les libs les plus hypes du moment, mais vous ressortirez sûrement avec un regard nouveau sur les Spreadsheets Google !"
+}

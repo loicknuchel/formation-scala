@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826436,
+  "title" : "Angular ng-model on label ignored",
+  "body" : "<p>I work with an Angular 1.5.5 application. I want to display a value (selectedRol.activities[0]) in a form. The value shows, the ng-show works also but the ng-model is ignored. Adding the attribute value=\"{{selectedRol.activities[0]}}\" makes no difference.</p>\n\n<p>I expect the output to be</p>\n\n<p>Algemeen Leiding en Coördinatie\nirData.Werkzaamheid1 = Algemeen Leiding en Coördinatie</p>\n\n<p>but I get </p>\n\n<p>Algemeen Leiding en Coördinatie\nirData.Werkzaamheid1 = </p>\n\n<pre><code>                     &lt;label\n                            ng-show=\"selectedRol.activities.length === 1\"\n                            ng-model=\"irData.Werkzaamheid1\"\n                            ng-bind=\"selectedRol.activities[0]\"&gt;\n                    &lt;/label&gt;\n                    irData.Werkzaamheid1 = {{irData.Werkzaamheid1}}\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826436/angular-ng-model-on-label-ignored",
+  "owner" : {
+    "user_id" : 3676597,
+    "user_type" : "registered",
+    "display_name" : "Marc",
+    "profile_image" : "https://www.gravatar.com/avatar/d748d4f8d70b9da191cf97203fff020f?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/3676597/marc",
+    "reputation" : 57,
+    "accept_rate" : 88
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742748,
+  "last_activity_date" : 1498743777,
+  "tags" : [
+    "angularjs",
+    "label"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 1
+}

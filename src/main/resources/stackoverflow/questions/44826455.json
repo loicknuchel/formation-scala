@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826455,
+  "title" : "Spring Security and JWT - optional parameter in UserContext",
+  "body" : "<p>I am building multi-tenant application with Spring-Boot (2.0.0 and Spring 5).</p>\n\n<p>Authentication is based on JWT.\nWhen request is coming in, I have JWT filter in Queue which decodes JWT and put user into context with his authorities.</p>\n\n<p>User can be assigned to group (and he suppose to be, but before he will join he has empty <code>group_id</code> field.</p>\n\n<p>I have manage to put the <code>group_id</code> claim into JWT only if it's set up, but can't find the way to create the context with or without <code>group_id</code> and not get again into the <code>null exception</code> hell... </p>\n\n<p>Null pointer exception which I got is mainly (others are just coming from thsi one) UserContext - I cannot create UserContext which has group_id variable if I don't have group_id when calling UserContext(email,authorities,group_id)</p>\n\n<p>Can anyone suggest how I should proceed?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826455/spring-security-and-jwt-optional-parameter-in-usercontext",
+  "owner" : {
+    "user_id" : 1766444,
+    "user_type" : "registered",
+    "display_name" : "M U",
+    "profile_image" : "https://i.stack.imgur.com/xXTo6.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/1766444/m-u",
+    "reputation" : 1936,
+    "accept_rate" : 42
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742793,
+  "last_activity_date" : 1498743559,
+  "tags" : [
+    "java",
+    "spring",
+    "jwt"
+  ],
+  "score" : 0,
+  "view_count" : 11,
+  "answer_count" : 0
+}

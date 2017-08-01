@@ -1,0 +1,28 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Hands-on Labs",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>Dans cet atelier nous vous accompagnerons au travers d'un exemple concret pour déployer en continu une application multi-conteneurs Docker.</p>\n<p>Après une présentation de l'architecture que vous allez implémenter, vous passerez à la prise en main de l'application d'exemple (une application multi-tiers \"dockerizée\"), puis vous vous plongerez dans le provisionnement d'une infrastructure Kubernetes complète à l'aide d'Azure Container Service et Azure Container Registry.</p>\n<p>Une fois l'infrastructure en place, vous effectuerez un premier déploiement manuel de l'application puis l'automatiserez à l'aide des pipelines Jenkins.</p>\n<p>Enfin, vous découvrirez comment gérer le scaling de votre application ainsi que le déploiement progressif de nouvelles version avec pour objectif 0 downtime!</p>\n<p>A la fin, vous aurez vu comment automatiser de bout en bout le déploiement d'une application en continu et comment la passer à l'échelle. Vous aurez donc toutes les clés en main pour reproduire cela sur vos projets !</p>\n<p><strong>Vous n’aurez besoin de rien de plus que votre laptop et un client SSH !</strong></p>\n",
+  "id" : "PFS-2970",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a73cc5bfb4ce4d8f07f209039ada742ee750a332",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Jean-Philippe Briend"
+      },
+      "name" : "Jean-Philippe Briend"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/25d88b19cb2f790435cbd6ba5c1e350e045d925f",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Julien Corioland"
+      },
+      "name" : "Julien Corioland"
+    }
+  ],
+  "title" : "Applications conteneurisées : déploiement continue et passage à l'échelle dans le cloud",
+  "lang" : "fr",
+  "summary" : "Dans cet atelier nous vous accompagnerons au travers d'un exemple concret pour déployer en continu une application multi-conteneurs Docker. \r\n\r\nAprès une présentation de l'architecture que vous allez implémenter, vous passerez à la prise en main de l'application d'exemple (une application multi-tiers \"dockerizée\"), puis vous vous plongerez dans le provisionnement d'une infrastructure Kubernetes complète à l'aide d'Azure Container Service et Azure Container Registry.\r\n\r\nUne fois l'infrastructure en place, vous effectuerez un premier déploiement manuel de l'application puis l'automatiserez à l'aide des pipelines Jenkins.\r\n\r\nEnfin, vous découvrirez comment gérer le scaling de votre application ainsi que le déploiement progressif de nouvelles version avec pour objectif 0 downtime!\r\n\r\nA la fin, vous aurez vu comment automatiser de bout en bout le déploiement d'une application en continu et comment la passer à l'échelle. Vous aurez donc toutes les clés en main pour reproduire cela sur vos projets !\r\n\r\n**Vous n’aurez besoin de rien de plus que votre laptop et un client SSH !**"
+}

@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825933,
+  "title" : "using PcapDotNet, how do you extract the final payload?",
+  "body" : "<p>I have a C# application that uses PcapDotNet to sniff UDP packets with a capture filter.</p>\n\n<p>Works fine, and there is a 6-byte payload but I can't seem to extract it as a byte array.  The UdpDatagram.Payload is a Datagram, with no method to extract the actual payload data. </p>\n\n<p>Datagram has an ExtractPayload() but this gives an ILayer, which I can't seem to use to get to the payload.  </p>\n\n<p>How do you extract the ultimate payload from TcpDatagram or UdpDatagram? </p>\n",
+  "link" : "https://stackoverflow.com/questions/44825933/using-pcapdotnet-how-do-you-extract-the-final-payload",
+  "owner" : {
+    "user_id" : 3235770,
+    "user_type" : "registered",
+    "display_name" : "user3235770",
+    "profile_image" : "https://www.gravatar.com/avatar/c287ea23b97bae3b3b87795298e227f6?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/3235770/user3235770",
+    "reputation" : 367,
+    "accept_rate" : 48
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741381,
+  "last_activity_date" : 1498741381,
+  "tags" : [
+    "c#",
+    "pcap.net"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 0
+}

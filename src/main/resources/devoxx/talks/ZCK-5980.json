@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Conference",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Développer et mettre en production une application Node.js, ça vous fait 😱 ? Vous pensez que le langage n'est pas terrible ? Vous trouvez qu'il n'est pas assez outillé ? Marre de chercher les bonnes pratiques associées ?</p>\n<p>Stoppez tout et \"venez chercher bonheur\" dans cette session <em>retour d'xp</em> sur Node.js !<br  />\nLes grands i.e. les géants du web y arrivent, nous pouvons nous inspirer de toutes leurs bonnes pratiques pour, nous aussi, faire plus facilement du Node.js en entreprise 🤘</p>\n<p>Nous verrons les nouveautés des dernières versions, les débats et pratiques de code actuels, les outils pour nous aider en production (bugs, crashs...), quelques petits <em>puzzlers</em> pour égayer cet exigeant public et bien d'autres !</p>\n",
+  "id" : "ZCK-5980",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5017100df6f49b2a0d52d7b35cb249ad0dd12e15",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Romain Maton"
+      },
+      "name" : "Romain Maton"
+    }
+  ],
+  "title" : "Node.js comme les grands",
+  "lang" : "fr",
+  "summary" : "Développer et mettre en production une application Node.js, ça vous fait 😱 ? Vous pensez que le langage n'est pas terrible ? Vous trouvez qu'il n'est pas assez outillé ? Marre de chercher les bonnes pratiques associées ?\r\n\r\nStoppez tout et \"venez chercher bonheur\" dans cette session _retour d'xp_ sur Node.js !  \r\nLes grands i.e. les géants du web y arrivent, nous pouvons nous inspirer de toutes leurs bonnes pratiques pour, nous aussi, faire plus facilement du Node.js en entreprise 🤘\r\n\r\nNous verrons les nouveautés des dernières versions, les débats et pratiques de code actuels, les outils pour nous aider en production (bugs, crashs...), quelques petits _puzzlers_ pour égayer cet exigeant public et bien d'autres !"
+}

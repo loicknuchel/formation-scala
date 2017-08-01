@@ -1,0 +1,27 @@
+{
+  "question_id" : 44825817,
+  "title" : "Xamarin form: SQLLite exception receive Corrupt",
+  "body" : "<p>I having a problem with database in my application, I have a timer calling a method sending roll call to the server and user can do a roll call at the same time. </p>\n\n<p>The exception occur in here:</p>\n\n<pre><code>lock (locker)\n{\n    return database.Insert(item);\n}\n</code></pre>\n\n<p>I have placed all my sql query to a lock so only one thread calling at a time. Even though the sending of the roll call called from the timer will delete the roll call data in database but the deletion still wrap inside this locked object 'locker'. </p>\n\n<p>I thought whoever hold the locker have to be finished and released before anyone going into it.</p>\n\n<p>My stack trace is</p>\n\n<blockquote>\n  <blockquote>\n    <p>CORRUPT</p>\n  </blockquote>\n  \n  <p>1 PreparedSqlLiteInsertCommand.ExecuteNonQuery (System.Object[]\n  source) /Users/fak/Dropbox/Projects/sqlite-net/src/SQLite.cs:2522 2\n  SQLiteConnection.Insert (System.Object obj, System.String extra,\n  System.Type objType)\n  /Users/fak/Dropbox/Projects/sqlite-net/src/SQLite.cs:1386 3\n  SQLiteConnection.Insert (System.Object obj)\n  /Users/fak/Dropbox/Projects/sqlite-net/src/SQLite.cs:1224 4\n  Database.SaveRollCall (System.Int32 actionTypeId,\n  Provider.AttendanceModel attendance, Provider.SignatureModel\n  signatureModel)\n  /Users/simon/Documents/AimyPlus/AdminApplication/Provider/Helpers/Database.cs:325\n  5 DataManager+d__25.MoveNext ()\n  /Users/simon/Documents/AimyPlus/AdminApplication/Provider/Helpers/DataManager.cs:349\n  6 ExceptionDispatchInfo.Throw ()\n  /Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs:151</p>\n</blockquote>\n",
+  "link" : "https://stackoverflow.com/questions/44825817/xamarin-form-sqllite-exception-receive-corrupt",
+  "owner" : {
+    "user_id" : 186820,
+    "user_type" : "registered",
+    "display_name" : "LittleFunny",
+    "profile_image" : "https://www.gravatar.com/avatar/836b23aeaf0cdc2e3ced82c8dd692614?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/186820/littlefunny",
+    "reputation" : 1985,
+    "accept_rate" : 50
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741093,
+  "last_activity_date" : 1498741093,
+  "tags" : [
+    "sql",
+    "xamarin",
+    "concurrency",
+    "locking"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

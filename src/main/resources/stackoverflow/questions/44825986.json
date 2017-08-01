@@ -1,0 +1,28 @@
+{
+  "question_id" : 44825986,
+  "title" : "flex box with images in a row",
+  "body" : "<p>I am using a bootstrap panel to display three images in a row.Suppose if I have six images in total, I want to display three in a row and the next three should come one by one as I move the scrollbar.</p>\n\n<p>For applying the scrollbar, I did <code>overflow-x:visible</code>, but nothing is coming on the screen.\nAlso, the fourth image is coming below the three images in a row.</p>\n\n<p>What should I do to make the images horizontally scrollable with three images getting displayed on the screen at a time?</p>\n\n<p>The codepen link to my code is: <a href=\"https://codepen.io/asinha/pen/RgQwMd\" rel=\"nofollow noreferrer\">Link</a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44825986/flex-box-with-images-in-a-row",
+  "owner" : {
+    "user_id" : 7816606,
+    "user_type" : "registered",
+    "display_name" : "aayushi",
+    "profile_image" : "https://www.gravatar.com/avatar/8f792323bd6f41188dda44a7fb9348ec?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7816606/aayushi",
+    "reputation" : 134,
+    "accept_rate" : 65
+  },
+  "is_answered" : true,
+  "creation_date" : 1498741497,
+  "last_activity_date" : 1498741937,
+  "tags" : [
+    "javascript",
+    "html",
+    "css",
+    "reactjs",
+    "bootstrap-4"
+  ],
+  "score" : 2,
+  "view_count" : 25,
+  "answer_count" : 1
+}

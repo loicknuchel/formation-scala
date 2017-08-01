@@ -1,0 +1,73 @@
+{
+  "uuid" : "f152133e6107190056f5706e22c92c95468dde9a",
+  "bioAsHtml" : "<p>Devops, Craftsman, Factotum, free-software fan, Sysadmin à ses heures\nperdues et surtout passionné, il est core mainteneur sur le projet Docker (ainsi que libcompose ou encore containous/traefik).</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/IKY-0322",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f152133e6107190056f5706e22c92c95468dde9a",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Vincent Demeester"
+        }
+      ],
+      "id" : "IKY-0322",
+      "title" : "Docker 2017: Nouveautés et perspectives"
+    },
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/YOJ-9199",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b79d2812e5f3a077ae9678e34e513933915cf677",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Xavier Detant"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f152133e6107190056f5706e22c92c95468dde9a",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Vincent Demeester"
+        }
+      ],
+      "id" : "YOJ-9199",
+      "title" : "JUnit-docker"
+    },
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/SFL-2161",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f152133e6107190056f5706e22c92c95468dde9a",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Vincent Demeester"
+        }
+      ],
+      "id" : "SFL-2161",
+      "title" : "Kit d'orchestration avec docker swarm mode"
+    }
+  ],
+  "company" : "Docker",
+  "bio" : "Devops, Craftsman, Factotum, free-software fan, Sysadmin à ses heures\r\nperdues et surtout passionné, il est core mainteneur sur le projet Docker (ainsi que libcompose ou encore containous/traefik).",
+  "lastName" : "Demeester",
+  "firstName" : "Vincent",
+  "blog" : "https://plus.google.com/117192178596421787639",
+  "avatarURL" : "https://lh3.googleusercontent.com/-dtZAykqN5u0/AAAAAAAAAAI/AAAAAAAACOc/_eHTvPrt7AE/photo.jpg",
+  "twitter" : "@vdemeest",
+  "lang" : "en"
+}

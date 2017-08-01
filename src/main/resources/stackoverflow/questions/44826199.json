@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826199,
+  "title" : "pyuic dll failed to load with Python 3.6.1",
+  "body" : "<p>I've installed the latest python version. I wanted to create a project in python with PyQt4, but I am not able to convert the *.ui file into a *.py file.\nIt always says \"ImportError(from PyQt4 import QtCore): DLL load failed: %1 is not a valid Win32-Application.\" And I also checked my environment variables. All seems fine to work, but I don't know why this error occurs. </p>\n\n<p>Maybe the wrong Python version for this PyQt version ?\nThanks for your answers, I appreciate that!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826199/pyuic-dll-failed-to-load-with-python-3-6-1",
+  "owner" : {
+    "user_id" : 8208498,
+    "user_type" : "registered",
+    "display_name" : "X2E B599",
+    "profile_image" : "https://www.gravatar.com/avatar/2b7ded91076e824165fde13dfe857949?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8208498/x2e-b599",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742105,
+  "last_activity_date" : 1498742105,
+  "tags" : [
+    "python"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

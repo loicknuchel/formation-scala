@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826855,
+  "title" : "Is there a webextesnion API that makes an http request in the main_frame given a URL and a tabId?",
+  "body" : "<p>I am looking for a way to make an HTTP request for a given URL and tabID. The URL is not provided by the user, but it is taken from within the extension code. </p>\n\n<p>The HTTP request need to be passed to the address bar because I have an <code>onBeforeRequest</code> observer that I specified it to \"main_frame\" URLs must be able to observe that URL (although not entered by the user). </p>\n\n<p>I looked at webNavigation and webRequest APIs with no hope. Is there any way to achieve that? </p>\n",
+  "link" : "https://stackoverflow.com/questions/44826855/is-there-a-webextesnion-api-that-makes-an-http-request-in-the-main-frame-given-a",
+  "owner" : {
+    "user_id" : 6875880,
+    "user_type" : "registered",
+    "display_name" : "user6875880",
+    "profile_image" : "https://www.gravatar.com/avatar/b6ec1df1271515cfec0170c184128df8?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/6875880/user6875880",
+    "reputation" : 159,
+    "accept_rate" : 93
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743752,
+  "last_activity_date" : 1498743752,
+  "tags" : [
+    "firefox",
+    "firefox-addon",
+    "firefox-webextensions"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

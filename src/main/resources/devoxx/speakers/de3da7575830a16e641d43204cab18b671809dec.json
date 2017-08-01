@@ -1,0 +1,55 @@
+{
+  "uuid" : "de3da7575830a16e641d43204cab18b671809dec",
+  "bioAsHtml" : "<p>Créateur de JHipster et directeur de l&#x27;innovation chez Ippon Technologies.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "University",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/GRJ-5404",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/de3da7575830a16e641d43204cab18b671809dec",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Julien Dubois"
+        }
+      ],
+      "id" : "GRJ-5404",
+      "title" : "Etre productif avec JHipster"
+    },
+    {
+      "talkType" : "Conference",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/HQL-1106",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/de3da7575830a16e641d43204cab18b671809dec",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Julien Dubois"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a3b944e4c133a014fdea3d5bc7217572a34792ce",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Geoffray Gruel"
+        }
+      ],
+      "id" : "HQL-1106",
+      "title" : "Open Source depuis les tranchées : 4 ans de JHipster @Ippon"
+    }
+  ],
+  "company" : "Ippon Technologies",
+  "bio" : "Créateur de JHipster et directeur de l'innovation chez Ippon Technologies.",
+  "lastName" : "Dubois",
+  "firstName" : "Julien",
+  "blog" : "https://plus.google.com/+JulienDubois",
+  "avatarURL" : "https://lh5.googleusercontent.com/-GUJq9wKrV8A/AAAAAAAAAAI/AAAAAAAABkI/H_CG66GUv1c/photo.jpg",
+  "twitter" : "@juliendubois",
+  "lang" : "fr-FR"
+}

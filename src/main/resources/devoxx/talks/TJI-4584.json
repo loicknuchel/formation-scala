@@ -1,0 +1,44 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "BOF (Bird of a Feather)",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Venez découvrir de multiples activités d'initiation aux concepts de l'univers Lean (petits jeux, ice breakers, formations à base de jeux de plateau, ...).\nNotre objectif : bousculer des certitudes et vous faire découvrir de nouvelles façons de faire et vous amener à vous demander “ Mais pourquoi est-ce que cela marche ?”\nCe sera aussi l’occasion de vous apprendre à refaire ces activités dans vos équipes.</p>\n<p>L’association Lean Kanban France a pour mission de faire découvrir l'immense terrain de jeu qu'est le Lean. Ce soir nous allons privilégier l'aspect ludique car nous ne souhaitons pas vous “infliger” des slides théoriques à la fin d’une journée bien remplie par les différentes sessions techniques qui sont au coeur de la conférence. Alors nous organisons une grande diversion : un espace de jeux où vous pourrez découvrir l'état d'esprit Lean &amp; Agile.</p>\n<p>Nous vous ferons gagner à cette occasion de nombreux cadeaux, dont 2 entrées pour la conférence LKFR du 29&amp;30/11/2017 à Paris.</p>\n",
+  "id" : "TJI-4584",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9ca4adb955901a692a096161b51997d346d007bf",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Anne Gabrillagues"
+      },
+      "name" : "Anne Gabrillagues"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/341ff3dc19b831ea24193dc1218debd921e6c528",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Dimitri BAELI"
+      },
+      "name" : "Dimitri BAELI"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/815c0c15a6796e465b21163604d6254d88871af0",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Nils Lesieur"
+      },
+      "name" : "Nils Lesieur"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f3217b928f67c17d94c5da8fd7c9fb14f0009ed5",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Yannick grenzinger"
+      },
+      "name" : "Yannick grenzinger"
+    }
+  ],
+  "title" : "BoF Lean Kanban France : laissez vous surprendre.",
+  "lang" : "fr",
+  "summary" : "Venez découvrir de multiples activités d'initiation aux concepts de l'univers Lean (petits jeux, ice breakers, formations à base de jeux de plateau, ...).\r\nNotre objectif : bousculer des certitudes et vous faire découvrir de nouvelles façons de faire et vous amener à vous demander “ Mais pourquoi est-ce que cela marche ?”\r\nCe sera aussi l’occasion de vous apprendre à refaire ces activités dans vos équipes.\r\n\r\nL’association Lean Kanban France a pour mission de faire découvrir l'immense terrain de jeu qu'est le Lean. Ce soir nous allons privilégier l'aspect ludique car nous ne souhaitons pas vous “infliger” des slides théoriques à la fin d’une journée bien remplie par les différentes sessions techniques qui sont au coeur de la conférence. Alors nous organisons une grande diversion : un espace de jeux où vous pourrez découvrir l'état d'esprit Lean & Agile.\r\n\r\nNous vous ferons gagner à cette occasion de nombreux cadeaux, dont 2 entrées pour la conférence LKFR du 29&30/11/2017 à Paris."
+}

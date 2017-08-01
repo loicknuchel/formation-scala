@@ -1,0 +1,20 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "Tools-in-Action",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>JOOQ et JOOλ sont des solutions open-source permettant d'intégrer proprement votre application Java avec votre base de données. Quoi de nouveau sous le soleil me diriez-vous ? Après tout la problématique de mapping objet-relationnel est au moins aussi vieille que la plateforme Java. Mais depuis Java 8, JOOQ permet d'utiliser l'API Stream du JDK avec le mapping objet-relationnel, ce qui, couplé avec JOOλ, a pour effet d'écrire des DAO plus simples et dans un paradigme fonctionnel. Au cours de ce tools in action nous allons vous présenter les avantages que nous pouvons tirer des frameworks JOOQ et JOOλ, par rapport à du JDBC pur sucre, JPA sans oublier Spring JDBC Template. Cerise sur le gâteau, nous vous indiquerons comment simplement introduire JOOQ et JOOλ dans votre code existant.</p>\n",
+  "id" : "GPW-2638",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e2a3223c846fc2073ec5be6e560ccff749f03161",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Mathieu Gandin"
+      },
+      "name" : "Mathieu Gandin"
+    }
+  ],
+  "title" : "JOOQ et JOOλ : Comment écrire du code propre dans vos DAO",
+  "lang" : "fr",
+  "summary" : "JOOQ et JOOλ sont des solutions open-source permettant d'intégrer proprement votre application Java avec votre base de données. Quoi de nouveau sous le soleil me diriez-vous ? Après tout la problématique de mapping objet-relationnel est au moins aussi vieille que la plateforme Java. Mais depuis Java 8, JOOQ permet d'utiliser l'API Stream du JDK avec le mapping objet-relationnel, ce qui, couplé avec JOOλ, a pour effet d'écrire des DAO plus simples et dans un paradigme fonctionnel. Au cours de ce tools in action nous allons vous présenter les avantages que nous pouvons tirer des frameworks JOOQ et JOOλ, par rapport à du JDBC pur sucre, JPA sans oublier Spring JDBC Template. Cerise sur le gâteau, nous vous indiquerons comment simplement introduire JOOQ et JOOλ dans votre code existant."
+}

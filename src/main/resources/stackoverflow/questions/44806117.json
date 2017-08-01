@@ -1,0 +1,27 @@
+{
+  "question_id" : 44806117,
+  "title" : "Python and C++ project repository structure",
+  "body" : "<p>I'm refactoring the directory structure of a large Python repo that has a few dozen C and C++ files littered throughout. Is there a <strong>suggested architecture for a Python package that contains C/C++ code within it?</strong> What I have at the moment for my repo <code>foo</code> is:</p>\n\n<pre><code>foo/\n├── LICENSE\n├── Makefile\n├── README.md\n├── docs/\n├── examples/\n├── foo/\n│   ├── __init__.py\n│   ├── README.md\n│   ├── core/\n│   │   ├── __init__.py\n│   │   ├── foo_tricks_slow.py\n│   │   ├── foo_tricks_fast.cp\n│   │   ├── foo_tricks_fast.mk\n│   ├── experiments/\n│   └── utils/\n├── requirements.txt\n├── setup.py\n└── tests/  # Run with py.test\n    ├── __init__.py\n    └── test_foo.py\n</code></pre>\n\n<p>Each subdir <code>core/</code>, <code>experiments/</code>, <code>utils/</code>, and so on contains mostly python files, and some C/C++ files.</p>\n\n<p>Some things I've heard mixed opinions on that I'd like to reach a conclusion on include</p>\n\n<ol>\n<li>Putting tests outside the Python package</li>\n<li>Putting source in a <code>src/</code> dir</li>\n<li>Keeping a directory for Python and a directory for C/C++</li>\n</ol>\n\n<p>Some sources of info I've looked at include:</p>\n\n<p>A. <a href=\"http://as.ynchrono.us/2007/12/filesystem-structure-of-python-project_21.html\" rel=\"nofollow noreferrer\">Filesystem structure of a Python project</a> by Jean-Paul Calderone</p>\n\n<p>B. <a href=\"https://www.pydanny.com/cookie-project-templates-made-easy.html\" rel=\"nofollow noreferrer\">cookiecutter</a></p>\n\n<p>C. <a href=\"https://jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/\" rel=\"nofollow noreferrer\">Jeff Knupp's blog post</a></p>\n\n<p>D. <a href=\"https://stackoverflow.com/questions/25261550/directory-structure-for-a-project-that-mixes-c-and-python\">This SO question</a> is close, but I don't have a self-contained C++ project, but rather some misc. files, each with their own <code>mk</code> file that gets accumulated when running the main Makefile.</p>\n\n<p>E. Example repositories like Tensorflow, Keras, Nupic, Django</p>\n\n<p><strong>Related</strong>: I would like the repo to be installed and built with <code>pip install foo</code>. I'm unsure how this would also build the C/C++ files though. For example, <code>pip install tensorflow</code> accomplishes this. Perhaps that's for a followup SO question though.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806117/python-and-c-project-repository-structure",
+  "owner" : {
+    "user_id" : 3765905,
+    "user_type" : "registered",
+    "display_name" : "BoltzmannBrain",
+    "profile_image" : "https://i.stack.imgur.com/xkm1p.png?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/3765905/boltzmannbrain",
+    "reputation" : 1292,
+    "accept_rate" : 76
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661932,
+  "last_activity_date" : 1498661932,
+  "tags" : [
+    "python",
+    "c++",
+    "architecture",
+    "repository"
+  ],
+  "score" : 0,
+  "view_count" : 10,
+  "answer_count" : 0
+}

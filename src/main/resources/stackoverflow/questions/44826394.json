@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826394,
+  "title" : "saving a binary file to ram in c#",
+  "body" : "<p>i am developing a flash tool for a mobile which sends a loader to it for further \ncommunications.currently i receive the loader file through web request from a URL\nand stores it in disk .below is the code i use</p>\n\n<pre><code>private void submitData()\n    {\n        try\n        {\n            ASCIIEncoding encoding = new ASCIIEncoding();\n            string cpuid = comboBox1.Text;\n            string postdata = \"cpuid=\" + cpuid;\n            byte[] data = encoding.GetBytes(postdata);\n\n            WebRequest request = WebRequest.Create(\"Http://127.0.0.1/fetch.php\");\n            request.Method = \"POST\";\n            request.ContentType = \"application/x-www-form-urlencoded\";\n            request.ContentLength = data.Length;\n            Stream stream = request.GetRequestStream();\n            stream.Write(data, 0, data.Length);\n            stream.Close();\n\n            WebResponse response = request.GetResponse();\n            stream = response.GetResponseStream();\n\n            StreamReader sr = new StreamReader(stream);\n            string path = sr.ReadToEnd();\n            MessageBox.Show(path);\n\n            DateTime startTime = DateTime.UtcNow;\n            WebRequest request1 = WebRequest.Create(\"http://127.0.0.1/\"+path);\n            WebResponse response2 = request1.GetResponse();\n            using (Stream responseStream = response2.GetResponseStream())\n            {\n                using (Stream fileStream = File.OpenWrite(@\"e:\\loader.mbn\"))\n                {\n                    byte[] buffer = new byte[4096];\n                    int bytesRead = responseStream.Read(buffer, 0, 4096);\n                    while (bytesRead &gt; 0)\n                    {\n                        fileStream.Write(buffer, 0, bytesRead);\n                        DateTime nowTime = DateTime.UtcNow;\n                        if ((nowTime - startTime).TotalMinutes &gt; 1)\n                        {\n                            throw new ApplicationException(\n                                \"Download timed out\");\n\n                        }\n\n                        bytesRead = responseStream.Read(buffer, 0, 4096);\n                    }\n                    MessageBox.Show(\"COMPLETDED\");\n                }\n            }\n\n            sr.Close();\n            stream.Close();\n        }\n        catch(Exception ex)\n        {\n            MessageBox.Show(\"ERR :\" + ex.Message);\n        }\n</code></pre>\n\n<p>my question is there a way to store the file directly to the ram\nand then use it from there\nso far i tried to use Memory stream with no results.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826394/saving-a-binary-file-to-ram-in-c",
+  "owner" : {
+    "user_id" : 5922161,
+    "user_type" : "registered",
+    "display_name" : "MANPREET SINGH",
+    "profile_image" : "https://lh6.googleusercontent.com/-xJFUbxY1suU/AAAAAAAAAAI/AAAAAAAAAHo/_4X4VYaafzw/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/5922161/manpreet-singh",
+    "reputation" : 3,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742650,
+  "last_activity_date" : 1498743622,
+  "tags" : [
+    "c#"
+  ],
+  "score" : 0,
+  "view_count" : 27,
+  "answer_count" : 1
+}

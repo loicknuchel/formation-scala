@@ -1,0 +1,20 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Tools-in-Action",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>-Tu maîtrises parfaitement docker et tu aimerais en savoir plus sur rkt ?</p>\n<p>-Tu ne comprends rien aux conteneurs mais tu aimerais commencer ?</p>\n<p>-Tu as envie de passer un moment sympa avec un mec qui tape des lignes de commande sur son terminal ?</p>\n<p>Alors cette session est faite pour toi! Au menu, un peu de théorie sur les containers, l'Application Container Specification et rkt, puis de la pratique avec la mise en place d'un ensemble d'application en utilisant rkt.</p>\n",
+  "id" : "VPV-8691",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5f59c22f0c9a158af63bdd4c6c24d58a6ac8aaf9",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Yoan Rousseau"
+      },
+      "name" : "Yoan Rousseau"
+    }
+  ],
+  "title" : "A la découverte de rkt",
+  "lang" : "fr",
+  "summary" : "-Tu maîtrises parfaitement docker et tu aimerais en savoir plus sur rkt ?\r\n\r\n-Tu ne comprends rien aux conteneurs mais tu aimerais commencer ?\r\n\r\n-Tu as envie de passer un moment sympa avec un mec qui tape des lignes de commande sur son terminal ?\r\n\r\nAlors cette session est faite pour toi! Au menu, un peu de théorie sur les containers, l'Application Container Specification et rkt, puis de la pratique avec la mise en place d'un ensemble d'application en utilisant rkt."
+}

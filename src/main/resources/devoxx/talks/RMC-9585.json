@@ -1,0 +1,28 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Conference",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Une des nouveautés de cette édition de Devoxx France est l'application My Devoxx Contacts qui permet aux devoxxiens d’échanger leurs coordonnées de contact d'une façon simple et rapide.</p>\n<p>Dans ce talk nous regardons sous le capot de cette application: un front PWA basé sur des webcomponents, un back basé sur Lagoon et Cassandra, et des time series stockés sur Warp 10 pour l'analyse et le reporting.</p>\n",
+  "id" : "RMC-9585",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/73ebde8b6affccfdd3cdfceebac253655a224f63",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Horacio Gonzalez"
+      },
+      "name" : "Horacio Gonzalez"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1693d28c079e6c28269b9aa86ae04a4549ad3074",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Fabrice Sznajderman"
+      },
+      "name" : "Fabrice Sznajderman"
+    }
+  ],
+  "title" : "Une application sociale pour Devoxx",
+  "lang" : "fr",
+  "summary" : "Une des nouveautés de cette édition de Devoxx France est l'application My Devoxx Contacts qui permet aux devoxxiens d’échanger leurs coordonnées de contact d'une façon simple et rapide.\r\n\r\nDans ce talk nous regardons sous le capot de cette application: un front PWA basé sur des webcomponents, un back basé sur Lagoon et Cassandra, et des time series stockés sur Warp 10 pour l'analyse et le reporting."
+}

@@ -1,0 +1,88 @@
+{
+  "uuid" : "9ef9ee08cfb1a46a285430223a056d889f99044c",
+  "bioAsHtml" : "<p>Hubert est passionné par le Web. Il est toujours à la recherche de nouvelles idées et autres bidouilles pour améliorer l&#x27;expérience des utilisateurs et des développeurs.</p>\n<p>Chez OpenDevise, il aide des éditeurs de logiciels à passer leurs contenus pédagogiques (docs, formation, présentations...) au niveau supérieur en utilisant le Web et un peu d&#x27;asciidoctor...</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/ZNQ-7776",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9ef9ee08cfb1a46a285430223a056d889f99044c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Hubert SABLONNIERE"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1454e2d0a6c2fa871454dab3dbf66f5e16b61980",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sebastien Blanc"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f4aea1c9996bf4e307a68c3080915b7a14cd1579",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Audrey Neveu"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/996b582386dd98b7ea73098dbcc6f0bd037ba037",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Francois Garreau"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6dd4408eea453917089be404a1233df22818424b",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Philippe Antoine"
+        }
+      ],
+      "id" : "ZNQ-7776",
+      "title" : "Les speakers anonymes : thérapie de groupe"
+    },
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/YOC-1441",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9ef9ee08cfb1a46a285430223a056d889f99044c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Hubert SABLONNIERE"
+        }
+      ],
+      "id" : "YOC-1441",
+      "title" : "Le Web multi-écrans en action"
+    },
+    {
+      "talkType" : "Conference",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/SMA-4474",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9ef9ee08cfb1a46a285430223a056d889f99044c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Hubert SABLONNIERE"
+        }
+      ],
+      "id" : "SMA-4474",
+      "title" : "🚀 Une aventure ultrasonique !"
+    }
+  ],
+  "company" : "OpenDevise",
+  "bio" : "Hubert est passionné par le Web. Il est toujours à la recherche de nouvelles idées et autres bidouilles pour améliorer l'expérience des utilisateurs et des développeurs.\r\n\r\nChez OpenDevise, il aide des éditeurs de logiciels à passer leurs contenus pédagogiques (docs, formation, présentations...) au niveau supérieur en utilisant le Web et un peu d'asciidoctor...",
+  "lastName" : "SABLONNIERE",
+  "firstName" : "Hubert",
+  "blog" : "http://hsablonniere.com",
+  "avatarURL" : "https://www.gravatar.com/avatar/756896776ddf47e64c33a86120feb528.png?s=200",
+  "twitter" : "@hsablonniere",
+  "lang" : "fr"
+}

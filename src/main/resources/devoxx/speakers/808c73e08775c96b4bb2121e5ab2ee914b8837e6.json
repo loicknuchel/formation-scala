@@ -1,0 +1,47 @@
+{
+  "uuid" : "808c73e08775c96b4bb2121e5ab2ee914b8837e6",
+  "bioAsHtml" : "<p>Apache Spark Certified Developer, Hayssam Saleh is Senior Architect with a focus on fault tolerant distributed systems and Web applications. He is currently the technical lead at EBIZNEXT where he supervises Scala / NoSQL projects since early 2012. He holds a PhD in distributed computing from Université Pierre et Marie Curie (Paris VI).</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/TJZ-5762",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/eb5fc40f11485d015a1bb7d20fa5c9c40f941569",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Simon Dumas"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/68e3eb4644fd25d25ece568b8ad434fe8cab5e29",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Fred CECILIA"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/808c73e08775c96b4bb2121e5ab2ee914b8837e6",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Hayssam Saleh"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/792c98760a898dc32a5b23f793e2519a657d5a6b",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Valentin Kasas"
+        }
+      ],
+      "id" : "TJZ-5762",
+      "title" : "Hands-on Kafka Streams"
+    }
+  ],
+  "company" : "ebiznext",
+  "bio" : "Apache Spark Certified Developer, Hayssam Saleh is Senior Architect with a focus on fault tolerant distributed systems and Web applications. He is currently the technical lead at EBIZNEXT where he supervises Scala / NoSQL projects since early 2012. He holds a PhD in distributed computing from Université Pierre et Marie Curie (Paris VI).",
+  "lastName" : "Saleh",
+  "firstName" : "Hayssam",
+  "blog" : "http://blog.ebiznext.com",
+  "avatarURL" : "http://www.gravatar.com/avatar/3ca6faf2b0a058cc5ebe3d4089931724",
+  "twitter" : "@hayssams",
+  "lang" : "fr"
+}

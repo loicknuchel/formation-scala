@@ -1,0 +1,37 @@
+{
+  "uuid" : "528ed667b374bf3f3d741ffd178bdf66a6e71ba0",
+  "bioAsHtml" : "<p>Enseignant-chercheur.\nArtisan pédagogue développeur d&#x27;agilité\nMembre de la team Duchess France, Ambassadrice de la Code Week et Fondatrice des journées #iutagile</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/FAC-5030",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/528ed667b374bf3f3d741ffd178bdf66a6e71ba0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Isabelle BLASQUEZ"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/83e120dc8a0287621a510e0ed93952de16ae2421",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Alice Barralon"
+        }
+      ],
+      "id" : "FAC-5030",
+      "title" : "Sensibilisation aux bonnes pratiques techniques du Software Craftsmanship : Lego® à la rescousse !"
+    }
+  ],
+  "company" : "Université de Limoges",
+  "bio" : "Enseignant-chercheur. \r\nArtisan pédagogue développeur d'agilité\r\nMembre de la team Duchess France, Ambassadrice de la Code Week et Fondatrice des journées #iutagile",
+  "lastName" : "BLASQUEZ",
+  "firstName" : "Isabelle",
+  "blog" : "http://www.duchess-france.org/",
+  "avatarURL" : "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAb2AAAAJDYwN2Q0NWQwLTMxYjEtNDUzYi04NTFkLWEyOWZkYmFkNmVmYw.jpg",
+  "twitter" : "@iblasquez",
+  "lang" : "fr-FR"
+}

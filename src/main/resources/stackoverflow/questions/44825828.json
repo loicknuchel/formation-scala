@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825828,
+  "title" : "--user curl equivalent in httr",
+  "body" : "<p>This is, I presume, some really simple curl code that I am trying to translate into a httr format.</p>\n\n<pre><code>curl -X POST \\\n  --user '&lt;email&gt;:&lt;password&gt;' \\\n  --header 'user-key: &lt;user_key&gt;' \\\n  --url https://api.m.com/v1/clients\n</code></pre>\n\n<p>So far I have tried </p>\n\n<pre><code>library(httr)    \nPOST(url = \"https://api.m.com/v1/clients\",\n                 add_headers('user-key' = \"userkey\",\n                             user = 'email:password'))\n</code></pre>\n\n<p>But without success. Any hints on what is wrong here? Is there an httr equivalent to <code>--user</code> in the curl code?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825828/user-curl-equivalent-in-httr",
+  "owner" : {
+    "user_id" : 5094439,
+    "user_type" : "registered",
+    "display_name" : "FilipW",
+    "profile_image" : "https://i.stack.imgur.com/7LQdm.png?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/5094439/filipw",
+    "reputation" : 42,
+    "accept_rate" : 67
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741110,
+  "last_activity_date" : 1498741110,
+  "tags" : [
+    "r",
+    "curl",
+    "httr"
+  ],
+  "score" : 0,
+  "view_count" : 12,
+  "answer_count" : 0
+}

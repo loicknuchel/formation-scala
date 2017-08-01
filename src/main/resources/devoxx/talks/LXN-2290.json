@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "Conference",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>Nos logs sont trop souvent bordéliques et difficiles à exploiter : niveaux incohérents, messages mal formatés, instructions de log éparpillées dans le code...\nEt s'il était temps de repenser globalement notre façon de loguer, pour la simplifier et l'industrialiser ?</p>\n",
+  "id" : "LXN-2290",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/06398fa2407ffee2f710f0173b45a0b480647d56",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Olivier Croisier"
+      },
+      "name" : "Olivier Croisier"
+    }
+  ],
+  "title" : "Log me tender",
+  "lang" : "fr",
+  "summary" : "Nos logs sont trop souvent bordéliques et difficiles à exploiter : niveaux incohérents, messages mal formatés, instructions de log éparpillées dans le code...\r\nEt s'il était temps de repenser globalement notre façon de loguer, pour la simplifier et l'industrialiser ?"
+}

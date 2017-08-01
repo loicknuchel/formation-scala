@@ -1,0 +1,28 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Hands-on Labs",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Cet atelier vous permettra, quel que soit votre niveau de connaissance, de vous familiariser avec la modélisation et le requêtage de données dans une base de données graphe comme Neo4j sur un dataset fun et représentatif.</p>\n<p>Outre les rudiments du langage Cypher (du MATCH simple aux agrégations en passant par le profilage), seront abordées également les dernières nouveautés de Neo4j 3.1 sorti mi-Décembre (causal clustering, stored procedure and user-defined functions).</p>\n<p>À l’issue de cet atelier, Neo4j n’aura plus de secrets pour vous !</p>\n<p>Pensez à consulter les pré-requis : https://fbiville.github.io/neo4j-training/setup/.</p>\n",
+  "id" : "HUA-2052",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9d77f0e35092ee25dacf9f9b6f9cc0fc695be416",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Florent Biville"
+      },
+      "name" : "Florent Biville"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6edfe70ee7621dc90e256afe05ee9bd1bdb9cf73",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Marouane Gazanayi"
+      },
+      "name" : "Marouane Gazanayi"
+    }
+  ],
+  "title" : "Hands on Neo4j : la base de données graphe pour tous !",
+  "lang" : "fr",
+  "summary" : "Cet atelier vous permettra, quel que soit votre niveau de connaissance, de vous familiariser avec la modélisation et le requêtage de données dans une base de données graphe comme Neo4j sur un dataset fun et représentatif.\r\n\r\nOutre les rudiments du langage Cypher (du MATCH simple aux agrégations en passant par le profilage), seront abordées également les dernières nouveautés de Neo4j 3.1 sorti mi-Décembre (causal clustering, stored procedure and user-defined functions).\r\n\r\nÀ l’issue de cet atelier, Neo4j n’aura plus de secrets pour vous !\r\n\r\nPensez à consulter les pré-requis : https://fbiville.github.io/neo4j-training/setup/.\r\n"
+}

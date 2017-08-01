@@ -1,0 +1,24 @@
+{
+  "question_id" : 44825766,
+  "title" : "Component instantiation error",
+  "body" : "<p>The VHDL code is below</p>\n\n<pre><code>library ieee;\nuse ieee.std_logic_1164.all;\nentity dff is\n  port(\n      d, clk: in std_logic;\n      q: out std_logic);\nend dff;\narchitecture behave of dff is\n  begin\n    process(clk)\n      begin\n      if(clk = '1') then\n        q&lt;= d;\n    end if;\n  end process;\nend behave; \n</code></pre>\n\n<h2>---------------------------------------------------------------------</h2>\n\n<p>and the test bench is written as</p>\n\n<pre><code>library ieee;\nuse ieee.std_logic_1164.all;\nentity dff is\nend dff;\narchitecture behave of dff is\n  component dff is\nport(d, clk: in std_logic;\n     q: out std_logic);\n\n\n end component;\n\n\n    signal  d_in: std_logic;\n    signal  clk_in: std_logic;\n    signal  q_out: std_logic;\n\nbegin\n  d_ff : dff port map( d_in, clk_in, q_out);\n  process\n    begin\n      if(clk_in = '1') then\n      q_out&lt;= d_in;\n      end if;\n  end process;\nend behave;  \n</code></pre>\n\n<p>I'm simulated the above code using the modelSim simulator. But when start simulation it is showing Error loading design\nThe following component ports are not on the entity:\n          q\n          clk\n          d</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825766/component-instantiation-error",
+  "owner" : {
+    "user_id" : 8231729,
+    "user_type" : "registered",
+    "display_name" : "HAREESH",
+    "profile_image" : "https://www.gravatar.com/avatar/8794a5389f800e8d2f7b8251c889c7b1?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8231729/hareesh",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : true,
+  "creation_date" : 1498740990,
+  "last_activity_date" : 1498741232,
+  "tags" : [
+    "vhdl"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 1
+}

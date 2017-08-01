@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "Quickie",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>La grammaire de Java contient certaines subtilités syntaxiques qui permettent, par hasard ou mesquinerie, de jouer avec les nerfs de vos collègues. Avouez que ce serait dommage de s'en priver !</p>\n",
+  "id" : "YJJ-1309",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/06398fa2407ffee2f710f0173b45a0b480647d56",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Olivier Croisier"
+      },
+      "name" : "Olivier Croisier"
+    }
+  ],
+  "title" : "Twisted Java",
+  "lang" : "fr",
+  "summary" : "La grammaire de Java contient certaines subtilités syntaxiques qui permettent, par hasard ou mesquinerie, de jouer avec les nerfs de vos collègues. Avouez que ce serait dommage de s'en priver !"
+}

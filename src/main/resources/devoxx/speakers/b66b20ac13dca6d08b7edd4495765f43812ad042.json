@@ -1,0 +1,37 @@
+{
+  "uuid" : "b66b20ac13dca6d08b7edd4495765f43812ad042",
+  "bioAsHtml" : "<p>Développeur, Tech Leader. Ch&#x27;ti JUG Leader</p>\n<p>Passionné par le métier de développeur, je suis un hacktiviste du software craftsmanship et des méthodes agiles, convaincu par l&#x27;approche devops et par la diversité des devs comme gage de qualité.</p>\n<p>Co-fondateur du Ch&#x27;ti JUG en 2009, j&#x27;anime la communauté des développeurs dans le Nord. J&#x27;organise des BBLs pour découvrir des technos sur la pause déjeuner: GraphQL, Elixir, React...</p>\n<p>Je travaille chez AXA au Web Center de Lille en tant qu&#x27;animateur de la communauté des développeurs et des tech leaders.</p>\n<p>Je développe actuellement des APIs  autours de l&#x27;assurance habitation, de la sécurité et des objets connectés pour l&#x27;application mobile Mon AXA.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/MQX-7143",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b66b20ac13dca6d08b7edd4495765f43812ad042",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Cyril Lakech"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/711dcb0a9f5922fe8eb81e458ffb65dcc337cd9e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Romain Linsolas"
+        }
+      ],
+      "id" : "MQX-7143",
+      "title" : "10 méthodes pour rendre heureux les développeurs, la 7e va vous étonner !"
+    }
+  ],
+  "company" : "AXA France",
+  "bio" : "Développeur, Tech Leader. Ch'ti JUG Leader\r\n\r\nPassionné par le métier de développeur, je suis un hacktiviste du software craftsmanship et des méthodes agiles, convaincu par l'approche devops et par la diversité des devs comme gage de qualité.\r\n\r\nCo-fondateur du Ch'ti JUG en 2009, j'anime la communauté des développeurs dans le Nord. J'organise des BBLs pour découvrir des technos sur la pause déjeuner: GraphQL, Elixir, React...\r\n\r\nJe travaille chez AXA au Web Center de Lille en tant qu'animateur de la communauté des développeurs et des tech leaders. \r\n\r\nJe développe actuellement des APIs  autours de l'assurance habitation, de la sécurité et des objets connectés pour l'application mobile Mon AXA.",
+  "lastName" : "Lakech",
+  "firstName" : "Cyril",
+  "blog" : "https://blog.axawebcenter.fr/",
+  "avatarURL" : "https://pbs.twimg.com/profile_images/844170644942213120/a1nI7jcO.jpg",
+  "twitter" : "@cyril_lakech",
+  "lang" : "fr-FR"
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "Tools-in-Action",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>Passer d'un monolithe à une architecture micro-services introduit de la complexité en terme de réseau, on ne peut donc plus logger de la même manière. En effet,  comment savoir quelles instances de service ont traité une requête ? Comment faire transiter des logs entre mes services ? Où se situent les goulots qui ralentisse mon architecture ?\nDécouvrons ensemble comment mettre en place une solution de tracing de requête dans un environnement distribué permettant de traiter toutes ces problématiques et ce avec une quantité de code minimal !\nAu programme Spring Cloud Sleuth, Zipkin, ElasticSearch ... Le tout en live coding !</p>\n",
+  "id" : "AXJ-0444",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/eec27b231d20ebc4d7e2e2899fb37ffa7e0bbbac",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Florian Garcia"
+      },
+      "name" : "Florian Garcia"
+    }
+  ],
+  "title" : "Spring cloud et Zipkin à la rescousse du tracing distribué",
+  "lang" : "fr",
+  "summary" : "Passer d'un monolithe à une architecture micro-services introduit de la complexité en terme de réseau, on ne peut donc plus logger de la même manière. En effet,  comment savoir quelles instances de service ont traité une requête ? Comment faire transiter des logs entre mes services ? Où se situent les goulots qui ralentisse mon architecture ?\r\nDécouvrons ensemble comment mettre en place une solution de tracing de requête dans un environnement distribué permettant de traiter toutes ces problématiques et ce avec une quantité de code minimal !\r\nAu programme Spring Cloud Sleuth, Zipkin, ElasticSearch ... Le tout en live coding !"
+}

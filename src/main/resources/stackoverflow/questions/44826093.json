@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826093,
+  "title" : "Then is not a function error in angularjs",
+  "body" : "<p>I have simple function which returns employee data. But getting then is not a function error how to retrieve response from function</p>\n\n<pre><code>   function getdata(criteria) {\n            return angularService.GetData(criteria, $scope.year, $scope.selectedYearType.name);\n        }\n</code></pre>\n\n<p>Which is called in below function</p>\n\n<pre><code>$scope.GetEmployeeData = function (criteria) {\n\n        $scope.searchMethod = getdata;\n        $scope.searchMethod().then(function (response) {----------&gt; Error here\n\n           var totalEmployeeAmount = 0;\n\n            for (var i = 0; i &lt; response.data.results.length; i++) {\n                var summaryData = response.data.results[i];\n                totalEmployeeAmount += (summaryData.totalEmployeeAmount);\n            }\n\n\n            return response\n\n        }, function (response) {\n            // This is to see if has any error \n            //console.log(response);\n\n        });\n    }\n</code></pre>\n\n<p>My angular service</p>\n\n<pre><code>function getData(criteria, year, yearType) {\n            var url = apiService.ApiUrl + \"/Employees/EmployeeHistory/GetData/\" + year + \"/\" + yearType;\n            return apiService.DeferredPost(url, criteria);}\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826093/then-is-not-a-function-error-in-angularjs",
+  "owner" : {
+    "user_id" : 1030181,
+    "user_type" : "registered",
+    "display_name" : "user1030181",
+    "profile_image" : "https://www.gravatar.com/avatar/eb4af896ba87feab54f7eefd016b0c21?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1030181/user1030181",
+    "reputation" : 646,
+    "accept_rate" : 54
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741813,
+  "last_activity_date" : 1498743623,
+  "tags" : [
+    "angularjs"
+  ],
+  "score" : 0,
+  "view_count" : 19,
+  "answer_count" : 1
+}

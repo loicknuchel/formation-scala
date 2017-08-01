@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826129,
+  "title" : "use 2 different namespaces in XSLT",
+  "body" : "<p>I have this source XML, that is using 2 namespaces.</p>\n\n<pre><code>&lt;SyncAssetMaster xmlns=\"http://schema.infor.com/InforOAGIS/2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" languageCode=\"en-US\" releaseID=\"9.2\" systemEnvironmentCode=\"Production\" versionID=\"2.8.0\"&gt;\n    &lt;ApplicationArea&gt;\n        &lt;CreationDateTime&gt;2017-06-29T12:06:03Z&lt;/CreationDateTime&gt;\n    &lt;/ApplicationArea&gt;\n    &lt;DataArea&gt;\n        &lt;AssetMaster&gt;\n            &lt;UserArea&gt;\n                &lt;D xmlns=\"http://schemas.datastream.net/MP_functions/MP0118_GetGridHeaderData_001_Result\" xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" n=\"380\"&gt;SVP245&lt;/D&gt;\n                &lt;D xmlns=\"http://schemas.datastream.net/MP_functions/MP0118_GetGridHeaderData_001_Result\" xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" n=\"383\"&gt;SVP245 v1&lt;/D&gt;\n            &lt;/UserArea&gt;\n        &lt;/AssetMaster&gt;\n    &lt;/DataArea&gt;\n&lt;/SyncAssetMaster&gt;\n</code></pre>\n\n<p>The D elements have a different namespace, which I declare in the XSLT, as seen from other similar examples online:</p>\n\n<pre><code>&lt;xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\" xmlns:my=\"http://schema.infor.com/InforOAGIS/2\" xmlns:nsWS=\"http://schemas.datastream.net/MP_functions/MP0118_GetGridHeaderData_001_Result\"&gt;\n    &lt;xsl:output method=\"xml\" version=\"1.0\" encoding=\"UTF-8\" indent=\"yes\" /&gt;   \n\n    &lt;xsl:template match=\"//my:SyncAssetMaster\"&gt; \n        &lt;DataArea&gt;\n            &lt;CreationDateTime&gt;&lt;xsl:value-of select=\"//my:CreationDateTime\"/&gt;&lt;/CreationDateTime&gt;\n            &lt;ExtensionDate1&gt;&lt;xsl:value-of select=\"//nsWS:UserArea/nsWS:D[@n='380']\"/&gt;&lt;/ExtensionDate1&gt;\n        &lt;/DataArea&gt;\n    &lt;/xsl:template&gt;\n&lt;/xsl:stylesheet&gt;\n</code></pre>\n\n<p>This is the required output. The ExtensionDate1 does not appear. Surely it's something simple, I appreciate any help.</p>\n\n<pre><code>&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;\n&lt;DataArea xmlns:nsWS=\"http://schemas.datastream.net/MP_functions/MP0118_GetGridHeaderData_001_Result\" xmlns:my=\"http://schema.infor.com/InforOAGIS/2\"&gt;\n    &lt;CreationDateTime&gt;2017-06-29T12:06:03Z&lt;/CreationDateTime&gt;\n    &lt;ExtensionDate1&gt;SVP245&lt;/ExtensionDate1&gt;\n&lt;/DataArea&gt;\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826129/use-2-different-namespaces-in-xslt",
+  "owner" : {
+    "user_id" : 4787383,
+    "user_type" : "registered",
+    "display_name" : "Dimitar Dimitrov",
+    "profile_image" : "https://www.gravatar.com/avatar/d3be21e0a19b017ee9c7ef203209a83a?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4787383/dimitar-dimitrov",
+    "reputation" : 28,
+    "accept_rate" : 67
+  },
+  "is_answered" : true,
+  "creation_date" : 1498741907,
+  "last_activity_date" : 1498742090,
+  "tags" : [
+    "xml",
+    "xslt"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 1
+}

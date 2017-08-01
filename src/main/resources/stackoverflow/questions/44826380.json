@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826380,
+  "title" : "Use a variable inside regex",
+  "body" : "<pre><code>if ( !/^(http)(s?):\\/\\//.test(url) || /^(http)(s?):\\/\\/example\\.com\\//.test(url) ) {\n    window.localLinkClicked = true;\n}else{\n    window.localLinkClicked = false;\n}\n</code></pre>\n\n<p>I have to replace the domain example.com with window.location.hostname.\nI tried a bunch of stuff including using the RegExp method but I keep failing and wasting hours on it.<br><br>\nthank you</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826380/use-a-variable-inside-regex",
+  "owner" : {
+    "user_id" : 405809,
+    "user_type" : "registered",
+    "display_name" : "qwertzman",
+    "profile_image" : "https://i.stack.imgur.com/7krqL.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/405809/qwertzman",
+    "reputation" : 520,
+    "accept_rate" : 86
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742600,
+  "last_activity_date" : 1498742600,
+  "tags" : [
+    "javascript",
+    "regex"
+  ],
+  "score" : -1,
+  "view_count" : 27,
+  "answer_count" : 0
+}

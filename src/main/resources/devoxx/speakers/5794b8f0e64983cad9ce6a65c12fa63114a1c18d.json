@@ -1,0 +1,37 @@
+{
+  "uuid" : "5794b8f0e64983cad9ce6a65c12fa63114a1c18d",
+  "bioAsHtml" : "<p>Agitateur technique chez Apside, Christophe prêche les bonnes pratiques sur divers projets informatiques et universités en région tourangelle. Reconverti à l’informatique il y a 14 ans suite à un doctorat de neurobiologie, il contribue activement dans les communautés Java en ayant été co-responsable de la rubrique Java du site developpez.com mais aussi en participant à des conférences et en animant depuis 2008 le Tours JUG.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Future, Robotique",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/SPS-7476",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5794b8f0e64983cad9ce6a65c12fa63114a1c18d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Christophe Jollivet"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/eb907624328fb5d99c8819af562f8b47d7b8515d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Mickael Débonnaire"
+        }
+      ],
+      "id" : "SPS-7476",
+      "title" : "Une application qui voit, entend et répond"
+    }
+  ],
+  "company" : "Apside TOP",
+  "bio" : "Agitateur technique chez Apside, Christophe prêche les bonnes pratiques sur divers projets informatiques et universités en région tourangelle. Reconverti à l’informatique il y a 14 ans suite à un doctorat de neurobiologie, il contribue activement dans les communautés Java en ayant été co-responsable de la rubrique Java du site developpez.com mais aussi en participant à des conférences et en animant depuis 2008 le Tours JUG.",
+  "lastName" : "Jollivet",
+  "firstName" : "Christophe",
+  "blog" : "https://plus.google.com/+ChristopheJollivet",
+  "avatarURL" : "https://lh3.googleusercontent.com/-3sUzAaUN01o/AAAAAAAAAAI/AAAAAAAACzE/6Nekr6L7RSk/photo.jpg",
+  "twitter" : "@jollivetc",
+  "lang" : "fr-FR"
+}

@@ -1,0 +1,32 @@
+{
+  "uuid" : "8c160a2a2981345e84860a1298a662cc02a17d72",
+  "bioAsHtml" : "<p>Passionné par le développement de logiciels et par la veille technologique, je possède une longue expérience, en SSII et personnelle, dans l&#x27;écriture d&#x27;applications avec différents langages.\nUtilisant Java depuis sa version 1.0, j&#x27;aime partager ma passion pour cette plateforme et son écosystème notamment  en me consacrant, depuis plus d&#x27;une quinzaine d&#x27;années, à la rédaction de deux tutoriels, intitulés &quot;Développons en Java&quot;, diffusés sous licence GNU FDL.\nCe travail m&#x27;a permis d&#x27;être nommé Java Champion. Je suis également un des cofondateurs du Lorraine JUG.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/KRC-0154",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8c160a2a2981345e84860a1298a662cc02a17d72",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Michel Doudoux"
+        }
+      ],
+      "id" : "KRC-0154",
+      "title" : "Java 9 modulo les modules"
+    }
+  ],
+  "company" : "Oxiane Luxembourg",
+  "bio" : "Passionné par le développement de logiciels et par la veille technologique, je possède une longue expérience, en SSII et personnelle, dans l'écriture d'applications avec différents langages. \r\nUtilisant Java depuis sa version 1.0, j'aime partager ma passion pour cette plateforme et son écosystème notamment  en me consacrant, depuis plus d'une quinzaine d'années, à la rédaction de deux tutoriels, intitulés \"Développons en Java\", diffusés sous licence GNU FDL. \r\nCe travail m'a permis d'être nommé Java Champion. Je suis également un des cofondateurs du Lorraine JUG.",
+  "lastName" : "Doudoux",
+  "firstName" : "Jean-Michel",
+  "blog" : "http://www.jmdoudoux.fr",
+  "avatarURL" : "https://lh3.googleusercontent.com/-fwhr1-qwoiI/AAAAAAAAAAI/AAAAAAAAAH0/PkWDrF9RfiU/photo.jpg",
+  "twitter" : "@jmdoudoux",
+  "lang" : "fr"
+}

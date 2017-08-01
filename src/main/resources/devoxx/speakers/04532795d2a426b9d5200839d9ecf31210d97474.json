@@ -1,0 +1,37 @@
+{
+  "uuid" : "04532795d2a426b9d5200839d9ecf31210d97474",
+  "bioAsHtml" : "<p>Secure Domain Philosopher; Agile aficionado; Domain Driven Design enthusiast; code quality craftsman, with a long time interest in security. The combination made Dan use quality practices from DDD to adress application security issues - thus being one of the founders of the field Domain Driven Security around 2009. Partner at Swedish consultancy Omegapoint.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/LUC-5770",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/adedff2cfbf0c9cba5d9ad21bc011202474fa464",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Daniel Deogun"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/04532795d2a426b9d5200839d9ecf31210d97474",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Dan Bergh Johnsson"
+        }
+      ],
+      "id" : "LUC-5770",
+      "title" : "Domain Driven Security"
+    }
+  ],
+  "company" : "Omegapoint",
+  "bio" : "Secure Domain Philosopher; Agile aficionado; Domain Driven Design enthusiast; code quality craftsman, with a long time interest in security. The combination made Dan use quality practices from DDD to adress application security issues - thus being one of the founders of the field Domain Driven Security around 2009. Partner at Swedish consultancy Omegapoint.",
+  "lastName" : "Bergh Johnsson",
+  "firstName" : "Dan",
+  "blog" : "http://dearjunior.blogspot.com",
+  "avatarURL" : "https://lh5.googleusercontent.com/-GeNqX6Koz6E/AAAAAAAAAAI/AAAAAAAAAAA/IxwuHll2glw/photo.jpg",
+  "twitter" : "@danbjson",
+  "lang" : "en"
+}

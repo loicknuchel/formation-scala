@@ -1,0 +1,37 @@
+{
+  "uuid" : "107a73b249ba18ce1d810e47cac9ba851e0d8fcd",
+  "bioAsHtml" : "<p>Nosql, data processing, scala and spark fanboy. Certified as developer and admin on MongoDB.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/OLL-8114",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/96409f05d7b7849b819376e797097b7822d762ac",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Youen Chéné"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/107a73b249ba18ce1d810e47cac9ba851e0d8fcd",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Aurélien Vandel"
+        }
+      ],
+      "id" : "OLL-8114",
+      "title" : "Spark Streaming and Suicidal Tendencies "
+    }
+  ],
+  "company" : "M.",
+  "bio" : "Nosql, data processing, scala and spark fanboy. Certified as developer and admin on MongoDB.\r\n\r\n",
+  "lastName" : "Vandel",
+  "firstName" : "Aurélien",
+  "blog" : "aure.vandel@gmail.com",
+  "avatarURL" : "https://www.saagie.com/user/pages/team/Aurelien.jpg",
+  "twitter" : "@aurevandel",
+  "lang" : "en"
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Tools-in-Action",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Et si vous pouviez prédire le futur en quelques lignes de code ?\nAprès une brève introduction aux différents principes de Machine Learning appliqués aux séries temporelles (évolution d'une valeur au cours du temps), nous verrons comment développer un système d'apprentissage permettant de prédire les ventes sur votre site ecommerce. Nous pourrons ainsi prévoir les stocks et le sizing de vos machines sans redouter un black friday !</p>\n<p>Au programme: une démonstration de Machine Learning avec l'api de Spark, sans formule mathématique incongrue et sans ligne de code mystérieuse</p>\n",
+  "id" : "ZUR-8901",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1ee1299d3d20ad6a5f1f18689a52116f6b0e7db8",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Quentin Ambard"
+      },
+      "name" : "Quentin Ambard"
+    }
+  ],
+  "title" : "Machine learning et séries temporelles : Comment prédire les ventes de votre site ecommerce avec Spark",
+  "lang" : "fr",
+  "summary" : "Et si vous pouviez prédire le futur en quelques lignes de code ? \r\nAprès une brève introduction aux différents principes de Machine Learning appliqués aux séries temporelles (évolution d'une valeur au cours du temps), nous verrons comment développer un système d'apprentissage permettant de prédire les ventes sur votre site ecommerce. Nous pourrons ainsi prévoir les stocks et le sizing de vos machines sans redouter un black friday ! \r\n\r\nAu programme: une démonstration de Machine Learning avec l'api de Spark, sans formule mathématique incongrue et sans ligne de code mystérieuse"
+}

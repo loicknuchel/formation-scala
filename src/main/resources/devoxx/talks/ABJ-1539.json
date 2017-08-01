@@ -1,0 +1,28 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Tools-in-Action",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Après la grande guerre initd et systemd, il est clair que maintenant systemd s'est imposé. Pourquoi ? Quels sont les intérêts ?\nEst ce difficile de faire un fichier de configuration systemd ? Comment ça marche ? Comment écrire un fichier de conf ? Comment gérer des CRONs avec ?</p>\n",
+  "id" : "ABJ-1539",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e0ce87f40a638c59e9da24231ef05da65aa355f3",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Quentin Adam"
+      },
+      "name" : "Quentin Adam"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/bd180439d18ae1d3bf3d3fc1b87113509b650c2e",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Clément Delafargue"
+      },
+      "name" : "Clément Delafargue"
+    }
+  ],
+  "title" : "Comment ça marche systemd déjà ?",
+  "lang" : "fr",
+  "summary" : "Après la grande guerre initd et systemd, il est clair que maintenant systemd s'est imposé. Pourquoi ? Quels sont les intérêts ?\r\nEst ce difficile de faire un fichier de configuration systemd ? Comment ça marche ? Comment écrire un fichier de conf ? Comment gérer des CRONs avec ?"
+}

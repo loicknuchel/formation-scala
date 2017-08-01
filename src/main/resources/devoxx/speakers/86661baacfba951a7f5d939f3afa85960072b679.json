@@ -1,0 +1,32 @@
+{
+  "uuid" : "86661baacfba951a7f5d939f3afa85960072b679",
+  "bioAsHtml" : "<p>Je suis un architecte &quot;qui code&quot; pour les salles de marchés d&#x27;une grande banque française.<br  />\nPassionné par les challenges techniques de toutes sortes, je m&#x27;intéresse aux écosystèmes Java, .net et js. Fan de code propre, simple et efficace, je suis à l&#x27;origine de plusieurs plugins open source pour sonar</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/IMG-9953",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/86661baacfba951a7f5d939f3afa85960072b679",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Alexandre Victoor"
+        }
+      ],
+      "id" : "IMG-9953",
+      "title" : "HdrHistogram: l'outil indispensable pour mesurer la latence"
+    }
+  ],
+  "company" : "Société Générale",
+  "bio" : "Je suis un architecte \"qui code\" pour les salles de marchés d'une grande banque française.  \r\nPassionné par les challenges techniques de toutes sortes, je m'intéresse aux écosystèmes Java, .net et js. Fan de code propre, simple et efficace, je suis à l'origine de plusieurs plugins open source pour sonar",
+  "lastName" : "Victoor",
+  "firstName" : "Alexandre",
+  "blog" : "https://github.com/alexvictoor",
+  "avatarURL" : "https://avatars3.githubusercontent.com/u/437172?v=3&u=7d698210cb59ae85336eced78d95c8ac426a0af7",
+  "twitter" : "@Alex_Victoor",
+  "lang" : "fr"
+}

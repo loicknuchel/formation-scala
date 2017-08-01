@@ -1,0 +1,36 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "Conference",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>Comment protéger l'ensemble de nos clients du comportement d'un seul, sur une plateforme SaaS ? c'est à cette question que nous avons dû répondre lorsque le succès s'est présenté pour MANGOPAY, ce qui nous a conduit à la mise en place de rate-limiting.\nNous reviendrons sur les problématiques de production, la solution mise en place et les effets sur les relations avec les clients, avec les points de vue de la CTO, du développeur et du responsable qualité.</p>\n",
+  "id" : "ISY-6599",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/aeb16de2492707486972ea876cf45b2a58334f01",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Laure Némée"
+      },
+      "name" : "Laure Némée"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4e6db972fa8bd3e583d0aa571182b2a29427c36f",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Bertrand Lemasle"
+      },
+      "name" : "Bertrand Lemasle"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/25875699d7bad7bb61e8575b2a7c4e6228b668e8",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Yann Person"
+      },
+      "name" : "Yann Person"
+    }
+  ],
+  "title" : "Une histoire de rate-limiting, ou comment les sysadmins de MANGOPAY ont retrouvé le sommeil",
+  "lang" : "fr",
+  "summary" : "Comment protéger l'ensemble de nos clients du comportement d'un seul, sur une plateforme SaaS ? c'est à cette question que nous avons dû répondre lorsque le succès s'est présenté pour MANGOPAY, ce qui nous a conduit à la mise en place de rate-limiting. \r\nNous reviendrons sur les problématiques de production, la solution mise en place et les effets sur les relations avec les clients, avec les points de vue de la CTO, du développeur et du responsable qualité. "
+}

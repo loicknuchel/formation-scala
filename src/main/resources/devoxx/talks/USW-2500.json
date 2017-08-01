@@ -1,0 +1,20 @@
+{
+  "trackId" : "mobile",
+  "talkType" : "Quickie",
+  "track" : "Mobile, IoT",
+  "summaryAsHtml" : "<p>MQTT est en passe de devenir LE protocole IoT. Nous allons faire le tour de ce protocole imaginé il y a plus de 10 ans, mais qui recèle encore bien des secrets.\nUtilisé dans le monde du mobile ou via des appareils de plus en plus communiquants, il permet de répondre à un large panel de cas d'usage.</p>\n",
+  "id" : "USW-2500",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/762e5d195bf1569b3882803eb2ab046a76a047ee",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Sylvain Maucourt"
+      },
+      "name" : "Sylvain Maucourt"
+    }
+  ],
+  "title" : "Mqtt, le protocole IoT",
+  "lang" : "fr",
+  "summary" : "MQTT est en passe de devenir LE protocole IoT. Nous allons faire le tour de ce protocole imaginé il y a plus de 10 ans, mais qui recèle encore bien des secrets.\r\nUtilisé dans le monde du mobile ou via des appareils de plus en plus communiquants, il permet de répondre à un large panel de cas d'usage. "
+}

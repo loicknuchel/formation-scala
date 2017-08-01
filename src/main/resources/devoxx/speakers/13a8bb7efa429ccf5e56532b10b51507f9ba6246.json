@@ -1,0 +1,65 @@
+{
+  "uuid" : "13a8bb7efa429ccf5e56532b10b51507f9ba6246",
+  "bioAsHtml" : "<p>Developer and Devops enthusiast at Xebia</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/INA-4429",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/13a8bb7efa429ccf5e56532b10b51507f9ba6246",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yannick Lorenzati"
+        }
+      ],
+      "id" : "INA-4429",
+      "title" : "Terraform 101"
+    },
+    {
+      "talkType" : "University",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/XLN-5017",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ef3e67404ec693b2ea41b64ad10814b3a196c5e1",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jonathan Raffre"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b09a6ff3a1e23265ff444ab0bdbb1498eccfb54f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Louis Rigau"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3e2f191f8152738fdcc572a0a84e37d7fc96bf41",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Thomas Auffredou"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/13a8bb7efa429ccf5e56532b10b51507f9ba6246",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yannick Lorenzati"
+        }
+      ],
+      "id" : "XLN-5017",
+      "title" : "Orchestration de conteneurs : le choix des armes !"
+    }
+  ],
+  "company" : "Xebia",
+  "bio" : "Developer and Devops enthusiast at Xebia",
+  "lastName" : "Lorenzati",
+  "firstName" : "Yannick",
+  "blog" : null,
+  "avatarURL" : "https://lh4.googleusercontent.com/-09TgPaGBZ3E/AAAAAAAAAAI/AAAAAAAABNg/7MTKsnKbciI/photo.jpg",
+  "twitter" : "@ylorenzati",
+  "lang" : "fr-FR"
+}

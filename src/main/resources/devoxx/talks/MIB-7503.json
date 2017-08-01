@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Conference",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>En une année, le nouveau cluster Hadoop de Criteo a doublé de taille, finissant l'année à ~1080 datanodes soit ~88Po bruts.\nCela en plus du cluster existant de taille équivalente en termes de datanodes.</p>\n<p>Ce talk propose une rétrospective d'une année d'exploitation d'Hadoop sous l'angle de quelques incidents marquants et permettant de présenter comment nous assurons la stabilité de clusters Hadoop de plus de 1000 datanodes.\nNous parlerons notamment :\n* De quelques incidents majeurs ayant mis en lumière des bugs HDFS et YARN et visibles à grande échelle\n* De la scalabilité du Namenode et comment nous le gérons\n* De l'impact de jobs sur la disponibilité du cluster ou de ses gateways de soumission et comment nous le gérons</p>\n",
+  "id" : "MIB-7503",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/2599c80a6b23275fce6729e031a6a9601aff7f64",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Rémy Saissy"
+      },
+      "name" : "Rémy Saissy"
+    }
+  ],
+  "title" : "Hadoop sous pression — Retour sur une année d'exploitation à Criteo",
+  "lang" : "fr",
+  "summary" : "En une année, le nouveau cluster Hadoop de Criteo a doublé de taille, finissant l'année à ~1080 datanodes soit ~88Po bruts.\r\nCela en plus du cluster existant de taille équivalente en termes de datanodes.\r\n\r\nCe talk propose une rétrospective d'une année d'exploitation d'Hadoop sous l'angle de quelques incidents marquants et permettant de présenter comment nous assurons la stabilité de clusters Hadoop de plus de 1000 datanodes.\r\nNous parlerons notamment :\r\n* De quelques incidents majeurs ayant mis en lumière des bugs HDFS et YARN et visibles à grande échelle\r\n* De la scalabilité du Namenode et comment nous le gérons\r\n* De l'impact de jobs sur la disponibilité du cluster ou de ses gateways de soumission et comment nous le gérons"
+}

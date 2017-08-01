@@ -1,0 +1,32 @@
+{
+  "uuid" : "08cb871e113de90665a8b134986af5ad031f4475",
+  "bioAsHtml" : "<p>Tugdual Grall, est Chief Technical Evangelist EMEA chez MapR. Il travaille avec les clients et communautés de développeurs européennes, pour faciliter l&#x27;adoption de MapR, Hadoop et NoSQL.</p>\n<p>Avant de travailler chez MapR, &quot;Tug&quot;, était Technical Evangelist chez MongoDB et Couchbase. Tug a également travaillé comme CTO chez eXo Platform, et comme Product Manager et Développeur sur la platform Java/JavaEE d&#x27;Oracle.</p>\n<p>Tugdual est également co-fondateur du Nantes JUG (Java Users Group) qui réunit tous les mois depuis 2008 les développeurs et architectes de la région nantaise.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/KEP-1372",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/08cb871e113de90665a8b134986af5ad031f4475",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Tugdual Grall"
+        }
+      ],
+      "id" : "KEP-1372",
+      "title" : "Stream Processing avec Apache Flink"
+    }
+  ],
+  "company" : "MapR",
+  "bio" : "Tugdual Grall, est Chief Technical Evangelist EMEA chez MapR. Il travaille avec les clients et communautés de développeurs européennes, pour faciliter l'adoption de MapR, Hadoop et NoSQL.\r\n \r\nAvant de travailler chez MapR, \"Tug\", était Technical Evangelist chez MongoDB et Couchbase. Tug a également travaillé comme CTO chez eXo Platform, et comme Product Manager et Développeur sur la platform Java/JavaEE d'Oracle.\r\n \r\nTugdual est également co-fondateur du Nantes JUG (Java Users Group) qui réunit tous les mois depuis 2008 les développeurs et architectes de la région nantaise.\r\n ",
+  "lastName" : "Grall",
+  "firstName" : "Tugdual",
+  "blog" : "http://tgrall.github.io/",
+  "avatarURL" : "http://www.gravatar.com/avatar/aab9ac774f61c5d9bf143b5a1bfe901b",
+  "twitter" : "@tgrall",
+  "lang" : "fr"
+}

@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826163,
+  "title" : "My microsoft bot framework does not work in digital ocean",
+  "body" : "<p>I did deploy my microsoft bot framework app to digital ocean. It is working when you make request from browser. But from console of microsoft bot framework I can not send message from test messenger. I made all of requirements: added appid and password, set up nginx and proxy. What i had to do.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826163/my-microsoft-bot-framework-does-not-work-in-digital-ocean",
+  "owner" : {
+    "user_id" : 5060249,
+    "user_type" : "registered",
+    "display_name" : "Peter Vasiliev",
+    "profile_image" : "https://graph.facebook.com/839672196109022/picture?type=large",
+    "link" : "https://stackoverflow.com/users/5060249/peter-vasiliev",
+    "reputation" : 42,
+    "accept_rate" : 75
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742030,
+  "last_activity_date" : 1498742030,
+  "tags" : [
+    "botframework",
+    "digital-ocean"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

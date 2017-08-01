@@ -1,0 +1,28 @@
+{
+  "trackId" : "lang",
+  "talkType" : "Hands-on Labs",
+  "track" : "Langages alternatifs",
+  "summaryAsHtml" : "<p>De plus en plus de développeurs Java se tournent vers le Go, le langage backend qui monte, qui monte.</p>\n<p>Lors de cet atelier, nous vous proposons de développer du sol au plafond un petit service web REST qui expose des data JSON récupérées en base de données.</p>\n<p>Nous commencerons par le parsing d'arguments de la ligne de commande et le logging. Nous verrons ensuite comment modéliser et manipuler la data avec MongoDB. Pour finir nous attaquerons la partie web avec les middleware, le routage et les handler.</p>\n<p>L'objectif de cet atelier est mettre les mains dans le code et vous familiariser avec le langage et son écosystème (make, test, vendors, libs, etc). Il est recommandé d'avoir fait le <a href=\"https://tour.golang.org/welcome/1\">tour of Go</a> et d'être déjà à l'aise avec le langage pour rentrer plus facilement dans le sujet. Un workspace de développement est fourni pour les OS Unix friendly (linux, mac) et des VM sont à disposition des utilisateurs Windows ou de ceux qui le souhaitent.</p>\n<p>En bonus, nous pourrons déployer le tout dans un docker-compose prévoir donc un docker et docker-compose sur sa machine pour aller au bout de l'atelier.</p>\n",
+  "id" : "WXR-3840",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/bdcd981e013426ad1fa33b18d7cbe1df92d9874c",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Sébastien FRIESS"
+      },
+      "name" : "Sébastien FRIESS"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/da90527e0f6fbe2960f3594b274551f753e28859",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Romain lespinasse"
+      },
+      "name" : "Romain lespinasse"
+    }
+  ],
+  "title" : "Votre premier microservice en Go",
+  "lang" : "fr",
+  "summary" : "De plus en plus de développeurs Java se tournent vers le Go, le langage backend qui monte, qui monte.\r\n\r\nLors de cet atelier, nous vous proposons de développer du sol au plafond un petit service web REST qui expose des data JSON récupérées en base de données.\r\n\r\nNous commencerons par le parsing d'arguments de la ligne de commande et le logging. Nous verrons ensuite comment modéliser et manipuler la data avec MongoDB. Pour finir nous attaquerons la partie web avec les middleware, le routage et les handler.\r\n\r\nL'objectif de cet atelier est mettre les mains dans le code et vous familiariser avec le langage et son écosystème (make, test, vendors, libs, etc). Il est recommandé d'avoir fait le [tour of Go](https://tour.golang.org/welcome/1) et d'être déjà à l'aise avec le langage pour rentrer plus facilement dans le sujet. Un workspace de développement est fourni pour les OS Unix friendly (linux, mac) et des VM sont à disposition des utilisateurs Windows ou de ceux qui le souhaitent.\r\n\r\nEn bonus, nous pourrons déployer le tout dans un docker-compose prévoir donc un docker et docker-compose sur sa machine pour aller au bout de l'atelier."
+}

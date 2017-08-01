@@ -1,0 +1,20 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "Tools-in-Action",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>Comment sécuriser son application AngularJS basée sur des services REST en la protégeant du Top 10 OWASP (10 risques de sécurité les plus critiques) :\n- gérer les habilitations\n- contrôle des données côté serveur\n- éviter les fuites de données sensibles\n- protection CSRF\n...</p>\n<p>Où l'implémenter (frontend ou backend) ?</p>\n<p>Comment la tester ? BDD avec RestAssured et Cucumber</p>\n",
+  "id" : "PPS-6875",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a40cb55c9c31a3eb5c63cd6152e8606d12e010f1",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Pascal Abaziou"
+      },
+      "name" : "Pascal Abaziou"
+    }
+  ],
+  "title" : "Protéger son application web des risques de sécurité les plus critiques",
+  "lang" : "fr",
+  "summary" : "Comment sécuriser son application AngularJS basée sur des services REST en la protégeant du Top 10 OWASP (10 risques de sécurité les plus critiques) :\r\n- gérer les habilitations \r\n- contrôle des données côté serveur\r\n- éviter les fuites de données sensibles\r\n- protection CSRF\r\n...\r\n\r\nOù l'implémenter (frontend ou backend) ? \r\n\r\nComment la tester ? BDD avec RestAssured et Cucumber"
+}

@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826830,
+  "title" : "Unable to compile jitsi android source code in android studio",
+  "body" : "<p>When i am import the jitsi-meet android source code in android studio. then there is compiler error.</p>\n\n<p>Failed to resolve: Could not resolve project :react-native-immersive. Required by: project :app > project :sdk Open File</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826830/unable-to-compile-jitsi-android-source-code-in-android-studio",
+  "owner" : {
+    "user_id" : 4486387,
+    "user_type" : "registered",
+    "display_name" : "pawan kumar sharma",
+    "profile_image" : "https://lh5.googleusercontent.com/-N2cAsP6aLEs/AAAAAAAAAAI/AAAAAAAAAEY/G6ZInEISIqs/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/4486387/pawan-kumar-sharma",
+    "reputation" : 14,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743690,
+  "last_activity_date" : 1498743690,
+  "tags" : [
+    "android",
+    "react-native-android",
+    "jitsi"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

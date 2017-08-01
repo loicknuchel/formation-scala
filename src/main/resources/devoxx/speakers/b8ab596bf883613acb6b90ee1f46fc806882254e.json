@@ -1,0 +1,37 @@
+{
+  "uuid" : "b8ab596bf883613acb6b90ee1f46fc806882254e",
+  "bioAsHtml" : "<p>Développeur, formateur, freelance, conférencier et troll.\nJe m&#x27;intéresse beaucoup aux problématiques bas niveau, de performance et d&#x27;optimisation ainsi qu&#x27;aux systèmes distribués, que ce soit au niveau de la JVM, du système et des bases de données.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/YYE-3179",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b8ab596bf883613acb6b90ee1f46fc806882254e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Olivier Bourgain"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/22aa46639b9a92b1d2d28dbe70556f3cac2231b8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Baptiste PETIT"
+        }
+      ],
+      "id" : "YYE-3179",
+      "title" : "Introduction à Rust"
+    }
+  ],
+  "company" : "OBMG",
+  "bio" : "Développeur, formateur, freelance, conférencier et troll.\r\nJe m'intéresse beaucoup aux problématiques bas niveau, de performance et d'optimisation ainsi qu'aux systèmes distribués, que ce soit au niveau de la JVM, du système et des bases de données.",
+  "lastName" : "Bourgain",
+  "firstName" : "Olivier",
+  "blog" : "https://github.com/obourgain",
+  "avatarURL" : "http://www.gravatar.com/avatar/3550b689279d2c0bbf0f19aa86860705",
+  "twitter" : "@obourgain",
+  "lang" : "fr"
+}

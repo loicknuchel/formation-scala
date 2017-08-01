@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826154,
+  "title" : "Why ajax put FormData into request.data instead of request.files?",
+  "body" : "<p>I'm new to ajax and flask.And I want to upload image file through an ajax call in html.So I wrote javascript as this:</p>\n\n<pre><code>function mysubmit(input){\nvar file_input = document.getElementById('file-input-left');\nvar form_data = new FormData();\nvar file = file_input.files[0];\nalert(file);\nform_data.append('file', file);\n$.ajax({\n    type: 'POST',\n    url: '/calc_full_result',\n    data: form_data,\n    contentType: false,\n    cache: false,\n    processData: false,\n    async: false,\n    success: function(data){\n        alert('Success!');\n    },\n});\n</code></pre>\n\n<p>}</p>\n\n<p>and the html:</p>\n\n<pre><code>&lt;div class=\"image-holder\"&gt;\n&lt;form action=\"/calc_full_result\" id=\"upload-form-left\" name=\"form-left\" method=post enctype=multipart/form-data&gt;\n&lt;div class=\"image-holder-left\"&gt;\n    &lt;div class=\"image-upload\"&gt;\n    {% if img_left %}\n    &lt;label id=\"upload-left-label\" for=\"file-input-left\"&gt;&lt;img id=\"left-image\" src=\"data:image/png;base64, {{img_left}}\"/&gt;&lt;/label&gt;\n    {% else %}\n    &lt;label id=\"upload-left-label\" for=\"file-input-left\"&gt;&lt;img id=\"left-image\" src=\"{{url_for('static', filename='upload_fill.png')}}\" /&gt;&lt;/label&gt;\n    {% endif %}\n    &lt;input id=\"file-input-left\" type=file name=file onchange=\"mysubmit(this)\"/&gt;\n    &lt;/div&gt;\n&lt;/div&gt;\n&lt;form action=\"/calc_full_result\" id=\"upload-form-right\" name=\"form-right\" method=post enctype=multipart/form-data&gt;\n&lt;div class=\"image-holder-right\"&gt;\n    &lt;div class=\"image-upload\"&gt;\n    {% if img_right %}\n    &lt;label id=\"upload-right-label\" for=\"file-input-right\"&gt;&lt;img id=\"right-image\" src=\"data:image/png;base64, {{img_right}}\"/&gt;&lt;/label&gt;\n    {% else %}\n    &lt;label id=\"upload-right-label\" for=\"file-input-right\"&gt;&lt;img id=\"right-image\" src=\"{{url_for('static', filename='upload_fill.png')}}\"/&gt;&lt;/label&gt;\n    {% endif %}\n    &lt;input id=\"file-input-right\" type=file name=file onchange=\"mysubmit(this)\"/&gt;\n    &lt;/div&gt;\n&lt;/div&gt;\n&lt;/form&gt;\n</code></pre>\n\n<p></p>\n\n<p>Then in app.py:</p>\n\n<pre><code>@app.route('/calc_full_result', methods=['POST'])\ndef calc_full_result():\n    if request.method == 'POST':\n        file = request.files['file']\n        return jsonify(result=\"suc\")\n</code></pre>\n\n<p>But I cannot get the object file, it's always empty and cannot be saved.When I check the request I can see len(request.data) is almost the size of image file.\nI wonder why request.files is empty and how to save the file in request.data? Is it possible?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826154/why-ajax-put-formdata-into-request-data-instead-of-request-files",
+  "owner" : {
+    "user_id" : 3656176,
+    "user_type" : "registered",
+    "display_name" : "Guillaume",
+    "profile_image" : "https://www.gravatar.com/avatar/bf2bc8e2d724ccc6f502356f6c59327a?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/3656176/guillaume",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742008,
+  "last_activity_date" : 1498742008,
+  "tags" : [
+    "ajax",
+    "flask",
+    "upload"
+  ],
+  "score" : 0,
+  "view_count" : 8,
+  "answer_count" : 0
+}

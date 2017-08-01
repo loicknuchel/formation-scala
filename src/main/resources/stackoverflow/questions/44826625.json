@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826625,
+  "title" : "Retrieve information from the database and display in app",
+  "body" : "<p>This is my very first beginner of developing an android app, i creating a login register app, and also let the user to key in user profile details. Right now i having problem of how to display all the information after the user has filled in all the details in the app which stored into the database. And my database consists of 2 tables, account details and account contact, which link together. </p>\n\n<p>account details have account_ID(primary key), username, f_name, l_name, date of birth, street, postal_code, city, state, country.\naccount contact have account_ID(foreign key), contact_number, contact_type.</p>\n\n<p>so how do i display in the app when the user login with their username and click the profile activity can display all the information?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826625/retrieve-information-from-the-database-and-display-in-app",
+  "owner" : {
+    "user_id" : 8194423,
+    "user_type" : "registered",
+    "display_name" : "lolol",
+    "profile_image" : "https://www.gravatar.com/avatar/25332cae52cb0a16da877d8eba069366?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8194423/lolol",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743211,
+  "last_activity_date" : 1498743211,
+  "tags" : [
+    "php",
+    "android"
+  ],
+  "score" : -3,
+  "view_count" : 18,
+  "answer_count" : 0
+}

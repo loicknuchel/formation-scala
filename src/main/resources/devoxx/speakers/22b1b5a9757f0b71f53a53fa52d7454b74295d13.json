@@ -1,0 +1,37 @@
+{
+  "uuid" : "22b1b5a9757f0b71f53a53fa52d7454b74295d13",
+  "bioAsHtml" : "<p>Après avoir travaillé en tant que développeur chez Microsoft aux États-Unis, Yoann Buch est revenu en France rejoindre son associé Yiquan Zhou pour travailler sur http://findtheflow.io. Leur objectif est d&#x27;aider les développeurs à comprendre plus efficacement leurs applications.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/PTA-8724",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/22b1b5a9757f0b71f53a53fa52d7454b74295d13",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yoann Buch"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/711109fd3ce1ae47e5ff29c5e3221ecdc669e0f1",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yiquan Zhou"
+        }
+      ],
+      "id" : "PTA-8724",
+      "title" : "Visualisez l'exécution de votre code avec Flow"
+    }
+  ],
+  "company" : "Flow",
+  "bio" : "Après avoir travaillé en tant que développeur chez Microsoft aux États-Unis, Yoann Buch est revenu en France rejoindre son associé Yiquan Zhou pour travailler sur http://findtheflow.io. Leur objectif est d'aider les développeurs à comprendre plus efficacement leurs applications.\r\n",
+  "lastName" : "Buch",
+  "firstName" : "Yoann",
+  "blog" : "http://findtheflow.io",
+  "avatarURL" : "https://media.licdn.com/mpr/mprx/0_PKGMavVTF7NiRYyZs3V46TR8LgjCYxANnNNMeT2T37DiR7gZ9QNN8bBT_4MCRO2Js3nMhvZ3WaY_ZUYMxiF56TMD2aYGZUJvViFsD8uhFfwmtSGdntlqSqCAuUk-AUmkP8_vEOOq09V",
+  "twitter" : "@YoannBuch",
+  "lang" : "en-US"
+}

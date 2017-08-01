@@ -1,0 +1,32 @@
+{
+  "uuid" : "8896df7ea353b6d3a62fe424bacb24e30961bc28",
+  "bioAsHtml" : "<p>Software engineer / technical leader with solid experience in large scale software development. Passionate about software development process and technologies.\nDeveloped trading systems; microservices architecture for World leading social games; built core infrastructure backend services for a unicorn startup in Silicon Valley with 300+ million users.\nCurrently working on IoT platform at Google.\nAimed to deliver the software with better product and code quality.\nClean coder, test-driven developer.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/LZC-6485",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8896df7ea353b6d3a62fe424bacb24e30961bc28",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Alex Borysov"
+        }
+      ],
+      "id" : "LZC-6485",
+      "title" : "Enabling Googley microservices with gRPC."
+    }
+  ],
+  "company" : "Google",
+  "bio" : "Software engineer / technical leader with solid experience in large scale software development. Passionate about software development process and technologies.\r\nDeveloped trading systems; microservices architecture for World leading social games; built core infrastructure backend services for a unicorn startup in Silicon Valley with 300+ million users. \r\nCurrently working on IoT platform at Google.\r\nAimed to deliver the software with better product and code quality.\r\nClean coder, test-driven developer.",
+  "lastName" : "Borysov",
+  "firstName" : "Alex",
+  "blog" : null,
+  "avatarURL" : "https://lh3.googleusercontent.com/ENDa_ms_OE3pIZIU2vxZNSHrYp0D_JuyyoB5xGhk1LA0kIeEbNsSMFsE1ECfRXDjvEQWzHS8oj9xG1PVrlWJKgGlCNQeuEWm7jaOabGX_aRiI2IhInO8IAkld3GeGGfQUrWpASRF4bjlK0vrSJrC9ZiQXqKGiFZ6BLQaNpXF7ZatXAf67PlLq-lvWxoyscR0yuwQ71EpKOc1FN-3-fQbCGSgGTWJXnNu6h228LU2poiUSACh6sOTHUM4UIsjA57GBOvXW4HZ7kJ0eQQ3xdLtXH5hLi8c78c9Rbfkr7WGxD0c87WDYyml6DDc3z1YI3kmBmW4WDb3N1ByBxBWxDVS_LsQaOwiJcl9Dp8P817gg5UYQQi25H0rrpRFatG29MZyWPCDIMFBtHtpiEGkyxf82elfbTqY_891VELJ7sm6kvPu6xeP6aN4kw8vKfyRlLwsk0FPFlUjS5i3umv79ggl1ArNyXNPOfmt38VrUDC0g6fePh53EkqPV4vXxsKXkdBtqKdcnY02_KMBySxqz00xKqUIX2fyZWdynWPNfjT3MlfQIwkDO-N_B5Z_DKA2zK8fbzPPQ__LHhJZlrmmMUztTftXmxuPYDJzVwsVLbDKL4stpCgz=w741-h723-no",
+  "twitter" : "@aiborisov",
+  "lang" : "fr"
+}

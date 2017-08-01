@@ -1,0 +1,27 @@
+{
+  "question_id" : 44806114,
+  "title" : "Why can&#39;t I print out all of the member names of my macro-created struct?",
+  "body" : "<p>I'm a bit of a noob when it comes to using macros, but I am running into a problem that I can't explain.</p>\n\n<p>I have used macros to generate the BlockA struct like this:</p>\n\n<pre><code>#define TO_STRUCT(structname, type, member, size) type member size;\n#define MEMBER_COUNT(structname, type, member, size) +1\n#define MEMBER_NAME(structname, type, member, size)  #member,\n\n#define BLOCK_STRUCT_MEMBERS(p)\\\n    p(BlockA, RegTypeA, regA, [5])\\\n    p(BlockA, RegTypeB, regB, )\\\n\n struct BlockA {\n    BLOCK_STRUCT_MEMBERS(TO_STRUCT)\n    int addr;\n    BlockA(int address);\n};\n</code></pre>\n\n<p>And then, I have printed out the count of how many members were put into the struct using the macros:</p>\n\n<pre><code>std::cout &lt;&lt; BLOCK_STRUCT_MEMBERS(MEMBER_COUNT);\n</code></pre>\n\n<p>This prints out the correct response: 2, and if I did the same with the second member commented out when I define it in BLOCK_STRUCT_MEMBERS, it prints 1, which makes sense. So that seems to be working. But if I try to print the names of the members using almost exactly the same method, like this, it only prints the name of the first member:</p>\n\n<pre><code>std::cout &lt;&lt; BLOCK_STRUCT_MEMBERS(MEMBER_NAME)\n</code></pre>\n\n<p>It also complains that it expected an expression when I try to put a semicolon after it, like I did when I printed the count. Why is this happening?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806114/why-cant-i-print-out-all-of-the-member-names-of-my-macro-created-struct",
+  "owner" : {
+    "user_id" : 8222655,
+    "user_type" : "registered",
+    "display_name" : "Miranda Thomson",
+    "profile_image" : "https://www.gravatar.com/avatar/f5e7e7c1bbf299f4162b1ba8443e973b?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8222655/miranda-thomson",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661925,
+  "last_activity_date" : 1498661925,
+  "tags" : [
+    "c++",
+    "debugging",
+    "struct",
+    "macros"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

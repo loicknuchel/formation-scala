@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826114,
+  "title" : "window.onload doesn&#39;t work at all",
+  "body" : "<p>I made an extension for youtube new layout, but since yesterday (they had some issues with the layout) the extension stopped working.</p>\n\n<p>It seems like it does not respond to the action <strong>window.onload</strong> event as I am using like so:</p>\n\n<pre><code>window.onload = function() {\n   $('body').on('mouseenter', '#thumbnail', function() {\n      console.log('test');\n   }); \n};\n</code></pre>\n\n<p>For some reason every time I hover on a video thumbnail, the test is not being outputted at all. It might work once every 50 times or so.</p>\n\n<p>I have jquery injected above this script as well and they are both inside the head tags. Can youtube block <strong>window.onload</strong> event or am I doing something completely wrong?</p>\n\n<p><a href=\"https://i.stack.imgur.com/QlnhA.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/QlnhA.png\" alt=\"enter image description here\"></a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44826114/window-onload-doesnt-work-at-all",
+  "owner" : {
+    "user_id" : 997820,
+    "user_type" : "registered",
+    "display_name" : "AlwaysConfused",
+    "profile_image" : "https://i.stack.imgur.com/IgMUV.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/997820/alwaysconfused",
+    "reputation" : 160,
+    "accept_rate" : 58
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741863,
+  "last_activity_date" : 1498741863,
+  "tags" : [
+    "javascript",
+    "youtube"
+  ],
+  "score" : 0,
+  "view_count" : 25,
+  "answer_count" : 0
+}

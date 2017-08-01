@@ -1,0 +1,42 @@
+{
+  "uuid" : "f769aff54557881f250a78f11a827c9211504510",
+  "bioAsHtml" : "<ul>\n<li>Software Engineer at Genymobile</li>\n<li>Treasurer at the Paris Android User Group</li>\n<li>Google Developer Expert Android</li>\n</ul>\n<p>Working with Android since 2009.\nAfter several R&amp;D projects at french internet providers, at Samsung in the Android B2B team, and then building an Android STB for a hotel chain. I&#x27;m currently working on Genymotion, an Android emulator.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Mobile, IoT",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/FQV-7792",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f769aff54557881f250a78f11a827c9211504510",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Eyal LEZMY"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/18ccfd6d55edb5f0f88d865b0f42c957e0b6727c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Romain Menetrier"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9cc5353ec72a6d4614a652eae245ff5bdd260b58",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Gautier MECHLING"
+        }
+      ],
+      "id" : "FQV-7792",
+      "title" : "Android Things, de Développeur à Maker"
+    }
+  ],
+  "company" : "Genymobile",
+  "bio" : "- Software Engineer at Genymobile\r\n- Treasurer at the Paris Android User Group \r\n- Google Developer Expert Android\r\n\r\nWorking with Android since 2009.\r\nAfter several R&D projects at french internet providers, at Samsung in the Android B2B team, and then building an Android STB for a hotel chain. I'm currently working on Genymotion, an Android emulator.",
+  "lastName" : "LEZMY",
+  "firstName" : "Eyal",
+  "blog" : "https://plus.google.com/+EyalLEZMY",
+  "avatarURL" : "http://eyal-lezmy.github.io/images/author.jpg",
+  "twitter" : "@Eyal_Lezmy",
+  "lang" : "fr"
+}

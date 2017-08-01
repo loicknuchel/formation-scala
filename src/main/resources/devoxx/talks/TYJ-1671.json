@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Hands-on Labs",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Récupérer un prix sur une page web est simple. Mais <strong>récupérer 10 millions</strong> de produits est loin de l’être ! Les sites changent, protègent leurs données et l'on peut perdre des mois à construire un scraper…<br  /></p>\n<p>En <strong>3 heures</strong>, venez découvrir comment <strong>gagner du temps</strong> en évitant les pièges de la <strong>data extraction</strong> !</p>\n<p>Nous commencerons par une présentation des <strong>techniques de webscraping</strong> (20min) et nous apprendrons à utiliser le framework <strong>Scrapy</strong> (10min). Avec cette présentation, nous seront prêt à démarrer le workshop.</p>\n<p>Ensuite, vous progresserez autour de <strong>7 challenges</strong> (2h20). Au menu: la récupération de plusieurs pages, le contournement de protections, le scheduling de scraper et la gestion de proxies!</p>\n",
+  "id" : "TYJ-1671",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/53d84e8731994ab75562de023302932a5454f3c0",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Fabien Vauchelles"
+      },
+      "name" : "Fabien Vauchelles"
+    }
+  ],
+  "title" : "Devenir un expert en Data Extraction (webscraping)",
+  "lang" : "fr",
+  "summary" : "Récupérer un prix sur une page web est simple. Mais **récupérer 10 millions** de produits est loin de l’être ! Les sites changent, protègent leurs données et l'on peut perdre des mois à construire un scraper…  \r\n\r\nEn **3 heures**, venez découvrir comment **gagner du temps** en évitant les pièges de la **data extraction** !\r\n\r\nNous commencerons par une présentation des **techniques de webscraping** (20min) et nous apprendrons à utiliser le framework **Scrapy** (10min). Avec cette présentation, nous seront prêt à démarrer le workshop.\r\n\r\nEnsuite, vous progresserez autour de **7 challenges** (2h20). Au menu: la récupération de plusieurs pages, le contournement de protections, le scheduling de scraper et la gestion de proxies!"
+}

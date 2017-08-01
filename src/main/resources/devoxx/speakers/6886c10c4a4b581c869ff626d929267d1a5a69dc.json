@@ -1,0 +1,37 @@
+{
+  "uuid" : "6886c10c4a4b581c869ff626d929267d1a5a69dc",
+  "bioAsHtml" : "<p>I&#x27;am a professor/instructor and win s an expert information security development with over 15 years of experience in the security, secure coding, network and telecommunication arena.\nI holds the CSWAE, CPTE, CPTC and CIHE and CEH.\nI holds a chair position at OWASP in Morrocco and OWASP AppSec Africa.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/GYS-3426",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6886c10c4a4b581c869ff626d929267d1a5a69dc",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "RAMRAMI AZZEDDINE"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c4e0e073bebbea28f75c1e1904ca04c01ded25b4",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Laurent Broto"
+        }
+      ],
+      "id" : "GYS-3426",
+      "title" : "Test de pénétration Web avancé et codage sécurisé"
+    }
+  ],
+  "company" : "IBM Security",
+  "bio" : "I'am a professor/instructor and win s an expert information security development with over 15 years of experience in the security, secure coding, network and telecommunication arena. \r\nI holds the CSWAE, CPTE, CPTC and CIHE and CEH.\r\nI holds a chair position at OWASP in Morrocco and OWASP AppSec Africa.",
+  "lastName" : "AZZEDDINE",
+  "firstName" : "RAMRAMI",
+  "blog" : "www.owasp.org",
+  "avatarURL" : "http://www.gravatar.com/avatar/5e8057158f364758ca71de357c7cda19",
+  "twitter" : "@doukkalli",
+  "lang" : "en-US"
+}

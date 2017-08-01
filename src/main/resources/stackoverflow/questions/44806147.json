@@ -1,0 +1,26 @@
+{
+  "question_id" : 44806147,
+  "title" : "Disable ENTER only in text input but allowed on the rest of the page",
+  "body" : "<p>have a simple form but when I disable the ENTER using </p>\n\n\nwindow.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){if(e.target.nodeName=='INPUT'&&e.target.type=='text')\n{e.preventDefault();return false;}}},true);\n\n\n<p>It disables the use of ENTER on the whole page, </p>\n\n<p>how can I only PREVENT on \n</p>\n\n<p>and ALLOW it on \n </p>\n\n<p>thank you</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806147/disable-enter-only-in-text-input-but-allowed-on-the-rest-of-the-page",
+  "owner" : {
+    "user_id" : 8226849,
+    "user_type" : "registered",
+    "display_name" : "Nammer",
+    "profile_image" : "https://www.gravatar.com/avatar/75df76345cfb2a193c3a43a68c636098?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8226849/nammer",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661993,
+  "last_activity_date" : 1498661993,
+  "tags" : [
+    "javascript",
+    "html",
+    "forms"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

@@ -1,0 +1,93 @@
+{
+  "uuid" : "e0ce87f40a638c59e9da24231ef05da65aa355f3",
+  "bioAsHtml" : "<p>Quentin ADAM is the CEO of Clever Cloud : a Platform as a Service company allowing you to run java, scala, ruby, node.js, php, python or go applications, with auto scaling and auto healing features. This position allow him to study lots of applications, code, practice, and extract some talks and advises. Regular speaker at various tech conference, he’s focused to help developers to deliver quickly and happily good applications.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/QIJ-4404",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e0ce87f40a638c59e9da24231ef05da65aa355f3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Quentin Adam"
+        }
+      ],
+      "id" : "QIJ-4404",
+      "title" : "Les problèmes que l’on rencontre en microservice : configuration, authentification et autre joyeusetés"
+    },
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/ABJ-1539",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e0ce87f40a638c59e9da24231ef05da65aa355f3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Quentin Adam"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/bd180439d18ae1d3bf3d3fc1b87113509b650c2e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Clément Delafargue"
+        }
+      ],
+      "id" : "ABJ-1539",
+      "title" : "Comment ça marche systemd déjà ?"
+    },
+    {
+      "talkType" : "Conference",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/NAG-1579",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5ec0b5afa0f1ef5a7e180acf4f7c6b3a611fcbb7",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Philippe Charrière"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e1bf9c5d86660b3e68499599d0f1ea363ea14ac6",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Nicolas Leroux"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/21a8485bd433270f91ccc4a31e276392667ded7f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Etienne Issartial"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e0ce87f40a638c59e9da24231ef05da65aa355f3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Quentin Adam"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/51358f99956c451e76f031bc965c4d25c73dc124",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Thomas Guenoux"
+        }
+      ],
+      "id" : "NAG-1579",
+      "title" : "Apéro fonctionnel"
+    }
+  ],
+  "company" : "Clever Cloud",
+  "bio" : "Quentin ADAM is the CEO of Clever Cloud : a Platform as a Service company allowing you to run java, scala, ruby, node.js, php, python or go applications, with auto scaling and auto healing features. This position allow him to study lots of applications, code, practice, and extract some talks and advises. Regular speaker at various tech conference, he’s focused to help developers to deliver quickly and happily good applications.\r\n",
+  "lastName" : "Adam",
+  "firstName" : "Quentin",
+  "blog" : "http://www.clever-cloud.com/",
+  "avatarURL" : "http://www.gravatar.com/avatar/493f5803d30d7583bf1bdf4b237b9186",
+  "twitter" : "@waxzce",
+  "lang" : "fr"
+}

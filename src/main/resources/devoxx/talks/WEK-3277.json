@@ -1,0 +1,20 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Conference",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>The focus of this session will be on the current state of the Java world and how Java in the Cloud fits the need of the Java community. Demos and examples will highlight real-world examples using Microsoft Azure, Microsoft’s open source SDKs on GitHub and tools available for non-Microsoft developers, with a drill-down into Java Cloud offerings and how they can enhance Java applications.</p>\n",
+  "id" : "WEK-3277",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d011a8cca1ab6a8ba498bb95eed8dc323403e9bb",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Brian Benz"
+      },
+      "name" : "Brian Benz"
+    }
+  ],
+  "title" : "The State of Java in the Cloud",
+  "lang" : "en",
+  "summary" : "The focus of this session will be on the current state of the Java world and how Java in the Cloud fits the need of the Java community. Demos and examples will highlight real-world examples using Microsoft Azure, Microsoft’s open source SDKs on GitHub and tools available for non-Microsoft developers, with a drill-down into Java Cloud offerings and how they can enhance Java applications. "
+}

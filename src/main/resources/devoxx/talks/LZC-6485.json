@@ -1,0 +1,20 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Conference",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>Microservices architecture is not a free lunch, it significantly increases number of remote calls. This brings new challenges when it comes to network communication, so choosing a right RPC framework becomes crucial.</p>\n<p>gRPC is a new generation RPC framework from Google, designed to improve performance and address complexity of network communication in distributed systems.</p>\n<p>In this talk you will learn how gRPC helps to build reactive microservices architecture. We will go through some of the challenges we face when we build distributed systems and see how gPRC solves them.</p>\n",
+  "id" : "LZC-6485",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8896df7ea353b6d3a62fe424bacb24e30961bc28",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Alex Borysov"
+      },
+      "name" : "Alex Borysov"
+    }
+  ],
+  "title" : "Enabling Googley microservices with gRPC.",
+  "lang" : "en",
+  "summary" : "Microservices architecture is not a free lunch, it significantly increases number of remote calls. This brings new challenges when it comes to network communication, so choosing a right RPC framework becomes crucial.\r\n\r\n\r\ngRPC is a new generation RPC framework from Google, designed to improve performance and address complexity of network communication in distributed systems.\r\n\r\n\r\nIn this talk you will learn how gRPC helps to build reactive microservices architecture. We will go through some of the challenges we face when we build distributed systems and see how gPRC solves them."
+}

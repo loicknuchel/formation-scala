@@ -1,0 +1,20 @@
+{
+  "trackId" : "future",
+  "talkType" : "BOF (Bird of a Feather)",
+  "track" : "Future, Robotique",
+  "summaryAsHtml" : "<p>Le BOF Duchess France est de retour ! et il s'adresse à tout le monde, hommes/femmes, développeurs(euses), personnes non technique, etc.</p>\n<p>Duchess France est avant tout une communauté de développeuses passionnées qui organisent des événements techniques destinés à tous et à toutes sur diverses technologies pour apprendre et partager des connaissances.</p>\n<p>Cette année, après vous avoir présenté un bilan des actions que nous avons réalisées (événements, marrainage, partenariats tels que la Webcademy ou Erasmus+), nous ferons une table ronde pour discuter du sujet des carrières techniques. Quelles sont les perspectives d’évolutions (Dev, Architecte, Tech Lead, CTO) ? Dans quels domaines (éditeurs ? SSII ? Startup ?)  ? Et beaucoup d’autres ;)</p>\n",
+  "id" : "YZL-8520",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/cb5891baa07247eb11df130701f0f3902a6fcd41",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Duchess France"
+      },
+      "name" : "Duchess France"
+    }
+  ],
+  "title" : "BOF Duchess France",
+  "lang" : "fr",
+  "summary" : "Le BOF Duchess France est de retour ! et il s'adresse à tout le monde, hommes/femmes, développeurs(euses), personnes non technique, etc.\r\n\r\nDuchess France est avant tout une communauté de développeuses passionnées qui organisent des événements techniques destinés à tous et à toutes sur diverses technologies pour apprendre et partager des connaissances.\r\n\r\nCette année, après vous avoir présenté un bilan des actions que nous avons réalisées (événements, marrainage, partenariats tels que la Webcademy ou Erasmus+), nous ferons une table ronde pour discuter du sujet des carrières techniques. Quelles sont les perspectives d’évolutions (Dev, Architecte, Tech Lead, CTO) ? Dans quels domaines (éditeurs ? SSII ? Startup ?)  ? Et beaucoup d’autres ;)"
+}

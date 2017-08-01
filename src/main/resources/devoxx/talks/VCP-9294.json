@@ -1,0 +1,20 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Quickie",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>En seulement 6 mois, 1000 heures de formation internes ont été reçues à Murex, sans infrastructure dédiée en partant simplement d'une initiative individuelle.</p>\n<p>Les Dailies sont un format agile de transmission de connaissances que l'on a mis en place à Murex qui rencontre un succès grandissant: 15 sessions de 10 minutes sur un même thème, données quotidiennement à votre bureau et dont les videos sont immédiatement mises à disposition.</p>\n<p>Venez découvrir ce format qui permet de transmettre une grande quantité de connaissances à de nombreux collaborateurs avec un impact quasi nul sur leur temps de travail.</p>\n<p>Après le succès rencontré par ces formations à Murex, nous voulons partager cette méthode avec tous les développeurs de Devoxx !</p>\n",
+  "id" : "VCP-9294",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c3dfefda31df3f4360f13245b139eb4bbed12c60",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Jonathan Boccara"
+      },
+      "name" : "Jonathan Boccara"
+    }
+  ],
+  "title" : "Les Dailies: une nouvelle façon agile d'apprendre en entreprise",
+  "lang" : "fr",
+  "summary" : "En seulement 6 mois, 1000 heures de formation internes ont été reçues à Murex, sans infrastructure dédiée en partant simplement d'une initiative individuelle.\r\n\r\nLes Dailies sont un format agile de transmission de connaissances que l'on a mis en place à Murex qui rencontre un succès grandissant: 15 sessions de 10 minutes sur un même thème, données quotidiennement à votre bureau et dont les videos sont immédiatement mises à disposition.\r\n\r\nVenez découvrir ce format qui permet de transmettre une grande quantité de connaissances à de nombreux collaborateurs avec un impact quasi nul sur leur temps de travail.\r\n\r\nAprès le succès rencontré par ces formations à Murex, nous voulons partager cette méthode avec tous les développeurs de Devoxx !"
+}

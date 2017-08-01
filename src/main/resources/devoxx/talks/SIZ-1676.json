@@ -1,0 +1,36 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Conference",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Comment transformer une application monolithique de 2 millions lignes de code en une application microservice prête pour le Cloud ?</p>\n<p>À l'heure du Cloud et des PaaS hébergés dans des datacenters privés, il est temps d'organiser une architecture souple, agile et distribuée.</p>\n<p>Cette conférence a pour objectif de montrer comment obtenir un ensemble de « process » autonomes, évolutifs et facilement déployables, tout comme les \"grands du web\".</p>\n",
+  "id" : "SIZ-1676",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7dc4423c206c67c7f62d1656cd339062d49d4644",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "François Berthault"
+      },
+      "name" : "François Berthault"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d5ea7b950f01671d3710bedaa3b197b3f0756ec6",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Cyril Deverson"
+      },
+      "name" : "Cyril Deverson"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b95b93ac0eab4dc739f8efec8b867d1e613db464",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Christophe THEPAUT"
+      },
+      "name" : "Christophe THEPAUT"
+    }
+  ],
+  "title" : "Cloudifie ton monolithe : les  microservices pour une  architecture comme les grands du web",
+  "lang" : "fr",
+  "summary" : "Comment transformer une application monolithique de 2 millions lignes de code en une application microservice prête pour le Cloud ?\r\n\r\nÀ l'heure du Cloud et des PaaS hébergés dans des datacenters privés, il est temps d'organiser une architecture souple, agile et distribuée.\r\n\r\nCette conférence a pour objectif de montrer comment obtenir un ensemble de « process » autonomes, évolutifs et facilement déployables, tout comme les \"grands du web\"."
+}

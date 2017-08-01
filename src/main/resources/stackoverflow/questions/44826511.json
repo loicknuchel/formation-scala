@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826511,
+  "title" : "MYSQL Counting and Totals",
+  "body" : "<p>Good Day,</p>\n\n<p>I need some help please.</p>\n\n<p>I am currently developing new reports for our company in iReports. Currently I am working on graphing of data and this is where my problem starts.</p>\n\n<p>I am graphing (Requests + Websessions)/MemberBase to get a percentage that needs to be used in comparison to an SLA. The first 2 (Requests and Websessions) are ok, but this MemberBase is a pain in the neck.</p>\n\n<p>Let me explain. Here is what I have</p>\n\n<pre><code>SELECT\n `MonthID` AS `ID`,\n `Month` AS YTD,\n SUM(`Requests`) AS `AllRequests`,\n SUM(`Web Sessions`) AS `AllWeb`,\n SUM(`MemberBase`) AS `MemberBase`\n FROM (\n\n  SELECT\n   CAST(DATE_FORMAT(Log_Date, '%y-%m') AS CHAR(100)) AS `MonthID`,\n   CAST(DATE_FORMAT(Log_Date, '%M-%y') AS CHAR(100)) AS `Month`,\n   IFNULL(count(Requests.`ID`),0) AS `Requests`,\n   0 as `Web Sessions`,\n   0 as `Memberbase`\n  FROM\n   `Requests` Requests INNER JOIN `Members` Members ON Requests.`Members_ID` = Members.`ID`\n   INNER JOIN `Actions_Options` Actions_Options ON Requests.`Actions_OptionsID` = Actions_Options.`ID`\n  WHERE\n   CAST(Requests.`Log_date` as date) BETWEEN DATE_ADD('2017-05-01 00:00:00', INTERVAL -11 MONTH) AND '2017-05-31 23:59:59'\n   AND Requests.`Request_Type` NOT IN (7)\n   AND Members.`Club` = Club\n  GROUP BY\n   CAST(DATE_FORMAT(Log_Date, '%M-%y') AS CHAR(100))\n\n  UNION ALL\n\n  SELECT\n   CAST(DATE_FORMAT(ClubStats.`Month`, '%y-%m') AS CHAR(100)) AS `MonthID`,\n   CAST(DATE_FORMAT(ClubStats.`Month`, '%M-%y') AS CHAR(100)) AS `Month`,\n   0 AS `Requests`,\n   IFNULL(ClubStats.`Value1`,0) AS `Web Sessions`,\n   0 as `Memberbase`\n  FROM\n   ClubStats\n  WHERE\n   ClubStats.`Category` = 'SESSIONS'\n   AND ClubStats.`ClubID` = Club\n   AND CAST(ClubStats.`Month` AS DATE) BETWEEN DATE_ADD('2017-05-01 00:00:00', INTERVAL -11 MONTH) AND '2017-05-31 23:59:59'\n  GROUP BY\n   CAST(DATE_FORMAT(ClubStats.`Month`, '%M-%y') AS CHAR(100))) AS A\n\nGROUP BY `Month`\nORDER BY `MonthID` ASC\n</code></pre>\n\n<p>The above gives me the information I require for the first part. My problem is the next section, which is the member base.</p>\n\n<p>I need to get the TOTAL amount of members at the end of each period. I don't want to count per period, that helps me nothing, I need the total amount.</p>\n\n<p>So for example.</p>\n\n<pre><code>Period Ending    Members\nMay 2016         2125\nJune 2016        2185\nJuly 2016        2196\n</code></pre>\n\n<p>I cannot do:</p>\n\n<pre><code>SELECT\n CAST(DATE_FORMAT(Members.`Load_Date`, '%y-%m') AS CHAR(100)) AS `MonthID`,\n CAST(DATE_FORMAT(Members.`Load_Date`, '%M-%y') AS CHAR(100)) AS `Month`,\n 0 AS `Requests`,\n 0 AS `Web Sessions`,\n COUNT(Members.`ID`) as `Memberbase`\nFROM\n Members\nWHERE\n Members.`Club` = Club\n AND CAST(Members.`Load_Date` AS DATE) BETWEEN DATE_ADD('2017-05-01 00:00:00', INTERVAL -11 MONTH) AND '2017-05-31 23:59:59'\n AND Members.`Status`= 'LIVE'\nGROUP BY\n CAST(DATE_FORMAT(Members.`Load_Date`, '%M-%y') AS CHAR(100)) \n</code></pre>\n\n<p>As this just gives me the new members for that month, and I need to have all the members from inception or start up to the end of that month.</p>\n\n<pre><code>ID,    YTD,          AllRequests,     AllWeb,     MemberBase\n16-06, June-16,      707,             1757,       55         &lt;&lt;&lt; - Should be 2185 Total\n16-07, July-16,      549,             1415,        9         &lt;&lt;&lt; - Should be 2196 Total etc\n16-08, August-16,    555,             2188,       11\n16-09, September-16, 955,             3055,       13\n16-10, October-16,   755,             1975,       25\n16-11, November-16,  692,             2223,       28\n16-12, December-16,  501,             2162,       12\n</code></pre>\n\n<p>I have tried changing the criteria, I have tried to define @SET and count and sum and I don't know what else, but I cannot get this to work. I just need the total base as at the end of each month. Basically a running total of all the members without 10 pages worth of aggregate functions that lead nowhere.</p>\n\n<p>If someone can advise on how to fit something like that into the structure I already have, that would be great.</p>\n\n<p>If you need additional info, let me know and I'll add what I can.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826511/mysql-counting-and-totals",
+  "owner" : {
+    "user_id" : 5301069,
+    "user_type" : "registered",
+    "display_name" : "OmagaIII",
+    "profile_image" : "https://www.gravatar.com/avatar/a777d8a2896148397ade8604a2c2e271?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/5301069/omagaiii",
+    "reputation" : 6,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742927,
+  "last_activity_date" : 1498742927,
+  "tags" : [
+    "mysql"
+  ],
+  "score" : 0,
+  "view_count" : 16,
+  "answer_count" : 0
+}

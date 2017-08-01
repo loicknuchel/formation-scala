@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Tools-in-Action",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Non, le CSS c'est pas du coloriage !</p>\n<p>La puissance du CSS est souvent sous-estimée, cette session de Live-Coding sera l'occasion de montrer quantité de trucs et astuces utiles quotidiennement pour les développeurs web.</p>\n<p>Aujourd'hui on entre dans l'ère post-IE et on peut utiliser beaucoup plus sereinement la puissance que nous offre le CSS; pourquoi passer à coté !</p>\n<p>En mode 'no-javascript' venez découvrir des solutions pour faire des : collapsibles panels, accordions, compteurs, popovers, modals, tabs, ...</p>\n",
+  "id" : "SSZ-5251",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/dad5f5b3a325c966d47456d2efa91db1385d3382",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Igor Laborie"
+      },
+      "name" : "Igor Laborie"
+    }
+  ],
+  "title" : "CSS is Awesome!",
+  "lang" : "fr",
+  "summary" : "Non, le CSS c'est pas du coloriage !\r\n\r\nLa puissance du CSS est souvent sous-estimée, cette session de Live-Coding sera l'occasion de montrer quantité de trucs et astuces utiles quotidiennement pour les développeurs web.\r\n\r\nAujourd'hui on entre dans l'ère post-IE et on peut utiliser beaucoup plus sereinement la puissance que nous offre le CSS; pourquoi passer à coté !\r\n\r\nEn mode 'no-javascript' venez découvrir des solutions pour faire des : collapsibles panels, accordions, compteurs, popovers, modals, tabs, ... "
+}

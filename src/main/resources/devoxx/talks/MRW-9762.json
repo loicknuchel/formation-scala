@@ -1,0 +1,28 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Conference",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Code non maintenable, bugs à répétition, corrections chronophages, moral dans les chaussettes... Pas étonnant que la plupart d’entre nous préfèrent travailler sur des projets où tout est à (re)construire (Greenfield) plutôt que sur du code Legacy (Brownfield). Il faut dire que le Legacy sur lequel on a perdu le contrôle est plus que pénible. C’est épuisant, voire décourageant. Et si nous nous trompions ? Et si – munis de quelques techniques de refactoring et de communication- nous pouvions inverser les choses et reprendre le contrôle…</p>\n<p>Le temps d’une session avec des bouts de live-coding, venez découvrir les trucs et astuces des gens qui préfèrent reprendre le contrôle plutôt que de subir. Voire qui préfèrent les opportunités cachées du Legacy aux pages blanches des projets Greenfield. Vous aussi, rejoignez le Legacy Club !</p>\n",
+  "id" : "MRW-9762",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c0930e0e3ea2569762723c720652455cb195328c",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Thomas Pierrain"
+      },
+      "name" : "Thomas Pierrain"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9d6bbdb959a69d70b9ab97874fd1948575c88add",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Bruno Boucard"
+      },
+      "name" : "Bruno Boucard"
+    }
+  ],
+  "title" : "Legacy Club",
+  "lang" : "fr",
+  "summary" : "Code non maintenable, bugs à répétition, corrections chronophages, moral dans les chaussettes... Pas étonnant que la plupart d’entre nous préfèrent travailler sur des projets où tout est à (re)construire (Greenfield) plutôt que sur du code Legacy (Brownfield). Il faut dire que le Legacy sur lequel on a perdu le contrôle est plus que pénible. C’est épuisant, voire décourageant. Et si nous nous trompions ? Et si – munis de quelques techniques de refactoring et de communication- nous pouvions inverser les choses et reprendre le contrôle… \r\n\r\nLe temps d’une session avec des bouts de live-coding, venez découvrir les trucs et astuces des gens qui préfèrent reprendre le contrôle plutôt que de subir. Voire qui préfèrent les opportunités cachées du Legacy aux pages blanches des projets Greenfield. Vous aussi, rejoignez le Legacy Club !"
+}

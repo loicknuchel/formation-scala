@@ -1,0 +1,20 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "BOF (Bird of a Feather)",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>BOF Docker.</p>\n",
+  "id" : "VKE-6295",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4339329660c101f8f1a3755e856a1984c2dc54bf",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Adrien Blind"
+      },
+      "name" : "Adrien Blind"
+    }
+  ],
+  "title" : "BOF Docker",
+  "lang" : "fr",
+  "summary" : "BOF Docker.\r\n\r\n"
+}

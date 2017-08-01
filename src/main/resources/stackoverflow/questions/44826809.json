@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826809,
+  "title" : "Apply methods without knowing object type in java",
+  "body" : "<p>I have two classes in java: Movie and Book (it's a simplified example):</p>\n\n<p>Book can have author:</p>\n\n<pre><code>    public class Book {\n\n      public String author;\n\n      public Book(String a) {\n        this.author = a;\n      }\n\n      public String getAuthor(){\n        return author;\n      }\n\n}\n</code></pre>\n\n<p>And Movie can have title:</p>\n\n<pre><code>    public class Movie {\n\n      public String title;\n\n      public Movie(String t) {\n        this.title = t;\n      }\n\n      public String getAuthor(){\n        return title;\n      }\n\n}\n</code></pre>\n\n<p>I'm trying to put all objects in a list like this:</p>\n\n<pre><code>    ArrayList myList = new ArrayList();\n\n    Book book = new Book(\"William\");\n    Movie movie = new Movie(\"Titanic\");\n\n\n    myList.add(book);\n    myList.add(movie);\n</code></pre>\n\n<p>And afterwards I want to count how many books written by John do I have (or any other specific titles). However I can't apply getAuthor() or getTitle() method since java doesn't know what type of object it is</p>\n\n<pre><code>    int counter = 0;\n    for (int i =0;i&lt;myList.size();i++){\n        if (myList.get(i).getAuthor().equals(\"John\") ){\n            counter +=1;\n        }\n</code></pre>\n\n<p>I would be able to use if clause, check every time for an object type, and apply different methods for different objects, but this is not viable, since in real-life case I have 20+ classes and it would make code very long and maintainable.</p>\n\n<p>Can someone suggest a solution for this? Thanks in advance!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826809/apply-methods-without-knowing-object-type-in-java",
+  "owner" : {
+    "user_id" : 5968693,
+    "user_type" : "registered",
+    "display_name" : "Sljder",
+    "profile_image" : "https://www.gravatar.com/avatar/8c177ab780438a9d2b8b37c01b86da1d?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/5968693/sljder",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743642,
+  "last_activity_date" : 1498743881,
+  "tags" : [
+    "java"
+  ],
+  "score" : 0,
+  "view_count" : 24,
+  "answer_count" : 2
+}

@@ -1,0 +1,32 @@
+{
+  "uuid" : "1ee1299d3d20ad6a5f1f18689a52116f6b0e7db8",
+  "bioAsHtml" : "<p>I discovered computer science in high school, building a crazy medieval-style mmorg. I loved it and couldn&#x27;t stop programming since then. I have been working in several french start-up (commercial prospecting, predictive sales, supplier management). I currently work for Datastax as Solution Architect. In my free time, I am passionate about machine learning. I am also a diving and freediving instructor and I just love any kind of water sports.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/ZUR-8901",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1ee1299d3d20ad6a5f1f18689a52116f6b0e7db8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Quentin Ambard"
+        }
+      ],
+      "id" : "ZUR-8901",
+      "title" : "Machine learning et séries temporelles : Comment prédire les ventes de votre site ecommerce avec Spark"
+    }
+  ],
+  "company" : "Datastax",
+  "bio" : "I discovered computer science in high school, building a crazy medieval-style mmorg. I loved it and couldn't stop programming since then. I have been working in several french start-up (commercial prospecting, predictive sales, supplier management). I currently work for Datastax as Solution Architect. In my free time, I am passionate about machine learning. I am also a diving and freediving instructor and I just love any kind of water sports.",
+  "lastName" : "Ambard",
+  "firstName" : "Quentin",
+  "blog" : "https://plus.google.com/101620973596212495314",
+  "avatarURL" : "https://en.gravatar.com/userimage/5355706/f1d4dca3b11cb230b97facd2c8d093be.jpg?size=200",
+  "twitter" : "@qambard",
+  "lang" : "fr"
+}

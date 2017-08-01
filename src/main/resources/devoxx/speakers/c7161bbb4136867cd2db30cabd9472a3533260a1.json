@@ -1,0 +1,42 @@
+{
+  "uuid" : "c7161bbb4136867cd2db30cabd9472a3533260a1",
+  "bioAsHtml" : "<p>Chris est consultant et formateur chez SERLI à Poitiers. Initialement spécialisé dans la conception et le développement Java. Il s&#x27;est intéressé, dans les dernières années aux problématiques liées à la volumétrie et à la haute disponibilité.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "University",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/LDQ-6087",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c12f4700653d4486770fc18d20419e9766c60cd2",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sébastien PRUNIER"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c7161bbb4136867cd2db30cabd9472a3533260a1",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Chris Woodrow"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/928fb729aded7d9a2e1452ca269e0559e8cab7ff",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Mathieu ANCELIN"
+        }
+      ],
+      "id" : "LDQ-6087",
+      "title" : "Minimum Viable Product In Action"
+    }
+  ],
+  "company" : "Serli",
+  "bio" : "Chris est consultant et formateur chez SERLI à Poitiers. Initialement spécialisé dans la conception et le développement Java. Il s'est intéressé, dans les dernières années aux problématiques liées à la volumétrie et à la haute disponibilité.",
+  "lastName" : "Woodrow",
+  "firstName" : "Chris",
+  "blog" : null,
+  "avatarURL" : "http://www.infoq.com/images/team/fr/ChrisWoodrow.jpg",
+  "twitter" : null,
+  "lang" : "fr"
+}

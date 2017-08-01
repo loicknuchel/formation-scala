@@ -1,0 +1,26 @@
+{
+  "question_id" : 44806036,
+  "title" : "Googlesheet, conditionnal formatting in a table using the values of another table?",
+  "body" : "<p>I am currently working on a spreadsheet.</p>\n\n<p>I have one table containing winrates of certain games, this table is 20x20. These winrates are calculated with datas of games played, which I also organized in 20x20. Both tables are related in that the same (x,y) coordinate in each table corresponds to the same type of game played.</p>\n\n<p>What I want is to color the cells of my winrate table according to how accurate the results are. For example, the (2;6) square might show a percentage of 60% winrate but based on only 3 games (which is the value we can find in the second table at (2;6).</p>\n\n<p>I can write a set of rules that can color the (2;6) cell of the winrate table correctly depending on the value of the (2;6) cell of the \"games played\" table without a problem.\nMy problem is that I can't find how to expand this formula to the whole table. When I do, the whole winrate table has its formatting based on the (2;6) coordinate of the second table.</p>\n\n<p>I tried different things:\nConditionnal formating, applied to range \"C30\" format cells if \"custom formula is\" =(C54)&lt;5\nConditionnal formating, applied to range \"C30:V49\" format cells if \"custom formula is\" =(C54:V73)&lt;5</p>\n\n<p>as well as applying to whole table and custom formula to a single cell, or applying to a single cell and custom formula to whole other table.\nIs it even possible to not have to type manually all the formatting to each cell? I mean, there should be a way to not have to manually edit 5 rules on 400 cells right?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806036/googlesheet-conditionnal-formatting-in-a-table-using-the-values-of-another-tabl",
+  "owner" : {
+    "user_id" : 8226792,
+    "user_type" : "registered",
+    "display_name" : "KAKATOR",
+    "profile_image" : "https://www.gravatar.com/avatar/fcd62e1e3ba65adf52ef1274bc2ccd1a?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8226792/kakator",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661727,
+  "last_activity_date" : 1498661727,
+  "tags" : [
+    "excel-formula",
+    "formatting",
+    "spreadsheet"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

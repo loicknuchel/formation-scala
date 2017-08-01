@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826540,
+  "title" : "How to stack Fullcalendar header on mobile?",
+  "body" : "<p>I'm using fullcalendar.io and my layout looks like this on desktop-PCs:</p>\n\n<pre><code>June 2016                           [&lt;][Today][&gt;]\n             My calendar is here\n</code></pre>\n\n<p>However on mobile, it looks like this:</p>\n\n<pre><code>          June 2016                           \n                      [&lt;][Today][&gt;]\n             My calendar is here\n</code></pre>\n\n<p>or that:</p>\n\n<pre><code>            June 20[&lt;][Today][&gt;]\n             My calendar is here\n</code></pre>\n\n<p>Basically what I want is that all elements from the header stack centered on mobile. Is that possible?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826540/how-to-stack-fullcalendar-header-on-mobile",
+  "owner" : {
+    "user_id" : 6072994,
+    "user_type" : "registered",
+    "display_name" : "Klausar",
+    "profile_image" : "https://www.gravatar.com/avatar/84ae670fc599c39b9126d69047a5743c?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/6072994/klausar",
+    "reputation" : 20,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742978,
+  "last_activity_date" : 1498743776,
+  "tags" : [
+    "javascript",
+    "jquery",
+    "twitter-bootstrap",
+    "fullcalendar"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 0
+}

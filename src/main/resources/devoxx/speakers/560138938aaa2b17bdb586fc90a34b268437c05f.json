@@ -1,0 +1,37 @@
+{
+  "uuid" : "560138938aaa2b17bdb586fc90a34b268437c05f",
+  "bioAsHtml" : "<p>Katia Aresti est développeur java/scala en freelance. Elle co-organise Duchess France depuis 2010 et aussi le MongoDB User Group à Paris depuis 2012. Elle intervient sur les sujets autour de Java, Scala, Testing, MongoDB ... sous la forme de présentations formelles, open-spaces ou workshops. Elle est passionnée par l’open-source, la contribution communautaire, la danse et le théâtre.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/XGR-9005",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/06398fa2407ffee2f710f0173b45a0b480647d56",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Olivier Croisier"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/560138938aaa2b17bdb586fc90a34b268437c05f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Katia Aresti"
+        }
+      ],
+      "id" : "XGR-9005",
+      "title" : "Les indépendants, une espèce en voie de... développement ?"
+    }
+  ],
+  "company" : "Aresti Development",
+  "bio" : "Katia Aresti est développeur java/scala en freelance. Elle co-organise Duchess France depuis 2010 et aussi le MongoDB User Group à Paris depuis 2012. Elle intervient sur les sujets autour de Java, Scala, Testing, MongoDB ... sous la forme de présentations formelles, open-spaces ou workshops. Elle est passionnée par l’open-source, la contribution communautaire, la danse et le théâtre.",
+  "lastName" : "Aresti",
+  "firstName" : "Katia",
+  "blog" : "https://plus.google.com/105175156939655748633",
+  "avatarURL" : "http://www.gravatar.com/avatar/04e3a46efd2e243319b1bf9f7ef316f7.png",
+  "twitter" : "@karesti",
+  "lang" : "fr"
+}

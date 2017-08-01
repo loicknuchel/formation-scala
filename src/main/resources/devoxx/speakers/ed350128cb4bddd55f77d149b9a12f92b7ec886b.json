@@ -1,0 +1,37 @@
+{
+  "uuid" : "ed350128cb4bddd55f77d149b9a12f92b7ec886b",
+  "bioAsHtml" : "<p>Meriem est passionnée de nouvelles technologies, elle a fait ses premiers pas dans le monde de l&#x27;IT en tant que développeuse. D&#x27;abord en Android ensuite en technologies back-end Java EE. Par la suite, elle a pris le rôle de Scrum Master et finalement celui de Product Owner. Actuellement, elle est responsable de Xebia Mobile, l&#x27;offre dédiée à l&#x27;écosystème mobile chez Xebia.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/IUX-9849",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ed350128cb4bddd55f77d149b9a12f92b7ec886b",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Meriem El Aaboudi"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4a69a65acb125bda501fc249bef6374250a31444",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Laurène Thénoz"
+        }
+      ],
+      "id" : "IUX-9849",
+      "title" : "Les 5 questions con(tre) l'agilité et comment y répondre"
+    }
+  ],
+  "company" : "Xebia",
+  "bio" : "Meriem est passionnée de nouvelles technologies, elle a fait ses premiers pas dans le monde de l'IT en tant que développeuse. D'abord en Android ensuite en technologies back-end Java EE. Par la suite, elle a pris le rôle de Scrum Master et finalement celui de Product Owner. Actuellement, elle est responsable de Xebia Mobile, l'offre dédiée à l'écosystème mobile chez Xebia.",
+  "lastName" : "El Aaboudi",
+  "firstName" : "Meriem",
+  "blog" : "http://blog.xebia.fr/",
+  "avatarURL" : "https://lh6.googleusercontent.com/-eN5OV2wNUNg/AAAAAAAAAAI/AAAAAAAAAjs/i_4HLCz3qu0/photo.jpg",
+  "twitter" : "@melaaboudi",
+  "lang" : "fr-FR"
+}

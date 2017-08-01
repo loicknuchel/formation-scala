@@ -1,0 +1,55 @@
+{
+  "uuid" : "bd180439d18ae1d3bf3d3fc1b87113509b650c2e",
+  "bioAsHtml" : "<p>Clément Delafargue est consultant indépendant. Il travaille dans le web depuis 2002. Il est particulièrement intéressé par la programmation fonctionnelle.</p>\n<p>Passionné par la technique et le développement, il a co-fondé en 2009 Eklaweb,\nune entreprise de développement sur mesure. Dans ce cadre, il a assemblé une\néquipe d’ingénieurs et les a formés à la programmation fonctionnelle. Il est\ndésormais consultant indépendant et collabore avec différentes startups dont\nClever-Cloud et Sounderbox.</p>\n<p>En parallèle de son activité professionnelle, il donne des cours de développement, de FP et de CI à l’École\nCentrale de Nantes et à l’IMIE. Il a créé le Nantes FP, y donne des conférences et fait partie de scala.io</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Tools-in-Action",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/ABJ-1539",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e0ce87f40a638c59e9da24231ef05da65aa355f3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Quentin Adam"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/bd180439d18ae1d3bf3d3fc1b87113509b650c2e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Clément Delafargue"
+        }
+      ],
+      "id" : "ABJ-1539",
+      "title" : "Comment ça marche systemd déjà ?"
+    },
+    {
+      "talkType" : "Conference",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/PBE-1859",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/bd180439d18ae1d3bf3d3fc1b87113509b650c2e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Clément Delafargue"
+        }
+      ],
+      "id" : "PBE-1859",
+      "title" : "Les bornes des limites : comment maintenir de la cohérence dans votre architecture microservices"
+    }
+  ],
+  "company" : "Penazen consulting",
+  "bio" : "Clément Delafargue est consultant indépendant. Il travaille dans le web depuis 2002. Il est particulièrement intéressé par la programmation fonctionnelle.\r\n\r\nPassionné par la technique et le développement, il a co-fondé en 2009 Eklaweb,\r\nune entreprise de développement sur mesure. Dans ce cadre, il a assemblé une\r\néquipe d’ingénieurs et les a formés à la programmation fonctionnelle. Il est\r\ndésormais consultant indépendant et collabore avec différentes startups dont\r\nClever-Cloud et Sounderbox.\r\n\r\nEn parallèle de son activité professionnelle, il donne des cours de développement, de FP et de CI à l’École\r\nCentrale de Nantes et à l’IMIE. Il a créé le Nantes FP, y donne des conférences et fait partie de scala.io",
+  "lastName" : "Delafargue",
+  "firstName" : "Clément",
+  "blog" : "http://clement.delafargue.name",
+  "avatarURL" : "http://penazen-consulting.com/images/clement_delafargue.jpg",
+  "twitter" : "@clementd",
+  "lang" : "fr"
+}

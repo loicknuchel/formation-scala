@@ -1,0 +1,27 @@
+{
+  "question_id" : 44806014,
+  "title" : "How to change Tomcat default directory location?",
+  "body" : "<p>Current directory after install tomcat7 is <code>/var/lib/tomcat7/webapps/ROOT</code>, <br> need to change this to <code>/home/user/Documents/jsp</code> added <br><code>export CATALINA_HOME</code> to bashrc but no use.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806014/how-to-change-tomcat-default-directory-location",
+  "owner" : {
+    "user_id" : 8006192,
+    "user_type" : "registered",
+    "display_name" : "Shibin Raju Mathew",
+    "profile_image" : "https://i.stack.imgur.com/HYxp2.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/8006192/shibin-raju-mathew",
+    "reputation" : 83,
+    "accept_rate" : 100
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661690,
+  "last_activity_date" : 1498661690,
+  "tags" : [
+    "bash",
+    "jsp",
+    "tomcat",
+    "directory"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 0
+}

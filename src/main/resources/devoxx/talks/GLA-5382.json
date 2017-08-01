@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Conference",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>​Initialement un PoC de développeur sur l'architecture Flux, Redux est passé, au cours de l’année 2015, du statut \"encore une nouvelle implémentation Flux\" au statut d'implémentation la plus populaire. Elle parvient aujourd'hui à fédérer les développeurs autour de Flux y compris en dehors de l’écosystème React.</p>\n<p>Redux est un nouveau paradigme de programmation pour les interfaces Web. Il propose de centraliser l’intégralité du contexte de l’application en un seul endroit organisant toutes les transformations de façon séquentielles et reproductible.</p>\n<p>Je vous propose un tour complet de la technologie par la même approche que préconise son créateur à savoir en allant voir directement le code de la librairie. Pas de panique ! L’essentiel de la librairie peut être écrit en 10 lignes.</p>\n<p>Comment 10 lignes peuvent apporter un nouveau paradigme ? C’est bien ça la beauté de cette librairie. J’essayerais de vous l’illustrer en y ajoutant concepts et démos.</p>\n",
+  "id" : "GLA-5382",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/33e4a304b9273f22adebb19b88463b93bcf5c9f5",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Matthieu Lux"
+      },
+      "name" : "Matthieu Lux"
+    }
+  ],
+  "title" : "Organisez la logique de votre application Web avec Redux",
+  "lang" : "fr",
+  "summary" : "​Initialement un PoC de développeur sur l'architecture Flux, Redux est passé, au cours de l’année 2015, du statut \"encore une nouvelle implémentation Flux\" au statut d'implémentation la plus populaire. Elle parvient aujourd'hui à fédérer les développeurs autour de Flux y compris en dehors de l’écosystème React.\r\n\r\nRedux est un nouveau paradigme de programmation pour les interfaces Web. Il propose de centraliser l’intégralité du contexte de l’application en un seul endroit organisant toutes les transformations de façon séquentielles et reproductible.\r\n\r\nJe vous propose un tour complet de la technologie par la même approche que préconise son créateur à savoir en allant voir directement le code de la librairie. Pas de panique ! L’essentiel de la librairie peut être écrit en 10 lignes.\r\n\r\nComment 10 lignes peuvent apporter un nouveau paradigme ? C’est bien ça la beauté de cette librairie. J’essayerais de vous l’illustrer en y ajoutant concepts et démos."
+}

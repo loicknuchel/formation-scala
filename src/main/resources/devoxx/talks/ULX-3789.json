@@ -1,0 +1,28 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "BOF (Bird of a Feather)",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>En 11 ans Jenkins est devenu la référence des serveurs d'intégration continue.</p>\n<p>Après une version 2.0 et l'arrivée du Pipeline en 2016, fort de ses 1400 plugins permettant une intégration aisée, il adresse des besoins de plus en plus variés pour la livraison, le déploiement continue et tellement d'autres usages.</p>\n<p>2017 réserve encore de grandes choses pour Jenkins: la nouvelle interface graphique BlueOcean, les pipelines \"descriptifs\", un nouveau plugin center, et bien d'autre encore.</p>\n<p>Utilisateur, contributeur ou simplement intéressé par Jenkins rejoignez-nous!</p>\n",
+  "id" : "ULX-3789",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6e4596fa4b3666882910e1b75546254b17d5f89d",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Damien DUPORTAL"
+      },
+      "name" : "Damien DUPORTAL"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a73cc5bfb4ce4d8f07f209039ada742ee750a332",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Jean-Philippe Briend"
+      },
+      "name" : "Jean-Philippe Briend"
+    }
+  ],
+  "title" : "BoF Jenkins",
+  "lang" : "fr",
+  "summary" : "En 11 ans Jenkins est devenu la référence des serveurs d'intégration continue. \r\n\r\nAprès une version 2.0 et l'arrivée du Pipeline en 2016, fort de ses 1400 plugins permettant une intégration aisée, il adresse des besoins de plus en plus variés pour la livraison, le déploiement continue et tellement d'autres usages.\r\n\r\n2017 réserve encore de grandes choses pour Jenkins: la nouvelle interface graphique BlueOcean, les pipelines \"descriptifs\", un nouveau plugin center, et bien d'autre encore.\r\n\r\nUtilisateur, contributeur ou simplement intéressé par Jenkins rejoignez-nous!\r\n\r\n"
+}

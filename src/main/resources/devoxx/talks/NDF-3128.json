@@ -1,0 +1,20 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Conference",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>In contrast to just a few years ago, most large enterprises are now contributors to and maintainers of Open Source projects.  For many there are aspects to the contributions that slip through the cracks causing headaches for legal teams and unnecessary risk for the organization.  Things like managing code licenses, Contributor License Agreements, and patent related issues are often not addressed.  This session will describe how your organization can tackle these issues and will cover some of the tooling Salesforce built to help insure legal compliance with incoming and outgoing contributions.</p>\n",
+  "id" : "NDF-3128",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3cbed7d55e2def048db43b6b16af816285e54686",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "James Ward"
+      },
+      "name" : "James Ward"
+    }
+  ],
+  "title" : "Managing Open Source Contributions in Large Organizations",
+  "lang" : "en",
+  "summary" : "In contrast to just a few years ago, most large enterprises are now contributors to and maintainers of Open Source projects.  For many there are aspects to the contributions that slip through the cracks causing headaches for legal teams and unnecessary risk for the organization.  Things like managing code licenses, Contributor License Agreements, and patent related issues are often not addressed.  This session will describe how your organization can tackle these issues and will cover some of the tooling Salesforce built to help insure legal compliance with incoming and outgoing contributions."
+}

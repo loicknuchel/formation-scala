@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825868,
+  "title" : "find out how many groups are in a list",
+  "body" : "<p>I have a list with each value in the interval 0..100. </p>\n\n<p>Ex: </p>\n\n<pre><code>[0,1,2,20,21,29,30,31,31,32,89,90,91,92,92,92,92]\n</code></pre>\n\n<p>Is there an algorithm that will determine how many groups are in this list? For the above list it should say that there are 3 groups <code>(0..2), (20..32), (89..92)</code>.</p>\n\n<p>As far as I know there is the k-means algorithm that will split the list in a certain number of groups, but in my case, I need to determine how many groups are in the first place, so k-means doesn;t really help for this.</p>\n\n<p>I will need to do this in PHP if the language has any relevance.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825868/find-out-how-many-groups-are-in-a-list",
+  "owner" : {
+    "user_id" : 11301,
+    "user_type" : "registered",
+    "display_name" : "Quamis",
+    "profile_image" : "https://www.gravatar.com/avatar/769e6aa147dbe7c2ea6d46562f1c2d0e?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/11301/quamis",
+    "reputation" : 5775,
+    "accept_rate" : 92
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741222,
+  "last_activity_date" : 1498741222,
+  "tags" : [
+    "algorithm",
+    "grouping",
+    "k-means"
+  ],
+  "score" : 0,
+  "view_count" : 12,
+  "answer_count" : 0
+}

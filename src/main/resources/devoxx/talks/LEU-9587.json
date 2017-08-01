@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Tools-in-Action",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Lorsque vous injectez des données dans elasticsearch, vous pouvez avoir besoin de réaliser des opérations de transformation assez simples. Jusqu'à présent, ces opérations devaient s'effectuer en dehors d'elasticsearch, avant l'indexation proprement dite.</p>\n<p>Souhaitez la bienvenue à <code>Ingest node</code> ! Un nouveau type de noeud qui vous permet justement de faire cela.</p>\n<p>Ce talk explique le concept de <code>Ingest Node</code>, comment l'intégrer avec le reste de la suite logicielle Elastic et comment développer son propre plugin Ingest par la pratique en montrant comment j'ai développé le plugin <code>ingest-bano</code> pour enrichir des adresses postales et/ou des coordonnées géographiques françaises (pour l'instant).</p>\n<p>Ce talk parlera également de l'API de réindexation qui peut également bénéficier du pipeline d'ingestion pour modifier vos données à la volée lors de la réindexation.\nNotamment, comment relire vos données existantes et les enrichir grace à <code>ingest-bano</code>.</p>\n",
+  "id" : "LEU-9587",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4a822ea73a5cb708b3eb656ce77b48748c5cc7c7",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "David Pilato"
+      },
+      "name" : "David Pilato"
+    }
+  ],
+  "title" : "Ingest node : (ré)indexer et enrichir des documents dans Elasticsearch",
+  "lang" : "fr",
+  "summary" : "Lorsque vous injectez des données dans elasticsearch, vous pouvez avoir besoin de réaliser des opérations de transformation assez simples. Jusqu'à présent, ces opérations devaient s'effectuer en dehors d'elasticsearch, avant l'indexation proprement dite.\r\n\r\nSouhaitez la bienvenue à `Ingest node` ! Un nouveau type de noeud qui vous permet justement de faire cela.\r\n\r\nCe talk explique le concept de `Ingest Node`, comment l'intégrer avec le reste de la suite logicielle Elastic et comment développer son propre plugin Ingest par la pratique en montrant comment j'ai développé le plugin `ingest-bano` pour enrichir des adresses postales et/ou des coordonnées géographiques françaises (pour l'instant).\r\n\r\nCe talk parlera également de l'API de réindexation qui peut également bénéficier du pipeline d'ingestion pour modifier vos données à la volée lors de la réindexation.\r\nNotamment, comment relire vos données existantes et les enrichir grace à `ingest-bano`.\r\n"
+}

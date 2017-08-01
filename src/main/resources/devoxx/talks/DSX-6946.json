@@ -1,0 +1,20 @@
+{
+  "trackId" : "lang",
+  "talkType" : "Conference",
+  "track" : "Langages alternatifs",
+  "summaryAsHtml" : "<p>Pour les applications qui, comme beaucoup, doivent communiquer intensément avec des services distants, les API de traitement asynchrones sont un atout majeur du langage Scala. Venez découvrir comment jongler avec les <code>Future</code>, les enchainer, les regrouper, le tout en consommant un minimum de resources et toujours <strong>type safe</strong> !</p>\n",
+  "id" : "DSX-6946",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7d24e8b771a5c12254100cf718a19e712deb3b7d",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Brice Leporini"
+      },
+      "name" : "Brice Leporini"
+    }
+  ],
+  "title" : "Future composé en Scala",
+  "lang" : "fr",
+  "summary" : "Pour les applications qui, comme beaucoup, doivent communiquer intensément avec des services distants, les API de traitement asynchrones sont un atout majeur du langage Scala. Venez découvrir comment jongler avec les `Future`, les enchainer, les regrouper, le tout en consommant un minimum de resources et toujours **type safe** !"
+}

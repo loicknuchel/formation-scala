@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826832,
+  "title" : "How to increase the transactional capacity of service fabric reliable dictionary?",
+  "body" : "<p>I can not make more than <strong>50 transactions in a minute</strong> in my service fabric cluster.The cost of the cluster is 2.000 USD a month <strong>with 10 Nodes</strong> hosted by Microsoft.</p>\n\n<p><strong>Here is the sample code</strong></p>\n\n<pre><code>   using System.Collections.Generic;\n   using System.Fabric;\n   using System.Threading.Tasks;\n   using Microsoft.ServiceFabric.Data.Collections;\n   using Microsoft.ServiceFabric.Services.Communication.Runtime;\n   using Microsoft.ServiceFabric.Services.Remoting.FabricTransport.Runtime;\n   using Microsoft.ServiceFabric.Services.Runtime;\n\n   namespace Counting\n   {\n       internal sealed class Counting : StatefulService,\n           ICount\n       {\n           private IReliableDictionary&lt;string, int&gt; _myDictionary = null;\n\n           public Counting(StatefulServiceContext context)\n               : base(context)\n           {\n           }\n\n           protected override IEnumerable&lt;ServiceReplicaListener&gt; CreateServiceReplicaListeners()\n           {\n               var settings = new FabricTransportRemotingListenerSettings\n               {\n                   MaxConcurrentCalls = 32\n               };\n\n               yield return\n                   new ServiceReplicaListener(\n                       context =&gt;\n                           new FabricTransportServiceRemotingListener(context, this, settings));\n           }\n\n           async Task&lt;int&gt; ICount.GetFromStateful()\n           {\n               if (_myDictionary == null)\n               {\n                   _myDictionary = await StateManager.GetOrAddAsync&lt;IReliableDictionary&lt;string, int&gt;&gt;(\"myDictionary\").ConfigureAwait(false);\n               }\n\n               using (var tx = StateManager.CreateTransaction())\n               {\n                   var result = await _myDictionary.AddOrUpdateAsync(tx, \"Counter\", 0, (key, value) =&gt; ++value).ConfigureAwait(false);\n\n                   await tx.CommitAsync().ConfigureAwait(false);\n\n                   return result;\n               }\n           }\n       }\n   }\n</code></pre>\n\n<p><strong>Here is the configuration</strong></p>\n\n<p><a href=\"https://i.stack.imgur.com/gdrrg.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/gdrrg.png\" alt=\"enter image description here\"></a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44826832/how-to-increase-the-transactional-capacity-of-service-fabric-reliable-dictionary",
+  "owner" : {
+    "user_id" : 1989612,
+    "user_type" : "registered",
+    "display_name" : "Rıfat Erdem Sahin",
+    "profile_image" : "https://www.gravatar.com/avatar/846d60f4bbc09997fef43dc1e7e3d1d7?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1989612/r%c4%b1fat-erdem-sahin",
+    "reputation" : 694,
+    "accept_rate" : 45
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743697,
+  "last_activity_date" : 1498743697,
+  "tags" : [
+    "performance",
+    "azure",
+    "transactions",
+    "azure-service-fabric",
+    "cost-management"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

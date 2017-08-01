@@ -1,0 +1,25 @@
+{
+  "question_id" : 44806108,
+  "title" : "jFreeChart cuts off information on y-axis",
+  "body" : "<p>I'm using jFreeCharts and when the y-axis resize itself the data (numbers) on the vertices get cut off. What can I do to show that data?</p>\n\n<p>Image: <a href=\"https://i.stack.imgur.com/il2uZ.png\" rel=\"nofollow noreferrer\">Graphic</a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44806108/jfreechart-cuts-off-information-on-y-axis",
+  "owner" : {
+    "user_id" : 7745747,
+    "user_type" : "registered",
+    "display_name" : "Pedro Gon&#231;alves",
+    "profile_image" : "https://lh6.googleusercontent.com/--l9F-ZNd-a8/AAAAAAAAAAI/AAAAAAAAAjg/bZOwCxE3N_4/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/7745747/pedro-gon%c3%a7alves",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661908,
+  "last_activity_date" : 1498661908,
+  "tags" : [
+    "java",
+    "jfreechart"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

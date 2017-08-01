@@ -1,0 +1,44 @@
+{
+  "trackId" : "lang",
+  "talkType" : "BOF (Bird of a Feather)",
+  "track" : "Langages alternatifs",
+  "summaryAsHtml" : "<p>Des questions ou simplement une envie de discuter autour du langage Go ? La conférence Devoxx vous invite à former un Birds of Feather (B.O.F) Go : une discussion ouverte, informelle, qui pourra être accompagnée de courtes présentations.</p>\n<p>Des gophers seront présents pour répondre aux questions et lancer quelques sujets :</p>\n<ul>\n<li>Diana Ortega (Xebia), organisatrice du meetup Women Who Go Paris<br  /></li>\n<li>Thomas Solignac (Golem.ai), enseigne Go auprès d'étudiants</li>\n<li>Et peut-être votre projet ou retour d'expérience ?</li>\n</ul>\n",
+  "id" : "DDW-1785",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f5526d5115b7aa4734dee1f48c060055e3e93193",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Golang Paris"
+      },
+      "name" : "Golang Paris"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/043a31210de876082b469d82155bb25f5b2a83f5",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Gabriel Kastenbaum"
+      },
+      "name" : "Gabriel Kastenbaum"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6396ff66c271b3819a1d3dea2d9ac0789a0bcc2a",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Diana Ortega"
+      },
+      "name" : "Diana Ortega"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d24ae2a0eb8be7230bf170df9c4883fc6c73d31e",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Thomas Solignac"
+      },
+      "name" : "Thomas Solignac"
+    }
+  ],
+  "title" : "BOF Go des meetups Women Who Go & Golang Paris",
+  "lang" : "fr",
+  "summary" : "Des questions ou simplement une envie de discuter autour du langage Go ? La conférence Devoxx vous invite à former un Birds of Feather (B.O.F) Go : une discussion ouverte, informelle, qui pourra être accompagnée de courtes présentations.\r\n\r\nDes gophers seront présents pour répondre aux questions et lancer quelques sujets :\r\n\r\n* Diana Ortega (Xebia), organisatrice du meetup Women Who Go Paris  \r\n* Thomas Solignac (Golem.ai), enseigne Go auprès d'étudiants \r\n* Et peut-être votre projet ou retour d'expérience ? \r\n"
+}

@@ -1,0 +1,37 @@
+{
+  "uuid" : "b90f822bbd8bd88166e0b87dbe316d019304fcb0",
+  "bioAsHtml" : "<p>System Engineer/Devops</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/SGX-3211",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/69b4032195e405af7ad127ec72cc0b0c3243a6bb",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Christophe Sirot"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b90f822bbd8bd88166e0b87dbe316d019304fcb0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Smaine Kahlouch"
+        }
+      ],
+      "id" : "SGX-3211",
+      "title" : "BOF Cloud Native Computing"
+    }
+  ],
+  "company" : "Dailymotion",
+  "bio" : "System Engineer/Devops",
+  "lastName" : "Kahlouch",
+  "firstName" : "Smaine",
+  "blog" : null,
+  "avatarURL" : null,
+  "twitter" : "@smana",
+  "lang" : "fr"
+}

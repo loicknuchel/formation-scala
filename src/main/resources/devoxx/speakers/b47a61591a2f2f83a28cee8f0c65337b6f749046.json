@@ -1,0 +1,37 @@
+{
+  "uuid" : "b47a61591a2f2f83a28cee8f0c65337b6f749046",
+  "bioAsHtml" : "<p>Développeur sur l’écosystème Java depuis 9 ans dont 3 chez Xebia, je m’intéresse à tout ce qui fait le succès d’un projet : Software Craftsmanship, Devops, architectures, pratiques agiles …\nj&#x27;anime également les formations  Elasticsearch chez Xebia Training</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/FOE-4082",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b47a61591a2f2f83a28cee8f0c65337b6f749046",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Ivan Beauvais"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/95c21e69f879b133f6858d6def7293dd27f6b44b",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Gérôme EGRON"
+        }
+      ],
+      "id" : "FOE-4082",
+      "title" : "Elasticsearch : From Zero to Hero"
+    }
+  ],
+  "company" : "Xebia",
+  "bio" : "Développeur sur l’écosystème Java depuis 9 ans dont 3 chez Xebia, je m’intéresse à tout ce qui fait le succès d’un projet : Software Craftsmanship, Devops, architectures, pratiques agiles …\r\nj'anime également les formations  Elasticsearch chez Xebia Training",
+  "lastName" : "Beauvais",
+  "firstName" : "Ivan",
+  "blog" : "http://blog.xebia.fr/",
+  "avatarURL" : "http://www.gravatar.com/avatar/b065a13ca7ed7cfe3bc013c16c19ac57.png",
+  "twitter" : "@ibeauvais",
+  "lang" : "fr"
+}

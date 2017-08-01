@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825843,
+  "title" : "Itextpdf disable change width of outer table while setting paddings for nested tables/cells",
+  "body" : "<p>While working with itextpdf library I have to create nested tables with some content but it leads to decreasing width of outer table, I also set some padding parameters like paddingTop/paddingBottom for the nested table default cell.\nSo the question is: how to disable decreasing width of the outer table when it contains nested table with configured paddings.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825843/itextpdf-disable-change-width-of-outer-table-while-setting-paddings-for-nested-t",
+  "owner" : {
+    "user_id" : 5314581,
+    "user_type" : "registered",
+    "display_name" : "TimurJD",
+    "profile_image" : "https://www.gravatar.com/avatar/1b3e8be93009ac87acea43814c1462bd?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/5314581/timurjd",
+    "reputation" : 17,
+    "accept_rate" : 60
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741157,
+  "last_activity_date" : 1498741157,
+  "tags" : [
+    "java",
+    "itext"
+  ],
+  "score" : 0,
+  "view_count" : 10,
+  "answer_count" : 0
+}

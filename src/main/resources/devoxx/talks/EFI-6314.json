@@ -1,0 +1,20 @@
+{
+  "trackId" : "lang",
+  "talkType" : "Tools-in-Action",
+  "track" : "Langages alternatifs",
+  "summaryAsHtml" : "<p>Dart, Coffeescript, Typescript, Purescript, Babel, et les autres, ont tous cherché à proposer une alternative plus moderne au Javascript.\nDécouvrez une solution robuste, multi-paradigme, fortement typée comme Java, dynamique comme javascript, et fonctionnelle comme Scala.\nHaxe est un langage de programmation orienté objet, open source, parfaitement adapté au développement d’applications web et isomophiques.</p>\n",
+  "id" : "EFI-6314",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3541b009169b15b44880a4f35fa1b0960836d6da",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "David Mouton"
+      },
+      "name" : "David Mouton"
+    }
+  ],
+  "title" : "Beyond Javascript",
+  "lang" : "fr",
+  "summary" : "Dart, Coffeescript, Typescript, Purescript, Babel, et les autres, ont tous cherché à proposer une alternative plus moderne au Javascript. \r\nDécouvrez une solution robuste, multi-paradigme, fortement typée comme Java, dynamique comme javascript, et fonctionnelle comme Scala. \r\nHaxe est un langage de programmation orienté objet, open source, parfaitement adapté au développement d’applications web et isomophiques."
+}

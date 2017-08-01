@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Quickie",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Si vous développez avec Javascript alors vous avez certainement été confronté aux problèmes de timezone, de décalage de date entre le client et le serveur ou encore de gestion cohérente des changements d’heure d’été et d’hiver.</p>\n<p>Je vous propose d’explorer la manipulation des dates en javascript à travers des exemples de code qui illustrent les problèmes induits par leur utilisation et bien évidemment comment les résoudre.</p>\n",
+  "id" : "MUT-4861",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f9ae5c77a7e8598f3974c083790994c3b7587ae8",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Bounkong KHAMPHOUSONE"
+      },
+      "name" : "Bounkong KHAMPHOUSONE"
+    }
+  ],
+  "title" : "L’enfer de l’objet Date JS",
+  "lang" : "fr",
+  "summary" : "Si vous développez avec Javascript alors vous avez certainement été confronté aux problèmes de timezone, de décalage de date entre le client et le serveur ou encore de gestion cohérente des changements d’heure d’été et d’hiver.\r\n\r\nJe vous propose d’explorer la manipulation des dates en javascript à travers des exemples de code qui illustrent les problèmes induits par leur utilisation et bien évidemment comment les résoudre."
+}

@@ -1,0 +1,32 @@
+{
+  "uuid" : "cea9af51f8f0c4ec4bc0aa5c6cfcd3a6a6b4a537",
+  "bioAsHtml" : "<p>Pierre Laporte (@pingtimeout) est ingénieur performances et chasseur de bugs chez Datastax. Il travaille à l&#x27;amélioration des performances de la base NoSQL Cassandra et de ses principaux drivers. En 2013, il a donné des formations &quot;Java Performance Tuning&quot; avec Kirk Pepperdine. Il a également animé des ateliers autour des performances sur la JVM depuis 2012 et a rédigé plusieurs articles sur le sujet dans la presse écrite et sur le site pingtimeout.fr.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/WMY-4491",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/cea9af51f8f0c4ec4bc0aa5c6cfcd3a6a6b4a537",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Pierre Laporte"
+        }
+      ],
+      "id" : "WMY-4491",
+      "title" : "Les race conditions, nos très chères amies"
+    }
+  ],
+  "company" : "Datastax",
+  "bio" : "Pierre Laporte (@pingtimeout) est ingénieur performances et chasseur de bugs chez Datastax. Il travaille à l'amélioration des performances de la base NoSQL Cassandra et de ses principaux drivers. En 2013, il a donné des formations \"Java Performance Tuning\" avec Kirk Pepperdine. Il a également animé des ateliers autour des performances sur la JVM depuis 2012 et a rédigé plusieurs articles sur le sujet dans la presse écrite et sur le site pingtimeout.fr.",
+  "lastName" : "Laporte",
+  "firstName" : "Pierre",
+  "blog" : "www.pingtimeout.fr",
+  "avatarURL" : "http://www.gravatar.com/avatar/4ffcb3b03cc8ba96c9f5513ab8a2b290",
+  "twitter" : "@pingtimeout",
+  "lang" : "fr"
+}

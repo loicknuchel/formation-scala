@@ -1,0 +1,25 @@
+{
+  "question_id" : 44806116,
+  "title" : "Bad practises in abstract classes C#",
+  "body" : "<p>I'm trying to improve my coding standards by implementing interfaces and abstract classes when necessary, however I would like to ask about practises regarding abstract classes.</p>\n\n<p>I'm creating a web application and one aspect of the site I need to do some data processing, I have created an abstract class and it looks something like this.</p>\n\n<pre><code>public abstract class TestAbstractClass\n{\n  public abstract void doDataProcessing();\n}\n</code></pre>\n\n<p>And I need to implement this 'doDataProcessing' method a few times throughout the application dependent on where the user is on my site, it will do VERY similar data processing, just with one or two different things.</p>\n\n<p>For example:</p>\n\n<p>User is on certain page:</p>\n\n<pre><code>public Page1Class: TestAbstractClass\n{\n  public override void doDataProcessing()\n  {\n    //do data processing\n  }\n}\n</code></pre>\n\n<p>User is on another page</p>\n\n<pre><code>public Page2Class: TestAbstractClass\n{\n  public override void doDataProcessing()\n  {\n    //do data processing but with slight change\n  }\n}\n</code></pre>\n\n<p>User is on another page</p>\n\n<pre><code>public Page3Class: TestAbstractClass\n{\n  public override void doDataProcessing()\n  {\n    //do data processing but with another change\n  }\n}\n</code></pre>\n\n<p>Would this be best practise? Or is it better just making one class, and just doing various conditional statements on what is being passed into the 'doDataProcessing()' method?</p>\n\n<p>I feel if I do it using the method I have posted, I will be having a lot of duplicate code in these 3 classes, is that OK?</p>\n\n<p>I hope this makes sense.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806116/bad-practises-in-abstract-classes-c",
+  "owner" : {
+    "user_id" : 3046756,
+    "user_type" : "registered",
+    "display_name" : "user3046756",
+    "profile_image" : "https://www.gravatar.com/avatar/a774a9a7c4aea04e0735035ff90bd88f?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/3046756/user3046756",
+    "reputation" : 1,
+    "accept_rate" : 0
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661930,
+  "last_activity_date" : 1498661930,
+  "tags" : [
+    "c#",
+    "abstract"
+  ],
+  "score" : 0,
+  "view_count" : 12,
+  "answer_count" : 0
+}

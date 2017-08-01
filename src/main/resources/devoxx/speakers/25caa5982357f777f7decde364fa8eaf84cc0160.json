@@ -1,0 +1,37 @@
+{
+  "uuid" : "25caa5982357f777f7decde364fa8eaf84cc0160",
+  "bioAsHtml" : "<p>Développeur C#, node.js, JavaScript client.  Je suis comme Simon tech leader chez AXA dans une équipe de développement basée à Lille depuis un peu plus de 5 ans.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/FVO-7221",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/25caa5982357f777f7decde364fa8eaf84cc0160",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Guillaume Chervet"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f438d366b844714aa984938792c23059b6ac9776",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Simon Dib"
+        }
+      ],
+      "id" : "FVO-7221",
+      "title" : "Découverte ASP.NET CORE et son écosystème"
+    }
+  ],
+  "company" : "AXA France",
+  "bio" : "Développeur C#, node.js, JavaScript client.  Je suis comme Simon tech leader chez AXA dans une équipe de développement basée à Lille depuis un peu plus de 5 ans.",
+  "lastName" : "Chervet",
+  "firstName" : "Guillaume",
+  "blog" : "https://www.guillaume-chervet.fr",
+  "avatarURL" : "https://pbs.twimg.com/profile_images/811888443022311428/rAk-JJmW.jpg",
+  "twitter" : "@guiChervet",
+  "lang" : "fr"
+}

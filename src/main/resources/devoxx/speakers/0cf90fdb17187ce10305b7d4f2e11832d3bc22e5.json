@@ -1,0 +1,32 @@
+{
+  "uuid" : "0cf90fdb17187ce10305b7d4f2e11832d3bc22e5",
+  "bioAsHtml" : "<p>Independent software engineer  working on data engineering, distributed computing and machine learning related projects. I co-organize the Paris Datageek Meetup, and regularly speak on big data and distributed systems.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/IRK-8786",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0cf90fdb17187ce10305b7d4f2e11832d3bc22e5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sam Bessalah"
+        }
+      ],
+      "id" : "IRK-8786",
+      "title" : "BOF Data Geeks and Friends"
+    }
+  ],
+  "company" : "LatticeIQ",
+  "bio" : "Independent software engineer  working on data engineering, distributed computing and machine learning related projects. I co-organize the Paris Datageek Meetup, and regularly speak on big data and distributed systems.",
+  "lastName" : "Bessalah",
+  "firstName" : "Sam",
+  "blog" : "latticeiq.com",
+  "avatarURL" : "http://i.imgur.com/woWYBkA.jpg",
+  "twitter" : "@samklr",
+  "lang" : "fr"
+}

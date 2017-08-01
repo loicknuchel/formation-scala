@@ -1,0 +1,37 @@
+{
+  "uuid" : "18d6b5e1fa41d694f4f0b1edcdcf4ad881335538",
+  "bioAsHtml" : "<p>Référent technique sur le pole d&#x27;expertise des serveurs d&#x27;application Java.\nIndustrialisation de leur mise en oeuvre, définition des normes de déploiement, guide de sécurité</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/WJW-7994",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9851a429a45bee3543469ba6385e1d552790420f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Brian Fox"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/18d6b5e1fa41d694f4f0b1edcdcf4ad881335538",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Olivier Routier"
+        }
+      ],
+      "id" : "WJW-7994",
+      "title" : "DevSecOps - Security at Devops speed with EDF"
+    }
+  ],
+  "company" : "EDF",
+  "bio" : "Référent technique sur le pole d'expertise des serveurs d'application Java.\r\nIndustrialisation de leur mise en oeuvre, définition des normes de déploiement, guide de sécurité\r\n\r\n",
+  "lastName" : "Routier",
+  "firstName" : "Olivier",
+  "blog" : null,
+  "avatarURL" : null,
+  "twitter" : null,
+  "lang" : "en"
+}

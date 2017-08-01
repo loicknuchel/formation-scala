@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826942,
+  "title" : "traceroute hops are not visible (request timed out) cisco 3750",
+  "body" : "<p>I trace route from my machine to any external host I am able to reach the host but I am unable to find out which route it takes. I can see the hops until our edge router (3750 L3) to which the firewall is connected. </p>\n\n<pre><code>  4     *        *        *     Request timed out.\n</code></pre>\n\n<p>5     *        *        *     Request timed out.\n  6     *        *        *     Request timed out.\n  7     *        *        *     Request timed out.\n  8     *        *        *     Request timed out.\n  9     *        *        *     Request timed out.\n 10     *        *        *     Request timed out.\n 11     *        *        *     Request timed out.\n 12     *        *        *     Request timed out.\n 13     *        *        *     Request timed out.\n 14     *        *        *     Request timed out.\n 15     *        *        *     Request timed out.\n 16     *        *        *     Request timed out.\n 17     *        *        *     Request timed out.\n 18     *        *        *     Request timed out.\n 19   459 ms   203 ms   124 ms  redirect.redhat.com [209.132.183.105]</p>\n\n<p>Trace complete.</p>\n\n<p>But if I do it from the firewall i get it properly showing all the hope.</p>\n\n<p>The firewall is connected to the the 3750. The internet traffic is going through the 3750s and through the firewall and is working fine.</p>\n\n<p>Is it stp causing the issue?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826942/traceroute-hops-are-not-visible-request-timed-out-cisco-3750",
+  "owner" : {
+    "user_id" : 8231723,
+    "user_type" : "registered",
+    "display_name" : "Matt",
+    "profile_image" : "https://lh4.googleusercontent.com/-YYXuxMEep64/AAAAAAAAAAI/AAAAAAAAAAs/9KTqstvGsgw/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/8231723/matt",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743918,
+  "last_activity_date" : 1498743918,
+  "tags" : [
+    "cisco",
+    "traceroute",
+    "stp"
+  ],
+  "score" : 0,
+  "view_count" : 1,
+  "answer_count" : 0
+}

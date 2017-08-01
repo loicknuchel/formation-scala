@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Conference",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>Vous n'avez jamais osé vous lancer dans un challenge de programmation? Vous ne savez pas par où commencer?</p>\n<p>C'était mon état d'esprit, il y a 7 ans, quand je me suis inscrit au google AI Challenge. Depuis, j'attends chaque concours avec impatience. Désormais dans le top 20 sur codingame, j'ai très régulièrement réussi a me classer dans le top 1% sur chaque challenge entrepris depuis.</p>\n<p>Mon ambition? Faire de vous un dresseur de bot redoutable. Vous apprendre comment développer une AI en quelques jours seulement, dans un environnement contraint, sans librairies externes et sans véritable IDE.\nCar cet environnement particulier demande un temps d'adaptation. Et avant de vous lancer sur des algo génétiques ou d'optimiser vos structures de données tête baissée, je vous propose mon retour d'expérience: un guide qui vous permettra de partir du bon pied.\nDu Monte Carlo Tree Search, aux bonnes pratiques de codes, en passant par la structure de votre AI et des statistiques insolites et utiles, nous feront le tour des éléments essentiels pour vous lancer.</p>\n<p>Et au prochain challenge? Je compte sur vous pour cartonner!</p>\n",
+  "id" : "SSI-2477",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4a00bcbad483da3fb2e195d8c948eec2e591238b",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Grégory Ribéron"
+      },
+      "name" : "Grégory Ribéron"
+    }
+  ],
+  "title" : "De bronze à légendaire, comment réussir vos IA de bot",
+  "lang" : "fr",
+  "summary" : "Vous n'avez jamais osé vous lancer dans un challenge de programmation? Vous ne savez pas par où commencer?\r\n\r\nC'était mon état d'esprit, il y a 7 ans, quand je me suis inscrit au google AI Challenge. Depuis, j'attends chaque concours avec impatience. Désormais dans le top 20 sur codingame, j'ai très régulièrement réussi a me classer dans le top 1% sur chaque challenge entrepris depuis.\r\n\r\nMon ambition? Faire de vous un dresseur de bot redoutable. Vous apprendre comment développer une AI en quelques jours seulement, dans un environnement contraint, sans librairies externes et sans véritable IDE.\r\nCar cet environnement particulier demande un temps d'adaptation. Et avant de vous lancer sur des algo génétiques ou d'optimiser vos structures de données tête baissée, je vous propose mon retour d'expérience: un guide qui vous permettra de partir du bon pied.\r\nDu Monte Carlo Tree Search, aux bonnes pratiques de codes, en passant par la structure de votre AI et des statistiques insolites et utiles, nous feront le tour des éléments essentiels pour vous lancer.\r\n\r\nEt au prochain challenge? Je compte sur vous pour cartonner!"
+}

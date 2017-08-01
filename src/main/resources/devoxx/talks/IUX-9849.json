@@ -1,0 +1,28 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Conference",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>Nous proposons de jouer une mini pièce de théâtre montrant des questions et réponses de la vraie vie lors d'une transformation vers l'Agile.\nLes résistances sont nombreuses, les arguments anti-agile difficiles à contrer et l'état d'esprit pas toujours facile à synthétiser et vulgariser.\nEn jouant une suite de petites mises en situation de façon humoristique, nous dédramatisons le changement, et offrons au public des clés pour convaincre.</p>\n",
+  "id" : "IUX-9849",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ed350128cb4bddd55f77d149b9a12f92b7ec886b",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Meriem El Aaboudi"
+      },
+      "name" : "Meriem El Aaboudi"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4a69a65acb125bda501fc249bef6374250a31444",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Laurène Thénoz"
+      },
+      "name" : "Laurène Thénoz"
+    }
+  ],
+  "title" : "Les 5 questions con(tre) l'agilité et comment y répondre",
+  "lang" : "fr",
+  "summary" : "Nous proposons de jouer une mini pièce de théâtre montrant des questions et réponses de la vraie vie lors d'une transformation vers l'Agile. \r\nLes résistances sont nombreuses, les arguments anti-agile difficiles à contrer et l'état d'esprit pas toujours facile à synthétiser et vulgariser. \r\nEn jouant une suite de petites mises en situation de façon humoristique, nous dédramatisons le changement, et offrons au public des clés pour convaincre. "
+}

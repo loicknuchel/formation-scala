@@ -1,0 +1,37 @@
+{
+  "uuid" : "22aa46639b9a92b1d2d28dbe70556f3cac2231b8",
+  "bioAsHtml" : "<p>développeur Java en perpétuelle formation. Intérêts pour Rust, Golang, PonyLang...</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/YYE-3179",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b8ab596bf883613acb6b90ee1f46fc806882254e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Olivier Bourgain"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/22aa46639b9a92b1d2d28dbe70556f3cac2231b8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Jean-Baptiste PETIT"
+        }
+      ],
+      "id" : "YYE-3179",
+      "title" : "Introduction à Rust"
+    }
+  ],
+  "company" : "Xebia",
+  "bio" : "développeur Java en perpétuelle formation. Intérêts pour Rust, Golang, PonyLang...",
+  "lastName" : "PETIT",
+  "firstName" : "Jean-Baptiste",
+  "blog" : "https://github.com/Jbbouille",
+  "avatarURL" : "https://avatars0.githubusercontent.com/u/5137306?v=3&s=460",
+  "twitter" : null,
+  "lang" : "fr"
+}

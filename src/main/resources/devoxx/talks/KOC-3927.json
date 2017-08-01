@@ -1,0 +1,20 @@
+{
+  "trackId" : "bigd",
+  "talkType" : "Tools-in-Action",
+  "track" : "Big Data, Machine Learning, IA & Analytics",
+  "summaryAsHtml" : "<p>When it’s time to choose the database technology for your app, the choices can be overwhelming. Should you choose SQL or NoSQL? Open source or proprietary? Self-hosted or hosted? If you’re not already familiar with graph databases, you might be tempted to ignore them as an option. But that could be a mistake.</p>\n<p>In this tools-in-action session, I'll discuss the benefits of graph databases.  Then I'll demonstrate how you can quickly and easily get started with a graph database using a hosted version of the open-source graph computing framework Apache TinkerPop.  I'll show you how you can use APIs and the Gremlin graph traversal query language to perform CRUD (create, read, update, and delete) operations.  I'll even show you how you can use Gremlin to quickly create a simple recommendation engine for your users.</p>\n<p>New to graph databases?  No problem!  Come learn all you need to get started here!</p>\n",
+  "id" : "KOC-3927",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f43c4c85ed0f8734f49678d00c81a2f6f55139f2",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Lauren Schaefer"
+      },
+      "name" : "Lauren Schaefer"
+    }
+  ],
+  "title" : "Getting started with graph databases",
+  "lang" : "en",
+  "summary" : "When it’s time to choose the database technology for your app, the choices can be overwhelming. Should you choose SQL or NoSQL? Open source or proprietary? Self-hosted or hosted? If you’re not already familiar with graph databases, you might be tempted to ignore them as an option. But that could be a mistake.\r\n\r\nIn this tools-in-action session, I'll discuss the benefits of graph databases.  Then I'll demonstrate how you can quickly and easily get started with a graph database using a hosted version of the open-source graph computing framework Apache TinkerPop.  I'll show you how you can use APIs and the Gremlin graph traversal query language to perform CRUD (create, read, update, and delete) operations.  I'll even show you how you can use Gremlin to quickly create a simple recommendation engine for your users.\r\n\r\nNew to graph databases?  No problem!  Come learn all you need to get started here!"
+}

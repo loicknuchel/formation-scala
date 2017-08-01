@@ -1,0 +1,32 @@
+{
+  "uuid" : "632d06bc8f44426697046192c88907ebc66098c8",
+  "bioAsHtml" : "<p>Ex google\nEx Criteo\nJ&#x27;ai fonde lion à Paris et aujourd&#x27;hui je fonde lion à tlv</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/NBA-7402",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/632d06bc8f44426697046192c88907ebc66098c8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Megane Dreyfuss"
+        }
+      ],
+      "id" : "NBA-7402",
+      "title" : "Toi aussi tu peux rejoindre une des meilleurs startups"
+    }
+  ],
+  "company" : "Lion",
+  "bio" : "Ex google\r\nEx Criteo\r\nJ'ai fonde lion à Paris et aujourd'hui je fonde lion à tlv",
+  "lastName" : "Dreyfuss",
+  "firstName" : "Megane",
+  "blog" : "Joinlion.co",
+  "avatarURL" : "http://www.gravatar.com/avatar/8ebe439282ccb93f8e1bd90641bfb883",
+  "twitter" : "@meganedreyfuss",
+  "lang" : "fr"
+}

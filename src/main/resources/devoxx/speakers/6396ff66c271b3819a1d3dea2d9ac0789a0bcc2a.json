@@ -1,0 +1,47 @@
+{
+  "uuid" : "6396ff66c271b3819a1d3dea2d9ac0789a0bcc2a",
+  "bioAsHtml" : "<p>Informaticienne avec plus de 10 ans d&#x27;experience dans l&#x27;écosystème java. Développeuse go depuis debut 2016. Organisatrice du chapitre Paris de Women Who Go. (http://www.womenwhogo.org/) (https://www.meetup.com/Women-Who-Go-Paris/)</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "BOF (Bird of a Feather)",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/DDW-1785",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f5526d5115b7aa4734dee1f48c060055e3e93193",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Golang Paris"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/043a31210de876082b469d82155bb25f5b2a83f5",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Gabriel Kastenbaum"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6396ff66c271b3819a1d3dea2d9ac0789a0bcc2a",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Diana Ortega"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d24ae2a0eb8be7230bf170df9c4883fc6c73d31e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Thomas Solignac"
+        }
+      ],
+      "id" : "DDW-1785",
+      "title" : "BOF Go des meetups Women Who Go & Golang Paris"
+    }
+  ],
+  "company" : "Xebia",
+  "bio" : "Informaticienne avec plus de 10 ans d'experience dans l'écosystème java. Développeuse go depuis debut 2016. Organisatrice du chapitre Paris de Women Who Go. (http://www.womenwhogo.org/) (https://www.meetup.com/Women-Who-Go-Paris/)",
+  "lastName" : "Ortega",
+  "firstName" : "Diana",
+  "blog" : "http://blog.xebia.fr/author/dortega/",
+  "avatarURL" : "https://en.gravatar.com/userimage/85070447/fb61d7589ead263f0b350796f6d9d4be.jpeg",
+  "twitter" : "@dicaormu",
+  "lang" : "fr"
+}

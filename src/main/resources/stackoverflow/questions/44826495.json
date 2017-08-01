@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826495,
+  "title" : "Create csv from json",
+  "body" : "<p>I have a json , which is the output of sql query, in below format</p>\n\n<pre><code>query result:\n\n{\"id\":\"01c93524836d4f47966d82920ab4f1c7\",\n\"status\":\"Finished\",\n\"results\":{\n\"resultType\":\"table\",\n\"data\":[\n[\n26428,\n1234\n],\n[\n2345,\n12\n]\n],\n\"schema\":[\n{\n\"name\":\"cnt\",\n\"type\":\"\\\"long\\\"\",\n\"metadata\":\"{}\"\n},\n{\n\"name\":\"count\",\n\"type\":\"\\\"integer\\\"\",\n\"metadata\":\"{}\"\n}\n],\n\"truncated\":false,\n\"isJsonSchema\":true\n}\n}\n</code></pre>\n\n<p>Above json contains Schema and data keys. (in this case column names are cnt,count in schema).\nRequirement is to create a csv file from above json in below format</p>\n\n<pre><code>cnt,count\n26428,1234\n</code></pre>\n\n<p>I have written below code to create two separate list for schema and data</p>\n\n<pre><code>data=json.loads(query_result)\nschema=[]\nresult=[]\nfor name in  data['results']['schema']:\n    schema.append(name['name'])\nfor data in  data['results']['data']:\n    result.append(data)\n</code></pre>\n\n<p>Is there any alternative method for creating csv from json form like above? as if data is more then my method might take some time.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826495/create-csv-from-json",
+  "owner" : {
+    "user_id" : 1298649,
+    "user_type" : "registered",
+    "display_name" : "anurag",
+    "profile_image" : "https://www.gravatar.com/avatar/241bed9df9309c1d92bd18953cb0a606?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1298649/anurag",
+    "reputation" : 66,
+    "accept_rate" : 50
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742883,
+  "last_activity_date" : 1498742883,
+  "tags" : [
+    "python",
+    "json",
+    "csv"
+  ],
+  "score" : 0,
+  "view_count" : 18,
+  "answer_count" : 0
+}

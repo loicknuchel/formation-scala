@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825850,
+  "title" : "How to input email and password for PayPal using Selenium2Library?",
+  "body" : "<p>I am trying to input email and password into PayPal (sandbox mode) using my Robot Framework script. This is a snippet of my code:</p>\n\n<pre><code>input text  login_email  ${email}  \ninput text  login_password  ${password} \n</code></pre>\n\n<p><code>login_email</code> is the <em>name</em> of the <em>input</em> field for the email and <code>login_password</code> is for the password. </p>\n\n<p>I am passing the email in the <code>${email}</code> argument and the password in the <code>${password}</code> argument.</p>\n\n<p>This doesn't seem to work for some reason. I keep getting this error:</p>\n\n<blockquote>\n  <p>InvalidElementStateException: Message: Element is not currently interactable and may not be manipulated</p>\n</blockquote>\n\n<p>The email and password field for PayPal are generated upon the loading of the page. Can that be a reason why they are not accessible? Can anybody help me identify what am I doing wrong here? </p>\n",
+  "link" : "https://stackoverflow.com/questions/44825850/how-to-input-email-and-password-for-paypal-using-selenium2library",
+  "owner" : {
+    "user_id" : 4496588,
+    "user_type" : "registered",
+    "display_name" : "Shehzaan Ansari",
+    "profile_image" : "https://www.gravatar.com/avatar/a75b99107e19f5cb4ab5214e5598900f?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4496588/shehzaan-ansari",
+    "reputation" : 11,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741171,
+  "last_activity_date" : 1498741612,
+  "tags" : [
+    "paypal-sandbox",
+    "robotframework",
+    "selenium2library"
+  ],
+  "score" : 1,
+  "view_count" : 8,
+  "answer_count" : 0
+}

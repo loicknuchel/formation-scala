@@ -1,0 +1,37 @@
+{
+  "uuid" : "f8e03ec88abe5a93f61949cc2722c8a71a369a42",
+  "bioAsHtml" : "<p>Tech lead java et passionnée d&#x27;agilité, j&#x27;essaie de faire de mon mieux pour rendre mes projets intéressants.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "DevOps, Agilité, Méthodologie & Tests",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/WZM-8004",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f8e03ec88abe5a93f61949cc2722c8a71a369a42",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Charlotte Cavalier"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/deaf291324f9bf7fd83bc6dcd0754eaceb9aa2a0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Christophe Pont"
+        }
+      ],
+      "id" : "WZM-8004",
+      "title" : "Être geek en SSII : guide de survie en milieu hostile"
+    }
+  ],
+  "company" : "CodinGame",
+  "bio" : "Tech lead java et passionnée d'agilité, j'essaie de faire de mon mieux pour rendre mes projets intéressants.",
+  "lastName" : "Cavalier",
+  "firstName" : "Charlotte",
+  "blog" : null,
+  "avatarURL" : "https://media.licdn.com/mpr/mprx/0_a4Jv4EQZ5-gUhd3iIp3UKZiMhrOULwxOkW7vjYRMk9iV8UT03W7qPR8ZFXAULo1-XW3vru742q1sQ7kiGwpWrYmqWq1RQ7L1TwpnRxUJCz6BuMO7DVE4UIvHdTdIf7tGHHZMySiWSTA",
+  "twitter" : "@cavalierch",
+  "lang" : "fr-FR"
+}

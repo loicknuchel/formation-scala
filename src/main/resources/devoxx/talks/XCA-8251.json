@@ -1,0 +1,20 @@
+{
+  "trackId" : "wm",
+  "talkType" : "Quickie",
+  "track" : "Web, JS, HTML5 et UX",
+  "summaryAsHtml" : "<p>Microsoft change. Maintenant il est possible d'étendre Office avec quelques lignes de HTML, CSS et Javascript. Venez découvrir comment il est possible de lire et d'enrichir un document word ou bien de compléter un document excel en quelques lignes de code.</p>\n",
+  "id" : "XCA-8251",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ada86abb3009b06bb9b88dc7b72c8383fda8c931",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "DEWITTE Pierre-Alban"
+      },
+      "name" : "DEWITTE Pierre-Alban"
+    }
+  ],
+  "title" : "Étendre word et excel avec Javascript c'est possible",
+  "lang" : "fr",
+  "summary" : "Microsoft change. Maintenant il est possible d'étendre Office avec quelques lignes de HTML, CSS et Javascript. Venez découvrir comment il est possible de lire et d'enrichir un document word ou bien de compléter un document excel en quelques lignes de code. "
+}

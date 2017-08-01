@@ -1,0 +1,32 @@
+{
+  "uuid" : "a3f3cdabc1215c2dbb2d6aa9644fbc5225258fcd",
+  "bioAsHtml" : "<p>Passionné par le design et l&#x27;UX, je travaille chez Microsoft à propager les messages inhérents à ce domaine auprès des développeurs, des décideurs, des startupeurs. Je suis avant tout un créateur de pixels le jour, en 2D, en 3D, en temps réel, en statique ou en dynamique, et destructeur de pixel la nuit, surtout sur les jeux vidéo à la première personne.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Future, Robotique",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/AKF-1774",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a3f3cdabc1215c2dbb2d6aa9644fbc5225258fcd",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Michel Rousseau"
+        }
+      ],
+      "id" : "AKF-1774",
+      "title" : "Soyez Holographique !"
+    }
+  ],
+  "company" : "Microsoft",
+  "bio" : "Passionné par le design et l'UX, je travaille chez Microsoft à propager les messages inhérents à ce domaine auprès des développeurs, des décideurs, des startupeurs. Je suis avant tout un créateur de pixels le jour, en 2D, en 3D, en temps réel, en statique ou en dynamique, et destructeur de pixel la nuit, surtout sur les jeux vidéo à la première personne. ",
+  "lastName" : "Rousseau",
+  "firstName" : "michel",
+  "blog" : "https://michelrousseaufr.wordpress.com/",
+  "avatarURL" : "https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/13450268_1046041708774975_6007728045331584718_n.jpg?oh=dea9ecd3aff857adcdceeed8878b2c5b&oe=58CC5854",
+  "twitter" : "@rousseau_michel",
+  "lang" : "fr"
+}

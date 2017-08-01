@@ -1,0 +1,37 @@
+{
+  "uuid" : "ad4e2dfc230884e75b3674f3b8fdd7c8239023dd",
+  "bioAsHtml" : "<p>Développeur Android, je travaille pour la startup Virtuo qui propose une expérience de location de voiture 100% mobile.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Mobile, IoT",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/OKC-5960",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/bead27f662f1ce1be4640b56e860f1126a9a10eb",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Mathieu Hausherr"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ad4e2dfc230884e75b3674f3b8fdd7c8239023dd",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Romain Potier"
+        }
+      ],
+      "id" : "OKC-5960",
+      "title" : "Mode offline : Notre application mobile fonctionne au niveau -5 d’un parking"
+    }
+  ],
+  "company" : "Virtuo",
+  "bio" : "Développeur Android, je travaille pour la startup Virtuo qui propose une expérience de location de voiture 100% mobile.",
+  "lastName" : "Potier",
+  "firstName" : "Romain",
+  "blog" : "https://github.com/romainpotier",
+  "avatarURL" : "https://pbs.twimg.com/profile_images/515059942764445696/H7LW0vV6.jpeg",
+  "twitter" : "@PotierRomain",
+  "lang" : "fr"
+}

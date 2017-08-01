@@ -1,0 +1,27 @@
+{
+  "question_id" : 44825768,
+  "title" : "Persisting cumulated properties in the state",
+  "body" : "<p>What would be the best practice for saving a user profile in the database filled in different screens ?</p>\n\n<p>I am cumulating properties in the state and would start saving only after filling the password.</p>\n\n<ol>\n<li>Should I get the state in the action reducer ?</li>\n<li>Pass the profile properties to the password screen and have it as parameter in the action reducer ?</li>\n</ol>\n",
+  "link" : "https://stackoverflow.com/questions/44825768/persisting-cumulated-properties-in-the-state",
+  "owner" : {
+    "user_id" : 574103,
+    "user_type" : "registered",
+    "display_name" : "rad",
+    "profile_image" : "https://i.stack.imgur.com/xFRyi.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/574103/rad",
+    "reputation" : 799,
+    "accept_rate" : 42
+  },
+  "is_answered" : false,
+  "creation_date" : 1498740994,
+  "last_activity_date" : 1498740994,
+  "tags" : [
+    "javascript",
+    "reactjs",
+    "react-native",
+    "redux"
+  ],
+  "score" : 0,
+  "view_count" : 13,
+  "answer_count" : 0
+}

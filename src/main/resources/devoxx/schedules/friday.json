@@ -1,0 +1,2697 @@
+{
+  "slots" : [
+    {
+      "roomId" : "a_hall",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491544800000,
+      "break" : {
+        "id" : "dej",
+        "nameEN" : "Breakfast",
+        "nameFR" : "Accueil et petit-déjeuner",
+        "room" : {
+          "id" : "a_hall",
+          "name" : "Exhibition floor",
+          "capacity" : 2300,
+          "setup" : "special",
+          "recorded" : ""
+        }
+      },
+      "roomSetup" : "special",
+      "talk" : null,
+      "fromTime" : "08:00",
+      "toTimeMillis" : 1491548400000,
+      "toTime" : "09:00",
+      "roomCapacity" : 2300,
+      "roomName" : "Exhibition floor",
+      "slotId" : "dej_friday_7_8h0_7h0",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "b_amphi",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491548400000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "bigd",
+        "talkType" : "Keynote",
+        "track" : "Big Data, Machine Learning, IA & Analytics",
+        "summaryAsHtml" : "<p>The future will see AI systems acting in the same environment as humans, in areas as diverse as driving, assistive technology, and health care. Think of self-driving cars, companion robots, and medical diagnosis support systems. AI has the capability to make sense of the huge volume of data surrounding us, transforming data into knowledge that we can use to make better decisions in all these areas of our personal and professional life. This could potentially lead to great transformations and to solving some of the most difficult problem in our society. However, in order to fully exploit the potential of AI, these systems need to follow the same ethical principles and moral value that we expect from other humans, so to build trust in them and create synergic partnership between humans and machines.</p>\n<p>In this talk I will mention some of the ethical issues that the pervasive use of AI raises, as well as some initiatives, such as the Partnership on AI, whose goal is to educate, discuss, and possibly solve most of these issues.</p>\n",
+        "id" : "OGJ-4797",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d3ae0e495f3a6dbef51767ba7944cd321b221897",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Francesca Rossi"
+            },
+            "name" : "Francesca Rossi"
+          }
+        ],
+        "title" : "Ethical AI",
+        "lang" : "fr",
+        "summary" : "The future will see AI systems acting in the same environment as humans, in areas as diverse as driving, assistive technology, and health care. Think of self-driving cars, companion robots, and medical diagnosis support systems. AI has the capability to make sense of the huge volume of data surrounding us, transforming data into knowledge that we can use to make better decisions in all these areas of our personal and professional life. This could potentially lead to great transformations and to solving some of the most difficult problem in our society. However, in order to fully exploit the potential of AI, these systems need to follow the same ethical principles and moral value that we expect from other humans, so to build trust in them and create synergic partnership between humans and machines. \r\n\r\nIn this talk I will mention some of the ethical issues that the pervasive use of AI raises, as well as some initiatives, such as the Partnership on AI, whose goal is to educate, discuss, and possibly solve most of these issues. \r\n"
+      },
+      "fromTime" : "09:00",
+      "toTimeMillis" : 1491549600000,
+      "toTime" : "09:20",
+      "roomCapacity" : 826,
+      "roomName" : "Amphi Bleu",
+      "slotId" : "key_b_amphi_friday_7_9h0_9h20",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "b_amphi",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491549900000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "future",
+        "talkType" : "Keynote",
+        "track" : "Future, Robotique",
+        "summaryAsHtml" : "<p>Grâce à la technologie robotique, l’émergence de nouveaux « êtres » est en passe de devenir une réalité. Intelligence artificielle oblige, les robots sont aujourd’hui beaucoup plus que de simples automates : leurs capacités grandissantes les amènent à véritablement collaborer avec les hommes. Faut-il s’en inquiéter ou s’en réjouir ? Une chose est certaine : les questions d’ordre éthique et juridique sont majeures, et les défis à relever immenses.  Bienvenue dans une nouvelle civilisation : la robohumanité.</p>\n",
+        "id" : "EOM-5359",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9a991d0bdfd7f83a00f81ded42676539c765236a",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Alain Bensoussan"
+            },
+            "name" : "Alain Bensoussan"
+          }
+        ],
+        "title" : "Quel droit pour les robots",
+        "lang" : "fr",
+        "summary" : "Grâce à la technologie robotique, l’émergence de nouveaux « êtres » est en passe de devenir une réalité. Intelligence artificielle oblige, les robots sont aujourd’hui beaucoup plus que de simples automates : leurs capacités grandissantes les amènent à véritablement collaborer avec les hommes. Faut-il s’en inquiéter ou s’en réjouir ? Une chose est certaine : les questions d’ordre éthique et juridique sont majeures, et les défis à relever immenses.  Bienvenue dans une nouvelle civilisation : la robohumanité. "
+      },
+      "fromTime" : "09:25",
+      "toTimeMillis" : 1491551100000,
+      "toTime" : "09:45",
+      "roomCapacity" : 826,
+      "roomName" : "Amphi Bleu",
+      "slotId" : "key_b_amphi_friday_7_9h25_9h45",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "b_amphi",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491551400000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "archisec",
+        "talkType" : "Keynote",
+        "track" : "Architecture, Performance et Securité",
+        "summaryAsHtml" : "<p>Depuis vingt ans nous vivons une révolution culturelle engendrée par l’irruption dans toutes les activités humaines de l’Internet et par conséquent de l’informatique. Les répercussions de cette révolution sont comparables à celles de l’invention de l’écriture, de la machine à vapeur, de l’électricité. Cette extension du monde informatisé exige la refondation du système éducatif, des normes juridiques, de l'organisation des entreprises et des administrations, les pays qui ne sauront pas prendre ce virage deviendront des pays sous-développés.</p>\n<p>La France, et plus largement l'Europe, disposent pour cela d'atouts considérables : le premier marché mondial, un territoire exceptionnel, la population la plus éduquée du monde, des infrastructures de premier ordre. Et nous sommes pourtant menacés de devenir « une colonie du monde numérique », par manque de compréhension et de vision.</p>\n<p>Qui sait que parmi les six entreprises au monde capables de fabriquer des microprocesseurs à l'état de l'art il y a le franco-italien STMicro ?</p>\n<p>Systèmes d'exploitation et logiciel, réseaux et micro-électronique sont nos missions impérieuses pour les années à venir.</p>\n",
+        "id" : "IAK-9866",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6b064ef3ea00dbd43cda9c9830c05e978bf1c779",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Laurent Bloch"
+            },
+            "name" : "Laurent Bloch"
+          }
+        ],
+        "title" : "Révolution cyberindustrielle en France",
+        "lang" : "fr",
+        "summary" : "Depuis vingt ans nous vivons une révolution culturelle engendrée par l’irruption dans toutes les activités humaines de l’Internet et par conséquent de l’informatique. Les répercussions de cette révolution sont comparables à celles de l’invention de l’écriture, de la machine à vapeur, de l’électricité. Cette extension du monde informatisé exige la refondation du système éducatif, des normes juridiques, de l'organisation des entreprises et des administrations, les pays qui ne sauront pas prendre ce virage deviendront des pays sous-développés.\r\n\r\nLa France, et plus largement l'Europe, disposent pour cela d'atouts considérables : le premier marché mondial, un territoire exceptionnel, la population la plus éduquée du monde, des infrastructures de premier ordre. Et nous sommes pourtant menacés de devenir « une colonie du monde numérique », par manque de compréhension et de vision.\r\n\r\nQui sait que parmi les six entreprises au monde capables de fabriquer des microprocesseurs à l'état de l'art il y a le franco-italien STMicro ?\r\n\r\nSystèmes d'exploitation et logiciel, réseaux et micro-électronique sont nos missions impérieuses pour les années à venir."
+      },
+      "fromTime" : "09:50",
+      "toTimeMillis" : 1491552600000,
+      "toTime" : "10:10",
+      "roomCapacity" : 826,
+      "roomName" : "Amphi Bleu",
+      "slotId" : "key_b_amphi_friday_7_9h50_10h10",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "b_amphi",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491552900000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "bigd",
+        "talkType" : "Keynote",
+        "track" : "Big Data, Machine Learning, IA & Analytics",
+        "summaryAsHtml" : "<p>This talk and performance between Albert (a human) and A.L.Ex (an artificial intelligence embodied by a robot) from HumanMachine will showcase how improv comedy can be assisted (or made difficult) by a computer stage partner. The show was co-created by Piotr Mirowski and Kory Mathewson, two research scientists in artificial intelligence with a shared passion for building things as well as for drama and performing arts.\nThe aim of the show is to build bridges between the artistic / acting and AI / hacker communities, and to raise questions about the nature of spontaneity and communication. Can we model language by patterns? How can a statistical language model inform improvised theatre, which is about doing the most \"obvious\" thing? How easily do we suspend disbelief? Why should we follow the basic improvisation principles of always saying \"Yes, and...\" and of making one's (stage) partner look good?\nThe improv show will be in English, the following talk will be in French.</p>\n",
+        "id" : "QBS-0960",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7387fa628230b939e83702a39622afe4835808d0",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Piotr Mirowski"
+            },
+            "name" : "Piotr Mirowski"
+          }
+        ],
+        "title" : "Human / Machine Improvised Theatre",
+        "lang" : "fr",
+        "summary" : "This talk and performance between Albert (a human) and A.L.Ex (an artificial intelligence embodied by a robot) from HumanMachine will showcase how improv comedy can be assisted (or made difficult) by a computer stage partner. The show was co-created by Piotr Mirowski and Kory Mathewson, two research scientists in artificial intelligence with a shared passion for building things as well as for drama and performing arts. \r\nThe aim of the show is to build bridges between the artistic / acting and AI / hacker communities, and to raise questions about the nature of spontaneity and communication. Can we model language by patterns? How can a statistical language model inform improvised theatre, which is about doing the most \"obvious\" thing? How easily do we suspend disbelief? Why should we follow the basic improvisation principles of always saying \"Yes, and...\" and of making one's (stage) partner look good?\r\nThe improv show will be in English, the following talk will be in French."
+      },
+      "fromTime" : "10:15",
+      "toTimeMillis" : 1491554100000,
+      "toTime" : "10:35",
+      "roomCapacity" : 826,
+      "roomName" : "Amphi Bleu",
+      "slotId" : "key_b_amphi_friday_7_10h15_10h35",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "a_hall",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491554700000,
+      "break" : {
+        "id" : "coffee",
+        "nameEN" : "Coffee Break",
+        "nameFR" : "Pause café",
+        "room" : {
+          "id" : "a_hall",
+          "name" : "Exhibition floor",
+          "capacity" : 2300,
+          "setup" : "special",
+          "recorded" : ""
+        }
+      },
+      "roomSetup" : "special",
+      "talk" : null,
+      "fromTime" : "10:45",
+      "toTimeMillis" : 1491556500000,
+      "toTime" : "11:15",
+      "roomCapacity" : 2300,
+      "roomName" : "Exhibition floor",
+      "slotId" : "coffee_friday_7_10h45_9h15",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "b_amphi",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491556500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "cldops",
+        "talkType" : "Conference",
+        "track" : "Cloud, Container et Scalabilité",
+        "summaryAsHtml" : "<p>Les systèmes distribués sont complexes. Malgré tout, la montée en puissance du Cloud, de la très haute disponibilité et des augmentations régulières de trafic, les rendent omniprésents de nos jours. Dans cette session nous explorerons des solutions aux problèmes les plus couramment rencontrés lors du développement et de la gestion en production de systèmes distribués : scalabilité, disponibilité, complexité opérationnelle, tests, ....</p>\n",
+        "id" : "HPC-9733",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a308874ae89db4867f26b564b9bd21869771fc52",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Michaël Figuière"
+            },
+            "name" : "Michaël Figuière"
+          }
+        ],
+        "title" : "Ce que j'ai appris en construisant des systèmes distribués",
+        "lang" : "fr",
+        "summary" : "Les systèmes distribués sont complexes. Malgré tout, la montée en puissance du Cloud, de la très haute disponibilité et des augmentations régulières de trafic, les rendent omniprésents de nos jours. Dans cette session nous explorerons des solutions aux problèmes les plus couramment rencontrés lors du développement et de la gestion en production de systèmes distribués : scalabilité, disponibilité, complexité opérationnelle, tests, ...."
+      },
+      "fromTime" : "11:15",
+      "toTimeMillis" : 1491559200000,
+      "toTime" : "12:00",
+      "roomCapacity" : 826,
+      "roomName" : "Amphi Bleu",
+      "slotId" : "conf_b_amphi_friday_7_11h15_12h0",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "c_maillot",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491556500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "java",
+        "talkType" : "Conference",
+        "track" : "Java, JVM, Javas SE/EE",
+        "summaryAsHtml" : "<p>Spring 5.0 arrive dans le monde Reactive avec un nouveau framework web <a href=\"http://docs.spring.io/spring/docs/5.0.x/spring-framework-reference/html/web-reactive.html\"><strong>Spring WebFlux</strong></a> qui se base à 100% sur Reactive Streams et s'adapte aux APIs réactives telles que Reactor 3 ou RxJava 2, mais également avec les différents projets de la galaxie Spring qui ajoutent progressivement le support de ce type de programmation.</p>\n<p>Cette session de live coding va vous montrer comment créer une application réactive avec Spring 5.0 et Spring Boot 2.0. Nous coderons ensemble <strong>une API REST JSON</strong>, des <strong>vues HTML avec Mustache</strong> enrichies avec du <strong>push Server-Sent Events</strong>, du micro-batching, le tout avec une couche persistence utilisant <strong>Spring Data Reactive Mongo</strong> et le nouveau <code>WebClient</code> pour composer des données issues de services distants (API REST ou streaming). L'application utilisera <strong>Netty</strong> comme moteur HTTP côté client et serveur.</p>\n<p>Nous vous donnerons également un aperçu de l'API fonctionnelle WebFlux (basée sur des lambdas au lieu des annotations) en Java 8 et en Kotlin.</p>\n",
+        "id" : "FSA-6701",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d84b817a907825ede4a9d5a74665bc23be072608",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Sebastien Deleuze"
+            },
+            "name" : "Sebastien Deleuze"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e8c67e2df13f82a0e69b26b1274d11fec44b0122",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Brian Clozel"
+            },
+            "name" : "Brian Clozel"
+          }
+        ],
+        "title" : "Reactive Spring",
+        "lang" : "fr",
+        "summary" : "Spring 5.0 arrive dans le monde Reactive avec un nouveau framework web [**Spring WebFlux**](http://docs.spring.io/spring/docs/5.0.x/spring-framework-reference/html/web-reactive.html) qui se base à 100% sur Reactive Streams et s'adapte aux APIs réactives telles que Reactor 3 ou RxJava 2, mais également avec les différents projets de la galaxie Spring qui ajoutent progressivement le support de ce type de programmation.\r\n\r\nCette session de live coding va vous montrer comment créer une application réactive avec Spring 5.0 et Spring Boot 2.0. Nous coderons ensemble **une API REST JSON**, des **vues HTML avec Mustache** enrichies avec du **push Server-Sent Events**, du micro-batching, le tout avec une couche persistence utilisant **Spring Data Reactive Mongo** et le nouveau `WebClient` pour composer des données issues de services distants (API REST ou streaming). L'application utilisera **Netty** comme moteur HTTP côté client et serveur.\r\n\r\nNous vous donnerons également un aperçu de l'API fonctionnelle WebFlux (basée sur des lambdas au lieu des annotations) en Java 8 et en Kotlin."
+      },
+      "fromTime" : "11:15",
+      "toTimeMillis" : 1491559200000,
+      "toTime" : "12:00",
+      "roomCapacity" : 380,
+      "roomName" : "Maillot",
+      "slotId" : "conf_c_maillot_friday_7_11h15_12h0",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par242AB",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491556500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "lang",
+        "talkType" : "Conference",
+        "track" : "Langages alternatifs",
+        "summaryAsHtml" : "<p>Vous aimez les concepts de haut niveau, comme les fonctions d’ordre supérieur, un système de typage fort, immutabilité par défaut, closures et des génériques réifiés ?\nLa gestion manuelle de la mémoire n’est pas votre fort ; vous ne voulez pas d’un ramasse miette, ni de pauses dans votre application ?</p>\n<p>Rust est fait pour vous !</p>\n<p>C’est un langage de programmation assez récent, développé par Mozilla qui expose des concepts de haut niveau tout en permettant d’atteindre un niveau de contrôle similaire au C/C++.</p>\n<p>Sa devise est: “Performance, Sécurité, Productivité, choisissez en trois.“</p>\n<p>Il propose une gestion automatique de la mémoire sans ramasse miettes, ni comptage de référence mais les développeur adeptes du bas niveau ne sont pas en reste, avec la possibilité d’en avoir le contrôle. Le langage Rust permet de très bonnes performances via sa gestion de la mémoire faite au niveau du compilateur et une compilation native.</p>\n<p>A travers du live coding, nous illustrerons les concepts de Rust: borrowing, ownership, lifetimes, mutabilitée et génériques.</p>\n",
+        "id" : "YYE-3179",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b8ab596bf883613acb6b90ee1f46fc806882254e",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Olivier Bourgain"
+            },
+            "name" : "Olivier Bourgain"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/22aa46639b9a92b1d2d28dbe70556f3cac2231b8",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Jean-Baptiste PETIT"
+            },
+            "name" : "Jean-Baptiste PETIT"
+          }
+        ],
+        "title" : "Introduction à Rust",
+        "lang" : "fr",
+        "summary" : "Vous aimez les concepts de haut niveau, comme les fonctions d’ordre supérieur, un système de typage fort, immutabilité par défaut, closures et des génériques réifiés ?\r\nLa gestion manuelle de la mémoire n’est pas votre fort ; vous ne voulez pas d’un ramasse miette, ni de pauses dans votre application ?\r\n\r\nRust est fait pour vous !\r\n\r\nC’est un langage de programmation assez récent, développé par Mozilla qui expose des concepts de haut niveau tout en permettant d’atteindre un niveau de contrôle similaire au C/C++.\r\n\r\nSa devise est: “Performance, Sécurité, Productivité, choisissez en trois.“ \r\n\r\nIl propose une gestion automatique de la mémoire sans ramasse miettes, ni comptage de référence mais les développeur adeptes du bas niveau ne sont pas en reste, avec la possibilité d’en avoir le contrôle. Le langage Rust permet de très bonnes performances via sa gestion de la mémoire faite au niveau du compilateur et une compilation native.\r\n\r\nA travers du live coding, nous illustrerons les concepts de Rust: borrowing, ownership, lifetimes, mutabilitée et génériques."
+      },
+      "fromTime" : "11:15",
+      "toTimeMillis" : 1491559200000,
+      "toTime" : "12:00",
+      "roomCapacity" : 280,
+      "roomName" : "Paris 242-AB",
+      "slotId" : "conf_par242AB_friday_7_11h15_12h0",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "e_neu252",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491556500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "archisec",
+        "talkType" : "Conference",
+        "track" : "Architecture, Performance et Securité",
+        "summaryAsHtml" : "<p>Bien que la sécurité soit un aspect crucial pour toute application sa mise en oeuvre peut s’avérer laborieuse. Pire, elle sera souvent négligée, mal implémentée et intrusive dans le code. S'ajoute à cela la gestion de ses utilisateurs, le tout dans un environnement de plus en plus hétérogène tant au niveau technique que fonctionnel.</p>\n<p>Mais depuis quelques temps, une nouvelle tendance se dégage : externaliser et déléguer tous les aspects d'authentification et de gestion d'identité à une entité tierce (Auth0, KeyCloak ...). Ces serveurs intègrent également les nouveaux protocoles et standards comme OpenID et JWT qui ont désormais atteint leur maturation. En 2017, mettre en place sa sécurité passera par la.<br  /></p>\n<p>Dans cette session, je vous propose de faire le point sur comment faire de la sécurité de façon moderne. Apres un rappel de ce qu'est OpenID et JWT, on verra concrètement comment sécuriser une appli Java EE \"classique\", un microservice Node.js, une Web App Angular standalone ou bien encore une application SpringBoot.</p>\n",
+        "id" : "MXF-3544",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1454e2d0a6c2fa871454dab3dbf66f5e16b61980",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Sebastien Blanc"
+            },
+            "name" : "Sebastien Blanc"
+          }
+        ],
+        "title" : "Mettre en place sa sécurité et sa gestion d'identité en 2017",
+        "lang" : "fr",
+        "summary" : "Bien que la sécurité soit un aspect crucial pour toute application sa mise en oeuvre peut s’avérer laborieuse. Pire, elle sera souvent négligée, mal implémentée et intrusive dans le code. S'ajoute à cela la gestion de ses utilisateurs, le tout dans un environnement de plus en plus hétérogène tant au niveau technique que fonctionnel. \r\n\r\nMais depuis quelques temps, une nouvelle tendance se dégage : externaliser et déléguer tous les aspects d'authentification et de gestion d'identité à une entité tierce (Auth0, KeyCloak ...). Ces serveurs intègrent également les nouveaux protocoles et standards comme OpenID et JWT qui ont désormais atteint leur maturation. En 2017, mettre en place sa sécurité passera par la.    \r\n\r\n  \r\nDans cette session, je vous propose de faire le point sur comment faire de la sécurité de façon moderne. Apres un rappel de ce qu'est OpenID et JWT, on verra concrètement comment sécuriser une appli Java EE \"classique\", un microservice Node.js, une Web App Angular standalone ou bien encore une application SpringBoot. "
+      },
+      "fromTime" : "11:15",
+      "toTimeMillis" : 1491559200000,
+      "toTime" : "12:00",
+      "roomCapacity" : 380,
+      "roomName" : "Neuilly 252 AB",
+      "slotId" : "conf_e_neu252_friday_7_11h15_12h0",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "d_par241",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491556500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "future",
+        "talkType" : "Conference",
+        "track" : "Future, Robotique",
+        "summaryAsHtml" : "<p>​N​ombreux​, aujourd'hui,​ sont ​celles et ​ceux qui investissent les futurs ouvert​s​ par la \"révolution numérique\" (​une révolution ​qu'il s'agirait ​d'interroger). Tou​tes et tous​ justifient la sentence de G​. Berry selon qui \"le monde devient numérique\". Néanmoins, il y​ a​ là matière à poser au moins deux questions.​ La première semble évidente : qu'est-ce qui, au juste, devient numérique, se transforme ou disparaît au cours de ce processus ? ​</p>\n<p>P​arallèlement à ce devenir-numérique, d'autres chercheurs nous expliquent que nous sommes entrés dans l'Anthropocène, une période d'instabilité qui menace moins la planète que ​la​ civilisation​ actuelle​. Dans ce contexte, il est légitime de se poser la question suivante : ​\"le monde, s'il devient numérique, a-t-il réellement les moyens de l​e​ rester ?\".</p>\n<p>Les acteurs du numériques vantent souvent la disruption, mais la véritable​ ​disruption reste à venir : nous n'entrons pas dans un âge marqué ​​​par une révolution mais plusieurs ; autrement dit, les futurs que nous faisons éclore sont désormais divergents et il nous faut rapidement essayer de penser leur inévitable point de convergence avant qu'il ne s'impose à nous brutalement.</p>\n",
+        "id" : "EPU-2855",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/34016b86be1504e6686d37e2728728d976e30e9e",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Alexandre Monnin"
+            },
+            "name" : "Alexandre Monnin"
+          }
+        ],
+        "title" : "​​Le monde devient numérique, a-t-il les moyens de le rester ?",
+        "lang" : "fr",
+        "summary" : "​N​ombreux​, aujourd'hui,​ sont ​celles et ​ceux qui investissent les futurs ouvert​s​ par la \"révolution numérique\" (​une révolution ​qu'il s'agirait ​d'interroger). Tou​tes et tous​ justifient la sentence de G​. Berry selon qui \"le monde devient numérique\". Néanmoins, il y​ a​ là matière à poser au moins deux questions.​ La première semble évidente : qu'est-ce qui, au juste, devient numérique, se transforme ou disparaît au cours de ce processus ? ​\r\n\r\nP​arallèlement à ce devenir-numérique, d'autres chercheurs nous expliquent que nous sommes entrés dans l'Anthropocène, une période d'instabilité qui menace moins la planète que ​la​ civilisation​ actuelle​. Dans ce contexte, il est légitime de se poser la question suivante : ​\"le monde, s'il devient numérique, a-t-il réellement les moyens de l​e​ rester ?\". \r\n\r\nLes acteurs du numériques vantent souvent la disruption, mais la véritable​ ​disruption reste à venir : nous n'entrons pas dans un âge marqué ​​​par une révolution mais plusieurs ; autrement dit, les futurs que nous faisons éclore sont désormais divergents et il nous faut rapidement essayer de penser leur inévitable point de convergence avant qu'il ne s'impose à nous brutalement."
+      },
+      "fromTime" : "11:15",
+      "toTimeMillis" : 1491559200000,
+      "toTime" : "12:00",
+      "roomCapacity" : 220,
+      "roomName" : "Paris 241",
+      "slotId" : "conf_d_par241_friday_7_11h15_12h0",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "f_neu251",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491556500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "agTest",
+        "talkType" : "Conference",
+        "track" : "DevOps, Agilité, Méthodologie & Tests",
+        "summaryAsHtml" : "<p>The “deploy moment” is an occasion that still gives many developers the shivers. But it shouldn’t be this way (at least not every time). Luckily enough, we have tools and processes today that enable us to turn the deploy moment into an usual activity. Gone where the days when we had to automate everything by hand. Today we have Kubernetes, OpenShift, and Fabric8 to automate out-of-box many different scenarios. And if we need even more advanced scenarios we can use tools like Zuul and FF4J to solve the cumbersome parts for us.</p>\n<p>Come and join this live demo session with lots of different deployment scenarios: from basic to advanced. We'll cover the basic deployment concepts and then we'll dig into demoing how can we use open source tools like Kubernetes, OpenShift, Fabric8, Zuul and FF4J to master the deployment art.</p>\n",
+        "id" : "GNS-4769",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8dda9845b6dcbf7e5321b1ede3d86139c21ac0e3",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Edson Yanaga"
+            },
+            "name" : "Edson Yanaga"
+          }
+        ],
+        "title" : "Mastering Deployments with Kubernetes & OpenShift: from Basic to Zero Downtime, Blue/Green, Canary and A/B",
+        "lang" : "en",
+        "summary" : "The “deploy moment” is an occasion that still gives many developers the shivers. But it shouldn’t be this way (at least not every time). Luckily enough, we have tools and processes today that enable us to turn the deploy moment into an usual activity. Gone where the days when we had to automate everything by hand. Today we have Kubernetes, OpenShift, and Fabric8 to automate out-of-box many different scenarios. And if we need even more advanced scenarios we can use tools like Zuul and FF4J to solve the cumbersome parts for us.\r\n\r\nCome and join this live demo session with lots of different deployment scenarios: from basic to advanced. We'll cover the basic deployment concepts and then we'll dig into demoing how can we use open source tools like Kubernetes, OpenShift, Fabric8, Zuul and FF4J to master the deployment art. "
+      },
+      "fromTime" : "11:15",
+      "toTimeMillis" : 1491559200000,
+      "toTime" : "12:00",
+      "roomCapacity" : 220,
+      "roomName" : "Neuilly 251",
+      "slotId" : "conf_f_neu251_friday_7_11h15_12h0",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par243_t",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491556500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "bigd",
+        "talkType" : "Conference",
+        "track" : "Big Data, Machine Learning, IA & Analytics",
+        "summaryAsHtml" : "<p>Lors de cette présentation nous expliquerons les services bluemix NODEJS et les services Watson Natural Language Classification (NLC) et Watson Retrieve &amp; rank (R&amp;).<br  />\nNous montrerons comment augmenter la pertinence des recherches sur les données opendata du gouvernent (service-public.fr).\nL'application montrée utilise le serveurs d'application NODEJS et les API WATSON</p>\n",
+        "id" : "IPS-4761",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/301e7a81d2af1bfbc2b4e4453b1abadf582547f9",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Xavier Mary"
+            },
+            "name" : "Xavier Mary"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/47af10c6702591ca371d85c6a11975f686cfcf95",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Michel caussanel"
+            },
+            "name" : "Michel caussanel"
+          }
+        ],
+        "title" : "Bluemix - Classification et ranking grace à Watson",
+        "lang" : "fr",
+        "summary" : "Lors de cette présentation nous expliquerons les services bluemix NODEJS et les services Watson Natural Language Classification (NLC) et Watson Retrieve & rank (R&).  \r\nNous montrerons comment augmenter la pertinence des recherches sur les données opendata du gouvernent (service-public.fr).\r\nL'application montrée utilise le serveurs d'application NODEJS et les API WATSON"
+      },
+      "fromTime" : "11:15",
+      "toTimeMillis" : 1491559200000,
+      "toTime" : "12:00",
+      "roomCapacity" : 120,
+      "roomName" : "Paris 243",
+      "slotId" : "conf_par243_t_friday_7_11h15_12h0",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "neu253_t",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491556500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "archisec",
+        "talkType" : "Conference",
+        "track" : "Architecture, Performance et Securité",
+        "summaryAsHtml" : "<p>Venez découvrir comment Voyages-SNCF a supprimé le dernier intermédiaire entre ses applications et ses internautes.</p>\n<p>En mettant en place son propre CDN, c'est à dire en construisant un réseau de serveurs de cache déployés dans de multiples datacenters, Voyages-SNCF a construit une solution qui correspond parfaitement à son besoin avec des coûts totalement maitrisés.</p>\n<p>Le CDN permet à Voyages-SNCF d'optimiser le temps d'affichage de ses sites et d'optimiser la consommation de bande passante vers ses datacenters.\nLa solution se repose sur des techno open sources réputées : haproxy, nginx, varnish, ansible.</p>\n",
+        "id" : "DFI-0027",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0f88688187c62cc384f7cf5477403a022849c8fa",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Antonin Mellier"
+            },
+            "name" : "Antonin Mellier"
+          }
+        ],
+        "title" : "Kate CDN: Comment reprendre les derniers km qui nous séparent des internautes ?",
+        "lang" : "fr",
+        "summary" : "Venez découvrir comment Voyages-SNCF a supprimé le dernier intermédiaire entre ses applications et ses internautes. \r\n\r\nEn mettant en place son propre CDN, c'est à dire en construisant un réseau de serveurs de cache déployés dans de multiples datacenters, Voyages-SNCF a construit une solution qui correspond parfaitement à son besoin avec des coûts totalement maitrisés. \r\n\r\nLe CDN permet à Voyages-SNCF d'optimiser le temps d'affichage de ses sites et d'optimiser la consommation de bande passante vers ses datacenters.\r\nLa solution se repose sur des techno open sources réputées : haproxy, nginx, varnish, ansible."
+      },
+      "fromTime" : "11:15",
+      "toTimeMillis" : 1491559200000,
+      "toTime" : "12:00",
+      "roomCapacity" : 120,
+      "roomName" : "Neuilly 253",
+      "slotId" : "conf_neu253_t_friday_7_11h15_12h0",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "a_hall",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491559200000,
+      "break" : {
+        "id" : "lunch",
+        "nameEN" : "Lunch",
+        "nameFR" : "Pause déjeuner",
+        "room" : {
+          "id" : "a_hall",
+          "name" : "Exhibition floor",
+          "capacity" : 2300,
+          "setup" : "special",
+          "recorded" : ""
+        }
+      },
+      "roomSetup" : "special",
+      "talk" : null,
+      "fromTime" : "12:00",
+      "toTimeMillis" : 1491562500000,
+      "toTime" : "12:55",
+      "roomCapacity" : 2300,
+      "roomName" : "Exhibition floor",
+      "slotId" : "lunch_friday_7_12h0_10h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "c_maillot",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491559500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "agTest",
+        "talkType" : "Quickie",
+        "track" : "DevOps, Agilité, Méthodologie & Tests",
+        "summaryAsHtml" : "<p>Dans sa version 2016.3, IntelliJ IDEA propose une fonctionnalité d'auto-testing. Qui permet la mise en place d'une couverture du code par les tests actualisée en temps réelle pendant que vous codez.</p>\n<p>Ca n'a l'air de rien, dit comme ca. Mais ca va révolutionner l'acceptation du TDD dans vos équipes.</p>\n<p>Au programme, configuration d'une couverture du code automatisée, demonstration , continuous Testing &amp; TDD.</p>\n",
+        "id" : "KBW-0022",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/69124826b2c15bd213e34cdfae27a77c2064ae6b",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Sarah Buisson"
+            },
+            "name" : "Sarah Buisson"
+          }
+        ],
+        "title" : "Real-Time Code Coverage. Ou Comment IntelliJ IDEA 2016.3 va révolutionner votre pratique du TDD",
+        "lang" : "fr",
+        "summary" : "Dans sa version 2016.3, IntelliJ IDEA propose une fonctionnalité d'auto-testing. Qui permet la mise en place d'une couverture du code par les tests actualisée en temps réelle pendant que vous codez.\r\n\r\nCa n'a l'air de rien, dit comme ca. Mais ca va révolutionner l'acceptation du TDD dans vos équipes.\r\n\r\nAu programme, configuration d'une couverture du code automatisée, demonstration , continuous Testing & TDD."
+      },
+      "fromTime" : "12:05",
+      "toTimeMillis" : 1491560400000,
+      "toTime" : "12:20",
+      "roomCapacity" : 380,
+      "roomName" : "Maillot",
+      "slotId" : "quick_c_maillot_friday_7_12h5_12h20",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par242AB",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491559500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "mobile",
+        "talkType" : "Quickie",
+        "track" : "Mobile, IoT",
+        "summaryAsHtml" : "<p>Comment on développe un jeu vidéo ? Est-ce compliqué d’afficher un personnage sur l’écran et de le faire bouger par la suite ? Programmer un jeu est-il comparable à programmer un application backend ? Quels sont les outils à utiliser ? Comment rendre un jeu amusant ?</p>\n<p>J’ai dû me poser ces questions pour réaliser mon premier jeu mobile. Ce quickie essayera d’y répondre et fera un retour sur les différentes expérimentations réalisées avant d’obtenir un jeu.</p>\n",
+        "id" : "CGE-2770",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b8cfc2c5b0d9f98410ec6cc7b51c47419cb634dd",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "David Wursteisen"
+            },
+            "name" : "David Wursteisen"
+          }
+        ],
+        "title" : "Développer un jeu vidéo (quand on n’y connait rien en développement de jeux vidéo)",
+        "lang" : "fr",
+        "summary" : "Comment on développe un jeu vidéo ? Est-ce compliqué d’afficher un personnage sur l’écran et de le faire bouger par la suite ? Programmer un jeu est-il comparable à programmer un application backend ? Quels sont les outils à utiliser ? Comment rendre un jeu amusant ?\r\n\r\n\r\nJ’ai dû me poser ces questions pour réaliser mon premier jeu mobile. Ce quickie essayera d’y répondre et fera un retour sur les différentes expérimentations réalisées avant d’obtenir un jeu."
+      },
+      "fromTime" : "12:05",
+      "toTimeMillis" : 1491560400000,
+      "toTime" : "12:20",
+      "roomCapacity" : 280,
+      "roomName" : "Paris 242-AB",
+      "slotId" : "quick_par242AB_friday_7_12h5_12h20",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "e_neu252",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491559500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "agTest",
+        "talkType" : "Quickie",
+        "track" : "DevOps, Agilité, Méthodologie & Tests",
+        "summaryAsHtml" : "<p>Qui n'a pas déjà vécu l'expérience traumatisante de devoir merger une branche vieille de 2 mois contenant un refactoring ou une fonctionnalité importante ? Et si avec les Feature Toggles, vous pouviez vous passer de faire des branches avec en plus la possibilité d'activer à la demande les nouvelles fonctionnalités de votre application ?</p>\n<p>Lors de cette présentation, vous découvrirez les concepts derrière les feature toggles, les acteurs majeurs de notre industrie qui l'utilisent ainsi qu'un retour d'expérience très concret sur cette gestion un peu particulière des développements.</p>\n",
+        "id" : "ZUG-7668",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a2971d0e1175a6e2950ffc00378fd956aac425c4",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Morgan LEROI"
+            },
+            "name" : "Morgan LEROI"
+          }
+        ],
+        "title" : "Tuez vos branches, faites des Feature Toggles",
+        "lang" : "fr",
+        "summary" : "Qui n'a pas déjà vécu l'expérience traumatisante de devoir merger une branche vieille de 2 mois contenant un refactoring ou une fonctionnalité importante ? Et si avec les Feature Toggles, vous pouviez vous passer de faire des branches avec en plus la possibilité d'activer à la demande les nouvelles fonctionnalités de votre application ?\r\n\r\nLors de cette présentation, vous découvrirez les concepts derrière les feature toggles, les acteurs majeurs de notre industrie qui l'utilisent ainsi qu'un retour d'expérience très concret sur cette gestion un peu particulière des développements."
+      },
+      "fromTime" : "12:05",
+      "toTimeMillis" : 1491560400000,
+      "toTime" : "12:20",
+      "roomCapacity" : 380,
+      "roomName" : "Neuilly 252 AB",
+      "slotId" : "quick_e_neu252_friday_7_12h5_12h20",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "d_par241",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491559500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "bigd",
+        "talkType" : "Quickie",
+        "track" : "Big Data, Machine Learning, IA & Analytics",
+        "summaryAsHtml" : "<p>La programmation probabiliste crée des systèmes qui prennent des décisions à partir d'observations dont la certitude n'est pas garantie. Bien qu'encore peut développée, ce type de programmation va être une pièce essentielle des outils basés sur la composition d'algorithmes de machine learning.</p>\n",
+        "id" : "JCC-8034",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/948c3536c209f6d3790ff4a2533be31b349490ec",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Didier Girard"
+            },
+            "name" : "Didier Girard"
+          }
+        ],
+        "title" : "Probabilistic Programming : Tuer un piéton ou sacrifier les passagers ?",
+        "lang" : "fr",
+        "summary" : " La programmation probabiliste crée des systèmes qui prennent des décisions à partir d'observations dont la certitude n'est pas garantie. Bien qu'encore peut développée, ce type de programmation va être une pièce essentielle des outils basés sur la composition d'algorithmes de machine learning."
+      },
+      "fromTime" : "12:05",
+      "toTimeMillis" : 1491560400000,
+      "toTime" : "12:20",
+      "roomCapacity" : 220,
+      "roomName" : "Paris 241",
+      "slotId" : "quick_d_par241_friday_7_12h5_12h20",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "f_neu251",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491559500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "wm",
+        "talkType" : "Quickie",
+        "track" : "Web, JS, HTML5 et UX",
+        "summaryAsHtml" : "<p>\"Les Observables sont des flux d’événements paresseux qui peuvent émettre 0 ou N éléments et qui peuvent ou non se terminer.\"</p>\n<p>C’est la définition qu’en donne <a href=\"https://cycle.js.org/\">Cycle.js</a>, un framework JS qui propose de développer des applications fonctionnelles et réactives en manipulant des Observables.</p>\n<p>Sans entrer dans le détail de Cycle.js, je vais vous présenter ce qu’est un Observable, à quoi ça sert et comment on peut les manipuler avec des librairies telles que <a href=\"http://reactivex.io/\">Rx.js</a>.</p>\n",
+        "id" : "RQI-7908",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/bb6c9e891a6b98e0fa9b3ab10ae86965f2ef1b03",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Nicolas Carlo"
+            },
+            "name" : "Nicolas Carlo"
+          }
+        ],
+        "title" : "À la découverte des Observables",
+        "lang" : "fr",
+        "summary" : "\"Les Observables sont des flux d’événements paresseux qui peuvent émettre 0 ou N éléments et qui peuvent ou non se terminer.\"\r\n\r\nC’est la définition qu’en donne [Cycle.js](https://cycle.js.org/), un framework JS qui propose de développer des applications fonctionnelles et réactives en manipulant des Observables.\r\n\r\nSans entrer dans le détail de Cycle.js, je vais vous présenter ce qu’est un Observable, à quoi ça sert et comment on peut les manipuler avec des librairies telles que [Rx.js](http://reactivex.io/)."
+      },
+      "fromTime" : "12:05",
+      "toTimeMillis" : 1491560400000,
+      "toTime" : "12:20",
+      "roomCapacity" : 220,
+      "roomName" : "Neuilly 251",
+      "slotId" : "quick_f_neu251_friday_7_12h5_12h20",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par243_t",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491559500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "wm",
+        "talkType" : "Quickie",
+        "track" : "Web, JS, HTML5 et UX",
+        "summaryAsHtml" : "<p>C'est le dernier d'une longue liste: npm, bower, jspm... Alors qu'est-ce qui se cache derrière YARN, le package-manager JavaScript récemment open-sourcé par Facebook.</p>\n<p>Au cours de cette session, nous essaierons de comprendre les raisons de sa création, comment il fonctionne et ce qu'il apporte de plus (ou de moins). Et finalement de répondre à LA question: Faut-il l'installer dès lundi matin, en rentrant de #DevoxxFR ?</p>\n",
+        "id" : "MLH-3158",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/342711df5c1add0ba9f88cc486358138be90499b",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Erwan Deruelle"
+            },
+            "name" : "Erwan Deruelle"
+          }
+        ],
+        "title" : "Yarn, encore un package-manager ?",
+        "lang" : "fr",
+        "summary" : "C'est le dernier d'une longue liste: npm, bower, jspm... Alors qu'est-ce qui se cache derrière YARN, le package-manager JavaScript récemment open-sourcé par Facebook.\r\n\r\nAu cours de cette session, nous essaierons de comprendre les raisons de sa création, comment il fonctionne et ce qu'il apporte de plus (ou de moins). Et finalement de répondre à LA question: Faut-il l'installer dès lundi matin, en rentrant de #DevoxxFR ?"
+      },
+      "fromTime" : "12:05",
+      "toTimeMillis" : 1491560400000,
+      "toTime" : "12:20",
+      "roomCapacity" : 120,
+      "roomName" : "Paris 243",
+      "slotId" : "quick_par243_t_friday_7_12h5_12h20",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "neu253_t",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491559500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "java",
+        "talkType" : "Quickie",
+        "track" : "Java, JVM, Javas SE/EE",
+        "summaryAsHtml" : "<p>Quicky visant à présenter cette classe bien particulière au travers :</p>\n<ul>\n<li>de son <strong>actualité</strong>, qui a fait couler beaucoup d'encre dernièrement (menace de suppression du jdk, levée de bouclier d’Hazelcast, Azul Systems, etc.)</li>\n<li>d'<strong>exemples précis</strong> (création d’instance sans constructeur, tableaux extra larges, etc.) issus de l'<strong>utilisation qu'en font plusieurs grandes sociétés et librairies</strong> (Spring, Neo4J, etc.)</li>\n</ul>\n",
+        "id" : "FEU-0240",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3215bdda9ce82fab846796dcf26fada668b8225d",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Thomas SCHWENDER"
+            },
+            "name" : "Thomas SCHWENDER"
+          }
+        ],
+        "title" : "Sorcellerie en Java : outrepasser les interdits avec sun.misc.Unsafe",
+        "lang" : "fr",
+        "summary" : "Quicky visant à présenter cette classe bien particulière au travers :\r\n\r\n * de son **actualité**, qui a fait couler beaucoup d'encre dernièrement (menace de suppression du jdk, levée de bouclier d’Hazelcast, Azul Systems, etc.)\r\n * d'**exemples précis** (création d’instance sans constructeur, tableaux extra larges, etc.) issus de l'**utilisation qu'en font plusieurs grandes sociétés et librairies** (Spring, Neo4J, etc.)"
+      },
+      "fromTime" : "12:05",
+      "toTimeMillis" : 1491560400000,
+      "toTime" : "12:20",
+      "roomCapacity" : 120,
+      "roomName" : "Neuilly 253",
+      "slotId" : "quick_neu253_t_friday_7_12h5_12h20",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "c_maillot",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491560700000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "archisec",
+        "talkType" : "Quickie",
+        "track" : "Architecture, Performance et Securité",
+        "summaryAsHtml" : "<p>Aujourd’hui, pratiquement toutes les applications possèdent des informations à caractère personnel, ne serait-ce que l'adresse électronique et le mot de passe de l'utilisateur. Et il est de votre responsabilité, morale et légale, de protéger ces données.</p>\n<p>L'anonymisation et la pseudonymie sont deux techniques utiles pour parvenir à cette tâche. Mais gare aux pièges ! Une mise en œuvre naïve peut être facilement déjouée.</p>\n<p>Nous verrons au cours de cette présentation, pourquoi les utiliser, ainsi que quelques méthodes efficaces pour y parvenir.</p>\n",
+        "id" : "SPT-3387",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0e3d8d4c3a1bcac12432df36292f9b358763a612",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Jérôme Mainaud"
+            },
+            "name" : "Jérôme Mainaud"
+          }
+        ],
+        "title" : "Anonymisation des données",
+        "lang" : "fr",
+        "summary" : "Aujourd’hui, pratiquement toutes les applications possèdent des informations à caractère personnel, ne serait-ce que l'adresse électronique et le mot de passe de l'utilisateur. Et il est de votre responsabilité, morale et légale, de protéger ces données.\r\n\r\nL'anonymisation et la pseudonymie sont deux techniques utiles pour parvenir à cette tâche. Mais gare aux pièges ! Une mise en œuvre naïve peut être facilement déjouée.\r\n\r\nNous verrons au cours de cette présentation, pourquoi les utiliser, ainsi que quelques méthodes efficaces pour y parvenir."
+      },
+      "fromTime" : "12:25",
+      "toTimeMillis" : 1491561600000,
+      "toTime" : "12:40",
+      "roomCapacity" : 380,
+      "roomName" : "Maillot",
+      "slotId" : "quick_c_maillot_friday_7_12h25_12h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par242AB",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491560700000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "agTest",
+        "talkType" : "Quickie",
+        "track" : "DevOps, Agilité, Méthodologie & Tests",
+        "summaryAsHtml" : "<p>Un jeune diplômé et une développeuse passionnée découvrent les joies d’une SSII*. Face aux frustrations et désillusions, deux solutions s’offrent finalement à eux :</p>\n<p>A) Quitter le navire\nB) “Apprendre à gérer ses frustrations” (sic)</p>\n<p>Vous l’aurez compris, nous sommes venus vous parler de la solution C : si l’environnement n’est pas adapté, adaptez l’environnement ;)</p>\n<p>Nous allons partager notre expérience avec vous, en répondant à la question “est-il possible de transformer une SSII* en boite à geeks?”, et en vous confiant notre recette pour y parvenir.</p>\n<p>*ESN, on a dit!</p>\n",
+        "id" : "WZM-8004",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f8e03ec88abe5a93f61949cc2722c8a71a369a42",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Charlotte Cavalier"
+            },
+            "name" : "Charlotte Cavalier"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/deaf291324f9bf7fd83bc6dcd0754eaceb9aa2a0",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Christophe Pont"
+            },
+            "name" : "Christophe Pont"
+          }
+        ],
+        "title" : "Être geek en SSII : guide de survie en milieu hostile",
+        "lang" : "fr",
+        "summary" : "Un jeune diplômé et une développeuse passionnée découvrent les joies d’une SSII*. Face aux frustrations et désillusions, deux solutions s’offrent finalement à eux :\r\n\r\nA) Quitter le navire\r\nB) “Apprendre à gérer ses frustrations” (sic)\r\n\r\nVous l’aurez compris, nous sommes venus vous parler de la solution C : si l’environnement n’est pas adapté, adaptez l’environnement ;)\r\n\r\nNous allons partager notre expérience avec vous, en répondant à la question “est-il possible de transformer une SSII* en boite à geeks?”, et en vous confiant notre recette pour y parvenir.\r\n\r\n*ESN, on a dit!"
+      },
+      "fromTime" : "12:25",
+      "toTimeMillis" : 1491561600000,
+      "toTime" : "12:40",
+      "roomCapacity" : 280,
+      "roomName" : "Paris 242-AB",
+      "slotId" : "quick_par242AB_friday_7_12h25_12h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "e_neu252",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491560700000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "java",
+        "talkType" : "Quickie",
+        "track" : "Java, JVM, Javas SE/EE",
+        "summaryAsHtml" : "<p>La grammaire de Java contient certaines subtilités syntaxiques qui permettent, par hasard ou mesquinerie, de jouer avec les nerfs de vos collègues. Avouez que ce serait dommage de s'en priver !</p>\n",
+        "id" : "YJJ-1309",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/06398fa2407ffee2f710f0173b45a0b480647d56",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Olivier Croisier"
+            },
+            "name" : "Olivier Croisier"
+          }
+        ],
+        "title" : "Twisted Java",
+        "lang" : "fr",
+        "summary" : "La grammaire de Java contient certaines subtilités syntaxiques qui permettent, par hasard ou mesquinerie, de jouer avec les nerfs de vos collègues. Avouez que ce serait dommage de s'en priver !"
+      },
+      "fromTime" : "12:25",
+      "toTimeMillis" : 1491561600000,
+      "toTime" : "12:40",
+      "roomCapacity" : 380,
+      "roomName" : "Neuilly 252 AB",
+      "slotId" : "quick_e_neu252_friday_7_12h25_12h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "d_par241",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491560700000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "agTest",
+        "talkType" : "Quickie",
+        "track" : "DevOps, Agilité, Méthodologie & Tests",
+        "summaryAsHtml" : "<p>Tu aimerais travailler dans une Startup ? Mais qui contacter ?<br  />\nComment s'y prendre quand on est perdu dans cette jungle ?\nTu penses que ton salaire de startupeur va être divisé par 3 ?\nTu penses que ta vie de famille est incompatible avec le rythme des startups ?\nFAUX</p>\n<p>Tu es  un étudiant en fin de parcours, un employé en apnée, optimiste en recherche ou salarié désireux de devenir meilleur ? tu préfères travailler pour une mission qui ait du sens à tes yeux?</p>\n<p>Viens découvrir le programme Lion by TheFamily. Pendant cette conférence de 15 minutes, on te présentera ce que tu peux tirer du programme en terme de réseaux, connaissances et tips.</p>\n",
+        "id" : "NBA-7402",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/632d06bc8f44426697046192c88907ebc66098c8",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Megane Dreyfuss"
+            },
+            "name" : "Megane Dreyfuss"
+          }
+        ],
+        "title" : "Toi aussi tu peux rejoindre une des meilleurs startups",
+        "lang" : "fr",
+        "summary" : "Tu aimerais travailler dans une Startup ? Mais qui contacter ?  \r\nComment s'y prendre quand on est perdu dans cette jungle ?\r\nTu penses que ton salaire de startupeur va être divisé par 3 ?\r\nTu penses que ta vie de famille est incompatible avec le rythme des startups ?\r\nFAUX\r\n\r\nTu es  un étudiant en fin de parcours, un employé en apnée, optimiste en recherche ou salarié désireux de devenir meilleur ? tu préfères travailler pour une mission qui ait du sens à tes yeux? \r\n\r\nViens découvrir le programme Lion by TheFamily. Pendant cette conférence de 15 minutes, on te présentera ce que tu peux tirer du programme en terme de réseaux, connaissances et tips."
+      },
+      "fromTime" : "12:25",
+      "toTimeMillis" : 1491561600000,
+      "toTime" : "12:40",
+      "roomCapacity" : 220,
+      "roomName" : "Paris 241",
+      "slotId" : "quick_d_par241_friday_7_12h25_12h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "f_neu251",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491560700000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "wm",
+        "talkType" : "Quickie",
+        "track" : "Web, JS, HTML5 et UX",
+        "summaryAsHtml" : "<p>Si vous développez avec Javascript alors vous avez certainement été confronté aux problèmes de timezone, de décalage de date entre le client et le serveur ou encore de gestion cohérente des changements d’heure d’été et d’hiver.</p>\n<p>Je vous propose d’explorer la manipulation des dates en javascript à travers des exemples de code qui illustrent les problèmes induits par leur utilisation et bien évidemment comment les résoudre.</p>\n",
+        "id" : "MUT-4861",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f9ae5c77a7e8598f3974c083790994c3b7587ae8",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Bounkong KHAMPHOUSONE"
+            },
+            "name" : "Bounkong KHAMPHOUSONE"
+          }
+        ],
+        "title" : "L’enfer de l’objet Date JS",
+        "lang" : "fr",
+        "summary" : "Si vous développez avec Javascript alors vous avez certainement été confronté aux problèmes de timezone, de décalage de date entre le client et le serveur ou encore de gestion cohérente des changements d’heure d’été et d’hiver.\r\n\r\nJe vous propose d’explorer la manipulation des dates en javascript à travers des exemples de code qui illustrent les problèmes induits par leur utilisation et bien évidemment comment les résoudre."
+      },
+      "fromTime" : "12:25",
+      "toTimeMillis" : 1491561600000,
+      "toTime" : "12:40",
+      "roomCapacity" : 220,
+      "roomName" : "Neuilly 251",
+      "slotId" : "quick_f_neu251_friday_7_12h25_12h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par243_t",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491560700000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "agTest",
+        "talkType" : "Quickie",
+        "track" : "DevOps, Agilité, Méthodologie & Tests",
+        "summaryAsHtml" : "<p>Les Dockerfiles sont des fichiers de code source qui décrivent les environnements de développement, CI/CD et exploitation. Ce code source mérite d'être testé de la même manière que le reste du code source de nos applications !</p>\n<p>Avec <a href=\"https://github.com/l0rd/docker-unit\">cUnit</a>, un framework de test Open Source pour Dockerfiles, les bonnes pratiques de ingénierie logicielle telles que TDD et CI/CD peuvent être appliquées à l'infrastructure.</p>\n",
+        "id" : "UUA-0367",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8017e86ee8cf824e6a8c89c7c8b75fb00c6d8a90",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Mario Loriedo"
+            },
+            "name" : "Mario Loriedo"
+          }
+        ],
+        "title" : "cUnit, le xUnit pour conteneurs",
+        "lang" : "fr",
+        "summary" : "Les Dockerfiles sont des fichiers de code source qui décrivent les environnements de développement, CI/CD et exploitation. Ce code source mérite d'être testé de la même manière que le reste du code source de nos applications ! \r\n\r\nAvec [cUnit](https://github.com/l0rd/docker-unit), un framework de test Open Source pour Dockerfiles, les bonnes pratiques de ingénierie logicielle telles que TDD et CI/CD peuvent être appliquées à l'infrastructure.\r\n"
+      },
+      "fromTime" : "12:25",
+      "toTimeMillis" : 1491561600000,
+      "toTime" : "12:40",
+      "roomCapacity" : 120,
+      "roomName" : "Paris 243",
+      "slotId" : "quick_par243_t_friday_7_12h25_12h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "neu253_t",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491560700000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "java",
+        "talkType" : "Quickie",
+        "track" : "Java, JVM, Javas SE/EE",
+        "summaryAsHtml" : "<p>La génération de bytecode JVM n'est pas nouvelle (ASM, BCEL, Javassist, CGLIB), mais elle est souvent méconnue. De nombreux frameworks et librairies s'appuient sur celle-ci pour effectuer des opérations transparentes mais essentielles.</p>\n<p><code>Byte Buddy</code> est la lib de bytecode gen qui fait parler d'elle en ce moment ! Elle vient d'ailleurs de fraîchement être mergée dans de nombreux projets (<code>Mockito 2.1</code>, <code>Hibernate</code>).</p>\n<p>Venez apprendre en 15 minutes comment Byte Buddy rend la génération de bytecode amusante et élégante, et surtout à quelles fins elle peut servir au travers de petits exemples parlants live-codés !</p>\n",
+        "id" : "DAB-8358",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8ae1f5493753aebb0fbc73b4a21d08bb9a208b1f",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Nicolas Comet"
+            },
+            "name" : "Nicolas Comet"
+          }
+        ],
+        "title" : "Byte Buddy : la génération de bytecode facile ! ",
+        "lang" : "fr",
+        "summary" : "La génération de bytecode JVM n'est pas nouvelle (ASM, BCEL, Javassist, CGLIB), mais elle est souvent méconnue. De nombreux frameworks et librairies s'appuient sur celle-ci pour effectuer des opérations transparentes mais essentielles.\r\n\r\n`Byte Buddy` est la lib de bytecode gen qui fait parler d'elle en ce moment ! Elle vient d'ailleurs de fraîchement être mergée dans de nombreux projets (`Mockito 2.1`, `Hibernate`).\r\n\r\nVenez apprendre en 15 minutes comment Byte Buddy rend la génération de bytecode amusante et élégante, et surtout à quelles fins elle peut servir au travers de petits exemples parlants live-codés !"
+      },
+      "fromTime" : "12:25",
+      "toTimeMillis" : 1491561600000,
+      "toTime" : "12:40",
+      "roomCapacity" : 120,
+      "roomName" : "Neuilly 253",
+      "slotId" : "quick_neu253_t_friday_7_12h25_12h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "b_amphi",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491562500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "wm",
+        "talkType" : "Conference",
+        "track" : "Web, JS, HTML5 et UX",
+        "summaryAsHtml" : "<p>D’un côté, nous avons la communauté web qui maintient un écosystème riche permettant de construire des interfaces utilisateurs rapidement. De l’autre côté, l’écosystème desktop possède des outils très performants mais qui demandent beaucoup d’investissement. Github s’est retroussé les manches pour tirer le meilleur des deux mondes et a créé Electron ! Electron, c’est la possibilité de construire des applications grâce aux composants web tout en profitant des interactions riches avec la machine d’une application desktop. Au cours de cette présentation, nous allons revenir sur les raisons du succès grandissant d’Electron et passerons en revue tout ce qu’il offre en matière de packaging, de mises à jour automatiques et de stratégies de testing au travers du livecoding d’une application meme generator.</p>\n",
+        "id" : "VGQ-1820",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/61115f730ed765d596658412405a9bd16c36dbab",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Eric Briand"
+            },
+            "name" : "Eric Briand"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4db7d896c9715985dcc81c9551faa95c38f38296",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Yvonnick Frin"
+            },
+            "name" : "Yvonnick Frin"
+          }
+        ],
+        "title" : "Développez des applications web desktop avec Electron de Github",
+        "lang" : "fr",
+        "summary" : "D’un côté, nous avons la communauté web qui maintient un écosystème riche permettant de construire des interfaces utilisateurs rapidement. De l’autre côté, l’écosystème desktop possède des outils très performants mais qui demandent beaucoup d’investissement. Github s’est retroussé les manches pour tirer le meilleur des deux mondes et a créé Electron ! Electron, c’est la possibilité de construire des applications grâce aux composants web tout en profitant des interactions riches avec la machine d’une application desktop. Au cours de cette présentation, nous allons revenir sur les raisons du succès grandissant d’Electron et passerons en revue tout ce qu’il offre en matière de packaging, de mises à jour automatiques et de stratégies de testing au travers du livecoding d’une application meme generator."
+      },
+      "fromTime" : "12:55",
+      "toTimeMillis" : 1491565200000,
+      "toTime" : "13:40",
+      "roomCapacity" : 826,
+      "roomName" : "Amphi Bleu",
+      "slotId" : "conf_b_amphi_friday_7_12h55_13h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "c_maillot",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491562500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "archisec",
+        "talkType" : "Conference",
+        "track" : "Architecture, Performance et Securité",
+        "summaryAsHtml" : "<p>L’Event Sourcing et CQRS sont sur toutes les lèvres en cette année 2017 qui marque l’avènement des systèmes dits « réactifs » ou « dirigés par les évènements ». Bien que leur présence ne date pas d’hier, peu d’applications en tirent aujourd’hui bénéfice.</p>\n<p>Dans ce retour d’expérience, nous allons vous présenter dans le détail et en toute transparence, l’implémentation mise en place au sein d’une grande banque d’investissement française, ses avantages, ses inconvénients, ses compromis et les leçons que nous avons en tiré. Nous espérons vous donner ainsi le bagage nécessaire pour vous lancer à votre tour dans la grande aventure du réactif.</p>\n",
+        "id" : "HSF-1743",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c9ee40f365c35e302f4cce756c593e8f08f9ae39",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Clément Heliou"
+            },
+            "name" : "Clément Heliou"
+          }
+        ],
+        "title" : "CQRS/EventSourcing par la pratique",
+        "lang" : "fr",
+        "summary" : "L’Event Sourcing et CQRS sont sur toutes les lèvres en cette année 2017 qui marque l’avènement des systèmes dits « réactifs » ou « dirigés par les évènements ». Bien que leur présence ne date pas d’hier, peu d’applications en tirent aujourd’hui bénéfice.\r\n\r\n\r\nDans ce retour d’expérience, nous allons vous présenter dans le détail et en toute transparence, l’implémentation mise en place au sein d’une grande banque d’investissement française, ses avantages, ses inconvénients, ses compromis et les leçons que nous avons en tiré. Nous espérons vous donner ainsi le bagage nécessaire pour vous lancer à votre tour dans la grande aventure du réactif."
+      },
+      "fromTime" : "12:55",
+      "toTimeMillis" : 1491565200000,
+      "toTime" : "13:40",
+      "roomCapacity" : 380,
+      "roomName" : "Maillot",
+      "slotId" : "conf_c_maillot_friday_7_12h55_13h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par242AB",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491562500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "agTest",
+        "talkType" : "Conference",
+        "track" : "DevOps, Agilité, Méthodologie & Tests",
+        "summaryAsHtml" : "<p>Code non maintenable, bugs à répétition, corrections chronophages, moral dans les chaussettes... Pas étonnant que la plupart d’entre nous préfèrent travailler sur des projets où tout est à (re)construire (Greenfield) plutôt que sur du code Legacy (Brownfield). Il faut dire que le Legacy sur lequel on a perdu le contrôle est plus que pénible. C’est épuisant, voire décourageant. Et si nous nous trompions ? Et si – munis de quelques techniques de refactoring et de communication- nous pouvions inverser les choses et reprendre le contrôle…</p>\n<p>Le temps d’une session avec des bouts de live-coding, venez découvrir les trucs et astuces des gens qui préfèrent reprendre le contrôle plutôt que de subir. Voire qui préfèrent les opportunités cachées du Legacy aux pages blanches des projets Greenfield. Vous aussi, rejoignez le Legacy Club !</p>\n",
+        "id" : "MRW-9762",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c0930e0e3ea2569762723c720652455cb195328c",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Thomas Pierrain"
+            },
+            "name" : "Thomas Pierrain"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9d6bbdb959a69d70b9ab97874fd1948575c88add",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Bruno Boucard"
+            },
+            "name" : "Bruno Boucard"
+          }
+        ],
+        "title" : "Legacy Club",
+        "lang" : "fr",
+        "summary" : "Code non maintenable, bugs à répétition, corrections chronophages, moral dans les chaussettes... Pas étonnant que la plupart d’entre nous préfèrent travailler sur des projets où tout est à (re)construire (Greenfield) plutôt que sur du code Legacy (Brownfield). Il faut dire que le Legacy sur lequel on a perdu le contrôle est plus que pénible. C’est épuisant, voire décourageant. Et si nous nous trompions ? Et si – munis de quelques techniques de refactoring et de communication- nous pouvions inverser les choses et reprendre le contrôle… \r\n\r\nLe temps d’une session avec des bouts de live-coding, venez découvrir les trucs et astuces des gens qui préfèrent reprendre le contrôle plutôt que de subir. Voire qui préfèrent les opportunités cachées du Legacy aux pages blanches des projets Greenfield. Vous aussi, rejoignez le Legacy Club !"
+      },
+      "fromTime" : "12:55",
+      "toTimeMillis" : 1491565200000,
+      "toTime" : "13:40",
+      "roomCapacity" : 280,
+      "roomName" : "Paris 242-AB",
+      "slotId" : "conf_par242AB_friday_7_12h55_13h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "e_neu252",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491562500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "archisec",
+        "talkType" : "Conference",
+        "track" : "Architecture, Performance et Securité",
+        "summaryAsHtml" : "<p>Que vous écriviez un serveur web, une queue de messages ou une base de données, les techniques employées pour améliorer la performance sont similaires. Comment réduire la latence? Comment gérer plus de connexions concurrentes? Comment obtenir un comportement stable?</p>\n<p>En comparant l'architecture de logiciels plus ou moins récents, nous verrons comment les changements au niveau du matériel ou de l'OS ont affecté le travail sur la performance, et comment les exploiter pour améliorer nos systèmes.</p>\n<p>Nous étudierons aussi comment certaines décisions, dès la conception du serveur, peuvent faciliter le développement d'un service fiable et rapide.</p>\n",
+        "id" : "CUP-6804",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/53ccd9e9b8ca4ae7aecbb5b31a9ebeab836174a6",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Geoffroy Couprie"
+            },
+            "name" : "Geoffroy Couprie"
+          }
+        ],
+        "title" : "Techniques modernes pour l'écriture de serveurs performants",
+        "lang" : "fr",
+        "summary" : "Que vous écriviez un serveur web, une queue de messages ou une base de données, les techniques employées pour améliorer la performance sont similaires. Comment réduire la latence? Comment gérer plus de connexions concurrentes? Comment obtenir un comportement stable?\r\n\r\nEn comparant l'architecture de logiciels plus ou moins récents, nous verrons comment les changements au niveau du matériel ou de l'OS ont affecté le travail sur la performance, et comment les exploiter pour améliorer nos systèmes.\r\n\r\nNous étudierons aussi comment certaines décisions, dès la conception du serveur, peuvent faciliter le développement d'un service fiable et rapide."
+      },
+      "fromTime" : "12:55",
+      "toTimeMillis" : 1491565200000,
+      "toTime" : "13:40",
+      "roomCapacity" : 380,
+      "roomName" : "Neuilly 252 AB",
+      "slotId" : "conf_e_neu252_friday_7_12h55_13h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "d_par241",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491562500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "java",
+        "talkType" : "Conference",
+        "track" : "Java, JVM, Javas SE/EE",
+        "summaryAsHtml" : "<p>Java EE 8 devrait être finalisé cet été. A quelques semaines de sa sortie, cette session se propose donc de faire le point sur cette mise à niveau de la plateforme.</p>\n<p>Durant cette conférence, nous allons aborder les principales nouvelles fonctionnalités de Java EE 8 tels que JAX-RS et sa nouvelle API client ‘Reactive’, l’API Servlet 4 et son support http/2, la nouvelle API JSON-B, les différentes améliorations liées à la sécurité. Nous allons aussi voir ce qu’apporte Bean Validation 2.0, CDI 2.0, JSON-P 1.1, etc.</p>\n",
+        "id" : "KAS-7912",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/552703f32106a3095e3c3393a9a194716613c168",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "David Delabassee"
+            },
+            "name" : "David Delabassee"
+          }
+        ],
+        "title" : "Java EE 8? Ah ben non peut-être!",
+        "lang" : "fr",
+        "summary" : "Java EE 8 devrait être finalisé cet été. A quelques semaines de sa sortie, cette session se propose donc de faire le point sur cette mise à niveau de la plateforme. \r\n\r\nDurant cette conférence, nous allons aborder les principales nouvelles fonctionnalités de Java EE 8 tels que JAX-RS et sa nouvelle API client ‘Reactive’, l’API Servlet 4 et son support http/2, la nouvelle API JSON-B, les différentes améliorations liées à la sécurité. Nous allons aussi voir ce qu’apporte Bean Validation 2.0, CDI 2.0, JSON-P 1.1, etc."
+      },
+      "fromTime" : "12:55",
+      "toTimeMillis" : 1491565200000,
+      "toTime" : "13:40",
+      "roomCapacity" : 220,
+      "roomName" : "Paris 241",
+      "slotId" : "conf_d_par241_friday_7_12h55_13h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "f_neu251",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491562500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "bigd",
+        "talkType" : "Conference",
+        "track" : "Big Data, Machine Learning, IA & Analytics",
+        "summaryAsHtml" : "<p>Qui n’a jamais rêvé de trouver la meilleure bière près de chez lui ?<br  /></p>\n<p>L’enjeu de notre talk est double :</p>\n<ul>\n<li>Vous permettre de résoudre ce besoin essentiel !</li>\n<li>L’implémenter en live coding sur scène !</li>\n</ul>\n<p>La première partie du talk vous énoncera les données du problème et vous expliquera, au travers de l’analyse de ce dernier, quels grands concepts du big data vous permettront de résoudre ce type de problème.</p>\n<p>La deuxième partie du talk, elle, se focalisera sur l’implémentation de la solution, afin de démontrer à chaque personne présente, comment coder en utilisant hadoop, spark &amp; cie …</p>\n<p>Attention, la bière n’est pas inclus au sein de ce talk !</p>\n",
+        "id" : "FGB-3240",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8afbf53e07d46197854f422b4f7f41a860a2b89b",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Alexis Slawny"
+            },
+            "name" : "Alexis Slawny"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1c6ce40eb57e4482b241683e81d7cd6774709dd1",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Mathias kluba"
+            },
+            "name" : "Mathias kluba"
+          }
+        ],
+        "title" : "Big Binouze : Le Big Data, de la récolte jusqu'à la production à grande échelle !",
+        "lang" : "fr",
+        "summary" : "Qui n’a jamais rêvé de trouver la meilleure bière près de chez lui ?  \r\n\r\nL’enjeu de notre talk est double : \r\n\r\n-\tVous permettre de résoudre ce besoin essentiel !\r\n-\tL’implémenter en live coding sur scène !\r\n\r\nLa première partie du talk vous énoncera les données du problème et vous expliquera, au travers de l’analyse de ce dernier, quels grands concepts du big data vous permettront de résoudre ce type de problème.\r\n\r\nLa deuxième partie du talk, elle, se focalisera sur l’implémentation de la solution, afin de démontrer à chaque personne présente, comment coder en utilisant hadoop, spark & cie …\r\n\r\nAttention, la bière n’est pas inclus au sein de ce talk !\r\n"
+      },
+      "fromTime" : "12:55",
+      "toTimeMillis" : 1491565200000,
+      "toTime" : "13:40",
+      "roomCapacity" : 220,
+      "roomName" : "Neuilly 251",
+      "slotId" : "conf_f_neu251_friday_7_12h55_13h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par243_t",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491562500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "lang",
+        "talkType" : "Conference",
+        "track" : "Langages alternatifs",
+        "summaryAsHtml" : "<p>Venez à la découverte de Clojure, ce langage fonctionnel tournant sur la JVM (entre autres).\nOncle Bob a récemment dit que Clojure était mieux que C, Python, Ruby et Java (<a href=\"http://telegra.ph/Why-Clojure-is-better-than-C-PythonRuby-and-java-and-why-should-you-care-12-20\">voir ici</a>), c'est le moment de comprendre pourquoi.</p>\n<p>2 parties dans ce talk:</p>\n<ul>\n<li>première moitié : on regarde les bases du langages : les types, la syntaxe Lisp, les fonctions et les structures de données. On fera aussi un petit historique du langage et on verra pourquoi son auteur Rich Hickey l'a créé</li>\n<li>deuxième partie : on entre dans le vif du sujet. On code une appli web (en live !). Clojure permet de faire à la fois le backend (classique) et du frontend (ClojureScript). Cette petite webapp aura donc un backend Rest (ou GraphQL on verra) et un frontend en React, le tout codé en Clojure.</li>\n</ul>\n",
+        "id" : "MYF-4601",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/81c86d6b980ba3c9449cb7bcc57d356dfb5a6543",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Florian Boulay"
+            },
+            "name" : "Florian Boulay"
+          }
+        ],
+        "title" : "À la découverte de Clojure",
+        "lang" : "fr",
+        "summary" : "Venez à la découverte de Clojure, ce langage fonctionnel tournant sur la JVM (entre autres). \r\nOncle Bob a récemment dit que Clojure était mieux que C, Python, Ruby et Java ([voir ici](http://telegra.ph/Why-Clojure-is-better-than-C-PythonRuby-and-java-and-why-should-you-care-12-20)), c'est le moment de comprendre pourquoi.\r\n\r\n2 parties dans ce talk:\r\n\r\n* première moitié : on regarde les bases du langages : les types, la syntaxe Lisp, les fonctions et les structures de données. On fera aussi un petit historique du langage et on verra pourquoi son auteur Rich Hickey l'a créé\r\n* deuxième partie : on entre dans le vif du sujet. On code une appli web (en live !). Clojure permet de faire à la fois le backend (classique) et du frontend (ClojureScript). Cette petite webapp aura donc un backend Rest (ou GraphQL on verra) et un frontend en React, le tout codé en Clojure.\r\n\r\n"
+      },
+      "fromTime" : "12:55",
+      "toTimeMillis" : 1491565200000,
+      "toTime" : "13:40",
+      "roomCapacity" : 120,
+      "roomName" : "Paris 243",
+      "slotId" : "conf_par243_t_friday_7_12h55_13h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "neu253_t",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491562500000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "cldops",
+        "talkType" : "Conference",
+        "track" : "Cloud, Container et Scalabilité",
+        "summaryAsHtml" : "<p>Microservices architecture is not a free lunch, it significantly increases number of remote calls. This brings new challenges when it comes to network communication, so choosing a right RPC framework becomes crucial.</p>\n<p>gRPC is a new generation RPC framework from Google, designed to improve performance and address complexity of network communication in distributed systems.</p>\n<p>In this talk you will learn how gRPC helps to build reactive microservices architecture. We will go through some of the challenges we face when we build distributed systems and see how gPRC solves them.</p>\n",
+        "id" : "LZC-6485",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/8896df7ea353b6d3a62fe424bacb24e30961bc28",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Alex Borysov"
+            },
+            "name" : "Alex Borysov"
+          }
+        ],
+        "title" : "Enabling Googley microservices with gRPC.",
+        "lang" : "en",
+        "summary" : "Microservices architecture is not a free lunch, it significantly increases number of remote calls. This brings new challenges when it comes to network communication, so choosing a right RPC framework becomes crucial.\r\n\r\n\r\ngRPC is a new generation RPC framework from Google, designed to improve performance and address complexity of network communication in distributed systems.\r\n\r\n\r\nIn this talk you will learn how gRPC helps to build reactive microservices architecture. We will go through some of the challenges we face when we build distributed systems and see how gPRC solves them."
+      },
+      "fromTime" : "12:55",
+      "toTimeMillis" : 1491565200000,
+      "toTime" : "13:40",
+      "roomCapacity" : 120,
+      "roomName" : "Neuilly 253",
+      "slotId" : "conf_neu253_t_friday_7_12h55_13h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par202_203",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491562500000,
+      "break" : null,
+      "roomSetup" : "classroom",
+      "talk" : {
+        "trackId" : "wm",
+        "talkType" : "Hands-on Labs",
+        "track" : "Web, JS, HTML5 et UX",
+        "summaryAsHtml" : "<p>De plus en plus, le web est utilisé sur mobile. Mais est-ce que les sites web sont optimisés pour cela ? Nous ne parlons pas de Responsive Design, qui, à notre avis, est une pratique connue et utilisée, peut-être de la mauvaise façon dans certains cas.</p>\n<p>Lors de ce codelab, les participants auront la possibilité de mettre en place sur une application existante tous les concepts permettant de rendre l'expérience utilisateur d'un site web aussi fluide qu'une application native.</p>\n<p>Au programme, nous allons parler performance, cache, service workers, notification et comment les PWA vont révolutionner le web mobile.</p>\n<p><strong>Pré-requis: clonez le projet https://github.com/Gillespie59/devoxx-progressive-webapp et installer les pré-requis décris dans le <a href=\"https://github.com/Gillespie59/devoxx-progressive-webapp/blob/master/README.md\">README</a></strong></p>\n",
+        "id" : "SGJ-3674",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9a0499cb7699c4d6f32a5d248e814f423a7d611b",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Emmanuel DEMEY"
+            },
+            "name" : "Emmanuel DEMEY"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3da55fee2b0e6fbb180bc3335c6b805dded4fcd5",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Angela Ricci"
+            },
+            "name" : "Angela Ricci"
+          }
+        ],
+        "title" : "Les Progressive Webapps en pratique",
+        "lang" : "fr",
+        "summary" : "De plus en plus, le web est utilisé sur mobile. Mais est-ce que les sites web sont optimisés pour cela ? Nous ne parlons pas de Responsive Design, qui, à notre avis, est une pratique connue et utilisée, peut-être de la mauvaise façon dans certains cas. \r\n\r\nLors de ce codelab, les participants auront la possibilité de mettre en place sur une application existante tous les concepts permettant de rendre l'expérience utilisateur d'un site web aussi fluide qu'une application native. \r\n\r\nAu programme, nous allons parler performance, cache, service workers, notification et comment les PWA vont révolutionner le web mobile.\r\n\r\n**Pré-requis: clonez le projet https://github.com/Gillespie59/devoxx-progressive-webapp et installer les pré-requis décris dans le [README](https://github.com/Gillespie59/devoxx-progressive-webapp/blob/master/README.md)**"
+      },
+      "fromTime" : "12:55",
+      "toTimeMillis" : 1491573300000,
+      "toTime" : "15:55",
+      "roomCapacity" : 32,
+      "roomName" : "Paris 202-203 Lab",
+      "slotId" : "lab_par202_203_friday_7_12h55_15h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par221M-222M",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491562500000,
+      "break" : null,
+      "roomSetup" : "classroom",
+      "talk" : {
+        "trackId" : "archisec",
+        "talkType" : "Hands-on Labs",
+        "track" : "Architecture, Performance et Securité",
+        "summaryAsHtml" : "<p>Fatigué par les alertes ('xss') et autres attaques web?\nVous voulez apprendre les techniques avancées de test de pénétration des applications web et comment écrire du code sécurisé par conception alors cet hands-on est pour vous.\nLa formation débute par la réalisation de certaines attaques OWASP TOP 10 d'une application Web de type CMS, ensuite on passe à des tâches plus avancées telles que le contournement des filtres XSS, des attaques HTML5 et des vulnérabilités récentes telles que Shellshock, Heartbleed, POODLE etc.\nVous apprendrez comment obtenir un shell sur le serveur hébergeant l'application en utilisant les vulnérabilités des applications Web OWASP TOP 10 2017. Cette formation est orientée pratique sur le Pentesting Web et le codage sécurisé. Cette formation couvre à la fois l'approche offensive et défensive envers les applications Web.</p>\n<p><strong>La machine virtuelle pour le hands-on est téléchargeable <a href=\"https://drive.google.com/open?id=0BxtBUHsCQXbmM2hWTWg0ZlhzX1E\">ici</a>. Tous les participants doivent télécharger cette machine virtuelle et l'installer sous VMWare Workstation ou VMPLayer avant le démarrage de la session.</strong></p>\n",
+        "id" : "GYS-3426",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6886c10c4a4b581c869ff626d929267d1a5a69dc",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "RAMRAMI AZZEDDINE"
+            },
+            "name" : "RAMRAMI AZZEDDINE"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c4e0e073bebbea28f75c1e1904ca04c01ded25b4",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Laurent Broto"
+            },
+            "name" : "Laurent Broto"
+          }
+        ],
+        "title" : "Test de pénétration Web avancé et codage sécurisé",
+        "lang" : "fr",
+        "summary" : "Fatigué par les alertes ('xss') et autres attaques web?\r\nVous voulez apprendre les techniques avancées de test de pénétration des applications web et comment écrire du code sécurisé par conception alors cet hands-on est pour vous.\r\nLa formation débute par la réalisation de certaines attaques OWASP TOP 10 d'une application Web de type CMS, ensuite on passe à des tâches plus avancées telles que le contournement des filtres XSS, des attaques HTML5 et des vulnérabilités récentes telles que Shellshock, Heartbleed, POODLE etc.\r\nVous apprendrez comment obtenir un shell sur le serveur hébergeant l'application en utilisant les vulnérabilités des applications Web OWASP TOP 10 2017. Cette formation est orientée pratique sur le Pentesting Web et le codage sécurisé. Cette formation couvre à la fois l'approche offensive et défensive envers les applications Web.\r\n\r\n**La machine virtuelle pour le hands-on est téléchargeable [ici] (https://drive.google.com/open?id=0BxtBUHsCQXbmM2hWTWg0ZlhzX1E). Tous les participants doivent télécharger cette machine virtuelle et l'installer sous VMWare Workstation ou VMPLayer avant le démarrage de la session.**"
+      },
+      "fromTime" : "12:55",
+      "toTimeMillis" : 1491573300000,
+      "toTime" : "15:55",
+      "roomCapacity" : 32,
+      "roomName" : "Paris 221M-222M Lab",
+      "slotId" : "lab_par221M-222M_friday_7_12h55_15h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par224M-225M",
+      "notAllocated" : true,
+      "fromTimeMillis" : 1491562500000,
+      "break" : null,
+      "roomSetup" : "classroom",
+      "talk" : null,
+      "fromTime" : "12:55",
+      "toTimeMillis" : 1491573300000,
+      "toTime" : "15:55",
+      "roomCapacity" : 26,
+      "roomName" : "Paris 224M-225M Lab",
+      "slotId" : "lab_par224M-225M_friday_7_12h55_15h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "neu_212_213",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491562500000,
+      "break" : null,
+      "roomSetup" : "classroom",
+      "talk" : {
+        "trackId" : "bigd",
+        "talkType" : "Hands-on Labs",
+        "track" : "Big Data, Machine Learning, IA & Analytics",
+        "summaryAsHtml" : "<p>When it’s time to choose the database technology for your app, the choices can be overwhelming. Should you choose SQL or NoSQL? Open source or proprietary? Self-hosted or hosted? If you’re not already familiar with graph databases, you might be tempted to ignore them as an option. But that could be a mistake.</p>\n<p>In this hands-on lab, we'll discuss the benefits of graph databases and the basics of how to use one.  Then we'll open our laptops and begin coding!  We'll explore an existing app that leverages a hosted version of the open-source graph computing framework Apache TinkerPop.  We'll discover how we can use APIs and the Gremlin graph traversal language to perform CRUD (create, read, update, and delete) operations.  Then we'll write our own code to perform a CRUD operation and explore the graph.  Most exciting of all, we'll write code to generate recommendations (one of the biggest strengths of graph databases!) for the app's users.</p>\n<p>So bring your laptop with a modern web browser installed, and get ready to graph!  You'll leave with an understanding of when you should choose a graph database and how to use one.</p>\n",
+        "id" : "PFN-9122",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f43c4c85ed0f8734f49678d00c81a2f6f55139f2",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Lauren Schaefer"
+            },
+            "name" : "Lauren Schaefer"
+          }
+        ],
+        "title" : "Intro to Graph Databases",
+        "lang" : "en",
+        "summary" : "When it’s time to choose the database technology for your app, the choices can be overwhelming. Should you choose SQL or NoSQL? Open source or proprietary? Self-hosted or hosted? If you’re not already familiar with graph databases, you might be tempted to ignore them as an option. But that could be a mistake.\r\n\r\nIn this hands-on lab, we'll discuss the benefits of graph databases and the basics of how to use one.  Then we'll open our laptops and begin coding!  We'll explore an existing app that leverages a hosted version of the open-source graph computing framework Apache TinkerPop.  We'll discover how we can use APIs and the Gremlin graph traversal language to perform CRUD (create, read, update, and delete) operations.  Then we'll write our own code to perform a CRUD operation and explore the graph.  Most exciting of all, we'll write code to generate recommendations (one of the biggest strengths of graph databases!) for the app's users.\r\n\r\nSo bring your laptop with a modern web browser installed, and get ready to graph!  You'll leave with an understanding of when you should choose a graph database and how to use one."
+      },
+      "fromTime" : "12:55",
+      "toTimeMillis" : 1491573300000,
+      "toTime" : "15:55",
+      "roomCapacity" : 32,
+      "roomName" : "Neuilly 212-213M Lab",
+      "slotId" : "lab_neu_212_213_friday_7_12h55_15h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "neu_232_232",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491562500000,
+      "break" : null,
+      "roomSetup" : "classroom",
+      "talk" : {
+        "trackId" : "agTest",
+        "talkType" : "Hands-on Labs",
+        "track" : "DevOps, Agilité, Méthodologie & Tests",
+        "summaryAsHtml" : "<p>Essayez de créer un code qui vous ne considérez pas comme étant “legacy”.</p>\n<p>Je jouerai le rôle de votre client et j'utiliserai 20 techniques différentes pour vous faire échouer</p>\n<p>Vous allez échouer.</p>\n<p>Nous allons débattre les techniques utilisées, comment elles arrivent dans la vraie vie et comment les combattre dans vos projets.</p>\n<p>Tous les langages sont bienvenus. Vous aurez besoin d'un portable avec votre environment, le hands-on se fera par petites équipes montés sur place.</p>\n",
+        "id" : "WCZ-8377",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/01a9da7c0fdc07b8cd0b36a59dd0326a8142480a",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Romeu MOURA"
+            },
+            "name" : "Romeu MOURA"
+          }
+        ],
+        "title" : "Le Kata Kebab",
+        "lang" : "fr",
+        "summary" : "Essayez de créer un code qui vous ne considérez pas comme étant “legacy”.\r\n\r\nJe jouerai le rôle de votre client et j'utiliserai 20 techniques différentes pour vous faire échouer\r\n\r\nVous allez échouer.\r\n\r\nNous allons débattre les techniques utilisées, comment elles arrivent dans la vraie vie et comment les combattre dans vos projets.\r\n\r\nTous les langages sont bienvenus. Vous aurez besoin d'un portable avec votre environment, le hands-on se fera par petites équipes montés sur place."
+      },
+      "fromTime" : "12:55",
+      "toTimeMillis" : 1491573300000,
+      "toTime" : "15:55",
+      "roomCapacity" : 32,
+      "roomName" : "Neuilly 231-232M Lab",
+      "slotId" : "lab_neu_232_232_friday_7_12h55_15h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "neu_234_235",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491562500000,
+      "break" : null,
+      "roomSetup" : "classroom",
+      "talk" : {
+        "trackId" : "bigd",
+        "talkType" : "Hands-on Labs",
+        "track" : "Big Data, Machine Learning, IA & Analytics",
+        "summaryAsHtml" : "<p>Récupérer un prix sur une page web est simple. Mais <strong>récupérer 10 millions</strong> de produits est loin de l’être ! Les sites changent, protègent leurs données et l'on peut perdre des mois à construire un scraper…<br  /></p>\n<p>En <strong>3 heures</strong>, venez découvrir comment <strong>gagner du temps</strong> en évitant les pièges de la <strong>data extraction</strong> !</p>\n<p>Nous commencerons par une présentation des <strong>techniques de webscraping</strong> (20min) et nous apprendrons à utiliser le framework <strong>Scrapy</strong> (10min). Avec cette présentation, nous seront prêt à démarrer le workshop.</p>\n<p>Ensuite, vous progresserez autour de <strong>7 challenges</strong> (2h20). Au menu: la récupération de plusieurs pages, le contournement de protections, le scheduling de scraper et la gestion de proxies!</p>\n",
+        "id" : "TYJ-1671",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/53d84e8731994ab75562de023302932a5454f3c0",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Fabien Vauchelles"
+            },
+            "name" : "Fabien Vauchelles"
+          }
+        ],
+        "title" : "Devenir un expert en Data Extraction (webscraping)",
+        "lang" : "fr",
+        "summary" : "Récupérer un prix sur une page web est simple. Mais **récupérer 10 millions** de produits est loin de l’être ! Les sites changent, protègent leurs données et l'on peut perdre des mois à construire un scraper…  \r\n\r\nEn **3 heures**, venez découvrir comment **gagner du temps** en évitant les pièges de la **data extraction** !\r\n\r\nNous commencerons par une présentation des **techniques de webscraping** (20min) et nous apprendrons à utiliser le framework **Scrapy** (10min). Avec cette présentation, nous seront prêt à démarrer le workshop.\r\n\r\nEnsuite, vous progresserez autour de **7 challenges** (2h20). Au menu: la récupération de plusieurs pages, le contournement de protections, le scheduling de scraper et la gestion de proxies!"
+      },
+      "fromTime" : "12:55",
+      "toTimeMillis" : 1491573300000,
+      "toTime" : "15:55",
+      "roomCapacity" : 32,
+      "roomName" : "Neuilly 234_234M Lab",
+      "slotId" : "lab_neu_234_235_friday_7_12h55_15h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "b_amphi",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491566100000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "archisec",
+        "talkType" : "Conference",
+        "track" : "Architecture, Performance et Securité",
+        "summaryAsHtml" : "<p>La tendance est au délaissement des architectures monolithiques au profit de\nmicro-services bien découpés. Ainsi nous facilitons le passage à l'échelle,\nréduisons la taille de chaque projet et pouvons utiliser la pile techno\nadaptée à chaque module.</p>\n<p>Cependant, en séparant ces briques, nous repoussons la complexité à la limite\nentre chaque module. La cohérence fournie par une base de code atomique et son\nsystème de types est perdue.</p>\n<p>Dans cette session, je montrerai comment tenir compte explicitement des\nfrontières entre modules permet de réduire le risque de données incohérentes.\nJe montrerai comment encoder les messages inter-modules, en déclarant\nexplicitement pour chaque brique, la structure nécessaire et ce qui doit\npouvoir évoluer sans impacter le module. La <em>serialisation</em> implicite a beau\netre plus simple au début, l'explicite aide beaucoup.</p>\n<p>Je donnerai des exemples en scala et javascript, tout en tirant des\ncomparaisons avec mon expérience en développement web, où on a une expérience\nfournie de ce qui se passe quand les développeurs essayent d'ignorer les\nfrontières entre coté serveur et coté client.</p>\n",
+        "id" : "PBE-1859",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/bd180439d18ae1d3bf3d3fc1b87113509b650c2e",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Clément Delafargue"
+            },
+            "name" : "Clément Delafargue"
+          }
+        ],
+        "title" : "Les bornes des limites : comment maintenir de la cohérence dans votre architecture microservices",
+        "lang" : "fr",
+        "summary" : "La tendance est au délaissement des architectures monolithiques au profit de\r\nmicro-services bien découpés. Ainsi nous facilitons le passage à l'échelle,\r\nréduisons la taille de chaque projet et pouvons utiliser la pile techno\r\nadaptée à chaque module.\r\n\r\nCependant, en séparant ces briques, nous repoussons la complexité à la limite\r\nentre chaque module. La cohérence fournie par une base de code atomique et son\r\nsystème de types est perdue.\r\n\r\nDans cette session, je montrerai comment tenir compte explicitement des\r\nfrontières entre modules permet de réduire le risque de données incohérentes.\r\nJe montrerai comment encoder les messages inter-modules, en déclarant\r\nexplicitement pour chaque brique, la structure nécessaire et ce qui doit\r\npouvoir évoluer sans impacter le module. La *serialisation* implicite a beau\r\netre plus simple au début, l'explicite aide beaucoup.\r\n\r\nJe donnerai des exemples en scala et javascript, tout en tirant des\r\ncomparaisons avec mon expérience en développement web, où on a une expérience\r\nfournie de ce qui se passe quand les développeurs essayent d'ignorer les\r\nfrontières entre coté serveur et coté client.\r\n"
+      },
+      "fromTime" : "13:55",
+      "toTimeMillis" : 1491568800000,
+      "toTime" : "14:40",
+      "roomCapacity" : 826,
+      "roomName" : "Amphi Bleu",
+      "slotId" : "conf_b_amphi_friday_7_13h55_14h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "c_maillot",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491566100000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "future",
+        "talkType" : "Conference",
+        "track" : "Future, Robotique",
+        "summaryAsHtml" : "<p>Avec l'explosion du machine learning, vous avez sans doute rêvé de rendre plus intelligentes vos applications. Lorsque vous avez regardé ces technologies, vous avez pris peur devant ces nouveaux domaines de l'informatique à appréhender : les réseaux neuronaux, le deep learning, le natural language processing, ...\nEt si vous vous reposiez sur des services existants ?\nNous vous proposons de construire un jeu de \"Qui est ce ?\" en utilisant différents web services et une pile de photos.\nNous ferons un petit panorama des API de vision, du Text to Speech, du Natural Langage Processing. Nous verrons aussi comment vous pouvez utiliser un bot pour simplifier l'implémentation du jeu.</p>\n",
+        "id" : "SPS-7476",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/5794b8f0e64983cad9ce6a65c12fa63114a1c18d",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Christophe Jollivet"
+            },
+            "name" : "Christophe Jollivet"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/eb907624328fb5d99c8819af562f8b47d7b8515d",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Mickael Débonnaire"
+            },
+            "name" : "Mickael Débonnaire"
+          }
+        ],
+        "title" : "Une application qui voit, entend et répond",
+        "lang" : "fr",
+        "summary" : "Avec l'explosion du machine learning, vous avez sans doute rêvé de rendre plus intelligentes vos applications. Lorsque vous avez regardé ces technologies, vous avez pris peur devant ces nouveaux domaines de l'informatique à appréhender : les réseaux neuronaux, le deep learning, le natural language processing, ...\r\nEt si vous vous reposiez sur des services existants ?\r\nNous vous proposons de construire un jeu de \"Qui est ce ?\" en utilisant différents web services et une pile de photos.\r\nNous ferons un petit panorama des API de vision, du Text to Speech, du Natural Langage Processing. Nous verrons aussi comment vous pouvez utiliser un bot pour simplifier l'implémentation du jeu. "
+      },
+      "fromTime" : "13:55",
+      "toTimeMillis" : 1491568800000,
+      "toTime" : "14:40",
+      "roomCapacity" : 380,
+      "roomName" : "Maillot",
+      "slotId" : "conf_c_maillot_friday_7_13h55_14h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par242AB",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491566100000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "bigd",
+        "talkType" : "Conference",
+        "track" : "Big Data, Machine Learning, IA & Analytics",
+        "summaryAsHtml" : "<p>Le Data Lake pour l'analyse de comportement d'utilisateurs vit peut-être ses derniers instants. L'industrie prend brutalement conscience aujourd'hui de la toxicité de disposer de données individuelles brutes.</p>\n<p>La confidentialité différentielle permet de couvrir une partie du spectre, lorsque le nombre d'utilisateurs atteint cinq chiffres, mais est sans réponse pour les plus petites populations.</p>\n<p>Avec SDA, nous proposons une implémentation de collecte de statistiques reposant sur le partage de secret qui s'adapte à des populations de quelques centaines d'utilisateurs. De façon très classique, SDA permet à un développeur d'application d'obtenir la somme des contributions individuelles de chacun de ses utilisateurs. Néanmoins, à aucun moment, ni le développeur ni aucune tierce partie n'est en possession de donnée brute exploitable.</p>\n<p>SDA est formé d'une librairie pour instrumenter l'application (y compris mobiles, iOS comme Android), et d'un serveur. La librairie comme le serveur sont codés en Rust. Des interfaces haut-niveau en Swift et en Java pour la librairie sont disponibles.</p>\n",
+        "id" : "GLZ-8300",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/84328f9962469e7fff8a0bf96634f9dc4079dd3e",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Mathieu Poumeyrol"
+            },
+            "name" : "Mathieu Poumeyrol"
+          }
+        ],
+        "title" : "Statistiques ou vie privée ? Les deux !",
+        "lang" : "fr",
+        "summary" : "Le Data Lake pour l'analyse de comportement d'utilisateurs vit peut-être ses derniers instants. L'industrie prend brutalement conscience aujourd'hui de la toxicité de disposer de données individuelles brutes.\r\n\r\nLa confidentialité différentielle permet de couvrir une partie du spectre, lorsque le nombre d'utilisateurs atteint cinq chiffres, mais est sans réponse pour les plus petites populations.\r\n\r\nAvec SDA, nous proposons une implémentation de collecte de statistiques reposant sur le partage de secret qui s'adapte à des populations de quelques centaines d'utilisateurs. De façon très classique, SDA permet à un développeur d'application d'obtenir la somme des contributions individuelles de chacun de ses utilisateurs. Néanmoins, à aucun moment, ni le développeur ni aucune tierce partie n'est en possession de donnée brute exploitable.\r\n\r\nSDA est formé d'une librairie pour instrumenter l'application (y compris mobiles, iOS comme Android), et d'un serveur. La librairie comme le serveur sont codés en Rust. Des interfaces haut-niveau en Swift et en Java pour la librairie sont disponibles."
+      },
+      "fromTime" : "13:55",
+      "toTimeMillis" : 1491568800000,
+      "toTime" : "14:40",
+      "roomCapacity" : 280,
+      "roomName" : "Paris 242-AB",
+      "slotId" : "conf_par242AB_friday_7_13h55_14h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "e_neu252",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491566100000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "agTest",
+        "talkType" : "Conference",
+        "track" : "DevOps, Agilité, Méthodologie & Tests",
+        "summaryAsHtml" : "<p>Dans les entreprises du web à grand échelle, on ne parle plus de PROD mais de Site Reliability Engineering.</p>\n<p>Pourquoi un tel changement, que se cache-t-il derrière cette terminologie, qui sont les acteurs de cette mutation et comment embrasser le mouvement ?\nComment cette mutation s'articule autour des principes DevOps, quels en sont les difficultés et les accomplissements ?</p>\n<p>Point sur l'état de l'art et retour d'expérience sur cette mutation dans le contexte Criteo.</p>\n",
+        "id" : "YHB-6488",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b10898f52ef88fce9964324a4cfb1bf667587492",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Nicolas Helleringer"
+            },
+            "name" : "Nicolas Helleringer"
+          }
+        ],
+        "title" : "Retour d'expérience DevOps : Site Reliability Engineering chez Criteo",
+        "lang" : "fr",
+        "summary" : "Dans les entreprises du web à grand échelle, on ne parle plus de PROD mais de Site Reliability Engineering.\r\n\r\nPourquoi un tel changement, que se cache-t-il derrière cette terminologie, qui sont les acteurs de cette mutation et comment embrasser le mouvement ?\r\nComment cette mutation s'articule autour des principes DevOps, quels en sont les difficultés et les accomplissements ?\r\n\r\nPoint sur l'état de l'art et retour d'expérience sur cette mutation dans le contexte Criteo."
+      },
+      "fromTime" : "13:55",
+      "toTimeMillis" : 1491568800000,
+      "toTime" : "14:40",
+      "roomCapacity" : 380,
+      "roomName" : "Neuilly 252 AB",
+      "slotId" : "conf_e_neu252_friday_7_13h55_14h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "d_par241",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491566100000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "cldops",
+        "talkType" : "Conference",
+        "track" : "Cloud, Container et Scalabilité",
+        "summaryAsHtml" : "<p>Windows Server 2016 introduit les conteneurs Windows et Hyper-V Containers, qui sont compatibles avec la technologie Docker. Dans cette session, vous découvrirez ce que sont les conteneurs Windows et comment leur arrivée va vous permettre d'adopter les mêmes méthodes de travail et même pratiques DevOps dans un écosystème hétérogène composés de machines Linux et Windows, le tout au travers d'un exemple concret !</p>\n",
+        "id" : "WIF-0197",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/25d88b19cb2f790435cbd6ba5c1e350e045d925f",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Julien Corioland"
+            },
+            "name" : "Julien Corioland"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4339329660c101f8f1a3755e856a1984c2dc54bf",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Adrien Blind"
+            },
+            "name" : "Adrien Blind"
+          }
+        ],
+        "title" : "Docker & DevOps : adopter les mêmes pratiques sous Windows et sous Linux!",
+        "lang" : "fr",
+        "summary" : "Windows Server 2016 introduit les conteneurs Windows et Hyper-V Containers, qui sont compatibles avec la technologie Docker. Dans cette session, vous découvrirez ce que sont les conteneurs Windows et comment leur arrivée va vous permettre d'adopter les mêmes méthodes de travail et même pratiques DevOps dans un écosystème hétérogène composés de machines Linux et Windows, le tout au travers d'un exemple concret !"
+      },
+      "fromTime" : "13:55",
+      "toTimeMillis" : 1491568800000,
+      "toTime" : "14:40",
+      "roomCapacity" : 220,
+      "roomName" : "Paris 241",
+      "slotId" : "conf_d_par241_friday_7_13h55_14h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "f_neu251",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491566100000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "java",
+        "talkType" : "Conference",
+        "track" : "Java, JVM, Javas SE/EE",
+        "summaryAsHtml" : "<p>The upcoming Eclipse IDE release (codename Oxygen, to be released in June 2017) is packed with a lot of enhancements and fixes that will make your development work even more enjoyable:</p>\n<ul>\n<li>Impressive performance improvement of the Java tooling</li>\n<li>Improved themes that give you more screen estate for your code</li>\n<li>New Java debugging tools to help you fix bugs in no time</li>\n<li>Revamped quick access menu makes discovering new features easy</li>\n<li>A whole bunch of small but effective UX improvements.</li>\n</ul>\n<p>This talk will walk you through these enhancements with some demos. It will cover important features both from the last release that you might have missed, and ones that we’ll see in the coming weeks.</p>\n<p>It's no surprise the codename is Oxygen - this release will bring some fresh air to the Free and Open Source Eclipse IDE landscape.</p>\n",
+        "id" : "DJP-0430",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/345ec2d98355015c8f5f6b7113705fc254b93919",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Mikaël Barbero"
+            },
+            "name" : "Mikaël Barbero"
+          }
+        ],
+        "title" : "Great new features and enhancements in the Eclipse IDE",
+        "lang" : "en",
+        "summary" : "The upcoming Eclipse IDE release (codename Oxygen, to be released in June 2017) is packed with a lot of enhancements and fixes that will make your development work even more enjoyable:\r\n\r\n* Impressive performance improvement of the Java tooling\r\n* Improved themes that give you more screen estate for your code\r\n* New Java debugging tools to help you fix bugs in no time\r\n* Revamped quick access menu makes discovering new features easy\r\n* A whole bunch of small but effective UX improvements.\r\n\r\nThis talk will walk you through these enhancements with some demos. It will cover important features both from the last release that you might have missed, and ones that we’ll see in the coming weeks.\r\n\r\nIt's no surprise the codename is Oxygen - this release will bring some fresh air to the Free and Open Source Eclipse IDE landscape."
+      },
+      "fromTime" : "13:55",
+      "toTimeMillis" : 1491568800000,
+      "toTime" : "14:40",
+      "roomCapacity" : 220,
+      "roomName" : "Neuilly 251",
+      "slotId" : "conf_f_neu251_friday_7_13h55_14h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par243_t",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491566100000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "lang",
+        "talkType" : "Conference",
+        "track" : "Langages alternatifs",
+        "summaryAsHtml" : "<p>Pour les applications qui, comme beaucoup, doivent communiquer intensément avec des services distants, les API de traitement asynchrones sont un atout majeur du langage Scala. Venez découvrir comment jongler avec les <code>Future</code>, les enchainer, les regrouper, le tout en consommant un minimum de resources et toujours <strong>type safe</strong> !</p>\n",
+        "id" : "DSX-6946",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7d24e8b771a5c12254100cf718a19e712deb3b7d",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Brice Leporini"
+            },
+            "name" : "Brice Leporini"
+          }
+        ],
+        "title" : "Future composé en Scala",
+        "lang" : "fr",
+        "summary" : "Pour les applications qui, comme beaucoup, doivent communiquer intensément avec des services distants, les API de traitement asynchrones sont un atout majeur du langage Scala. Venez découvrir comment jongler avec les `Future`, les enchainer, les regrouper, le tout en consommant un minimum de resources et toujours **type safe** !"
+      },
+      "fromTime" : "13:55",
+      "toTimeMillis" : 1491568800000,
+      "toTime" : "14:40",
+      "roomCapacity" : 120,
+      "roomName" : "Paris 243",
+      "slotId" : "conf_par243_t_friday_7_13h55_14h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "neu253_t",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491566100000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "cldops",
+        "talkType" : "Conference",
+        "track" : "Cloud, Container et Scalabilité",
+        "summaryAsHtml" : "<p>IBM a été l'un des pionniers à croire à l'utilisation des containers Docker. La plate-forme Cloud d'IBM (Bluemix) fournit différents services pour implémenter ces containers depuis 2014. Le but de cette conférence est de passer en revue l'utilisation et les avantages des containers Docker sur Bluemix ainsi que de voir la stratégie d'IBM sur ce sujet pour 2017. A la fin de la session, nous ferons une démonstration des IBM containers sur Bluemix.</p>\n",
+        "id" : "JYK-8203",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/cde64d9e014098380d3570d218aa057c7d1dc9f2",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Philippe THOMAS"
+            },
+            "name" : "Philippe THOMAS"
+          }
+        ],
+        "title" : "Utilisations et avantages des containers Docker sous Bluemix",
+        "lang" : "fr",
+        "summary" : "IBM a été l'un des pionniers à croire à l'utilisation des containers Docker. La plate-forme Cloud d'IBM (Bluemix) fournit différents services pour implémenter ces containers depuis 2014. Le but de cette conférence est de passer en revue l'utilisation et les avantages des containers Docker sur Bluemix ainsi que de voir la stratégie d'IBM sur ce sujet pour 2017. A la fin de la session, nous ferons une démonstration des IBM containers sur Bluemix.  "
+      },
+      "fromTime" : "13:55",
+      "toTimeMillis" : 1491568800000,
+      "toTime" : "14:40",
+      "roomCapacity" : 120,
+      "roomName" : "Neuilly 253",
+      "slotId" : "conf_neu253_t_friday_7_13h55_14h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "b_amphi",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491569700000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "archisec",
+        "talkType" : "Conference",
+        "track" : "Architecture, Performance et Securité",
+        "summaryAsHtml" : "<p>Ok, tout le monde est persuadé, les microservices, c’est cool. Moi aussi je le crois, ça fait 5 ans que l'architecture de Clever Cloud est basée là dessus. Mais comme tout les nouveaux machins à la mode, en fait, c’est pas la panacée, et ça apporte son lot de problèmes. Au rang desquels la gestion de l’authentification en mode distribuée, je vais donc lister les quelques possibilités de gestion à ce point là. La gestion de la configuration est également un problème quand on déploie des applications distribuées. Le talk sera donc fait pour expliquer le moyen de mettre en place une démarche de microservice dans la vie réelle et de soulever les problèmes qui vont être rencontrés, et comment les régler.</p>\n",
+        "id" : "QIJ-4404",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e0ce87f40a638c59e9da24231ef05da65aa355f3",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Quentin Adam"
+            },
+            "name" : "Quentin Adam"
+          }
+        ],
+        "title" : "Les problèmes que l’on rencontre en microservice : configuration, authentification et autre joyeusetés",
+        "lang" : "fr",
+        "summary" : "Ok, tout le monde est persuadé, les microservices, c’est cool. Moi aussi je le crois, ça fait 5 ans que l'architecture de Clever Cloud est basée là dessus. Mais comme tout les nouveaux machins à la mode, en fait, c’est pas la panacée, et ça apporte son lot de problèmes. Au rang desquels la gestion de l’authentification en mode distribuée, je vais donc lister les quelques possibilités de gestion à ce point là. La gestion de la configuration est également un problème quand on déploie des applications distribuées. Le talk sera donc fait pour expliquer le moyen de mettre en place une démarche de microservice dans la vie réelle et de soulever les problèmes qui vont être rencontrés, et comment les régler.\r\n"
+      },
+      "fromTime" : "14:55",
+      "toTimeMillis" : 1491572400000,
+      "toTime" : "15:40",
+      "roomCapacity" : 826,
+      "roomName" : "Amphi Bleu",
+      "slotId" : "conf_b_amphi_friday_7_14h55_15h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "c_maillot",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491569700000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "future",
+        "talkType" : "Conference",
+        "track" : "Future, Robotique",
+        "summaryAsHtml" : "<p>Les machines peuvent-elles être intelligentes ? Comment le juger ? Que signifie être intelligent, pour une machine ? Sait-on de quoi rêveraient des androïdes ?\nDans cette présentation, nous explorerons les principes et les limitations du Test de Turing, une proposition pour estimer cette intelligence.\nNous évoquerons également la Chambre chinoise, une expérience de pensée qui peut être vue comme une réponse au Test de Turing.\nA l'issue de cette session, nous aurons une meilleure idée de ce qu'est l'intelligence artificielle dans son sens fort... et de sa faisabilité.</p>\n",
+        "id" : "RSR-8246",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/43094674f4188c5e4a121d85ed52edc83ea9b97d",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Eric Lefevre-Ardant"
+            },
+            "name" : "Eric Lefevre-Ardant"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ac32d58c4c544412b170ad7915a5c8beab99674a",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Sonia OUCHTAR"
+            },
+            "name" : "Sonia OUCHTAR"
+          }
+        ],
+        "title" : "Introduction à la Philosophie de l'intelligence artificielle",
+        "lang" : "fr",
+        "summary" : "Les machines peuvent-elles être intelligentes ? Comment le juger ? Que signifie être intelligent, pour une machine ? Sait-on de quoi rêveraient des androïdes ?\r\nDans cette présentation, nous explorerons les principes et les limitations du Test de Turing, une proposition pour estimer cette intelligence.\r\nNous évoquerons également la Chambre chinoise, une expérience de pensée qui peut être vue comme une réponse au Test de Turing.\r\nA l'issue de cette session, nous aurons une meilleure idée de ce qu'est l'intelligence artificielle dans son sens fort... et de sa faisabilité."
+      },
+      "fromTime" : "14:55",
+      "toTimeMillis" : 1491572400000,
+      "toTime" : "15:40",
+      "roomCapacity" : 380,
+      "roomName" : "Maillot",
+      "slotId" : "conf_c_maillot_friday_7_14h55_15h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par242AB",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491569700000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "java",
+        "talkType" : "Conference",
+        "track" : "Java, JVM, Javas SE/EE",
+        "summaryAsHtml" : "<p>Dans cette introduction au <strong>Reactive Programming</strong>, nous verrons comment <strong>Reactor 3</strong>, au même titre que RxJava, permet de mieux conceptualiser et implémenter les traitements asynchrones dans les applications sur la JVM. Nous nous intéresserons à ses types réactifs (<code>Flux</code>/<code>Mono</code>), au vocabulaire d'opérateurs Rx et à l'évolution parallèle de Reactor, RxJava 1 et RxJava 2 (avec leurs points communs et leurs divergences). Nous pourrons ensuite tout comme Reactor nous focaliser sur un contexte Java 8, la spécification Reactive Streams et le concept de backpressure ainsi que les optimisations de chaîne d'opérateurs. Enfin, nous élargirons notre perspective vers les tests et la couche réseau (reactor-netty, reactor-kafka)...</p>\n",
+        "id" : "TZX-6202",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/89a849add91029107d06f2981979f4c8d857ece3",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Simon Baslé"
+            },
+            "name" : "Simon Baslé"
+          }
+        ],
+        "title" : "Reactor 3 et la programmation réactive sur la JVM",
+        "lang" : "fr",
+        "summary" : "Dans cette introduction au **Reactive Programming**, nous verrons comment **Reactor 3**, au même titre que RxJava, permet de mieux conceptualiser et implémenter les traitements asynchrones dans les applications sur la JVM. Nous nous intéresserons à ses types réactifs (`Flux`/`Mono`), au vocabulaire d'opérateurs Rx et à l'évolution parallèle de Reactor, RxJava 1 et RxJava 2 (avec leurs points communs et leurs divergences). Nous pourrons ensuite tout comme Reactor nous focaliser sur un contexte Java 8, la spécification Reactive Streams et le concept de backpressure ainsi que les optimisations de chaîne d'opérateurs. Enfin, nous élargirons notre perspective vers les tests et la couche réseau (reactor-netty, reactor-kafka)..."
+      },
+      "fromTime" : "14:55",
+      "toTimeMillis" : 1491572400000,
+      "toTime" : "15:40",
+      "roomCapacity" : 280,
+      "roomName" : "Paris 242-AB",
+      "slotId" : "conf_par242AB_friday_7_14h55_15h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "e_neu252",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491569700000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "agTest",
+        "talkType" : "Conference",
+        "track" : "DevOps, Agilité, Méthodologie & Tests",
+        "summaryAsHtml" : "<p>Si Docker a produit un engouement fulgurant et accru considérablement la vélocité de production de software, il est très facile de totalement perdre le contrôle de sa production d'images. Un pipeline de gestion des images Docker, comme pour la gestion du cycle de vie d'un software classique est vitale. Si les nouveaux outils amènent de nouveaux paradigmes nous verrons comment les modèles éprouvés peuvent s'appliquer ou non et quels sont leurs impacts sur le cycle de vie du développement logiciel.</p>\n",
+        "id" : "PLU-5963",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/55532db37162a9cf0f3f9027f3b47f579e12c2c7",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Jonathan Roquelaure"
+            },
+            "name" : "Jonathan Roquelaure"
+          }
+        ],
+        "title" : "Patterns et antipatterns pour la gestion des cycles de vie des images Docker",
+        "lang" : "fr",
+        "summary" : "Si Docker a produit un engouement fulgurant et accru considérablement la vélocité de production de software, il est très facile de totalement perdre le contrôle de sa production d'images. Un pipeline de gestion des images Docker, comme pour la gestion du cycle de vie d'un software classique est vitale. Si les nouveaux outils amènent de nouveaux paradigmes nous verrons comment les modèles éprouvés peuvent s'appliquer ou non et quels sont leurs impacts sur le cycle de vie du développement logiciel."
+      },
+      "fromTime" : "14:55",
+      "toTimeMillis" : 1491572400000,
+      "toTime" : "15:40",
+      "roomCapacity" : 380,
+      "roomName" : "Neuilly 252 AB",
+      "slotId" : "conf_e_neu252_friday_7_14h55_15h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "d_par241",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491569700000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "wm",
+        "talkType" : "Conference",
+        "track" : "Web, JS, HTML5 et UX",
+        "summaryAsHtml" : "<p>L’hégémonie de l’architecture REST est ébranlée par de nouveaux venus : GraphQL de Facebook et Falcor de Netflix. Comment ces deux technologies peuvent-elles nous aider à développer des applications web plus rapidement ?</p>\n<p>Nous commencerons par une rapide introduction de GraphQL et Falcor : le concept qui se cache derrière, leurs objectifs, ainsi que leur place dans nos architectures client-serveur.</p>\n<p>Nous vous proposerons ensuite de développer une application mobile de transport en commun avec REST, GraphQL et Falcor afin de comparer l’impact de ces technologies sur les propriétés du code et les coûts de développement. Cette comparaison sera assistée par un outil de traduction de requêtes, conçu par nos soins.</p>\n",
+        "id" : "RIA-2353",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0be433067c55b278531757eeed7ffb77d8d54508",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Antoine Cellier"
+            },
+            "name" : "Antoine Cellier"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3826276111051e3a6336983aa597709196d4b1f3",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Hugo Wood"
+            },
+            "name" : "Hugo Wood"
+          }
+        ],
+        "title" : "GraphQL vs Falcor",
+        "lang" : "fr",
+        "summary" : "L’hégémonie de l’architecture REST est ébranlée par de nouveaux venus : GraphQL de Facebook et Falcor de Netflix. Comment ces deux technologies peuvent-elles nous aider à développer des applications web plus rapidement ?\r\n\r\nNous commencerons par une rapide introduction de GraphQL et Falcor : le concept qui se cache derrière, leurs objectifs, ainsi que leur place dans nos architectures client-serveur.\r\n\r\nNous vous proposerons ensuite de développer une application mobile de transport en commun avec REST, GraphQL et Falcor afin de comparer l’impact de ces technologies sur les propriétés du code et les coûts de développement. Cette comparaison sera assistée par un outil de traduction de requêtes, conçu par nos soins."
+      },
+      "fromTime" : "14:55",
+      "toTimeMillis" : 1491572400000,
+      "toTime" : "15:40",
+      "roomCapacity" : 220,
+      "roomName" : "Paris 241",
+      "slotId" : "conf_d_par241_friday_7_14h55_15h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "f_neu251",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491569700000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "cldops",
+        "talkType" : "Conference",
+        "track" : "Cloud, Container et Scalabilité",
+        "summaryAsHtml" : "<p>Déployer un ensemble de microservices dans le Cloud n'est pas une tâche aisée. Déjà le déploiement peut s'avérer compliqué, ensuite, la gestion de tous les différents morceaux est vite un cauchemar. Les pannes sont fréquentes, la mise à jour sans interruption semble super sur le papier, mais dans la réalité, ce n’est pas si simple....</p>\n<p>Eclipse Vert.x permet de créer des microservices réactifs, c'est à dire élastiques, tolérants aux pannes, et utilisant la communication asynchrone. Vert.x permet de mieux utiliser les ressources disponibles, point crucial dans le Cloud.</p>\n<p>Dans cette session, nous montrons comment Vert.x utilisent les fonctionnalités offertes par Kubernetes pour faciliter la construction de microservices. En combinant Vert.x et Kubernetes, une grande partie des problèmes disparaissent :</p>\n<ul>\n<li>déploiement de conteneurs Docker</li>\n<li>élasticité et répartition de la charge</li>\n<li>découverte de services</li>\n<li>monitoring et tolérance aux pannes</li>\n<li>mise à jour sans interruption de service</li>\n</ul>\n<p>Cette session n'a pas de slides, simplement du live-coding. Quoi de mieux pour montrer la complémentarité entre Vert.x pour son côté réactif et Kubernetes pour la partie déploiement et management.</p>\n",
+        "id" : "UQK-6164",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e452d5162fbc8c0c94995c26312dec1e8fae9fc8",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Clement Escoffier"
+            },
+            "name" : "Clement Escoffier"
+          }
+        ],
+        "title" : "Microservices réactifs avec Eclipse Vert.x et Kubernetes",
+        "lang" : "fr",
+        "summary" : "Déployer un ensemble de microservices dans le Cloud n'est pas une tâche aisée. Déjà le déploiement peut s'avérer compliqué, ensuite, la gestion de tous les différents morceaux est vite un cauchemar. Les pannes sont fréquentes, la mise à jour sans interruption semble super sur le papier, mais dans la réalité, ce n’est pas si simple....\r\n\r\nEclipse Vert.x permet de créer des microservices réactifs, c'est à dire élastiques, tolérants aux pannes, et utilisant la communication asynchrone. Vert.x permet de mieux utiliser les ressources disponibles, point crucial dans le Cloud.\r\n \r\nDans cette session, nous montrons comment Vert.x utilisent les fonctionnalités offertes par Kubernetes pour faciliter la construction de microservices. En combinant Vert.x et Kubernetes, une grande partie des problèmes disparaissent :\r\n \r\n* déploiement de conteneurs Docker\r\n* élasticité et répartition de la charge\r\n* découverte de services\r\n* monitoring et tolérance aux pannes\r\n* mise à jour sans interruption de service\r\n \r\nCette session n'a pas de slides, simplement du live-coding. Quoi de mieux pour montrer la complémentarité entre Vert.x pour son côté réactif et Kubernetes pour la partie déploiement et management."
+      },
+      "fromTime" : "14:55",
+      "toTimeMillis" : 1491572400000,
+      "toTime" : "15:40",
+      "roomCapacity" : 220,
+      "roomName" : "Neuilly 251",
+      "slotId" : "conf_f_neu251_friday_7_14h55_15h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par243_t",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491569700000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "lang",
+        "talkType" : "Conference",
+        "track" : "Langages alternatifs",
+        "summaryAsHtml" : "<p>Open source has won. As little as 5 years ago, the decision faced by many companies building software was whether or not to go with a proprietary database/language/operating system/etc or to choose the open source one. In 2017 we give this shift little thought; nowadays we simply reach for the open source compiler/database/operating system without even considering the closed source, proprietary choices. This is great! Or is it? As we all happily jump on the open source bandwagon for project after project that we undertake, there are cracks beginning to form in some of the most important open source projects that we've all begun to depend on. Open source is in fact in peril in many ways. In this talk, I'll show you a view of open source that you may be completely unaware of, and I will show you some of the things we're trying in the Scala world to help combat some of the issues that have begun to arise in this shift towards open infrastructure.</p>\n",
+        "id" : "YYR-6433",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/191f5dc7d7392061c5b3d8823122715b187a2ee6",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Heather Miller"
+            },
+            "name" : "Heather Miller"
+          }
+        ],
+        "title" : "The Dramatic Consequences of the Open Source Revolution: Unrecognized Challenges & Some Modest Attempts at Solutions in Scala",
+        "lang" : "en",
+        "summary" : "Open source has won. As little as 5 years ago, the decision faced by many companies building software was whether or not to go with a proprietary database/language/operating system/etc or to choose the open source one. In 2017 we give this shift little thought; nowadays we simply reach for the open source compiler/database/operating system without even considering the closed source, proprietary choices. This is great! Or is it? As we all happily jump on the open source bandwagon for project after project that we undertake, there are cracks beginning to form in some of the most important open source projects that we've all begun to depend on. Open source is in fact in peril in many ways. In this talk, I'll show you a view of open source that you may be completely unaware of, and I will show you some of the things we're trying in the Scala world to help combat some of the issues that have begun to arise in this shift towards open infrastructure."
+      },
+      "fromTime" : "14:55",
+      "toTimeMillis" : 1491572400000,
+      "toTime" : "15:40",
+      "roomCapacity" : 120,
+      "roomName" : "Paris 243",
+      "slotId" : "conf_par243_t_friday_7_14h55_15h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "neu253_t",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491569700000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "java",
+        "talkType" : "Conference",
+        "track" : "Java, JVM, Javas SE/EE",
+        "summaryAsHtml" : "<p>When people think about the OpenJDK, they usually align it with a library and a set of API’s. However, the OpenJDK offers much more potential. It allows us to customise the behaviour of our application as well as open up other opportunities. In this talk, we are going to see a real case scenario of taking the OpenJDK and building on top of it to provide value to end products. We will cover best practices around building, testing, bundling as well as see how to keep compatibility with Oracle JDK while at the same time contribute back to the project. All this might sound daunting, in fact, it is a very viable solution that provides many benefits and embraces one of the core ideas behind Open Source.</p>\n",
+        "id" : "OEY-7468",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/c3cc612b5f03c54910bd7a80271a376e2a926b19",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Denis Fokin"
+            },
+            "name" : "Denis Fokin"
+          }
+        ],
+        "title" : "OpenJDK - Not just a set of APIs",
+        "lang" : "en",
+        "summary" : "When people think about the OpenJDK, they usually align it with a library and a set of API’s. However, the OpenJDK offers much more potential. It allows us to customise the behaviour of our application as well as open up other opportunities. In this talk, we are going to see a real case scenario of taking the OpenJDK and building on top of it to provide value to end products. We will cover best practices around building, testing, bundling as well as see how to keep compatibility with Oracle JDK while at the same time contribute back to the project. All this might sound daunting, in fact, it is a very viable solution that provides many benefits and embraces one of the core ideas behind Open Source."
+      },
+      "fromTime" : "14:55",
+      "toTimeMillis" : 1491572400000,
+      "toTime" : "15:40",
+      "roomCapacity" : 120,
+      "roomName" : "Neuilly 253",
+      "slotId" : "conf_neu253_t_friday_7_14h55_15h40",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "a_hall",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491572400000,
+      "break" : {
+        "id" : "coffee",
+        "nameEN" : "Coffee Break",
+        "nameFR" : "Pause café",
+        "room" : {
+          "id" : "a_hall",
+          "name" : "Exhibition floor",
+          "capacity" : 2300,
+          "setup" : "special",
+          "recorded" : ""
+        }
+      },
+      "roomSetup" : "special",
+      "talk" : null,
+      "fromTime" : "15:40",
+      "toTimeMillis" : 1491574200000,
+      "toTime" : "16:10",
+      "roomCapacity" : 2300,
+      "roomName" : "Exhibition floor",
+      "slotId" : "coffee_friday_7_15h40_14h10",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "b_amphi",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491574200000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "java",
+        "talkType" : "Conference",
+        "track" : "Java, JVM, Javas SE/EE",
+        "summaryAsHtml" : "<p>Disons que les prochaines features planifiées de Java (après la version 9) sont trop grosses pour qu'elles soient intégrées directement dans la version 10. Disons que dans ce cas, on va regarder à intégrer une moyenne feature qui fasse sens, et qui aide pour la suite. Disons que cette feature est le pattern Matching.\nCe talk va introduire ce que l'on entend par Pattern Matching, quelle pourrait en être la syntaxe, quelle pourrait en être la sémantique. En quoi celle-ci sera différente de celles d'autres langages comme par exemple Scala. Et comment on pourrait implanter le Pattern Matching pour que les Just In Time compilers de Java génère un code pas trop idiot.</p>\n",
+        "id" : "DHS-1136",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b967a0dc26fb6feaaa8795f375103b0d7aff319e",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Remi Forax"
+            },
+            "name" : "Remi Forax"
+          }
+        ],
+        "title" : "Pattern Matching en Java (10 ?)",
+        "lang" : "fr",
+        "summary" : "Disons que les prochaines features planifiées de Java (après la version 9) sont trop grosses pour qu'elles soient intégrées directement dans la version 10. Disons que dans ce cas, on va regarder à intégrer une moyenne feature qui fasse sens, et qui aide pour la suite. Disons que cette feature est le pattern Matching.\r\n  Ce talk va introduire ce que l'on entend par Pattern Matching, quelle pourrait en être la syntaxe, quelle pourrait en être la sémantique. En quoi celle-ci sera différente de celles d'autres langages comme par exemple Scala. Et comment on pourrait implanter le Pattern Matching pour que les Just In Time compilers de Java génère un code pas trop idiot."
+      },
+      "fromTime" : "16:10",
+      "toTimeMillis" : 1491576900000,
+      "toTime" : "16:55",
+      "roomCapacity" : 826,
+      "roomName" : "Amphi Bleu",
+      "slotId" : "conf_b_amphi_friday_7_16h10_16h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "c_maillot",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491574200000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "agTest",
+        "talkType" : "Conference",
+        "track" : "DevOps, Agilité, Méthodologie & Tests",
+        "summaryAsHtml" : "<p>On parle d'agilité et de devops depuis pas mal d'années maintenant, mais pour la plupart cela se résume à des sprints de 2 semaines suivis d'une mise en prod mensuelle au mieux. C'est loin du Continuous Delivery!\nEt si on découplait le planing de dev du planning de prod, du planing de QA et du planing du PO? Et si on poussait en prod tout nos changements immédiatement, ça changerait quoi? Et comment ça marche?\nFacile, on va le faire ensemble, là, maintenant, tout de suite en réutilisant les mêmes outils que l'équipe de dev de GitHub (Flipper, GH-ost, Scientist, Hubot et Jenkins) sur une appli existante.</p>\n",
+        "id" : "TDH-1697",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0ea5c47927cf932a6143d284b92d9911d0f404ed",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Alain Hélaïli"
+            },
+            "name" : "Alain Hélaïli"
+          }
+        ],
+        "title" : "Le changement c'est maintenant!",
+        "lang" : "fr",
+        "summary" : "On parle d'agilité et de devops depuis pas mal d'années maintenant, mais pour la plupart cela se résume à des sprints de 2 semaines suivis d'une mise en prod mensuelle au mieux. C'est loin du Continuous Delivery! \r\nEt si on découplait le planing de dev du planning de prod, du planing de QA et du planing du PO? Et si on poussait en prod tout nos changements immédiatement, ça changerait quoi? Et comment ça marche? \r\nFacile, on va le faire ensemble, là, maintenant, tout de suite en réutilisant les mêmes outils que l'équipe de dev de GitHub (Flipper, GH-ost, Scientist, Hubot et Jenkins) sur une appli existante. "
+      },
+      "fromTime" : "16:10",
+      "toTimeMillis" : 1491576900000,
+      "toTime" : "16:55",
+      "roomCapacity" : 380,
+      "roomName" : "Maillot",
+      "slotId" : "conf_c_maillot_friday_7_16h10_16h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par242AB",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491574200000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "bigd",
+        "talkType" : "Conference",
+        "track" : "Big Data, Machine Learning, IA & Analytics",
+        "summaryAsHtml" : "<p>Sera-t-il bientôt possible de faire une API qui permet de détecter automatiquement les trolls?</p>\n<p>D'une part, on constate que la modération humaine des réseaux sociaux ne scale pas. De l'autre, ça trolle fort sur les réseaux sociaux en ce moment. Par exemple, le CEO de Reddit s'est fait troller à mort sur son propre réseau social, et a dû s'excuser publiquement suite aux contre-mesures irraisonnables qu'il a prises.</p>\n<p>Dans ce talk, je commence par identifier les différentes formes de trolling qui existent sur les réseaux aujourd'hui.\nEnsuite, j'étudie certaines tentatives de solution, basées notamment sur du machine learning, qui promettent un jour de pouvoir contrôler ce phénomène en apprenant à des machines à détecter automatiquement des comportements de type \"troll\".\nEnfin, je me projette sur une solution d'API web qui permettrait à n'importe qui de se brancher et de bénéficier d'un tel service.</p>\n<p>Ce talk est une ouverture sur cet aspect fascinant de la relation entre la société et la technologie et comporte un volet technique mais qui ne nécessite aucun pré-requis en termes de connaissances.</p>\n",
+        "id" : "CIW-5996",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/275740c4825d357d58ad15316884865ab0105b7d",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Jonathan Michaux"
+            },
+            "name" : "Jonathan Michaux"
+          }
+        ],
+        "title" : "Pourquoi j’ai essayé de faire une API de détection de trolls",
+        "lang" : "fr",
+        "summary" : "Sera-t-il bientôt possible de faire une API qui permet de détecter automatiquement les trolls?\r\n\r\nD'une part, on constate que la modération humaine des réseaux sociaux ne scale pas. De l'autre, ça trolle fort sur les réseaux sociaux en ce moment. Par exemple, le CEO de Reddit s'est fait troller à mort sur son propre réseau social, et a dû s'excuser publiquement suite aux contre-mesures irraisonnables qu'il a prises.\r\n\r\nDans ce talk, je commence par identifier les différentes formes de trolling qui existent sur les réseaux aujourd'hui. \r\nEnsuite, j'étudie certaines tentatives de solution, basées notamment sur du machine learning, qui promettent un jour de pouvoir contrôler ce phénomène en apprenant à des machines à détecter automatiquement des comportements de type \"troll\".\r\nEnfin, je me projette sur une solution d'API web qui permettrait à n'importe qui de se brancher et de bénéficier d'un tel service.\r\n\r\nCe talk est une ouverture sur cet aspect fascinant de la relation entre la société et la technologie et comporte un volet technique mais qui ne nécessite aucun pré-requis en termes de connaissances.\r\n\r\n"
+      },
+      "fromTime" : "16:10",
+      "toTimeMillis" : 1491576900000,
+      "toTime" : "16:55",
+      "roomCapacity" : 280,
+      "roomName" : "Paris 242-AB",
+      "slotId" : "conf_par242AB_friday_7_16h10_16h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "e_neu252",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491574200000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "archisec",
+        "talkType" : "Conference",
+        "track" : "Architecture, Performance et Securité",
+        "summaryAsHtml" : "<p>Angular is one of the most popular frameworks, and there is a lot of information available on building applications, improving performance, and various other topics. But do you know how to make your Angular applications secure? What kind of security features does Angular offer you, and which additional steps can you take to really boost the security of your applications?</p>\n<p>In this session, you will learn how the paradigm shift from server-side to client-side applications impacts security. We will discuss various script-based threats against Angular applications, and the concrete defenses to prevent or minimize these attacks. You will learn how Angular helps you defend against XSS, and how you can leverage the latest browser security features in your Angular applications to boost your security. Examples include Subresource Integrity, HTML5 sandboxing or Content Security Policy.</p>\n<p>After attending this talk, you will have a good understanding of the various kinds of untrusted code that threaten your Angular applications. In addition, you will have concrete knowledge on how to use these new security technologies to effectively secure your Angular applications against these threats.</p>\n",
+        "id" : "TKY-6103",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b2c690f9fd417fd4d7104bcf0fdd7a1b8d97c6e8",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Philippe De Ryck"
+            },
+            "name" : "Philippe De Ryck"
+          }
+        ],
+        "title" : "Building Secure Angular Applications",
+        "lang" : "en",
+        "summary" : "Angular is one of the most popular frameworks, and there is a lot of information available on building applications, improving performance, and various other topics. But do you know how to make your Angular applications secure? What kind of security features does Angular offer you, and which additional steps can you take to really boost the security of your applications?\r\n\r\nIn this session, you will learn how the paradigm shift from server-side to client-side applications impacts security. We will discuss various script-based threats against Angular applications, and the concrete defenses to prevent or minimize these attacks. You will learn how Angular helps you defend against XSS, and how you can leverage the latest browser security features in your Angular applications to boost your security. Examples include Subresource Integrity, HTML5 sandboxing or Content Security Policy.\r\n\r\nAfter attending this talk, you will have a good understanding of the various kinds of untrusted code that threaten your Angular applications. In addition, you will have concrete knowledge on how to use these new security technologies to effectively secure your Angular applications against these threats."
+      },
+      "fromTime" : "16:10",
+      "toTimeMillis" : 1491576900000,
+      "toTime" : "16:55",
+      "roomCapacity" : 380,
+      "roomName" : "Neuilly 252 AB",
+      "slotId" : "conf_e_neu252_friday_7_16h10_16h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "d_par241",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491574200000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "wm",
+        "talkType" : "Conference",
+        "track" : "Web, JS, HTML5 et UX",
+        "summaryAsHtml" : "<p>Ippon supporte depuis 2013 le projet JHipster dont la version 4.0 vient de sortir et qui comptabilise 300 contributeurs et 6000 étoiles sur GitHub.\nCe talk vous donnera une vision \"Geek\" (Julien) et \"Boss\" (Geoffray) sur les raisons profondes qui ont motivé le projet et son soutien dans le temps par Ippon.\nCe talk vous permettra également de comprendre ce que vous pouvez attendre d'un projet Open Source de cette ampleur et les difficultés associées.</p>\n",
+        "id" : "HQL-1106",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/de3da7575830a16e641d43204cab18b671809dec",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Julien Dubois"
+            },
+            "name" : "Julien Dubois"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a3b944e4c133a014fdea3d5bc7217572a34792ce",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Geoffray Gruel"
+            },
+            "name" : "Geoffray Gruel"
+          }
+        ],
+        "title" : "Open Source depuis les tranchées : 4 ans de JHipster @Ippon",
+        "lang" : "fr",
+        "summary" : "Ippon supporte depuis 2013 le projet JHipster dont la version 4.0 vient de sortir et qui comptabilise 300 contributeurs et 6000 étoiles sur GitHub.\r\nCe talk vous donnera une vision \"Geek\" (Julien) et \"Boss\" (Geoffray) sur les raisons profondes qui ont motivé le projet et son soutien dans le temps par Ippon.\r\nCe talk vous permettra également de comprendre ce que vous pouvez attendre d'un projet Open Source de cette ampleur et les difficultés associées."
+      },
+      "fromTime" : "16:10",
+      "toTimeMillis" : 1491576900000,
+      "toTime" : "16:55",
+      "roomCapacity" : 220,
+      "roomName" : "Paris 241",
+      "slotId" : "conf_d_par241_friday_7_16h10_16h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "f_neu251",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491574200000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "wm",
+        "talkType" : "Conference",
+        "track" : "Web, JS, HTML5 et UX",
+        "summaryAsHtml" : "<p>Le temps est à l'origine de toutes les interactions qui se produisent sur les interfaces utilisateur que nous développons. Sans temps, rien ne se passe et nos interfaces ne reçoivent aucun évènement.</p>\n<p>Pourtant, le temps est rarement déclaré comme un paramètre explicite de nos programmes.</p>\n<p>Voyons ensemble comment la programmation fonctionnelle réactive et Cycle.js peuvent nous aider à déclarer nos applications comme pures fonctions du temps.</p>\n",
+        "id" : "OBS-3785",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0754b4972f5424c4cab4396145d2202ea19328e5",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Thomas Belin"
+            },
+            "name" : "Thomas Belin"
+          }
+        ],
+        "title" : "Les interfaces utilisateurs comme fonctions pures du temps",
+        "lang" : "fr",
+        "summary" : "Le temps est à l'origine de toutes les interactions qui se produisent sur les interfaces utilisateur que nous développons. Sans temps, rien ne se passe et nos interfaces ne reçoivent aucun évènement.\r\n\r\nPourtant, le temps est rarement déclaré comme un paramètre explicite de nos programmes. \r\n\r\nVoyons ensemble comment la programmation fonctionnelle réactive et Cycle.js peuvent nous aider à déclarer nos applications comme pures fonctions du temps."
+      },
+      "fromTime" : "16:10",
+      "toTimeMillis" : 1491576900000,
+      "toTime" : "16:55",
+      "roomCapacity" : 220,
+      "roomName" : "Neuilly 251",
+      "slotId" : "conf_f_neu251_friday_7_16h10_16h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par243_t",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491574200000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "lang",
+        "talkType" : "Conference",
+        "track" : "Langages alternatifs",
+        "summaryAsHtml" : "<p>Quand Swift a été annoncé en 2014, personne n'aurait imaginé qu'un jour on aurait pu se servir de ce langage pour réaliser une application... côté serveur !</p>\n<p>Ce talk a pour but de démontrer comment et dans quelle mesure nous pouvons écrire et deployer une application Web en utilisant Swift 3.0, en utilisant les plates-formes proposées par le marché. Nous découvrirons également les forces et faiblesses actuelles, les frameworks et les outils à utiliser aujourd'hui, ainsi que les extensions pour connecter notre application Swift côté serveur à des services tierces, tels que les systèmes de gestion de base de données.</p>\n",
+        "id" : "VTR-3436",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4d3511342c4266f497785ba061b3abc90a6d2bff",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Simone Civetta"
+            },
+            "name" : "Simone Civetta"
+          }
+        ],
+        "title" : "Server-Side Swift",
+        "lang" : "fr",
+        "summary" : "Quand Swift a été annoncé en 2014, personne n'aurait imaginé qu'un jour on aurait pu se servir de ce langage pour réaliser une application... côté serveur !\r\n\r\nCe talk a pour but de démontrer comment et dans quelle mesure nous pouvons écrire et deployer une application Web en utilisant Swift 3.0, en utilisant les plates-formes proposées par le marché. Nous découvrirons également les forces et faiblesses actuelles, les frameworks et les outils à utiliser aujourd'hui, ainsi que les extensions pour connecter notre application Swift côté serveur à des services tierces, tels que les systèmes de gestion de base de données. "
+      },
+      "fromTime" : "16:10",
+      "toTimeMillis" : 1491576900000,
+      "toTime" : "16:55",
+      "roomCapacity" : 120,
+      "roomName" : "Paris 243",
+      "slotId" : "conf_par243_t_friday_7_16h10_16h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "neu253_t",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491574200000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "mobile",
+        "talkType" : "Conference",
+        "track" : "Mobile, IoT",
+        "summaryAsHtml" : "<p>Bien souvent perchés au sommet d'une pile d'API, nous perdons parfois de vue les composants qui permettent à nos applications de fonctionner. Vous êtes vous déjà demandé pourquoi il fallait utiliser les wakelocks avec parcimonie ? Ou pourquoi il est conseillé de grouper vos requêtes réseaux ? ...</p>\n<p>Durant cette présentation chirurgicale, nous verrons ce qui se cache derrière des acronymes comme DVFS, RRC ou des noms de code comme Big.Little, Viking Killer. Cela nous donnera ainsi l'occasion de lever le voile sur différentes recommandations qui trouvent leurs origines dans l'architecture matérielle de votre terminal et du réseau.</p>\n",
+        "id" : "GKB-5981",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/f187fe2cdfc65a02b926c297a69a43cbd3b703d8",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Pierre Crépieux"
+            },
+            "name" : "Pierre Crépieux"
+          }
+        ],
+        "title" : "Dissection d'un smartphone Android et anatomie du réseau mobile",
+        "lang" : "fr",
+        "summary" : "Bien souvent perchés au sommet d'une pile d'API, nous perdons parfois de vue les composants qui permettent à nos applications de fonctionner. Vous êtes vous déjà demandé pourquoi il fallait utiliser les wakelocks avec parcimonie ? Ou pourquoi il est conseillé de grouper vos requêtes réseaux ? ... \r\n\r\nDurant cette présentation chirurgicale, nous verrons ce qui se cache derrière des acronymes comme DVFS, RRC ou des noms de code comme Big.Little, Viking Killer. Cela nous donnera ainsi l'occasion de lever le voile sur différentes recommandations qui trouvent leurs origines dans l'architecture matérielle de votre terminal et du réseau."
+      },
+      "fromTime" : "16:10",
+      "toTimeMillis" : 1491576900000,
+      "toTime" : "16:55",
+      "roomCapacity" : 120,
+      "roomName" : "Neuilly 253",
+      "slotId" : "conf_neu253_t_friday_7_16h10_16h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "b_amphi",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491577800000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "bigd",
+        "talkType" : "Conference",
+        "track" : "Big Data, Machine Learning, IA & Analytics",
+        "summaryAsHtml" : "<p>Vous n'avez jamais osé vous lancer dans un challenge de programmation? Vous ne savez pas par où commencer?</p>\n<p>C'était mon état d'esprit, il y a 7 ans, quand je me suis inscrit au google AI Challenge. Depuis, j'attends chaque concours avec impatience. Désormais dans le top 20 sur codingame, j'ai très régulièrement réussi a me classer dans le top 1% sur chaque challenge entrepris depuis.</p>\n<p>Mon ambition? Faire de vous un dresseur de bot redoutable. Vous apprendre comment développer une AI en quelques jours seulement, dans un environnement contraint, sans librairies externes et sans véritable IDE.\nCar cet environnement particulier demande un temps d'adaptation. Et avant de vous lancer sur des algo génétiques ou d'optimiser vos structures de données tête baissée, je vous propose mon retour d'expérience: un guide qui vous permettra de partir du bon pied.\nDu Monte Carlo Tree Search, aux bonnes pratiques de codes, en passant par la structure de votre AI et des statistiques insolites et utiles, nous feront le tour des éléments essentiels pour vous lancer.</p>\n<p>Et au prochain challenge? Je compte sur vous pour cartonner!</p>\n",
+        "id" : "SSI-2477",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4a00bcbad483da3fb2e195d8c948eec2e591238b",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Grégory Ribéron"
+            },
+            "name" : "Grégory Ribéron"
+          }
+        ],
+        "title" : "De bronze à légendaire, comment réussir vos IA de bot",
+        "lang" : "fr",
+        "summary" : "Vous n'avez jamais osé vous lancer dans un challenge de programmation? Vous ne savez pas par où commencer?\r\n\r\nC'était mon état d'esprit, il y a 7 ans, quand je me suis inscrit au google AI Challenge. Depuis, j'attends chaque concours avec impatience. Désormais dans le top 20 sur codingame, j'ai très régulièrement réussi a me classer dans le top 1% sur chaque challenge entrepris depuis.\r\n\r\nMon ambition? Faire de vous un dresseur de bot redoutable. Vous apprendre comment développer une AI en quelques jours seulement, dans un environnement contraint, sans librairies externes et sans véritable IDE.\r\nCar cet environnement particulier demande un temps d'adaptation. Et avant de vous lancer sur des algo génétiques ou d'optimiser vos structures de données tête baissée, je vous propose mon retour d'expérience: un guide qui vous permettra de partir du bon pied.\r\nDu Monte Carlo Tree Search, aux bonnes pratiques de codes, en passant par la structure de votre AI et des statistiques insolites et utiles, nous feront le tour des éléments essentiels pour vous lancer.\r\n\r\nEt au prochain challenge? Je compte sur vous pour cartonner!"
+      },
+      "fromTime" : "17:10",
+      "toTimeMillis" : 1491580500000,
+      "toTime" : "17:55",
+      "roomCapacity" : 826,
+      "roomName" : "Amphi Bleu",
+      "slotId" : "conf_b_amphi_friday_7_17h10_17h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par242AB",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491577800000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "agTest",
+        "talkType" : "Conference",
+        "track" : "DevOps, Agilité, Méthodologie & Tests",
+        "summaryAsHtml" : "<p>Être Tech Lead, c'est être au service de l'équipe en étant à la fois formateur, facilitateur, expert et coach. Mais quand l'équipe projet est composée de plus de 15 personnes, dont 10 développeur·euse·s, comment remplir ce rôle tout en continuant à prendre le temps de développer avec l'équipe, et ce sans finir sous l'eau ?</p>\n<p>Dans cette conférence, je vous partagerai un retour d'expérience d'1 an dans le rôle du Tech Lead d'une équipe de développement travaillant sur un site web grand public. Cette équipe de 10 développeur·euse·s était mixte à plusieurs titres : multi-compétences, homme/femme mais également client/prestataire.</p>\n<p>Après une présentation générale des différentes facettes du Tech Lead, je vous détaillerai les pratiques et mesures qui ont été mises en place pour améliorer la propriété collective du code et la qualité du produit au quotidien. Je vous partagerai également les succès qui ont favorisés l'apprentissage, la progression et l'autonomie de l'équipe (sans avoir à être un super-héros ou un dictateur), mais aussi les problèmes rencontrés et ce qui a moins bien fonctionné.</p>\n",
+        "id" : "LJI-3517",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/32e55b7ae8ba5a7b59f7c9b8c8be25ea63586eef",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Damien Beaufils"
+            },
+            "name" : "Damien Beaufils"
+          }
+        ],
+        "title" : "Comment être Tech Lead dans une pizza team XXL sans finir sous l'eau ?",
+        "lang" : "fr",
+        "summary" : "Être Tech Lead, c'est être au service de l'équipe en étant à la fois formateur, facilitateur, expert et coach. Mais quand l'équipe projet est composée de plus de 15 personnes, dont 10 développeur·euse·s, comment remplir ce rôle tout en continuant à prendre le temps de développer avec l'équipe, et ce sans finir sous l'eau ?\r\n\r\nDans cette conférence, je vous partagerai un retour d'expérience d'1 an dans le rôle du Tech Lead d'une équipe de développement travaillant sur un site web grand public. Cette équipe de 10 développeur·euse·s était mixte à plusieurs titres : multi-compétences, homme/femme mais également client/prestataire. \r\n\r\nAprès une présentation générale des différentes facettes du Tech Lead, je vous détaillerai les pratiques et mesures qui ont été mises en place pour améliorer la propriété collective du code et la qualité du produit au quotidien. Je vous partagerai également les succès qui ont favorisés l'apprentissage, la progression et l'autonomie de l'équipe (sans avoir à être un super-héros ou un dictateur), mais aussi les problèmes rencontrés et ce qui a moins bien fonctionné."
+      },
+      "fromTime" : "17:10",
+      "toTimeMillis" : 1491580500000,
+      "toTime" : "17:55",
+      "roomCapacity" : 280,
+      "roomName" : "Paris 242-AB",
+      "slotId" : "conf_par242AB_friday_7_17h10_17h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "e_neu252",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491577800000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "java",
+        "talkType" : "Conference",
+        "track" : "Java, JVM, Javas SE/EE",
+        "summaryAsHtml" : "<p>Votre application Java/Scala/autres en production ne répond plus ! Que faire pour diagnostiquer d'où vient le problème ? Un thread bloqué ? un CPU à 100% ? le GC qui s'emballe ? une OutOfMemoryError ? par où commencer ?\nCette présentation vous donnera les outils et méthodologie pour être capable de répondre à ce genre de situation. Nous verrons ce que la JVM propose comme informations et métriques ainsi que la bonne façon de les interpréter.</p>\n",
+        "id" : "QAE-8670",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/b800a8a13a35cf87947f7b22344d05e12fca36f3",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Jean-Philippe Bempel"
+            },
+            "name" : "Jean-Philippe Bempel"
+          }
+        ],
+        "title" : "Le guide de dépannage de la JVM",
+        "lang" : "fr",
+        "summary" : "Votre application Java/Scala/autres en production ne répond plus ! Que faire pour diagnostiquer d'où vient le problème ? Un thread bloqué ? un CPU à 100% ? le GC qui s'emballe ? une OutOfMemoryError ? par où commencer ?\r\nCette présentation vous donnera les outils et méthodologie pour être capable de répondre à ce genre de situation. Nous verrons ce que la JVM propose comme informations et métriques ainsi que la bonne façon de les interpréter."
+      },
+      "fromTime" : "17:10",
+      "toTimeMillis" : 1491580500000,
+      "toTime" : "17:55",
+      "roomCapacity" : 380,
+      "roomName" : "Neuilly 252 AB",
+      "slotId" : "conf_e_neu252_friday_7_17h10_17h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "d_par241",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491577800000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "wm",
+        "talkType" : "Conference",
+        "track" : "Web, JS, HTML5 et UX",
+        "summaryAsHtml" : "<p>​Initialement un PoC de développeur sur l'architecture Flux, Redux est passé, au cours de l’année 2015, du statut \"encore une nouvelle implémentation Flux\" au statut d'implémentation la plus populaire. Elle parvient aujourd'hui à fédérer les développeurs autour de Flux y compris en dehors de l’écosystème React.</p>\n<p>Redux est un nouveau paradigme de programmation pour les interfaces Web. Il propose de centraliser l’intégralité du contexte de l’application en un seul endroit organisant toutes les transformations de façon séquentielles et reproductible.</p>\n<p>Je vous propose un tour complet de la technologie par la même approche que préconise son créateur à savoir en allant voir directement le code de la librairie. Pas de panique ! L’essentiel de la librairie peut être écrit en 10 lignes.</p>\n<p>Comment 10 lignes peuvent apporter un nouveau paradigme ? C’est bien ça la beauté de cette librairie. J’essayerais de vous l’illustrer en y ajoutant concepts et démos.</p>\n",
+        "id" : "GLA-5382",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/33e4a304b9273f22adebb19b88463b93bcf5c9f5",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Matthieu Lux"
+            },
+            "name" : "Matthieu Lux"
+          }
+        ],
+        "title" : "Organisez la logique de votre application Web avec Redux",
+        "lang" : "fr",
+        "summary" : "​Initialement un PoC de développeur sur l'architecture Flux, Redux est passé, au cours de l’année 2015, du statut \"encore une nouvelle implémentation Flux\" au statut d'implémentation la plus populaire. Elle parvient aujourd'hui à fédérer les développeurs autour de Flux y compris en dehors de l’écosystème React.\r\n\r\nRedux est un nouveau paradigme de programmation pour les interfaces Web. Il propose de centraliser l’intégralité du contexte de l’application en un seul endroit organisant toutes les transformations de façon séquentielles et reproductible.\r\n\r\nJe vous propose un tour complet de la technologie par la même approche que préconise son créateur à savoir en allant voir directement le code de la librairie. Pas de panique ! L’essentiel de la librairie peut être écrit en 10 lignes.\r\n\r\nComment 10 lignes peuvent apporter un nouveau paradigme ? C’est bien ça la beauté de cette librairie. J’essayerais de vous l’illustrer en y ajoutant concepts et démos."
+      },
+      "fromTime" : "17:10",
+      "toTimeMillis" : 1491580500000,
+      "toTime" : "17:55",
+      "roomCapacity" : 220,
+      "roomName" : "Paris 241",
+      "slotId" : "conf_d_par241_friday_7_17h10_17h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "f_neu251",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491577800000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "agTest",
+        "talkType" : "Conference",
+        "track" : "DevOps, Agilité, Méthodologie & Tests",
+        "summaryAsHtml" : "<p>Nous proposons de jouer une mini pièce de théâtre montrant des questions et réponses de la vraie vie lors d'une transformation vers l'Agile.\nLes résistances sont nombreuses, les arguments anti-agile difficiles à contrer et l'état d'esprit pas toujours facile à synthétiser et vulgariser.\nEn jouant une suite de petites mises en situation de façon humoristique, nous dédramatisons le changement, et offrons au public des clés pour convaincre.</p>\n",
+        "id" : "IUX-9849",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ed350128cb4bddd55f77d149b9a12f92b7ec886b",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Meriem El Aaboudi"
+            },
+            "name" : "Meriem El Aaboudi"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4a69a65acb125bda501fc249bef6374250a31444",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Laurène Thénoz"
+            },
+            "name" : "Laurène Thénoz"
+          }
+        ],
+        "title" : "Les 5 questions con(tre) l'agilité et comment y répondre",
+        "lang" : "fr",
+        "summary" : "Nous proposons de jouer une mini pièce de théâtre montrant des questions et réponses de la vraie vie lors d'une transformation vers l'Agile. \r\nLes résistances sont nombreuses, les arguments anti-agile difficiles à contrer et l'état d'esprit pas toujours facile à synthétiser et vulgariser. \r\nEn jouant une suite de petites mises en situation de façon humoristique, nous dédramatisons le changement, et offrons au public des clés pour convaincre. "
+      },
+      "fromTime" : "17:10",
+      "toTimeMillis" : 1491580500000,
+      "toTime" : "17:55",
+      "roomCapacity" : 220,
+      "roomName" : "Neuilly 251",
+      "slotId" : "conf_f_neu251_friday_7_17h10_17h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "par243_t",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491577800000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "wm",
+        "talkType" : "Conference",
+        "track" : "Web, JS, HTML5 et UX",
+        "summaryAsHtml" : "<p>Une des nouveautés de cette édition de Devoxx France est l'application My Devoxx Contacts qui permet aux devoxxiens d’échanger leurs coordonnées de contact d'une façon simple et rapide.</p>\n<p>Dans ce talk nous regardons sous le capot de cette application: un front PWA basé sur des webcomponents, un back basé sur Lagoon et Cassandra, et des time series stockés sur Warp 10 pour l'analyse et le reporting.</p>\n",
+        "id" : "RMC-9585",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/73ebde8b6affccfdd3cdfceebac253655a224f63",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Horacio Gonzalez"
+            },
+            "name" : "Horacio Gonzalez"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1693d28c079e6c28269b9aa86ae04a4549ad3074",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Fabrice Sznajderman"
+            },
+            "name" : "Fabrice Sznajderman"
+          }
+        ],
+        "title" : "Une application sociale pour Devoxx",
+        "lang" : "fr",
+        "summary" : "Une des nouveautés de cette édition de Devoxx France est l'application My Devoxx Contacts qui permet aux devoxxiens d’échanger leurs coordonnées de contact d'une façon simple et rapide.\r\n\r\nDans ce talk nous regardons sous le capot de cette application: un front PWA basé sur des webcomponents, un back basé sur Lagoon et Cassandra, et des time series stockés sur Warp 10 pour l'analyse et le reporting."
+      },
+      "fromTime" : "17:10",
+      "toTimeMillis" : 1491580500000,
+      "toTime" : "17:55",
+      "roomCapacity" : 120,
+      "roomName" : "Paris 243",
+      "slotId" : "conf_par243_t_friday_7_17h10_17h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "neu253_t",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491577800000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "cldops",
+        "talkType" : "Conference",
+        "track" : "Cloud, Container et Scalabilité",
+        "summaryAsHtml" : "<p>Kubernetes is a powerful, open source, container orchestration / cluster management tool created by Google. It drew upon all the lessons learned from a near-decade of using containers at Google. Kubernetes handles deployment and provisioning of your application architecture, and it also handles number of failure scenarios gracefully, from a crashed process, to a failure of a cluster node. In this talk, we will develop a Java application locally, run and test it locally and deploying it into a cluster of machines with Kubernetes and container orchestration. But we'll take this even a step further, and see how we can configure and utilize Kubernetes Cluster Federation to deploy this application into multiple datacenter regions around the globe, configuring global load balancing, and regional level service discovery that can handle a variety of failure scenarios.</p>\n",
+        "id" : "HNZ-9627",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/df99375da7969259cf8d11aa131c9adfc5b06d9c",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Ray Tsang"
+            },
+            "name" : "Ray Tsang"
+          }
+        ],
+        "title" : "From Laptop to the World - Global deployment at your fingertip",
+        "lang" : "en",
+        "summary" : "Kubernetes is a powerful, open source, container orchestration / cluster management tool created by Google. It drew upon all the lessons learned from a near-decade of using containers at Google. Kubernetes handles deployment and provisioning of your application architecture, and it also handles number of failure scenarios gracefully, from a crashed process, to a failure of a cluster node. In this talk, we will develop a Java application locally, run and test it locally and deploying it into a cluster of machines with Kubernetes and container orchestration. But we'll take this even a step further, and see how we can configure and utilize Kubernetes Cluster Federation to deploy this application into multiple datacenter regions around the globe, configuring global load balancing, and regional level service discovery that can handle a variety of failure scenarios."
+      },
+      "fromTime" : "17:10",
+      "toTimeMillis" : 1491580500000,
+      "toTime" : "17:55",
+      "roomCapacity" : 120,
+      "roomName" : "Neuilly 253",
+      "slotId" : "conf_neu253_t_friday_7_17h10_17h55",
+      "day" : "friday"
+    },
+    {
+      "roomId" : "e_neu252",
+      "notAllocated" : false,
+      "fromTimeMillis" : 1491581400000,
+      "break" : null,
+      "roomSetup" : "theatre",
+      "talk" : {
+        "trackId" : "cldops",
+        "talkType" : "Conference",
+        "track" : "Cloud, Container et Scalabilité",
+        "summaryAsHtml" : "<p>Elément incontournable - incontourné on espère ;) - de cette fin de Devoxx, venez faire un petit débrief de cette édition avec les vrais de vrais, celles et ceux qui restent jusqu'à la dernière heure. Objectifs:</p>\n<ul>\n<li>Bonne ambiance</li>\n<li>Bonnes discussions</li>\n<li>Bonne relaxation</li>\n<li>Bonne bière(*) fraiche</li>\n</ul>\n<p>C’est pas mal déjà.</p>\n<p>Les Cast Codeurs est un podcast en français sur Java et la JVM de, par et pour les développeurs. Mais ils sortent de leur cave de temps en temps pour faire des émissions endiablées, en direct devant une foule en délire. C'est notre perspective en tous cas.</p>\n<p>(*) L’abus d’alcool, c’est mal.</p>\n<p>(*) On n’a pas encore demandé pour les bières mais ça va le faire en demandant gentiment.</p>\n",
+        "id" : "EHB-2573",
+        "speakers" : [
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/419d72a808d490afdf5721dc44e29c64fa02524c",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Emmanuel Bernard"
+            },
+            "name" : "Emmanuel Bernard"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a155ad6f93b3ce5d20a72c893a9b17b4e007b9a2",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Vincent Massol"
+            },
+            "name" : "Vincent Massol"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/2b935a5bfa04635d2e4c196afa7385ee2d254dde",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Antonio Goncalves"
+            },
+            "name" : "Antonio Goncalves"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a4aa19fa64372b927a62ff039428f4b4aafc687d",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Arnaud Héritier"
+            },
+            "name" : "Arnaud Héritier"
+          },
+          {
+            "link" : {
+              "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/3bb736546aa9cc376293b607a165b60c4233e704",
+              "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+              "title" : "Guillaume Laforge"
+            },
+            "name" : "Guillaume Laforge"
+          }
+        ],
+        "title" : "Les Cast Codeurs Podcast : tu prends ta bière(*), tu tends les jambes sous la chaise de ton voisin et tu te relaxes",
+        "lang" : "fr",
+        "summary" : "Elément incontournable - incontourné on espère ;) - de cette fin de Devoxx, venez faire un petit débrief de cette édition avec les vrais de vrais, celles et ceux qui restent jusqu'à la dernière heure. Objectifs:\r\n\r\n* Bonne ambiance\r\n* Bonnes discussions\r\n* Bonne relaxation\r\n* Bonne bière(*) fraiche\r\n\r\nC’est pas mal déjà.\r\n\r\nLes Cast Codeurs est un podcast en français sur Java et la JVM de, par et pour les développeurs. Mais ils sortent de leur cave de temps en temps pour faire des émissions endiablées, en direct devant une foule en délire. C'est notre perspective en tous cas.\r\n\r\n(*) L’abus d’alcool, c’est mal.\r\n\r\n(*) On n’a pas encore demandé pour les bières mais ça va le faire en demandant gentiment."
+      },
+      "fromTime" : "18:10",
+      "toTimeMillis" : 1491584100000,
+      "toTime" : "18:55",
+      "roomCapacity" : 380,
+      "roomName" : "Neuilly 252 AB",
+      "slotId" : "conf_e_neu252_friday_7_18h10_18h55",
+      "day" : "friday"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "uuid" : "191f5dc7d7392061c5b3d8823122715b187a2ee6",
+  "bioAsHtml" : "<p>Heather is a co-founder of and the Executive Director of the Scala Center at EPFL in Lausanne, Switzerland. She is also an Assistant Clinical Professor at Northeastern University in Boston. She obtained her PhD in October 2015 under Martin Odersky at EPFL, and is a longtime member of the Scala team, having worked on various aspects of Scala; from concurrency libraries to Scala dissemination and documentation.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Langages alternatifs",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/YYR-6433",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/191f5dc7d7392061c5b3d8823122715b187a2ee6",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Heather Miller"
+        }
+      ],
+      "id" : "YYR-6433",
+      "title" : "The Dramatic Consequences of the Open Source Revolution: Unrecognized Challenges & Some Modest Attempts at Solutions in Scala"
+    }
+  ],
+  "company" : "EPFL, Northeastern University",
+  "bio" : "Heather is a co-founder of and the Executive Director of the Scala Center at EPFL in Lausanne, Switzerland. She is also an Assistant Clinical Professor at Northeastern University in Boston. She obtained her PhD in October 2015 under Martin Odersky at EPFL, and is a longtime member of the Scala team, having worked on various aspects of Scala; from concurrency libraries to Scala dissemination and documentation.",
+  "lastName" : "Miller",
+  "firstName" : "Heather",
+  "blog" : "http://heather.miller.am",
+  "avatarURL" : "https://lh5.googleusercontent.com/-WY8Rj5Lile4/AAAAAAAAAAI/AAAAAAAAASA/kLbsh9XAXug/photo.jpg",
+  "twitter" : "@heathercmiller",
+  "lang" : "en"
+}

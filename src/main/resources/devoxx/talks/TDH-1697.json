@@ -1,0 +1,20 @@
+{
+  "trackId" : "agTest",
+  "talkType" : "Conference",
+  "track" : "DevOps, Agilité, Méthodologie & Tests",
+  "summaryAsHtml" : "<p>On parle d'agilité et de devops depuis pas mal d'années maintenant, mais pour la plupart cela se résume à des sprints de 2 semaines suivis d'une mise en prod mensuelle au mieux. C'est loin du Continuous Delivery!\nEt si on découplait le planing de dev du planning de prod, du planing de QA et du planing du PO? Et si on poussait en prod tout nos changements immédiatement, ça changerait quoi? Et comment ça marche?\nFacile, on va le faire ensemble, là, maintenant, tout de suite en réutilisant les mêmes outils que l'équipe de dev de GitHub (Flipper, GH-ost, Scientist, Hubot et Jenkins) sur une appli existante.</p>\n",
+  "id" : "TDH-1697",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/0ea5c47927cf932a6143d284b92d9911d0f404ed",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Alain Hélaïli"
+      },
+      "name" : "Alain Hélaïli"
+    }
+  ],
+  "title" : "Le changement c'est maintenant!",
+  "lang" : "fr",
+  "summary" : "On parle d'agilité et de devops depuis pas mal d'années maintenant, mais pour la plupart cela se résume à des sprints de 2 semaines suivis d'une mise en prod mensuelle au mieux. C'est loin du Continuous Delivery! \r\nEt si on découplait le planing de dev du planning de prod, du planing de QA et du planing du PO? Et si on poussait en prod tout nos changements immédiatement, ça changerait quoi? Et comment ça marche? \r\nFacile, on va le faire ensemble, là, maintenant, tout de suite en réutilisant les mêmes outils que l'équipe de dev de GitHub (Flipper, GH-ost, Scientist, Hubot et Jenkins) sur une appli existante. "
+}

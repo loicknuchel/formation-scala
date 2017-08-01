@@ -1,0 +1,68 @@
+{
+  "trackId" : "java",
+  "talkType" : "BOF (Bird of a Feather)",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>Une BOF pour tous les développeurs qui s’intéressent à Spring. Au programme: discussion libre avec l’équipe Spring sur tous les projets du portfolio, et bien plus encore!</p>\n",
+  "id" : "HBJ-3604",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7ee8911b3983bb10774f99ed3b3da60b1854c839",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Stéphane Nicoll"
+      },
+      "name" : "Stéphane Nicoll"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e8c67e2df13f82a0e69b26b1274d11fec44b0122",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Brian Clozel"
+      },
+      "name" : "Brian Clozel"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/9d77f0e35092ee25dacf9f9b6f9cc0fc695be416",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Florent Biville"
+      },
+      "name" : "Florent Biville"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/6edfe70ee7621dc90e256afe05ee9bd1bdb9cf73",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Marouane Gazanayi"
+      },
+      "name" : "Marouane Gazanayi"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/d84b817a907825ede4a9d5a74665bc23be072608",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Sebastien Deleuze"
+      },
+      "name" : "Sebastien Deleuze"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/89a849add91029107d06f2981979f4c8d857ece3",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Simon Baslé"
+      },
+      "name" : "Simon Baslé"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7e7ce8659844ad917a72243cf0d07465aa9ed3e7",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Yoann HENRY"
+      },
+      "name" : "Yoann HENRY"
+    }
+  ],
+  "title" : "The Spring BOF",
+  "lang" : "fr",
+  "summary" : "Une BOF pour tous les développeurs qui s’intéressent à Spring. Au programme: discussion libre avec l’équipe Spring sur tous les projets du portfolio, et bien plus encore!"
+}

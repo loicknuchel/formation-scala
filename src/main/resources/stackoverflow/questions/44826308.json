@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826308,
+  "title" : "How do I fetch the date on click using embed bootstrap datepicker?",
+  "body" : "<p>i am using the embedded bootstrap calendar and want the user to click on a day to display data underneath after the ajax event will go to url.</p>\n\n<p>I can't get the click event to happen. </p>\n\n<p>Basically it should do an ajax request on click of the date, but i can't see the click event in the log. Maybe my js is not properly?</p>\n\n<p>Below is my code, but check <a href=\"https://jsfiddle.net/yt81efz7/\" rel=\"nofollow noreferrer\">fiddle</a> it shows better.</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>$(document).ready(function() {\r\n\r\n  // below to initialise the embedded datepicker calendar\r\n  $('#calendar').datepicker({\r\n    weekStart: 1,\r\n    maxViewMode: 2,\r\n    todayBtn: true,\r\n    daysOfWeekHighlighted: \"0,6\",\r\n    calendarWeeks: true,\r\n    todayHighlight: true\r\n  });\r\n\r\n  // below is to get the click event for the calendar \"not working\"\r\n  $(\"#calendar\").on('click', function(parsegroupcaldate) {\r\n    var grpcalendar = $('#calendar').date('date');\r\n\r\n    $.ajax({\r\n      url: \"./Controller/send_my_date_here\",\r\n      type: \"post\",\r\n      data: {\r\n        grp_caldate: grpcalendar\r\n      },\r\n      success: function(response) {}\r\n    });\r\n    // below some tables got reload for content refresh after date select\r\n    $('#Table1').DataTable().ajax.reload(null, false);\r\n    $('#Table2').DataTable().ajax.reload(null, false);\r\n    $('#Table3').DataTable().ajax.reload(null, false);\r\n    $('#Table4').DataTable().ajax.reload(null, false);\r\n    $('#Table5').DataTable().ajax.reload(null, false);\r\n\r\n  });\r\n\r\n});</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js\"&gt;&lt;/script&gt;\r\n&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.0/js/bootstrap-datepicker.min.js\"&gt;&lt;/script&gt;\r\n&lt;link href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.0/css/bootstrap-datepicker.min.css\" rel=\"stylesheet\"/&gt;\r\n\r\n\r\n&lt;div id=\"calendar\"&gt;&lt;/div&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826308/how-do-i-fetch-the-date-on-click-using-embed-bootstrap-datepicker",
+  "owner" : {
+    "user_id" : 7735112,
+    "user_type" : "registered",
+    "display_name" : "Cyber",
+    "profile_image" : "https://www.gravatar.com/avatar/22965422146627a175de0ba7ef8d079d?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7735112/cyber",
+    "reputation" : 60,
+    "accept_rate" : 67
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742401,
+  "last_activity_date" : 1498742401,
+  "tags" : [
+    "javascript",
+    "jquery",
+    "datepicker"
+  ],
+  "score" : 0,
+  "view_count" : 9,
+  "answer_count" : 0
+}

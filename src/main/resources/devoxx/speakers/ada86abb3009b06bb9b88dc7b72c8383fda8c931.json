@@ -1,0 +1,32 @@
+{
+  "uuid" : "ada86abb3009b06bb9b88dc7b72c8383fda8c931",
+  "bioAsHtml" : "<p>Pierre-Alban est responsable de l&#x27;équipe Cloud à MyScript spécialiste de la reconnaissance d&#x27;écriture. Artisan du logiciel ce poste, il met en oeuvre des technologies  pour bâtir une solution PAAS du sol au plafond (certains diront full stack). Il approfondis particulièrement la norme Web Components depuis deux ans.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Quickie",
+      "track" : "Web, JS, HTML5 et UX",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/XCA-8251",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/ada86abb3009b06bb9b88dc7b72c8383fda8c931",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "DEWITTE Pierre-Alban"
+        }
+      ],
+      "id" : "XCA-8251",
+      "title" : "Étendre word et excel avec Javascript c'est possible"
+    }
+  ],
+  "company" : "MyScript",
+  "bio" : "Pierre-Alban est responsable de l'équipe Cloud à MyScript spécialiste de la reconnaissance d'écriture. Artisan du logiciel ce poste, il met en oeuvre des technologies  pour bâtir une solution PAAS du sol au plafond (certains diront full stack). Il approfondis particulièrement la norme Web Components depuis deux ans. ",
+  "lastName" : "Pierre-Alban",
+  "firstName" : "DEWITTE",
+  "blog" : "http://padewitte.tumblr.com/",
+  "avatarURL" : "http://www.gravatar.com/avatar/23a574afc3fb7bdb40ddda5ee0afb985",
+  "twitter" : "@padewitte",
+  "lang" : "fr"
+}

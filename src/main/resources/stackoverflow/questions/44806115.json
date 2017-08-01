@@ -1,0 +1,24 @@
+{
+  "question_id" : 44806115,
+  "title" : "golang accept on already opened fd",
+  "body" : "<p>I have a daemon that listens on a specific unix domain socket file. At some point it spawns a child which should continue listen on the same socket file without open a new one and overwriting the old one. I need a method that listen on a specific FD. In C it can be done with accept():</p>\n\n<pre><code>int accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen);\n</code></pre>\n\n<p>Please advise.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806115/golang-accept-on-already-opened-fd",
+  "owner" : {
+    "user_id" : 8226831,
+    "user_type" : "registered",
+    "display_name" : "Jivko Angelov",
+    "profile_image" : "https://graph.facebook.com/1072421991/picture?type=large",
+    "link" : "https://stackoverflow.com/users/8226831/jivko-angelov",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661926,
+  "last_activity_date" : 1498661926,
+  "tags" : [
+    "go"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

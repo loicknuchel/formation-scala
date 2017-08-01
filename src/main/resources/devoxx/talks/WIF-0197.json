@@ -1,0 +1,28 @@
+{
+  "trackId" : "cldops",
+  "talkType" : "Conference",
+  "track" : "Cloud, Container et Scalabilité",
+  "summaryAsHtml" : "<p>Windows Server 2016 introduit les conteneurs Windows et Hyper-V Containers, qui sont compatibles avec la technologie Docker. Dans cette session, vous découvrirez ce que sont les conteneurs Windows et comment leur arrivée va vous permettre d'adopter les mêmes méthodes de travail et même pratiques DevOps dans un écosystème hétérogène composés de machines Linux et Windows, le tout au travers d'un exemple concret !</p>\n",
+  "id" : "WIF-0197",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/25d88b19cb2f790435cbd6ba5c1e350e045d925f",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Julien Corioland"
+      },
+      "name" : "Julien Corioland"
+    },
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4339329660c101f8f1a3755e856a1984c2dc54bf",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Adrien Blind"
+      },
+      "name" : "Adrien Blind"
+    }
+  ],
+  "title" : "Docker & DevOps : adopter les mêmes pratiques sous Windows et sous Linux!",
+  "lang" : "fr",
+  "summary" : "Windows Server 2016 introduit les conteneurs Windows et Hyper-V Containers, qui sont compatibles avec la technologie Docker. Dans cette session, vous découvrirez ce que sont les conteneurs Windows et comment leur arrivée va vous permettre d'adopter les mêmes méthodes de travail et même pratiques DevOps dans un écosystème hétérogène composés de machines Linux et Windows, le tout au travers d'un exemple concret !"
+}

@@ -1,0 +1,42 @@
+{
+  "uuid" : "4f411ec38191b55d2ca0558eb1cb8642d48eeb14",
+  "bioAsHtml" : "<p>Après avoir travaillé pendant plus de 15 ans dans différentes société de service en informatique, Antoine est aujourd’hui employé chez Red Hat ou il co-dirige la spécification CDI et est en charge du développement de l’éco-système CDI. Il est également tech lead sur le projet Agorava permettant de développer des applications clientes des principaux réseaux sociaux.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Hands-on Labs",
+      "track" : "Java, JVM, Javas SE/EE",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/LPW-4412",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/1454e2d0a6c2fa871454dab3dbf66f5e16b61980",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sebastien Blanc"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4f411ec38191b55d2ca0558eb1cb8642d48eeb14",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Antoine Sabot-Durand"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/4c653281ee1b4ac170732db9768b7ddf9bdbd33f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Antonin Stefanutti"
+        }
+      ],
+      "id" : "LPW-4412",
+      "title" : "Créer une application Java EE 7 compatible MicroProfile et sécurisée avec WildFly Swarm,  Forge et KeyCloak"
+    }
+  ],
+  "company" : "Red Hat",
+  "bio" : "Après avoir travaillé pendant plus de 15 ans dans différentes société de service en informatique, Antoine est aujourd’hui employé chez Red Hat ou il co-dirige la spécification CDI et est en charge du développement de l’éco-système CDI. Il est également tech lead sur le projet Agorava permettant de développer des applications clientes des principaux réseaux sociaux.",
+  "lastName" : "Sabot-Durand",
+  "firstName" : "Antoine",
+  "blog" : "http://next-presso.com",
+  "avatarURL" : "https://lh4.googleusercontent.com/-f9-tJsXMlQM/AAAAAAAAAAI/AAAAAAAAFX4/Ez89moeZYLM/photo.jpg",
+  "twitter" : "@antoine_sd",
+  "lang" : "fr-FR"
+}

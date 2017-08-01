@@ -1,0 +1,28 @@
+{
+  "question_id" : 44806044,
+  "title" : "What language should I use to connect to WP- Woocommerce API?",
+  "body" : "<p>I'm trying to make a product customizer for my e-commerce based in woocommerce. I need to list some products, get their price, filter(with ajax)... calculate the price and finally add it to the cart.</p>\n\n<p>I have tried to connect with PHP, and axios, but with axios I'm not able to connect (could be my knowledge lack about the API's world )</p>\n\n<p><a href=\"https://woocommerce.github.io/woocommerce-rest-api-docs/\" rel=\"nofollow noreferrer\">https://woocommerce.github.io/woocommerce-rest-api-docs/</a></p>\n\n<p>I have been using the default library which woocommerce gives, but I cant get some results:</p>\n\n<pre><code>require __DIR__ . '/vendor/autoload.php';\n\nuse Automattic\\WooCommerce\\Client;\n</code></pre>\n\n<p>So, I have seen some github libraries which seems to be better... like:</p>\n\n<p><a href=\"https://github.com/kloon/WooCommerce-REST-API-Client-Library\" rel=\"nofollow noreferrer\">https://github.com/kloon/WooCommerce-REST-API-Client-Library</a></p>\n\n<p>I normally use PHP but  if it's better do it with JS or nodeJS, i'll try.</p>\n\n<p>I need some help, Thanks</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806044/what-language-should-i-use-to-connect-to-wp-woocommerce-api",
+  "owner" : {
+    "user_id" : 8208724,
+    "user_type" : "registered",
+    "display_name" : "javialm",
+    "profile_image" : "https://lh5.googleusercontent.com/-g6EGipH7EYo/AAAAAAAAAAI/AAAAAAAAAGY/KWqYqf5MPkQ/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/8208724/javialm",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661744,
+  "last_activity_date" : 1498661944,
+  "tags" : [
+    "javascript",
+    "php",
+    "wordpress",
+    "api",
+    "woocommerce"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

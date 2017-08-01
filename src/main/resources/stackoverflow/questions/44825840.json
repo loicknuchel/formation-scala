@@ -1,0 +1,27 @@
+{
+  "question_id" : 44825840,
+  "title" : "How to extract header from webm video chunk",
+  "body" : "<p>I'm trying to cut frames from youtube video using JavaCV and encountered a problem with webm format. the first chunk I get from youtube is processed ok. but all others give an error</p>\n\n<pre><code>avformat_open_input() error -2: Could not open input \"io.netty.buffer.ByteBufInputStream@5b7edd74\". (Has setFormat() been called?)\n</code></pre>\n\n<p>I assume, the reason for this is that first \"chunk\" contains the following WebM (Matroska) container elements:\n - EBML Header\n - Segment Info\n - Tracks</p>\n\n<p>so in order to process other chunks i need to copy this elements and attach them to other chunks. the question is how do i do that? i cannot find any information on how to do that in JavaCV nor how to determine the size of those \"elements\", so i could just copy and paste first n bytes, for example.\nHere is my code</p>\n\n<pre><code> InputStream is = new ByteBufInputStream(buf);\n FFmpegFrameGrabber g = new FFmpegFrameGrabber(is);\n g.setFormat(\"webm\");\n g.start();\n Frame frame = null;\n    while ((frame = g.grabKeyFrame()) != null) {\n                    Java2DFrameConverter converter = new Java2DFrameConverter();\n\n                    try {\n                        ImageIO.write(converter.convert(frame), \"png\", new File(\"D:\\\\temp\\\\\" + System.currentTimeMillis() + \".png\"));\n                    }catch(Exception e){\n                        e.printStackTrace();\n                    }\n                }\n                g.stop();\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44825840/how-to-extract-header-from-webm-video-chunk",
+  "owner" : {
+    "user_id" : 5008698,
+    "user_type" : "registered",
+    "display_name" : "rigby",
+    "profile_image" : "https://www.gravatar.com/avatar/63efbc6e28c0b3a5d0fce30a0261fdb0?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/5008698/rigby",
+    "reputation" : 65,
+    "accept_rate" : 33
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741151,
+  "last_activity_date" : 1498741151,
+  "tags" : [
+    "java",
+    "youtube",
+    "video-processing",
+    "webm"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

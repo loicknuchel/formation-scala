@@ -1,0 +1,57 @@
+{
+  "uuid" : "a97dc1739cca5a4d6b1dd2ca06fe1c69fbe405b8",
+  "bioAsHtml" : "<p>Podcaster, troll herder, security engineer (in no particular order).</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Architecture, Performance et Securité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/QFM-7860",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/68082da635ce5c02b0325170cd42af87fda5dfe0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Johanne Ulloa"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/a97dc1739cca5a4d6b1dd2ca06fe1c69fbe405b8",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Nicolas RUFF"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/419d72a808d490afdf5721dc44e29c64fa02524c",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Emmanuel Bernard"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/efe86825ed18e3ac9a3a895fc0acb9702c5a99c3",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Hervé Schauer"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/daeacb58322e0c2098becde15aa8d52562f23e7d",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Sébastien Gioria"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/303c50d69c22284f37665fb4cefb5490a8ee616f",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "V׀adimіr Kο׀׀a"
+        }
+      ],
+      "id" : "QFM-7860",
+      "title" : "Dev et Sécu : c'est fromage ou dessert ?"
+    }
+  ],
+  "company" : "NoLimitSecu",
+  "bio" : "Podcaster, troll herder, security engineer (in no particular order).",
+  "lastName" : "RUFF",
+  "firstName" : "Nicolas",
+  "blog" : "https://news0ft.blogspot.com/",
+  "avatarURL" : "https://3.bp.blogspot.com/-Gc0oxhsiY5E/V2eXmP29DNI/AAAAAAAALzo/LC6YIqUKzMoxdj8H0ogGyPGdWo4-85xsQCK4B/s151/blog.jpg",
+  "twitter" : "@newsoft",
+  "lang" : "en-US"
+}

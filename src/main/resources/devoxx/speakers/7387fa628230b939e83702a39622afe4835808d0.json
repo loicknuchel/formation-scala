@@ -1,0 +1,32 @@
+{
+  "uuid" : "7387fa628230b939e83702a39622afe4835808d0",
+  "bioAsHtml" : "<p>Piotr studied computer science at ENSEEIHT and obtained his Ph.D. in deep learning at New York University under the supervision of Prof. Yann LeCun. He has a decade-long experience of machine learning in industrial research labs, where he developed solutions for epileptic seizure prediction from EEG, robotic navigation and natural language processing. His passion for performing arts, as a drama student with a 17-year background in improvised theatre, drew him to create HumanMachine, an artistic experiment fusing improv and AI, where Piotr’s alter-ego Albert shares the stage with a computer called A.L.Ex.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Keynote",
+      "track" : "Big Data, Machine Learning, IA & Analytics",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/QBS-0960",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/7387fa628230b939e83702a39622afe4835808d0",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Piotr Mirowski"
+        }
+      ],
+      "id" : "QBS-0960",
+      "title" : "Human / Machine Improvised Theatre"
+    }
+  ],
+  "company" : "HumanMachine",
+  "bio" : "Piotr studied computer science at ENSEEIHT and obtained his Ph.D. in deep learning at New York University under the supervision of Prof. Yann LeCun. He has a decade-long experience of machine learning in industrial research labs, where he developed solutions for epileptic seizure prediction from EEG, robotic navigation and natural language processing. His passion for performing arts, as a drama student with a 17-year background in improvised theatre, drew him to create HumanMachine, an artistic experiment fusing improv and AI, where Piotr’s alter-ego Albert shares the stage with a computer called A.L.Ex.",
+  "lastName" : "Mirowski",
+  "firstName" : "Piotr",
+  "blog" : "https://humanmachine.live",
+  "avatarURL" : "http://www.gravatar.com/avatar/4de407cd0127d19448c89769da282feb",
+  "twitter" : "@PiotrImprov",
+  "lang" : "fr"
+}

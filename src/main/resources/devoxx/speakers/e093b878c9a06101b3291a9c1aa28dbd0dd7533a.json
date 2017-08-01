@@ -1,0 +1,37 @@
+{
+  "uuid" : "e093b878c9a06101b3291a9c1aa28dbd0dd7533a",
+  "bioAsHtml" : "<p>Hacker at CloudBees\nmais aussi agitateur de communautés, vidéaste amateur, et docker fanboy pasionnnné</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/KPM-8848",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e093b878c9a06101b3291a9c1aa28dbd0dd7533a",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Nicolas de Loof"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e3dfcbef2c6e2315e09123552f721da3965b76c6",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yoann Dubreuil"
+        }
+      ],
+      "id" : "KPM-8848",
+      "title" : "Containers' Jungle. Docker, Rocket, RunC, LXD ... WTF ?"
+    }
+  ],
+  "company" : "CloudBees, Inc.",
+  "bio" : "Hacker at CloudBees\r\nmais aussi agitateur de communautés, vidéaste amateur, et docker fanboy pasionnnné",
+  "lastName" : "de Loof",
+  "firstName" : "Nicolas",
+  "blog" : "https://blog.loof.fr",
+  "avatarURL" : "http://loof.free.fr/wwhile.png",
+  "twitter" : "@ndeloof",
+  "lang" : "fr"
+}

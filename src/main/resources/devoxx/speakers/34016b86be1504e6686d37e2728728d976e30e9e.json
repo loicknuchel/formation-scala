@@ -1,0 +1,32 @@
+{
+  "uuid" : "34016b86be1504e6686d37e2728728d976e30e9e",
+  "bioAsHtml" : "<p>​​Alexandre Monnin est philosophe, spécialiste de l’architecture et de la philosophie du Web, chercheur chez Inria au sein de l’équipe Wimmics, initiateur de la plate-forme TCP-IP + B​l​ockchain au sein de l&#x27;Idex UCA Jedi, membre du réseau d’experts de la mission Etalab sous la responsabilité du Premier Ministre et architecte de la plate-forme numérique de Lafayette Anticipation (fondation d’entreprise de​s​ Galeries Lafayette pour l’art contemporain). ​Il s&#x27;intéresse notamment à la question de l&#x27;avenir du Web et du numérique à l&#x27;heure de l&#x27;Anthropocène. ​Dans ce cadre, il a fondé le Community Group &quot;Web We Can Afford&quot; au sein du W3C (https://www.w3.org/community/wwca/). Dans le passé, il a également initié ​le DBpedia francophone.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Future, Robotique",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/EPU-2855",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/34016b86be1504e6686d37e2728728d976e30e9e",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Alexandre Monnin"
+        }
+      ],
+      "id" : "EPU-2855",
+      "title" : "​​Le monde devient numérique, a-t-il les moyens de le rester ?"
+    }
+  ],
+  "company" : "Inria",
+  "bio" : "​​Alexandre Monnin est philosophe, spécialiste de l’architecture et de la philosophie du Web, chercheur chez Inria au sein de l’équipe Wimmics, initiateur de la plate-forme TCP-IP + B​l​ockchain au sein de l'Idex UCA Jedi, membre du réseau d’experts de la mission Etalab sous la responsabilité du Premier Ministre et architecte de la plate-forme numérique de Lafayette Anticipation (fondation d’entreprise de​s​ Galeries Lafayette pour l’art contemporain). ​Il s'intéresse notamment à la question de l'avenir du Web et du numérique à l'heure de l'Anthropocène. ​Dans ce cadre, il a fondé le Community Group \"Web We Can Afford\" au sein du W3C (https://www.w3.org/community/wwca/). Dans le passé, il a également initié ​le DBpedia francophone.",
+  "lastName" : "Monnin",
+  "firstName" : "Alexandre",
+  "blog" : "http://web-and-philosophy.org",
+  "avatarURL" : "http://www.gravatar.com/avatar/7a5cf775bf96a64a6b7627531caa3db2",
+  "twitter" : "@aamonnz",
+  "lang" : "fr"
+}

@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826462,
+  "title" : "HttpContent.ReadAsync equivalent for .Net 4.0",
+  "body" : "<p>I have to downgrade a WebApi related project from .Net 4.5 to 4.0. The project uses \"Microsoft.AspNet.WebApi.Client which has a dependency to .Net 4.5\nThe following code is the only place that contains any reference to that assembly:</p>\n\n<pre><code>using (var client = new HttpClient())\n{\n    var response = client.GetAsync(\"some endpoint\").Result;\n    response.EnsureSuccessStatusCode();\n    var myResponse = response.Content.ReadAsAsync&lt;T&gt;().Result;\n}\n</code></pre>\n\n<p>Can anybody suggest what is the equivalent of </p>\n\n<p>I know in .Net versions 4.0 and below the assembly 'System.Net.Http.Formatting' was used to handle HTTP responses. Can anybody suggest what is the equivalent of response.Content.ReadAsAsync() in the mentioned assembly. Thanks.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826462/httpcontent-readasync-equivalent-for-net-4-0",
+  "owner" : {
+    "user_id" : 1752845,
+    "user_type" : "registered",
+    "display_name" : "Kalin Krastev",
+    "profile_image" : "https://i.stack.imgur.com/oyuNb.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/1752845/kalin-krastev",
+    "reputation" : 112,
+    "accept_rate" : 100
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742803,
+  "last_activity_date" : 1498742803,
+  "tags" : [
+    "c#",
+    ".net",
+    "asp.net-web-api",
+    ".net-4.0",
+    "asp.net-4.5"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 0
+}

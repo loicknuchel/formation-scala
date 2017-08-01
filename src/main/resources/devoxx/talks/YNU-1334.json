@@ -1,0 +1,20 @@
+{
+  "trackId" : "java",
+  "talkType" : "Tools-in-Action",
+  "track" : "Java, JVM, Javas SE/EE",
+  "summaryAsHtml" : "<p>L'arrivée des <strong>lambda</strong>s et des <strong>streams</strong> dans <strong>Java 8</strong> à annoncé le passage de Java à l'ère de la <strong>programmation fonctionnelle</strong>. Cependant, le rêve est de courte de durée. On se retrouve rapidement avec des corner cases, des APIs bancales et verbeuses, bref ces nouveaux outils ne sont pas toujours aussi utilisable qu'on aimerait.</p>\n<p>Mais <strong>Javaslang</strong> est là pour vous sauver.<strong> Javaslang</strong> est une librairie qui emprunte énormément d'idée à <strong>Scala</strong> et les applique au monde Java. Tout y passe, des collections immutables, des structures de contrôles fonctionnelles puissantes et utilisables, du pattern matching bref de quoi écrire de belles applications qui fonctionnent, de manière efficace et sans la lourdeur des APIs standard.</p>\n",
+  "id" : "YNU-1334",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/928fb729aded7d9a2e1452ca269e0559e8cab7ff",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Mathieu ANCELIN"
+      },
+      "name" : "Mathieu ANCELIN"
+    }
+  ],
+  "title" : "Java 8 c'est bien, Javaslang c'est mieux ;-)",
+  "lang" : "fr",
+  "summary" : "L'arrivée des **lambda**s et des **streams** dans **Java 8** à annoncé le passage de Java à l'ère de la **programmation fonctionnelle**. Cependant, le rêve est de courte de durée. On se retrouve rapidement avec des corner cases, des APIs bancales et verbeuses, bref ces nouveaux outils ne sont pas toujours aussi utilisable qu'on aimerait.\r\n\r\nMais **Javaslang** est là pour vous sauver.** Javaslang** est une librairie qui emprunte énormément d'idée à **Scala** et les applique au monde Java. Tout y passe, des collections immutables, des structures de contrôles fonctionnelles puissantes et utilisables, du pattern matching bref de quoi écrire de belles applications qui fonctionnent, de manière efficace et sans la lourdeur des APIs standard."
+}

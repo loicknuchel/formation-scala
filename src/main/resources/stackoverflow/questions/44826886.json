@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826886,
+  "title" : "I want to refresh data after delete entry in angular2",
+  "body" : "<p>I want to refresh data after delete entry in angular2\nDelete Service :</p>\n\n<pre><code> delete(id: number): Observable&lt;void&gt; {\n    const url = `${this.employeesUrl}/${id}`;\n    var headers = new Headers();\n    headers.append('Content-Type', 'application/x-www-form-urlencoded; \n    charset=UTF-8');\n    let options = new RequestOptions({ headers: headers });  \n    return this.http.delete(url, options)\n      .map(() =&gt; null);\n  } \n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826886/i-want-to-refresh-data-after-delete-entry-in-angular2",
+  "owner" : {
+    "user_id" : 8148140,
+    "user_type" : "registered",
+    "display_name" : "Krunal",
+    "profile_image" : "https://www.gravatar.com/avatar/8feafc2ce390c54e2e8fafcbf6a149d8?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8148140/krunal",
+    "reputation" : 12,
+    "accept_rate" : 50
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743815,
+  "last_activity_date" : 1498743815,
+  "tags" : [
+    "angular"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

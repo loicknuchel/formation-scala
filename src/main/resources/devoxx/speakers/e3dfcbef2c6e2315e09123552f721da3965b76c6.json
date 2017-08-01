@@ -1,0 +1,37 @@
+{
+  "uuid" : "e3dfcbef2c6e2315e09123552f721da3965b76c6",
+  "bioAsHtml" : "<p>Yoann Dubreuil travaille chez CloudBees. A mi-chemin entre développeur et administrateur système, il s&#x27;occupe aujourd&#x27;hui du maintien de la solution hébergée DEV@cloud après avoir accompagné les clients CloudBees à tirer le meilleur de Jenkins dans l&#x27;équipe support. Il participe à l’organisation du BreizhCamp, la conférence à l’ouest.</p>\n",
+  "acceptedTalks" : [
+    {
+      "talkType" : "Conference",
+      "track" : "Cloud, Container et Scalabilité",
+      "links" : [
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/talks/KPM-8848",
+          "rel" : "http://cfp.devoxx.fr/api/profile/talk",
+          "title" : "More details about this talk"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e093b878c9a06101b3291a9c1aa28dbd0dd7533a",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Nicolas de Loof"
+        },
+        {
+          "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e3dfcbef2c6e2315e09123552f721da3965b76c6",
+          "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+          "title" : "Yoann Dubreuil"
+        }
+      ],
+      "id" : "KPM-8848",
+      "title" : "Containers' Jungle. Docker, Rocket, RunC, LXD ... WTF ?"
+    }
+  ],
+  "company" : "CloudBees, Inc.",
+  "bio" : "Yoann Dubreuil travaille chez CloudBees. A mi-chemin entre développeur et administrateur système, il s'occupe aujourd'hui du maintien de la solution hébergée DEV@cloud après avoir accompagné les clients CloudBees à tirer le meilleur de Jenkins dans l'équipe support. Il participe à l’organisation du BreizhCamp, la conférence à l’ouest.",
+  "lastName" : "Dubreuil",
+  "firstName" : "Yoann",
+  "blog" : "http://ydubreuil.github.io/",
+  "avatarURL" : "https://lh4.googleusercontent.com/-akAJz17Pv7c/AAAAAAAAAAI/AAAAAAAAUg4/GjCjZPR341Y/photo.jpg",
+  "twitter" : "@yoanndubreuil",
+  "lang" : "fr"
+}

@@ -1,0 +1,20 @@
+{
+  "trackId" : "archisec",
+  "talkType" : "Conference",
+  "track" : "Architecture, Performance et Securité",
+  "summaryAsHtml" : "<p>Ok, tout le monde est persuadé, les microservices, c’est cool. Moi aussi je le crois, ça fait 5 ans que l'architecture de Clever Cloud est basée là dessus. Mais comme tout les nouveaux machins à la mode, en fait, c’est pas la panacée, et ça apporte son lot de problèmes. Au rang desquels la gestion de l’authentification en mode distribuée, je vais donc lister les quelques possibilités de gestion à ce point là. La gestion de la configuration est également un problème quand on déploie des applications distribuées. Le talk sera donc fait pour expliquer le moyen de mettre en place une démarche de microservice dans la vie réelle et de soulever les problèmes qui vont être rencontrés, et comment les régler.</p>\n",
+  "id" : "QIJ-4404",
+  "speakers" : [
+    {
+      "link" : {
+        "href" : "http://cfp.devoxx.fr/api/conferences/DevoxxFR2017/speakers/e0ce87f40a638c59e9da24231ef05da65aa355f3",
+        "rel" : "http://cfp.devoxx.fr/api/profile/speaker",
+        "title" : "Quentin Adam"
+      },
+      "name" : "Quentin Adam"
+    }
+  ],
+  "title" : "Les problèmes que l’on rencontre en microservice : configuration, authentification et autre joyeusetés",
+  "lang" : "fr",
+  "summary" : "Ok, tout le monde est persuadé, les microservices, c’est cool. Moi aussi je le crois, ça fait 5 ans que l'architecture de Clever Cloud est basée là dessus. Mais comme tout les nouveaux machins à la mode, en fait, c’est pas la panacée, et ça apporte son lot de problèmes. Au rang desquels la gestion de l’authentification en mode distribuée, je vais donc lister les quelques possibilités de gestion à ce point là. La gestion de la configuration est également un problème quand on déploie des applications distribuées. Le talk sera donc fait pour expliquer le moyen de mettre en place une démarche de microservice dans la vie réelle et de soulever les problèmes qui vont être rencontrés, et comment les régler.\r\n"
+}
