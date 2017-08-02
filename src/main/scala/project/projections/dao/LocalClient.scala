@@ -32,7 +32,6 @@ object LocalClient {
   implicit val formatGameWasFinishedPayload: Format[GameWasFinishedPayload] = Json.format[GameWasFinishedPayload]
   implicit val formatEvent: OFormat[Event] = derived.flat.oformat((__ \ "type").format[String])
 
-  val a = Json.obj()
   def readFile(path: String): String =
     Source.fromFile(path).mkString
 

@@ -9,51 +9,6 @@ import scala.util.{Failure, Success, Try}
 
 object s4FunctionalProg {
 
-  /**
-    * La prog fun n'est pas nouvelle (débuts avec Lisp en 1958) mais, comme pour la recherche théorique, c'est plusieurs décénies plus tard qu'on en a vraiment besoin.
-    * Aujourd'hui la prog fun permet de répondre au défi de la complexité croissante des applications.
-    * Que ce soit sur le code (qui grossit et qu'il faut continuer à maintenir) ou sur l'exécution dans un environnement distribué.
-    *
-    * La prog fun permet d'avoir un style déclaratif, plus proche de l'intention initiale et reléguant au détail d'implémentation le mode d'exécution réel.
-    *
-    * Programmation impérative => instructions => modification de l'état
-    * Programmation fonctionnelle => expressions => pas d'état
-    * => Pourquoi un effet de bord pose problème ?
-    *   - dépendances implicites masquées
-    *   - impossible de raisonner sur le programme => plus complexe,
-    * => Solution: limiter / faire les effets de bords à un seul endroit !
-    *
-    * Règles de la FP :
-    *   - fonctions pures
-    *     - pas de throw / log / call http / call db / lecture d'un fichier => ne peut pas fail
-    *   - immutabilité
-    *     - pas de modifiction des paramètres d'un fonction
-    *     - pas de variables, que des constantes
-    *     - état global peu pertinent (car non modifiable)
-    *
-    * Beaucoup de règles de la FP sont en réalités des bonnes pratiques en OOP
-    *
-    * Il n'y a pas de langage fonctionnel, tous les langages favorisent plus ou moins la programmation fonctionnelle
-    *   - Haskell beaucoup
-    *   - Java très peu (mais de +  en +)
-    *   - Scala permet sans l'obliger (pragmtique)
-    */
-  /**
-    * Curryfication
-    * Type algébrique
-    * Fonction d'ordre supérieur
-    * Monade / Fonctor
-    * Tail recursion
-    *
-    * Best practices :
-    *   - semantic => DDD
-    *   - bcp de petites fonctions pures
-    * Common patterns :
-    *   - ADT
-    *   - error handling
-    * Code smells :
-    *   - paramètres optionnels => la fonction à trop de responsabilités ?
-    */
   object InstructionsVsExpressions {
     def sumImp(nums: Seq[Int]): Int = {
       var i = 0
@@ -174,6 +129,10 @@ object s4FunctionalProg {
   }
 
   object HighOrderFunction {
+    def map[A, B](f: A => B) = ???
+
+    def filter[A](p: A => Boolean) = ???
+
     def greaterThan(threshold: Int): Int => Boolean = (x: Int) => x > threshold
 
     def foreach[A](seq: Seq[A], f: A => Unit): Unit = {
@@ -181,6 +140,20 @@ object s4FunctionalProg {
         f(s)
       }
     }
+  }
+
+  object Currification {
+    def add(a: Int, b: Int): Int = a + b
+
+    def addCur1(a: Int)(b: Int): Int = a + b
+
+    def addCur2(a: Int): Int => Int = b => a + b
+
+    def addCur3(a: Int): Int => Int = add(a, _)
+
+    def inc(a: Int): Int => Int = add(1, _)
+
+    def inc: Int => Int = addCur1(1)
   }
 
   object RefactorToFunctionnalEmplyeeAge {
@@ -473,6 +446,7 @@ object s4FunctionalProg {
       sealed trait Email extends Contact
 
       object Email {
+
         private case class Impl(value: String) extends Email
 
         def from(value: String): Try[Email] =
@@ -509,6 +483,7 @@ object s4FunctionalProg {
           value.length <= 50,
           s"String_50 should be <= 50 (actual: $value)"
         )
+
         override def toString: String = value
       }
 

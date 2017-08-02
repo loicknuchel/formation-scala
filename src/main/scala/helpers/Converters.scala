@@ -14,6 +14,7 @@ object Converters {
       case Some(value) => Success(value)
       case None => Failure(e)
     }
+
     def toFuture(e: => Exception): Future[T] = o match {
       case Some(value) => Future.successful(value)
       case None => Future.failed(e)
@@ -26,17 +27,5 @@ object Converters {
       case Failure(err) => Future.failed(err)
     }
   }
-
-  /*implicit class EitherExceptionConverter[T](e: Either[Exception, T]) {
-    def asTry: Try[T] = e match {
-      case Right(value) => Success(value)
-      case Left(err) => Failure(err)
-    }
-
-    def asFuture: Future[T] = e match {
-      case Right(value) => Future.successful(value)
-      case Left(err) => Future.failed(err)
-    }
-  }*/
 
 }
