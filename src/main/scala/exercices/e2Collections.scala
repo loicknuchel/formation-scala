@@ -59,36 +59,40 @@ object e2Collections {
   }
 
   object Devoxx {
-
     import project.devoxx.domain._
 
-    def frenchTalkPercentage(talks: Seq[Talk]): Double =
+    def frenchTalkPercentage(talks: Seq[Talk]): Double = {
       talks.count(_.lang == "fr").toDouble / talks.length
+    }
 
-    def speakersOfTalk(talks: Seq[Talk], speakers: Seq[Speaker], id: TalkId): Seq[Speaker] =
+    def speakersOfTalk(talks: Seq[Talk], speakers: Seq[Speaker], id: TalkId): Seq[Speaker] = {
       talks.find(_.id == id).map { talk =>
         speakers.filter(speaker => talk.speakers.exists(_.link.href.contains(speaker.uuid)))
       }.getOrElse(Seq())
+    }
 
-    def talksOfSpeaker(speakers: Seq[Speaker], talks: Seq[Talk], id: SpeakerId): Seq[Talk] =
+    def talksOfSpeaker(speakers: Seq[Speaker], talks: Seq[Talk], id: SpeakerId): Seq[Talk] = {
       speakers.find(_.uuid == id).map { speaker =>
         talks.filter(talk => speaker.acceptedTalks.exists(_.exists(_.id == talk.id)))
       }.getOrElse(List())
+    }
 
-    def roomSchedule(slots: Seq[Slot], id: RoomId): Seq[(Long, Long, TalkId)] =
+    def roomSchedule(slots: Seq[Slot], id: RoomId): Seq[(Long, Long, TalkId)] = {
       slots.filter(_.roomId == id).flatMap { slot =>
         slot.talk.map { talk =>
           (slot.fromTimeMillis, slot.toTimeMillis, talk.id)
         }
       }
+    }
 
-    def isSpeaking(slots: Seq[Slot], rooms: Seq[Room], id: SpeakerId, time: Long): Option[Room] =
+    def isSpeaking(slots: Seq[Slot], rooms: Seq[Room], id: SpeakerId, time: Long): Option[Room] = {
       slots
         .filter(s => s.fromTimeMillis <= time && time <= s.toTimeMillis)
         .flatMap(slot => slot.talk.map(t => (slot.roomId, t.speakers)))
         .filter { case (_, speakers) => speakers.exists(_.link.href.contains(id)) }
         .flatMap { case (roomId, _) => rooms.find(_.id == roomId)}
         .headOption
+    }
   }
 
   object CustomOption {
@@ -315,8 +319,10 @@ object e2Collections {
       def filter(p: A => Boolean): Tree[A] = if (p(root)) Node(root, children) else Leaf
 
       def flatMap[B](f: A => Tree[B]): Tree[B] = {
-        val r = f(root)
-        Node(r.root, r.children ++ children.map(_.flatMap(f)))
+        f(root) match {
+          case Node(r, c) => Node(r, c ++ children.map(_.flatMap(f)))
+          case Leaf => Leaf
+        }
       }
 
       def fold[B](z: B)(f: (B, A) => B): B = children.foldLeft(f(z, root))((acc, item) => item.fold(acc)(f))

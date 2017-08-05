@@ -34,7 +34,7 @@ object SearchEngine {
 
   object TokenizedSearch {
     type Doc = String
-    type TokenSegmenter = Token => Seq[Token]
+    type TokenSegmenter = String => Seq[Token]
     type TokenTransformer = Token => Token
     type TokenFilter = Token => Boolean
 

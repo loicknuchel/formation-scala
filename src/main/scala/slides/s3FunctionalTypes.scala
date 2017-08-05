@@ -159,16 +159,16 @@ object s3FunctionalTypes {
     //  - map(identity) == identity
     //  - map(f compose g) == map(f) compose map(g)
 
-    sealed trait May[+A] {
-      def map[B](f: A => B): May[B]
+    sealed trait Maybe[+A] {
+      def map[B](f: A => B): Maybe[B]
     }
 
-    case class Just[A](a: A) extends May[A] {
-      override def map[B](f: (A) => B): May[B] = Just(f(a))
+    case class Just[A](a: A) extends Maybe[A] {
+      override def map[B](f: (A) => B): Maybe[B] = Just(f(a))
     }
 
-    case object Not extends May[Nothing] {
-      override def map[B](f: (Nothing) => B): May[B] = Not
+    case object Not extends Maybe[Nothing] {
+      override def map[B](f: (Nothing) => B): Maybe[B] = Not
     }
 
   }
@@ -186,24 +186,24 @@ object s3FunctionalTypes {
     // A noter :
     //  - flatMap compose pure = map
 
-    sealed trait May[+A] {
-      def flatMap[B](f: A => May[B]): May[B]
+    sealed trait Maybe[+A] {
+      def flatMap[B](f: A => Maybe[B]): Maybe[B]
 
-      def map[B](f: A => B): May[B] = flatMap(a => May.pure(f(a)))
+      def map[B](f: A => B): Maybe[B] = flatMap(a => Maybe.pure(f(a)))
     }
 
-    object May {
-      def pure[A](a: A): May[A] = Just(a)
+    object Maybe {
+      def pure[A](a: A): Maybe[A] = Just(a)
 
-      def apply[A](a: A): May[A] = if (a == null) Not else Just(a)
+      def apply[A](a: A): Maybe[A] = if (a == null) Not else Just(a)
     }
 
-    case class Just[A](a: A) extends May[A] {
-      override def flatMap[B](f: A => May[B]): May[B] = f(a)
+    case class Just[A](a: A) extends Maybe[A] {
+      override def flatMap[B](f: A => Maybe[B]): Maybe[B] = f(a)
     }
 
-    case object Not extends May[Nothing] {
-      override def flatMap[B](f: Nothing => May[B]): May[B] = Not
+    case object Not extends Maybe[Nothing] {
+      override def flatMap[B](f: Nothing => Maybe[B]): Maybe[B] = Not
     }
 
   }
