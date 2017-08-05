@@ -53,11 +53,14 @@ object s4FunctionalProg {
     }
 
     class IO[A](effect: () => A) {
-      def run: A = effect()
+      def run(): A =
+        effect()
 
-      def map[B](f: A => B) = new IO(() => f(run))
+      def map[B](f: A => B): IO[B] =
+        new IO(() => f(run()))
 
-      def flatMap[B](f: A => IO[B]) = new IO(() => f(run).run)
+      def flatMap[B](f: A => IO[B]): IO[B] =
+        new IO(() => f(run()).run())
     }
 
     def readFileIO(path: String): IO[String] = new IO(() => readFile(path))
@@ -75,21 +78,21 @@ object s4FunctionalProg {
         _ <- printlnIO(newContent)
       } yield ()
       println("start")
-      program.run
+      program.run()
       // > start
       // > file content
       // > new content !
     }
 
     def isolatedSideEffectRefactored(): Unit = {
-      val printFile: IO[Unit] = readFileIO(path).flatMap(printlnIO)
+      val readAndPrintFile: IO[Unit] = readFileIO(path).flatMap(printlnIO)
       val program: IO[Unit] = for {
-        _ <- printFile
+        _ <- readAndPrintFile
         _ <- writeFileIO(path, "new content !")
-        _ <- printFile
+        _ <- readAndPrintFile
       } yield ()
       println("start")
-      program.run
+      program.run()
       // > start
       // > file content
       // > new content !
@@ -98,10 +101,10 @@ object s4FunctionalProg {
     def isolatedSideEffectDRY(): Unit = {
       def wrap[A, B](a: IO[A], b: IO[B]): IO[A] = a.flatMap(_ => b).flatMap(_ => a)
 
-      val printFile: IO[Unit] = readFileIO(path).flatMap(printlnIO)
-      val program: IO[Unit] = wrap(printFile, writeFileIO(path, "new content !"))
+      val readAndPrintFile: IO[Unit] = readFileIO(path).flatMap(printlnIO)
+      val program: IO[Unit] = wrap(readAndPrintFile, writeFileIO(path, "new content !"))
       println("start")
-      program.run
+      program.run()
       // > start
       // > file content
       // > new content !
@@ -111,13 +114,13 @@ object s4FunctionalProg {
 
       def wrap[A, B](a: IO[A], b: IO[B]): IO[A] = a.flatMap(_ => b).flatMap(_ => a)
 
-      val printFile: IO[Unit] = {
+      val readAndPrintFile: IO[Unit] = {
         println("printFile")
         readFileIO(path).flatMap(printlnIO)
       }
-      val program: IO[Unit] = wrap(printFile, writeFileIO(path, "new content !"))
+      val program: IO[Unit] = wrap(readAndPrintFile, writeFileIO(path, "new content !"))
       println("start")
-      program.run
+      program.run()
       // > printFile
       // > start
       // > file content
