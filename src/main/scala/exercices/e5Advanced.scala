@@ -4,9 +4,9 @@ import scala.language.implicitConversions
 
 object e5Advanced {
 
-  object ParametreImplicite {
+    /*object ParametreImplicite {
 
-    import e4FunctionalProg.JSON._
+    import .JSON._
 
     object Json {
 
@@ -81,7 +81,7 @@ object e5Advanced {
 
   object FonctionImplicite {
 
-    import e4FunctionalProg.JSON._
+    import .JSON._
 
     object Json {
       implicit def write(in: Null): JsValue = JsNull
@@ -95,6 +95,6 @@ object e5Advanced {
       implicit def write(in: Map[String, JsValue]): JsValue = JsObject(in)
     }
 
-  }
+  }*/
 
 }

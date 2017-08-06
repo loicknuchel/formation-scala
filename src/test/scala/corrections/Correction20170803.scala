@@ -2,11 +2,9 @@ package corrections
 
 import java.text.Normalizer
 
-import helpers.RealFileClient
 import org.scalatest.{FunSpec, Matchers}
-import project.devoxx.domain._
-import project.stackoverflow.dao.LocalClient
-import project.stackoverflow.domain.Question
+import project.searchengine.SearchEngine
+import project.searchengine.SearchEngine.Question
 
 class Correction20170803 extends FunSpec with Matchers {
   describe("FizzBuzz") {
@@ -82,7 +80,7 @@ class Correction20170803 extends FunSpec with Matchers {
       averageAge(employees, 40, RnD) shouldBe 47
     }
   }
-  describe("AverageTemp") {
+  describe("AverageTemperature") {
     case class Coords(lat: Double, lng: Double)
     case class City(name: String, coords: Coords, temperatures: Seq[Double])
 
@@ -115,12 +113,9 @@ class Correction20170803 extends FunSpec with Matchers {
     }
   }
   describe("Devoxx") {
-    import helpers.RealFileClient
-    import project.devoxx.dao.LocalClient
+    import exercices.s2Collections.Devoxx._
 
-    val fileClient = new RealFileClient()
-    val client = new LocalClient(fileClient, "src/main/resources/devoxx")
-    val (speakers, talks, rooms, slots) = client.getModel()
+    val (talks, speakers, slots, rooms) = loadData().get
 
     val talkId = "XPI-0919"
     val talkTitle = "Scala class, bien démarrer avec Scala"
@@ -134,13 +129,8 @@ class Correction20170803 extends FunSpec with Matchers {
 
     describe("frenchTalkPercentage") {
       it("should calculate the percentage of french talks") {
-        math.round(frenchTalkPercentage(talks) * 100) shouldBe 91
+        math.round(frenchTalkPercentage(talks) * 100) shouldBe 90
       }
-    }
-
-    def linkToSpeakerOpt(speakers: Seq[Speaker], link: LinkWithName): Option[Speaker] = {
-      val id = link.link.href.split("/").last
-      speakers.find(_.uuid == id)
     }
 
     def speakersOfTalk(talks: Seq[Talk], speakers: Seq[Speaker], talkId: String): Seq[Speaker] = {
@@ -148,36 +138,12 @@ class Correction20170803 extends FunSpec with Matchers {
         .find(talk => talk.id == talkId)
         .map(_.speakers)
         .getOrElse(Seq())
-        .flatMap(link => linkToSpeakerOpt(speakers, link))
+        .flatMap(id => speakers.find(_.id == id))
     }
 
     describe("speakersOfTalk") {
       it("should list speaker for a talk") {
-        speakersOfTalk(talks, speakers, talkId).map(_.uuid) shouldBe Seq(speakerId, "1693d28c079e6c28269b9aa86ae04a4549ad3074", "d167a51898267ed3b5913c1789f1ae6110a6ecf5")
-      }
-    }
-
-    def talksOfSpeaker(speakers: Seq[Speaker], talks: Seq[Talk], speakerId: String): Seq[Talk] = ???
-
-    describe("talksOfSpeaker") {
-      it("should list talks for a speaker") {
-        talksOfSpeaker(speakers, talks, speakerId).map(_.id) shouldBe Seq(talkId)
-      }
-    }
-
-    def roomSchedule(slots: Seq[Slot], roomId: String): Seq[(Long, Long, TalkId)] = ???
-
-    describe("roomSchedule") {
-      it("should return the schedule for a room") {
-        roomSchedule(slots, roomId).length shouldBe 4
-      }
-    }
-
-    def isSpeaking(slots: Seq[Slot], rooms: Seq[Room], speakerId: String, l: Long): Option[Room] = ???
-
-    describe("isSpeaking") {
-      it("should eventually return the Room where the speaker is at the asked time") {
-        isSpeaking(slots, rooms, speakerId, 1491491200000L).map(_.id) shouldBe Some(roomId)
+        speakersOfTalk(talks, speakers, talkId).map(_.id) shouldBe Seq(speakerId, "1693d28c079e6c28269b9aa86ae04a4549ad3074", "d167a51898267ed3b5913c1789f1ae6110a6ecf5")
       }
     }
   }
@@ -196,7 +162,6 @@ class Correction20170803 extends FunSpec with Matchers {
 
       def search(db: Seq[String], query: String): Seq[String] = {
         val tokens = query.split(" ")
-        db.map(_.length)
         db.filter(docMatch(_, tokens))
       }
 
@@ -237,12 +202,7 @@ class Correction20170803 extends FunSpec with Matchers {
       search(Seq("a", "b", "b a"), "a b") shouldBe Seq("b a")
     }
 
-    def loadDb(path: String): Seq[Question] = {
-      val client = new LocalClient(new RealFileClient(), path)
-      client.getQuestions().getOrElse(Seq())
-    }
-
-    val db = loadDb("src/main/resources/stackoverflow")
+    val db = SearchEngine.loadDb().get
 
     it("should load questions") {
       db.length shouldBe 700

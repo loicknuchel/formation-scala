@@ -3,8 +3,8 @@ package exercices
 import org.scalatest.{FunSpec, Matchers}
 
 class e5AdvancedSpec extends FunSpec with Matchers {
-  describe("ParametreImplicite") {
-    import e4FunctionalProg.JSON._
+  /*describe("ParametreImplicite") {
+    import .JSON._
     import e5Advanced.ParametreImplicite._
     it("should convert basic type using implicit parameter") {
       Json.from(null) shouldBe JsNull
@@ -28,13 +28,13 @@ class e5AdvancedSpec extends FunSpec with Matchers {
   }
 
   describe("ClasseImplicite") {
-    import e4FunctionalProg.JSON._
+    import .JSON._
     import e5Advanced.ClasseImplicite._
 
   }
 
   describe("FonctionImplicite") {
-    import e4FunctionalProg.JSON._
+    import .JSON._
     import e5Advanced.FonctionImplicite.Json._
     it("should convert basic types implicitly") {
       (true: JsValue) shouldBe JsBoolean(true)
@@ -42,5 +42,5 @@ class e5AdvancedSpec extends FunSpec with Matchers {
       ("a": JsValue) shouldBe JsString("a")
       //(Seq(1): JsValue) shouldBe JsArray(JsNumber(1))
     }
-  }
+  }*/
 }
