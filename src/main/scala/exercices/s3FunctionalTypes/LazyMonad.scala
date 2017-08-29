@@ -24,13 +24,13 @@ object LazyMonad {
 
     def flatMap[B](f: A => Lazy[B]): Lazy[B] = Lazy(f(underlying).get)
 
-    def filter(p: A => Boolean): Lazy[A] = Lazy(if (p(underlying)) underlying else throw new NoSuchElementException("filtered Lazy"))
+    def filter(p: A => Boolean): Lazy[A] = Lazy(if (p(underlying)) underlying else throw new NoSuchElementException("Lazy.filter: predicate does not hold for " + underlying))
 
     def withFilter(p: A => Boolean): Lazy[A] = filter(p)
 
     def flatten[B](implicit ev: A <:< Lazy[B]): Lazy[B] = Lazy(ev(underlying).get)
 
-    def collect[B](pf: PartialFunction[A, B]): Lazy[B] = Lazy(pf.applyOrElse(underlying, (v: A) => throw new NoSuchElementException("Lazy.collect not defined at " + v)))
+    def collect[B](pf: PartialFunction[A, B]): Lazy[B] = Lazy(pf.applyOrElse(underlying, (v: A) => throw new NoSuchElementException("Lazy.collect: predicate does not hold for " + v)))
 
     def compose[B](o: Lazy[B]): Lazy[A] = Lazy({
       o.get
