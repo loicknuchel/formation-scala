@@ -20,16 +20,29 @@ object Devoxx {
   case class Room(id: RoomId, name: String)
 
   // calcule le pourcentage de talks en français (chiffre entre 0 et 100)
-  def frenchTalkPercentage(talks: Seq[Talk]): Double = ???
+  def frenchTalkPercentage(talks: Seq[Talk]): Double =
+    talks.count(_.lang == "fr").toDouble / talks.length
 
   // trouve les talks du speaker indiqué
-  def talksOfSpeaker(talks: Seq[Talk], id: SpeakerId): Seq[Talk] = ???
+  def talksOfSpeaker(talks: Seq[Talk], id: SpeakerId): Seq[Talk] =
+    talks.filter(_.speakers.contains(id))
 
   // extrait le programme d'une salle avec les horaires (début & fin) et le talk associé
-  def roomSchedule(slots: Seq[Slot], talks: Seq[Talk], id: RoomId): Seq[(Date, Date, Talk)] = ???
+  def roomSchedule(slots: Seq[Slot], talks: Seq[Talk], id: RoomId): Seq[(Date, Date, Talk)] =
+    slots
+      .filter(_.room == id)
+      //.flatMap(slot => talks.find(_.id == slot.talk).map(talk => (slot.start, slot.end, talk)))
+      .map(slot => (slot.start, slot.end, talks.find(_.id == slot.talk)))
+      .collect { case (start, end, Some(talk)) => (start, end, talk) }
 
   // si le speaker est en train de présenter à la date donnée, renvoi la salle où il présente, sinon rien
-  def isSpeaking(slots: Seq[Slot], talks: Seq[Talk], rooms: Seq[Room], id: SpeakerId, time: Date): Option[Room] = ???
+  def isSpeaking(slots: Seq[Slot], talks: Seq[Talk], rooms: Seq[Room], id: SpeakerId, time: Date): Option[Room] =
+    slots
+      .filter(s => s.start.before(time) && s.end.after(time))
+      .flatMap(slot => talks.find(_.id == slot.talk).map(t => (slot.room, t.speakers)))
+      .filter { case (_, speakers) => speakers.contains(id) }
+      .flatMap { case (roomId, _) => rooms.find(_.id == roomId) }
+      .headOption
 
   /**
     *     ---------- Ne pas modifier ----------

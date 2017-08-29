@@ -14,5 +14,9 @@ class AverageTemperatureSpec extends FunSpec with Matchers {
       (Coords(48.8566, 2.3522), 11.833333333333334),
       (Coords(43.2964, 5.3697), 15.333333333333334),
       (Coords(45.7640, 4.8356), 12.166666666666666))
+
+    it("should format cities") {
+      format(cities) shouldBe results
+    }
   }
 }
