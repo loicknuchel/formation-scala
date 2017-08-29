@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826208,
+  "title" : "Measuregroup to dimension relation: multiple attributes",
+  "body" : "<p>I'm trying to build in another measuregroup to my cube.  This is Budgets (which are always trouble).</p>\n\n<p>The measures are supposed to be sliced by two attributes of the Product dimension: \"Product Type\" and Brand.  These are only two of many attributes in Product, and neither of them are the leaf-level key.  I'm fine with that, I can have Budgets correctly show blank at the leaf level by adjusting the MG's <em>IgnoreUnrelatedDimensions</em> property.</p>\n\n<p>The problem is: you can't define multiple granularity attributes when relating a MeasureGroup and Dim in the cube's Dimension Usage tab.</p>\n\n<p>I've tried:</p>\n\n<p><strong>a.</strong> Added a ProductTypeBrand attribute (intended to be hidden, internal) to the Product dimension.  This concatenates the key values of the Product Type and Brand attributes.  Then, added the same value to the fact table, and joined on this.  It doesn't work: if I make the ProductTypeBrand attribute hierarchy visible, Budgets can be sliced by it.  But they don't get sliced by the (visible, user-friendly) Product Type or Brand attributes.</p>\n\n<p><strong>b.</strong> Created a separate ProductTypeBrand dimension, with this concatenated key value.  Related the MG to Product, using this PTBrand dim as an intermediate dimension.  Still doesn't work: results as before.</p>\n\n<p>I'm considering creating a separate dimension, with the separate attributes (Product Type and Brand), along with perhaps the combined key attribute, and using that to slice this Budgets measuregroup.  But then, how would I get that dimension to also slice the Products dimension?</p>\n\n<p>thanks for any ideas.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826208/measuregroup-to-dimension-relation-multiple-attributes",
+  "owner" : {
+    "user_id" : 3584553,
+    "user_type" : "registered",
+    "display_name" : "SebTHU",
+    "profile_image" : "https://www.gravatar.com/avatar/0847303778bc764e001e7a5b6d48b588?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/3584553/sebthu",
+    "reputation" : 1031,
+    "accept_rate" : 86
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742138,
+  "last_activity_date" : 1498742138,
+  "tags" : [
+    "ssas"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

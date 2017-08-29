@@ -1,0 +1,24 @@
+{
+  "question_id" : 44805996,
+  "title" : "Git &quot;How is object reachable&quot;?",
+  "body" : "<p>I have a blob in Git and I am trying to figure out how it is still reachable (i.e. any trees the blob is referenced by, follow those trees up to commits, follow those commits up to refs). Any thoughts on how to accomplish this?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44805996/git-how-is-object-reachable",
+  "owner" : {
+    "user_id" : 123990,
+    "user_type" : "registered",
+    "display_name" : "Rich",
+    "profile_image" : "https://www.gravatar.com/avatar/08913456e99c9dcc967522a8b780828e?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/123990/rich",
+    "reputation" : 1843,
+    "accept_rate" : 23
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661654,
+  "last_activity_date" : 1498661654,
+  "tags" : [
+    "git"
+  ],
+  "score" : -1,
+  "view_count" : 10,
+  "answer_count" : 0
+}

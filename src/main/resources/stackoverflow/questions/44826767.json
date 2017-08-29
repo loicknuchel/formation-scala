@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826767,
+  "title" : "How to use claim based security in desktop application",
+  "body" : "<p>I started to play with claim based authorization in .NET WPF application, but from start, I see some big drawbacks and I dont know how to solve them.  </p>\n\n<p>ClaimIdentity is populated with claims (permissions to something) after user successfully logins. What if permissions stored in database are changed after user logged in? If some method will need to check for claim, ClaimIdentity will return old claims from login time. It looks like only way to get current permissions is to login again, get permissions from database on every HasClaim (or similar method), or count claim requests and refresh them lets say every 50 requests.  </p>\n\n<p>What is correct approach?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826767/how-to-use-claim-based-security-in-desktop-application",
+  "owner" : {
+    "user_id" : 1796973,
+    "user_type" : "registered",
+    "display_name" : "Ondřej",
+    "profile_image" : "https://www.gravatar.com/avatar/1a69dd2873578c07598322843aa72088?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1796973/ond%c5%99ej",
+    "reputation" : 707,
+    "accept_rate" : 81
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743550,
+  "last_activity_date" : 1498743550,
+  "tags" : [
+    ".net",
+    "wpf",
+    "claims-based-identity",
+    "claims"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

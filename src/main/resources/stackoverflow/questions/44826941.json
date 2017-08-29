@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826941,
+  "title" : "Dynamically changing favicon back and forth multiple times",
+  "body" : "<p>So I am running a userscript (using tampermonkey) on a site, and I have a function which is called each time something else on the page changes.</p>\n\n<p>I have a value stored in something called \"Available\". If this is 0, then I want to use the standard favicon for the site. Otherwise, I want a red box added to the favicon with text displaying the value of Available.</p>\n\n<p>This works initially, however after Available goes > 0, then == 0, then > 0 again, it stops adding the red box with white text on top.</p>\n\n<p>The code is definitely reaching the key point each time, as my console log showing the value for Available is being triggered.</p>\n\n<p>Here's what I have:</p>\n\n<pre><code>        if(Available &gt; 0){\n\n        var canvas = document.createElement('canvas');\n        canvas.width = 16;canvas.height = 16;\n        var ctx = canvas.getContext('2d');\n        var img = new Image();\n        img.src = '/favicon.ico';\n        img.onload = function() {\n            ctx.drawImage(img, 0, 0);\n            ctx.fillStyle = \"#F00\";\n            ctx.fillRect(10, 7, 6, 8);\n            ctx.fillStyle = '#FFFFFF';\n            ctx.font = 'bold 10px sans-serif';\n            ctx.fillText(Available, 10, 14);\n\n            var link = document.createElement('link');\n            link.type = 'image/x-icon';\n            link.rel = 'shortcut icon';\n            link.href = canvas.toDataURL(\"image/x-icon\");\n            document.getElementsByTagName('head')[0].appendChild(link);\n        };\n\n\n    }\n    else {\n        var canvas2 = document.createElement('canvas');\n        canvas2.width = 16;\n        canvas2.height = 16;\n        var ctx2 = canvas2.getContext('2d');\n        var img2 = new Image();\n        img2.src = '/favicon.ico';\n        img2.onload = function() {\n            ctx2.drawImage(img2, 0, 0);\n            //ctx2.fillStyle = \"#F00\";\n            //ctx2.fillRect(10, 7, 6, 8);\n            //ctx2.fillStyle = '#FFFFFF';\n            //ctx2.font = 'bold 10px sans-serif';\n            //ctx2.fillText(Available, 10, 14);\n\n            var link2 = document.createElement('link');\n            link2.type = 'image/x-icon';\n            link2.rel = 'shortcut icon';\n            link2.href = canvas2.toDataURL(\"image/x-icon\");\n            document.getElementsByTagName('head')[0].appendChild(link2);\n        };\n    }\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826941/dynamically-changing-favicon-back-and-forth-multiple-times",
+  "owner" : {
+    "user_id" : 1677045,
+    "user_type" : "registered",
+    "display_name" : "pingu2k4",
+    "profile_image" : "https://www.gravatar.com/avatar/1d86393d9e42358f016f21ce5fcc0c05?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1677045/pingu2k4",
+    "reputation" : 358,
+    "accept_rate" : 58
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743918,
+  "last_activity_date" : 1498743918,
+  "tags" : [
+    "javascript",
+    "jquery",
+    "favicon",
+    "userscripts"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

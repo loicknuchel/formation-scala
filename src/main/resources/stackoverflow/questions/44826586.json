@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826586,
+  "title" : "Side bar hyperlink are not hidden by height css",
+  "body" : "<p>CSS   </p>\n\n<pre><code>.nested-menu {\n        .list-group-item {\n            cursor: pointer;\n        }\n        .nested {\n            list-style-type: none;\n        }\n        ul.submenu {\n            height: 0;\n        }\n        &amp; .expand {\n            ul.submenu {\n                list-style-type: none;\n                height: auto;\n                li {\n                    a {\n                        color: #FFF;\n                        padding: 10px;\n                        display: block;\n                    }\n                }\n            }\n        }\n    }\n</code></pre>\n\n<p>HTML</p>\n\n<pre><code>&lt;div class=\"nested-menu\"&gt;\n                &lt;a class=\"list-group-item\" (click)=\"addExpandClass('pages')\"&gt;\n                    &lt;span&gt;\n                        &lt;i class=\"fa fa-universal-access\"&gt;&lt;/i&gt;\n                        &amp;nbsp;Account\n                    &lt;/span&gt;\n                &lt;/a&gt;\n                &lt;div class=\"nested\" [class.expand]=\"showMenu === 'pages'\"&gt;\n                    &lt;ul class=\"submenu\"&gt;\n                        &lt;li&gt;\n                            &lt;a [routerLink]=\"['account/password']\" (click)=\"eventCalled()\"&gt;\n                                &lt;span&gt;Password reset&lt;/span&gt;\n                            &lt;/a&gt;\n                        &lt;/li&gt;\n                        &lt;li&gt;\n                            &lt;a [routerLink]=\"['account/user']\" (click)=\"eventCalled()\"&gt;\n                                &lt;span&gt;User&lt;/span&gt;\n                            &lt;/a&gt;\n                        &lt;/li&gt;\n                    &lt;/ul&gt;\n                &lt;/div&gt;\n            &lt;/div&gt;\n</code></pre>\n\n<p>before clicking it looks like this. <code>height: 0</code> is not hiding the child links. How to hide them ?</p>\n\n<p><a href=\"https://i.stack.imgur.com/Pi2Ct.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/Pi2Ct.png\" alt=\"enter image description here\"></a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44826586/side-bar-hyperlink-are-not-hidden-by-height-css",
+  "owner" : {
+    "user_id" : 663011,
+    "user_type" : "registered",
+    "display_name" : "Saurabh Kumar",
+    "profile_image" : "https://www.gravatar.com/avatar/5b5a2278b36469103a9b903be7160805?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/663011/saurabh-kumar",
+    "reputation" : 4236,
+    "accept_rate" : 83
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743100,
+  "last_activity_date" : 1498743465,
+  "tags" : [
+    "css",
+    "css3"
+  ],
+  "score" : 1,
+  "view_count" : 15,
+  "answer_count" : 2
+}

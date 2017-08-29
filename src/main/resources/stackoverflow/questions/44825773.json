@@ -1,0 +1,27 @@
+{
+  "question_id" : 44825773,
+  "title" : "Sass error. invalid CSS after open bracket. Expected closed bracket",
+  "body" : "<p>I am trying SASS for the first time and I get this error everywhere a bracket is present. This is a mixin I found somewhere and pasted and I don't know why this error shows up:</p>\n\n<blockquote>\n  <p>Invalid CSS after \"...woff ttf svg) {\": expected \"}\", was \"{\"',</p>\n</blockquote>\n\n<p>Looks like the compiler I have understands a different syntax, without brackets or semicolons but I don't know</p>\n\n<pre><code>@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {\n    $src: null;\n\n    $extmods: (\n        eot: \"?\",\n        svg: \"#\" + str-replace($name, \" \", \"_\")\n    );\n\n    $formats: (\n        otf: \"opentype\",\n        ttf: \"truetype\"\n    );\n\n    @each $ext in $exts {\n        $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);\n        $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);\n        $src: append($src, url(quote($path + \".\" + $extmod)) format(quote($format)), comma);\n    }\n\n    @font-face {\n        font-family: quote($name);\n        font-style: $style;\n        font-weight: $weight;\n        src: $src;\n    }\n}\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44825773/sass-error-invalid-css-after-open-bracket-expected-closed-bracket",
+  "owner" : {
+    "user_id" : 1200555,
+    "user_type" : "registered",
+    "display_name" : "ali",
+    "profile_image" : "https://www.gravatar.com/avatar/4f304d6d2f8ec35a565ca50e537f8bf6?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1200555/ali",
+    "reputation" : 4372,
+    "accept_rate" : 88
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741002,
+  "last_activity_date" : 1498741002,
+  "tags" : [
+    "sass",
+    "mixins",
+    "brackets",
+    "semicolon"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

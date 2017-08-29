@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826043,
+  "title" : "Wordpress: How to prevent sub-categories from showing in custom taxonomies?",
+  "body" : "<p>I've created a custom taxonomy, a custom post type and a custom page.\nThe issue: Wordpress show all posts that are part of the category AND all its sub-categories. This is the code of custom page:</p>\n\n<pre><code>global $wp_query;\n$wp_query-&gt;set('post_type', $postType);\n$wp_query-&gt;set('orderby', $orderBy);\n$wp_query-&gt;set('order', 'ASC');\n$wp_query-&gt;set('posts_per_page', 12);\n$active_term = get_term_by('slug', $term, $taxonomy);\nif ($active_term-&gt;parent == 0)\n{\n\n\n    $terms = get_terms( array(\n        'taxonomy' =&gt; $taxonomy,\n        'hide_empty' =&gt; false,\n        'parent' =&gt; $active_term-&gt;term_id,\n        'orderby' =&gt; 'term_id',\n        'order' =&gt; 'ASC'\n    ) );\n    $slug_array = array();\n    if( count($terms) &gt; 0 )\n    {\n        foreach ($terms as $t){\n            $slug_array[] = $t-&gt;slug;\n        }\n        $the_slug = $terms[0]-&gt;slug;\n\n        $active_title = $terms[0]-&gt;name;\n    }\n    else\n    {\n        $the_slug = $active_term-&gt;slug;\n        $slug_array = array($the_slug);\n        $active_title = $active_term-&gt;name;\n    }\n    $tax_query = array(\n        array(\n            'taxonomy' =&gt; $taxonomy,\n            'field' =&gt; 'slug',\n            'terms' =&gt; $slug_array,\n            'include_children' =&gt; false\n        )\n    );\n\n}\nelse\n{\n\n    $tax_query = array(\n        array(\n            'taxonomy' =&gt; $taxonomy,\n            'field' =&gt; 'slug',\n            'terms' =&gt; array ( $active_term-&gt;slug ),\n            'include_children' =&gt; false\n        )\n    );\n    $the_slug = $active_term-&gt;slug;\n    $active_title = $active_term-&gt;name;\n}\n$wp_query-&gt;set('tax-query', $tax_query);\n$wp_query-&gt;get_posts();\n</code></pre>\n\n<p>As you see, the option 'include_children' => false is set and Wordpres keeps showing all children. I don't know what's wrong</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826043/wordpress-how-to-prevent-sub-categories-from-showing-in-custom-taxonomies",
+  "owner" : {
+    "user_id" : 8228559,
+    "user_type" : "registered",
+    "display_name" : "Walter Rhon",
+    "profile_image" : "https://www.gravatar.com/avatar/7c1ec80ebce15ac1670b5c4b9ac3701b?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8228559/walter-rhon",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : true,
+  "creation_date" : 1498741638,
+  "last_activity_date" : 1498743431,
+  "tags" : [
+    "php",
+    "wordpress",
+    "custom-post-type",
+    "children",
+    "custom-taxonomy"
+  ],
+  "score" : 0,
+  "view_count" : 9,
+  "answer_count" : 1
+}

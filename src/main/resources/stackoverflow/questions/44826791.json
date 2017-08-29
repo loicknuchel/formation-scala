@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826791,
+  "title" : "query fail getting data from multiple columns using WHERE clause in android",
+  "body" : "<p>I've tried the following code to return multiple column values with where clause in android </p>\n\n<pre><code>public Cursor getData(String text) {\n    SQLiteDatabase db = this.getWritableDatabase();\n    String[] columns = new String[]{\"Client\",\"Action\",\"Value\",\"Period\"};\n    Cursor cr = db.query(\"phrase_table\",columns,\"phrase = ?\",new String[]{text},null,null,null);\n    return cr;\n}\n</code></pre>\n\n<p>However, the cursor is returning only the \"Client\" column value. Here's the code for cursor to string:</p>\n\n<pre><code>Cursor c = vdb.getData(text);\n    ArrayList&lt;String&gt; line= new ArrayList&lt;&gt;();\n    if (c.moveToFirst()) {\n        do{\n            line.add(c.getString(0));\n        }while(c.moveToNext());\n    }\n    String resc=\"\";\n    for(String a:line){\n        resc += a;\n    }\n    Toast.makeText(this,resc,Toast.LENGTH_LONG).show();\n</code></pre>\n\n<p>tried this one too:</p>\n\n<pre><code>Cursor c = vdb.getData(text);\n    String line = \"\";\n    if (c.moveToFirst()) {\n        do{\n            line += c.getString(0);\n        }while(c.moveToNext());\n    }\n\n    Toast.makeText(this,resc,Toast.LENGTH_LONG).show();\n</code></pre>\n\n<p>But the result is the same.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826791/query-fail-getting-data-from-multiple-columns-using-where-clause-in-android",
+  "owner" : {
+    "user_id" : 3740665,
+    "user_type" : "registered",
+    "display_name" : "Dante",
+    "profile_image" : "https://i.stack.imgur.com/jCe3M.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/3740665/dante",
+    "reputation" : 14,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743601,
+  "last_activity_date" : 1498743601,
+  "tags" : [
+    "android",
+    "sqlite",
+    "cursor",
+    "sqliteopenhelper"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

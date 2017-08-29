@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826307,
+  "title" : "Matrices and arrays in Python using np.array",
+  "body" : "<p>Let's say I have this calculation to do:</p>\n\n<p><a href=\"https://i.stack.imgur.com/XYjF6.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/XYjF6.png\" alt=\"The law I am trying to apply to calculate xd and yd\"></a></p>\n\n<p>What is the best way to do it in Python? I come from a Matlab background and Matrices in Matlab are so easy to handle. I have tried with <strong>numpy</strong> but it gives me this error message:</p>\n\n<pre class=\"lang-none prettyprint-override\"><code>ValueError: setting an array element with a sequence. \n</code></pre>\n\n<p>Here is a snippet of my code:</p>\n\n<pre class=\"lang-py prettyprint-override\"><code>for i in Xh:\n    for u in Yh:    \n        E= (np.array([(C,D),(E,F)]) * np.array([(i),(u)]) ) + np.array([Cx,Cy])\n</code></pre>\n\n<p>Please note that <code>Xh</code> and <code>Yh</code> are lists already calculated, this is why I am using the for loops (I know I can make it faster with list comprehensions).</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826307/matrices-and-arrays-in-python-using-np-array",
+  "owner" : {
+    "user_id" : 7851433,
+    "user_type" : "registered",
+    "display_name" : "Mourad Over Flow ",
+    "profile_image" : "https://graph.facebook.com/10212663730738139/picture?type=large",
+    "link" : "https://stackoverflow.com/users/7851433/mourad-over-flow",
+    "reputation" : 15,
+    "accept_rate" : 29
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742398,
+  "last_activity_date" : 1498743637,
+  "tags" : [
+    "python",
+    "arrays",
+    "math",
+    "matrix",
+    "np"
+  ],
+  "score" : -2,
+  "view_count" : 30,
+  "answer_count" : 3
+}

@@ -1,0 +1,24 @@
+{
+  "question_id" : 44806045,
+  "title" : "Load more photos on click with Unsplash API",
+  "body" : "<p>I'm using Unsplash API to load images on the page. I want to add buttons to get next 10 pictures and display them. Like \"next page\" and \"previous page\" buttons.<br>\nI want to do it using only React.<br>\nSo far I managed to display 10 pictures, but I'm not sure how to implement changing of pages.<br>\nIt would be great if you can help me with that in any way.</p>\n\n<p>App.js component</p>\n\n<pre><code>let appId = '7e06e2749067eec6d3b19b594d6ab196a56a30419022fb8dc6598806860dd266'\n\nclass App extends Component {\n  constructor(props) {\n    super(props);\n    this.state = {\n      photos: [],\n      currentPage: 10\n    }\n  }\n\n  componentWillMount() {\n    this.getPhotos();\n  }\n\n  getPhotos(page) {\n    let options = {\n      params: {\n        client_id: appId,\n        page: page,\n        per_page: 10\n      }\n    }\n    axios.get('https://api.unsplash.com/photos?client_id=' + options.params.client_id)\n      .then((response) =&gt; {\n        this.setState({\n          photos: response.data\n        });\n        this.page = page;\n      })\n      .catch(function(error) {\n        console.log(error);\n      });\n\n  }\n\n  handleNextPage() {\n    var upCurrentPage = this.state.currentPage + 1;\n    this.setState({\n      currentPage: upCurrentPage\n    });\n    this.getPhotos(this.state.currentPage);\n  }\n\n  render() {\n\n    return ( &lt;div className = \"App\" &gt;\n\n      {\n        this.state.photos.map((photo, i) =&gt; {\n          let pic = photo.urls.small,\n            id = photo.id\n          return ( &lt;Gallery photo = {\n              pic\n            }\n            key = {\n              id\n            }\n            /&gt;\n          )\n        })\n\n\n      }\n\n      &lt;Controlls handleNextPage = {\n        this.handleNextPage.bind(this)\n      }\n      currentPage = {\n        this.state.currentPage\n      }\n      /&gt;\n\n      &lt;/div&gt;\n    );\n  }\n}\n</code></pre>\n\n<p>Here is Controll.js component</p>\n\n<pre><code>class Controlls extends Component {\n\n  render() {\n    return ( &lt;button onClick = {\n        this.nextPage.bind(this)\n      }&gt; Next Page &lt;/button&gt;\n    )\n  }\n\n  nextPage() {\n    return this.props.handleNextPage(this.props.currentPage);\n  }\n\n}\n</code></pre>\n\n<p>And Gallery.js </p>\n\n<pre><code>class Gallery extends Component {\n  constructor(props) {\n    super(props);\n  }\n  render() {\n    return ( &lt;div className = \"gallery\" &gt;\n        &lt;img src={this.props.photo}\n        /&gt;\n       &lt;/div&gt;\n    );\n  }\n}\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44806045/load-more-photos-on-click-with-unsplash-api",
+  "owner" : {
+    "user_id" : 5206428,
+    "user_type" : "registered",
+    "display_name" : "Allan",
+    "profile_image" : "https://www.gravatar.com/avatar/f05b2c2c315c21a81f73e4de57623c38?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/5206428/allan",
+    "reputation" : 74,
+    "accept_rate" : 62
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661745,
+  "last_activity_date" : 1498661745,
+  "tags" : [
+    "reactjs"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

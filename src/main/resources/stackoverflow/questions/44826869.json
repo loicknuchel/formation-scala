@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826869,
+  "title" : "Implementing a custom PromptDialog",
+  "body" : "<p>PromptDialog in C# has options for numbers, strings, etc, but I would like to add my own parsing of the response so I can get another type, what would be the best way of doing this? \nFor example, I want to implement PromptDialog.Address or PromptDialog.MyOwnComplextType. </p>\n\n<p>Thanks</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826869/implementing-a-custom-promptdialog",
+  "owner" : {
+    "user_id" : 7747277,
+    "user_type" : "registered",
+    "display_name" : "GaboG",
+    "profile_image" : "https://i.stack.imgur.com/yjbMK.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/7747277/gabog",
+    "reputation" : 30,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743777,
+  "last_activity_date" : 1498743777,
+  "tags" : [
+    "botframework"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

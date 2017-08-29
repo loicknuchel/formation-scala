@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826096,
+  "title" : "How to get a Kernel for an ARM device?",
+  "body" : "<p>I am currently working with an Odroid C1+ for which I want to generate an image.\nFor some reasons, I will need to emulate the image with QEMU.</p>\n\n<p>Now qemu-system-arm needs a kernel to emulate the image. Is there a way to find such a kernel file or a way to generate it manually?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826096/how-to-get-a-kernel-for-an-arm-device",
+  "owner" : {
+    "user_id" : 5143652,
+    "user_type" : "registered",
+    "display_name" : "ErebosM",
+    "profile_image" : "https://www.gravatar.com/avatar/36faf6826897032fcf9859357d05b6fb?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/5143652/erebosm",
+    "reputation" : 44,
+    "accept_rate" : 62
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741820,
+  "last_activity_date" : 1498741820,
+  "tags" : [
+    "linux",
+    "arm",
+    "kernel"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826266,
+  "title" : "Set values for selected dataframe cells using python",
+  "body" : "<p>I have two python pandas dataframes, df1 and df2, and ran into problem when I was trying to pass some values from df2 to df1. </p>\n\n<p>df1 is like</p>\n\n<pre><code>   Datetime            Events\n   2009-06-25          AAA;\n   2009-09-29          BBB;  \n   2009-10-20          CCC;\n</code></pre>\n\n<p>df2 is like     </p>\n\n<pre><code>   Datetime            History   \n   2009-07-25      \n   2009-09-30                \n   2009-10-21              \n</code></pre>\n\n<p>What I was trying to do is to append the events strings in df1['Events'] to df2['History'] whenever the df2.datetime is later than corresponding df1.datetime. E. g., I expect df2 to become </p>\n\n<pre><code>    Datetime                       History\n    2009-07-25                     AAA;\n    2009-09-30                     AAA; BBB;  \n    2009-10-21                     AAA; BBB; CCC;\n</code></pre>\n\n<p>I have tried the following comprehension:</p>\n\n<pre><code>[df2[df2['Datetime']&gt;time['Datetime']].loc['History']+=time['Events'] for idx, time in df1.iterrows()] \n</code></pre>\n\n<p>but got error msg 'invalid syntax' pointing to '+=' (the same error msg when even I replaced '+=' by '='.</p>\n\n<p>Can you help? Thx. </p>\n",
+  "link" : "https://stackoverflow.com/questions/44826266/set-values-for-selected-dataframe-cells-using-python",
+  "owner" : {
+    "user_id" : 8231763,
+    "user_type" : "registered",
+    "display_name" : "Shu Pan",
+    "profile_image" : "https://www.gravatar.com/avatar/96d7881542630eeb89bd3f2bad9ea5c5?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8231763/shu-pan",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : true,
+  "creation_date" : 1498742294,
+  "last_activity_date" : 1498742960,
+  "tags" : [
+    "python",
+    "pandas"
+  ],
+  "score" : 0,
+  "view_count" : 16,
+  "answer_count" : 1
+}

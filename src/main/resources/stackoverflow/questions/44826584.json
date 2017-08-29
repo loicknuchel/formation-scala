@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826584,
+  "title" : "How do I add quotes to list element which contain / in python",
+  "body" : "<p>I have the following list </p>\n\n<pre><code>a = [ documents/17361862_1455215234500329_3000435910753279754_n.jpg,  documents/17022254_1431360773552442_8479986202582740765_n_gqbi7GG.jpg]\n</code></pre>\n\n<p>and I want to achieve the following </p>\n\n<pre><code>[ \"documents/17361862_1455215234500329_3000435910753279754_n.jpg\",  \"documents/17022254_1431360773552442_8479986202582740765_n_gqbi7GG.jpg\"] \n</code></pre>\n\n<p>I tried this </p>\n\n<pre><code>x= ['{0}'.format(i) for i in a]\n\nprint x\n</code></pre>\n\n<p>but I get the following error</p>\n\n<pre><code> File \"list.py\", line 3\n\n    a = [ documents/17361862_1455215234500329_3000435910753279754_n.jpg,  documents/17022254_1431360773552442_8479986202582740765_n_gqbi7GG.jpg] \n                                                                  ^\nSyntaxError: invalid syntax\n</code></pre>\n\n<p>how can I add quotes so as to get </p>\n\n<pre><code>[ \"documents/17361862_1455215234500329_3000435910753279754_n.jpg\",  \"documents/17022254_1431360773552442_8479986202582740765_n_gqbi7GG.jpg\"] \n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826584/how-do-i-add-quotes-to-list-element-which-contain-in-python",
+  "owner" : {
+    "user_id" : 4026997,
+    "user_type" : "registered",
+    "display_name" : "felix",
+    "profile_image" : "https://www.gravatar.com/avatar/028936b6b1b1d277166caa2dc1c77efb?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4026997/felix",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743091,
+  "last_activity_date" : 1498743140,
+  "tags" : [
+    "python"
+  ],
+  "score" : -3,
+  "view_count" : 13,
+  "answer_count" : 0
+}

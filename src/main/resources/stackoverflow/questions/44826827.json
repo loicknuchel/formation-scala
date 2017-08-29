@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826827,
+  "title" : "Merge files from Data lake store",
+  "body" : "<p>I have a package that daily imports a file to Data lake store. So that is the same file with different values(same columns etc). My idea is to merge those files into a single file on Data lake, for a monthly report. I want to investigate U-SQL, so my question is:<br>\nIs that possible to do with U-SQL?<br>\nIf its not possible is there any other options to do that?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826827/merge-files-from-data-lake-store",
+  "owner" : {
+    "user_id" : 7593775,
+    "user_type" : "registered",
+    "display_name" : "DraganB",
+    "profile_image" : "https://www.gravatar.com/avatar/de37671544e6e06e678ba903742dd6e8?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7593775/draganb",
+    "reputation" : 65,
+    "accept_rate" : 33
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743682,
+  "last_activity_date" : 1498743682,
+  "tags" : [
+    "azure-data-lake",
+    "u-sql"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

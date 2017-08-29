@@ -1,0 +1,25 @@
+{
+  "question_id" : 44805958,
+  "title" : "Reading live stdout of pythons subprocess.Popen without buffer",
+  "body" : "<p>I want to execute a shell-script and read the output line-by-line without any big buffer.</p>\n\n\n\n<pre class=\"lang-py prettyprint-override\"><code>process = subprocess.Popen(\"foo.sh\", stdout=subprocess.PIPE, bufsize=1)\nfor line in process.stdout:\n    print(line)\n</code></pre>\n\n<p>foo.sh runs forever and generates output. If I run it in the shell, I get the output line-by-line, with my python script it buffers long line-blocks and I just get many lines every some seconds.</p>\n\n<p>I tried to use python with the -u argument, as suggested <a href=\"https://stackoverflow.com/questions/1410849/bypassing-buffering-of-subprocess-output-with-popen-in-c-or-python#answer-1411112\">here</a>, but it did not help.</p>\n\n<p>I also tried to iterate readline():</p>\n\n<pre class=\"lang-py prettyprint-override\"><code>process = subprocess.Popen(\"foo.sh\", stdout=subprocess.PIPE, bufsize=1)\nfor line in iter(process.stdout.readline, ''):\n    print(line)\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44805958/reading-live-stdout-of-pythons-subprocess-popen-without-buffer",
+  "owner" : {
+    "user_id" : 1692478,
+    "user_type" : "registered",
+    "display_name" : "Eknoes",
+    "profile_image" : "https://www.gravatar.com/avatar/6264ebe809328b34c7cd2f6adddcb43d?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1692478/eknoes",
+    "reputation" : 195,
+    "accept_rate" : 70
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661564,
+  "last_activity_date" : 1498661564,
+  "tags" : [
+    "python",
+    "subprocess"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826252,
+  "title" : "Doctrine ORM semantical query error: Class has no association",
+  "body" : "<p>Getting a somewhat abstract error, the repository and entity relationship mappings seem to be correct:</p>\n\n<pre><code>[Semantical Error] line 0, col 102 near 'v WHERE t.domainName': Error: \n    Class AppBundle\\Entity\\DocumentVersion has no association named document_versions\n</code></pre>\n\n<p>The <code>Document</code> entity:</p>\n\n<pre><code>/**\n * @var Collection|DocumentVersion[]\n *\n * @ORM\\OneToMany(targetEntity=DocumentVersion::class, mappedBy=\"document\")\n **/\nprivate $document_versions;\n</code></pre>\n\n<p>The <code>DocumentVersion</code> entity:</p>\n\n<pre><code>/**\n * @var Document\n *\n * @ORM\\ManyToOne(targetEntity=\\AppBundle\\Entity\\Document::class, inversedBy=\"document_versions\")\n * @JoinColumn(name=\"document_id\", referencedColumnName=\"id\")\n **/\nprivate $document;\n</code></pre>\n\n<p>Everything seems to be defined correctly. What is causing this error?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826252/doctrine-orm-semantical-query-error-class-has-no-association",
+  "owner" : {
+    "user_id" : 451969,
+    "user_type" : "registered",
+    "display_name" : "Jared Farrish",
+    "profile_image" : "https://i.stack.imgur.com/EuJtr.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/451969/jared-farrish",
+    "reputation" : 37145,
+    "accept_rate" : 83
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742255,
+  "last_activity_date" : 1498742255,
+  "tags" : [
+    "symfony",
+    "doctrine2",
+    "repository-pattern"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 1
+}

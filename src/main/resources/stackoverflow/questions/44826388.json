@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826388,
+  "title" : "simple tables -ERROR 1215: Cannot add foreign key constraint,",
+  "body" : "<p>I have these two simple table</p>\n\n<p>CREATE TABLE <code>location_main_master</code> (\n  <code>location_main_master_id</code> bigint(16) unsigned NOT NULL,\n  <code>city_id_test</code> int(10) unsigned NOT NULL,\n  PRIMARY KEY (<code>location_main_master_id</code>,<code>city_id_test</code>),\n  UNIQUE KEY <code>location_main_master_id_UNIQUE</code> (<code>location_main_master_id</code>)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8;</p>\n\n<p>CREATE TABLE <code>location_sub_master</code> (\n  <code>location_sub_master_id</code> bigint(16) unsigned NOT NULL,\n  <code>city_id</code> int(10) unsigned NOT NULL,\n  PRIMARY KEY (<code>location_sub_master_id</code>,<code>city_id</code>),\n  UNIQUE KEY <code>location_sub_master_id_UNIQUE</code> (<code>location_sub_master_id</code>),\n  KEY <code>fk_location_sub_master_city_id_idx</code> (<code>city_id</code>)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8;</p>\n\n<p>I m trying to add foreign eky</p>\n\n<p>ALTER TABLE <code>location_sub_master</code> \nADD CONSTRAINT <code>fk_location_sub_city_id</code>\n  FOREIGN KEY (<code>city_id</code>)\n  REFERENCES <code>location_main_master</code> (<code>city_id_test</code>)\n  ON DELETE NO ACTION\n  ON UPDATE NO ACTION;</p>\n\n<p>its give me this ERROR.</p>\n\n<p>ERROR 1215: Cannot add foreign key constraint</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826388/simple-tables-error-1215-cannot-add-foreign-key-constraint",
+  "owner" : {
+    "user_id" : 8231955,
+    "user_type" : "registered",
+    "display_name" : "Gaurav J",
+    "profile_image" : "https://www.gravatar.com/avatar/9ede0d58d13ed3fb1b30d854c50ae66d?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8231955/gaurav-j",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742626,
+  "last_activity_date" : 1498742626,
+  "tags" : [
+    "mysql",
+    "foreign-keys"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

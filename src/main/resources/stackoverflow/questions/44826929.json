@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826929,
+  "title" : "How to transpose Day of Month columns to rows in a table?",
+  "body" : "<p>I created a SQL table that looks like this, where there are columns for the Month, several account details, and one column for each Day of the Month.  The reason I created a separate column for every day of the month as opposed to one Day of the Month column containing all of the Day values is that I wanted there to be one row per transaction.  (I have another version of this dataset with one Day of the Month column, but I could not get this to display as separate rows in my Power BI table without duplicating transactions).</p>\n\n<p>Also, the Month and Day columns are not DateTime datatypes, so I can't use Power BI's calendar or time functions. </p>\n\n<p>Now I want to transpose this entire SQL table in Power BI so that all columns become rows in the Table Visual.  The end result is there should be 29 rows in total, one row for each day of the month.  And I want the other columns to be filters for this visual.  This means there should just be one column in this Table visual containing the total sales amount for that day, but filtered on whichever slicer values chosen.  This Table visual represents my details table.  After I get this details table working, the next step is to figure out how to drill-down from the DOS_YrMonth level to this days level, and filtering on whichever slicer values they choose.  (If you have any ideas for this also that would be helpful).</p>\n\n<p>I tried using Power BI's Transpose Transform within the Query Editor, but after waiting 30 minutes with no results, I gave up on that effort.  There are over 300,000 transactions in this SQL table, so I'm not a fan of using Power BI's Transform functions.  Every time I have used the Query Editor it seems extremely slow.  The solution I most like the sound of so far is using DAX to create a new table based on my table.   Case in point was this thread the solution posted by Phil:\n<a href=\"https://community.powerbi.com/t5/Desktop/Rows-not-columns/m-p/135253/highlight/true#M57924\" rel=\"nofollow noreferrer\">enter link description here</a></p>\n\n<p>This sample table below is a simplified version.  There are many more account details (additional columns) in the real SQL table not included here. </p>\n\n<pre><code>    create table #MonthDayExample\n(\n    DOS_YrMonth int\n    ,account_detail1 varchar(5)\n    ,account_detail2 varchar(5)\n    ,[01] decimal(13,2)\n    ,[02] decimal(13,2)\n    ,[03] decimal(13,2)\n    ,[04] decimal(13,2)\n    ,[05] decimal(13,2)\n    ,[06] decimal(13,2)\n    ,[07] decimal(13,2)\n    ,[08] decimal(13,2)\n    ,[09] decimal(13,2)\n    ,[10] decimal(13,2)\n    ,[11] decimal(13,2)\n    ,[12] decimal(13,2)\n    ,[13] decimal(13,2)\n    ,[14] decimal(13,2)\n    ,[15] decimal(13,2)\n    ,[16] decimal(13,2)\n    ,[17] decimal(13,2)\n    ,[18] decimal(13,2)\n    ,[19] decimal(13,2)\n    ,[20] decimal(13,2)\n    ,[21] decimal(13,2)\n    ,[22] decimal(13,2)\n    ,[23] decimal(13,2)\n    ,[24] decimal(13,2)\n    ,[25] decimal(13,2)\n    ,[26] decimal(13,2)\n    ,[27] decimal(13,2)\n    ,[28] decimal(13,2)\n    ,[29] decimal(13,2)\n)\ninsert #MonthDayExample values(201705,'A','B',100,0,0,300,500,0,0,0,0,0,0,20,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)\ninsert #MonthDayExample values(201705,'A','C',0,0,0,280,500,0,0,0,0,0,0,75,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)\ninsert #MonthDayExample values(201705,'A','D',70,0,0,66,65,0,0,0,0,0,0,20,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)\ninsert #MonthDayExample values(201705,'F','G',90,0,0,25,500,0,0,0,0,0,0,20,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)\ninsert #MonthDayExample values(201705,'F','H',13,0,0,25,500,0,0,0,0,0,0,20,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)\n\nselect * from #MonthDayExample\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826929/how-to-transpose-day-of-month-columns-to-rows-in-a-table",
+  "owner" : {
+    "user_id" : 123348,
+    "user_type" : "registered",
+    "display_name" : "salvationishere",
+    "profile_image" : "https://i.stack.imgur.com/SvLQv.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/123348/salvationishere",
+    "reputation" : 1483,
+    "accept_rate" : 61
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743888,
+  "last_activity_date" : 1498743888,
+  "tags" : [
+    "transform",
+    "powerbi",
+    "transpose",
+    "dax"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825735,
+  "title" : "Rail 5: Saving fields from loop in nested form",
+  "body" : "<p>I have an app where users can request participation on events. When admins create Events, they add Spaces that will be available to apply for (like \"tables\", \"racks\" etc and their price). </p>\n\n<p>When the user initialize the request wizard, a Request is automatically created, and a RequestSpace are automatically created for the request, one for each of the Event.spaces, with the default value of 0. The user can request the amount they want of each space type by increasing the number in the form. </p>\n\n<p>It's kind of like a shopping cart where user change quantity of a product in a number field, except that here the products (spaces) are predefined by Event.</p>\n\n<p>This means that the Request form gets a number field for each associated RequestSpace. I have this form rendering in the view, and it looks the way I want. The problem is that I don't know how to save each row in the update action in the requests controller.</p>\n\n<p>The relevant code from the models:</p>\n\n<pre><code>class Event &lt; ApplicationRecord  \n  has_many :requests, dependent: :destroy\n  has_many :spaces, dependent: :destroy\n...\n\nclass Space &lt; ApplicationRecord\n  belongs_to :event\n  has_many :request_spaces\n...\n\nclass Request &lt; ApplicationRecord\n  belongs_to :event\n  has_many :request_spaces\n  accepts_nested_attributes_for :request_spaces\n...\n\nclass RequestSpace &lt; ApplicationRecord\n  belongs_to :request\n  belongs_to :space\n...\n</code></pre>\n\n<p>The form:</p>\n\n<pre><code>&lt;%= form_for(@request, local: true) do |form| %&gt;\n  ...\n  &lt;% @request.request_spaces.each do |rs| %&gt;\n    &lt;%= form.fields_for :request_spaces, rs do |s| %&gt;\n      &lt;%= s.number_field :amount, min: \"0\", max: \"#{rs.space.max_amount}\" %&gt;\n    &lt;% end %&gt;\n  &lt;% end %&gt;\n  ...\n&lt;% end %&gt;\n</code></pre>\n\n<p>the strong parameters in requests_controller.rb:</p>\n\n<pre><code>params.require(:request).permit(&lt;other params omitted&gt;, reqeust_spaces_attributes:[:id, :amount])\n</code></pre>\n\n<p>When I save the changes in the form, the RequestSpaces :amount field is not updated. Any idea on how to solve this in the controller?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825735/rail-5-saving-fields-from-loop-in-nested-form",
+  "owner" : {
+    "user_id" : 2733187,
+    "user_type" : "registered",
+    "display_name" : "GreyEyes",
+    "profile_image" : "https://www.gravatar.com/avatar/f89939b6cf7421e3aa6713ff3a42b7b5?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/2733187/greyeyes",
+    "reputation" : 5,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498740900,
+  "last_activity_date" : 1498740900,
+  "tags" : [
+    "ruby-on-rails",
+    "nested-attributes"
+  ],
+  "score" : 0,
+  "view_count" : 8,
+  "answer_count" : 0
+}

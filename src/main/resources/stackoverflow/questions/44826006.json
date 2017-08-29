@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826006,
+  "title" : "change localhost sendmail sender",
+  "body" : "<p>I've been all this morning trying to set up sendmail on my dev machine, it's almost done but \nevery time I try to send an email from my localhost:</p>\n\n<pre><code>\"test nagios email\" | /usr/bin/mail -a \"From:ubuntu@nagios.website.net\" -s \"Test\" critcial@website.com\n</code></pre>\n\n<p>I get:</p>\n\n<pre><code>send-mail: RCPT TO:&lt;critcial@website.com&gt; (504 5.5.2 &lt;vivo@vivo-pc&gt;: Sender address rejected: need fully-qualified address)\nCan't send mail: sendmail process failed with error code 1\n</code></pre>\n\n<p>I've tried several things,\nlike</p>\n\n<ul>\n<li>changing my user <code>/etc/hosts</code> and <code>/etc/hostname</code> to a <code>valid_sender.com</code> </li>\n<li>changing <code>/etc/mailname</code></li>\n<li>changing the MASQUERADE_AS in <code>/etc/mail/sendmail.mc</code> to <code>valid_sender.com</code></li>\n<li>etc...</li>\n</ul>\n\n<p>But nothing, I'm unable to achieve it :/</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826006/change-localhost-sendmail-sender",
+  "owner" : {
+    "user_id" : 2192660,
+    "user_type" : "registered",
+    "display_name" : "vivoconunxino",
+    "profile_image" : "https://www.gravatar.com/avatar/22664809cd73cacc984211332741bf8b?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/2192660/vivoconunxino",
+    "reputation" : 2058,
+    "accept_rate" : 90
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741540,
+  "last_activity_date" : 1498741540,
+  "tags" : [
+    "linux",
+    "email",
+    "sendmail"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

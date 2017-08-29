@@ -1,0 +1,26 @@
+{
+  "question_id" : 44806081,
+  "title" : "SMTP throws an exception in VS2017",
+  "body" : "<p>I've got an interesting problem with SMTP protocol in VisualStudio 2017.</p>\n\n<p>Here is the snippet. </p>\n\n<pre><code>            var client = new SmtpClient()\n            {\n                Host = \"myHost.com\",\n                Port = 25,\n                DeliveryMethod = SmtpDeliveryMethod.Network,\n                UseDefaultCredentials = false,\n                EnableSsl = false,\n                Credentials = new NetworkCredential(\"login\", \"password\")\n           }\n</code></pre>\n\n<p>client.Send(mail) throws an exception that server requires a secure connection or user was not authenticated. When I switch EnableSsl = true, I get an exception that the server does not support secured connections. </p>\n\n<p>The point is that it works with exactly the same set of settings in our previous project in VS2013. And everything is fine in Outlook. </p>\n\n<p>Maybe some additional settings on IIS are required? </p>\n\n<p>Does anyone know what can possibly cause that problem? </p>\n",
+  "link" : "https://stackoverflow.com/questions/44806081/smtp-throws-an-exception-in-vs2017",
+  "owner" : {
+    "user_id" : 7856968,
+    "user_type" : "registered",
+    "display_name" : "OlKol",
+    "profile_image" : "https://www.gravatar.com/avatar/08e320ba726628a42a105994fa1b4c51?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7856968/olkol",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661841,
+  "last_activity_date" : 1498661841,
+  "tags" : [
+    "email",
+    "smtp",
+    "vs2017"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

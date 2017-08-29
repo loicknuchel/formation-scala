@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826735,
+  "title" : "Can I get a function table inlined?",
+  "body" : "<p>Consider the following example:</p>\n\n<pre><code>#include &lt;iostream&gt;\n#include &lt;type_traits&gt;\n\ninline void f()\n{\n    std :: cout &lt;&lt; \"Welcome to f!\" &lt;&lt; std :: endl;\n}\n\ninline void g()\n{\n    std :: cout &lt;&lt; \"Welcome to g!\" &lt;&lt; std :: endl;\n}\n\ninline void h()\n{\n    std :: cout &lt;&lt; \"Welcome to h!\" &lt;&lt; std :: endl;\n}\n\ntypedef void (*function)();\nconst function table[] = {f, g, h};\n\nint main()\n{\n    int idx;\n    std :: cin &gt;&gt; idx;\n    table[idx]();\n}\n</code></pre>\n\n<p>Here I have three functions, <code>f</code>, <code>g</code> and <code>h</code>. I put their pointers into a <code>const</code> array. Then, at runtime, I ask my user to provide a number and the corresponding function in the table is called.</p>\n\n<p>I guess this is not going to get inlined, am I correct? I tried to inspect the assembly code but I really suck at reading assembly.</p>\n\n<p>So I wonder, do I have better options to get the call to either <code>f</code>, <code>g</code> and <code>h</code> inlined? I mean, if I were to just make a switch this would work flawlessly.</p>\n\n<p>Note: this is just an example, in a real-world scenario I will have a set of functions, known at compile time but determined by a kinda lengthy procedure. So I am not able to just, e.g., write the code in a switch statement.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826735/can-i-get-a-function-table-inlined",
+  "owner" : {
+    "user_id" : 774236,
+    "user_type" : "registered",
+    "display_name" : "Matteo Monti",
+    "profile_image" : "https://www.gravatar.com/avatar/7e46879a230ff1e28cd975e3b0a0873b?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/774236/matteo-monti",
+    "reputation" : 2110,
+    "accept_rate" : 51
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743460,
+  "last_activity_date" : 1498743460,
+  "tags" : [
+    "c++",
+    "function-pointers",
+    "inline"
+  ],
+  "score" : 0,
+  "view_count" : 28,
+  "answer_count" : 0
+}

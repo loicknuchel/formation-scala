@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826445,
+  "title" : "Most efficient way of executing/validating values in javascript by getting mysql values using AJAX OR Cookies",
+  "body" : "<p>I want to select the entire table from mysql and validate those values using javascript. I know I can do this using AJAX which will send a HTTP request to the server but I feel sending too many HTTP request to the server can be quite bad as the page will load much slower, or I could store the value as the page load in the client cookie. I think it will be much faster but might be too much data stored in the cookie specially if the mysql table is too big.</p>\n\n<p>What do you guys think should be the best approach for this? Is it a good thing to store mysql data in a client cookies</p>\n\n<p>UPDATE</p>\n\n<p>Say I have 100 Items in mysql, these 100 items I needed them displayed in a page dynamically, as the next time the page is loaded there might be 101. That means I need to validate how many items are there and allocate them to the page, and im not sure how to do that and where either client side or server side.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826445/most-efficient-way-of-executing-validating-values-in-javascript-by-getting-mysql",
+  "owner" : {
+    "user_id" : 8231918,
+    "user_type" : "registered",
+    "display_name" : "Luke DS",
+    "profile_image" : "https://www.gravatar.com/avatar/954c3ca0af279666c30d35ebd7622de6?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8231918/luke-ds",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742772,
+  "last_activity_date" : 1498743346,
+  "tags" : [
+    "javascript",
+    "php",
+    "mysql",
+    "ajax"
+  ],
+  "score" : 0,
+  "view_count" : 12,
+  "answer_count" : 0
+}

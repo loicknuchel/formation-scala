@@ -1,0 +1,27 @@
+{
+  "question_id" : 44825970,
+  "title" : "Initialize Webdriver at Runtime",
+  "body" : "<p>I was working with Selenium WebDriver and it is possible to initialize 1 webdriver at a time. However I want that the webdriver to be initialized during runtime i.e. it sets the driver properties based on the user choice. I know it can be done using nested if-else statement or using switch-case. However I am looking for a better solution for this. Is there some other method for this scenario ?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825970/initialize-webdriver-at-runtime",
+  "owner" : {
+    "user_id" : 2849748,
+    "user_type" : "registered",
+    "display_name" : "Kamal Kumar Vishwakarma",
+    "profile_image" : "https://i.stack.imgur.com/reTPv.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/2849748/kamal-kumar-vishwakarma",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741469,
+  "last_activity_date" : 1498742158,
+  "tags" : [
+    "java",
+    "selenium-webdriver",
+    "automation",
+    "webdriver"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826275,
+  "title" : "Keep data from the Firebase Realtime Database always in sync",
+  "body" : "<p>I'm currently re-working an app of mine which updates it's internal SQLite database by fetching raw data from an website, not an official API.</p>\n\n<p>As this is quite error-prone I'd like to move the data processing out of the client into an backend server.\nThe idea is to have a script running on the server multiple times a day - similar to the client behaviour before - and storing the data in a Firebase Realtime Database. Then, all clients no longer have to process the data themselves but rather request parsed data from the Firebase DB.</p>\n\n<p>I'm just wondering what's the best approach to keep the data synced.\nI came up with two ideas, but as I'm not too familiar with Firebase I don't know what's preferable.</p>\n\n<p>For one I could imagine keeping the data on the client in sync by using <code>keepSynced()</code> and <code>setPersistenceEnabled()</code> on some nodes.\nBut I'm unsure whether this will keep data up to date when the app is in background. As well I'm worried about the battery and network usage of this approach. \nA third point is the amount of simultaneous connections, I quess with this approach every client will be connected all the time, right?</p>\n\n<p>The second approach would be to use FCM to notify the client whenever there is a change in one of his interested nodes, e.g. using Firebase Cloud Functions to listen for event and trigger the message.\nThen the client would <code>goOnline()</code> to sync with the database and <code>goOffline()</code> again. This would avoid the huge amount of connections as well as reduce battery and network usage.\nBut I'm unsure on how to keep all the data on the device while offline?\nI don't want to use a SQLite database to keep data on the device.\nIs <code>setPersistenceEnabled()</code> sufficient to keep a particular amount of database notes on the device?</p>\n\n<p>Or is a mix of both the way to go? Setting <code>keepSynced()</code> and <code>setPersistenceEnabled()</code> on the needed nodes and <code>goOnline()</code>/<code>goOffline()</code> depending on cloud messages?</p>\n\n<p>Any help or advices based on own expiriences welcome!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826275/keep-data-from-the-firebase-realtime-database-always-in-sync",
+  "owner" : {
+    "user_id" : 3160089,
+    "user_type" : "registered",
+    "display_name" : "Endzeit",
+    "profile_image" : "https://i.stack.imgur.com/PopLj.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/3160089/endzeit",
+    "reputation" : 1062,
+    "accept_rate" : 90
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742319,
+  "last_activity_date" : 1498743430,
+  "tags" : [
+    "android",
+    "firebase",
+    "firebase-database",
+    "firebase-cloud-messaging"
+  ],
+  "score" : 0,
+  "view_count" : 10,
+  "answer_count" : 1
+}

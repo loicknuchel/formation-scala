@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825677,
+  "title" : "Core Data optimistic locking issues",
+  "body" : "<p>Is it not possible to write to two different entities at the same time? I am getting random optimistic locking issues depending on Internet speed and in cases where two async downloads finishes at the same time and tries to write to core data it fails and stops the app with optimistic locking failure.</p>\n\n<p>I thought the locking was done per entity but it seems the lock is for the entire store?</p>\n\n<p>this is how I am setting up my MOC in both async call completion handlers</p>\n\n<pre><code>[container performBackgroundTask:^(NSManagedObjectContext *context ) {\ncontext.mergePolicy = NSMergeByPropertyStoreTrumpMergePolicy;\n</code></pre>\n\n<p>Do I have to change and call my second call from the completion handler of the first call to avoid this issue or problem is elsewhere you think?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825677/core-data-optimistic-locking-issues",
+  "owner" : {
+    "user_id" : 7194276,
+    "user_type" : "registered",
+    "display_name" : "Matt Douhan",
+    "profile_image" : "https://www.gravatar.com/avatar/96d289cc7655ed754225d67dc487d1f0?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7194276/matt-douhan",
+    "reputation" : 354,
+    "accept_rate" : 69
+  },
+  "is_answered" : false,
+  "creation_date" : 1498740732,
+  "last_activity_date" : 1498740732,
+  "tags" : [
+    "objective-c",
+    "core-data"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

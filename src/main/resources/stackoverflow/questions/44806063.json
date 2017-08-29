@@ -1,0 +1,25 @@
+{
+  "question_id" : 44806063,
+  "title" : "AbstractControl.setErrors does not stick in angular 2",
+  "body" : "<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>@ViewChild('adjustmentTemplateForm')\r\nprivate adjustmentTemplateForm: NgForm;\r\n\r\nonInputChanged(): void {\r\n  let formField: AbstractControl = this.adjustmentTemplateForm.form.controls[parameterValueField];\r\n\r\n  if (1 == 1) {\r\n    formField.setErrors({\r\n      \"notUnique\": true\r\n    });\r\n    parameterValueObject.isParameterValueValid = false;\r\n  } else {\r\n    this.form.setErrors(null);\r\n    parameterValueObject.isParameterValueValid = true;\r\n  }\r\n}</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;form #adjustmentTemplateForm=\"ngForm\" novalidate&gt;\r\n  &lt;fieldset&gt;\r\n    &lt;input type=\"text\" [(ngModel)]=\"myVal\" (ngModelChange)=\"onInputChanged()\" /&gt;\r\n  &lt;/fieldset&gt;\r\n&lt;/form&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n\n<p>So on the sample above, after the line \"parameterValueObject.isParameterValueValid = false;\" has executed, \"this.adjustmentTemplateForm.valid\" will return false as long as I am still in the onInputChanged() method.  If I come back to this method again or pass the form object, \"this.adjustmentTemplateForm.valid\" will return true. I need to be able to manually set this form to be valid and invalid depending on the validation done on the onInputChanged().</p>\n\n<p>Thanks.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806063/abstractcontrol-seterrors-does-not-stick-in-angular-2",
+  "owner" : {
+    "user_id" : 5251710,
+    "user_type" : "registered",
+    "display_name" : "GShrest",
+    "profile_image" : "https://www.gravatar.com/avatar/fd57e049e6bd1347b8292451e2b822d1?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/5251710/gshrest",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661795,
+  "last_activity_date" : 1498661795,
+  "tags" : [
+    "angular",
+    "angular2-forms"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

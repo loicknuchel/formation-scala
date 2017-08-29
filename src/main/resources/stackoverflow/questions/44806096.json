@@ -1,0 +1,25 @@
+{
+  "question_id" : 44806096,
+  "title" : "Mongo distinct query with max",
+  "body" : "<p>I have a requirement where i should query on two fields out of which one is unique field and one is maximum field.\n Here is my sample collection </p>\n\n<pre><code> {\n    \"_id\": ObjectId('59537b7fe08062b9ee8dfdf6'),\n    \"admin\": {\n        \"model\": \"abc\",\n        \"version\": \"00\",\n        \"name\":\"john\",\n        \"age\":\"30\"\n    }\n}\n{\n    \"_id\": ObjectId('59537b7fe08062b9ee8dfdf7'),\n    \"admin\": {\n        \"model\": \"abc\",\n        \"version\": \"01\" ,\n        \"name\":\"john\",\n        \"age\":\"30\"\n    }\n}\n{\n    \"_id\": ObjectId('59537b7fe08062b9ee8dfdf8'),\n    \"admin\": {\n        \"model\": \"def\",\n        \"version\": \"00\" ,\n        \"name\":\"cena\",\n        \"age\":\"30\"\n    }\n}\n</code></pre>\n\n<p>I have two same models with different versions.I want to query for model with maximum version. I tried by simply sorting the version it does not work for me. \nI am expecting output like this </p>\n\n<pre><code>{\n    \"_id\": ObjectId('59537b7fe08062b9ee8dfdf7'),\n    \"admin\": {\n        \"model\": \"abc\",\n        \"version\": \"01\" ,\n        \"name\":\"john\",\n        \"age\":\"30\"\n    }\n}\n{\n    \"_id\": ObjectId('59537b7fe08062b9ee8dfdf8'),\n    \"admin\": {\n        \"model\": \"def\",\n        \"version\": \"00\" ,\n        \"name\":\"cena\",\n        \"age\":\"30\"\n    }\n} \n</code></pre>\n\n<p>Any suggestions will be really helpful.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806096/mongo-distinct-query-with-max",
+  "owner" : {
+    "user_id" : 3671650,
+    "user_type" : "registered",
+    "display_name" : "Shaik Mujahid Ali",
+    "profile_image" : "https://i.stack.imgur.com/Y9Gaw.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/3671650/shaik-mujahid-ali",
+    "reputation" : 712,
+    "accept_rate" : 70
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661884,
+  "last_activity_date" : 1498661884,
+  "tags" : [
+    "mongodb",
+    "mongodb-query"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

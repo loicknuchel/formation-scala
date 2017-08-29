@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825699,
+  "title" : "Automating handle -c batch",
+  "body" : "<p>The main problem is I need to kill a process handles in order to delete a folder.\nI created a script which I'm executing remotely using psexec. I'm using the handle tool (<a href=\"https://technet.microsoft.com/en-us/sysinternals/handle.aspx\" rel=\"nofollow noreferrer\">https://technet.microsoft.com/en-us/sysinternals/handle.aspx</a>) but in order to work first I have to run </p>\n\n<pre><code>psexec /c handle -p nameofprocess.exe \n</code></pre>\n\n<p>and it gives me output like for example:</p>\n\n<blockquote>\n  <p>service.exe pid: 2120 NT AUTHORITY\\SYSTEM</p>\n  \n  <p>C: File  (RW-)   C:\\Windows</p>\n  \n  <p>14: File  (RW-)   C:.....</p>\n  \n  <p>4D4: File  (RW-)   C:.....</p>\n</blockquote>\n\n<p>etc etc etc..\nafter that I have to use another command to actually kill the handles like :</p>\n\n<pre><code>handle -c 4D4 -p 2120.\n</code></pre>\n\n<p>My idea was to extract from the txt output file only hex codes of the handles (c, 14, 28, 4d4 and the rest of them) without \":\" and assign them as variables.</p>\n\n<p>But how can I do that? Also is there a simple way of doing that?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825699/automating-handle-c-batch",
+  "owner" : {
+    "user_id" : 8231722,
+    "user_type" : "registered",
+    "display_name" : "Радослав Паунов",
+    "profile_image" : "https://lh6.googleusercontent.com/-iMZ8SQgIsBU/AAAAAAAAAAI/AAAAAAAAATE/CHX2_e039-Q/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/8231722/%d0%a0%d0%b0%d0%b4%d0%be%d1%81%d0%bb%d0%b0%d0%b2-%d0%9f%d0%b0%d1%83%d0%bd%d0%be%d0%b2",
+    "reputation" : 6,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498740778,
+  "last_activity_date" : 1498740830,
+  "tags" : [
+    "batch-file",
+    "batch-processing",
+    "handle"
+  ],
+  "score" : 1,
+  "view_count" : 10,
+  "answer_count" : 0
+}

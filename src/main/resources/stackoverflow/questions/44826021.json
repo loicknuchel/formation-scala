@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826021,
+  "title" : "&#39;{http://schemas.microsoft.com/appx/manifest/desktop/windows10}Extension&#39; is unexpect",
+  "body" : "<p>I want to run Win32 process from my UWP Desktop application.</p>\n\n<p>When I add this to Package.appxmanfest:</p>\n\n<pre><code>&lt;desktop:Extension Category=\"windows.fullTrustProcess\" Executable=\"AudioConversion/AudioConversion.exe\"&gt;\n  &lt;desktop:FullTrustProcess&gt;\n    &lt;desktop:ParameterGroup GroupId=\"SyncGroup\" Parameters=\"/Sync\"/&gt;\n    &lt;desktop:ParameterGroup GroupId=\"OtherGroup\" Parameters=\"/Other\"/&gt;\n  &lt;/desktop:FullTrustProcess&gt;\n&lt;/desktop:Extension&gt;\n</code></pre>\n\n<p>I get following error:</p>\n\n<blockquote>\n  <p>Validation error. error C00CE014: App manifest validation error: The\n  app manifest must be valid as per schema: Line 52, Column 6, Reason:\n  Element\n  '{<a href=\"http://schemas.microsoft.com/appx/manifest/desktop/windows10\" rel=\"nofollow noreferrer\">http://schemas.microsoft.com/appx/manifest/desktop/windows10</a>}Extension'\n  is unexpect</p>\n</blockquote>\n",
+  "link" : "https://stackoverflow.com/questions/44826021/http-schemas-microsoft-com-appx-manifest-desktop-windows10extension-is-une",
+  "owner" : {
+    "user_id" : 475727,
+    "user_type" : "registered",
+    "display_name" : "Liero",
+    "profile_image" : "https://www.gravatar.com/avatar/014426d2ac16e019b76c9a9048df1e5d?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/475727/liero",
+    "reputation" : 6541,
+    "accept_rate" : 49
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741575,
+  "last_activity_date" : 1498741575,
+  "tags" : [
+    "uwp",
+    "desktop-bridge",
+    "vs2017"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

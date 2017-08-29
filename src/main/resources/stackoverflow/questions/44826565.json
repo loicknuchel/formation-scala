@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826565,
+  "title" : "Count of occurrences crossing a given time range",
+  "body" : "<p>Sorry about the title of this question, I couldn't think of a better way of phrasing it.</p>\n\n<p>I have a column with time ranges in it, i.e.</p>\n\n<p>08:45-17:00</p>\n\n<p>06:00-10:30</p>\n\n<p>09:10-14:30</p>\n\n<p>08:15-16:50</p>\n\n<p>10:15-17:15</p>\n\n<p>15:30-20:10</p>\n\n<p>09:30-13:10</p>\n\n<p>etc.</p>\n\n<p>What I need is a count of those occurrences that cross a comparison time range. For example with a comparison range of 11:00-15:00, the count should include any in the column that:-</p>\n\n<p>(1). has a start time OR end time between 11:00 and 15:00</p>\n\n<p>OR</p>\n\n<p>(2). starts BEFORE 11:00 AND ends AFTER 15:00.</p>\n\n<p>In the examples above the count would be 5.</p>\n\n<p>This formula gives the correct result (0 or 1) for individual entries:</p>\n\n<pre><code>=sum(if(or(and(mid(I14,7,5)&gt;\"15:00\",mid(I14,1,5)&lt;\"11:00\"),and(mid(I14,1,5)&gt;\"11:00\",mid(I14,1,5)&lt;\"15:00\"),and(mid(I14,7,5)&gt;\"11:00\",mid(I14,7,5)&lt;\"15:00\")),1,0))\n</code></pre>\n\n<p>There is probably a more elegant way of writing that! </p>\n\n<p>Wrapping an arrayformula around that code doesn't work.</p>\n\n<p>Any help much appreciated. Thanks in advance.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826565/count-of-occurrences-crossing-a-given-time-range",
+  "owner" : {
+    "user_id" : 6926568,
+    "user_type" : "registered",
+    "display_name" : "AdeP",
+    "profile_image" : "https://www.gravatar.com/avatar/d4ab3a65bd868cf27f2fd121ee3f8e50?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/6926568/adep",
+    "reputation" : 18,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743023,
+  "last_activity_date" : 1498743023,
+  "tags" : [
+    "google-spreadsheet"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "question_id" : 44806128,
+  "title" : "Add data from one DataGridView to another DataGridView from selected row",
+  "body" : "<p>I want when I press RentButton, to copy data from 2 columns, Title and Authors, in dgRentBook columns (Title and Authors, same name) from dgBooks, from selected row, like in below picture. Please be kind with me :)\n<a href=\"https://i.stack.imgur.com/5O9oE.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/5O9oE.png\" alt=\"enter image description here\"></a></p>\n\n<p>Here's what I've tried to do ( is not only the single way ), but with no results, only this error :</p>\n\n<blockquote>\n  <p>Error: Rows cannot be programmatically added to the DataGridView's\n  rows collection when the control is data-bound.</p>\n</blockquote>\n\n<pre><code>    private void btnRentBook_Click(object sender, EventArgs e)\n    {\n        frmRentBook rentBook = new frmRentBook();\n        rentBook.Show();\n\n\n        Rental newRental = new Rental();\n\n        newRental.RentedDate = DateTime.Today;\n        newRental.DateToReturn = DateTime.Today.AddDays(30);\n        newRental.User = loggedUser.DisplayName;\n\n        foreach (DataGridViewRow item in dgBooks.Rows)\n            {           \n                    int n = rentBook.dgRentBook.Rows.Add();\n                    rentBook.dgRentBook.Rows[n].Cells[1].Value = item.Cells[0].Value.ToString();\n                    rentBook.dgRentBook.Rows[n].Cells[2].Value = item.Cells[1].Value.ToString();                \n            }\n\n        // newRental.Name = Convert.ToString(dgBooks.Rows.Add(cBookTitle));\n        //   newRental.Author = Convert.ToString(dgBooks.Rows.Add(cAuthor));\n\n        rentBook.dgRentBook.Refresh();\n        Program._dc.Rentals.InsertOnSubmit(newRental);\n        Program._dc.SubmitChanges();\n\n        rentBook._listOfRentals = Program._dc.Rentals.ToList();\n        rentBook._bsRental.DataSource = rentBook._listOfRentals;\n        rentBook.dgRentBook.DataSource = rentBook._bsRental;\n        rentBook.dgRentBook.Refresh();\n        rentBook._bsRental.ResetBindings(false);\n    }\n</code></pre>\n\n<p>Regards!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806128/add-data-from-one-datagridview-to-another-datagridview-from-selected-row",
+  "owner" : {
+    "user_id" : 6335004,
+    "user_type" : "registered",
+    "display_name" : "Raul ",
+    "profile_image" : "https://graph.facebook.com/1169686026398316/picture?type=large",
+    "link" : "https://stackoverflow.com/users/6335004/raul",
+    "reputation" : 11,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661945,
+  "last_activity_date" : 1498661945,
+  "tags" : [
+    "c#",
+    "database",
+    "winforms",
+    "datagridview"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

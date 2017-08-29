@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826080,
+  "title" : "Forward a domain name bought from dyn.com to new google sites",
+  "body" : "<p>I bought a domain name (say xyz.com) from dyn.com. (And DNS-Service). I want to link this domain name with a google site I just created. I read that it wouldn't be possible to do this with the <strong>new google sites</strong>. Is that correct?</p>\n\n<p>If it's not possible is there any way to forward my domain name to the google site? So that people can enter my domain xyz.com in their browser and get to my google site?</p>\n\n<p>Thanks for help!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826080/forward-a-domain-name-bought-from-dyn-com-to-new-google-sites",
+  "owner" : {
+    "user_id" : 4627318,
+    "user_type" : "registered",
+    "display_name" : "Sebastian Hoelzl",
+    "profile_image" : "https://i.stack.imgur.com/wv2bn.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/4627318/sebastian-hoelzl",
+    "reputation" : 74,
+    "accept_rate" : 62
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741777,
+  "last_activity_date" : 1498741777,
+  "tags" : [
+    "dns",
+    "google-sites",
+    "forwarding"
+  ],
+  "score" : 1,
+  "view_count" : 5,
+  "answer_count" : 0
+}

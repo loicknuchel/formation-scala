@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826245,
+  "title" : "Jquery ajax call and mvc controller",
+  "body" : "<p>I am performing an ajax call using jquery to my mvc controller.</p>\n\n<p>My requirement is, if some conditions fail, I want to execute error event of ajax call. </p>\n\n<p>How can I achieve it?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826245/jquery-ajax-call-and-mvc-controller",
+  "owner" : {
+    "user_id" : 6595633,
+    "user_type" : "registered",
+    "display_name" : "Murali Krishna",
+    "profile_image" : "https://graph.facebook.com/1050005931743574/picture?type=large",
+    "link" : "https://stackoverflow.com/users/6595633/murali-krishna",
+    "reputation" : 6,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742238,
+  "last_activity_date" : 1498742557,
+  "tags" : [
+    "jquery",
+    "asp.net-core-mvc"
+  ],
+  "score" : -1,
+  "view_count" : 18,
+  "answer_count" : 4
+}

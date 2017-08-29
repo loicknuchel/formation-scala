@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826863,
+  "title" : "How is facial recognition built into Core ML vision framework",
+  "body" : "<p>How exactly is the facial recognition done in this framework done? The docs state that it is part of the framework </p>\n\n<blockquote>\n  <p>Face Detection and Recognition</p>\n</blockquote>\n\n<p>However, it is not clear which classes/methods allow us to do so. The closest thing I've found is <code>VNFaceObservation</code> which is lacking significant details.</p>\n\n<p>Is it more of a manual process and we must include our own learned models someway? -- if so, how?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826863/how-is-facial-recognition-built-into-core-ml-vision-framework",
+  "owner" : {
+    "user_id" : 2961387,
+    "user_type" : "registered",
+    "display_name" : "rambossa",
+    "profile_image" : "https://www.gravatar.com/avatar/670074c1dbd041dd7ed0b00577f3e62f?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/2961387/rambossa",
+    "reputation" : 1863,
+    "accept_rate" : 82
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743762,
+  "last_activity_date" : 1498743762,
+  "tags" : [
+    "ios",
+    "ios11",
+    "coreml"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

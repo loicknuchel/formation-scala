@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826704,
+  "title" : "temporarily unavailable Error, Too heavy SQL insertion?",
+  "body" : "<p>I got a \"The page you are looking for is temporarily unavailable.\nPlease try again later.\" every time in the middle of a function.</p>\n\n<p>I thing it's because my function is too heavy ?</p>\n\n<p>In this function I do a request on a API that return me an array with more than 1000 values.\nFor each of theses values I need to redo a request on this API to get complet informations.\nAnd finally I insert in my data base all informations I get.</p>\n\n<pre><code>     foreach ($userNumber as $value) {\n\n         $userInfo = $service-&gt;get($value);\n\n       updateUsers($value, $userInfo, $accountNb);\n\n     }\n</code></pre>\n\n<p>$service->get($value) return informations linked to the $value.</p>\n\n<p>The updateUsers() function check if the user is already in the database. If yes, it update the user, if not, it insert the user into the table.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826704/temporarily-unavailable-error-too-heavy-sql-insertion",
+  "owner" : {
+    "user_id" : 7350942,
+    "user_type" : "registered",
+    "display_name" : "Jilu",
+    "profile_image" : "https://i.stack.imgur.com/WPt9R.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/7350942/jilu",
+    "reputation" : 21,
+    "accept_rate" : 60
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743375,
+  "last_activity_date" : 1498743813,
+  "tags" : [
+    "php",
+    "mysql",
+    "sql"
+  ],
+  "score" : 0,
+  "view_count" : 32,
+  "answer_count" : 0
+}

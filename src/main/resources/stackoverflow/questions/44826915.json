@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826915,
+  "title" : "C++ &lt;algorithm&gt; replace all occurences not working",
+  "body" : "<p>I am trying to make a simple word-guessing game in C++(11) and since it requires a <code>\"hidden word\"</code> to be shown to the player I have made two strings; 1st one visible <code>\"test\"</code>, and other one just filled with underscores <code>\"____\"</code>. I have made a loop with <code>string::iterator</code> to compare each character in the string with given (<code>char</code>) input from user.</p>\n\n<p>The problem here, is that it doesn't replace al occurences in the string the very first time i give an input of '<code>t</code>' which should result in \"<code>t__t</code>\" instead of \"<code>t___</code>\"</p>\n\n<p>for the process I am using the <code>replace</code> function from <code>&lt;algorithm&gt;</code> header\nwhich looks like this:<br></p>\n\n<pre><code>replace(str.begin(), str.end(), str.at(char_idx), newLetter);\n</code></pre>\n\n<p><br>\nand this function is inside a foor loop which iterates trough string; In another funciton called <code>checkLetter()</code></p>\n\n<pre><code>void checkLetter(char &amp;newLetter, string &amp;randstr, int &amp;strlen, string &amp;hiddenWord){\n    string::iterator it;\n    char char_idx;\n    for(auto it = randstr.begin(); it != randstr.end();++it){\n        if(*it == newLetter){\n            char_idx=randstr.find(*it);\n            replace(hiddenWord.begin(), hiddenWord.end(), hiddenWord.at(char_idx), newLetter);\n        }\n    }\n    cout &lt;&lt; hiddenWord &lt;&lt; endl;\n}\n</code></pre>\n\n<p>now this is what the output looks like:</p>\n\n<pre><code>The Word is 4 letters long.\n\nt\nt___\ne\nte__\ns\ntes_\nt\ntes_\n</code></pre>\n\n<p>but when i ran a simpler version of that such as<br></p>\n\n<pre><code>string RandomWord = \"test\";\nreplace(RandomWord.begin(),RandomWord.end(),'t','S');\ncout &lt;&lt; RandomWord &lt;&lt; endl;\n</code></pre>\n\n<p>which gives <code>'SesS'</code></p>\n\n<p>All of the code:</p>\n\n<pre><code>#include &lt;iostream&gt;\n#include &lt;fstream&gt;\n#include &lt;string&gt;\n#include &lt;vector&gt;\n#include &lt;algorithm&gt;\nusing namespace std;\n\n// Function Declaration\nstring getRandWord();\nvoid checkLetter(char&amp;, string&amp;, int&amp;, string&amp;);\n\nint main() {\n//    string RandomWord = getRandWord();\n    string RandomWord = \"test\";\n    string hiddenWord = \"\";\n\n    unsigned long int _length_ = RandomWord.length();\n    int chances = int(_length_)+1;\n    char newLetter;\n\n    hiddenWord.append((_length_),'_');\n    cout &lt;&lt; \"The Word is \"&lt;&lt; _length_ &lt;&lt;\" letters long.\" &lt;&lt; endl;\n    while(chances &gt; 0){\n        cin &gt;&gt; newLetter;\n        checkLetter(newLetter, RandomWord, chances, hiddenWord);\n\n        chances--;\n    }\n\n    return 0;\n}\n\n\n// Functions\n\nvoid checkLetter(char &amp;newLetter, string &amp;randstr, int &amp;strlen, string &amp;hiddenWord){\n    string::iterator it;\n    char char_idx;\n    for(auto it = randstr.begin(); it != randstr.end();++it){\n        if(*it == newLetter){\n            char_idx=randstr.find(*it);\n            replace(hiddenWord.begin(), hiddenWord.end(), hiddenWord.at(char_idx), newLetter);\n        }\n    }\n    cout &lt;&lt; hiddenWord &lt;&lt; endl;\n}\n\nstring getRandWord(){\n    string filePath = \"/Users/nedimkanat/XCODE/testcpp/testcpp/\";\n    enum sizes {\n        ARRAY_SIZE = 5\n    };\n    // set seed\n    srand((unsigned)time(0));\n\n    // get random int between 0 and 5\n    int randint = rand() % ARRAY_SIZE;\n\n    // str to store each line from file\n    string str;\n\n    // array to store 5 (random) words\n    vector&lt;string&gt; arr;\n\n    // initialize file object &amp; open file\n    ifstream file(filePath+\"words.txt\");\n    int counter = 0;\n\n    // loop trough file\n    if (file.is_open()){\n        while (getline(file,str) &amp;&amp; counter &lt; ARRAY_SIZE){\n            arr.push_back(str);\n            counter++;\n        }\n        file.close();\n    } else {\n        cout &lt;&lt; \"File is not open\" &lt;&lt; endl;\n    }\n\n    // send away random word\n    if(arr.empty()){\n        cout &lt;&lt; \"CANCER\" &lt;&lt; endl;\n    }\n    return arr.at(randint);\n}\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826915/c-algorithm-replace-all-occurences-not-working",
+  "owner" : {
+    "user_id" : 6212957,
+    "user_type" : "registered",
+    "display_name" : "Idont Reallywolf",
+    "profile_image" : "https://graph.facebook.com/232530927105455/picture?type=large",
+    "link" : "https://stackoverflow.com/users/6212957/idont-reallywolf",
+    "reputation" : 240,
+    "accept_rate" : 88
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743865,
+  "last_activity_date" : 1498743865,
+  "tags" : [
+    "c++",
+    "c",
+    "string",
+    "algorithm",
+    "replace"
+  ],
+  "score" : 0,
+  "view_count" : 8,
+  "answer_count" : 0
+}

@@ -1,0 +1,24 @@
+{
+  "question_id" : 44825796,
+  "title" : "Connect to a database with visual basic",
+  "body" : "<p>I am trying to connect an database, but it crash and it say that there are a \nConnection problem, i have tryed this code in other pc, but now does not work \nthe error is:</p>\n\n<pre><code>There was a network or instance-specific error while trying to establish a connection to SQL Server. The server was not found or is not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections.\n</code></pre>\n\n<p>the code is this:</p>\n\n<pre><code>Module Module1\n'FUNZIONE PER LA CONNESSIONE AL DATABASE\nPublic Function Connetti(ByVal sql As String, ByVal namedset As String, ByRef dataSet As DataSet)\n    Dim myConnString As String = \"Persist Security Info=False;database=test;server=95.134.229.235;user id=web;pwd=fiautoppzione\" 'server=Server206 'user id=utente_std;pwd=145111\n    Dim myConnection As New SqlConnection(myConnString)\n    Dim myInsertQuery As String = sql\n    Dim myCommand As New SqlCommand(myInsertQuery)\n    Dim myada As New SqlDataAdapter\n    Dim mydset As New DataSet(namedset)\n    Dim mydbs As New BindingSource\n\n    'IO.File.AppendAllText(\"C:\\aggiorna.txt\", sql &amp; vbCrLf)\n    myCommand.Connection = myConnection\n    myada.SelectCommand = myCommand\n    myada.MissingSchemaAction = MissingSchemaAction.AddWithKey\n    mydset.EnforceConstraints = False\n    mydset.Clear()\n    myada.Fill(mydset, namedset)\n    mydbs.DataSource = mydset.Tables(namedset)\n\n    If Mid(sql, 1, 6) = \"update\" Then\n        mydset.Clear()\n        myada.Fill(mydset, namedset)\n        mydbs.DataSource = mydset.Tables(namedset)\n    End If\n    myConnection.Open()\n    dataSet = mydset\n    myCommand.Connection.Close()\n    Return mydbs\nEnd Function\n</code></pre>\n\n<p>and the first part of the code:</p>\n\n<pre><code>Option Explicit On\nImports System.Data\nImports System.Data.Odbc\nImports System.Xml.Xsl\nImports System.ComponentModel\nImports System.Threading\nImports System.IO.Ports\nImports FIAppStabilimento.MySql.Data\nImports System.Data.SqlClient\n\nNamespace MySql.Data.MySqlClient\nEnd Namespace\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44825796/connect-to-a-database-with-visual-basic",
+  "owner" : {
+    "user_id" : 8189336,
+    "user_type" : "registered",
+    "display_name" : "lorenzo grosso",
+    "profile_image" : "https://www.gravatar.com/avatar/ffea2f4ab8da799c6f2bdc5469409f55?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8189336/lorenzo-grosso",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741044,
+  "last_activity_date" : 1498741363,
+  "tags" : [
+    "vb.net"
+  ],
+  "score" : -1,
+  "view_count" : 11,
+  "answer_count" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826492,
+  "title" : "default value of parameter that is dependent on another parameter not updating in SSRS report",
+  "body" : "<p>Hi I have 2 parameters @begdate and @enddate.</p>\n\n<p>When I select the @begdate ,I want @enddate to dynamically be set to the end of that current month.</p>\n\n<p>I have @enddate default value as</p>\n\n<pre><code>=Format(DateSerial(Year(Parameters!BEGDATE.Value), Month(Parameters!BEGDATE.Value), \"1\").AddMonths(1).AddDays(-1),\"MM/dd/yyyy\")\n</code></pre>\n\n<p>It works the inital time of running the report, but when I change the @begdate to something else a second time the @enddate does not change with it. </p>\n",
+  "link" : "https://stackoverflow.com/questions/44826492/default-value-of-parameter-that-is-dependent-on-another-parameter-not-updating-i",
+  "owner" : {
+    "user_id" : 4625396,
+    "user_type" : "registered",
+    "display_name" : "T Dang",
+    "profile_image" : "https://www.gravatar.com/avatar/9e7c231ef0d51f8fd58d71d52401998c?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4625396/t-dang",
+    "reputation" : 34,
+    "accept_rate" : 45
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742878,
+  "last_activity_date" : 1498742878,
+  "tags" : [
+    "reporting-services",
+    "ssrs-2008",
+    "ssrs-2008-r2",
+    "ssrs-2012"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

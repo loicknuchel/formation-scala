@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826201,
+  "title" : "Pull SamAccountName into csv from list of employeeID&#39;s",
+  "body" : "<pre><code>$user = ForEach ($user in $(get-content C:\\Users\\desktop\\employeeids.csv)) {\n\n    Get-ADUser $user -properties employeeid\n}\n\n$users |\n\nSelect-object Samaccountname |\n\nexport-csv -path C:\\users\\desktop\\usernames.csv\n</code></pre>\n\n<p>I am trying to pull the Samaccountname of a list of employee id's I was given and export those samaccountnames into a csv. This is what I have so far but I keep getting the following error</p>\n\n<pre><code>Get-ADUser : Cannot find an object with identity: '12345' under: 'DC=,DC='.\nAt line:3 char:5\n+     Get-ADUser $user -properties employeeid\n+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : ObjectNotFound: (12345:ADUser) [Get-ADUser], ADIdentity \n   NotFoundException\n    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Managem \n   ent.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Management.Commands.Get  \n  ADUser\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826201/pull-samaccountname-into-csv-from-list-of-employeeids",
+  "owner" : {
+    "user_id" : 5669477,
+    "user_type" : "registered",
+    "display_name" : "MMbill",
+    "profile_image" : "https://www.gravatar.com/avatar/69b47dc8fe7a37d12e4bd42622f2e261?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/5669477/mmbill",
+    "reputation" : 42,
+    "accept_rate" : 89
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742115,
+  "last_activity_date" : 1498742498,
+  "tags" : [
+    "powershell",
+    "active-directory",
+    "powershell-v3.0"
+  ],
+  "score" : 0,
+  "view_count" : 10,
+  "answer_count" : 0
+}

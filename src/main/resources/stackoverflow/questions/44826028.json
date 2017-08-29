@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826028,
+  "title" : "Dplyr on multiple conditions",
+  "body" : "<p>I'm trying to filter out rows in a dataset: </p>\n\n<p><code>head(data)</code></p>\n\n<pre><code>  event bp_no  sample chrom      bp       gene    feature type length\n1     1   bp1 NA54522    1 2425901 intergenic intergenic  INV    0.1\n2     1   bp2 NA54522    1 2426025 intergenic intergenic  INV    0.1\n3     3   bp1 NA54522    1 6694426        Tsp     intron  INV    0.1\n4     3   bp2 NA54522    1 6694566        Tsp     intron  INV    0.1\n5     6   bp1 NA54522    2 8387755       pdm3     intron  INV    0.2\n6     6   bp2 NA54522    2 8387927       pdm3     exon_2  INV    0.2\n</code></pre>\n\n<p>To remove rows where the chromosome is <code>13</code> and the bp >= <code>2000000</code> and &lt;= <code>400000</code></p>\n\n<p>In Perl I would do this: </p>\n\n<pre><code>if ($chrom eq '13' and $bp &gt;= 2000000 and $bp &lt;= 400000){\n      next;\n    }\n</code></pre>\n\n<p>I want to do this using the dplyr package. I can <strong>keep</strong> all the rows that meet this condition using: </p>\n\n<pre><code>data&lt;-filter(data, chrom == \"13\" &amp; bp &gt; 2000000 &amp; bp &lt;= 400000)\n</code></pre>\n\n<p>But I can't work out out how to either remove them, or to keep all rows that <strong>don't</strong> meet this condition</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826028/dplyr-on-multiple-conditions",
+  "owner" : {
+    "user_id" : 2105156,
+    "user_type" : "registered",
+    "display_name" : "fugu",
+    "profile_image" : "https://i.stack.imgur.com/oRMc0.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/2105156/fugu",
+    "reputation" : 3994,
+    "accept_rate" : 76
+  },
+  "is_answered" : true,
+  "creation_date" : 1498741592,
+  "last_activity_date" : 1498741664,
+  "tags" : [
+    "r",
+    "dplyr",
+    "plyr"
+  ],
+  "score" : 0,
+  "view_count" : 25,
+  "answer_count" : 1
+}

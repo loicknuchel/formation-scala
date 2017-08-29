@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826422,
+  "title" : "&quot;Angular could not be found on the page with angular application&quot; while running test for angular app in iFrame",
+  "body" : "<p>I have an angular application running inside iFrame. I must need to launch parent application URL as it provide some flag which makes angular app working as expected. Now I need to write protractor tests for angular app in iFrame. Here is the code.</p>\n\n<pre><code>describe('French page', function() {\nvar IFRAME = \"iframe\",\nTITLE_FR = 'Découverte automatique',\nPAGE_URL = '/SAAS/admin/app/page',\npagePaths = browser.params.paths;;\n\nbeforeEach(function (done) {\n    LOGIN_PAGE.goToPageAndLogin().then(function (){\n        browser.driver.ignoreSynchronization = true;\n        browser.get(PAGE_URL); // application has angular app in iFrame\n        browser.sleep(5000);\n        browser.waitForAngular();\n        done();\n   });\n});\n\nafterEach(function (done) {\n    demoPause();\n    LOGIN_PAGE.logout().then(done);\n});\n\nit('should be able to launch with fr-FR locale', function (done) {\n    browser.driver.switchTo().frame(IFRAME); //Switch to angular app in   iFrame\n\n   // Check if element text is in french\n    browser.driver.findElement(by.css('.app-menu li:nth-child(1)  p')).then(function (elem) {\n        elem.getText().then(function (text) {\n            expect(text).toBe(TITLE_FR); // I can see that both texts are same here while debugging\n            browser.driver.ignoreSynchronization = true;\n            done();\n        });\n    });\n  });\n});\n</code></pre>\n\n<p><strong>The test condition passed but it exit with below error.</strong>\nMessage:\nFailed: Angular could not be found on the page <a href=\"https://host/abcd/admin/app/page\" rel=\"nofollow noreferrer\">https://host/abcd/admin/app/page</a> : retries looking for angular exceeded</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826422/angular-could-not-be-found-on-the-page-with-angular-application-while-running",
+  "owner" : {
+    "user_id" : 8231926,
+    "user_type" : "registered",
+    "display_name" : "user8231926",
+    "profile_image" : "https://www.gravatar.com/avatar/c2740c81162d6056bd0486ee754d4b71?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/8231926/user8231926",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742721,
+  "last_activity_date" : 1498742721,
+  "tags" : [
+    "protractor"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

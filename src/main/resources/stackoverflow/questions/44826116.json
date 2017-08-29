@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826116,
+  "title" : "dev-c cannot run : unable to write to C:\\program Files (x86)\\Dev-Cpp\\config\\devcpp.ini",
+  "body" : "<p>Last time, I ran dev-c++ normally but after resetting the computer (because my pc has some problems) I cannot run dev-c++ anymore.</p>\n\n<p>I still can setup dev-c++ but when I open the dev-c++ program. I have this message:</p>\n\n<p><a href=\"https://i.stack.imgur.com/smlQd.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/smlQd.png\" alt=\"enter image description here\"></a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44826116/dev-c-cannot-run-unable-to-write-to-c-program-files-x86-dev-cpp-config-devc",
+  "owner" : {
+    "user_id" : 8231804,
+    "user_type" : "registered",
+    "display_name" : "Duc Thanh",
+    "profile_image" : "https://www.gravatar.com/avatar/2e7b82a93fba5862d908939729d61c11?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8231804/duc-thanh",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741874,
+  "last_activity_date" : 1498742793,
+  "tags" : [
+    "c",
+    "installation",
+    "dev-c++"
+  ],
+  "score" : -2,
+  "view_count" : 14,
+  "answer_count" : 0
+}

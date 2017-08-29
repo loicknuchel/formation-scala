@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825893,
+  "title" : "Internal Server Error 500 on Ajax Post",
+  "body" : "<p>I would like to make a request on a server using AJAX. </p>\n\n<p>Now I always get an Internal Server Error 500. In the response I get: <code>\"{\" F \": {\" F \": true,\" M \":\" ServerError: null \"}}\".</code></p>\n\n<p>I don't know what I could be doing wrong. I would be very grateful for any suggestions.</p>\n\n<p>This is my code:</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script&gt;\r\nvar daten =[{\"O\":\"UPDATE\",\"V\":\"IjMi\"}]};\r\n\t\r\n$.ajax({\r\n    data: JSON.stringify(daten),\r\n    dataType: 'json',\r\n    url: 'https://...',\r\n    type: 'POST',\r\n    headers: {'X-GWT-Permutation':'07112C32C9E1BAE030C43E092EA21362'},\r\n    accepts: 'text/html',\r\n    contentType: 'application/json; charset=utf-8',\r\n    success: function (result) {\r\n        console.log(result);\r\n    }\r\n});\r\n\r\n&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825893/internal-server-error-500-on-ajax-post",
+  "owner" : {
+    "user_id" : 8231642,
+    "user_type" : "registered",
+    "display_name" : "GonzoGonzalez",
+    "profile_image" : "https://www.gravatar.com/avatar/d44ed0e88375c4f94522aa39560f9f36?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8231642/gonzogonzalez",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741284,
+  "last_activity_date" : 1498742489,
+  "tags" : [
+    "javascript",
+    "jquery"
+  ],
+  "score" : 0,
+  "view_count" : 40,
+  "answer_count" : 1
+}

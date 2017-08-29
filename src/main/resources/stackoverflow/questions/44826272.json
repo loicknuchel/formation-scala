@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826272,
+  "title" : "Pass a list through Ajax in Django",
+  "body" : "<p>I have made an Ajax call:</p>\n\n<pre><code>$.ajax({\n              url:'/quespaper/intermediate_table',\n              type:'GET',\n              processData: false,\n              data:{'url_link':url_link_copy,'updated_url_link':er},\n               success: function(data){ alert('Urls updated');},\n               error:function(error){\n                 alert(error);\n                 console.log(error);\n               }\n            });\n</code></pre>\n\n<p>Here,url_link_copy is a list,which is being properly printed at the console and er is the collection of value of all text boxes:</p>\n\n<pre><code>var er = $(\".form-control.input-sm\").val();\n</code></pre>\n\n<p>The mapping to a views.py function is correct,but,in that function,when I print the data,it prints:<strong>None</strong>.</p>\n\n<p>I tried JSON.stringify also:</p>\n\n<pre><code>data:JSON.stringify({'url_link':url_link_copy,'updated_url_link':er})\n</code></pre>\n\n<p>But,it also didn't work.</p>\n\n<p>Please suggest what is wrong in this implementation.</p>\n\n<p>Thanks.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826272/pass-a-list-through-ajax-in-django",
+  "owner" : {
+    "user_id" : 7182492,
+    "user_type" : "registered",
+    "display_name" : "ssharma",
+    "profile_image" : "https://www.gravatar.com/avatar/f76021771b903623bd742b88ab804f7a?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7182492/ssharma",
+    "reputation" : 79,
+    "accept_rate" : 100
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742303,
+  "last_activity_date" : 1498743133,
+  "tags" : [
+    "javascript",
+    "jquery",
+    "ajax",
+    "django",
+    "python-3.x"
+  ],
+  "score" : 0,
+  "view_count" : 14,
+  "answer_count" : 1
+}

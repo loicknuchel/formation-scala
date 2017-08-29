@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826060,
+  "title" : "how to not close the popup event when click outside in full calendar?",
+  "body" : "<p>I refer to <a href=\"https://fullcalendar.io/js/fullcalendar-3.4.0/demos/basic-views.html\" rel=\"nofollow noreferrer\">https://fullcalendar.io/js/fullcalendar-3.4.0/demos/basic-views.html</a></p>\n\n<p>If click \"+3 more\" inside the cell of 12-May, then a popup event box will be displayed.\nHow to keep this box on screen even if user clicks outside?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826060/how-to-not-close-the-popup-event-when-click-outside-in-full-calendar",
+  "owner" : {
+    "user_id" : 4606150,
+    "user_type" : "registered",
+    "display_name" : "mo.dhouibi",
+    "profile_image" : "https://www.gravatar.com/avatar/cf47c61cf2771cf35d4851b4efd3ff12?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4606150/mo-dhouibi",
+    "reputation" : 298,
+    "accept_rate" : 67
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741703,
+  "last_activity_date" : 1498741703,
+  "tags" : [
+    "jquery",
+    "css",
+    "fullcalendar"
+  ],
+  "score" : -3,
+  "view_count" : 19,
+  "answer_count" : 0
+}

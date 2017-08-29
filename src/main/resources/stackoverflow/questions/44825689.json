@@ -1,0 +1,28 @@
+{
+  "question_id" : 44825689,
+  "title" : "Why is token based authentication better for Single Page Applications?",
+  "body" : "<p>Okay so this might be a very rookie-ish or naive question but I tried searching the internet and have resorted to stack overflow only after not finding anything fruitful. I have been reading about Token based authentication as well as Cookie based authentication. I have come across the opinion that token based authentication is better for Single page web applications but cannot clearly understand why. I will be using nodejs and angularjs to accomplish the same.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825689/why-is-token-based-authentication-better-for-single-page-applications",
+  "owner" : {
+    "user_id" : 5193334,
+    "user_type" : "registered",
+    "display_name" : "ankur chavda",
+    "profile_image" : "https://lh4.googleusercontent.com/-Kz-Jexr3ZcY/AAAAAAAAAAI/AAAAAAAAArg/P0jYJz-UpSc/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/5193334/ankur-chavda",
+    "reputation" : 30,
+    "accept_rate" : 27
+  },
+  "is_answered" : false,
+  "creation_date" : 1498740754,
+  "last_activity_date" : 1498741349,
+  "tags" : [
+    "angularjs",
+    "node.js",
+    "token",
+    "jwt",
+    "single-page-application"
+  ],
+  "score" : -1,
+  "view_count" : 22,
+  "answer_count" : 1
+}

@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826182,
+  "title" : "Localization in Class Librabry project",
+  "body" : "<p>I have a class library project and two localizations files:</p>\n\n<p>default: SmsApiLocalization.resx\npolish: SmsApiLocalization.pl.resx</p>\n\n<p>I'am creating dll file from this project and using this file in WinForms application. Problem is, WinForms application is taking values only from SmsApiLocalization.pl.resx (I'am guessing because I have Windows 10 in polish version), no matter what language I'am setting in Program.cs. When I set something like this:</p>\n\n<pre><code>Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(\"en\");\nThread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(\"en\");\n</code></pre>\n\n<p>Winforms app always takes values from SmsApiLocalization.pl.resx and ignore other localizations. Do Yow how to fix this? I want to create multilanguage Dll file and use this in differents projects.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826182/localization-in-class-librabry-project",
+  "owner" : {
+    "user_id" : 2979034,
+    "user_type" : "registered",
+    "display_name" : "Shagohad",
+    "profile_image" : "https://graph.facebook.com/100000550723519/picture?type=large",
+    "link" : "https://stackoverflow.com/users/2979034/shagohad",
+    "reputation" : 86,
+    "accept_rate" : 69
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742071,
+  "last_activity_date" : 1498742071,
+  "tags" : [
+    "c#",
+    "winforms"
+  ],
+  "score" : 0,
+  "view_count" : 13,
+  "answer_count" : 0
+}

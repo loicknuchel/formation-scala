@@ -1,0 +1,27 @@
+{
+  "question_id" : 44806112,
+  "title" : "Grunt watch / livereload strange behavior",
+  "body" : "<p>I'm using grunt watch to compile my less files and livereload to send them to the browser, current config :</p>\n\n<pre><code>    watch: {\n        less: {\n            files: ['./web/public/less/*.less'],\n            tasks: ['less:main'],\n            options: {\n                interrupt: true\n            }\n        },\n        livereload: {\n            options: {\n                livereload: true\n            },\n            files: ['./web/public/css/main.css']\n        }\n    }\n</code></pre>\n\n<p>It works only a couple of times, then no changes are detected if I save a file. I checked the logs and sometimes when I save a file I get from grunt :</p>\n\n<pre><code>File \"web/public/less/myfile.less\" deleted.\n</code></pre>\n\n<p>It looks like when I save a file, sometimes Grunt Watch see a deletion, and after that no more changes are detected (Working via SSH on a Debian 8).</p>\n\n<p>I tried the option \"event\" to listen only \"changed\" with :</p>\n\n<pre><code>options: {\n  event: ['changed'],\n},\n</code></pre>\n\n<p>and indeed I didn't see any deletion logs but watch doesn't works better.</p>\n\n<p>Any other ideas to look at ?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806112/grunt-watch-livereload-strange-behavior",
+  "owner" : {
+    "user_id" : 1866116,
+    "user_type" : "registered",
+    "display_name" : "Spope",
+    "profile_image" : "https://www.gravatar.com/avatar/6ab77509d1180c5ff82769ed85c8f263?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1866116/spope",
+    "reputation" : 331,
+    "accept_rate" : 86
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661920,
+  "last_activity_date" : 1498661920,
+  "tags" : [
+    "javascript",
+    "gruntjs",
+    "livereload",
+    "grunt-contrib-watch"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

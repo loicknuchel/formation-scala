@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825853,
+  "title" : "How can I remove Previous View Controller from navigation controller ios?",
+  "body" : "<p>I want to remove Previous view controller from navigation stack. </p>\n\n<p>For example </p>\n\n<p>-> A is root view.now navigate to B - b navigate to c - c navigate to c - c navigate to c</p>\n\n<p>-->  now i want to remove all c view controller &amp; pop to B</p>\n\n<p>B is not Fix view controller.</p>\n\n<h1>Another example</h1>\n\n<p>A - > b -> c > g  > c > f > c > c  > c > c</p>\n\n<p>Remove all c View controller from navigation &amp; need following output</p>\n\n<p>A - > b -> c > g  > c > f </p>\n\n<p>Please help me</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825853/how-can-i-remove-previous-view-controller-from-navigation-controller-ios",
+  "owner" : {
+    "user_id" : 3405219,
+    "user_type" : "registered",
+    "display_name" : "Maulik",
+    "profile_image" : "https://i.stack.imgur.com/eJ4AH.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/3405219/maulik",
+    "reputation" : 1165,
+    "accept_rate" : 54
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741177,
+  "last_activity_date" : 1498743105,
+  "tags" : [
+    "ios",
+    "objective-c"
+  ],
+  "score" : 0,
+  "view_count" : 34,
+  "answer_count" : 3
+}

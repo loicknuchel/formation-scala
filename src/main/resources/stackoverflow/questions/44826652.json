@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826652,
+  "title" : "pyQt5 : issue updating editable ComboBox",
+  "body" : "<p>I have a problem with this piece of code.</p>\n\n<p><em>projList</em> is a list variable</p>\n\n<p><em>self.projPicker</em> is QComboBox object.</p>\n\n<pre><code>    self.projPicker.addItems(projList)\n    self.projPicker.currentTextChanged.connect(self.itemListChange)\n\ndef itemListChange(self,value):\n    self.projPathLbl.setText(\"Project :   \" + value)\n\ndef itemListUpdate(self):\n    comboItems = []\n    for item in range (self.projPicker.count()):\n        comboItems.append(self.projPicker.itemText(item))\n    print(comboItems)\n</code></pre>\n\n<p>With this code, when I add text in in the combobox the <em>self.projPathLbl</em> is updated with the <em>itemListChange()</em> function each time I type a character .\nMy problem is, it doesn't work the same way with the <em>itemListUpdate()</em>.\nWith this function, I need to hit the Return key to the update to be effective.</p>\n\n<p>How can I update my self.projPathLbl label the same way I update my comboItems list ( validating it with the Return key )?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826652/pyqt5-issue-updating-editable-combobox",
+  "owner" : {
+    "user_id" : 5698216,
+    "user_type" : "registered",
+    "display_name" : "Vincent A",
+    "profile_image" : "https://www.gravatar.com/avatar/d513fa1cb80933b9875c75844da87b94?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/5698216/vincent-a",
+    "reputation" : 33,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743280,
+  "last_activity_date" : 1498743280,
+  "tags" : [
+    "python",
+    "python-3.x",
+    "pyqt5"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

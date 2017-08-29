@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826051,
+  "title" : "Whats the best approach for ASP.NET MVC e-commerce platform?",
+  "body" : "<ul>\n<li>1 Project for all (Front-end/Admin area/DAL)</li>\n<li>2 seperated projects (e-commerce front-end/admin area) with the help of 3rd project for DAL</li>\n</ul>\n",
+  "link" : "https://stackoverflow.com/questions/44826051/whats-the-best-approach-for-asp-net-mvc-e-commerce-platform",
+  "owner" : {
+    "user_id" : 8143904,
+    "user_type" : "registered",
+    "display_name" : "Cena JOhn",
+    "profile_image" : "https://www.gravatar.com/avatar/66126bb45fcb9ec3135504fd360e7049?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8143904/cena-john",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741661,
+  "last_activity_date" : 1498741661,
+  "tags" : [
+    "asp.net",
+    "asp.net-mvc"
+  ],
+  "score" : -3,
+  "view_count" : 15,
+  "answer_count" : 0
+}

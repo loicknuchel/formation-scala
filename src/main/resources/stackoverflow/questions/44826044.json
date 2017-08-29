@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826044,
+  "title" : "Ajax Thymeleaf Springboot",
+  "body" : "<p>I'm trying to use ajax with thymeleaf. I designed a simple html page with two input field. I would like to use <code>addEventHandler</code> for the value of first input text, then I want to send it to controller and make calculation, after that I need to write it in same html form in the second field which returns from controller. </p>\n\n<p>For example:</p>\n\n<pre><code>first input text value -&gt; controller (make calculation) -&gt; (write value) in second input text.\n</code></pre>\n\n<p>My html page is</p>\n\n<pre class=\"lang-html prettyprint-override\"><code>&lt;!DOCTYPE html&gt;\n&lt;html xmlns:th=\"http://www.thymeleaf.org\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'&gt;\n    &lt;link rel=\"stylesheet\" href=\"css/style.css\"&gt;\n&lt;/head&gt;\n&lt;body&gt;\n\n&lt;input type=\"text\" name=\"Thing\" value=\"\"/&gt;\n&lt;script th:inline=\"javascript\"&gt;\n\n    window.onload = function () {\n\n        /* event listener */\n        document.getElementsByName(\"Thing\")[0].addEventListener('change', doThing);\n\n        /* function */\n        function doThing() {\n            var url = '@{/testurl}';\n            $(\"#fill\").load(url);\n            alert('Horray! Someone wrote \"' + this.value + '\"!');\n        }\n\n    }\n&lt;/script&gt;\n&lt;!-- Results block --&gt;\n&lt;div id=\"fill\"&gt;\n\n    &lt;p th:text=\"${responseMsg}\"/&gt;&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;/body&gt;\n&lt;/html&gt;\n</code></pre>\n\n<p>My controller</p>\n\n<pre><code> @RequestMapping(value = \"/testurl\", method = RequestMethod.GET)\npublic String test(Model model) {\n    model.addAttribute(\"responseMsg\",\"calcualted value\")\n    return \"test\";\n}\n</code></pre>\n\n<p>However I cannot call controller from ajax. Could you help me?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826044/ajax-thymeleaf-springboot",
+  "owner" : {
+    "user_id" : 7875786,
+    "user_type" : "registered",
+    "display_name" : "tester",
+    "profile_image" : "https://www.gravatar.com/avatar/5bc7989f448e3b203abba929df5df90b?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7875786/tester",
+    "reputation" : 2,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741640,
+  "last_activity_date" : 1498741926,
+  "tags" : [
+    "ajax",
+    "html5",
+    "spring-boot",
+    "thymeleaf"
+  ],
+  "score" : 0,
+  "view_count" : 11,
+  "answer_count" : 0
+}

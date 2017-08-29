@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826773,
+  "title" : "Cannot get NLog custom target to work",
+  "body" : "<p>I am really struggling to get a basic custom target working with NLog.</p>\n\n<p>Program.cs</p>\n\n<pre><code>using NLog;\nusing NLog.Targets;\n\n\n\nnamespace NLogTestConsole\n{\n    class Program\n    {\n        private static Logger logger = null;\n\n        static Program()\n        {\n            logger = LogManager.GetCurrentClassLogger();\n            Target.Register&lt;NLogTestConsole.Gerald&gt;(\"Gerald\");\n        }\n\n        static void Main(string[] args)\n        {\n            logger.Trace(\"Sample trace message\");\n            logger.Debug(\"Sample debug message\");\n            logger.Info(\"Sample informational message\");\n            logger.Warn(\"Sample warning message\");\n            logger.Error(\"Sample error message\");\n            logger.Fatal(\"Sample fatal error message\");\n        }\n    }\n}\n</code></pre>\n\n<p>NLogCustomTarget.cs</p>\n\n<pre><code>using NLog;\nusing NLog.Targets;\n\n\n\nnamespace NLogTestConsole\n{\n\n    [Target(\"Gerald\")]\n    public sealed class Gerald : TargetWithLayout\n    {\n        public Gerald()\n        {\n            // this.Host = \"localhost\";\n        }\n\n        //[RequiredParameter]\n        //public string Host { get; set; }\n\n        protected override void Write(LogEventInfo logEvent)\n        {\n            // Breakpoint here never gets hit\n            string logMessage = this.Layout.Render(logEvent);\n\n            System.Console.WriteLine(\"MYCUSTOMMSG:    \" + logMessage);\n        }\n\n        private void SendTheMessageToRemoteHost(string host, string message)\n        {\n            // TODO - write me \n        }\n    }\n\n}\n</code></pre>\n\n<p>NLog.config</p>\n\n<pre><code>&lt;?xml version=\"1.0\" encoding=\"utf-8\" ?&gt;\n&lt;nlog autoReload=\"true\"\n      throwExceptions=\"false\"\n      internalLogLevel=\"Off\"\n      internalLogFile=\"c:\\temp\\nlog-internal.log\"&gt;\n\n  &lt;!--  optional, add some variables\n        https://github.com/nlog/NLog/wiki/Configuration-file#variables    --&gt;\n  &lt;variable name=\"myvar\" value=\"myvalue\"/&gt;\n\n  &lt;!--  See https://github.com/nlog/nlog/wiki/Configuration-file\n        for information on customizing logging rules and outputs. --&gt;\n  &lt;targets&gt;\n    &lt;!--    add your targets here\n            See https://github.com/nlog/NLog/wiki/Targets for possible targets.\n            See https://github.com/nlog/NLog/wiki/Layout-Renderers for the possible layout renderers.    --&gt;\n\n    &lt;!--    Write events to a file with the date in the filename.\n            &lt;target xsi:type=\"File\" name=\"f\" fileName=\"${basedir}/logs/${shortdate}.log\"\n                layout=\"${longdate} ${uppercase:${level}} ${message}\" /&gt;                    --&gt;\n\n    &lt;target name=\"logfile\" type=\"File\" fileName=\"file.txt\" /&gt;\n    &lt;target name=\"console\" type=\"Console\" /&gt;\n    &lt;target name=\"debugger\" type=\"Debugger\"/&gt;\n    &lt;target name=\"Gerald\" type=\"Gerald\"/&gt;\n  &lt;/targets&gt;\n\n  &lt;rules&gt;\n    &lt;!--  Write all events with minimal level of Debug (So Debug, Info, Warn, Error and Fatal, but not Trace)  to \"f\"\n          &lt;logger name=\"*\" minlevel=\"Debug\" writeTo=\"f\" /&gt;    --&gt;\n\n    &lt;logger name=\"*\" minlevel=\"Trace\" writeTo=\"logfile\" /&gt;\n    &lt;logger name=\"*\" minlevel=\"Info\" writeTo=\"console\" /&gt;\n    &lt;logger name=\"*\" minlevel=\"Trace\" writeTo=\"debugger\" /&gt;\n    &lt;logger name=\"*\" minlevel=\"Trace\" writeTo=\"Gerald\" /&gt;\n  &lt;/rules&gt;\n&lt;/nlog&gt;\n</code></pre>\n\n<p>If I comment out the \"Gerald\" target I get logging to file, console, and debug output. With that line there, nothing works\nWhat have I got wrong?</p>\n\n<p>Thanks,</p>\n\n<p>Adam.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826773/cannot-get-nlog-custom-target-to-work",
+  "owner" : {
+    "user_id" : 5686593,
+    "user_type" : "registered",
+    "display_name" : "Adam Benson",
+    "profile_image" : "https://www.gravatar.com/avatar/b47cf7efec00a0569e672d6c114e418b?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/5686593/adam-benson",
+    "reputation" : 416,
+    "accept_rate" : 64
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743562,
+  "last_activity_date" : 1498743562,
+  "tags" : [
+    "nlog"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

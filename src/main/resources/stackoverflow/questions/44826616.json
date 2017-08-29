@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826616,
+  "title" : "Win32_Win32_ScheduledJob return value results in 8 An unspecified failure occurred",
+  "body" : "<p>I am trying to schedule job on remote machine using Wmi and c#, code looks ok but I am getting 8 An unspecified failure occurred. And do not know how to track what is source root of it.</p>\n\n<p>Code is quite simple:</p>\n\n<pre><code>        ConnectionOptions connection = new ConnectionOptions\n        {\n            Username = this.dutConfig.UserName,\n            Password = this.dutConfig.Password,\n            EnablePrivileges = true\n        };\n\n        this.wmiScope = new ManagementScope(path: string.Format(@\"\\\\{0}\\root\\CIMV2\", this.dutConfig.IPAddress), options: connection);\n\n        try\n        {\n            this.wmiScope.Connect();\n        }\n        catch (Exception e)\n        {\n            var exceptionMessage = string.Format(\"Management Connect to remote machine {0} failed with the following error {1}\", this.dutConfig.IPAddress, e.Message);\n            throw new Exception(exceptionMessage);\n        }\n\n        try\n        {\n            ObjectGetOptions objectGetOptions = new ObjectGetOptions();\n            ManagementPath managementPath = new ManagementPath(path: \"Win32_ScheduledJob\");\n\n            ManagementClass classInstance = new ManagementClass(scope: this.wmiScope, path: managementPath, options: objectGetOptions);\n            ManagementBaseObject inParams = classInstance.GetMethodParameters(\"Create\");\n            inParams[\"Command\"] = \"cmd.exe\";\n            inParams[\"StartTime\"] = string.Format(\"********{0}{1}{2}.000000+{3}\", this.currentTime.Hour,this.currentTime.Minute, this.currentTime.Second,240);\n            inParams[\"InteractWithDesktop\"] = true;\n\n            ManagementBaseObject outParams = classInstance.InvokeMethod(\"Create\", inParams, null);\n            Console.WriteLine(\"JobId: \" + outParams[\"jobId\"]);\n            Console.WriteLine(\"ReturnValue: \" + outParams[\"returnValue\"]);\n            Console.ReadKey();\n        }\n        catch (ManagementException err)\n        {\n            Console.WriteLine(\"An error occurred while trying to execute the WMI method: \" + err.Message);\n</code></pre>\n\n<p>Is there any possible way to know what causes that, some log or something, credentials are administrators, so it should have full privileges.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826616/win32-win32-scheduledjob-return-value-results-in-8-an-unspecified-failure-occurr",
+  "owner" : {
+    "user_id" : 1662139,
+    "user_type" : "registered",
+    "display_name" : "Wojciech Szabowicz",
+    "profile_image" : "https://www.gravatar.com/avatar/495b3fd80fc54175e969403ee41aef8b?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1662139/wojciech-szabowicz",
+    "reputation" : 477,
+    "accept_rate" : 82
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743184,
+  "last_activity_date" : 1498743184,
+  "tags" : [
+    "c#",
+    "wmi"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

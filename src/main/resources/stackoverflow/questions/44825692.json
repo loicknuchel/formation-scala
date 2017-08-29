@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825692,
+  "title" : "Cant install symphony without XAMPP, using cmd?",
+  "body" : "<p>Hello i am completely newbie, i am on intern right now and i need to install symfony. but when i write this in cmd:</p>\n\n<blockquote>\n  <p>php -r \"readfile('<a href=\"https://symfony.com/installer\" rel=\"nofollow noreferrer\">https://symfony.com/installer</a>');\" > symfony</p>\n</blockquote>\n\n<p>i get this error: </p>\n\n<blockquote>\n  <p>php is not recognized as an internal or external command</p>\n</blockquote>\n\n<p>I dont have xampp on this computer and i can't set environment variables with path to xampp. And i don't know how to install it. </p>\n\n<p>If i need to write PHP code, i connect Net Beans with the server of company.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825692/cant-install-symphony-without-xampp-using-cmd",
+  "owner" : {
+    "user_id" : 7303980,
+    "user_type" : "registered",
+    "display_name" : "Abdullah Javar",
+    "profile_image" : "https://www.gravatar.com/avatar/f64d4e5c76aab9df4ba3bf68e80f781e?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7303980/abdullah-javar",
+    "reputation" : 32,
+    "accept_rate" : 75
+  },
+  "is_answered" : false,
+  "creation_date" : 1498740760,
+  "last_activity_date" : 1498740760,
+  "tags" : [
+    "php",
+    "symfony"
+  ],
+  "score" : 0,
+  "view_count" : 15,
+  "answer_count" : 0
+}

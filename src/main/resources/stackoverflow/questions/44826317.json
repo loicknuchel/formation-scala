@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826317,
+  "title" : "Google Awareness API weather forecast for 5 days",
+  "body" : "<p>I need weather forecast for the next 5 days for an Android application i am working on. I want to use <strong>Google Awareness API</strong>, but i am not sure that's possible to do that. This API seems to give only the temperature for today.</p>\n\n<blockquote>\n  <p>Does somebody knows if a 5 days forecast is possible with that API?</p>\n</blockquote>\n\n<p>Thanks</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826317/google-awareness-api-weather-forecast-for-5-days",
+  "owner" : {
+    "user_id" : 6931645,
+    "user_type" : "registered",
+    "display_name" : "M. FOSSEPREZ",
+    "profile_image" : "https://www.gravatar.com/avatar/327475a7ad696632ef18d7795288bc39?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/6931645/m-fosseprez",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742416,
+  "last_activity_date" : 1498743910,
+  "tags" : [
+    "android",
+    "weather-api",
+    "google-awareness"
+  ],
+  "score" : -2,
+  "view_count" : 7,
+  "answer_count" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826774,
+  "title" : "Jenkin Build Trigger with Gitlab Webhook",
+  "body" : "<p>I am able to generate build trigger url and able to call build operation via Gitlab Web hook.</p>\n\n<p>But the build operation is calling in each commit irrespective of any branch. But I want to trigger build operation for a specific branch commit. Means want to execute build only if any code pushed to a specific branch.</p>\n\n<p>Any help Appreciated.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826774/jenkin-build-trigger-with-gitlab-webhook",
+  "owner" : {
+    "user_id" : 399080,
+    "user_type" : "registered",
+    "display_name" : "Niladri_Android",
+    "profile_image" : "https://www.gravatar.com/avatar/0deac638c0b0b5e891a806a99e1550bb?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/399080/niladri-android",
+    "reputation" : 55,
+    "accept_rate" : 0
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743562,
+  "last_activity_date" : 1498743562,
+  "tags" : [
+    "jenkins",
+    "gitlab",
+    "webhooks",
+    "build-triggers"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

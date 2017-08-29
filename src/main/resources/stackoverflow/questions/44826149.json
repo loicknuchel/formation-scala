@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826149,
+  "title" : "Laravel&#39;s inner query",
+  "body" : "<p>How to do a inner query in laravel. Please consider that my issue is other than <a href=\"https://stackoverflow.com/q/16815551/1358777\">this question</a>.</p>\n\n<p>I have a common method that returns both common and complex inner query. With it, I've found a <em>dirty</em> fix reading laravel's source code</p>\n\n<pre><code>$query-&gt;whereIn('column', function ($query) { /*noop*/ });\n$innerQuery = Model::myComplexInnerQueryMethod()-&gt;getQuery();\n$query-&gt;getQuery()-&gt;wheres[0]['query'] = $innerQuery;\n$query-&gt;mergeBindings($innerQuery);\n</code></pre>\n\n<p>But this is ugly (to say the least)\nAny thoughts?</p>\n\nUpdate for martin's answer\n\n<pre><code>class MyModel extends \\Eloquent {\n    // @return \\Illuminate\\Database\\Query\\Builder\n    static function myComplexInnerQueryMethod($index) {\n        return static::query()-&gt;join(…)-&gt;join(…)-&gt;where(…)-&gt;where(…)-&gt;etc();\n    }\n}\n\nclass Analytics extends MyModel {\n    function scopeIndex($query, $index) {\n        $query-&gt;whereIn('column', function ($query) { /*noop*/ });\n        $innerQuery = self::myComplexInnerQueryMethod($index)-&gt;getQuery();\n        $query-&gt;getQuery()-&gt;wheres[0]['query'] = $innerQuery;\n        $query-&gt;mergeBindings($innerQuery);\n        return $query;\n    }\n}\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826149/laravels-inner-query",
+  "owner" : {
+    "user_id" : 1358777,
+    "user_type" : "registered",
+    "display_name" : "Alwin Kesler",
+    "profile_image" : "https://www.gravatar.com/avatar/c6e83d4636457fec1b7ae912b56db834?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1358777/alwin-kesler",
+    "reputation" : 689,
+    "accept_rate" : 50
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741986,
+  "last_activity_date" : 1498742861,
+  "tags" : [
+    "php",
+    "laravel-4",
+    "eloquent"
+  ],
+  "score" : 2,
+  "view_count" : 20,
+  "answer_count" : 0
+}

@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826686,
+  "title" : "Masive Update on Column Descriptions of SQL Server from Excel",
+  "body" : "<p>Where I work there are some data-dictionary of the databases created in Excel files with the following format:</p>\n\n<pre><code> Database|Instance  |Table    |Column   |Description  \n BD1     |dbo       |Table1   |Column1  |DescriptionA\n BD1     |dbo       |Table1   |Column2  |DescriptionB\n BD1     |dbo       |Table1   |Column3  |DescriptionC\n BD2     |dbo       |Table1   |Column1  |DescriptionD\n</code></pre>\n\n<p>I need to do an update to the description of the columns. I know I can do it with SSMS column by column, but that's a lot of work.\nAs far as I know, I must update the following table: sys.extended_properties</p>\n\n<p>¿Is there a tool or some way to do a masive update like this?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826686/masive-update-on-column-descriptions-of-sql-server-from-excel",
+  "owner" : {
+    "user_id" : 8231936,
+    "user_type" : "registered",
+    "display_name" : "Cristian Avenda&#241;o",
+    "profile_image" : "https://graph.facebook.com/10154935122018472/picture?type=large",
+    "link" : "https://stackoverflow.com/users/8231936/cristian-avenda%c3%b1o",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743339,
+  "last_activity_date" : 1498743339,
+  "tags" : [
+    "sql-server",
+    "sql-server-2008"
+  ],
+  "score" : 0,
+  "view_count" : 8,
+  "answer_count" : 0
+}

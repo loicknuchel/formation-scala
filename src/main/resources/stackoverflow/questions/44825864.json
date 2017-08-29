@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825864,
+  "title" : "removing ad-hoc polymorphism",
+  "body" : "<p>What is the best way to remove ad-hoc polymorshism in haskell ?</p>\n\n<p>80% of the time, I don't need <code>fmap</code> to be polymorphic in <code>Functor f</code>, I actually know which instance I apply it to. Replacing it with a specific instance gives me :</p>\n\n<ul>\n<li>less brain inference when reading code, more brain checking</li>\n<li>more type error caught when type checker verifies</li>\n</ul>\n\n<p>What is the best way to apply, like in category theory, a functor F to a morphism in haskell using its name ?</p>\n\n<pre><code>-- F is a functor : it maps objects of * to objects of *\ndata F r = Z | Suc r\n\n-- F is a functor : it maps arrows of *  to arrows of *\n-- generic fmap will be found for this type, I inherit much code for free, great\ninstance Functor F where\n  fmap f Z       = Z\n  fmap f (Suc n) = Suc (f n)\n\n-- But I care writing code specific for this functor only\n-- Applies F for arrows of *\nfmapF = fmap :: (a -&gt; b) -&gt; (F a -&gt; F b)\n\n-- an arrow in *, aka a function -- (and also a value as * is CCC)\nf = id :: a -&gt; a\n\n-- works for values F a, not any functor f\nr = fmapF f Z :: F a\nr' = fmap f \"hi\" -- as opposed to\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44825864/removing-ad-hoc-polymorphism",
+  "owner" : {
+    "user_id" : 242189,
+    "user_type" : "registered",
+    "display_name" : "nicolas",
+    "profile_image" : "https://www.gravatar.com/avatar/48a18a00706b9c7206ef4092b6e68a41?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/242189/nicolas",
+    "reputation" : 3459,
+    "accept_rate" : 75
+  },
+  "is_answered" : true,
+  "creation_date" : 1498741210,
+  "last_activity_date" : 1498741550,
+  "tags" : [
+    "haskell",
+    "functor",
+    "category-theory"
+  ],
+  "score" : 1,
+  "view_count" : 21,
+  "answer_count" : 1
+}

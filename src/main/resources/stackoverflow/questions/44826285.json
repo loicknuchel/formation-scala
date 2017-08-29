@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826285,
+  "title" : "How to pass POINT structure to ElementFromPoint method in Python?",
+  "body" : "<p>I'm trying to use method <strong><a href=\"https://msdn.microsoft.com/en-us/library/windows/desktop/ee671538.aspx\" rel=\"nofollow noreferrer\">IUIAutomation::ElementFromPoint</a></strong> in Python using <strong><a href=\"https://github.com/enthought/comtypes\" rel=\"nofollow noreferrer\">comtypes</a></strong> package. There are many examples how to use it in C++, but not in Python. This simple code reproduces the problem on 64-bit Windows 10 (Python 2.7 32-bit):</p>\n\n<pre><code>import comtypes.client\n\nUIA_dll = comtypes.client.GetModule('UIAutomationCore.dll')\nUIA_dll.IUIAutomation().ElementFromPoint(10, 10)\n</code></pre>\n\n<p>I get the following error:</p>\n\n<pre><code>TypeError: Expected a COM this pointer as first argument\n</code></pre>\n\n<p>Creating the <code>POINT</code> structure this way doesn't help as well:</p>\n\n<pre><code>from ctypes import Structure, c_long\n\nclass POINT(Structure):\n    _pack_ = 4\n    _fields_ = [\n        ('x', c_long),\n        ('y', c_long),\n    ]\n\npoint = POINT(10, 10)\nUIA_dll.IUIAutomation().ElementFromPoint(point) # raises the same exception\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826285/how-to-pass-point-structure-to-elementfrompoint-method-in-python",
+  "owner" : {
+    "user_id" : 3648361,
+    "user_type" : "registered",
+    "display_name" : "Vasily Ryabov",
+    "profile_image" : "https://i.stack.imgur.com/Y1aeF.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/3648361/vasily-ryabov",
+    "reputation" : 3065,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742353,
+  "last_activity_date" : 1498742353,
+  "tags" : [
+    "python",
+    "ui-automation",
+    "microsoft-ui-automation",
+    "comtypes"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 0
+}

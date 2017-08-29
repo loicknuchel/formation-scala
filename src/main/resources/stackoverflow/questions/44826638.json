@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826638,
+  "title" : "Configuring error pages in dotnet causes duplicate claims identities",
+  "body" : "<p>I am getting a strange issue when configuring PopForums to have error pages. In a nutshell when I configure the site to reExecute a failed request to an error page, the logged in uses somehow has a second duplicate claim identity.</p>\n\n<p>As mentioned the app is using claims authentication, and I have only ever seen this issue when executing <code>app.UseStatusCodePagesWithReExecute</code> from startup.cs. I am at a loss on how to debug this issue further.</p>\n\n<p>I can see in the debug window the following:</p>\n\n<p><code>HttpContext.User merged via AutomaticAuthentication from authenticationScheme\n</code></p>\n\n<p>I don't know if this merging is somehow causing duplicate claims entries on the user.</p>\n\n<p><strong>Full steps to reproduce the issue:</strong></p>\n\n<ul>\n<li>Clone <a href=\"https://github.com/POPWorldMedia/POPForums\" rel=\"nofollow noreferrer\">Popforums</a> master branch &amp; setup with the default user (run and goto <code>/Forums/Setup</code>)</li>\n<li><p>Once setup login with the default user and try and access <code>/Forums/Setup</code> again. Now the database is active will throw and 403 Forbidden error.</p></li>\n<li><p>Replace <code>app.UseStatusCodePages();</code> with the following in <code>Startup.cs</code>: <code>app.UseStatusCodePagesWithReExecute(\"/Home\");</code> which should move the user to an error page while preserving the error code (for simplicity rather than creating an error page just redirect to the homepage).</p></li>\n<li>Try and access <code>/Forums/Setup</code> and while in debug. The following exception is thrown<a href=\"https://i.stack.imgur.com/XqQ1b.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/XqQ1b.png\" alt=\"enter image description here\"></a></li>\n</ul>\n\n<p>Obviously the error is self is clear, the question is where the duplicate claims has come from. Any ideas, would be appreciated hopefully this will be resolved before I go grey ;)</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826638/configuring-error-pages-in-dotnet-causes-duplicate-claims-identities",
+  "owner" : {
+    "user_id" : 7195672,
+    "user_type" : "registered",
+    "display_name" : "sjc_w",
+    "profile_image" : "https://www.gravatar.com/avatar/43eb508465c9ffb400c566bc0f3e9fd1?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7195672/sjc-w",
+    "reputation" : 24,
+    "accept_rate" : 57
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743248,
+  "last_activity_date" : 1498743248,
+  "tags" : [
+    "c#",
+    "asp.net",
+    "authentication",
+    "asp.net-core"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

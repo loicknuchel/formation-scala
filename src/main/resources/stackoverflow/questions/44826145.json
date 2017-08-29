@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826145,
+  "title" : "What is the instance for the type?",
+  "body" : "<p>The type signature from Monoid <code>mempty</code> function is:</p>\n\n<pre><code>*Exercises Data.Monoid&gt; :t mempty\nmempty :: Monoid a =&gt; a\n</code></pre>\n\n<p>When I look at the type signature for function(->) type on typeclass Monoid for <code>mempty</code> function it becomes to:</p>\n\n<pre><code>mempty :: Monoid b =&gt; a -&gt; b\n</code></pre>\n\n<p>Because <code>a</code> will be replace through <code>a -&gt; b</code>.</p>\n\n<pre><code>mempty :: Monoid a =&gt; a\nmempty :: a -&gt; b\n</code></pre>\n\n<p>I did not mention that <code>b</code> has to be a <code>Monoid</code>, otherwise the <code>mappend</code> function would not work.  </p>\n\n<p>Now I have following data type </p>\n\n<pre><code>newtype Combine a b = \n  Combine { unCombine :: a -&gt; b }\n\ninstance (Semigroup b) \n  =&gt; Semigroup (Combine a b) where \n  Combine {unCombine=f} &lt;&gt; Combine {unCombine=g} = Combine (f &lt;&gt; g)\n\ninstance (Semigroup b, Monoid b)\n  =&gt; Monoid (Combine a b) where\n  mempty = Combine mempty\n  mappend = (&lt;&gt;)\n</code></pre>\n\n<p>How the <code>mempty</code> function signature looks like for <code>Combine</code>?   </p>\n\n<p>So I am going to do exactly the same way as above:</p>\n\n<p>The mempty declaration: </p>\n\n<pre><code>mempty :: Monoid a =&gt; a\n</code></pre>\n\n<p><code>a</code> will be replace through Combine, then it becomes to:</p>\n\n<pre><code>mempty :: Combine a b\n</code></pre>\n\n<p>?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826145/what-is-the-instance-for-the-type",
+  "owner" : {
+    "user_id" : 1743843,
+    "user_type" : "registered",
+    "display_name" : "zero_coding",
+    "profile_image" : "https://www.gravatar.com/avatar/8ea2c1d9051e40332376a07bc166d9d5?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/1743843/zero-coding",
+    "reputation" : 4116,
+    "accept_rate" : 78
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741959,
+  "last_activity_date" : 1498743423,
+  "tags" : [
+    "haskell"
+  ],
+  "score" : 0,
+  "view_count" : 18,
+  "answer_count" : 1
+}

@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826628,
+  "title" : "IMAP: (JavaMail) Get unread message count of many folders (performance improvement)",
+  "body" : "<p>Our client has an imap mail account of 400 folders. We fetch mails using java mail api. On the start of the program we need all the <strong>unread message count</strong> of each folder.</p>\n\n<p>Suppose we have the foldernames in a string array</p>\n\n<pre><code>String arryFolderNames[] = { \"f1\", \"f2\"..\n</code></pre>\n\n<p>And for each folder:</p>\n\n<pre><code>for (String folderName : arryFolderNames) {\n    IMAPFolder imapFolder = MailStore.getFolder(folderName);\n\n    //takes 100-300 milliseconds\n    int unreadCount = imapFolder.getUnreadMessageCount();\n}\n</code></pre>\n\n<p>To get the unreadmessage count of a single folder takes minimum 100 milliseconds and totally the whole process takes more than 40seconds, but the customer demands only 5-6 sec. maximum. I have to optimize this process:</p>\n\n<ul>\n<li><p>All folders are closed, and I perform <em>getUnreadMessgeCount</em> on a closed folder. But when I check before call of getUnreadCount whether folder is opened and open the folder, getUnreadCount and close agin, then folder open/close process takes additional time and I do not get any performance gain. </p></li>\n<li><p>When I open all 400 folder at once, and keep them open, everything becomes slower and as think it is not a good practice to have all folders opened always.</p></li>\n<li><p>When I put the folder.getUnreadCount in different Threads, (Thread blocks with 10 size, or 1 thread for a folder, with 400 threads, or 4 threads with 100 folders, etc.) there is no gain and processing all folders takes longer time.</p></li>\n</ul>\n\n<p>Any suggestions, ideas?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826628/imap-javamail-get-unread-message-count-of-many-folders-performance-improveme",
+  "owner" : {
+    "user_id" : 2082488,
+    "user_type" : "registered",
+    "display_name" : "benchpresser",
+    "profile_image" : "https://www.gravatar.com/avatar/24cce37a57ba8573974d743e75767b2f?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/2082488/benchpresser",
+    "reputation" : 542,
+    "accept_rate" : 29
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743215,
+  "last_activity_date" : 1498743215,
+  "tags" : [
+    "java",
+    "folder",
+    "javamail",
+    "imap",
+    "message"
+  ],
+  "score" : 1,
+  "view_count" : 6,
+  "answer_count" : 0
+}

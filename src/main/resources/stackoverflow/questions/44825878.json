@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825878,
+  "title" : "IQueryable input.Sorting on a column",
+  "body" : "<p>I have been handed this code to make it sort on the Id column descending. Here's what is there now, which works, but does not sort on any one column, but does allow for sorting the columns, so I need to keep that functionality as well.</p>\n\n<pre><code>IQueryable&lt;Invoice&gt; all3 = this._invoiceRepository.GetAll();\n        var invoices3 = all3.Where(m =&gt; foundInvoiceIdsFromInputFilter.Contains(m.Id));\n        int resultCount = await invoices3.CountAsync();\n        if (input.Sorting.Contains(\"customer\"))\n        {\n            input.Sorting = input.Sorting.Replace(\"customer\", \"customerid\");\n        }\n        List&lt;Invoice&gt; listAsync3 = await invoices3.OrderBy(input.Sorting, new object[0]).PageBy(input).ToListAsync();\n        List&lt;InvoiceListDto&gt; invoiceListDtos = listAsync3.MapTo&lt;List&lt;InvoiceListDto&gt;&gt;();\n        foreach (InvoiceListDto invoiceListDto in invoiceListDtos)\n</code></pre>\n\n<p>In my OrderBy, I tried this:</p>\n\n<pre><code>List&lt;Invoice&gt; listAsync3 = await invoices3.OrderBy&lt;Invoice&gt;(\"Id DESC\", \ninput.Sorting, new object[0]).PageBy(input).ToListAsync();\n</code></pre>\n\n<p>It loads sorted by Id, DESC. However the other columns now will not allow for sorting when I try it this way. The sort arrows in jtable are still there, but non-functioning.</p>\n\n<p>How do I simply keep this working as it is now, but have it output the sorting on the Id column descending? Hope this makes sense.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825878/iqueryable-input-sorting-on-a-column",
+  "owner" : {
+    "user_id" : 7594121,
+    "user_type" : "registered",
+    "display_name" : "zberg007",
+    "profile_image" : "https://www.gravatar.com/avatar/55e55496584aa99c20d2ecfc120bf25a?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/7594121/zberg007",
+    "reputation" : 8,
+    "accept_rate" : 75
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741242,
+  "last_activity_date" : 1498742917,
+  "tags" : [
+    "c#",
+    "iqueryable",
+    "columnsorting"
+  ],
+  "score" : 0,
+  "view_count" : 23,
+  "answer_count" : 0
+}

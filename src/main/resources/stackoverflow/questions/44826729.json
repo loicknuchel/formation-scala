@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826729,
+  "title" : "TreeView - Collapsing a TreeItem changes selection",
+  "body" : "<p>Has anybody experienced the strange behavior in the TreeView of JavaFX, that changes it's selection, when the user collapses an expanded TreeItem?</p>\n\n<p><strong>Subject</strong>\nJavaFX contains the class TreeView, that can hold and display TreeItems. A TreeItem can hold a List of TreeItems as it's children. A TreeItem can be displayed either</p>\n\n<ul>\n<li>a) in state expanded (Recatangle down: v), so that you can see it's child TreeItems, intended below their parent or</li>\n<li>b) in state collapsed (Rectangle right: >), so that the children are hidden.</li>\n</ul>\n\n<p>a) TreeItem B in expanded state</p>\n\n<pre><code>vA\n  &gt;AA\nvB\n  &gt;BA\n  &gt;BB\nvC\n  &gt;CA\n</code></pre>\n\n<p>a) TreeItem B in collapsed state</p>\n\n<pre><code>vA\n  &gt;AA\n&gt;B\nvC\n  &gt;CA\n</code></pre>\n\n<p><strong>Observed behavior</strong>\nWhen clicking the Rectangle (v) of the expanded TreeItem B, the TreeItem collapses. Any previously selected TreeItem becomes deselected and TreeItem B becomes selected.</p>\n\n<p><strong>Expected behavior</strong>\nWhen clicking the Rectangle (v) of the expanded TreeItem B, the TreeItem collapses. The previously selection does not change.</p>\n\n<p><strong>Assumption</strong>\nThe TreeView implementation does not distinguish between</p>\n\n<ul>\n<li>a click on the rectangle and</li>\n<li>a click on the Presentation component of the TreeItems value itself.</li>\n</ul>\n\n<p>Actually the rectangle does not belong to the TreeItem, it is just a control element. But a click only refers to whole \"rows\", which consist of the control rectangle and the Representation of the TreeItems value.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826729/treeview-collapsing-a-treeitem-changes-selection",
+  "owner" : {
+    "user_id" : 4094874,
+    "user_type" : "registered",
+    "display_name" : "Guardian667",
+    "profile_image" : "https://i.stack.imgur.com/jVHRW.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/4094874/guardian667",
+    "reputation" : 73,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743445,
+  "last_activity_date" : 1498743445,
+  "tags" : [
+    "java",
+    "user-interface",
+    "javafx",
+    "treeview"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

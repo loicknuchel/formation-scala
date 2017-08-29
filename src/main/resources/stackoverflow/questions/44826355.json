@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826355,
+  "title" : "How to get property that is a class itself value within a class methode",
+  "body" : "<p>I want to create some Classes, that have to look a certain way ( the way shown in my example).\nSome of the class properties are classes (or structs) themselves.\nI want to write a method within my classes that get the Property-Values of all the Properties, that are Structs and write them to a string.</p>\n\n<p>So this is what my classes look like:</p>\n\n<pre><code>public class car\n{\n   public string brand;\n   public tire _id;\n   public string GetAttributes()\n   {\n      Type type = this.GetType();\n      PropertyInfo[] properties = type.GetProperties();\n      foreach(PropertyInfo propertyInfo in properties)\n      if (propertyInfo.PropertyType.ToString().Contains(\"_\"))\n      {\n         //I want to write the actual value of the property here!\n         string nested_property_value = ...\n         return nested_property_value;\n      }\n   }\n}\n</code></pre>\n\n<p>this is what my structs look like:</p>\n\n<pre><code> public struct tire\n {\n    public int id;\n }\n</code></pre>\n\n<p>this would be the Main Program:</p>\n\n<pre><code>tire mynewtire = new tire()\n{\n   id = 5\n};\n\ncar mynewcar = new car()\n{\n   _id = mynewtire\n};\n</code></pre>\n\n<p>Anyone has an idea how to create the GetAttributes-Methode? I've been trying to figure this out for ages now, but don't get there...</p>\n\n<p>I would be really grateful for every kind of help :)</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826355/how-to-get-property-that-is-a-class-itself-value-within-a-class-methode",
+  "owner" : {
+    "user_id" : 8231870,
+    "user_type" : "registered",
+    "display_name" : "FlixFix",
+    "profile_image" : "https://www.gravatar.com/avatar/e1a4bb520af2a8981a1049ed79aa3422?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8231870/flixfix",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742533,
+  "last_activity_date" : 1498742533,
+  "tags" : [
+    "c#"
+  ],
+  "score" : -1,
+  "view_count" : 5,
+  "answer_count" : 0
+}

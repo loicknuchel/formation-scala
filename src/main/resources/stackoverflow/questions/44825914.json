@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825914,
+  "title" : "How to show caret on active nav tab, also when hovered?",
+  "body" : "<p>Every thing is done, but i cant show caret at the bottom</p>\n\n<p><a href=\"https://i.stack.imgur.com/BReCi.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/BReCi.png\" alt=\"\"></a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44825914/how-to-show-caret-on-active-nav-tab-also-when-hovered",
+  "owner" : {
+    "user_id" : 6582990,
+    "user_type" : "registered",
+    "display_name" : "Muhammad Mohsin",
+    "profile_image" : "https://lh3.googleusercontent.com/-Z3hD9GFl_-Q/AAAAAAAAAAI/AAAAAAAAAOY/0Fq-UfArRTU/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/6582990/muhammad-mohsin",
+    "reputation" : 5,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741329,
+  "last_activity_date" : 1498741329,
+  "tags" : [
+    "jquery",
+    "html",
+    "css"
+  ],
+  "score" : -3,
+  "view_count" : 19,
+  "answer_count" : 0
+}

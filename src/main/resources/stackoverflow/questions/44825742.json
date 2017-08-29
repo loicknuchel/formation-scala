@@ -1,0 +1,28 @@
+{
+  "question_id" : 44825742,
+  "title" : "Not able to Send a request using python Module Requests",
+  "body" : "<p>This is my code </p>\n\n<pre><code>import requests \nimport sys\nimport re\nimport BeautifulSoup\nurl = \"https://www.asklaila.com/listing/Delhi-NCR/inder-lok/gagan-footwear/08ZhJ5dR/\"\n\nheaders = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}\n\nres = requests.get(url , headers)\n\nprint res.text\n</code></pre>\n\n<p>And When i am running this program , I am getting following Errors -</p>\n\n<pre><code>Traceback (most recent call last):\n  File \"final_crawl.py\", line 9, in &lt;module&gt;\n    res = requests.get(url , headers)\n  File \"/Library/Python/2.7/site-packages/requests-2.11.1-py2.7.egg/requests/api.py\", line 70, in get\n    return request('get', url, params=params, **kwargs)\n  File \"/Library/Python/2.7/site-packages/requests-2.11.1-py2.7.egg/requests/api.py\", line 56, in request\n    return session.request(method=method, url=url, **kwargs)\n  File \"/Library/Python/2.7/site-packages/requests-2.11.1-py2.7.egg/requests/sessions.py\", line 475, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"/Library/Python/2.7/site-packages/requests-2.11.1-py2.7.egg/requests/sessions.py\", line 596, in send\n    r = adapter.send(request, **kwargs)\n  File \"/Library/Python/2.7/site-packages/requests-2.11.1-py2.7.egg/requests/adapters.py\", line 497, in send\n    raise SSLError(e, request=request)\nrequests.exceptions.SSLError: (\"bad handshake: SysCallError(54, 'Connection reset by peer')\",)\n</code></pre>\n\n<p>I am using Mac OS X El Capitan v10.11.5 . Please Help as this is urgent .</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825742/not-able-to-send-a-request-using-python-module-requests",
+  "owner" : {
+    "user_id" : 8085643,
+    "user_type" : "registered",
+    "display_name" : "Archit Chauhan",
+    "profile_image" : "https://graph.facebook.com/635987503234410/picture?type=large",
+    "link" : "https://stackoverflow.com/users/8085643/archit-chauhan",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498740928,
+  "last_activity_date" : 1498740928,
+  "tags" : [
+    "ssl",
+    "get",
+    "request",
+    "web-crawler",
+    "python-requests"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

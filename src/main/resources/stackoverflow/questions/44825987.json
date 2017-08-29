@@ -1,0 +1,27 @@
+{
+  "question_id" : 44825987,
+  "title" : "How can I insert a text (string) into an ion-textarea?",
+  "body" : "<p>I've already tried this:</p>\n\n<p>example.html:</p>\n\n<pre><code>&lt;ion-textarea placeholder=\"Enter your thoughts\" type=\"text\"&gt;Test: {{ textboxContent }} &lt;/ion-textarea&gt;\n</code></pre>\n\n<p><br></p>\n\n<p>The string <code>textboxContent</code> is filled with <code>\"Test\"</code>.</p>\n\n<p>There is nothing in the textarea. Except for the placeholder, of course.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825987/how-can-i-insert-a-text-string-into-an-ion-textarea",
+  "owner" : {
+    "user_id" : 8214744,
+    "user_type" : "registered",
+    "display_name" : "MrFlyingToasterman",
+    "profile_image" : "https://i.stack.imgur.com/ldnm4.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/8214744/mrflyingtoasterman",
+    "reputation" : 15,
+    "accept_rate" : 100
+  },
+  "is_answered" : true,
+  "creation_date" : 1498741498,
+  "last_activity_date" : 1498742413,
+  "tags" : [
+    "android",
+    "typescript",
+    "ionic-framework",
+    "ionic3"
+  ],
+  "score" : 0,
+  "view_count" : 18,
+  "answer_count" : 1
+}

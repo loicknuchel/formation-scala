@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826518,
+  "title" : "Angular Material and Jasmine : &quot; No provider for InjectionToken MdDialogData! &quot;",
+  "body" : "<p>I have a component which is meant to be used in an Angular Material MdDialog :</p>\n\n<pre><code>@Component({\n  ...\n})\nexport class MyComponent {\n\n  constructor(@Inject(MD_DIALOG_DATA) public data: any, public dialogRef: \nMdDialogRef&lt;MyComponent&gt;) {\n...\n  }\n\n\n}\n</code></pre>\n\n<p>I am trying to Unit Test it with Jasmine :</p>\n\n<pre><code>describe('MyComponent', () =&gt; {\n  let component: MyComponent;\n  let fixture: ComponentFixture&lt;MyComponent&gt;;\n\n  beforeEach(async(() =&gt; {\n    TestBed.configureTestingModule({\n      imports: [\n        SharedTestingModule,\n      ],\n      declarations: [\n        MyComponent,\n      ],\n    })\n    .compileComponents();\n  }));\n\n  ...\n\n});\n</code></pre>\n\n<p>Unfortunately, I am getting the following error :</p>\n\n<blockquote>\n  <p>Error: No provider for InjectionToken MdDialogData!</p>\n</blockquote>\n\n<p>SharedTestingModule imports and exports my custom Angular Material module, which itself imports and exports MdDialogModule.</p>\n\n<p>How can I get rid of this error?</p>\n\n<p>Thank you very much!</p>\n\n<pre><code>Angular 4.2.4\nAngular Material 2.0.0-beta.7\nJasmine 2.5.3\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826518/angular-material-and-jasmine-no-provider-for-injectiontoken-mddialogdata",
+  "owner" : {
+    "user_id" : 4854974,
+    "user_type" : "registered",
+    "display_name" : "Wenneguen",
+    "profile_image" : "https://www.gravatar.com/avatar/ac6b00d503c4c89b185bf34c0fc87b34?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4854974/wenneguen",
+    "reputation" : 23,
+    "accept_rate" : 25
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742941,
+  "last_activity_date" : 1498743427,
+  "tags" : [
+    "angular",
+    "jasmine",
+    "angular-material",
+    "angular-material2",
+    "mddialog"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 1
+}

@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826387,
+  "title" : "UWP: Strange behavior of ImageProperties on the local machine and on the emulator",
+  "body" : "<p>I'm trying to get Exif information from JPG and CR2 files.</p>\n\n<pre><code>        var file1 = await StorageFile.GetFileFromApplicationUriAsync(new Uri(\"ms-appx:///Images/IMG_3163.JPG\"));\n        var file2 = await StorageFile.GetFileFromApplicationUriAsync(new Uri(\"ms-appx:///Images/IMG_3163.CR2\"));\n        await GetExifValues(file1);\n        await GetExifValues(file2);\n\n    public async Task GetExifValues(StorageFile file_)\n    {\n        ImageProperties props = await file_.Properties.GetImagePropertiesAsync();\n        var requests = new System.Collections.Generic.List&lt;string&gt;();\n        requests.Add(\"System.Photo.DateTaken\");\n        requests.Add(\"System.Photo.FNumber\");\n        requests.Add(\"System.Photo.ExposureTimeNumerator\");\n        requests.Add(\"System.Photo.ExposureTimeDenominator\");\n        requests.Add(\"System.Photo.ISOSpeed\");\n        requests.Add(\"System.Photo.Orientation\");\n\n        IDictionary&lt;string, object&gt; retrievedProps = await props.RetrievePropertiesAsync(requests);\n\n        Debug.WriteLine(\"Parsing Exif from: \" + file_.Path.ToString());\n\n        if (retrievedProps.ContainsKey(\"System.Photo.DateTaken\")) Debug.WriteLine(\"Exif_DateTaken: \" + (DateTimeOffset)retrievedProps[\"System.Photo.DateTaken\"]);\n        if (retrievedProps.ContainsKey(\"System.Photo.FNumber\")) Debug.WriteLine(\"Exif_FNumber: \" + (double)retrievedProps[\"System.Photo.FNumber\"]);\n        if (retrievedProps.ContainsKey(\"System.Photo.ExposureTimeNumerator\")) Debug.WriteLine(\"Exif_ExposureTimeNumerator: \" + (uint)retrievedProps[\"System.Photo.ExposureTimeNumerator\"]);\n        if (retrievedProps.ContainsKey(\"System.Photo.ExposureTimeDenominator\")) Debug.WriteLine(\"Exif_ExposureTimeDenominator: \" + (uint)retrievedProps[\"System.Photo.ExposureTimeDenominator\"]);\n        if (retrievedProps.ContainsKey(\"System.Photo.ISOSpeed\")) Debug.WriteLine(\"Exif_ISOSpeed: \" + (ushort)retrievedProps[\"System.Photo.ISOSpeed\"]);\n        if (retrievedProps.ContainsKey(\"System.Photo.Orientation\")) Debug.WriteLine(\"Exif_Orientation: \" + (ushort)retrievedProps[\"System.Photo.Orientation\"]);\n\n        Debug.WriteLine(\"_______________________________\");\n    }\n</code></pre>\n\n<p>When debugging on a local machine, everything works as it should:</p>\n\n<pre><code>Parsing Exif from: C:\\Data\\SharedData\\PhoneTools\\AppxLayouts\\72787847-7999-4ce9-8ad2-72f637364ff9VS.Debug_x86.smith\\Images\\IMG_3163.JPG\nExif_DateTaken: 6/19/2017 11:19:09 AM +03:00\nExif_FNumber: 2.8\nExif_ExposureTimeNumerator: 1\nExif_ExposureTimeDenominator: 250\nExif_ISOSpeed: 2000\nExif_Orientation: 1\n_______________________________\nParsing Exif from: C:\\Data\\SharedData\\PhoneTools\\AppxLayouts\\72787847-7999-4ce9-8ad2-72f637364ff9VS.Debug_x86.smith\\Images\\IMG_3163.CR2\nExif_DateTaken: 6/19/2017 11:19:09 AM +03:00\nExif_FNumber: 2.8\nExif_ExposureTimeNumerator: 1\nExif_ExposureTimeDenominator: 250\nExif_ISOSpeed: 2000\nExif_Orientation: 1\n_______________________________\n</code></pre>\n\n<p>But if it is run on a mobile emulator or on the phone, information is not extracted from the CR2 file.</p>\n\n<pre><code>    Parsing Exif from: C:\\Data\\SharedData\\PhoneTools\\AppxLayouts\\72787847-7999-4ce9-8ad2-72f637364ff9VS.Debug_x86.smith\\Images\\IMG_3163.JPG\n    Exif_DateTaken: 6/19/2017 11:19:09 AM +03:00\n    Exif_FNumber: 2.8\n    Exif_ExposureTimeNumerator: 1\n    Exif_ExposureTimeDenominator: 250\n    Exif_ISOSpeed: 2000\n    Exif_Orientation: 1\n    _______________________________\n    Parsing Exif from: C:\\Data\\SharedData\\PhoneTools\\AppxLayouts\\72787847-7999-4ce9-8ad2-72f637364ff9VS.Debug_x86.smith\\Images\\IMG_3163.CR2\n    ...results should be here...\n    _______________________________\n</code></pre>\n\n<p>Thus, the same simple code gives different results on the mobile emulator/device and on the local machine. What's wrong here? It seems the Universal Windows Platform is not so universal ...?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826387/uwp-strange-behavior-of-imageproperties-on-the-local-machine-and-on-the-emulato",
+  "owner" : {
+    "user_id" : 4348899,
+    "user_type" : "registered",
+    "display_name" : "Dmitry  Tsyganov",
+    "profile_image" : "https://graph.facebook.com/100005488213753/picture?type=large",
+    "link" : "https://stackoverflow.com/users/4348899/dmitry-tsyganov",
+    "reputation" : 43,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742621,
+  "last_activity_date" : 1498742621,
+  "tags" : [
+    "c#",
+    "image",
+    "image-processing",
+    "uwp"
+  ],
+  "score" : 1,
+  "view_count" : 7,
+  "answer_count" : 0
+}

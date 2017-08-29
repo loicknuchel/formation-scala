@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826248,
+  "title" : "ntlm not working properly in windows while using &quot;kerio&quot; control software for internet accounting with &quot;internet explorer&quot;",
+  "body" : "<p>i'v wrote a logon script wich does some functions in our network ,but when i want to open a internet website in my logon script ,it prompts for user name and password.but as we know,kerio uses ntlm for backgroud authentication and in our network it uses windows credential,so it have to be automated.please please help me ,note that this script workes properly with google chrome,but wen i use chrome ,it runs slower,but it works with windows ntlm,but being slow is not satisfying for us. will appreciate your kindness.<a href=\"https://i.stack.imgur.com/kXYzU.jpg\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/kXYzU.jpg\" alt=\"enter image description here\"></a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44826248/ntlm-not-working-properly-in-windows-while-using-kerio-control-software-for-in",
+  "owner" : {
+    "user_id" : 7949537,
+    "user_type" : "registered",
+    "display_name" : "PouriaJalilian",
+    "profile_image" : "https://i.stack.imgur.com/tU1FC.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/7949537/pouriajalilian",
+    "reputation" : 11,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742244,
+  "last_activity_date" : 1498742244,
+  "tags" : [
+    "internet-explorer",
+    "ntlmv2"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

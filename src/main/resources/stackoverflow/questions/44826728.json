@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826728,
+  "title" : "failing to connect to spark driver when submitting job to spark in yarn mode",
+  "body" : "<p>When I submit a spark job to the cluster it failed and gives me the following error in the log file:</p>\n\n<blockquote>\n  <p>Caused by: java.io.IOException: Failed to connect to /0.0.0.0:35994 at\n  org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:232)\n  at\n  org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:182)\n  at\n  org.apache.spark.rpc.netty.NettyRpcEnv.createClient(NettyRpcEnv.scala:197)\n  at org.apache.spark.rpc.netty.Outbox$anon$1.call(Outbox.scala:194) at\n  org.apache.spark.rpc.netty.Outbox$anon$1.call(Outbox.scala:190) at\n  java.util.concurrent.FutureTask.run(FutureTask.java:266) at\n  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n  at\n  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n  at java.lang.Thread.run(Thread.java:745)</p>\n</blockquote>\n\n<p>Which I guess means it failed to connect to the driver. I tried to increase \"spark.yarn.executor.memoryOverhead\" parameter but it doesn't work.</p>\n\n<p>This is the submit command I use:</p>\n\n<pre><code>/bin/spark-submit \\\n  --class example.Hello \\\n  --jars ... \\\n  --master yarn \\\n  --deploy-mode cluster \\\n  --supervise \\\n  --conf spark.yarn.driver.memoryOverhead=1024 ...(jar file path)\n</code></pre>\n\n<p>I am using HDP-2.6.1.0 and spark 2.1.1</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826728/failing-to-connect-to-spark-driver-when-submitting-job-to-spark-in-yarn-mode",
+  "owner" : {
+    "user_id" : 8232014,
+    "user_type" : "registered",
+    "display_name" : "tariq abughofa",
+    "profile_image" : "https://www.gravatar.com/avatar/7f3d9121ad66b537ce891ac6d9ea27af?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8232014/tariq-abughofa",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743445,
+  "last_activity_date" : 1498743630,
+  "tags" : [
+    "apache-spark",
+    "yarn"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

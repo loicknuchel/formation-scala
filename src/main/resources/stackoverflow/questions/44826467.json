@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826467,
+  "title" : "How to identify whether a project is managed c++ project or unmanaged c++ project",
+  "body" : "<p>I have some c++ projects where it consists of both managed and unmanaged c++ projects.</p>\n\n<p>How do I identify which project is managed c++ and which project is unmanaged c++ type.</p>\n\n<p>Along with above could someone brief me what exactly these managed and unmanaged c++ means.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826467/how-to-identify-whether-a-project-is-managed-c-project-or-unmanaged-c-projec",
+  "owner" : {
+    "user_id" : 2713353,
+    "user_type" : "registered",
+    "display_name" : "Siva",
+    "profile_image" : "https://www.gravatar.com/avatar/b1ac2661ae8385d6d7d6ce7d406e01f0?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/2713353/siva",
+    "reputation" : 189,
+    "accept_rate" : 33
+  },
+  "is_answered" : true,
+  "creation_date" : 1498742818,
+  "last_activity_date" : 1498743209,
+  "tags" : [
+    "c++",
+    "visual-c++"
+  ],
+  "score" : 0,
+  "view_count" : 22,
+  "answer_count" : 2
+}

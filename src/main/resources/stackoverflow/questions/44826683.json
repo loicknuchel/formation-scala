@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826683,
+  "title" : "Change frames.render in an object of type Image",
+  "body" : "<p>I have an object of type Image which I want to recreate using the <code>EBImage::image()</code> command, which looks like this:</p>\n\n<pre><code>&gt;im\nImage \ncolorMode    : Grayscale \nstorage.mode : double \ndim          : 5 5 3 \nframes.total : 3 \nframes.render: 3 \n\nimageData(object)[1:5,1:5,1]\n         [,1]        [,2]         [,3]         [,4]        [,5]\n[1,]  0.100877836 -0.06663118 -0.077078253 -0.083304137 -0.01695795\n[2,]  0.014971112  0.04688030 -0.082847044 -0.043261390 -0.08951215\n[3,]  0.090629555 -0.05716525 -0.013859576 -0.005152564 -0.06850447\n[4,]  0.071357347 -0.06264605 -0.041013584 -0.057845186 -0.10428081\n[5,] -0.002307055 -0.01245533 -0.003705411  0.049485780 -0.05529620\n</code></pre>\n\n<p>However, when I use the <code>image</code> command, I get the following warning:<br>\n<code>Missing frame index for an image stack, assuming 'i = 1'</code>\nand get an image for each color channel.</p>\n\n<p>How can I modify the <code>im</code> object to render it into a single image? </p>\n",
+  "link" : "https://stackoverflow.com/questions/44826683/change-frames-render-in-an-object-of-type-image",
+  "owner" : {
+    "user_id" : 4463286,
+    "user_type" : "registered",
+    "display_name" : "WitchKingofAngmar",
+    "profile_image" : "https://www.gravatar.com/avatar/2c45e935923039880aa2ac81d82291b1?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4463286/witchkingofangmar",
+    "reputation" : 56,
+    "accept_rate" : 14
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743332,
+  "last_activity_date" : 1498743332,
+  "tags" : [
+    "r",
+    "image-processing"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

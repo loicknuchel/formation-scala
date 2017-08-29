@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826003,
+  "title" : "RuntimeBeanReference set to a static field",
+  "body" : "<p>I have a class with a static field， and I want to set a bean reference which is created in Runtime to this field. It's how I write below.</p>\n\n<pre><code>@Service\npublic class Beauty extends Base{\n    public static staticService;\n\n    @Override\n    protected void initField() {\n        initBean()\n    }\n}\n\npublic class Base implements BeanFactoryAware, BeanFactoryPostProcessor {\n\n    private BeanFactory beanFactory;\n\n    private ConfigurableListableBeanFactory configurableListableBeanFactory;\n\n    protected void initBean(){\n        GenericBeanDefinition beanDefinition = new GenericBeanDefinition();\n        beanDefinition.setBeanClassName(\"com.StaticService\");\n        beanDefinition.setInitMethodName(\"init\");\n\n        MutablePropertyValues values = new MutablePropertyValues();\n        values.addPropertyValue(\"fieldA\", \"aValue\");\n        values.addPropertyValue(\"fieldB, \"bValue\");\n\n        beanDefinition.setPropertyValues(values);\n\n        String beanName = \"staticService\";\n        ((BeanDefinitionRegistry) beanFactory).registerBeanDefinition(beanName, beanDefinition);\n        String[] beanNames = BeanFactoryUtils.beanNamesForTypeIncludingAncestors(configurableListableBeanFactory, this.getClass());\n        if (null == beanNames || beanNames.length &gt; 1) {\n            throw new RuntimeException(\"error with multi client\");\n        }\n        BeanDefinition beautyBean = ((BeanDefinitionRegistry) beanFactory).getBeanDefinition(beanNames[0]);\n        beautyBean.getPropertyValues().addPropertyValue(new PropertyValue(staticService, new RuntimeBeanReference(beanName)));\n    }\n\n    @Override\n    public void setBeanFactory(BeanFactory beanFactory) throws BeansException {\n        this.beanFactory = beanFactory;\n    }\n\n    @Override\n    public void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException {\n        this.configurableListableBeanFactory = beanFactory;\n        initBean();\n    }\n\n    protected abstract void initField();\n}\n</code></pre>\n\n<p>But when I use Beauty. staticService then get null.How to make it work.</p>\n\n<p>BTW:As I want to get the staticService bean can be proxied, so I cannot use applicationContext.getBean to set to the field.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826003/runtimebeanreference-set-to-a-static-field",
+  "owner" : {
+    "user_id" : 1982676,
+    "user_type" : "registered",
+    "display_name" : "neptune",
+    "profile_image" : "https://i.stack.imgur.com/g9wUp.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/1982676/neptune",
+    "reputation" : 395,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741536,
+  "last_activity_date" : 1498741536,
+  "tags" : [
+    "java",
+    "spring"
+  ],
+  "score" : 0,
+  "view_count" : 15,
+  "answer_count" : 0
+}

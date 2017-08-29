@@ -1,0 +1,27 @@
+{
+  "question_id" : 44825943,
+  "title" : "Three.Js: drawImage cuts original png",
+  "body" : "<p>For instance I have a 301x278 png image and I want to draw it like this:</p>\n\n<pre><code>    var canvas2 = document.createElement('canvas');\n    var context2 = canvas2.getContext('2d');\n\n    var texture2 = new THREE.Texture(canvas2);\n\n    var material2 = new THREE.MeshBasicMaterial( {map: texture2, side:THREE.DoubleSide} );\n\n    var imageObj = new Image();\n    imageObj.src = \"test.png\";\n\n    imageObj.onload = function()\n    {\n        context2.drawImage(imageObj, 0, 0, 301, 278)\n    };\n\n    var mesh2 = new THREE.Mesh(\n        new THREE.PlaneGeometry(301, 278),\n        material2\n    );\n</code></pre>\n\n<p>But unfortunately only a half of the image is actually being displayed. How can I fix it?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825943/three-js-drawimage-cuts-original-png",
+  "owner" : {
+    "user_id" : 7166348,
+    "user_type" : "registered",
+    "display_name" : "vNottbeck",
+    "profile_image" : "https://www.gravatar.com/avatar/ce0591b9882555b412611fb8d0111152?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7166348/vnottbeck",
+    "reputation" : 7,
+    "accept_rate" : 75
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741402,
+  "last_activity_date" : 1498741402,
+  "tags" : [
+    "canvas",
+    "three.js",
+    "webgl",
+    "drawimage"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825854,
+  "title" : "VBA Excel Call and Run breaking backtracking",
+  "body" : "<p>I'm making a workbook with a whole lot of different subs, and in an effort to avoid a user accidentally activating a sub that erases the code of a sheet for example, I've tried making all the subs private instead.</p>\n\n<p>My subs can now only be activated by clicking buttons on the worksheet, and it all works as intended. Untill a sub of mine tries to call a private sub in another module of course. </p>\n\n<p>To get around this I used <code>Application.Run</code> rather than <code>Call</code>, which worked and also allows me to call in a variable \"NextSub\" from the previous sub, which gives me some flexibility that I need, and apparently cant get with the <code>Call</code>.</p>\n\n<p>Eg.</p>\n\n<pre><code>Sub FirstSub()\n*Something going on\nApplication.Run \"SecondSub\", SomeVariableSub\nEnd sub\n\nSub SecondSub(Nextsub as String)\nIf something Then\n   *Do something\n   Application.Run NextSub\nElse\n   Application.Run NextSub\n</code></pre>\n\n<p>I thought that the <code>Application.Run</code> had solved all my problems, but I used to have a line that called an errorhandler, which in turn called a sub. It seems that the program can no longer backtrack to the sub that contained the errorhandler as it could when I used <code>Call</code>.</p>\n\n<p>Does <code>Applciation.Run</code> break this functionality? If yes, can I then use <code>Call</code> with a variable NextSub as I am doing it now? And if I can't use the <code>Call</code> that way, then is all this fixed by adding a <code>On Error GoTo ErrorHandler</code> in the affected subs?</p>\n\n<p>I know that the whole thing about calling Private Subs across modules is probably pretty bad practice, but I was compltely new to this when I started out, and the project is too extensive to fix that without rewriting all of the code.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825854/vba-excel-call-and-run-breaking-backtracking",
+  "owner" : {
+    "user_id" : 7780010,
+    "user_type" : "registered",
+    "display_name" : "Christian Emil Johansen",
+    "profile_image" : "https://lh6.googleusercontent.com/-uAl_ULgtlHc/AAAAAAAAAAI/AAAAAAAAAbk/DqZTTAJirE8/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/7780010/christian-emil-johansen",
+    "reputation" : 68,
+    "accept_rate" : 100
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741179,
+  "last_activity_date" : 1498743887,
+  "tags" : [
+    "excel",
+    "vba",
+    "excel-vba"
+  ],
+  "score" : 1,
+  "view_count" : 15,
+  "answer_count" : 2
+}

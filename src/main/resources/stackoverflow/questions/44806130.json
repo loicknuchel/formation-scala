@@ -1,0 +1,26 @@
+{
+  "question_id" : 44806130,
+  "title" : "Sending to Email to multiple alias of the same address/account",
+  "body" : "<p>I am using Office 365 with Office 2013....</p>\n\n<p>I have a work order system (Spiceworks) and have multiple aliases created for a single account and rules set up that will automatically assign and categorize emails as they arrive based on who the email was addressed to (i.e. maintenance, IT...) and it works great if you are outside the organization.  However for internal staff (staff with the same domain name), it appears that Outlook recognizes that it is an alias and will resolve the address typed to a previously used address...\nBasically, no matter which alias you use, it always resolves to the same address, but not the same for everyone user.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806130/sending-to-email-to-multiple-alias-of-the-same-address-account",
+  "owner" : {
+    "user_id" : 8226749,
+    "user_type" : "registered",
+    "display_name" : "Boudie",
+    "profile_image" : "https://www.gravatar.com/avatar/9db9e70f20f8746de8b1e3d60721e9e6?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8226749/boudie",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661947,
+  "last_activity_date" : 1498661947,
+  "tags" : [
+    "email",
+    "office365",
+    "outlook-2013"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

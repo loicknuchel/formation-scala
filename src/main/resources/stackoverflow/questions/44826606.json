@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826606,
+  "title" : "fail to set tag in find results",
+  "body" : "<p>i've got an applescript to create a note that works:</p>\n\n<pre><code>tell application \"Evernote\"\n  set matches to find notes \"intitle:\\\"failing ticket\\\"\"\n  if matches = {}\n    set note1 to create note title \"failing ticket\" with text \"text\"\n  end if\nend tell\n</code></pre>\n\n<p>and another one to set the tag of that ticket</p>\n\n<pre><code>tell application \"Evernote\"\n  set myNotes to find notes \"failing ticket\"\n  assign tag \"awesome\" to myNotes\n  set myNote to item 1 of myNotes\n  open note window with myNote -- the note opens successfully but without a tag\n  activate\nend\n</code></pre>\n\n<p>I execute the first script to create the note and everything is all right.\nWhen im executing script number two, im getting this error</p>\n\n<pre><code>278:313: execution error: Evernote got an error: Can’t get note id \"x-coredata://4A870B3B-A9F5-4F93-A82A-5715CD9C0BF8/ENNote/p11497\" of notebook \"notebood\". (-1728)\n</code></pre>\n\n<p>I've gotten the code from the <a href=\"https://dev.evernote.com/doc/articles/applescript.php\" rel=\"nofollow noreferrer\">official applescript guide</a> but i still can't get it to work.</p>\n\n<p>Am I missing something ?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826606/fail-to-set-tag-in-find-results",
+  "owner" : {
+    "user_id" : 2599522,
+    "user_type" : "registered",
+    "display_name" : "user2599522",
+    "profile_image" : "https://i.stack.imgur.com/J8dMV.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/2599522/user2599522",
+    "reputation" : 760,
+    "accept_rate" : 67
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743150,
+  "last_activity_date" : 1498743150,
+  "tags" : [
+    "applescript",
+    "evernote"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

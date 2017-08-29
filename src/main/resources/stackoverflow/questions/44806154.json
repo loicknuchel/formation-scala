@@ -1,0 +1,25 @@
+{
+  "question_id" : 44806154,
+  "title" : "re-establish relationship link",
+  "body" : "<p>So I had an issue/problem that is detailed here (<a href=\"https://stackoverflow.com/questions/44269792/sorting-error-in-one-field-of-report]\">Sorting error in one field of Report</a>), which leads to my current problem.</p>\n\n<p>I have two tables (Owners and Boats) that were once joined in a relationship via the fields Boat_Owner – (number field on Boat Table) and Owner_ID - (Primary Key  autonumber on Owner Table).   Due to a problem the data type in the number field on Boat Table has been changed from number to short text.  </p>\n\n<p>So now the relationship is no longer working and as a result I’m getting the ‘data type mismatch’ error.  </p>\n\n<p>Both tables are intact with table Boat having 355 unique entries and table Owner having 295 unique entries, some owners own more than one boat.  The autonumber ID’s are still intact in both tables so for example I know that Boat 401 finds its ownership with Owner 33.  Unfortunately I cannot figure out how to re-establish the table relationships due to the aforementioned field data type issue.  </p>\n\n<p>I’m thinking I can run an append query to re-establish the owner_ID field into the Boat table as a number field. </p>\n\n<p>From this point I’m going to manually enter all of the owner_ID.  Far from desirable as there are 295 of them.   I have been using excel to match the two tables on one spreadsheet but I’m open to suggestions if someone has a better procedure.</p>\n\n<p>If it does work my thought is I could then re-establish the relationship between the two tables.</p>\n\n<p>I’m not sure if I am going about this the best way, or even if this is the correct way to go about this.</p>\n\n<p>If anyone has input I’m open to suggestions.  I’ll post my progress if there is some.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806154/re-establish-relationship-link",
+  "owner" : {
+    "user_id" : 7710797,
+    "user_type" : "registered",
+    "display_name" : "DHPA",
+    "profile_image" : "https://www.gravatar.com/avatar/d1e9c689311e1325e2c4b7c57139ff7e?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7710797/dhpa",
+    "reputation" : 6,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498662001,
+  "last_activity_date" : 1498662001,
+  "tags" : [
+    "ms-access",
+    "ms-access-2010"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

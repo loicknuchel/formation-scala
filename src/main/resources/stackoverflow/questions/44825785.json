@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825785,
+  "title" : "Observable abort or not?",
+  "body" : "<p>If I have one http observable method and is called two times in one second, will the second call abort the first one automatically or do I have to use unsubscribe on the first http call to stop it?</p>\n\n<p>This is to limit the http calls in a google map where I run a http call every time there is a zoom, in mobile can happen that the zoom is zoomed out more than once in a short period of time.</p>\n\n<pre><code>getClusters(params) {\n    if(this.ajaxCall) {\n      this.ajaxCall.unsubscribe();\n    }\n    this.ajaxCall = this.http\n      .post(`${LOCAL_URL}/getClusters`, params)\n      .subscribe((response: Response) =&gt; {\n        response.json();\n      });\n      return this.ajaxCall;\n  }\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44825785/observable-abort-or-not",
+  "owner" : {
+    "user_id" : 7783007,
+    "user_type" : "registered",
+    "display_name" : "Franco Coronel",
+    "profile_image" : "https://www.gravatar.com/avatar/b70674f2ff4cb03743b310f2c4d966e1?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7783007/franco-coronel",
+    "reputation" : 6,
+    "accept_rate" : null
+  },
+  "is_answered" : true,
+  "creation_date" : 1498741025,
+  "last_activity_date" : 1498742714,
+  "tags" : [
+    "angular",
+    "ionic2"
+  ],
+  "score" : 1,
+  "view_count" : 19,
+  "answer_count" : 1
+}

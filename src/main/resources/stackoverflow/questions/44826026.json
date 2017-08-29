@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826026,
+  "title" : "WHMCS 7.2: RewriteRule doesn&#39;t work",
+  "body" : "<p>Problem start when I upgraded WHMCS from 6.3 to 7.2. All my rewriterules working except this one:</p>\n\n<pre><code>RewriteRule ^en/$ index.php?language=english  [NC,L,QSA]\n</code></pre>\n\n<p>I can open page <code>www.example.com/index.php?language=english</code> wthout problem.</p>\n\n<p>But when I try to open <code>www.example.com/en/</code> I get <code>404 error</code></p>\n\n<p>WHMCS has poor language handling and this was my way fixing this. It used to work great under v6.3 but not under v7.2.\nI have asked on WHMCS forum but had no answer. I asked WHMCS directly but they said this is third party modyfication and they not support that. \nYou are my last hope!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826026/whmcs-7-2-rewriterule-doesnt-work",
+  "owner" : {
+    "user_id" : 1577365,
+    "user_type" : "registered",
+    "display_name" : "Solver",
+    "profile_image" : "https://www.gravatar.com/avatar/74068443147954d9fdd9b4d614936a42?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1577365/solver",
+    "reputation" : 54,
+    "accept_rate" : 52
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741590,
+  "last_activity_date" : 1498741590,
+  "tags" : [
+    ".htaccess",
+    "url-rewriting",
+    "http-status-code-404",
+    "whmcs"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

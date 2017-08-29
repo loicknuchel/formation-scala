@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825949,
+  "title" : "Jquery UI Datepicker, beforeShowDay error",
+  "body" : "<p>I am trying to add days to disable from the server. This is my code so far:</p>\n\n<pre><code> $(\"#startDatePicker\").datepicker({\n        minDate: '+31',\n        maxDate: '+12M',\n        changeMonth: true,\n        showAnim: 'blind',\n        dateFormat: 'yy mm dd',           \n        onSelect: function(dateText, inst) {\n\n            // Capture the Date from User Selection\n            var oldDate = new Date(dateText);\n            var newDate = new Date(dateText);\n\n            // Compute the Future Limiting Date\n            newDate.setDate(newDate.getDate() + 365);\n\n\n            // Set the Widget Properties\n            $(\"#endDatePicker\").datepicker('option', 'minDate', oldDate);\n            $(\"#endDatePickerto\").datepicker('option', 'maxDate', newDate);\n\n        }\n    });\n\n    $(\"#endDatePicker\").datepicker({\n        minDate: '+5',\n        maxDate: '+12M',\n        changeMonth: true,\n        showAnim: 'blind',\n        dateFormat: 'yy mm dd',\n        onSelect: function(dateText, inst) {\n\n            // Capture the Date from User Selection\n            var endDate = new Date(dateText);\n            var startDate = new Date(dateText);\n\n            // Compute the Future Limiting Date\n            startDate.setDate(startDate.getDate() - 5);\n\n            // Set the Widget Properties\n            $(\"#startDatePicker\").datepicker('option', 'minDate', startDate);\n            $(\"#startDatePicker\").datepicker('option', 'maxDate', endDate);\n\n        }\n\n    });\n</code></pre>\n\n<p>The picker works fine until i add days to disable. I parse it from a viewbag. Here is the code.</p>\n\n<pre><code>var NewArray = [];\nvar array = @Html.Raw(Json.Encode((@ViewBag.GetDates)));\nfor (var i = 0; i &lt; array.length; i++) {\n    NewArray[i] = array[i];\n    console.log(NewArray);\n\n}\nvar parsedDates = [];\nfor (var i = 0; i &lt; array.length; i++) {\n    var d = array[i];\n    var unix = +d.replace(/\\D/g, '');\n    var date = new Date(unix);\n    var desDate = date.getFullYear() + '/' + (date.getMonth() + 1) + '/' + date.getDate();\n    parsedDates.push(desDate);\n}\nconsole.log(parsedDates);\n</code></pre>\n\n<p>and I add the dates like this to the picker:</p>\n\n<pre><code>beforeShowDay: function (date) {\n            var string = jQuery.datepicker.formatDate('yy mm dd', date);\n            return [parsedDates.indexOf(string) === -1];\n        }\n</code></pre>\n\n<p>The picker looks like this when everything is added:\n<a href=\"https://i.stack.imgur.com/dHDYj.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/dHDYj.png\" alt=\"enter image description here\"></a></p>\n\n<p>What I am doing wrong.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825949/jquery-ui-datepicker-beforeshowday-error",
+  "owner" : {
+    "user_id" : 6804444,
+    "user_type" : "registered",
+    "display_name" : "AllramEst",
+    "profile_image" : "https://lh4.googleusercontent.com/-Fg_s8dLyQyo/AAAAAAAAAAI/AAAAAAAAFuY/8V-ab9O_mkw/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/6804444/allramest",
+    "reputation" : 70,
+    "accept_rate" : 60
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741420,
+  "last_activity_date" : 1498743000,
+  "tags" : [
+    "c#",
+    "json",
+    "jquery-ui-datepicker"
+  ],
+  "score" : 0,
+  "view_count" : 15,
+  "answer_count" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826550,
+  "title" : "Emacs bad auto indent on Debian 9",
+  "body" : "<p>I've installed a fresh Debian 9 Stretch and Emacs GNU Emacs 24.5.1and when i tried to paste a docker-compose.yml from github (raw mode) into a emacs file with or without an extension (yml, conf, etc...) there is no auto indent and this is what I have:</p>\n\n<p><a href=\"https://i.stack.imgur.com/wWHwZ.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/wWHwZ.png\" alt=\"enter image description here\"></a></p>\n\n<p>There is my <code>.emacs</code> file</p>\n\n<pre><code>(setq-default indent-tabs-mode nil)\n(setq-default tab-width 4)\n(setq c-basic-offset 4)\n\n(custom-set-variables\n ;; custom-set-variables was added by Custom.\n ;; If you edit it by hand, you could mess it up, so be careful.\n ;; Your init file should contain only one such instance.\n ;; If there is more than one, they won't work right.\n '(tab-stop-list (quote (4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120))))\n</code></pre>\n\n<p>and this is the link to the file <a href=\"https://raw.githubusercontent.com/plexinc/pms-docker/master/docker-compose-bridge.yml.template\" rel=\"nofollow noreferrer\">https://raw.githubusercontent.com/plexinc/pms-docker/master/docker-compose-bridge.yml.template</a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44826550/emacs-bad-auto-indent-on-debian-9",
+  "owner" : {
+    "user_id" : 1893220,
+    "user_type" : "registered",
+    "display_name" : "florian-do",
+    "profile_image" : "https://i.stack.imgur.com/BNBln.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/1893220/florian-do",
+    "reputation" : 364,
+    "accept_rate" : 83
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742994,
+  "last_activity_date" : 1498742994,
+  "tags" : [
+    "emacs",
+    "debian",
+    "indentation",
+    "auto-indent"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

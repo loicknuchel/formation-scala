@@ -1,0 +1,27 @@
+{
+  "question_id" : 44825808,
+  "title" : "Generate phd html site using bookdown output from latex file",
+  "body" : "<p>Hum, i trying to understand how R Bookdown generate different html output to migrate easily my phd actually in latex on a html website. </p>\n\n<pre><code>\\usepackage[backend=biber,backref=true, natbib=true, isbn=false, doi=true, url=true, style=authoryear,maxcitenames=1, maxbibnames=999, sorting=nyt, refsection=chapter, hyperref]{biblatex}\n</code></pre>\n\n<p>As you can see, my thesis use biblatex with biber and natbib which permit me to use <code>\\autocite</code> and <code>\\autocites</code> command. I try multiple configuration to reuse this type of citation directly in markdown (and not [@key] or @key citation), without success.</p>\n\n<p>I start with simple things in index.Rmd : </p>\n\n<pre><code>--- \ntitle: \"A Minimal Book Example\"\nauthor: \"Yihui Xie\"\ndate: \"`r Sys.Date()`\"\nsite: bookdown::bookdown_site\noutput: bookdown::gitbook\ndocumentclass: book\nbibliography: [these.bib]\nbiblio-style: apalike\nlatex_engine: xelatex\ncitation_package: natbib\nlink-citations: yes\ngithub-repo: rstudio/bookdown-demo\ndescription: \"This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook.\"\n---\n\n# Introduction\n\ntest my citation with \\autocite{Pumain1997}.\n</code></pre>\n\n<p><code>these.bib</code> contain this simple citation : </p>\n\n<pre><code>@article{Pumain1997,\nauthor = {Pumain, Denise},\ndoi = {10.3406/spgeo.1997.1063},\nissn = {0046-2497},\njournal = {Espace g\\'{e}ographique},\nnumber = {2},\npages = {119--134},\ntitle = {{Pour une th\\'{e}orie \\'{e}volutive des villes}},\nurl = {http://www.persee.fr/web/revues/home/prescript/article/spgeo\\_0046-2497\\_1997\\_num\\_26\\_2\\_1063},\nvolume = {26},\nyear = {1997}\n}\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44825808/generate-phd-html-site-using-bookdown-output-from-latex-file",
+  "owner" : {
+    "user_id" : 385881,
+    "user_type" : "registered",
+    "display_name" : "reyman64",
+    "profile_image" : "https://www.gravatar.com/avatar/8efbecf0936eecea60da339fe33d3308?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/385881/reyman64",
+    "reputation" : 12,
+    "accept_rate" : 81
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741084,
+  "last_activity_date" : 1498741084,
+  "tags" : [
+    "r",
+    "latex",
+    "rstudio",
+    "bookdown"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 0
+}

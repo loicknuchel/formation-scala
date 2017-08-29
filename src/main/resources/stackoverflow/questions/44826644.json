@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826644,
+  "title" : "Laravel - changing object attributes not working",
+  "body" : "<p>I am trying to change the attributes of an object that I am returning as a json response from the function. This is the piece of code where I do that:</p>\n\n<pre><code>if ($item-&gt;post_title == '') {\n     $post = $this-&gt;findPostId($item);\n     $item-&gt;post_title = $post-&gt;post_title;\n     $item-&gt;url = $post-&gt;guid;\n     $item-&gt;slug = $post-&gt;slug;\n     $item-&gt;setAttribute('post_id', $post-&gt;ID);\n} \n</code></pre>\n\n<p>What I don't understand is why am I able to change the <code>post_title</code> attribute and set the attribute <code>post_id</code>, but not able to change the <code>url</code> and <code>slug</code> attributes. I have checked both <code>post-&gt;guid</code> and <code>post-&gt;slug</code> attributes and I get values for both of them, but the <code>item</code> object properties are not changed?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826644/laravel-changing-object-attributes-not-working",
+  "owner" : {
+    "user_id" : 7071069,
+    "user_type" : "registered",
+    "display_name" : "Leff",
+    "profile_image" : "https://www.gravatar.com/avatar/e48dc1bd8c3adc24506f641ea5310a63?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7071069/leff",
+    "reputation" : 279,
+    "accept_rate" : 52
+  },
+  "is_answered" : true,
+  "creation_date" : 1498743264,
+  "last_activity_date" : 1498743694,
+  "tags" : [
+    "php",
+    "laravel"
+  ],
+  "score" : 1,
+  "view_count" : 22,
+  "answer_count" : 1
+}

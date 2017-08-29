@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826842,
+  "title" : "Form input to build string of object calls on submit",
+  "body" : "<p>I am building a form where the values will build an array of calls to an object. The object call generates an image URL using the thumbor image processing service.</p>\n\n<p><strong>Goal: Build an <code>$obj -&gt; methodOne() -&gt; methodTwo();</code> query using a html form and output the response with ajax.</strong></p>\n\n<p>A typical <strong>PHP Object Call</strong> would look like this:</p>\n\n<pre><code>echo $thumbnailUrlFactory\n    -&gt; url('http://example.com/image.jpg')\n    -&gt; fitIn('500', '400')\n    -&gt; addFilter('Brightness', '70')\n    -&gt; smartCrop('True');\n</code></pre>\n\n<p>The output would look something like:\n<code>http://myserver.com/SECURITY_HASH_STRING/500x400/filters:brightness(70)/smart/http://example.com/image.jpg</code></p>\n\n<p><strong>HTML FORM</strong></p>\n\n<pre><code>&lt;form&gt;\n    &lt;input type=\"text\" name=\"image_url\"&gt; &lt;!-- Value: http://example.com/image.jpg --&gt;\n    &lt;input type=\"text\" name=\"fit_in\"&gt; &lt;!-- Value: '500', '200' --&gt;\n    &lt;input type=\"text\" name=\"filters['brightness']['value']\"&gt; &lt;!-- Value: 70 --&gt;\n    &lt;input type=\"text\" name=\"filters['contrast']['value']\"&gt; &lt;!-- Value: 40 --&gt;\n    &lt;button type=\"submit\"&gt;Submit&lt;/button&gt;\n&lt;/form&gt;\n</code></pre>\n\n<p>The important thing to note is there is roughly 30 different filters and 8 different crop types. I cannot just build a php call that calls every possible option as it would override some other calls.</p>\n\n<p>My form will display the URL and fit in input fields on load.\nI then have a button to add additional pairs of fields: one 'filter name' and one 'filter value'.</p>\n\n<p>What is the best way to approach this??</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826842/form-input-to-build-string-of-object-calls-on-submit",
+  "owner" : {
+    "user_id" : 2476046,
+    "user_type" : "registered",
+    "display_name" : "Luke Cottingham",
+    "profile_image" : "https://www.gravatar.com/avatar/9d487ec7c6177c892c4dc6830ac95c7d?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/2476046/luke-cottingham",
+    "reputation" : 144,
+    "accept_rate" : 56
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743719,
+  "last_activity_date" : 1498743719,
+  "tags" : [
+    "php",
+    "html",
+    "forms"
+  ],
+  "score" : 0,
+  "view_count" : 17,
+  "answer_count" : 0
+}

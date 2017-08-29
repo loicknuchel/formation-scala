@@ -1,0 +1,24 @@
+{
+  "question_id" : 44825968,
+  "title" : "How to access the baseline comparison results in IBM Rational Doors from scripts?",
+  "body" : "<p>The background to the question is, that I would like to create software change requests from Doors requirement changes.</p>\n\n<p>For this I have to get the differences of requirements between two user selectable baselines of a module in a human readable format.</p>\n\n<p>In the GUI I use the \"Baseline Compare\" function.</p>\n\n<p>How can I access these results from a script (inside or outside of Doors) in a structured format?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825968/how-to-access-the-baseline-comparison-results-in-ibm-rational-doors-from-scripts",
+  "owner" : {
+    "user_id" : 1950725,
+    "user_type" : "registered",
+    "display_name" : "Torsten Knodt",
+    "profile_image" : "https://i.stack.imgur.com/VcPW6.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/1950725/torsten-knodt",
+    "reputation" : 39,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741464,
+  "last_activity_date" : 1498741464,
+  "tags" : [
+    "doors"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

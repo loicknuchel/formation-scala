@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826709,
+  "title" : "Creating a 3D model using a Stereo Lens",
+  "body" : "<p>I have a Stereo Clip-on Lens that could fit in a mobile phone. It gives me a stereo image of the object that I capture.\nHowever, is it possible to generate a 3D model with the stereo images? \nCan I use the focal length of the camera and use some lasers to extract images exactly at the focal distance of the lens to provide a meaningful depth information?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826709/creating-a-3d-model-using-a-stereo-lens",
+  "owner" : {
+    "user_id" : 6623142,
+    "user_type" : "registered",
+    "display_name" : "Praveen",
+    "profile_image" : "https://www.gravatar.com/avatar/c9e2e63e2f92458b1a497c2673d922a7?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/6623142/praveen",
+    "reputation" : 32,
+    "accept_rate" : 62
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743396,
+  "last_activity_date" : 1498743396,
+  "tags" : [
+    "3d",
+    "computer-vision",
+    "stereo-3d",
+    "stereoscopy",
+    "photogrammetry"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

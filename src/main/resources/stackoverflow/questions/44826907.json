@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826907,
+  "title" : "Angular 2 - Error no value accessor for form control with name",
+  "body" : "<p>I am using Ionic 2 framework, trying to retrieve data from a local host using php, and display on application. I am able to fetch the data from database for my first page(listingPage), however, when it comes to the second page(StoreInfoPage), I receieve the Error: no value accessor for form control with name. I'm not really sure which part did I do wrong.</p>\n\n<p>In addition, I only plan to display the data, there should not be any update/delete/insert. I'm not sure whether I'm doing it the right way, appreciate any help and suggestions given.</p>\n\n<p><strong>listing.html</strong></p>\n\n<pre><code>  &lt;ion-item *ngFor=\"let listing of listings\"&gt;\n&lt;ion-avatar item-start&gt;\n  &lt;img height=\"60\" width=\"60\" src=\"xxx.jpg\"&gt;\n&lt;/ion-avatar&gt;\n  &lt;h2 class=\"payment_color\"&gt;{{ listing.ListingTitle }}&lt;/h2&gt;\n  &lt;p&gt;{{ listing.ListingDate }} {{ listing.ListingTime }}&lt;/p&gt;\n&lt;ion-note item-end&gt;  \n&lt;p&gt;&lt;button (click)=\"viewEntry({ record: listing })\" ion-button color=\"danger\"&gt;Apply&lt;/button&gt;&lt;/p&gt;\n  &lt;/ion-note&gt;\n&lt;/ion-item&gt;\n</code></pre>\n\n<p><strong>listing.ts</strong></p>\n\n<pre><code>import { Component } from '@angular/core';\nimport { NavController,ModalController } from 'ionic-angular';\nimport { ActionSheetController } from 'ionic-angular';\nimport { Http } from '@angular/http';\nimport 'rxjs/add/operator/map';\n\n@Component({\nselector: 'page-list',\ntemplateUrl: 'listview.html'\n})\n\nexport class ListPage {\n\npublic listings : any = [];\n\nconstructor(public navCtrl: NavController, \npublic actionSheetCtrlCat: ActionSheetController, \npublic actionSheetCtrljob_type: ActionSheetController,\npublic actionSheetCtrlLoc: ActionSheetController,\npublic actionSheetCtrlSal: ActionSheetController,\npublic modalCtrl: ModalController,\npublic http: Http\n){}\n\nionViewWillEnter(){\nthis.load();\n}\n\nload()\n{\nthis.http.get('http://localhost/php-mysql/retrieve-\ndata.php')\n.map(res =&gt; res.json())\n.subscribe(data =&gt;\n{\n   this.listings = data;\n});\n}\n\nviewEntry(param)\n{\n  this.navCtrl.push('StoreInfoPage', param);\n}\n</code></pre>\n\n<p><strong>storeInfo.html</strong></p>\n\n<p></p>\n\n<pre><code>&lt;ion-row&gt;\n&lt;ion-card&gt;\n  &lt;img src=\"xxx.jpg\"&gt;\n  &lt;div class=\"card-title\"&gt;xxx&lt;/div&gt;\n  &lt;div class=\"card-subtitle\"&gt;xxx&lt;/div&gt;\n&lt;/ion-card&gt;\n&lt;/ion-row&gt;\n\n&lt;ion-row&gt;\n&lt;ion-col col-12 text-center &gt;\n &lt;p formControlName=\"ListingDate\" [(ngModel)]=\"ListingDate\"&gt; xxx&lt;/p&gt;\n &lt;p&gt;xxx&lt;/p&gt;\n  &lt;/ion-col&gt;\n&lt;/ion-row&gt;\n\n&lt;ion-row&gt;\n&lt;ion-col col-12&gt;\n  &lt;h6&gt;xxx&lt;/h6&gt;\n  &lt;p&gt; xxx&lt;/p&gt;\n  &lt;/ion-col&gt;\n&lt;/ion-row&gt;\n\n &lt;div text-center&gt;\n &lt;button fab-center ion-button color=\"primary\" \n (click)=\"applyAlert()\"&gt;\n  Apply\n &lt;/button&gt;\n&lt;/div&gt;\n\n&lt;/form&gt;\n</code></pre>\n\n<p><strong>storeInfo.ts</strong></p>\n\n<pre><code>import { Component } from '@angular/core';\nimport { IonicPage, NavController, \nNavParams,ViewController,AlertController,ToastController } from ' \nionic-angular';\nimport { Http, Headers, RequestOptions } from '@angular/http';\nimport 'rxjs/add/operator/map';\nimport { FormGroup, Validators, FormBuilder } from '@angular/forms';\n\n@IonicPage()\n@Component({\nselector: 'page-store-info',\ntemplateUrl: 'store-info.html',\n})\n\nexport class StoreInfoPage {\npublic ListingDate     : any;\npublic form            : FormGroup;\n\nconstructor(public navCtrl: NavController, \npublic navParams  : NavParams,\npublic viewCtrl   : ViewController,\npublic alertCtrl  : AlertController,\npublic http       : Http,\npublic NP         : NavParams,\npublic fb         : FormBuilder,\n) {\n\n  this.form = fb.group({\n     \"ListingDate\"  : [\"\", Validators.required],\n  });   \n\n}\n\n  ionViewWillEnter()\n  {\n     this.NP.get(\"record\");\n  }\n\n  selectEntry(listing)\n  {\n  this.ListingDate           = listing.ListingDate;\n  }\n  }\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826907/angular-2-error-no-value-accessor-for-form-control-with-name",
+  "owner" : {
+    "user_id" : 5860143,
+    "user_type" : "registered",
+    "display_name" : "Chen Jian",
+    "profile_image" : "https://graph.facebook.com/950415895038578/picture?type=large",
+    "link" : "https://stackoverflow.com/users/5860143/chen-jian",
+    "reputation" : 62,
+    "accept_rate" : 86
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743853,
+  "last_activity_date" : 1498743853,
+  "tags" : [
+    "http",
+    "ionic2",
+    "angular2-forms"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

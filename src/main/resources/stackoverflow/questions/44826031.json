@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826031,
+  "title" : "How to plot Pandas multilabel data scatterplots in Seaborn using facetgrid?",
+  "body" : "<p>I have a dataset which have multiple labels. I want to create a Facetgrid of scatterplots using Pandas and Seaborn. In addition this dataset has different origin which I also want to compare. (For example, this could be the prediction of different ML algorithms and the true labeling in two plots side by side). The plot I want is something like this with room for more methods and labelings:</p>\n\n<p><a href=\"https://i.stack.imgur.com/B5yWh.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/B5yWh.png\" alt=\"enter image description here\"></a></p>\n\n<p>Here the right column is the first labeling and the left is the second.</p>\n\n<p>Currently my Pandas dataframe looks like this: l1, l2, method, x, y. Where l1 and l2 are the different labelings. I can plot one column using the following code: </p>\n\n<pre><code>g = sns.FacetGrid(df, row='method', hue='l1')\ng.map(plt.scatter, 'x', 'y')\nsns.plt.show()\n</code></pre>\n\n<p>But how do I get the second column? The intuitive thing would be to have the hue parameter be a list but that doesn't work.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826031/how-to-plot-pandas-multilabel-data-scatterplots-in-seaborn-using-facetgrid",
+  "owner" : {
+    "user_id" : 27943,
+    "user_type" : "registered",
+    "display_name" : "Reed Richards",
+    "profile_image" : "https://www.gravatar.com/avatar/25d1d53d9c26219cf47bd802d444f7a8?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/27943/reed-richards",
+    "reputation" : 1476,
+    "accept_rate" : 88
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741600,
+  "last_activity_date" : 1498743847,
+  "tags" : [
+    "python",
+    "pandas",
+    "scatter-plot",
+    "seaborn"
+  ],
+  "score" : 0,
+  "view_count" : 13,
+  "answer_count" : 1
+}

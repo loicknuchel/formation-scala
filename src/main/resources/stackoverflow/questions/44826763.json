@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826763,
+  "title" : "VBA searching sheets for value and write them to cell",
+  "body" : "<p>I tried a lot but i cant find the mistake. I'm quite sure that it is just a small one....</p>\n\n<p>I want to search a specific column of all of the sheets except the \"Fileupload\" sheet for a value which is in the Fileupload sheet. If it is in a specific range  the value should be written in a cell.\nIt throws the object variable or with-blockvariable not determined error. Or it breaks down.....</p>\n\n<p>Sub forEachWs()</p>\n\n<p>Dim ws As Worksheet</p>\n\n<pre><code>    Dim FileUpload As Worksheet\n\n    cntsheet = 0\n    For Each ws In ActiveWorkbook.Worksheets\n        If ws.Name &lt;&gt; \"FileUpload\" Then\n            For i = 1 To ws.Range(\"A3\").End(xlDown).Row\n                For j = 1 To worksheets(\"FileUpload\").Range(\"E9\").End(xlDown).Row\n                    If ws.Cells(1, 2 + i).Value &lt; ((FileUpload.Cells(5, j + 8).Value) + (FileUpload.Cells(3, 5).Value) * 0.001) And ws.Cells(1, 2 + i).Value &gt; ((FileUpload.Cells(5, j + 8).Value) - ((FileUpload.Cells(3, 5).Value) * 0.001)) Then\n                        Tabelle2.Cells(7 + cntsheet, j + 8) = ws.Cells(i, 1).Value\n                    End If\n                Next j\n            Next i\n            cntsheet = cntsheet + 1\n        End If\n    Next ws\n</code></pre>\n\n<p>End Sub</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826763/vba-searching-sheets-for-value-and-write-them-to-cell",
+  "owner" : {
+    "user_id" : 8231967,
+    "user_type" : "registered",
+    "display_name" : "Kai",
+    "profile_image" : "https://www.gravatar.com/avatar/8729f823d096a59b0072d83484daaf73?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8231967/kai",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743537,
+  "last_activity_date" : 1498743537,
+  "tags" : [
+    "vba"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

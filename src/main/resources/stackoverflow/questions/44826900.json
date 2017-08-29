@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826900,
+  "title" : "Android Appium UI automation, dismissing a snackbar",
+  "body" : "<p>Im having trouble dismissing a snackbar pop up on screen, and can not click on anything else when the snackbar is displayed, fails my tests. Is there a specific way to dismiss the snackbar ?</p>\n\n<p>Appium vers: 1.6.5</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826900/android-appium-ui-automation-dismissing-a-snackbar",
+  "owner" : {
+    "user_id" : 1516954,
+    "user_type" : "registered",
+    "display_name" : "tipi",
+    "profile_image" : "https://www.gravatar.com/avatar/f0943dc5050ad26e49df093cb8b8ddf3?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1516954/tipi",
+    "reputation" : 283,
+    "accept_rate" : 64
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743836,
+  "last_activity_date" : 1498743836,
+  "tags" : [
+    "android",
+    "appium"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

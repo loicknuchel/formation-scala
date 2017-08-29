@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826776,
+  "title" : "psycopg2 installing 32 bit",
+  "body" : "<p>Working in a client environment with a 64 bit machine, a 32 bit python 3.6, and no web access to the outside world (so no pip). </p>\n\n<p>Normally, we install the libraries on our own machine, then copy 'site packages' over. All works just fine, but doesn't for psycopg2. The site admin left me a vm about the error ( and went on vacation). He said he had looked it up and apparently, I need to install the 32 bit version of psycopg2 as it needs to build in it's own environment. All we have is 64 bit.  It's similar to <a href=\"https://stackoverflow.com/questions/26314044/i-have-psycopg2-installed-in-virtual-env-but-still-getting-importerror-psycopg2\">installing 32 bit</a> but not quite the same. </p>\n\n<p>No problem deleting psycopg2-64 from my machine, but how do I force pip to install 32 bit version ? I don't see an option. Do I have any other simple choices. </p>\n\n<p>Apologies for not including the original error. I know it makes it hard to troubleshoot</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826776/psycopg2-installing-32-bit",
+  "owner" : {
+    "user_id" : 7064393,
+    "user_type" : "registered",
+    "display_name" : "WDickens",
+    "profile_image" : "https://www.gravatar.com/avatar/aca3ab0c5a8318be7c0aac534c37a5e4?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7064393/wdickens",
+    "reputation" : 5,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743566,
+  "last_activity_date" : 1498743566,
+  "tags" : [
+    "python",
+    "psycopg2"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 0
+}

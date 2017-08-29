@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826013,
+  "title" : "How can I access static object Excel.Application from another class in a C# SharpDevelop add in project?",
+  "body" : "<p>I'm currently trying to create an addin for Excel in C# using SharpDevelop and NetOffice. I have my Addin class, and another one designing a form on which I try to interact with the Excel worksheet (i.e. getting/writing cells value...).</p>\n\n<p>The problem is that the object Application in my addin class is static and protected and I can't access it from my other class. I know that with Visual Studio there is a class called Globals which contains all the static members of the project but, in SharpDevelop, there isn't.</p>\n\n<p>Anyone has encountered this issue ? </p>\n\n<p>Thank you, have a nice day.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826013/how-can-i-access-static-object-excel-application-from-another-class-in-a-c-shar",
+  "owner" : {
+    "user_id" : 8214848,
+    "user_type" : "registered",
+    "display_name" : "Jynsey",
+    "profile_image" : "https://www.gravatar.com/avatar/2450d6cab3ba94ce2fd6ffd908656b7b?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8214848/jynsey",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741557,
+  "last_activity_date" : 1498741557,
+  "tags" : [
+    "c#",
+    "excel",
+    "office-addins",
+    "sharpdevelop",
+    "netoffice"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

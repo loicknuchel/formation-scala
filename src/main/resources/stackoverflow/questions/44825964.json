@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825964,
+  "title" : "report uninitialized variables Tensorboard",
+  "body" : "<p>I am constructing a neural network in Tensorflow. I am using tf.layers module.\nFor some reason in the Graph visualisation i am seeing a 'report uninitialised variables' connected to every part of my graph. This can be seen here: <a href=\"https://i.stack.imgur.com/yoNQH.png\" rel=\"nofollow noreferrer\">https://i.stack.imgur.com/yoNQH.png</a></p>\n\n<p>Does anyone have an explanation of this? Is it related to the get_variable and variable_scope methods?</p>\n\n<p>The graph seems to work. I am just trying to understand the meaning of these nodes. I am not sure if it is related to the fact that i am using a MonitoredTrainingSession.</p>\n\n<p>It seems to be related to all the variables including of the optimizer.\n<a href=\"https://i.stack.imgur.com/ySFM5.png\" rel=\"nofollow noreferrer\">https://i.stack.imgur.com/ySFM5.png</a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44825964/report-uninitialized-variables-tensorboard",
+  "owner" : {
+    "user_id" : 3210627,
+    "user_type" : "registered",
+    "display_name" : "MarkCutajar",
+    "profile_image" : "https://i.stack.imgur.com/vPshT.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/3210627/markcutajar",
+    "reputation" : 8,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741449,
+  "last_activity_date" : 1498742158,
+  "tags" : [
+    "tensorflow",
+    "tensorboard"
+  ],
+  "score" : 1,
+  "view_count" : 10,
+  "answer_count" : 0
+}

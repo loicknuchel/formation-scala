@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826923,
+  "title" : "How to Populate structure fields from c charecter string?",
+  "body" : "<p>I have <code>c-string</code> \"<code>123N1N12N125N12AA1234125N12AA1234</code>\" in which fields of different data structures are stroed one after another.\nfor ex.</p>\n\n<pre><code>struct1 (fixed size 9 bytes)\n{\nchar struct_name[4];\nchar field1[2];\nchar field2[3];\n}  // \"123N1N12N\"\n\nstruct2 (fixed size 13 bytes)\n{\nchar struct_name[4];\nchar num_field1[3];\nchar num_field2[2];\nchar num_field3[4];\n} //\"124N111223333\"\n\nstruct3\n{\nchar struct_name[4];\nchar struct_size[2];\nchar field1[2];\nchar field2; //size will be struct size - fixed size (10)\n} //\"125N12AA1234\"\n</code></pre>\n\n<p>let's say there are n structures and the order is not fixed, based on the struct name I have to determine the number of bytes to read and populate individual struct fields.</p>\n\n<p>Could you please suggest how to read and populate individual structures from c string?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826923/how-to-populate-structure-fields-from-c-charecter-string",
+  "owner" : {
+    "user_id" : 892759,
+    "user_type" : "registered",
+    "display_name" : "CppLearner",
+    "profile_image" : "https://graph.facebook.com/100002516622599/picture?type=large",
+    "link" : "https://stackoverflow.com/users/892759/cpplearner",
+    "reputation" : 526,
+    "accept_rate" : 84
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743876,
+  "last_activity_date" : 1498743876,
+  "tags" : [
+    "c",
+    "arrays",
+    "struct",
+    "char"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

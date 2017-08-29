@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826594,
+  "title" : "efficient string char elimination in python",
+  "body" : "<p>I have a python for loop over a string, that have to decide char-by-char if the current char should stay or be removed.</p>\n\n<p>Let's say I have a function <code>fun(character,state)</code> which receives a char, and some state parameter, and returns <code>True</code> if the char should be kept, and a new <code>state</code>. for example:</p>\n\n<pre><code>def fun(c,state):\n    if state%5==0:\n        return False, state\n    else:\n        return True, state+1\n</code></pre>\n\n<p>I have two ideas how to iterate (sequentially) over the string with this function, but I can't decide between them (or others) in terms of <strong>runtime complexity</strong> and <strong>space usage</strong> tradeoff:</p>\n\n<h2>Option 1:</h2>\n\n<pre><code>def option1(string):\n    state = 0\n    for i,c in enumerate(string):\n        answer, state = fun(c,state)\n        if not answer:\n             string = string[:i+1]+string[i+1:]\n    return string\n</code></pre>\n\n<h2>Option 2:</h2>\n\n<pre><code>def option2(string):\n    result  = ''\n    state = 0\n    for c in string:\n        answer, state = fun(c,state)\n        if answer:\n             result+=c\n   return result\n</code></pre>\n\n<p>Does anyone has a better approach/ solution?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826594/efficient-string-char-elimination-in-python",
+  "owner" : {
+    "user_id" : 3861108,
+    "user_type" : "registered",
+    "display_name" : "Dimgold",
+    "profile_image" : "https://www.gravatar.com/avatar/c8c2dd0d2bc8b5183de9530c1d8c5b3f?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/3861108/dimgold",
+    "reputation" : 765,
+    "accept_rate" : 100
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743114,
+  "last_activity_date" : 1498743654,
+  "tags" : [
+    "python",
+    "string",
+    "performance"
+  ],
+  "score" : -1,
+  "view_count" : 18,
+  "answer_count" : 0
+}

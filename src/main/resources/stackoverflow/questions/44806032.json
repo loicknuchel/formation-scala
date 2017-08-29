@@ -1,0 +1,24 @@
+{
+  "question_id" : 44806032,
+  "title" : "Missing index (Impact 97) : Create Non Clustered Index",
+  "body" : "<p>I am trying to optimize my stored procedure. When I look at the query plan, I can see tablescan on tempcompany is showing 97 percent. I am also seeing the following message Missing index (Impact 97) : Create Non Clustered Index on #tempCompany\nI have already set non clustered indexes. Could somebody point out what the problem is </p>\n\n<pre><code>if object_id('tempdb..#tempCompany') is not null drop table #tempCompany else   \n\n    select\n\n        fp.companyId,fp.fiscalYear,fp.fiscalQuarter,fi.financialperiodid, fi.periodEndDate,\n        fc.currencyId,fp.periodtypeid,ROW_NUMBER() OVER (PARTITION BY fp.companyId, \n        fp.fiscalYear, fp.fiscalQuarter ORDER BY fi.periodEndDate DESC) rowno   \n\n    into #tempCompany               \n\n    from \n\n        ciqFinPeriod fp\n\n        inner join #companyId c on c.val = fp.companyId\n\n        join ciqFinInstance fi on fi.financialperiodid = fp.financialperiodid\n\n        join ciqFinInstanceToCollection ic on ic.financialInstanceId = fi.financialInstanceId\n\n        left  join ciqFinCollection fc on fc.financialCollectionId = ic.financialCollectionId\n\n        left join ciqFinCollectionData fd on fd.financialCollectionId = fc.financialCollectionId\n\n    where \n\n        fp.periodTypeId = @periodtypeId\n\n        and fi.periodenddate &gt;= @date\n\n        --and fp.companyId in (select val from @companyId)\n\n        CREATE NONCLUSTERED INDEX id_companyId2 on #tempCompany(companyId,fiscalYear,fiscalQuarter,financialperiodid,periodEndDate,currencyId,periodtypeid,rowno)  \n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44806032/missing-index-impact-97-create-non-clustered-index",
+  "owner" : {
+    "user_id" : 4607841,
+    "user_type" : "registered",
+    "display_name" : "Tom",
+    "profile_image" : "https://www.gravatar.com/avatar/71cd701f6826481858ee299f68f3205a?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4607841/tom",
+    "reputation" : 166,
+    "accept_rate" : 53
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661724,
+  "last_activity_date" : 1498661724,
+  "tags" : [
+    "sql-server"
+  ],
+  "score" : 0,
+  "view_count" : 13,
+  "answer_count" : 0
+}

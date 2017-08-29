@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826833,
+  "title" : "VBA Is there a way to use an &quot;if statement&quot; to put data into different columns based on the time they are submitted?",
+  "body" : "<p>I am using excel and I want to make an accountability workbook. I need it to put people into a column based on the time they swipe their card: accounted for, late, absent. I know how to set up if statements but I cannot get it to accept the current time. Thanks for any help!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826833/vba-is-there-a-way-to-use-an-if-statement-to-put-data-into-different-columns-b",
+  "owner" : {
+    "user_id" : 8197419,
+    "user_type" : "registered",
+    "display_name" : "Mdaox",
+    "profile_image" : "https://www.gravatar.com/avatar/f5f94371a6c5f484cc5b9b4dffaaff7f?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8197419/mdaox",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743698,
+  "last_activity_date" : 1498743698,
+  "tags" : [
+    "vba",
+    "excel-vba"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

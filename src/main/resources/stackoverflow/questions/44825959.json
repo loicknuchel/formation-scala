@@ -1,0 +1,25 @@
+{
+  "question_id" : 44825959,
+  "title" : "Kafka with camel is not scaling",
+  "body" : "<p>I am trying Kafka (version 0.10.2) with apache camel (version 2.19.1) to consume 50K messages (each of size 3kb) in minimum possible time.</p>\n\n<h2><strong>SETUP:</strong></h2>\n\n<ol>\n<li>I have not installed zookeeper on the same node as kafka broker i.e.\nI have one dedicated server for zookeeper. CPU core - 2, RAM - 4GB.\nInstance type - t2.medium (AWS instance).</li>\n<li>I have used one node for producing messages. CPU core - 4, RAM -\n16GB. Instance type - t2.xlarge (AWS instance).</li>\n<li>The Kafka cluster is set up on three nodes. All the three nodes are\nhaving same configuration. CPU core - 8, RAM - 32GB. Instance type -\nm4.2xlarge.</li>\n<li>I have used similar nodes for consuming messages. CPU core - 8, RAM - 32GB. Instance type - m4.2xlarge.</li>\n</ol>\n\n<p><strong>Producer Configurations:</strong></p>\n\n<ol>\n<li>producer.type=async</li>\n<li>batch.size=16384</li>\n<li>buffer.memory=67108864</li>\n<li>linger.ms=0</li>\n<li>value.serializer=org.apache.kafka.common.serialization.ByteArraySerializer</li>\n</ol>\n\n<p><strong>Broker Configurations:</strong></p>\n\n<ol>\n<li>num.network.threads=8</li>\n<li>num.io.threads=16</li>\n<li>socket.send.buffer.bytes=1048576</li>\n<li>socket.receive.buffer.bytes=1048576</li>\n<li>socket.request.max.bytes=104857600</li>\n<li>queued.max.requests=5000</li>\n<li>log.segment.bytes=1073741824</li>\n<li>background.threads=15 </li>\n</ol>\n\n<p><strong>Consumer Configurations:</strong></p>\n\n<ol>\n<li>maxPartitionFetchByte=10485760</li>\n<li>maxPollRecords=50000</li>\n<li>consumersCount=20 (for camel)</li>\n</ol>\n\n<p><strong>REPLICATION FACTOR 2.</strong></p>\n\n<p>Now I have pumped 50000 messages from a bean. I have not used camel-kafka producer.</p>\n\n<pre><code>    .....\n    long startTime = System.currentTimeMillis();\n    for (int i = 0; i &lt; messageList.size(); i++) {\n        ProducerRecord&lt;Integer, byte[]&gt; record = new ProducerRecord&lt;&gt;(TOPIC_NAME, i, messageList.get(i).getBytes());\n        producer.send(record);\n    }\n    long endTime = System.currentTimeMillis();\n    double elapseTime = (double) (endTime - startTime) / 1000;\n    ....\n</code></pre>\n\n<p>It is taking around 0.7 to 0.8 sec. And in the consumer I am doing nothing as such just log the message and note the time elapsed from start to end.</p>\n\n<pre><code>from(\"kafka:TOPIC_NAME?brokers={{bootstrap.servers}}&amp;groupId=msg-source-grp&amp;consumersCount={{consumersCount}}\" \n    + \"&amp;maxPollRecords={{maxPollRecords}}&amp;maxPartitionFetchBytes={{maxPartitionFetchByte}}\")\n    .routeId(\"myRoute\") \n    .log(..)\n    .....\n</code></pre>\n\n<ul>\n<li>Case 1. So I have created a topic TOPIC_NAME with 20 partition at\nfirst. I am running the above camel route in a single instance. It is\ntaking around 1.07 sec to consume all the 50000 messages.</li>\n<li>Case 2. Next I have increased the partition size to 40 and spawned another instance (each having consumersCount = 20 ) and run the above route. So this time each node is processing 25K messages (i.e half the no of  messages than Case1). But it is still taking around 1.6 sec to consume all the messages in both the node. [I thought it would take around 0.5 sec in each node to process the 25K messages. But that is not the thing]</li>\n<li>Case 3. Now I have increased the partition size to 60 and spawned another instance (each having consumersCount = 20  ). So total 3 instances running the camel route. Each node is processing around 17K messages now but still it is taking around 1.6 sec in all the nodes.</li>\n</ul>\n\n<p>So It is not scaling as it supposed to be. I am increasing the no of partitions as well as no of instances but still no luck. \nSo what could be done in configuration side or in coding side to consume the messages more faster?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825959/kafka-with-camel-is-not-scaling",
+  "owner" : {
+    "user_id" : 3693596,
+    "user_type" : "registered",
+    "display_name" : "Sayan",
+    "profile_image" : "https://i.stack.imgur.com/YotwM.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/3693596/sayan",
+    "reputation" : 8,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741439,
+  "last_activity_date" : 1498741439,
+  "tags" : [
+    "apache-camel",
+    "apache-kafka"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "question_id" : 44825966,
+  "title" : "Trying to import pypyodbc module gives error &#39;ODBC Library is not found. Is LD_LIBRARY_PATH set?&#39;",
+  "body" : "<p>I am running Python 3.5 on my Linux Mint 18. I want to load the <a href=\"https://pypi.python.org/pypi/pypyodbc\" rel=\"nofollow noreferrer\"><code>pypyodbc</code></a> module. However, no matter what I try, I always get the error:</p>\n\n<blockquote>\n<pre><code>OdbcNoLibrary: 'ODBC Library is not found. Is LD_LIBRARY_PATH set?'\n</code></pre>\n</blockquote>\n\n<p>In <a href=\"https://stackoverflow.com/q/23244418/1983854\">Set LD_LIBRARY_PATH before importing in python</a> I got the suggestion to set the path to <code>os.getcwd()</code>, but it did not work either and gave me the same error.</p>\n\n<p>What should I install to make it work?</p>\n\n<p>See the complete log of the error:</p>\n\n<pre><code>In [1]: import pypyodbc\n---------------------------------------------------------------------------\nOSError                                   Traceback (most recent call last)\n/home/me/env/lib/python3.5/site-packages/pypyodbc.py in &lt;module&gt;()\n    426         # First try direct loading libodbc.so\n--&gt; 427         ODBC_API = ctypes.cdll.LoadLibrary('libodbc.so')\n    428     except:\n\n/usr/lib/python3.5/ctypes/__init__.py in LoadLibrary(self, name)\n    424     def LoadLibrary(self, name):\n--&gt; 425         return self._dlltype(name)\n    426 \n\n/usr/lib/python3.5/ctypes/__init__.py in __init__(self, name, mode, handle, use_errno, use_last_error)\n    346         if handle is None:\n--&gt; 347             self._handle = _dlopen(self._name, mode)\n    348         else:\n\nOSError: libodbc.so: cannot open shared object file: No such file or directory\n\nDuring handling of the above exception, another exception occurred:\n\nOdbcNoLibrary                             Traceback (most recent call last)\n&lt;ipython-input-1-8f9e32dd2219&gt; in &lt;module&gt;()\n----&gt; 1 import pypyodbc\n\n/home/me/env/lib/python3.5/site-packages/pypyodbc.py in &lt;module&gt;()\n    437             lib_paths = [path for path in lib_paths if os.path.exists(path)]\n    438             if len(lib_paths) == 0 :\n--&gt; 439                 raise OdbcNoLibrary('ODBC Library is not found. Is LD_LIBRARY_PATH set?')\n    440             else:\n    441                 library = lib_paths[0]\n\nOdbcNoLibrary: 'ODBC Library is not found. Is LD_LIBRARY_PATH set?'\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44825966/trying-to-import-pypyodbc-module-gives-error-odbc-library-is-not-found-is-ld-l",
+  "owner" : {
+    "user_id" : 1983854,
+    "user_type" : "registered",
+    "display_name" : "fedorqui",
+    "profile_image" : "https://i.stack.imgur.com/8KWdX.png?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/1983854/fedorqui",
+    "reputation" : 127333,
+    "accept_rate" : 96
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741461,
+  "last_activity_date" : 1498741461,
+  "tags" : [
+    "python",
+    "linux",
+    "import",
+    "odbc",
+    "pypyodbc"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 1
+}

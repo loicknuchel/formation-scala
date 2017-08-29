@@ -1,0 +1,28 @@
+{
+  "question_id" : 44825759,
+  "title" : "Ember.js 2, Is there a better way of doing it?",
+  "body" : "<p>I have this code:</p>\n\n<pre><code>new Ember.RSVP.Promise((resolve) =&gt; {\n    let promise = myList.pushObject(book);\n    resolve(promise);\n}).then(() =&gt; {\n    this.send('scrollToBottom', '#myList');\n});\n</code></pre>\n\n<p>Is there a better way of doing it?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825759/ember-js-2-is-there-a-better-way-of-doing-it",
+  "owner" : {
+    "user_id" : 4412054,
+    "user_type" : "registered",
+    "display_name" : "John Sam",
+    "profile_image" : "https://www.gravatar.com/avatar/a81dd3c1b07bf0bc4c3b7109f90b300d?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4412054/john-sam",
+    "reputation" : 234,
+    "accept_rate" : 36
+  },
+  "is_answered" : false,
+  "creation_date" : 1498740967,
+  "last_activity_date" : 1498740967,
+  "tags" : [
+    "javascript",
+    "ember.js",
+    "promise",
+    "ember-data",
+    "ember-cli"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

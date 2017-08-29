@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826502,
+  "title" : "Suggestion users when @ is written (like Instagram and Facebook)",
+  "body" : "<p>Hey fellow swift lovers,</p>\n\n<p>i am currently working on the feature which is famous from Instagram  and Facebook.</p>\n\n<p>As I rebuild Instagram I want to have all the followers suggested in the textfield, when an @ is written</p>\n\n<p>My user can share a post with picture and link users, but currently has to exactly type out the name correctly, whereas I want the app to suggest users who fit the written letters.</p>\n\n<p>I am Using KILabel and the linking to profile and so one works already.\nI also have already the function to search the database for users which works fine.</p>\n\n<p>But I don't know how I should handle the problem.</p>\n\n<p>Should I use a pop Up View with Tableviewcells? and how can I let it appear above the screen when I write an @ in the textView?</p>\n\n<p>Do you have any suggestion or link I can work with? I did not find anything helpful yet.</p>\n\n<p>Totally clueless here, any help is really really appreciated.</p>\n\n<p>Thanks in advance</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826502/suggestion-users-when-is-written-like-instagram-and-facebook",
+  "owner" : {
+    "user_id" : 7186851,
+    "user_type" : "registered",
+    "display_name" : "Zash__",
+    "profile_image" : "https://www.gravatar.com/avatar/c880fa96495ee3cb6e863ec321c83a97?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7186851/zash",
+    "reputation" : 19,
+    "accept_rate" : 44
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742903,
+  "last_activity_date" : 1498742903,
+  "tags" : [
+    "swift",
+    "firebase",
+    "search",
+    "instagram",
+    "uipopovercontroller"
+  ],
+  "score" : 0,
+  "view_count" : 11,
+  "answer_count" : 0
+}

@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826636,
+  "title" : "Two bugs in scrollable accordion in ExtJS 6",
+  "body" : "<p>I hit what seems to be two bugs. Here is a <a href=\"https://fiddle.sencha.com/#view/editor&amp;fiddle/22c5\" rel=\"nofollow noreferrer\">fiddle</a> which demonstrates these bugs. First of all, if you click on the first panel or any other ones, you will see there appear some new panel with a missing title:</p>\n\n<p><a href=\"https://i.stack.imgur.com/YmrXT.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/YmrXT.png\" alt=\"enter image description here\"></a></p>\n\n<p>And the second bug, is that it is impossible to see the contents of the panel (one textfield, which I put to every panel). The code is as simple as:</p>\n\n<pre><code>    Ext.create(\"Ext.window.Window\", {\n        width: 300,\n        height: 400,\n        layout: \"fit\",\n        items:[{\n            xtype: \"panel\",\n            layout: {\n                type: \"accordion\"\n            },\n            scrollable: true,\n            listeners: {\n                beforerender: function () {\n                    var i;\n                    for (i = 0; i &lt; 30; i += 1) {\n                        this.add({\n                            title: i,\n                            items:[{\n                                xtype: \"textfield\",\n                                value: i\n                            }]\n                        });\n                    }\n                }\n            }\n        }]\n    }).show();\n</code></pre>\n\n<p>So, the question is how to fix it all?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826636/two-bugs-in-scrollable-accordion-in-extjs-6",
+  "owner" : {
+    "user_id" : 2544036,
+    "user_type" : "registered",
+    "display_name" : "Jacobian",
+    "profile_image" : "https://www.gravatar.com/avatar/0ac5bfd4795966e2378975bd2c34f660?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/2544036/jacobian",
+    "reputation" : 1065,
+    "accept_rate" : 79
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743237,
+  "last_activity_date" : 1498743711,
+  "tags" : [
+    "javascript",
+    "extjs"
+  ],
+  "score" : 0,
+  "view_count" : 8,
+  "answer_count" : 0
+}

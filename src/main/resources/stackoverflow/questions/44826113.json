@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826113,
+  "title" : "C# Is it possible use my HttpRequest in wsdl",
+  "body" : "<p>Me need use SOCKS for connect to web service, i created fork for HttpRequest.</p>\n\n<p>I can use my fork in my WSDL project ? </p>\n\n<p>I read about OperationContextScope, but it does not have the required functional for replace HttpRequest.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826113/c-is-it-possible-use-my-httprequest-in-wsdl",
+  "owner" : {
+    "user_id" : 8231852,
+    "user_type" : "registered",
+    "display_name" : "J Walter",
+    "profile_image" : "https://www.gravatar.com/avatar/379cd39ca53b600c8b761e0e4aa5f9d2?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8231852/j-walter",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741857,
+  "last_activity_date" : 1498741857,
+  "tags" : [
+    "c#",
+    "proxy",
+    "wsdl",
+    "httpwebrequest",
+    "socks"
+  ],
+  "score" : -1,
+  "view_count" : 10,
+  "answer_count" : 0
+}

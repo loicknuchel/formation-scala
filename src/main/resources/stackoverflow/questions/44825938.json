@@ -1,0 +1,28 @@
+{
+  "question_id" : 44825938,
+  "title" : "Display several youtube video in an activity",
+  "body" : "<p>I got an Article object that I want to display in my Activity. An article can have:\n-Text(s) : 1 at least or several\n-Image(s) : 0 or several\n-Video(s) : 0 or several</p>\n\n<p>Each element can be anywhere in the article for example :\n-Text / Image / Text / Video\n-Video / Image / Video / Text\n- etc...</p>\n\n<p>After parsing my article, I add programmatically the content I need:  TextView, ImageView, or VideoView(youtube or jwplayer). Actually it works for image and text, but I don't know how I can add several youtube video in a same activity:</p>\n\n<pre><code>@Override\nprotected void onCreate(@Nullable Bundle savedInstanceState) {\n    super.onCreate(savedInstanceState);\n    setContentView(R.layout.post);\n\n    linearLayout = (LinearLayout) findViewById(R.id.llayout_article);\n\n    // Get article to display it\n    Intent intent = getIntent();\n    Article article = intent.getParcelableExtra(\"articleDetails\");\n\n    //add ImageView &amp; TextView\n    for (View view : article.getContentSplitInViews(this)) {\n        this.linearLayout.addView(view);\n    }\n\n\n    YouTubePlayerSupportFragment frag =\n            (YouTubePlayerSupportFragment) getSupportFragmentManager().findFragmentById(R.id.youtube_fragment);\n    src=\"g2mmUzNSeDM\";\n    frag.initialize(apiKey, this);\n    YouTubePlayerSupportFragment frag2 =\n            (YouTubePlayerSupportFragment) getSupportFragmentManager().findFragmentById(R.id.youtube_fragment2);\n    src = \"nCgQDjiotG0\";\n    frag2.initialize(apiKey, this);\n}\n\n@Override\npublic void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean wasRestored) {\n    if (!wasRestored) {\n        youTubePlayer.setPlayerStyle(YouTubePlayer.PlayerStyle.DEFAULT);\n        youTubePlayer.loadVideo(src);\n        youTubePlayer.play();\n    }\n}\n\n@Override\npublic void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {\n    // YouTube error\n    String errorMessage = youTubeInitializationResult.toString();\n    Toast.makeText(getApplicationContext(), errorMessage, Toast.LENGTH_LONG).show();\n    Log.d(\"errorMessage:\", errorMessage);\n}\n</code></pre>\n\n<p>My current xml:</p>\n\n<pre><code>&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;\n&lt;ScrollView\n    android:layout_width=\"match_parent\"\n    android:layout_height=\"match_parent\"\n    android:orientation=\"vertical\"\n    android:id=\"@+id/scrollViewId\"\n    xmlns:android=\"http://schemas.android.com/apk/res/android\"\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"&gt;\n    &lt;LinearLayout\n        android:id=\"@+id/llayout_article\"\n        android:layout_width=\"match_parent\"\n        android:layout_height=\"match_parent\"\n        android:fitsSystemWindows=\"true\"\n        android:orientation=\"vertical\"&gt;\n\n        &lt;fragment\n            android:name=\"com.google.android.youtube.player.YouTubePlayerSupportFragment\"\n            android:id=\"@+id/youtube_fragment\"\n            android:layout_width=\"match_parent\"\n            android:layout_height=\"wrap_content\"/&gt;\n\n\n        &lt;fragment\n            android:name=\"com.google.android.youtube.player.YouTubePlayerSupportFragment\"\n            android:id=\"@+id/youtube_fragment2\"\n            android:layout_width=\"match_parent\"\n            android:layout_height=\"wrap_content\"/&gt;\n\n    &lt;/LinearLayout&gt;\n&lt;/ScrollView&gt;\n</code></pre>\n\n<p>Later I want to add programmaticaly the fragment tag in my XML for each video found in the Article Object.</p>\n\n<p>Actually, there is 2 players in my activity, but only one is playing the video, and action in every players (play/pause/full screen) will do the same thing in the 2 players.</p>\n\n<p><img src=\"https://i.imgur.com/b2mvCwM.png\" alt=\"android youtube api\" title=\"youtube android api\"></p>\n",
+  "link" : "https://stackoverflow.com/questions/44825938/display-several-youtube-video-in-an-activity",
+  "owner" : {
+    "user_id" : 1313205,
+    "user_type" : "registered",
+    "display_name" : "gamerounet",
+    "profile_image" : "https://www.gravatar.com/avatar/56c13234031d2e2c7ae0463868bd8726?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1313205/gamerounet",
+    "reputation" : 80,
+    "accept_rate" : 57
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741391,
+  "last_activity_date" : 1498741391,
+  "tags" : [
+    "android",
+    "android-fragments",
+    "android-linearlayout",
+    "android-youtube-api",
+    "appcompatactivity"
+  ],
+  "score" : 0,
+  "view_count" : 11,
+  "answer_count" : 0
+}

@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825784,
+  "title" : "How can I un-thread this email so notification emails show up seperatly",
+  "body" : "<p>So this is a section of the code, there are 7 API's I can test. it loops every half hour, and send a failure notice 7 times since it initially failed. problem is all these emails are compiled into one email, wondering how to un thread, or how to word  that in some way that makes it easier to search for an answer. I appreciate any and all helpful input seeing that i'm below a novice level understanding of code in general. Please don't get mad, it's not my primary function at work, just a side thing I was asked to develop. Thanks!</p>\n\n<h1>URL 6/7</h1>\n\n<pre><code>url = \"http://*******.net/api/server/server.php?f=Test&amp;selector=test&amp;echo=thisisastringtoecho\"\n\nprint 'Asking Stuff' \ntime.sleep(1)\n</code></pre>\n\n<h1>Test connection section, if fails it sends email</h1>\n\n<pre><code>try:\n    context = ssl._create_unverified_context()\n    response = urllib2.urlopen(url, context=context)\n    webcontent = response.read()\nexcept Exception, email_error_description:\n    print 'fail'\n    str6 += '!_!_!_!_!_!_!_!_!_!FAILED TO OPEN PAGE - http://*******.net/api/server/server.php?f=Test&amp;selector=test&amp;echo=thisisastringtoecho 6/7!_!_!_!_!_!_!_!_!_!'\n\n\n    destination_list = ['*****@*****.com','*****@*****.com']\n\n    body = \" \"\n    subject = \"SQLTest Failure \"\n\n    print ' sub: %s body: %s' % (subject,body)\n\n\n    def send_mail( email_subject, email_body, destination_list):\n# Create a text/plain message\n            msg = MIMEText(email_body)\n            msg['Subject'] = '%s' % (email_subject) + time.strftime(\"%c\")\n            msg['From'] = '*****@*****.com'\n            msg['To'] = ', '.join(destination_list) \n\n            smtp_user_name = '*****@*****.com'\n            smtp_password = '*****'\n            smtp_server = \"mail.*****.com\"\n\n            try:\n                session = smtplib.SMTP(smtp_server)\n                session.login(smtp_user_name, smtp_password)\n                session.sendmail('*****@*****.com', destination_list, msg.as_string())\n                session.quit()\n            except Exception, email_error_description:\n                print 'fail' \n    send_mail (subject, str6, destination_list)\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44825784/how-can-i-un-thread-this-email-so-notification-emails-show-up-seperatly",
+  "owner" : {
+    "user_id" : 8231721,
+    "user_type" : "registered",
+    "display_name" : "mr meter",
+    "profile_image" : "https://www.gravatar.com/avatar/30a114c276bc979ac1bb382c34221a00?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8231721/mr-meter",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741024,
+  "last_activity_date" : 1498741179,
+  "tags" : [
+    "python",
+    "multithreading",
+    "automated-tests"
+  ],
+  "score" : 0,
+  "view_count" : 9,
+  "answer_count" : 0
+}

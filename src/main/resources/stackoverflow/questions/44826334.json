@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826334,
+  "title" : "InvalidOperationException: No columns were selected when performing a DELETE query",
+  "body" : "<p>I have the feeling I'm missing something obvious, but I can't quite put my finger on it. </p>\n\n<pre><code>public async Task Delete(Guid id) {\n  using (var db = _connectionFactory()) {\n    try {\n      await db.QueryAsync(\"DELETE FROM ...\", new { id}).ConfigureAwait(false);\n    } catch (Exception exception) {\n      Console.WriteLine(exception);\n      throw;\n    }\n  }\n}\n</code></pre>\n\n<p>So when this piece of code gets executed, I get the exception: </p>\n\n<pre><code>System.InvalidOperationException: No columns were selected\n</code></pre>\n\n<p>Even though I don't need anything back from my call. I just want to know whether or not my DELETE query has succeeded. The strange part is that the query does get executed. The relevant record is deleted.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826334/invalidoperationexception-no-columns-were-selected-when-performing-a-delete-que",
+  "owner" : {
+    "user_id" : 7609961,
+    "user_type" : "registered",
+    "display_name" : "Gilles De Vylder",
+    "profile_image" : "https://www.gravatar.com/avatar/adaec1c291af3261179f047d5d668ad2?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7609961/gilles-de-vylder",
+    "reputation" : 13,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742470,
+  "last_activity_date" : 1498743621,
+  "tags" : [
+    "c#",
+    "sql",
+    "async-await",
+    "dapper"
+  ],
+  "score" : 0,
+  "view_count" : 14,
+  "answer_count" : 1
+}

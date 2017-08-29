@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826377,
+  "title" : "How to access rails console from google app engine?",
+  "body" : "<p>in heroku, i would run <code>heroku run rails console</code></p>\n\n<p>Is there an equivalent command to access my production console for gcloud?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826377/how-to-access-rails-console-from-google-app-engine",
+  "owner" : {
+    "user_id" : 142098,
+    "user_type" : "registered",
+    "display_name" : "Doug",
+    "profile_image" : "https://www.gravatar.com/avatar/c9befdfe5c57b207e50659efc0b1fd0e?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/142098/doug",
+    "reputation" : 3580,
+    "accept_rate" : 71
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742587,
+  "last_activity_date" : 1498742587,
+  "tags" : [
+    "ruby-on-rails",
+    "google-app-engine",
+    "google-cloud-platform"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

@@ -1,0 +1,28 @@
+{
+  "question_id" : 44825761,
+  "title" : "How to read in a CSV file containing strings and integers, and plot the data in graphs",
+  "body" : "<p>I have ran into a problem where I read in a CSV file, but I cant seem to be able to plot the analysis to a graph in python. I am reading in the file using pandas but I am unsure as to how I go about the graphs as there are fourteen columns in my data after cleaning. The data types are string and integers. </p>\n\n<p>Is there anyway I can graph this data and what is the best way to go about it. I have made lots of different subsets of the data writing them back into a folder, but its too time consuming. </p>\n\n<p>Any help or advice would be great. This is how I am reading in my CSV and then I was going to create a DataFrame of exactly what I needed and work from there. I was thinking there also maybe an easier way to do this in R ? </p>\n\n<pre><code>import pandas as pd\nfrom pandas import Series, DataFrame\n\nmy_file = pd.read_csv('example.csv')\nmy_file= DataFrame([my_file.w,my_file.x, my_file.y,my_file.z]).T\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44825761/how-to-read-in-a-csv-file-containing-strings-and-integers-and-plot-the-data-in",
+  "owner" : {
+    "user_id" : 6347569,
+    "user_type" : "registered",
+    "display_name" : "n_lyons10",
+    "profile_image" : "https://www.gravatar.com/avatar/9aa5b79d4845668a99f4082e2ce6b221?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/6347569/n-lyons10",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498740980,
+  "last_activity_date" : 1498740980,
+  "tags" : [
+    "python",
+    "r",
+    "csv",
+    "pandas",
+    "graph"
+  ],
+  "score" : -6,
+  "view_count" : 41,
+  "answer_count" : 0
+}

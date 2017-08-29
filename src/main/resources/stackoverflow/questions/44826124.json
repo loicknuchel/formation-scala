@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826124,
+  "title" : "Adding a light to javascript w/ ping test",
+  "body" : "<p>I want to display this light if a certain condition is true in javascript using an if statement. How can I add an external CSS class to a javascript if statement? </p>\n\n<p>Here is my css code:</p>\n\n<pre><code>.beacon{\n  position:absolute;\n\n  background-color:#32CD32;\n  height:1.5em;\n  width:1.5em;\n  border-radius:50%;\n  -webkit-transform:translateX(-50%) translateY(-50%);\n}\n.beacon:before{\n  position:absolute;\n  content:\"\";\n  height:1.5em;\n  width:1.5em;\n  left:0;\n  top:0;\n  background-color:transparent;\n  border-radius:50%;\n  box-shadow:0px 0px 2px 2px #32CD32;\n  -webkit-animation:active 2s infinite linear;\n  animation:active 2s infinite linear;\n}\n\n@-webkit-keyframes active{\n  0%{\n    -webkit-transform:scale(.1);\n    opacity:1;\n  }\n  70%{\n    -webkit-transform:scale(2.5);\n    opacity:0;\n  }\n  100%{\n    opacity:0;\n  }\n}\n\n@keyframes active{\n  0%{\n    transform:scale(.1);\n    opacity:1;\n  }\n  70%{\n    transform:scale(2.5);\n    opacity:0;\n  }\n  100%{\n    opacity:0;\n  }\n}\n</code></pre>\n\n<p>this is the javascript code:</p>\n\n<pre><code>&lt;div class=\"too white\"&gt;\n&lt;script language=\"javascript\"&gt; \nurl = \"http://www.511virginia.org/\"\nping = new XMLHttpRequest();   \nping.onreadystatechange = function(){\n    if(ping.readyState == 4){ \n                if(ping.status == 200){\n          document.write(\"Website is up\");\n        }\n                else {\n                  document.write(\"Website is down\"); \n                                }\n}\n}\nping.open(\"GET\", url, false);   \nping.send();\n&lt;/script&gt;\n&lt;/div&gt;\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826124/adding-a-light-to-javascript-w-ping-test",
+  "owner" : {
+    "user_id" : 5398742,
+    "user_type" : "registered",
+    "display_name" : "Shay",
+    "profile_image" : "https://www.gravatar.com/avatar/fae157e31d35edb3b608baba3f7aed9a?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/5398742/shay",
+    "reputation" : 6,
+    "accept_rate" : 20
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741889,
+  "last_activity_date" : 1498742214,
+  "tags" : [
+    "javascript",
+    "html",
+    "css",
+    "ping"
+  ],
+  "score" : 1,
+  "view_count" : 30,
+  "answer_count" : 1
+}

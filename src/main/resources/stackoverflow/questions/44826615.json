@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826615,
+  "title" : "Theme reflection",
+  "body" : "<p>Magento 1.9.x\nHello,</p>\n\n<p>I have a diwali theme and all caching is enabled.\nI have given theme start-end date.</p>\n\n<p>So, my question is do the theme diwali reflected at given start-date,\nor I have to flush the cache at the given date ?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826615/theme-reflection",
+  "owner" : {
+    "user_id" : 6568500,
+    "user_type" : "registered",
+    "display_name" : "BMK",
+    "profile_image" : "https://www.gravatar.com/avatar/6ec7257d7edd459e823742896d9118ce?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/6568500/bmk",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743175,
+  "last_activity_date" : 1498743175,
+  "tags" : [
+    "magento",
+    "magento-1.9"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826790,
+  "title" : "How to emit event later than specified timeout in RXJS?",
+  "body" : "<p>I want to emit event after visual effects passed off. Visual effects last 5 seconds.\nThis code works but I think there is a better solution:</p>\n\n<pre><code>Observable.combineLatest(observable1, Observable.of('hold').delay(5000)).subscribe(() =&gt; {\n    alert('ok');\n});\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826790/how-to-emit-event-later-than-specified-timeout-in-rxjs",
+  "owner" : {
+    "user_id" : 1740116,
+    "user_type" : "registered",
+    "display_name" : "Ildar",
+    "profile_image" : "https://www.gravatar.com/avatar/b868536bf81d968f87c51e078e1d5fb6?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1740116/ildar",
+    "reputation" : 613,
+    "accept_rate" : 64
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743594,
+  "last_activity_date" : 1498743872,
+  "tags" : [
+    "rxjs",
+    "system.reactive"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 1
+}

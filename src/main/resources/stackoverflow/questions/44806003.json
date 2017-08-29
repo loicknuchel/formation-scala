@@ -1,0 +1,25 @@
+{
+  "question_id" : 44806003,
+  "title" : "gspread data does not appear in Google Sheet",
+  "body" : "<p>I'm trying to write sensor data to a google sheet.  I was able to write to this same sheet a year or so ago but I am active on this project again and can't get it to work.  I believe the Oauth has changed and I've updated my code for that change.</p>\n\n<p>In the below code, I get no errors, however no data in entered in the GoogleSheet.  Also, If I look at GoogleSheets, the \"last opened\" date does not reflect the time my program would/should be writing to that google sheet.\nI've tried numerous variations and I'm just stuck.  Any suggestions would be appreciated.</p>\n\n<p>PS:  I'm not sure I got the code insertion correct.</p>\n\n<p>`#!/usr/bin/python3</p>\n\n<h1>-- developed with Python 3.4.2</h1>\n\n<h1>External Resources __________________________________________________________</h1>\n\n<p>import time\nimport sys\nimport json\nimport gspread\nfrom oauth2client.service_account import ServiceAccountCredentials\nimport traceback</p>\n\n<h1>Initialize gspread</h1>\n\n<p>scope = ['<a href=\"https://spreadsheets.google.com/feeds\" rel=\"nofollow noreferrer\">https://spreadsheets.google.com/feeds</a>']\ncredentials = ServiceAccountCredentials.from_json_keyfile_name('MyGoogleCode.json',scope)\nclient = gspread.authorize(credentials)</p>\n\n<h1>Start loop ________________________________________________________________</h1>\n\n<p>samplecount = 1\nwhile True:\n    data_time = (time.strftime(\"%Y-%m-%d %H:%M:%S\"))\n    row = ([samplecount,data_time]) </p>\n\n<pre><code># Append to Google sheet_\ntry:\n    if credentials is None or credentials.invalid:\n        credentials.refresh(httplib2.Http())\n    GoogleDataFile = client.open('DataLogger')\n    #wks = GoogleDataFile.get_worksheet(1)\n    wks = GoogleDataFile.get_worksheet(1)\n    wks.append_row([samplecount,data_time])\n    print(\"worksheets\", GoogleDataFile.worksheets()) #prints ID for both sheets\nexcept Exception as e:\n    traceback.print_exc()\nprint (\"samplecount  \", samplecount, row)  \nsamplecount += 1\ntime.sleep(5)\n</code></pre>\n\n<p>`</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806003/gspread-data-does-not-appear-in-google-sheet",
+  "owner" : {
+    "user_id" : 5592274,
+    "user_type" : "registered",
+    "display_name" : "JonRob",
+    "profile_image" : "https://www.gravatar.com/avatar/f241b71636d2b83e95b4436be09df7b9?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/5592274/jonrob",
+    "reputation" : 11,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661668,
+  "last_activity_date" : 1498661668,
+  "tags" : [
+    "gspread",
+    "r-googlesheets"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

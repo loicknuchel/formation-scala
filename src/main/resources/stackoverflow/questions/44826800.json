@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826800,
+  "title" : "my symfony 3 form il not submitted after ajax call",
+  "body" : "<p>i have a formdata object sent by ajax in my controller. All the parameters are received but i don't manage to submit my form\nthe method <code>$form-&gt;isSubmitted()</code>return false and i don't understand why. i have no errors </p>\n\n<p>my ajax : </p>\n\n<pre><code>formData = new FormData();\n                for (var key in cropData) {\n                    if( cropData.hasOwnProperty(key) ) {\n                            formData.append( key , cropData[key] );\n                    }\n                }\n\n                $.ajax({\n                    url: that.options.cropUrl,\n                    data: formData,\n                    context: document.body,\n                    cache: false,\n                    contentType: false,\n                    processData: false,\n                    type: 'POST'                \n                }).always(function (data) {\n\n                    that.afterCrop(data);\n\n                });\n</code></pre>\n\n<p>my controller : </p>\n\n<pre><code> public function cropAction(Request $request) {\n        $crop = new Crop();\n\n        $form = $this-&gt;createForm(CropType::class, $crop);\n\n\n        if ($form-&gt;isSubmitted() &amp;&amp; $form-&gt;isValid()) {\n            $helper = $this-&gt;get('imageherlper');\n            $helper-&gt;crop($crop);\n\n            return new JsonResponse(array(\n                'status' =&gt; 'success',\n                'url' =&gt; $helper-&gt;getUrl(basename($crop-&gt;getImgUrl()), 'cropped')\n            ));\n        }\n\n        return new JsonResponse(array(\n            'status' =&gt; 'error',\n            'message' =&gt; 'Validation failed'\n        ));\n    }\n</code></pre>\n\n<p>my form : </p>\n\n<pre><code>class CropType extends AbstractType\n{\n    /**\n     * @param FormBuilderInterface $builder\n     * @param array $options\n     */\n    public function buildForm(FormBuilderInterface $builder, array $options)\n    {\n        $builder\n            -&gt;add('imgUrl')\n            -&gt;add('imgInitW')\n            -&gt;add('imgInitH')\n            -&gt;add('imgW')\n            -&gt;add('imgH')\n            -&gt;add('imgX1')\n            -&gt;add('imgY1')\n            -&gt;add('cropW')\n            -&gt;add('cropH')\n            -&gt;add('rotation')\n        ;\n    }\n\n    /**\n     * @param OptionsResolverInterface $resolver\n     */\n    public function configureOptions(OptionsResolver $resolver) {\n        $resolver-&gt;setDefaults([\n            'data_class' =&gt; Crop::class,\n        ]);\n    }\n\n}\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826800/my-symfony-3-form-il-not-submitted-after-ajax-call",
+  "owner" : {
+    "user_id" : 3400722,
+    "user_type" : "registered",
+    "display_name" : "sepointes",
+    "profile_image" : "https://www.gravatar.com/avatar/3de74c91cc8285b48ff32179fe02d116?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/3400722/sepointes",
+    "reputation" : 29,
+    "accept_rate" : 60
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743629,
+  "last_activity_date" : 1498743629,
+  "tags" : [
+    "ajax",
+    "symfony"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

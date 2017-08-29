@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826088,
+  "title" : "Can we save canvas as an Image to sd card in Android?",
+  "body" : "<p>I am working with <code>Canvas</code> in Android Studio, have <strong>.png image</strong> on canvas and want to save it to sd card. Is it possible? \nif yes then how?</p>\n\n<p>thanks and regards.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826088/can-we-save-canvas-as-an-image-to-sd-card-in-android",
+  "owner" : {
+    "user_id" : 4185770,
+    "user_type" : "registered",
+    "display_name" : "N.R",
+    "profile_image" : "https://www.gravatar.com/avatar/4c5a8f24ff67f14d25005ce1847cf5a2?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4185770/n-r",
+    "reputation" : 61,
+    "accept_rate" : 82
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741793,
+  "last_activity_date" : 1498742376,
+  "tags" : [
+    "android"
+  ],
+  "score" : 0,
+  "view_count" : 23,
+  "answer_count" : 0
+}

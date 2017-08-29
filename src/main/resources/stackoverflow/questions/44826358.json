@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826358,
+  "title" : "Double bitwise NOT with Infinity",
+  "body" : "<p>Can anybody explain:</p>\n\n<ul>\n<li><p>why double bitwise NOT for Infinity returns 0?</p>\n\n<pre><code>~~Infinity==0\n</code></pre></li>\n<li><p>what happens under the hood?</p></li>\n<li><p>what is the binary representation of Infinity in javascript?</p></li>\n</ul>\n",
+  "link" : "https://stackoverflow.com/questions/44826358/double-bitwise-not-with-infinity",
+  "owner" : {
+    "user_id" : 1905073,
+    "user_type" : "registered",
+    "display_name" : "luke",
+    "profile_image" : "https://www.gravatar.com/avatar/6e7d66e0fe35dbac0b31e65f1dd4d0bc?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1905073/luke",
+    "reputation" : 844,
+    "accept_rate" : 93
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742539,
+  "last_activity_date" : 1498743893,
+  "tags" : [
+    "javascript"
+  ],
+  "score" : 2,
+  "view_count" : 39,
+  "answer_count" : 1
+}

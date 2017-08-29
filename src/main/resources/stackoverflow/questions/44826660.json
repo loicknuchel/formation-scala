@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826660,
+  "title" : "Android sockets - One server multiple Clients",
+  "body" : "<p>I have to create a simple Teacher and students app .</p>\n\n<p><strong>Step one :</strong></p>\n\n<p>Teacher create a simple server .\nstudents connect to server that created by teacher .</p>\n\n<p><strong>Step two :</strong></p>\n\n<p>Teacher say something ( it does not matter what is that exactly )\nStudents only receive teacher's message .</p>\n\n<p>I need a <strong>simple tutorial or sample code</strong> .</p>\n\n<p>any one can help me ?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826660/android-sockets-one-server-multiple-clients",
+  "owner" : {
+    "user_id" : 6168470,
+    "user_type" : "registered",
+    "display_name" : "engineer emir",
+    "profile_image" : "https://lh6.googleusercontent.com/-xoa3MNxE7Bk/AAAAAAAAAAI/AAAAAAAAAiM/0iJy7LHGEbc/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/6168470/engineer-emir",
+    "reputation" : 23,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743300,
+  "last_activity_date" : 1498743824,
+  "tags" : [
+    "android"
+  ],
+  "score" : 0,
+  "view_count" : 8,
+  "answer_count" : 2
+}

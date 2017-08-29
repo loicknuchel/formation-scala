@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826682,
+  "title" : "v14.0 Web Report Viewer Control not displaying body of report",
+  "body" : "<p>I am hoping someone has an idea about what I am experiencing. </p>\n\n<p>I've worked with various versions of the Report Viewer control (both WinForms and Web) over the years and have just started trying to use the latest HTML5 based version in an ASP .NET Wed Forms project.</p>\n\n<p>My environment is as follows:\nDev laptop with Windows 7 and SQL Server 2014 Including SSRS.\nVarious remote servers with 2008R2, 2014 and 2016 Reporting Services on them.</p>\n\n<p>I've followed this tutorial page from the Microsoft Docs:\n<a href=\"https://docs.microsoft.com/en-us/sql/reporting-services/application-integration/using-the-webforms-reportviewer-control\" rel=\"nofollow noreferrer\">https://docs.microsoft.com/en-us/sql/reporting-services/application-integration/using-the-webforms-reportviewer-control</a>, and have set up a page that points at remote server reports.</p>\n\n<p><strong>Code Behind:</strong></p>\n\n<pre><code>protected void Page_Init(object sender, EventArgs e)\n{\n    if (!Page.IsPostBack)\n    {                \n        rv14.ProcessingMode = ProcessingMode.Remote;\n        ServerReport serverReport = rv14.ServerReport;\n\n       // A 2016 Report\n       serverReport.ReportServerUrl = new Uri(\"http://2016server/reportserver\");\n       serverReport.ReportPath = \"/Sports\";\n\n       // A 2014 Report\n       // serverReport.ReportServerUrl = new Uri(\"http://2014server/reportserver\");\n       // serverReport.ReportPath = \"/SQL2014DemoReports/VertBar\";\n\n       // A 2008R2 Report\n       // serverReport.ReportServerUrl = new Uri(\"http://2008R2server/Reportserver\");\n       // serverReport.ReportPath = \"/DemoReports/VertBar\";\n\n   } \n}\n</code></pre>\n\n<p><strong>ASPX</strong></p>\n\n<pre><code>&lt;%@ Page Language=\"C#\" AutoEventWireup=\"true\" CodeBehind=\"Reports.aspx.cs\" Inherits=\"WebNew.Reports\" %&gt;    \n&lt;%@ Register assembly=\"Microsoft.ReportViewer.WebForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91\" namespace=\"Microsoft.Reporting.WebForms\" tagprefix=\"rsweb\" %&gt;\n\n&lt;!DOCTYPE html&gt;\n\n&lt;html xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n&lt;head runat=\"server\"&gt;\n    &lt;title&gt;Reports&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;form id=\"form1\" runat=\"server\"&gt;\n    &lt;asp:ScriptManager ID=\"ScriptManager1\" runat=\"server\"&gt;&lt;/asp:ScriptManager&gt;\n        &lt;rsweb:ReportViewer ID=\"rv14\" runat=\"server\" Width=\"100%\" Height=\"100%\"&gt;&lt;/rsweb:ReportViewer&gt;\n    &lt;/form&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n</code></pre>\n\n<p>When I run the page, the new HTML based toolbar renders and I get and I get the \"loading\" mini dialog showing, but then nothing. No report body rendered. The report currently uncommented in the code is a simple list of sports a couple of pages long, nothing complex.</p>\n\n<p>I can tell that the server was contacted and replied as I am seeing the pagination control indicating that there is more than one page, and if I then use any of the export controls, such as PDF, the PDF DOES have the correct rendered output in it.</p>\n\n<p>It is simply not showing in my web page.</p>\n\n<p>I've tried IE (11), Chrome (58) and Firefox (49) and all display the same behaviour. It does not matter which of the servers I target or if I connect to my local instance.</p>\n\n<p>Has anyone seen this behaviour, have any pointers to what might be happening, or a good way of trying to debug?</p>\n\n<p>Many thanks</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826682/v14-0-web-report-viewer-control-not-displaying-body-of-report",
+  "owner" : {
+    "user_id" : 202123,
+    "user_type" : "registered",
+    "display_name" : "ChromaticRanger",
+    "profile_image" : "https://www.gravatar.com/avatar/97ff95854a77e1aa2e0195be5e612252?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/202123/chromaticranger",
+    "reputation" : 51,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743331,
+  "last_activity_date" : 1498743331,
+  "tags" : [
+    "reporting-services",
+    "ssrs-2016",
+    "report-viewer2016"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

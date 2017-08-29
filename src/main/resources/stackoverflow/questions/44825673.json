@@ -1,0 +1,24 @@
+{
+  "question_id" : 44825673,
+  "title" : "Deleting Repeated Lines in Two text files -python",
+  "body" : "<p>I have two .list files and i would like to print all the lines of the bigger file that are not in the smaller file. however, the strings will not == each other. </p>\n\n<p>For ex:</p>\n\n<p>ex1.list</p>\n\n<pre><code>-ABCD\n-ABBD\n-ACCD\n-ADDD\n</code></pre>\n\n<p>ex2.list</p>\n\n<pre><code>-ABCD1\n-ABBD2\n-ACCD\n-ADDD\n-GHIJK\n</code></pre>\n\n<p>all the lines in ex1.list can be found somewhere in ex2.list. i would like to print the lines of ex2.list that cannot be found in ex1.list. </p>\n\n<p>thank you!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825673/deleting-repeated-lines-in-two-text-files-python",
+  "owner" : {
+    "user_id" : 8231705,
+    "user_type" : "registered",
+    "display_name" : "J. Naim",
+    "profile_image" : "https://www.gravatar.com/avatar/3089b4cac1e5d2b682ef838e0aada38e?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8231705/j-naim",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498740723,
+  "last_activity_date" : 1498740896,
+  "tags" : [
+    "python-2.7"
+  ],
+  "score" : -2,
+  "view_count" : 14,
+  "answer_count" : 0
+}

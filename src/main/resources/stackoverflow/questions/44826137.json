@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826137,
+  "title" : "WPF: Moving from one cell to the next when pressing Enter in an ItemsControl",
+  "body" : "<p>I have a WPF control defined as follows:</p>\n\n<pre><code>        &lt;ItemsControl ItemsSource=\"{Binding DutyValueBinders}\" IsEnabled=\"{Binding Enabled}\"&gt;\n            &lt;ItemsControl.ItemsPanel&gt;\n                &lt;ItemsPanelTemplate&gt;\n                    &lt;StackPanel Orientation=\"Horizontal\"/&gt;\n                &lt;/ItemsPanelTemplate&gt;\n            &lt;/ItemsControl.ItemsPanel&gt;\n            &lt;ItemsControl.ItemTemplate&gt;\n                &lt;DataTemplate&gt;\n                    &lt;TextBox Text=\"{Binding Value, TargetNullValue=''}\"  Width=\"50\"&gt;&lt;/TextBox&gt;\n                &lt;/DataTemplate&gt;\n            &lt;/ItemsControl.ItemTemplate&gt;\n        &lt;/ItemsControl&gt;\n</code></pre>\n\n<p>This produces a grid, looking like this:</p>\n\n<p><a href=\"https://i.stack.imgur.com/vGX8r.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/vGX8r.png\" alt=\"Grid with data\"></a></p>\n\n<p>So although there's only one text box defined in the XAML, the user sees a grid.</p>\n\n<p>What I want to do is, after the user has typed a value and pressed Enter or Return, focus should pass to the next cell and so on until the end of the grid is reached. I tried putting this routine into the code behind (copied from another thread on Stackoverflow):</p>\n\n<pre><code>    private void UserControl_PreviewKeyDown(object sender, KeyEventArgs e)\n    {\n        if (e.Key != Key.Enter || (!e.IsToggled &amp;&amp; sender is Button)) return;\n        var request = new TraversalRequest(FocusNavigationDirection.Next);\n        var keyboardFocus = Keyboard.FocusedElement as UIElement;\n\n        if (keyboardFocus == null) return;\n        keyboardFocus.MoveFocus(request);\n        e.Handled = true;\n    }\n</code></pre>\n\n<p>and modified the header of the XAML as follows:</p>\n\n<pre><code>&lt;UserControl ...\n             (Other references)\n             ... \n             d:DesignHeight=\"300\" d:DesignWidth=\"300\" PreviewKeyDown=\"UserControl_PreviewKeyDown\"&gt;\n</code></pre>\n\n<p>The trouble is, as there's only one text box in the XAML definition, there's no tabindex order for it to follow, and so when you press Enter the cursor just vanishes.</p>\n\n<p>Is there any way to do this, short of scrapping the XAML entirely and starting again with a different type of control?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826137/wpf-moving-from-one-cell-to-the-next-when-pressing-enter-in-an-itemscontrol",
+  "owner" : {
+    "user_id" : 6103636,
+    "user_type" : "registered",
+    "display_name" : "Wallnut",
+    "profile_image" : "https://i.stack.imgur.com/3YCzD.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/6103636/wallnut",
+    "reputation" : 125,
+    "accept_rate" : null
+  },
+  "is_answered" : true,
+  "creation_date" : 1498741938,
+  "last_activity_date" : 1498742736,
+  "tags" : [
+    "c#",
+    "wpf",
+    "xaml",
+    "data-entry"
+  ],
+  "score" : 0,
+  "view_count" : 15,
+  "answer_count" : 1
+}

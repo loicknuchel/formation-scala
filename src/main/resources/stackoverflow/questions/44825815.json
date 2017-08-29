@@ -1,0 +1,24 @@
+{
+  "question_id" : 44825815,
+  "title" : "Reference to object from grand child?",
+  "body" : "<p>Let say a I have an object:</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var person= {\r\n      firstName:\"Renzo\",\r\n      getFirstName:function(){\r\n        console.log(this);// is the person object\r\n        return this.firstName;\r\n      },\r\n      address:{\r\n        number:function(){\r\n          console.log(this);// is the number function\r\n          //return person.getFirstName(); // it is working\r\n          return this.firstName;// not working           \r\n        }\r\n      }       \r\n   };\r\n   \r\nconsole.log(person.getFirstName());   \r\nconsole.log(person.address.number());   </code></pre>\r\n</div>\r\n</div>\r\n</p>\n\n<p>I know that \"this\" in the getFirstName method will reference to the person object, but \"this\" in the number method will not reference to the person object will reference to the number function.., I can access the getFirstName method from number function referencing to the person object, that will solve the problem but...</p>\n\n<p><strong>Question:</strong>\nIs there way to reference the person object from the number method? without using the person variable... is there some special keyword like \"this\", to access the person method?? </p>\n",
+  "link" : "https://stackoverflow.com/questions/44825815/reference-to-object-from-grand-child",
+  "owner" : {
+    "user_id" : 2894798,
+    "user_type" : "registered",
+    "display_name" : "RenzoCC",
+    "profile_image" : "https://i.stack.imgur.com/MyYtV.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/2894798/renzocc",
+    "reputation" : 766,
+    "accept_rate" : null
+  },
+  "is_answered" : true,
+  "creation_date" : 1498741091,
+  "last_activity_date" : 1498743011,
+  "tags" : [
+    "javascript"
+  ],
+  "score" : 4,
+  "view_count" : 39,
+  "answer_count" : 4
+}

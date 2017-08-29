@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826230,
+  "title" : "Why does my bash pattern match not work properly when &#39;piped&#39; through nodejs exec?",
+  "body" : "<p>I am running following command on git bash (windows)</p>\n\n<pre><code>paste --delimiter=\\\\n --serial src/libs/**/*[^.spec].js &gt; test.js\n</code></pre>\n\n<p>with shopt:</p>\n\n<pre><code>globstar on\nextglob on\n</code></pre>\n\n<p>This successfully concats all js files recursively from src/libs on, except all *.spec.js files when executed from terminal.</p>\n\n<p>However, when I run this command through grunt-shell (<a href=\"https://github.com/sindresorhus/grunt-shell\" rel=\"nofollow noreferrer\">https://github.com/sindresorhus/grunt-shell</a>) it works also but : [^.spec] is ignored. Means all my *.spec.js files get into test.js too.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826230/why-does-my-bash-pattern-match-not-work-properly-when-piped-through-nodejs-exe",
+  "owner" : {
+    "user_id" : 2513534,
+    "user_type" : "registered",
+    "display_name" : "rgruenke",
+    "profile_image" : "https://www.gravatar.com/avatar/55f15347320ae73535c348a64930fb11?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/2513534/rgruenke",
+    "reputation" : 58,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742192,
+  "last_activity_date" : 1498743017,
+  "tags" : [
+    "node.js",
+    "bash",
+    "gruntjs",
+    "grunt-shell"
+  ],
+  "score" : 0,
+  "view_count" : 13,
+  "answer_count" : 1
+}

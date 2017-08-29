@@ -1,0 +1,24 @@
+{
+  "question_id" : 44826280,
+  "title" : "How to rotate a picture by x degree entered by the user?",
+  "body" : "<p>I want the figure to rotate by some x degree buy i cannot enter variable in rotate(). Please help me . This is the basic code for rotating 3 squares for a certain degree . Please help me i'm stuck here for a long time.</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-css lang-css prettyprint-override\"><code>.element {\r\n  display: inline-block;\r\n  background-color: #0074d9;\r\n  height: 100px;\r\n  width: 100px;\r\n  font-size: 1px;\r\n  padding: 1px;\r\n  color: white;\r\n  margin-right: 5px;\r\n  margin-left: 5px;\r\n  animation: roll 3s infinite;\r\n  transform: rotate(30deg);\r\n  opacity: .7;\r\n}\r\n\r\n@keyframes roll {\r\n  0% {\r\n    transform: rotate(0);\r\n  }\r\n  100% {\r\n    transform: rotate(360deg);\r\n  }\r\n}\r\n\r\n\r\nbody, html {\r\n  height: 100%;\r\n}\r\n\r\n\r\nbody {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;div class=\"element\"&gt;\r\n&lt;/div&gt;\r\n&lt;div class=\"element\"&gt;\r\n&lt;/div&gt;\r\n&lt;div class=\"element\"&gt;\r\n&lt;/div&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826280/how-to-rotate-a-picture-by-x-degree-entered-by-the-user",
+  "owner" : {
+    "user_id" : 8231858,
+    "user_type" : "registered",
+    "display_name" : "pranjal awasthi",
+    "profile_image" : "https://lh5.googleusercontent.com/-aNMmxtJBxag/AAAAAAAAAAI/AAAAAAAARiA/NfZ-1AbXruY/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/8231858/pranjal-awasthi",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742342,
+  "last_activity_date" : 1498743881,
+  "tags" : [
+    "javascript"
+  ],
+  "score" : -1,
+  "view_count" : 15,
+  "answer_count" : 1
+}

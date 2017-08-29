@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826258,
+  "title" : "How to Check for variable value change in BackboneJS",
+  "body" : "<p>How i can get to know that variable value got changed dynamically.\nAs in AngularJS, we use <code>$watch</code> to know that variable/obj/array value get changed?</p>\n\n<p>How we can get to know in BackboneJS.\nThanks</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826258/how-to-check-for-variable-value-change-in-backbonejs",
+  "owner" : {
+    "user_id" : 5902465,
+    "user_type" : "registered",
+    "display_name" : "Bharat",
+    "profile_image" : "https://www.gravatar.com/avatar/5de558e752200e7c142903b1f80cea49?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/5902465/bharat",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742272,
+  "last_activity_date" : 1498742272,
+  "tags" : [
+    "javascript",
+    "backbone.js"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

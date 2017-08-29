@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826530,
+  "title" : "Activating a menu in eclips plugin",
+  "body" : "<p>I created a menu (on the top bar near file edit ... ) in an eclipse plugin project in plugin.xml. Now I want to activate and inactivate the menu based on the value of a boolean variable in one of my java classes. I don't know how to pass the Boolean variable from the Java class into the .xml plugin file.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826530/activating-a-menu-in-eclips-plugin",
+  "owner" : {
+    "user_id" : 3364628,
+    "user_type" : "registered",
+    "display_name" : "user3364628",
+    "profile_image" : "https://graph.facebook.com/1482407535/picture?type=large",
+    "link" : "https://stackoverflow.com/users/3364628/user3364628",
+    "reputation" : 6,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742962,
+  "last_activity_date" : 1498742962,
+  "tags" : [
+    "java",
+    "xml",
+    "eclipse",
+    "plugins"
+  ],
+  "score" : 0,
+  "view_count" : 9,
+  "answer_count" : 0
+}

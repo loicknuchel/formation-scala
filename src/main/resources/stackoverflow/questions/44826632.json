@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826632,
+  "title" : "Powershell to query a specific OU on domain",
+  "body" : "<pre><code>Function    ListComputers\n            {\n                $strCategory = \"computer\"\n                $objDomain = New-Object System.DirectoryServices.DirectoryEntry\n                $objSearcher = New-Object System.DirectoryServices.DirectorySearcher\n                $objSearcher.SearchRoot = $objDomain\n                Write-Host $objDomain\n                $objSearcher.Filter = (\"(objectCategory=$strCategory)\")\n                $colProplist = \"name\"\n                foreach ($i in $colPropList)\n                {\n                    $objSearcher.PropertiesToLoad.Add($i)\n                }\n                $colResults = $objSearcher.FindAll()\n\n                foreach ($objResult in $colResults)\n                {\n                    $objComputer = $objResult.Properties; $objComputer.name\n                }\n            }\n</code></pre>\n\n<p>This is searching the entire domain. How do I only search in a specific OU in the domain?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826632/powershell-to-query-a-specific-ou-on-domain",
+  "owner" : {
+    "user_id" : 399508,
+    "user_type" : "registered",
+    "display_name" : "software is fun",
+    "profile_image" : "https://www.gravatar.com/avatar/030ea300bdf13a1dc0f0a20db6a9205d?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/399508/software-is-fun",
+    "reputation" : 2056,
+    "accept_rate" : 57
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743224,
+  "last_activity_date" : 1498743224,
+  "tags" : [
+    "powershell",
+    "active-directory"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

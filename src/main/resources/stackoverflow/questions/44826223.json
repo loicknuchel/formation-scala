@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826223,
+  "title" : "How to insert new data into a table, then insert new data again to that same table",
+  "body" : "<p>I don't know the correct term/word for this question so it may have been answered before. If so please kindly point me to the right direction or edit my question to make more sense.</p>\n\n<p>But basically.</p>\n\n<p>I have a table (call it 'customer') and I want to insert new data (call it 'newcustomers') into customer, which I do using the insert statement. Then the next day another batch of new data arrives and I would like to insert that new batch of data into 'customer' but underneath the previous data ('newcustomers').</p>\n\n<p>My real question is, how do I do this without having to write an insert statement multiple times? I am also aware my IF OBJECT statement deletes the table everytime I execute the statement, reason being I wanted to try create a script that executes with one click of a button</p>\n\n<p>Each day I would like to add new customers underneath the customer table and do this once, e.g. click execute once and the whole script will run/use an automated procedure to run it daily etc.</p>\n\n<p>I don't know if I am thinking way outside the box and if there is a simple answer to this.</p>\n\n<pre><code>USE [customerdatabase]\nGO\n\nIF OBJECT_ID('[customerdatabase].[dbo].[CUSTOMER]', 'U') IS NOT NULL\nDROP TABLE [customerdatabase].[dbo].[CUSTOMER];\n\n-- Create your table\nCREATE TABLE [customerdatabase].[dbo].[CUSTOMER]\n\n(\n\n  [Customer lastname] VARCHAR (MAX)\n, [Customer firstname] VARCHAR (MAX)\n\n\n)\n\n-- This will insert data in to the created table from above.\nBULK INSERT CUSTOMER FROM 'C:\\Users\\OriginalDATA.csv'\nWith \n\n(    \n    FirstROW = 2,\n    FIELDTERMINATOR = ',',\n    ROWTERMINATOR = '\\n'\n)\n\n-- Now we want to insert new data for the week.\n\nIF OBJECT_ID('[customerdatabase].[dbo].[newcustomers]', 'U') IS NOT \nNULL\nDROP TABLE [customerdatabase].[dbo].[newcustomers];\n\nCREATE TABLE [customerdatabase].[dbo].[newcustomers]\n\n(\n\n  [Customer lastname] VARCHAR (MAX)\n, [Customer firstname] VARCHAR (MAX)\n\n)\n\n--This inserts new data seperately in to customerdatabase\nBULK INSERT newcustomers FROM 'C:\\Users\\Downloads\\neCustomer.csv'\nWith \n\n(    \n\nFirstROW = 2,\nFIELDTERMINATOR = ',',\n ROWTERMINATOR = '\\n'\n)\n\nINSERT INTO CUSTOMER\nSELECT * FROM newcustomers\n\n-- repeat bulk insert again for next days batch of data\n-- but do I do insert into again?\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826223/how-to-insert-new-data-into-a-table-then-insert-new-data-again-to-that-same-tab",
+  "owner" : {
+    "user_id" : 7268454,
+    "user_type" : "registered",
+    "display_name" : "VS1SQL",
+    "profile_image" : "https://www.gravatar.com/avatar/0dec30f5a5f77903d49cd34568dfc832?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7268454/vs1sql",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742173,
+  "last_activity_date" : 1498742173,
+  "tags" : [
+    "ssms",
+    "sql-insert",
+    "insert-update"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

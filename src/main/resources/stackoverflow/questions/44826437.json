@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826437,
+  "title" : "Proteus ISIS: PIC Libraries",
+  "body" : "<p>I'd like to get a PIC MCUs library to Proteus ISIS, but I'm not finding it. Is there some library where I can find PIC 18F4xKxx family for download?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826437/proteus-isis-pic-libraries",
+  "owner" : {
+    "user_id" : 7717426,
+    "user_type" : "registered",
+    "display_name" : "wBB",
+    "profile_image" : "https://www.gravatar.com/avatar/7e5ef2b793021de6850563c0ed534162?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7717426/wbb",
+    "reputation" : 3,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742748,
+  "last_activity_date" : 1498742748,
+  "tags" : [
+    "pic",
+    "proteus"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826024,
+  "title" : "python textbox highlight with selectable menu items",
+  "body" : "<p>I am using Python 2.7.13 and I am trying to build a GUI that uses textbox and I need to put a menu inside the textbox that I can select different items of that menu with a highlighted cursor.I want to be able to select these items by having up and down arrow buttons and a enter button.I have searched and searched and found nothing that could help me with this problem.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826024/python-textbox-highlight-with-selectable-menu-items",
+  "owner" : {
+    "user_id" : 6249135,
+    "user_type" : "registered",
+    "display_name" : "Keenan",
+    "profile_image" : "https://i.stack.imgur.com/CNJjG.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/6249135/keenan",
+    "reputation" : 4,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741583,
+  "last_activity_date" : 1498741583,
+  "tags" : [
+    "python",
+    "menu",
+    "textbox",
+    "highlight"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 0
+}

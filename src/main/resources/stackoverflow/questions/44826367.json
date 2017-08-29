@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826367,
+  "title" : "redirecting to another asp.net page using request.querystring in asp.net",
+  "body" : "<pre><code>int ob=0;\n\nprotected void Button1_Click(object sender, EventArgs e)\n\n{\n    ob = Convert.ToInt32(Request.QueryString[\"value\"].ToString());\n\n    if (RadioButton1.Checked == true)\n    {\n        ob = ob + 1;\n    }\n    else\n    {\n        ob = ob + 0;\n    }\n    Response.Redirect(\"result.aspx?value = \" + ob);\n}\n</code></pre>\n\n<blockquote>\n  <p>exception:- System.NullReferenceException: 'Object reference not set\n  to an instance of an object.'</p>\n  \n  <p>System.Collections.Specialized.NameValueCollection.this[string].get\n  returned null.</p>\n</blockquote>\n",
+  "link" : "https://stackoverflow.com/questions/44826367/redirecting-to-another-asp-net-page-using-request-querystring-in-asp-net",
+  "owner" : {
+    "user_id" : 8231153,
+    "user_type" : "registered",
+    "display_name" : "shelovestocode",
+    "profile_image" : "https://www.gravatar.com/avatar/fe4e176cc69bc87a142dbccdd66521b7?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8231153/shelovestocode",
+    "reputation" : 6,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742560,
+  "last_activity_date" : 1498742894,
+  "tags" : [
+    "c#",
+    "asp.net",
+    "request.querystring"
+  ],
+  "score" : -1,
+  "view_count" : 9,
+  "answer_count" : 1
+}

@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826519,
+  "title" : "Symfony entity validation verify foreign key exists",
+  "body" : "<p>I would like to be able to use entity validator constraints to verify if the foreign key book_id is valid, please see below:</p>\n\n<p>Book.php</p>\n\n<pre><code>/**\n * Book\n *\n * @ORM\\Table(\"book\")\n * @ORM\\Entity\n * @ORM\\Entity(repositoryClass=\"AppBundle\\Repository\\BookRepository\")\n */\nclass Book\n{\n     /**\n      * @var integer\n      * @ORM\\Column(name=\"id\", type=\"integer\")\n      * @ORM\\Id\n      * @ORM\\GeneratedValue(strategy=\"AUTO\")\n      */\n     private $id;\n\n    /**\n     * @var string\n     * @ORM\\Column(name=\"name\", type=\"string\")\n     * @Assert\\Length(\n     *     max = 250,\n     *     maxMessage = \"Name cannot be longer than {{ limit }} characters\",\n     *     groups={\"create\",\"update\"}\n     * )\n     */\n    private $name;\n\n    /**\n     * @ORM\\OneToOne(targetEntity=\"Loan\", mappedBy=\"book\", fetch=\"LAZY\")\n     */\n    protected $loan;\n}\n</code></pre>\n\n<p>Loan.php</p>\n\n<pre><code>/**\n * Loan\n *\n * @ORM\\Table(\"loan\")\n * @ORM\\Entity\n * @ORM\\Entity(repositoryClass=\"AppBundle\\Repository\\LoanRepository\")\n */\nclass Loan\n{\n     /**\n      * @var integer\n      * @ORM\\Column(name=\"id\", type=\"integer\")\n      * @ORM\\Id\n      * @ORM\\GeneratedValue(strategy=\"AUTO\")\n      */\n     private $id;\n\n    /**\n     * @var integer\n     * @ORM\\Column(name=\"book_id\", type=\"integer\")\n     */\n    protected $book_id;\n\n    /**\n     * @var string\n     * @ORM\\Column(name=\"name\", type=\"string\")\n     * @Assert\\Length(\n     *     max = 500,\n     *     maxMessage = \"Person cannot be longer than {{ limit }} characters\",\n     *     groups={\"create\",\"update\"}\n     * )\n     */\n    private $person;\n\n     /**\n      * @ORM\\OneToOne(targetEntity=\"Book\", inversedBy=\"loan\")\n      * @ORM\\JoinColumn(name=\"book_id\", referencedColumnName=\"id\")\n      */\n    protected $book;\n}\n</code></pre>\n\n<p>Here is how I am currently validating the loan entity</p>\n\n<pre><code>    $loan = new Loan();\n    $loan-&gt;setPerson($person);\n    $loan-&gt;setBookId($id);\n\n    /** @var ConstraintViolation $error */\n    foreach ($this-&gt;get('validator')-&gt;validate($loan,null,['create'])-&gt;getIterator() as $index =&gt; $error) {\n        $errorMessages[] = $error-&gt;getMessage();\n    }\n</code></pre>\n\n<p>I figured maybe I can add a custom validator like this to the loan entity:</p>\n\n<pre><code>/**\n * @Assert\\IsTrue(message = \"The book does not exist\")\n * @return bool\n */\npublic function isBookLegal(BookRepository $bookRepository)\n{\n    return !$bookRepository-&gt;fetchById($this-&gt;book_id);\n}\n</code></pre>\n\n<p>But I end up with the follow exception:</p>\n\n<pre><code>Type error: Too few arguments to function \nAppBundle\\Entity\\Loan::isBookLegal(), 0 passed and exactly 1 expected\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826519/symfony-entity-validation-verify-foreign-key-exists",
+  "owner" : {
+    "user_id" : 7450286,
+    "user_type" : "registered",
+    "display_name" : "Freid001",
+    "profile_image" : "https://graph.facebook.com/10212289494462576/picture?type=large",
+    "link" : "https://stackoverflow.com/users/7450286/freid001",
+    "reputation" : 36,
+    "accept_rate" : 83
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742943,
+  "last_activity_date" : 1498743807,
+  "tags" : [
+    "symfony",
+    "validation",
+    "docker",
+    "entity"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 1
+}

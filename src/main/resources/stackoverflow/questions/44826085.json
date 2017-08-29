@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826085,
+  "title" : "SELinux and apache curl",
+  "body" : "<p>When I make a request using <code>curl any_address</code> it works.\nWhen I make it from my php script run by apache I've got: permission denied.</p>\n\n<p>I had to: set flag <code>httpd_can_network_connect</code> to <code>1</code>. </p>\n\n<ol>\n<li>Why commandline works while <code>php</code> doesn't?</li>\n<li>How to know that there is a problem in the future? I was confused what happens.</li>\n</ol>\n",
+  "link" : "https://stackoverflow.com/questions/44826085/selinux-and-apache-curl",
+  "owner" : {
+    "user_id" : 5382150,
+    "user_type" : "registered",
+    "display_name" : "Gilgamesz",
+    "profile_image" : "https://i.stack.imgur.com/GwGSL.png?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/5382150/gilgamesz",
+    "reputation" : 1072,
+    "accept_rate" : 88
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741789,
+  "last_activity_date" : 1498741789,
+  "tags" : [
+    "curl",
+    "selinux"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

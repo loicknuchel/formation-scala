@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826290,
+  "title" : "How do you replace the right click &gt; reload current page function?",
+  "body" : "<p>I currently track if the F5 key has been clicked and if the window.location.reload is a new function.But right click reload I haven't been able to find the function it is mapped to to replace it with my newReload function.</p>\n\n<pre><code>$(document).on(\"keydown\", function(e) {\n    if(e.keyCode === 116) { // f5 keycode is 116\n        e.preventDefault();\n        e.returnValue = false; // for IE\n        newReload();\n    }\n});\nwindow.location.reload = newReload;\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826290/how-do-you-replace-the-right-click-reload-current-page-function",
+  "owner" : {
+    "user_id" : 1227230,
+    "user_type" : "registered",
+    "display_name" : "Schwarz",
+    "profile_image" : "https://www.gravatar.com/avatar/1ac752f43db3e2b782b764f5dd79b625?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/1227230/schwarz",
+    "reputation" : 120,
+    "accept_rate" : 76
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742357,
+  "last_activity_date" : 1498742357,
+  "tags" : [
+    "javascript",
+    "jquery"
+  ],
+  "score" : -1,
+  "view_count" : 23,
+  "answer_count" : 0
+}

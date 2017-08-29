@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826073,
+  "title" : "How to decode when we have not hard codded the encodded value",
+  "body" : "<pre><code>public static void main(String[] args) {\nString encoddedInfo = \"H4sIAAAAAAAAAM19W28cS\"; //Here it is not the exact String \nString decoded = decompress(decode(encoddedInfo));\n}\npublic static  byte[] decode(String sCurrentLine){\n   byte[] base64decodedBytes = Base64.decodeBase64(sCurrentLine.getBytes());\n   return base64decodedBytes;\n    }\n\npublic static String decompress(byte[] contentBytes){\n        ByteArrayOutputStream out = new ByteArrayOutputStream();\n        try{\n            IOUtils.copy(new GZIPInputStream(new ByteArrayInputStream(contentBytes)), out);\n        } catch(IOException e){\n            // throw new RuntimeException(e);\n            System.out.println(\"Coundn't decompress == \"+e);\n            e.printStackTrace();\n        }\n        return out.toString();\n    }\n</code></pre>\n\n<p>My question is when I hard code the value of encoddedInfo in java program, this decodes fine.\nBut when I assign value in encoddedInfo as output of some API. It throws Exception:- invalid bit length repeat.\nPlease let me know what can I do to achieve decoding in case when I assigns output of API as value in encoddedInfo.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826073/how-to-decode-when-we-have-not-hard-codded-the-encodded-value",
+  "owner" : {
+    "user_id" : 8059289,
+    "user_type" : "registered",
+    "display_name" : "Prem Prakash Suwalka",
+    "profile_image" : "https://lh5.googleusercontent.com/-MEPd4dfRwsQ/AAAAAAAAAAI/AAAAAAAAAHM/t8Oz9gZaxzY/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/8059289/prem-prakash-suwalka",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741759,
+  "last_activity_date" : 1498741759,
+  "tags" : [
+    "java",
+    "gzip"
+  ],
+  "score" : -1,
+  "view_count" : 18,
+  "answer_count" : 0
+}

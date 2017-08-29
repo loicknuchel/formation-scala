@@ -1,0 +1,27 @@
+{
+  "question_id" : 44825995,
+  "title" : "Visual Studio Winforms Project Hidden Startup Code",
+  "body" : "<p>When creating a VB.NET Winforms Project in Visual Studio, there's a lot of code related to initialization that seems to be hidden. Is there a way to show it in order to see which statements run from the very beginning, through creation of <code>MyProject</code> and <code>MyApplication</code> objects, creation and exhibition of <code>SplashScreen</code> and finally definition and creation of <code>My.Application.ApplicationContext.MainForm</code>? </p>\n\n<p>That is, a Console application project has a <code>Sub Main()</code> that is visible, I presume a Winforms Application should have one too, but it is hidden and packed with the routines that create instances for SplashScreen, main Form and etc. I would like to see and understand better this flow.</p>\n\n<p>Thank you!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825995/visual-studio-winforms-project-hidden-startup-code",
+  "owner" : {
+    "user_id" : 3718031,
+    "user_type" : "registered",
+    "display_name" : "VBobCat",
+    "profile_image" : "https://i.stack.imgur.com/wfBC6.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/3718031/vbobcat",
+    "reputation" : 487,
+    "accept_rate" : 81
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741510,
+  "last_activity_date" : 1498742160,
+  "tags" : [
+    "vb.net",
+    "winforms",
+    "visual-studio",
+    "visual-studio-2017"
+  ],
+  "score" : 0,
+  "view_count" : 17,
+  "answer_count" : 0
+}

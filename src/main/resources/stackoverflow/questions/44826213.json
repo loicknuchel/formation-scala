@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826213,
+  "title" : "Detect $document.on(&#39;click&#39;, function(event) {} on $uibmodal",
+  "body" : "<p>I'm using below code in custom directive to detect a click anywhere on page.</p>\n\n<pre><code>$document.on('click', function(event) {\n        event.preventDefault();\n        event.stopPropagation();\n        $scope.$apply(function() {\n          $log.info('doc click')\n        });\n        $document.off('click', event);\n      });\n</code></pre>\n\n<p>Code is working fine But while using the directive in an <code>uibmodal</code> the <code>$document.on('click', function(event) { }</code> is not logging anything.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826213/detect-document-onclick-functionevent-on-uibmodal",
+  "owner" : {
+    "user_id" : 7331574,
+    "user_type" : "registered",
+    "display_name" : "Sumit Ridhal",
+    "profile_image" : "https://lh3.googleusercontent.com/-leGQEuZfuC0/AAAAAAAAAAI/AAAAAAAAD1s/C902v8Wncr0/photo.jpg?sz=128",
+    "link" : "https://stackoverflow.com/users/7331574/sumit-ridhal",
+    "reputation" : 206,
+    "accept_rate" : 60
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742156,
+  "last_activity_date" : 1498742156,
+  "tags" : [
+    "angularjs",
+    "angular-ui-bootstrap",
+    "angular-ui"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

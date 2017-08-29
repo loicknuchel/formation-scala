@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826725,
+  "title" : "What project for Integration Tests in Visual Studio?",
+  "body" : "<p>I have a pretty simple question: What kind of project should I create for <code>Integration Tests</code> in Visual Studio? The only proposed project type under <code>Test</code> tab in <code>Visual C#</code> is <code>Unit Test Project</code>, but it's not integration test, so I'm not sure </p>\n\n<p>This is what I read, but couldn't find an answer :</p>\n\n<p><a href=\"https://stackoverflow.com/questions/32060452/integration-testing-in-visual-studio-with-different-project-types\">Integration Testing In Visual Studio With Different Project Types</a></p>\n\n<p><a href=\"https://stackoverflow.com/questions/1894339/how-do-you-separate-unit-tests-from-integration-tests-in-visual-studio\">How do you separate unit tests from integration tests in Visual Studio?</a></p>\n\n<p>Thanks!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826725/what-project-for-integration-tests-in-visual-studio",
+  "owner" : {
+    "user_id" : 4714502,
+    "user_type" : "registered",
+    "display_name" : "L&#233;onard Laiter",
+    "profile_image" : "https://www.gravatar.com/avatar/da4ab67dcbbb08734146127438f47aa5?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/4714502/l%c3%a9onard-laiter",
+    "reputation" : 163,
+    "accept_rate" : 87
+  },
+  "is_answered" : true,
+  "creation_date" : 1498743437,
+  "last_activity_date" : 1498743800,
+  "tags" : [
+    "visual-studio",
+    "integration-testing"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 1
+}

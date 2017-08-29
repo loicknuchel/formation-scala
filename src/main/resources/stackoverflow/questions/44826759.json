@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826759,
+  "title" : "Remove rows from WebControls.Table that do not meet criteria",
+  "body" : "<p>Please see the code below:</p>\n\n<pre><code>For Each row As TableRow In objTable.Rows\n\n        Next\n</code></pre>\n\n<p>objTable is a Table: <a href=\"https://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.table%28v=vs.110%29.aspx\" rel=\"nofollow noreferrer\">https://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.table%28v=vs.110%29.aspx</a></p>\n\n<p>In each row there is a column called: Name.  I want to remove all the rows where the name is not Robert.  How can I do this?</p>\n\n<p>I cannot find a property on the cell that allows you to identify the column name.  I have done this before using a DataTable using LINQ.  However, I don't believe you can do this with WebControls.Table.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826759/remove-rows-from-webcontrols-table-that-do-not-meet-criteria",
+  "owner" : {
+    "user_id" : 937440,
+    "user_type" : "registered",
+    "display_name" : "w0051977",
+    "profile_image" : "https://www.gravatar.com/avatar/5ba5f9ad02a9ab43d4664d17747a1230?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/937440/w0051977",
+    "reputation" : 4208,
+    "accept_rate" : 51
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743526,
+  "last_activity_date" : 1498743526,
+  "tags" : [
+    "asp.net",
+    "vb.net"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

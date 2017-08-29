@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826860,
+  "title" : "ZMQ subscriber does not receive message from remote server after long interval",
+  "body" : "<p>The following pubsub php works normally when the both php are running in the same saver. However, it does not work when they are running in the different servers.</p>\n\n<pre><code>(local)client.php &lt;--&gt; (local)server.php (with sleeptime 300) &lt;= OK\n(local)client.php &lt;--&gt; (remote)server.php (with sleeptime 300) &lt;= NG\n</code></pre>\n\n<p>I changed the sleep time from 300 to 30. It worked. </p>\n\n<pre><code>(local)client.php &lt;--&gt; (remote)server.php (with sleeptime 30) &lt;= OK\n</code></pre>\n\n<p>I think that the socket was closed or something happened during only remote access. How can I fix it? I want to detect the closed socket and re-connect. Or I want to change the time-out setting if it is possible.</p>\n\n<p><strong>server.php</strong></p>\n\n<pre><code>&lt;?php\n$context = new ZMQContext();\n$publisher = new ZMQSocket($context, ZMQ::SOCKET_PUB);\n$publisher-&gt;bind(\"tcp://*:5563\");\n\nwhile (true) {\n    sleep (300);\n    $publisher-&gt;send(\"A\", ZMQ::MODE_SNDMORE);\n    $publisher-&gt;send(\"We don't want to see this\");\n    $publisher-&gt;send(\"B\", ZMQ::MODE_SNDMORE);\n    $publisher-&gt;send(\"We would like to see this\");\n}\n</code></pre>\n\n<p><strong>client.php</strong></p>\n\n<pre><code>&lt;?php\n\n$context = new ZMQContext();\n$subscriber = new ZMQSocket($context, ZMQ::SOCKET_SUB);\n$subscriber-&gt;connect(\"tcp://localhost:5563\"); // This is the setting for local server.php. I changed it for server.php at remote.php \n$subscriber-&gt;setSockOpt(ZMQ::SOCKOPT_SUBSCRIBE, \"B\");\n\nwhile (true) {\n    $address = $subscriber-&gt;recv();\n    $contents = $subscriber-&gt;recv();\n    printf (\"[%s] %s%s\", $address, $contents, PHP_EOL);\n</code></pre>\n\n<p>I'm using libzmq、php-zmq. ZMQ::LIBZMQ_VER is 4.2.1. PHP is version 5.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826860/zmq-subscriber-does-not-receive-message-from-remote-server-after-long-interval",
+  "owner" : {
+    "user_id" : 1582304,
+    "user_type" : "registered",
+    "display_name" : "zono",
+    "profile_image" : "https://www.gravatar.com/avatar/4adb0a12197208cd64a247a6f5431cf9?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/1582304/zono",
+    "reputation" : 2395,
+    "accept_rate" : 69
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743758,
+  "last_activity_date" : 1498743758,
+  "tags" : [
+    "php",
+    "zeromq",
+    "pyzmq"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

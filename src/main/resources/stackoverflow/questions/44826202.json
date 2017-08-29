@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826202,
+  "title" : "IBrokers - reqMktData",
+  "body" : "<p>Has anyone tried different exchanges on IBrokers? I am trying to get either market data or historical data for stocks listed on ASX(Australian Exchange). I am subscribed to Chi-X Australia. </p>\n\n<pre><code>library(\"IBrokers\")\ntws &lt;- twsConnect()\nsecurity = twsSTK(\"TLS\",primary = \"ASX\")\nis.twsConnection(security) #says false \nsecurity_copy = twsEquity(symbol = \"TLS\",primary = \"ASX\")\nreqMktData(tws,security)\ndata_stock = reqHistoricalData(tws, security)\n</code></pre>\n\n<p>I get this error messages.</p>\n\n<p>TWS Message: 2 1 200 No security definition has been found for the request \nTWS Message: 2 1 300 Can't find EId with tickerId:1 \nwaiting for TWS reply on TLS ....failed.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826202/ibrokers-reqmktdata",
+  "owner" : {
+    "user_id" : 4418758,
+    "user_type" : "registered",
+    "display_name" : "Jun Edward Shin",
+    "profile_image" : "https://graph.facebook.com/573243387/picture?type=large",
+    "link" : "https://stackoverflow.com/users/4418758/jun-edward-shin",
+    "reputation" : 6,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742120,
+  "last_activity_date" : 1498742120,
+  "tags" : [
+    "r",
+    "interactive-brokers",
+    "ibrokers",
+    "asx"
+  ],
+  "score" : 0,
+  "view_count" : 5,
+  "answer_count" : 0
+}

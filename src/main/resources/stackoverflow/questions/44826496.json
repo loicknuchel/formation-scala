@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826496,
+  "title" : "Multiple rails apps nginx passenger config",
+  "body" : "<p>I used <a href=\"https://gist.github.com/soheilhy/8b94347ff8336d971ad0\" rel=\"nofollow noreferrer\">this</a> guide to setup server.</p>\n\n<p>Here are my configs:</p>\n\n<p><strong>nginx/nginx.conf</strong></p>\n\n<pre><code>user www-data;\nworker_processes auto;\npid /run/nginx.pid;\n\nevents {\nworker_connections 768;\n# multi_accept on;\n}\n\nhttp {\n\n##\n# Basic Settings\n##\n\nsendfile on;\ntcp_nopush on;\ntcp_nodelay on;\nkeepalive_timeout 65;\ntypes_hash_max_size 2048;\n# server_tokens off;\n\nserver_names_hash_bucket_size 64;\n# server_name_in_redirect off;\n\ninclude /etc/nginx/mime.types;\ndefault_type application/octet-stream;\n\n##\n# SSL Settings\n##\n\nssl_protocols TLSv1 TLSv1.1 TLSv1.2; # Dropping SSLv3, ref: POODLE\nssl_prefer_server_ciphers on;\n\n##\n# Logging Settings\n##\n\naccess_log /var/log/nginx/access.log;\nerror_log /var/log/nginx/error.log;\n\n##\n# Gzip Settings\n##\n\ngzip on;\ngzip_disable \"msie6\";\n\n# gzip_vary on;\n# gzip_proxied any;\n# gzip_comp_level 6;\n# gzip_buffers 16 8k;\n# gzip_http_version 1.1;\n# gzip_types text/plain text/css application/json \napplication/javascript text/xml application/xml application/xml+rss \ntext/javascript;\n\n##\n# Phusion Passenger config\n##\n# Uncomment it if you installed passenger or passenger-enterprise\n##\n\n#include /etc/nginx/passenger.conf;\n\n##\n# Virtual Host Configs\n##\n\ninclude /etc/nginx/conf.d/*.conf;\ninclude /etc/nginx/sites-enabled/*;\n</code></pre>\n\n<p><strong>nginx/mysite1</strong></p>\n\n<pre><code>server {\n        listen 80;\n        listen [::]:80 ipv6only=on;\n\n        server_name mysite1.com;\n\n    client_max_body_size 75m;\n\n    access_log /var/log/nginx/mysite1.access.log;\n    error_log  /var/log/nginx/mysite1.error.log;\n\n        root         /home/deploy/www/mysite1/public;\n\n    location / {\n        proxy_pass http://127.0.0.1:8080;\n        proxy_set_header Host $host;\n    }\n\n\n}\n</code></pre>\n\n<p><strong>nginx/mysite2</strong></p>\n\n<pre><code>server {\n        listen 80;\n        #listen [::]:80 ipv6only=on;\n\n        server_name mysite2.com;\n    client_max_body_size 100m;\n\n    access_log /var/log/nginx/mysite2.access.log;\n    error_log  /var/log/nginx/mysite2.error.log;\n\n        root         /home/deploy/www/mysite2/public;\n\n    location / {\n        proxy_pass https://127.0.0.1:8181;\n        proxy_set_header Host $host;\n    }\n}\n</code></pre>\n\n<p>mysite1 is working fine, but when I go to mysite2, I see mysite1.\nI think the passenger is ok, cause I have passenger.8080.pid and passenger.8181.pid in direcories mysite1 and mysite2, respectively.\nRun out of ideas, so asking for help.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826496/multiple-rails-apps-nginx-passenger-config",
+  "owner" : {
+    "user_id" : 7271898,
+    "user_type" : "registered",
+    "display_name" : "alexxero",
+    "profile_image" : "https://www.gravatar.com/avatar/4a674cc90572a0798e4a6a8e870038a5?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7271898/alexxero",
+    "reputation" : 39,
+    "accept_rate" : 83
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742885,
+  "last_activity_date" : 1498742885,
+  "tags" : [
+    "ruby-on-rails",
+    "nginx",
+    "passenger"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

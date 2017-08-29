@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826795,
+  "title" : "Testing absolute URLS Before The Website is Live",
+  "body" : "<p>Is there a way to test absolute urls before a site is live? (probably a stupid question, but gotta learn somewhere)</p>\n\n<p>For example, website is called <a href=\"http://www.newwebsite.com\" rel=\"nofollow noreferrer\">http://www.newwebsite.com</a></p>\n\n<p>Building the site with links coded like <code>&lt;li&gt;&lt;a href=\"http://www.newwebsite.com/page1/\"&gt;Page 1&lt;/a&gt;&lt;/li&gt;</code></p>\n\n<p>Is there anyway of testing the links all work, without the site actually being live?</p>\n\n<p>Thanks</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826795/testing-absolute-urls-before-the-website-is-live",
+  "owner" : {
+    "user_id" : 7630413,
+    "user_type" : "registered",
+    "display_name" : "Walruss",
+    "profile_image" : "https://www.gravatar.com/avatar/18255b7551a1e11985310ee7515dc8ad?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/7630413/walruss",
+    "reputation" : 6,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743614,
+  "last_activity_date" : 1498743614,
+  "tags" : [
+    "html",
+    "web-testing"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

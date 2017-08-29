@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826374,
+  "title" : "npm + Gulp cannot find module gulp",
+  "body" : "<p>I have a problem with my angular2-seed project. Executing \"npm install\" throws the following error: </p>\n\n<pre><code>          throw new TSError(formatDiagnostics(diagnosticList, cwd, ts, lineOffset))\n                ^\nTSError: ⨯ Unable to compile TypeScript\nCannot find type definition file for 'node'. (2688)\ngulpfile.ts (1,23): Cannot find module 'gulp'. (2307)\ngulpfile.ts (2,23): Cannot find module 'gulp-util'. (2307)\ngulpfile.ts (3,30): Cannot find module 'run-sequence'. (2307)\ngulpfile.ts (5,20): Cannot find module './tools/config'. (2307)\ngulpfile.ts (6,47): Cannot find module './tools/utils'. (2307)\n</code></pre>\n\n<p>It worked well before I made  'npm install' on clean repo. Now I receive this error and I have no idea whats wrong. Two days ago, it worked without a problem.\n<p> Please help. </p>\n\n<p><strong>Gulpfile.ts</strong> (it was not changed since last successful build): </p>\n\n<pre><code>import * as gulp from 'gulp';\nimport * as util from 'gulp-util';\nimport * as runSequence from 'run-sequence';\n\nimport Config from './tools/config';\nimport { loadTasks, loadCompositeTasks } from './tools/utils';\n\n\nloadTasks(Config.SEED_TASKS_DIR);\nloadTasks(Config.PROJECT_TASKS_DIR);\n\nloadCompositeTasks(Config.SEED_COMPOSITE_TASKS, Config.PROJECT_COMPOSITE_TASKS);\n\n\n// --------------\n// Clean dev/coverage that will only run once\n// this prevents karma watchers from being broken when directories are deleted\nlet firstRun = true;\ngulp.task('clean.once', (done: any) =&gt; {\n  if (firstRun) {\n    firstRun = false;\n    runSequence('check.tools', 'clean.dev', 'clean.coverage', done);\n  } else {\n    util.log('Skipping clean on rebuild');\n    done();\n  }\n});\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826374/npm-gulp-cannot-find-module-gulp",
+  "owner" : {
+    "user_id" : 3299253,
+    "user_type" : "registered",
+    "display_name" : "user3299253",
+    "profile_image" : "https://www.gravatar.com/avatar/00ecbdb38096e1601cb184c6c9d5a8f1?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/3299253/user3299253",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742583,
+  "last_activity_date" : 1498743797,
+  "tags" : [
+    "angular",
+    "typescript",
+    "npm",
+    "gulp",
+    "angular-seed"
+  ],
+  "score" : 0,
+  "view_count" : 9,
+  "answer_count" : 0
+}

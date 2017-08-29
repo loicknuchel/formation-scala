@@ -1,0 +1,25 @@
+{
+  "question_id" : 44805969,
+  "title" : "Eclipse: how to silence API access warnings for specific projects?",
+  "body" : "<p>We have tons of Eclipse projects that specify access rules, i.e. they list those packages whose classes are meant to be the API and discourage/forbid access to all other classes.</p>\n\n<p>This is all nice and makes sense EXCEPT when it comes to unit tests. Our unit tests access MANY internal classes and methods in order to verify their expected behavior which unfortunately yields several tens of thousands (really!) warnings. Consequently no one ever checks warnings any more because finding those pertaining to the classes one is working on and modifying are practically impossible to spot.</p>\n\n<p>I find that highly disappointing and frustrating, because many warnings are most valid and helpful.</p>\n\n<p>Is there a way to disable those access warnings for certain projects (e.g. for all projects whose name ends in *.test). Or can one somehow silence/suppress these warnings when stemming from specific projects?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44805969/eclipse-how-to-silence-api-access-warnings-for-specific-projects",
+  "owner" : {
+    "user_id" : 423411,
+    "user_type" : "registered",
+    "display_name" : "mmo",
+    "profile_image" : "https://www.gravatar.com/avatar/6789db2aa796fb9a7925b698414e8153?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/423411/mmo",
+    "reputation" : 1272,
+    "accept_rate" : 23
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661591,
+  "last_activity_date" : 1498661591,
+  "tags" : [
+    "eclipse",
+    "eclipse-plugin"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

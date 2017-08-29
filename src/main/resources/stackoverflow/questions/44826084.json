@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826084,
+  "title" : "Touch Bar crash when editing Text Field with &quot;Allows Character Picker&quot; enabled",
+  "body" : "<p>I am trying to figure out why my application is crashing when I click into a Text Field for which the Touch Bar \"Allows Character Picker\" is enabled in Interface Builder.</p>\n\n<p>It seems to be something to do with  a failure to load recent emoji based on the stack trace (see below).</p>\n\n<p>I can get rid of the crash by disabling \"Allows Character Picker\", but I'd rather work out how to fix the issue without doing this.</p>\n\n<p>Any ideas?</p>\n\n<pre><code>Thread 1 Queue : com.apple.main-thread (serial)\n#0  0x00007fffe2061765 in __cxa_throw ()\n#1  0x00007fffd92df5cb in CEM::EmojiToken::EmojiToken(CEM::EmojiCursor, CEM::EmojiData const&amp;, CEM::EmojiLocaleData const*) ()\n#2  0x00007fffd92d5503 in CEMEmojiTokenCreateWithString ()\n#3  0x00007fffd8213ac2 in __101-[CPKPreferences _loadRecentsAndFavoritesForDataSource:asDictionaryNotAsEntity:callAsync:usingBlock:]_block_invoke ()\n#4  0x00007fffd821381e in -[CPKPreferences _loadRecentsAndFavoritesForDataSource:asDictionaryNotAsEntity:callAsync:usingBlock:] ()\n#5  0x00007fffd8215f36 in -[CPKPreferences recentsOfDataSourceSync:] ()\n#6  0x00007fffcbd1d492 in -[__NSEmojiDFREmojiListView _loadSystemRecents] ()\n#7  0x00007fffcbd1baf1 in -[__NSEmojiDFREmojiListView updateRecentsDisplay] ()\n#8  0x00007fffcbd1b3bf in -[__NSEMIMDFRViewController initWithCloseActionTarget:selector:] ()\n#9  0x00007fffcc2c8e60 in -[NSCharacterPickerTouchBarItem initWithIdentifier:] ()\n#10 0x00007fffcc2c8dc0 in +[NSCharacterPickerTouchBarItem characterPickerTouchBarItem] ()\n#11 0x00007fffcc2067f0 in -[NSTouchBar itemForIdentifier:] ()\n#12 0x00007fffcc205fc8 in -[NSTouchBar items] ()\n#13 0x00007fffcbcadc03 in -[NSTouchBarViewController _expandBars:] ()\n#14 0x00007fffcbcae3b8 in -[NSTouchBarViewController _updateTree] ()\n#15 0x00007fffcb8574eb in -[NSView _doLayout] ()\n#16 0x00007fffcb857098 in -[NSView _layoutSubtreeWithOldSize:] ()\n#17 0x00007fffcb857366 in -[NSView _layoutSubtreeWithOldSize:] ()\n#18 0x00007fffcb857366 in -[NSView _layoutSubtreeWithOldSize:] ()\n#19 0x00007fffcc02c95b in -[NSView _layoutSubtreeIfNeededAndAllowTemporaryEngine:] ()\n#20 0x00007fffcb875869 in -[NSWindow(NSConstraintBasedLayout) _layoutViewTree] ()\n#21 0x00007fffcb8e4c2e in -[NSWindow(NSConstraintBasedLayout) layoutIfNeeded] ()\n#22 0x00007fffcc056b09 in ___NSWindowGetDisplayCycleObserver_block_invoke.6222 ()\n#23 0x00007fffcb8f63b9 in __37+[NSDisplayCycle currentDisplayCycle]_block_invoke ()\n#24 0x00007fffd37d9da6 in CA::Transaction::run_commit_handlers(CATransactionPhase) ()\n#25 0x00007fffd38e38d8 in CA::Context::commit_transaction(CA::Transaction*) ()\n#26 0x00007fffd37d8881 in CA::Transaction::commit() ()\n#27 0x00007fffcbbd98b1 in __37+[NSDisplayCycle currentDisplayCycle]_block_invoke.31 ()\n#28 0x00007fffcdcccd37 in __CFRUNLOOP_IS_CALLING_OUT_TO_AN_OBSERVER_CALLBACK_FUNCTION__ ()\n#29 0x00007fffcdcccca7 in __CFRunLoopDoObservers ()\n#30 0x00007fffcdcad6d9 in __CFRunLoopRun ()\n#31 0x00007fffcdcad114 in CFRunLoopRunSpecific ()\n#32 0x00007fffcd20eebc in RunCurrentEventLoopInMode ()\n#33 0x00007fffcd20ebf9 in ReceiveNextEventCommon ()\n#34 0x00007fffcd20eb26 in _BlockUntilNextEventMatchingListInModeWithFilter ()\n#35 0x00007fffcb7a7a54 in _DPSNextEvent ()\n#36 0x00007fffcbf237ee in -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] ()\n#37 0x00007fffcb79c3db in -[NSApplication run] ()\n#38 0x00007fffcb766e0e in NSApplicationMain ()\n#39 0x000000010026bb4d in main at /Users/robert/XCode/Finances/Finances/Finances/FINAppDelegate.swift:12\n#40 0x00007fffe3455235 in start ()\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826084/touch-bar-crash-when-editing-text-field-with-allows-character-picker-enabled",
+  "owner" : {
+    "user_id" : 3878050,
+    "user_type" : "registered",
+    "display_name" : "closetCoder",
+    "profile_image" : "https://www.gravatar.com/avatar/3b3ede089eab8d4ddf6838400eb3d5fb?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/3878050/closetcoder",
+    "reputation" : 216,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741787,
+  "last_activity_date" : 1498741787,
+  "tags" : [
+    "swift",
+    "macos-sierra"
+  ],
+  "score" : 0,
+  "view_count" : 10,
+  "answer_count" : 0
+}

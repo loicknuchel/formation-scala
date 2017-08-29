@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826711,
+  "title" : "how to move the grid&#39;s row up and down using button up and button down only for angular + UI-Grid?",
+  "body" : "<p>I have two button to control the Ui-Grid grid's rows, one is move up, and the other is move down,</p>\n\n<p>I want to move the selected row move up/down to the be/next row, when i click the move button,</p>\n\n<p>I didn't find api document <a href=\"http://ui-grid.info/docs/#/tutorial/\" rel=\"nofollow noreferrer\">http://ui-grid.info/docs/#/tutorial/</a> , but not found any methods about that,</p>\n\n<p>need some help , thanks!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826711/how-to-move-the-grids-row-up-and-down-using-button-up-and-button-down-only-for",
+  "owner" : {
+    "user_id" : 3215858,
+    "user_type" : "registered",
+    "display_name" : "user3215858",
+    "profile_image" : "https://www.gravatar.com/avatar/e156a382381d2158ed9a262cdcc89b9b?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/3215858/user3215858",
+    "reputation" : 4,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743403,
+  "last_activity_date" : 1498743403,
+  "tags" : [
+    "javascript",
+    "angularjs",
+    "angular-ui-grid",
+    "ui-grid"
+  ],
+  "score" : 0,
+  "view_count" : 6,
+  "answer_count" : 0
+}

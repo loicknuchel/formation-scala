@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826181,
+  "title" : "How to copy/paste test steps in test case viewed in browser?",
+  "body" : "<p>If I am editing a test case using Microsoft Test Manager (2017), I can select a set of test steps and then copy and paste them into the same or a different test case.</p>\n\n<p>Is it possible to do the same thing when editing the test case from the browser (TFS 2017)? If so, how?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826181/how-to-copy-paste-test-steps-in-test-case-viewed-in-browser",
+  "owner" : {
+    "user_id" : 106159,
+    "user_type" : "registered",
+    "display_name" : "Matthew Watson",
+    "profile_image" : "https://i.stack.imgur.com/Qfp6z.png?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/106159/matthew-watson",
+    "reputation" : 61224,
+    "accept_rate" : 93
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742071,
+  "last_activity_date" : 1498742071,
+  "tags" : [
+    "microsoft-test-manager",
+    "tfs2017"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

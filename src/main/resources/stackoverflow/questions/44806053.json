@@ -1,0 +1,27 @@
+{
+  "question_id" : 44806053,
+  "title" : "Pushing variable height child container to bottom of parent container",
+  "body" : "<p>My parent div has a variable height depending on the size of the window.</p>\n\n<p>I have an <code>#image-container</code> and a <code>#second-container</code> that I am trying to fit inside my parent div. My <code>#second-container</code> is also a variable height depending on the screen size and I am trying to get it to affix to the bottom of the parent container.</p>\n\n<p>Right now I am accomplishing this via javascript but I was wondering if there was anyway to do this using pure css.</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>    function resize() {\r\n      var header_height = $(\"#header\").height(),\r\n          second_container = $(\"#second-container\").height(),\r\n          image_container = $(\"#image-container\").height();\r\n\r\n      document.getElementById('image-container').style.height = header_height - second_container +'px'; \r\n    }\r\n\r\n    resize();\r\n    $( window ).resize(function() { resize(); });</code></pre>\r\n<pre class=\"snippet-code-css lang-css prettyprint-override\"><code>*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }\r\n\r\n* { margin:0; padding:0 }\r\n\r\n#header {\r\n  background-color:#f0f0f0;\r\n  height:100vh;\r\n}\r\n\r\n#image-container {\r\n  background-image:url('https://images.unsplash.com/photo-1428509774491-cfac96e12253');\r\n  background-size:cover;\r\n  background-position:center;\r\n  height:50vh;\r\n}\r\n\r\n\r\n\r\n#second-container {\r\n  font-size:0;\r\n}\r\n\r\n.grid { \r\n  vertical-align:top;\r\n  display:inline-block;\r\n  width:25%;\r\n}\r\n\r\n.box {\r\n  padding-bottom:56.25%;\r\n  border:1px solid #232323;\r\n}</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js\"&gt;&lt;/script&gt;\r\n\r\n  &lt;div id=\"header\"&gt;\r\n    &lt;div id=\"image-container\"&gt;&lt;/div&gt;\r\n    \r\n    &lt;div id=\"second-container\"&gt;\r\n      &lt;div class=\"grid\"&gt;\r\n        &lt;div class=\"box\"&gt;&lt;/div&gt;\r\n      &lt;/div&gt;\r\n      &lt;div class=\"grid\"&gt;\r\n        &lt;div class=\"box\"&gt;&lt;/div&gt;\r\n      &lt;/div&gt;\r\n      &lt;div class=\"grid\"&gt;\r\n        &lt;div class=\"box\"&gt;&lt;/div&gt;\r\n      &lt;/div&gt;\r\n      &lt;div class=\"grid\"&gt;\r\n        &lt;div class=\"box\"&gt;&lt;/div&gt;\r\n      &lt;/div&gt;\r\n    &lt;/div&gt;\r\n  &lt;/div&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+  "link" : "https://stackoverflow.com/questions/44806053/pushing-variable-height-child-container-to-bottom-of-parent-container",
+  "owner" : {
+    "user_id" : 2761425,
+    "user_type" : "registered",
+    "display_name" : "bryan",
+    "profile_image" : "https://www.gravatar.com/avatar/e4c6951078654e01f8e31294982ccc3b?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/2761425/bryan",
+    "reputation" : 1529,
+    "accept_rate" : 69
+  },
+  "is_answered" : false,
+  "creation_date" : 1498661767,
+  "last_activity_date" : 1498661767,
+  "tags" : [
+    "javascript",
+    "jquery",
+    "html",
+    "css"
+  ],
+  "score" : 0,
+  "view_count" : 8,
+  "answer_count" : 0
+}

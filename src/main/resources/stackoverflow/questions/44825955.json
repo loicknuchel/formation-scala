@@ -1,0 +1,27 @@
+{
+  "question_id" : 44825955,
+  "title" : "Windows 2012 DNS Wildcard",
+  "body" : "<p>I was requested to create a DNS wildcard record in one of our Windows 2012 DNS but the response I get from the server is not what was expected.</p>\n\n<p>In our DOMAIN1.COM zone, an A record already exists for SERVER1.DOMAIN1.COM with an IP of 192.168.10.100.  Under this zone, I created a domain named SUBDOM and in this domain, I created only one record: </p>\n\n<p><code>*    CNAME    server1.domain1.com</code></p>\n\n<p>When I use NSLOOKUP to lookup ABC.SUBDOM.DOMAIN1.COM, I don't get any error but I only get the following information:</p>\n\n<p><code>Name:   abc.subdom.domain1.com</code></p>\n\n<p>I checked the communications with Network Monitor and here is the content of the response:</p>\n\n<p><code>AuthorityRecord: domain1.com of type SOA on class Internet: PrimaryNameServer: mydnsserver.domain1.com, AuthoritativeMailbox: \nResourceType: SOA, Marks the start of a zone of authority, 6(0x6)</code></p>\n\n<p>Start of Authority???  Why?</p>\n\n<p>If I force NSLOOKUP to query CNAME only, the reply I get is correct.  When I set it back to normal, I get an SOA again...</p>\n\n<p>This setup already exists in another domain for another app and it works like a charm:</p>\n\n<p><code>ARecord: xyz.othersubdom.domain2.com of type CNAME on class Internet: server2.domain2.com\nResourceType: CNAME, Canonical name for an alias, 5(0x5)</code></p>\n\n<p>followed by IP information of this CNAME, which is what I'd expect.</p>\n\n<p>I checked and double-checked all setting of both DNS servers settings, registry keys...  They are all the same.  </p>\n\n<p>Would anyone have an idea of what I am missing?</p>\n\n<p>Thanks!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825955/windows-2012-dns-wildcard",
+  "owner" : {
+    "user_id" : 8231662,
+    "user_type" : "registered",
+    "display_name" : "qcdude77",
+    "profile_image" : "https://www.gravatar.com/avatar/2e18e291754226c633cfdd2f3ae90d80?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8231662/qcdude77",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741430,
+  "last_activity_date" : 1498741430,
+  "tags" : [
+    "windows",
+    "dns",
+    "wildcard",
+    "nslookup"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

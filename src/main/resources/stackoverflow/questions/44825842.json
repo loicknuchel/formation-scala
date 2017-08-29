@@ -1,0 +1,24 @@
+{
+  "question_id" : 44825842,
+  "title" : "What is the difference between these two statements in React?",
+  "body" : "<p>Can somebody explains me the difference between:</p>\n\n<pre><code>let test1 = new CustomComponent();\n//and\nlet test2 = &lt;CustomComponent /&gt;\n//\ndebugger\n</code></pre>\n\n<p>In Chrome Debugger I have:</p>\n\n<pre><code>test1\nCustomComponent {props: undefined, context: undefined, refs: Object, updater: Object, state: Object…}\n\ntest2\nObject {$$typeof: Symbol(react.element), key: null, ref: null, props: Object, type: function…}\n</code></pre>\n\n<p>And how can I get a variable of type of <strong>test2</strong>, from of variable of the type of <strong>test1</strong> ? </p>\n",
+  "link" : "https://stackoverflow.com/questions/44825842/what-is-the-difference-between-these-two-statements-in-react",
+  "owner" : {
+    "user_id" : 1264339,
+    "user_type" : "registered",
+    "display_name" : "matt",
+    "profile_image" : "https://i.stack.imgur.com/zSuUv.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/1264339/matt",
+    "reputation" : 195,
+    "accept_rate" : 37
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741156,
+  "last_activity_date" : 1498741156,
+  "tags" : [
+    "reactjs"
+  ],
+  "score" : 1,
+  "view_count" : 19,
+  "answer_count" : 0
+}

@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826019,
+  "title" : "Add loading html if data not loaded in Angular",
+  "body" : "<p>We have many components in our app.<br>\nSome component required data from server then only it show html.<br>\nUntil data doesn't come we need to show some loading bar html.<br></p>\n\n<p>I am trying to figure out if there is any generic solution to this ?<br>\nI can start putting *ngIf inside each component but i am thinking more generic solution.</p>\n\n<p>So currently I am thinking.</p>\n\n<ol>\n<li>Create one Directive</li>\n<li>Pass object inside directive</li>\n<li>Check inside directive if object is available or not</li>\n<li>If its not available then add some html inside element.</li>\n</ol>\n\n<p>Till now below code is written.</p>\n\n<pre><code>@Directive({\n  selector: '[appCustomLoad]'\n})\nexport class CustomLoadDirective implements AfterViewInit{\n\n  constructor(private templateRef: TemplateRef&lt;any&gt;,\n              private viewContainer: ViewContainerRef,\n              private renderer: Renderer,\n              private el: ElementRef) {\n\n  }\n\n  @Input() set appCustomLoad(shouldAdd: boolean){\n    // currently i am passing boolean for testing,\n    // if i use this solution then i will change boolean to any.\n    // and if object is not null or undefined then we will show loading bar with some msg.\n    if(shouldAdd){\n      this.viewContainer.createEmbeddedView(this.templateRef);\n    }else{\n      this.viewContainer.clear();\n    }\n  }\n\n  ngAfterViewInit(): void {\n    // after view init\n  }\n}\n</code></pre>\n\n<p>I am not able to add html inside my div using directive.</p>\n\n<p>I am <strong>not sure is this correct way</strong> to go so if you have any <strong>better solution</strong> then please give me <strong>some idea</strong>.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826019/add-loading-html-if-data-not-loaded-in-angular",
+  "owner" : {
+    "user_id" : 2045668,
+    "user_type" : "registered",
+    "display_name" : "Nitish",
+    "profile_image" : "https://www.gravatar.com/avatar/3596a2fe317222d15a527256e688237b?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/2045668/nitish",
+    "reputation" : 457,
+    "accept_rate" : 29
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741570,
+  "last_activity_date" : 1498743225,
+  "tags" : [
+    "javascript",
+    "html",
+    "angular"
+  ],
+  "score" : 0,
+  "view_count" : 29,
+  "answer_count" : 1
+}

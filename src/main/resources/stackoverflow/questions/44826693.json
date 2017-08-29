@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826693,
+  "title" : "Google Login (api): Create a single SU user role (ie me) for Mobile Tablet use",
+  "body" : "<p>I have 3 Drupal project sites that I shall be managing, they all shall use Google sign-in (via the HybridAuth Module) for enduser requirements.\nHowever, as an 'Admin' I want to an additional Role for myself (Admin) for roaming on my Tablet.</p>\n\n<p>I have a 4th Drupal site for myself only with a Dashboard linking to 3 other Projects and intend overtime adding all aspects of monitoring such as messaging, spam control, content etc etc with the purpose being that I can monitor all websites activity whilst out and about; ie: in the coffee shops, on the train, friend/family's homes etc, abroad etc. </p>\n\n<p>But for this I want to be able to sign-in with my own personal Google Sign-in whilst at the same time allowing nobody else to sign-in to that domain. I looked at the documentation and presume that the only way (after setting up a specific Credential and Role or Group on my GoogleAPI page, but I'm stuck as what to do next.  </p>\n\n<p>Can anyone advise, give me some tips on a general direction?</p>\n\n<p><a href=\"https://developers.google.com/identity/sign-in/web/devconsole-project\" rel=\"nofollow noreferrer\">https://developers.google.com/identity/sign-in/web/devconsole-project</a></p>\n\n<p>FYI, I run on Ubuntu 16.04 for WebDev on a home desktop.</p>\n\n<p>Thanks in advance.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826693/google-login-api-create-a-single-su-user-role-ie-me-for-mobile-tablet-use",
+  "owner" : {
+    "user_id" : 2805061,
+    "user_type" : "registered",
+    "display_name" : "Paul B",
+    "profile_image" : "https://www.gravatar.com/avatar/7d73b0ae0c20524a69461d316d050dc4?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/2805061/paul-b",
+    "reputation" : 117,
+    "accept_rate" : 75
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743360,
+  "last_activity_date" : 1498743360,
+  "tags" : [
+    "google-api",
+    "drupal-7",
+    "google-oauth"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

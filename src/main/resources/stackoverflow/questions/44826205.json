@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826205,
+  "title" : "How to check radio button based on the name and value?",
+  "body" : "<p>I have 4 different group of radio buttons on my form. Each group has different set of names. I use JSON Object to store my data. While looping through data I'm using keys with appended word in front. This will give me the name for each form element for that set of data. I successfully populated text and checkbox input fields but still can get radio buttons. Here is my JSON data:</p>\n\n<pre><code>var jsonData = {\n   myForm:{\"hs_mask\":\"Yes\",\"name\":\"John Miller\",\"hs_cktr\":\"Yes\"}\n} \n</code></pre>\n\n<p>Here is my logic that populates form fields:</p>\n\n<pre><code>$.each(jsonData[jsonKey], function(index, element) {\n     var frmElementName = $('[name=\"'+'frm'+index.toLowerCase()+'\"]');\n     var frmElementId = $('#frm'+index.toLowerCase());\n     var frmVal = $.trim(decodeURIComponent(element))\n\n     if(frmElementName.attr('type') == 'text'){\n        frmElementId.val(frmVal);\n     }else if(frmElementName.attr('type') == 'checkbox'){\n        (frmVal == 'Yes') ? frmElementId.attr('checked',true) : frmElementId.attr('checked',false);\n     }else if(frmElementName.attr('type') == 'radio'){\n        $('input[name=\"'+'frm'+index.toLowerCase()+'\"][value=\"' + frmVal + '\"]').prop('checked', true);\n     }\n});\n</code></pre>\n\n<p>I have tried code above but I don't see radio buttons checked. As you can see for text and checkbox type I use ID's to populate fields but for radio buttons I used element name. If anyone see where my code is breaking please let me know. Thank you.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826205/how-to-check-radio-button-based-on-the-name-and-value",
+  "owner" : {
+    "user_id" : 3023588,
+    "user_type" : "registered",
+    "display_name" : "espresso_coffee",
+    "profile_image" : "https://www.gravatar.com/avatar/fd141e5037264781f9284db406ff369a?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/3023588/espresso-coffee",
+    "reputation" : 888,
+    "accept_rate" : 65
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742131,
+  "last_activity_date" : 1498742131,
+  "tags" : [
+    "javascript",
+    "jquery",
+    "json",
+    "forms"
+  ],
+  "score" : 0,
+  "view_count" : 26,
+  "answer_count" : 0
+}

@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826702,
+  "title" : "Fork-Join vulunerablity for static variable java",
+  "body" : "<p>Why static variables are vulnerable but other variable are not while using fork join in java.\nSuppose a class A has two variable </p>\n\n<pre><code>public static int count = 1;\npublic int c=1;\n</code></pre>\n\n<p>now in recursive action class B</p>\n\n<pre><code>@Override\nprotected void compute() {\n    // TODO Auto-generated method stub\n    A z=new A();\n    z.count++;\n    z.ss++;\n    System.out.println(z.count);\n    System.out.println(z.ss);\n}\npublic static void main(String[] args) {\n    List&lt;B&gt; tasks =new ArrayList&lt;B&gt;();\n   for(int i=1; i&lt;=2; i++){\n        B =new B();\n        tasks.add(B);\n        B.fork();\n    }\n    if (tasks.size() &gt; 0) {\n        for (B task : tasks) {\n            task.join();\n        }\n    }\n}\n</code></pre>\n\n<p>// Output i am getting</p>\n\n<pre><code>2\n2\n2 \n3\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44826702/fork-join-vulunerablity-for-static-variable-java",
+  "owner" : {
+    "user_id" : 4576857,
+    "user_type" : "registered",
+    "display_name" : "Mukesh Gupta",
+    "profile_image" : "https://graph.facebook.com/848834555178209/picture?type=large",
+    "link" : "https://stackoverflow.com/users/4576857/mukesh-gupta",
+    "reputation" : 510,
+    "accept_rate" : 48
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743373,
+  "last_activity_date" : 1498743373,
+  "tags" : [
+    "java",
+    "forkjoinpool"
+  ],
+  "score" : 1,
+  "view_count" : 11,
+  "answer_count" : 0
+}

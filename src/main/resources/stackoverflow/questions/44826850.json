@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826850,
+  "title" : "How do I disable vue.js transitions for tests?",
+  "body" : "<p>I have a vue.js component that uses the <code>&lt;transition&gt;</code> element to animate hide/show.</p>\n\n<p>To speed up tests I would like to disable the animation. How can I do that?</p>\n\n<p><code>* { transition: none !important }</code> is suggested here: <a href=\"https://github.com/vuejs/vue/issues/463\" rel=\"nofollow noreferrer\">https://github.com/vuejs/vue/issues/463</a> but it doesnt's seem to make a difference.</p>\n\n<p>I've created a fiddle here: <a href=\"https://jsfiddle.net/z11fe07p/2268/\" rel=\"nofollow noreferrer\">https://jsfiddle.net/z11fe07p/2268/</a></p>\n\n<p>Running the \"test\" the last output is \"3. Display should be \"none\", it is: block\". If I increase the timeout to 100, or remove the <code>&lt;transition&gt;</code> element, I get the expected output of \"3. Display should be \"none\", it is: none\"</p>\n\n<p>So how can I disable the animation so that I can get rid of the <code>setTimeout</code> calls?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826850/how-do-i-disable-vue-js-transitions-for-tests",
+  "owner" : {
+    "user_id" : 88106,
+    "user_type" : "registered",
+    "display_name" : "Tobbe",
+    "profile_image" : "https://www.gravatar.com/avatar/c52395cdd84d1e1e963397af37ae4542?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/88106/tobbe",
+    "reputation" : 1064,
+    "accept_rate" : 81
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743744,
+  "last_activity_date" : 1498743744,
+  "tags" : [
+    "javascript",
+    "css",
+    "animation",
+    "vue.js",
+    "vuejs2"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}

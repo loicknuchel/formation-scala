@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826148,
+  "title" : "Travis CI simple bash broken with latest update any &quot;n&quot; character seen as &quot;\\n&quot; line break",
+  "body" : "<p>Travis CI seems to be misbehaving very oddly since yesterday. I know they pushed out an update on the 21st June 2017 to Travis but this issue only started happening yesterday to me causing a total mess of one of my repo's but luckily I reverted back to the last commit where everything was still OK and have done no more commits since then just been running tests on a different test repo all day today and it's still broken.</p>\n\n<p>During my Travis build process I run a number of bash scripts that do various things like create files based on templates. But since yesterday the output of any echo or printf see's any \"n\" character as a line break <code>\\n</code></p>\n\n<p>For example:</p>\n\n<p>This simple printf in my bash script:</p>\n\n<pre><code>for line in $(cat $INPUT1); do\nprintf \"\\t\\\"~${line}\\\"\\t\\t$ACTION1\\n\" &gt;&gt; whateverfile.txt\n</code></pre>\n\n<p>My inputs are defined earlier as:</p>\n\n<pre><code>ACTION1=\"0;\"\nINPUT1=$TRAVIS_BUILD_DIR/myfile.txt\n</code></pre>\n\n<p>Travis breaks the output of any ${line} which contains an \"n\" in the output.</p>\n\n<p>So for example a ${line} from the cat statement that contains the word <strong>bingbot</strong> for instance should output as follows:</p>\n\n<pre><code>bingbot 0;\n</code></pre>\n\n<p>but Travis is doing this because it see's any n character as a line break, this below is the output of running the script with sh -x ./scriptname</p>\n\n<pre><code>bi\"\\t\\t0;\\n\n\n+ printf \\t\"~gbot\n</code></pre>\n\n<p>Anyone else seeing this behavior? I have tweeted and emailed them but no response yet. Tried various things to fix it and in some cases capitalising all my variables, inputs, filenames and directories fixes it but that is not a solution. What has Travis done to simple bash? or am I missing something. This has worked perfectly for over a year.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826148/travis-ci-simple-bash-broken-with-latest-update-any-n-character-seen-as-n-l",
+  "owner" : {
+    "user_id" : 6413977,
+    "user_type" : "registered",
+    "display_name" : "MitchellK",
+    "profile_image" : "https://i.stack.imgur.com/e2uE1.jpg?s=128&g=1",
+    "link" : "https://stackoverflow.com/users/6413977/mitchellk",
+    "reputation" : 307,
+    "accept_rate" : 71
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741968,
+  "last_activity_date" : 1498741968,
+  "tags" : [
+    "bash",
+    "travis-ci"
+  ],
+  "score" : 0,
+  "view_count" : 7,
+  "answer_count" : 0
+}

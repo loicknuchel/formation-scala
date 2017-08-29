@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826810,
+  "title" : "AWS: Authentication issues trying to push metrics to CloudWatch from EC2",
+  "body" : "<p>I am trying to set up an EC2 (RHEL7) instance to push metrics to cloudwatch using perl scripts as described in <a href=\"http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/mon-scripts.html\" rel=\"nofollow noreferrer\">http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/mon-scripts.html</a></p>\n\n<p>I get an HTTP status 400 message \"The security token included in the request is invalid\"</p>\n\n<p>An instance profile is associated with the instance which has the following policy attached:</p>\n\n<pre><code>{\n    \"Version\": \"2012-10-17\",\n    \"Statement\": [\n        {\n            \"Effect\": \"Allow\",\n            \"Action\": [\n                \"cloudwatch:PutMetricData\",\n                \"cloudwatch:GetMetricStatistics\",\n                \"cloudwatch:ListMetrics\"\n            ],\n            \"Resource\": \"*\"\n        },\n        {\n            \"Effect\": \"Allow\",\n            \"Action\": [\n                \"ec2:DescribeTags\"\n            ],\n            \"Resource\": \"*\"\n        }\n    ]\n}\n</code></pre>\n\n<p>I am pulling the <em>AWSAccessKeyId</em> and <em>AWSSecretKey</em> from the instance meta-data as follows:</p>\n\n<pre><code>ROLE=$(curl http://169.254.169.254/latest/meta-data/iam/security-credentials/)\nCRED=$(curl http://169.254.169.254/latest/meta-data/iam/security-credentials/$ROLE)\n\nAWSAccessKeyId=$(sed '/AccessKeyId/!d; s/.*:\\ \\+\"\\(.\\+\\)\",/\\1/g' &lt;&lt;&lt; \"$CRED\")\nAWSSecretKey=$(sed '/SecretAccessKey/!d; s/.*:\\ \\+\"\\(.\\+\\)\",/\\1/g' &lt;&lt;&lt; \"$CRED\")\n</code></pre>\n\n<p>...the values set in the above variables are correct when i check them...</p>\n\n<p>I am running the script to push to cloudwatch as follows (using creds stored in variables from above):</p>\n\n<pre><code>./mon-put-instance-data.pl --mem-util --verbose --aws-access-key-id  $AWSAccessKeyId --aws-secret-key $AWSSecretKey\n</code></pre>\n\n<p>Any ideas why it is rejecting my credentials?</p>\n\n<p>Thanks in advance</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826810/aws-authentication-issues-trying-to-push-metrics-to-cloudwatch-from-ec2",
+  "owner" : {
+    "user_id" : 8232031,
+    "user_type" : "registered",
+    "display_name" : "Darren Reddick",
+    "profile_image" : "https://www.gravatar.com/avatar/2f262f0d812d71c95264e2a267265039?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8232031/darren-reddick",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743644,
+  "last_activity_date" : 1498743644,
+  "tags" : [
+    "linux",
+    "amazon-web-services",
+    "amazon-cloudwatch"
+  ],
+  "score" : 0,
+  "view_count" : 4,
+  "answer_count" : 0
+}

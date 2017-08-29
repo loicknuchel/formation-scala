@@ -1,0 +1,27 @@
+{
+  "question_id" : 44826934,
+  "title" : "Google KMS on AppEngine/Python &amp; Development AppServer",
+  "body" : "<p>It's not clear from <a href=\"https://cloud.google.com/kms/docs/reference/libraries#client-libraries-install-python\" rel=\"nofollow noreferrer\">the documentation</a> how one might wield Google Key Management System (KMS) on Google App Engine Standard, particularly when developing locally using the development server.</p>\n\n<p>It would appear as reasonably straightforward as:</p>\n\n<ol>\n<li>Installing <code>google-api-python-client</code> in a Python virtual env (and adding the virtualenv path with <code>google.appengine.ext.vendor</code> in <code>appengine_config.py</code>)</li>\n<li>importing <code>googleapiclient.discovery</code></li>\n<li>getting the application identity with <code>google.appengine.api.app_identity</code></li>\n<li>Using the <code>kms</code> client in the anticipated / documented way</li>\n</ol>\n\n<p>Following the tutorial linked in the Documentation.</p>\n\n<p>It feels like I'm breaking new ground that I'm sure others must have already, but I'm wary that the KMS API will be running against production resources (or otherwise inaccessible when run locally without credentials).</p>\n\n<p>Has anyone documented using Google KMS on App Engine Standard &amp; its local development server?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826934/google-kms-on-appengine-python-development-appserver",
+  "owner" : {
+    "user_id" : 19212,
+    "user_type" : "registered",
+    "display_name" : "Brian M. Hunt",
+    "profile_image" : "https://www.gravatar.com/avatar/3aefe160da30caa0d7ea0f922f94c257?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/19212/brian-m-hunt",
+    "reputation" : 29111,
+    "accept_rate" : 84
+  },
+  "is_answered" : false,
+  "creation_date" : 1498743904,
+  "last_activity_date" : 1498743904,
+  "tags" : [
+    "python",
+    "google-app-engine",
+    "google-app-engine-python",
+    "google-cloud-kms"
+  ],
+  "score" : 0,
+  "view_count" : 2,
+  "answer_count" : 0
+}

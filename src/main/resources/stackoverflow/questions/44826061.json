@@ -1,0 +1,26 @@
+{
+  "question_id" : 44826061,
+  "title" : "Actuator unit test not working",
+  "body" : "<p>Trying to test the /health.json endpoint for the actuator for when the status is Up or DOWN.</p>\n\n<pre><code>public class ActuatorTest\n{\n\n  @Configuration\n  static class Config\n  {\n      @Bean\n      public HealthIndicator dbHealthIndicator()\n      {\n          return Mockito.mock(HealthIndicator.class);\n      }\n  }\n\n  @Autowired\n  private MockMvc mvc;\n\n  @Autowired\n  private HealthIndicator dbHealthIndicator;\n\n  @Test\n  public void healthcheck_Up() throws Exception\n  {\n      when(dbHealthIndicator.health()).thenReturn(Health.status(Status.UP).build());\n\n      mvc.perform(get(\"/health.json\"))\n              .andExpect(status().isOk())\n              .andExpect(content().contentType(MediaType.APPLICATION_JSON_UTF8))\n              .andExpect(jsonPath(\"$.status\").value(\"UP\"));\n\n  }\n\n  @Test\n  public void healthcheck_Down() throws Exception\n  {\n      when(dbHealthIndicator.health()).thenReturn(Health.status(Status.DOWN).build());\n\n      mvc.perform(get(\"/health.json\"))\n              .andExpect(status().isServiceUnavailable())\n              .andExpect(content().contentType(MediaType.APPLICATION_JSON_UTF8))\n              .andExpect(jsonPath(\"$.status\").value(\"DOWN\"));\n\n  }\n}\n</code></pre>\n\n<p>the test for when the status is down always gives a status of 200 when infact it should be a 503.</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826061/actuator-unit-test-not-working",
+  "owner" : {
+    "user_id" : 2301463,
+    "user_type" : "registered",
+    "display_name" : "meryl d&#39;souza",
+    "profile_image" : "https://www.gravatar.com/avatar/da67a58fffea38632d35cfed55453482?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/2301463/meryl-dsouza",
+    "reputation" : 26,
+    "accept_rate" : 25
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741708,
+  "last_activity_date" : 1498742112,
+  "tags" : [
+    "java",
+    "mockito",
+    "spring-boot-actuator"
+  ],
+  "score" : 0,
+  "view_count" : 18,
+  "answer_count" : 0
+}

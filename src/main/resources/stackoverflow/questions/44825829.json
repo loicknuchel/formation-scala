@@ -1,0 +1,26 @@
+{
+  "question_id" : 44825829,
+  "title" : "xgboost building error: parameter packs not expanded with ‘...’:",
+  "body" : "<p>I'm trying to build xgboost with GPU support using the following instruction:\n<a href=\"http://dmlc.ml/2016/12/14/GPU-accelerated-xgboost.html\" rel=\"nofollow noreferrer\">http://dmlc.ml/2016/12/14/GPU-accelerated-xgboost.html</a></p>\n\n<p>I have GCC 6 installed on my ubuntu 17.4 system.</p>\n\n<p>But while the compiler tries to build the following module:</p>\n\n<pre><code>nccl/CMakeFiles/cuda_compile_1.dir/src/cuda_compile_1_generated_reduce_scatter.cu.o\n</code></pre>\n\n<p>I get the following error:</p>\n\n<pre><code>/usr/include/c++/6/tuple:605:4: error: parameter packs not expanded with ‘...’:\n                bool&gt;::type=true&gt;\n    ^\n/usr/include/c++/6/tuple:605:4: note:         ‘_Elements’\n</code></pre>\n\n<p>Any ideas how to fix it?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44825829/xgboost-building-error-parameter-packs-not-expanded-with",
+  "owner" : {
+    "user_id" : 2125492,
+    "user_type" : "registered",
+    "display_name" : "Konstantin Orlov",
+    "profile_image" : "https://www.gravatar.com/avatar/bfa4b321cc6a61f31bd421ee17f7f31e?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/2125492/konstantin-orlov",
+    "reputation" : 1,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741121,
+  "last_activity_date" : 1498741121,
+  "tags" : [
+    "c++",
+    "gpu",
+    "xgboost"
+  ],
+  "score" : 0,
+  "view_count" : 8,
+  "answer_count" : 0
+}

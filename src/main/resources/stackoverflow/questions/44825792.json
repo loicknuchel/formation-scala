@@ -1,0 +1,24 @@
+{
+  "question_id" : 44825792,
+  "title" : "How to handle `viewWillAppear` after react-navigation&#39;s tab is selected?",
+  "body" : "<p>I have something like this, is this possible to have something like viewWillAppear in the React Native's world? Thanks.:</p>\n\n<pre><code>MainNavigator = TabNavigator({\n  Profile: {\n    screen: StackNavigator({\n      'Profile': {\n        screen: Profile\n      }\n    })\n  }\n});\n</code></pre>\n",
+  "link" : "https://stackoverflow.com/questions/44825792/how-to-handle-viewwillappear-after-react-navigations-tab-is-selected",
+  "owner" : {
+    "user_id" : 148978,
+    "user_type" : "registered",
+    "display_name" : "DNB5brims",
+    "profile_image" : "https://www.gravatar.com/avatar/54465abdf9fc5e96488558decd6adba5?s=128&d=identicon&r=PG",
+    "link" : "https://stackoverflow.com/users/148978/dnb5brims",
+    "reputation" : 7976,
+    "accept_rate" : 68
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741031,
+  "last_activity_date" : 1498741031,
+  "tags" : [
+    "react-native"
+  ],
+  "score" : 0,
+  "view_count" : 8,
+  "answer_count" : 0
+}

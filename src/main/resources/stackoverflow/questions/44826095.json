@@ -1,0 +1,28 @@
+{
+  "question_id" : 44826095,
+  "title" : "how to get sql query size",
+  "body" : "<p>is there a way to get the actual size of data scanned for a query ?\nand is there a way to get all data scanned for all the queries asked for let's say 1 day?</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826095/how-to-get-sql-query-size",
+  "owner" : {
+    "user_id" : 2835021,
+    "user_type" : "registered",
+    "display_name" : "Naty",
+    "profile_image" : "https://www.gravatar.com/avatar/9f27598744455fee4f721e4b4de47e2b?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/2835021/naty",
+    "reputation" : 319,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741815,
+  "last_activity_date" : 1498741815,
+  "tags" : [
+    "mysql",
+    "sql",
+    "database",
+    "sql-server-2008",
+    "bigdata"
+  ],
+  "score" : -1,
+  "view_count" : 24,
+  "answer_count" : 0
+}

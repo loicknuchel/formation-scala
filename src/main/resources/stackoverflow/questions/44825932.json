@@ -1,0 +1,28 @@
+{
+  "question_id" : 44825932,
+  "title" : "improve tesseract ocr text recognition",
+  "body" : "<p>I am trying to text recognition of Business cards. I am trying with following code,</p>\n\n<pre><code>let image =  UIImage(named:\"IMG_93272.JPG\")\nlet tesseract = G8Tesseract()                    \ntesseract?.language = \"eng\"                    \ntesseract?.engineMode = .tesseractOnly                  \ntesseract?.pageSegmentationMode = .autoOnly\ntesseract?.maximumRecognitionTime = 60.0\ntesseract?.image = image.g8_blackAndWhite()\ntesseract?.recognize()\nlet recognizeStr = tesseract?.recognizedText;\nprint(recognizeStr!);\n</code></pre>\n\n<p>But it's give some time not recognise text and give wrong text.\nI am also trying to make grey image and 640*640 wide before passing image to recognise.But nothing.\nI am trying with these sample images:</p>\n\n<p><a href=\"https://unsee.cc/bizenosu/\" rel=\"nofollow noreferrer\">image1</a></p>\n\n<p><a href=\"http://crystalonlineprint.com/wp-content/uploads/2017/04/chennai-business-card-designer-600x354.jpg\" rel=\"nofollow noreferrer\">image2</a></p>\n",
+  "link" : "https://stackoverflow.com/questions/44825932/improve-tesseract-ocr-text-recognition",
+  "owner" : {
+    "user_id" : 2846524,
+    "user_type" : "registered",
+    "display_name" : "Yatendra",
+    "profile_image" : "https://www.gravatar.com/avatar/7b02cd46e684919c84028750f5578ec2?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/2846524/yatendra",
+    "reputation" : 799,
+    "accept_rate" : 25
+  },
+  "is_answered" : false,
+  "creation_date" : 1498741375,
+  "last_activity_date" : 1498741375,
+  "tags" : [
+    "ios",
+    "iphone",
+    "swift",
+    "tesseract",
+    "text-recognition"
+  ],
+  "score" : 0,
+  "view_count" : 17,
+  "answer_count" : 0
+}

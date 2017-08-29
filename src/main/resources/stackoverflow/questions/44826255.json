@@ -1,0 +1,25 @@
+{
+  "question_id" : 44826255,
+  "title" : "OAuth Error using Aqueduct, mismatched ManagedPropertyType",
+  "body" : "<p>I am using the OAuth hooks provided with a fresh creation of an Aqueduct project. My data is URI encoded in the following way: </p>\n\n<pre><code>var form = body.keys\n    .map((key) =&gt; \"$key=${Uri.encodeQueryComponent(body[key])}\")\n    .join(\"&amp;\");\n</code></pre>\n\n<p>I received the following error when attempting to register a User:</p>\n\n<p><em>DataModelException: Type mismatch for property username on _User, expected assignable type matching ManagedPropertyType.string but got _ImmutableList. #0      ManagedValueBacking.setValueForProperty</em> </p>\n\n<p>The request looks like this:</p>\n\n<pre><code>HttpRequest.request('/register', method: 'POST',\n    sendData: form,\n    requestHeaders: {\n        \"Content-Type\": \"application/x-www-form-urlencoded\",\n        \"Authorization\": \"Basic $clientCredentials\"\n}).then((HttpRequest req) {\n    ...\n}).catchError((e) =&gt; _handleError(...));\n</code></pre>\n\n<p>I am just not too sure why the body is being interpreted as an ImmutableList.</p>\n\n<p>I must be missing something!</p>\n",
+  "link" : "https://stackoverflow.com/questions/44826255/oauth-error-using-aqueduct-mismatched-managedpropertytype",
+  "owner" : {
+    "user_id" : 8172185,
+    "user_type" : "registered",
+    "display_name" : "ardaneel",
+    "profile_image" : "https://www.gravatar.com/avatar/b085e569c4315d07b788474e4d07e538?s=128&d=identicon&r=PG&f=1",
+    "link" : "https://stackoverflow.com/users/8172185/ardaneel",
+    "reputation" : 8,
+    "accept_rate" : null
+  },
+  "is_answered" : false,
+  "creation_date" : 1498742265,
+  "last_activity_date" : 1498742265,
+  "tags" : [
+    "dart",
+    "aqueduct"
+  ],
+  "score" : 0,
+  "view_count" : 3,
+  "answer_count" : 0
+}
