@@ -19,34 +19,17 @@ object Devoxx {
 
   case class Room(id: RoomId, name: String)
 
-  def frenchTalkPercentage(talks: Seq[Talk]): Double = {
-    talks.count(_.lang == "fr").toDouble / talks.length
-  }
+  def frenchTalkPercentage(talks: Seq[Talk]): Double = ???
 
-  def talksOfSpeaker(speakers: Seq[Speaker], talks: Seq[Talk], id: SpeakerId): Seq[Talk] = {
-    speakers
-      .find(_.id == id)
-      .map(_.talks)
-      .getOrElse(Seq())
-      .flatMap(id => talks.find(_.id == id))
-  }
+  def talksOfSpeaker(speakers: Seq[Speaker], talks: Seq[Talk], id: SpeakerId): Seq[Talk] = ???
 
-  def roomSchedule(slots: Seq[Slot], talks: Seq[Talk], id: RoomId): Seq[(Date, Date, Talk)] = {
-    slots.filter(_.room == id).flatMap { slot =>
-      talks.find(_.id == slot.talk).map { talk =>
-        (slot.start, slot.end, talk)
-      }
-    }
-  }
+  def roomSchedule(slots: Seq[Slot], talks: Seq[Talk], id: RoomId): Seq[(Date, Date, Talk)] = ???
 
-  def isSpeaking(slots: Seq[Slot], talks: Seq[Talk], rooms: Seq[Room], id: SpeakerId, time: Date): Option[Room] = {
-    slots
-      .filter(s => s.start.before(time) && s.end.after(time))
-      .flatMap(slot => talks.find(_.id == slot.talk).map(t => (slot.room, t.speakers)))
-      .filter { case (_, speakers) => speakers.contains(id) }
-      .flatMap { case (roomId, _) => rooms.find(_.id == roomId) }
-      .headOption
-  }
+  def isSpeaking(slots: Seq[Slot], talks: Seq[Talk], rooms: Seq[Room], id: SpeakerId, time: Date): Option[Room] = ???
+
+  /**
+    * Utilities
+    */
 
   def loadData(): Try[(Seq[Talk], Seq[Speaker], Seq[Slot], Seq[Room])] = {
     import java.io.File

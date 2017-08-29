@@ -1,6 +1,5 @@
 package exercices.s2Collections
 
-import java.text.SimpleDateFormat
 import java.util.Date
 
 import shapeless.tag
@@ -88,78 +87,21 @@ object Projections {
   case class GameWasFinished(id: EventId, timestamp: Date, payload: GameWasFinishedPayload) extends Event
 
 
-  def numberOfEvents(events: Seq[Event]): Int =
-    events.length
+  def numberOfEvents(events: Seq[Event]): Int = ???
 
-  def registredPlayers(events: Seq[Event]): Int =
-    events.collect { case e: PlayerHasRegistered => e }.length
+  def registredPlayers(events: Seq[Event]): Int = ???
 
-  def registredPlayersPerMonth(events: Seq[Event]): Map[String, Int] =
-    events
-      .collect { case e: PlayerHasRegistered => e }
-      .groupBy(getMonth)
-      .mapValues(_.length)
+  def registredPlayersPerMonth(events: Seq[Event]): Map[String, Int] = ???
 
-  def popularQuizs(events: Seq[Event]): Seq[(QuizId, String, Int)] = {
-    def quizName(quizs: Map[QuizId, Seq[QuizWasCreated]], id: QuizId): Option[String] =
-      quizs.get(id).flatMap(_.headOption).map(_.payload.quiz_title)
+  def popularQuizs(events: Seq[Event]): Seq[(QuizId, String, Int)] = ???
 
-    val createdQuizs = events.collect { case e: QuizWasCreated => e }.groupBy(_.payload.quiz_id)
-    val startedGames = events.collect { case e: GameWasStarted => e }.groupBy(_.payload.game_id)
-    events
-      .collect { case e: GameWasOpened => e }
-      .filter(e => startedGames.get(e.payload.game_id).isDefined)
-      .groupBy(_.payload.quiz_id)
-      .map { case (quiz_id, games) => (quiz_id, quizName(createdQuizs, quiz_id).getOrElse(""), games.length) }
-      .toSeq
-      .sortBy(e => (-e._3, e._2, e._1.toString))
-      .take(10)
-  }
+  def inactivePlayers(events: Seq[Event], date: Date): Seq[(PlayerId, String, Int)] = ???
 
-  def inactivePlayers(events: Seq[Event], date: Date): Seq[(PlayerId, String, Int)] = {
-    def playerName(players: Map[PlayerId, Seq[PlayerHasRegistered]], id: PlayerId): Option[String] =
-      players.get(id).flatMap(_.headOption).map(p => p.payload.first_name + " " + p.payload.last_name)
+  def activePlayers(events: Seq[Event], date: Date): Seq[(PlayerId, String, Int)] = ???
 
-    val registeredPlayers = events.collect { case e: PlayerHasRegistered => e }.groupBy(_.payload.player_id)
-    val month = getMonth(date)
-    events
-      .collect { case e: PlayerJoinedGame if getMonth(e) == month => e }
-      .groupBy(_.payload.player_id)
-      .map { case (playerId, joinedGames) => (playerId, playerName(registeredPlayers, playerId).getOrElse(""), joinedGames.length) }
-      .toSeq
-      .sortBy(e => (e._3, e._2, e._1.toString))
-      .take(10)
-  }
-
-  def activePlayers(events: Seq[Event], date: Date): Seq[(PlayerId, String, Int)] = {
-    def playerName(players: Map[PlayerId, Seq[PlayerHasRegistered]], id: PlayerId): Option[String] =
-      players.get(id).flatMap(_.headOption).map(p => p.payload.first_name + " " + p.payload.last_name)
-
-    val registeredPlayers = events.collect { case e: PlayerHasRegistered => e }.groupBy(_.payload.player_id)
-    val deadline = addDays(date, -7)
-    events
-      .collect { case e: PlayerJoinedGame if e.timestamp.after(deadline) && e.timestamp.before(date) => e }
-      .groupBy(_.payload.player_id)
-      .map { case (playerId, joinedGames) => (playerId, playerName(registeredPlayers, playerId).getOrElse(""), joinedGames.length) }
-      .toSeq
-      .sortBy(e => (-e._3, e._2, e._1.toString))
-      .take(10)
-  }
-
-  val dayFormat = new SimpleDateFormat("yyyy-MM-dd")
-  val monthFormat = new SimpleDateFormat("yyyy-MM")
-
-  def getMonth(d: Date): String = monthFormat.format(d)
-
-  def getMonth(e: Event): String = getMonth(e.timestamp)
-
-  def addDays(date: Date, days: Int): Date = {
-    import java.util.Calendar
-    val cal: Calendar = Calendar.getInstance
-    cal.setTime(date)
-    cal.add(Calendar.DATE, days)
-    cal.getTime
-  }
+  /**
+    * Utilities
+    */
 
   def loadData(file: String): Try[Seq[Event]] = {
     import julienrf.json.derived

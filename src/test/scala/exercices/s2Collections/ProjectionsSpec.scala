@@ -1,65 +1,41 @@
 package exercices.s2Collections
 
+import java.text.SimpleDateFormat
+
 import org.scalatest.{FunSpec, Matchers}
 
 class ProjectionsSpec extends FunSpec with Matchers {
   describe("Projections") {
     import Projections._
 
-    describe("sample events") {
-      val events = loadData("sample.json").get
-      describe("numberOfEvents") {
-        it("should count the number of events") {
-          numberOfEvents(events) shouldBe 30
-        }
-      }
-      describe("registredPlayers") {
-        it("should count the number of registered players") {
-          registredPlayers(events) shouldBe 2
-        }
-      }
-      describe("registredPlayersPerMonth") {
-        it("should count the number of registered players by month") {
-          registredPlayersPerMonth(events) shouldBe Map("2016-05" -> 2)
-        }
-      }
-      describe("popularQuizs") {
-        it("should count the number of time a quiz game was opened and return the top 10") {
-          popularQuizs(events) shouldBe Seq()
-        }
-      }
-      describe("inactivePlayers") {
-        it("should count the number of joined games and return top 10 of inactive players for the month") {
-          inactivePlayers(events, monthFormat.parse("2016-04")) shouldBe Seq()
-        }
-      }
-      describe("activePlayers") {
-        it("should count the number of joined games and return top 10 of active players for the month") {
-          activePlayers(events, monthFormat.parse("2016-04")) shouldBe Seq()
-        }
-      }
-      describe("loadData") {
-        it("should read event data and return it") {
-          events.length shouldBe 30
-        }
-      }
-    }
+    val sampleEvents = loadData("sample.json").get
+    val fullEvents = loadData("full.json").get
+    val monthFormat = new SimpleDateFormat("yyyy-MM")
+    val dayFormat = new SimpleDateFormat("yyyy-MM-dd")
 
     describe("full events") {
-      val events = loadData("full.json").get
+      describe("loadData") {
+        it("should read event data and return it") {
+          sampleEvents.length shouldBe 30
+          fullEvents.length shouldBe 432642
+        }
+      }
       describe("numberOfEvents") {
         it("should count the number of events") {
-          numberOfEvents(events) shouldBe 432642
+          numberOfEvents(sampleEvents) shouldBe 30
+          numberOfEvents(fullEvents) shouldBe 432642
         }
       }
       describe("registredPlayers") {
         it("should count the number of registered players") {
-          registredPlayers(events) shouldBe 948
+          registredPlayers(sampleEvents) shouldBe 2
+          registredPlayers(fullEvents) shouldBe 948
         }
       }
       describe("registredPlayersPerMonth") {
         it("should count the number of registered players by month") {
-          registredPlayersPerMonth(events) shouldBe Map(
+          registredPlayersPerMonth(sampleEvents) shouldBe Map("2016-05" -> 2)
+          registredPlayersPerMonth(fullEvents) shouldBe Map(
             "2015-03" -> 18,
             "2015-04" -> 19,
             "2015-05" -> 8,
@@ -87,7 +63,8 @@ class ProjectionsSpec extends FunSpec with Matchers {
       }
       describe("popularQuizs") {
         it("should count the number of time a quiz game was opened and return the top 10") {
-          popularQuizs(events) shouldBe Seq(
+          popularQuizs(sampleEvents) shouldBe Seq()
+          popularQuizs(fullEvents) shouldBe Seq(
             ("2125", "A0128", 102),
             ("2089", "BF424", 101),
             ("1976", "DD055", 92),
@@ -103,7 +80,8 @@ class ProjectionsSpec extends FunSpec with Matchers {
       }
       describe("inactivePlayers") {
         it("should count the number of joined games and return top 10 of inactive players for the month") {
-          inactivePlayers(events, monthFormat.parse("2016-04")) shouldBe Seq(
+          inactivePlayers(sampleEvents, monthFormat.parse("2016-04")) shouldBe Seq()
+          inactivePlayers(fullEvents, monthFormat.parse("2016-04")) shouldBe Seq(
             ("21", "3C59D C048", 4),
             ("733", "6C297 93A1", 4),
             ("699", "AFD48 3671", 4),
@@ -119,7 +97,8 @@ class ProjectionsSpec extends FunSpec with Matchers {
       }
       describe("activePlayers") {
         it("should count the number of joined games in the last 7 days and return top 10 of active players") {
-          activePlayers(events, dayFormat.parse("2016-04-20")) shouldBe Seq(
+          activePlayers(sampleEvents, monthFormat.parse("2016-04")) shouldBe Seq()
+          activePlayers(fullEvents, dayFormat.parse("2016-04-20")) shouldBe Seq(
             ("1895", "059FD CD96", 18),
             ("1863", "09FB0 5DD4", 18),
             ("1891", "13168 E6A2", 18),
@@ -131,11 +110,6 @@ class ProjectionsSpec extends FunSpec with Matchers {
             ("1877", "F31B2 0466", 18),
             ("879", "D516B 1367", 14)
           )
-        }
-      }
-      describe("loadData") {
-        it("should read event data and return it") {
-          events.length shouldBe 432642
         }
       }
     }
