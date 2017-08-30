@@ -231,4 +231,24 @@ object s2Collections {
     val r2: List[Int] = strs.flatMap(toInt) // List(1, 4, 12)
   }
 
+  object ApiFonctionnelle4 {
+
+    case class User(id: Int,
+                    name: String,
+                    mails: Seq[String])
+
+    val users = Seq(
+      User(1, "Jean", Seq("jean@me.fr")),
+      User(2, "Lucie", Seq()),
+      User(3, "Luc", Seq("luc@scala.io", "luc@me.fr")))
+
+    val mails: Seq[Seq[String]] = users.map(_.mails)
+    // Seq(Seq("jean@me.fr"),
+    //     Seq(),
+    //     Seq("luc@scala.io", "luc@me.fr"))
+
+    val fMails: Seq[String] = users.flatMap(_.mails)
+    // Seq("jean@me.fr", "luc@scala.io", "luc@me.fr")
+  }
+
 }
