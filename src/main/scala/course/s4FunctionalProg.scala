@@ -32,7 +32,7 @@ object s4FunctionalProg {
     val path = "src/main/resources/file.txt"
 
     def readFile(path: String): String =
-      Source.fromFile(path).getLines().mkString("\n")
+      Source.fromFile(path).mkString
 
     def writeFile(path: String, content: String): Unit =
       new PrintWriter(path) {
