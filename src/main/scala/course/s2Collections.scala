@@ -205,9 +205,10 @@ object s2Collections {
 
   object ApiFonctionnelle2 {
     val nums = List(1, 3, 2, 2, 4)
-    val r1: Iterator[List[Int]] = nums.grouped(2) // Iterator(List(1, 3), List(2, 2), List(4))
-    val r2: Iterator[List[Int]] = nums.sliding(2, 3) // Iterator(List(1, 3), List(2, 4))
-    val r3: Map[Int, List[Int]] = nums.groupBy(n => n % 2) // Map(0 -> List(2, 2, 4), 1 -> List(1, 3))
+    val r0: Iterator[List[Int]] = nums.grouped(2) // Iterator(List(1, 3), List(2, 2), List(4))
+    val r1: Iterator[List[Int]] = nums.sliding(2, 3) // Iterator(List(1, 3), List(2, 4))
+    val r2: Map[Int, List[Int]] = nums.groupBy(n => n % 2) // Map(0 -> List(2, 2, 4), 1 -> List(1, 3))
+    val r3: Boolean = nums.forall(_ < 5) // true
     val r4: Int = nums.min // 1
     val r5: Int = nums.minBy(_.toString) // 1
     val r6: Int = nums.sum // 8
@@ -217,21 +218,6 @@ object s2Collections {
   }
 
   object ApiFonctionnelle3 {
-    val strs: List[String] = List("1", "foo", "4", "12", "bar")
-
-    def toInt(str: String): Option[Int] = {
-      try {
-        Some(Integer.parseInt(str.trim))
-      } catch {
-        case NonFatal(_) => None
-      }
-    }
-
-    val r1: List[Char] = strs.flatMap(_.toList) // List(1, f, o, o, 4, 1, 2, b, a, r)
-    val r2: List[Int] = strs.flatMap(toInt) // List(1, 4, 12)
-  }
-
-  object ApiFonctionnelle4 {
 
     case class User(id: Int,
                     name: String,
@@ -249,6 +235,21 @@ object s2Collections {
 
     val fMails: Seq[String] = users.flatMap(_.mails)
     // Seq("jean@me.fr", "luc@scala.io", "luc@me.fr")
+  }
+
+  object ApiFonctionnelle4 {
+    val strs: List[String] = List("1", "foo", "4", "12", "bar")
+
+    def toInt(str: String): Option[Int] = {
+      try {
+        Some(Integer.parseInt(str.trim))
+      } catch {
+        case NonFatal(_) => None
+      }
+    }
+
+    val r1: List[Char] = strs.flatMap(_.toList) // List(1, f, o, o, 4, 1, 2, b, a, r)
+    val r2: List[Int] = strs.flatMap(toInt) // List(1, 4, 12)
   }
 
 }

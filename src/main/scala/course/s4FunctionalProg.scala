@@ -131,6 +131,12 @@ object s4FunctionalProg {
     }
   }
 
+  object FunctionAsValue {
+    val value = 5 // assignée à une variable
+    val v2 = value + 2 // combinée
+    def add(a: Int, b: Int): Int = a + b // passée en paramètre et retournée
+  }
+
   object HighOrderFunction {
     def map[A, B](f: A => B) = ???
 
@@ -176,8 +182,7 @@ object s4FunctionalProg {
       Employee("Jim", 28),
       Employee("John", 50),
       Employee("Liz", 35),
-      Employee("Penny", 40)
-    )
+      Employee("Penny", 40))
     val sales = Team(employees.take(2))
 
     object Step0 {
