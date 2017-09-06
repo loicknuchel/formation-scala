@@ -322,6 +322,8 @@ object s4FunctionalProg {
 
       averageAge(employees, and(gt(30), in(sales)))
       averageAge(employees, gt(30))
+      averageAge(employees, and(_.age >= 30, sales.has))
+      averageAge(employees, _.age >= 30)
     }
 
     object More {
