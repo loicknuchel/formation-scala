@@ -8,33 +8,66 @@ class ProjectionsSpec extends FunSpec with Matchers {
   describe("Projections") {
     import Projections._
 
-    val sampleEvents = loadData("sample.json").get
-    val fullEvents = loadData("full.json").get
     val monthFormat = new SimpleDateFormat("yyyy-MM")
     val dayFormat = new SimpleDateFormat("yyyy-MM-dd")
 
-    describe("full events") {
+    describe("sample events") {
+      val sampleEvents = loadData("sample.json").get
       describe("loadData") {
         it("should read event data and return it") {
           sampleEvents.length shouldBe 30
-          fullEvents.length shouldBe 432642
         }
       }
       describe("numberOfEvents") {
         it("should count the number of events") {
           numberOfEvents(sampleEvents) shouldBe 30
-          numberOfEvents(fullEvents) shouldBe 432642
         }
       }
       describe("registredPlayers") {
         it("should count the number of registered players") {
           registredPlayers(sampleEvents) shouldBe 2
-          registredPlayers(fullEvents) shouldBe 948
         }
       }
       describe("registredPlayersPerMonth") {
         it("should count the number of registered players by month") {
           registredPlayersPerMonth(sampleEvents) shouldBe Map("2016-05" -> 2)
+        }
+      }
+      describe("popularQuizs") {
+        it("should count the number of time a quiz game was opened and return the top 10") {
+          popularQuizs(sampleEvents) shouldBe Seq()
+        }
+      }
+      describe("inactivePlayers") {
+        it("should count the number of joined games and return top 10 of inactive players for the month") {
+          inactivePlayers(sampleEvents, monthFormat.parse("2016-04")) shouldBe Seq()
+        }
+      }
+      describe("activePlayers") {
+        it("should count the number of joined games in the last 7 days and return top 10 of active players") {
+          activePlayers(sampleEvents, monthFormat.parse("2016-04")) shouldBe Seq()
+        }
+      }
+    }
+    describe("full events") {
+      val fullEvents = loadData("full.json").get
+      describe("loadData") {
+        it("should read event data and return it") {
+          fullEvents.length shouldBe 432642
+        }
+      }
+      describe("numberOfEvents") {
+        it("should count the number of events") {
+          numberOfEvents(fullEvents) shouldBe 432642
+        }
+      }
+      describe("registredPlayers") {
+        it("should count the number of registered players") {
+          registredPlayers(fullEvents) shouldBe 948
+        }
+      }
+      describe("registredPlayersPerMonth") {
+        it("should count the number of registered players by month") {
           registredPlayersPerMonth(fullEvents) shouldBe Map(
             "2015-03" -> 18,
             "2015-04" -> 19,
@@ -63,7 +96,6 @@ class ProjectionsSpec extends FunSpec with Matchers {
       }
       describe("popularQuizs") {
         it("should count the number of time a quiz game was opened and return the top 10") {
-          popularQuizs(sampleEvents) shouldBe Seq()
           popularQuizs(fullEvents) shouldBe Seq(
             ("2125", "A0128", 102),
             ("2089", "BF424", 101),
@@ -80,7 +112,6 @@ class ProjectionsSpec extends FunSpec with Matchers {
       }
       describe("inactivePlayers") {
         it("should count the number of joined games and return top 10 of inactive players for the month") {
-          inactivePlayers(sampleEvents, monthFormat.parse("2016-04")) shouldBe Seq()
           inactivePlayers(fullEvents, monthFormat.parse("2016-04")) shouldBe Seq(
             ("21", "3C59D C048", 4),
             ("733", "6C297 93A1", 4),
@@ -97,7 +128,6 @@ class ProjectionsSpec extends FunSpec with Matchers {
       }
       describe("activePlayers") {
         it("should count the number of joined games in the last 7 days and return top 10 of active players") {
-          activePlayers(sampleEvents, monthFormat.parse("2016-04")) shouldBe Seq()
           activePlayers(fullEvents, dayFormat.parse("2016-04-20")) shouldBe Seq(
             ("1895", "059FD CD96", 18),
             ("1863", "09FB0 5DD4", 18),

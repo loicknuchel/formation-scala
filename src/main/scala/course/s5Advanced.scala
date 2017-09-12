@@ -110,8 +110,11 @@ object s5Advanced {
 
     def fetch(id: Id): Unit = {}
 
+    fetch(Id("123"))
+
     implicit def stringToId(id: String): Id = Id(id)
 
+    fetch(stringToId("123"))
     fetch("123")
   }
 

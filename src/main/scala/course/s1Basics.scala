@@ -150,84 +150,6 @@ object s1Basics {
       // > c: c
     }
 
-    object Match {
-      val value = "test"
-      val cond = false
-
-      value match {
-        case "a" => println("found a")
-        case "test" if cond => println("found test 1")
-        case "test" => println("found test 2")
-        case _ => println(s"$value not found")
-      }
-      // > found test 2
-    }
-
-  }
-
-  object ExpressionEverywhere {
-
-    object Slide1 {
-      val v1 = "test"
-      println("v1: " + v1) // > v1: "test"
-      val v2 = {
-        "test"
-      }
-      println("v2: " + v2) // > v2: "test"
-      val v3 = {
-        "val";
-        "test"
-      }
-      println("v3: " + v3) // > v3: "test"
-
-      val v4 = if (v3.length > 4) "long" else "short"
-      println("v4: " + v4) // > v4: "short"
-    }
-
-    object Slide2 {
-      val v5 = if ("text".length > 4) "long" // else ()
-      println("v5: " + v5) // > v5: ()
-
-      var x = 0
-      val v6 = while (x < 3) {
-        x += 1
-      }
-      println("v6: " + v6) // > v6: ()
-
-      val v7 = for (c <- "test") {
-        c.toUpper
-      }
-      println("v7: " + v7) // > v7: ()
-    }
-
-    object Slide3 {
-      val v8 = for (c <- "test") yield {
-        c.toUpper
-      }
-      println("v8: " + v8) // > v8: "TEST"
-
-      val v9 = "test" match {
-        case "a" => {
-          println("First !")
-          "found a"
-        }
-        case "test" => "found test"
-        case _ => "not found"
-      }
-      println("v9: " + v9) // > v9: "found test"
-    }
-
-    object Slide4 {
-      def up(s: String): String = s.toUpperCase
-
-      val v10 = up({
-        val text = "Salut"
-        println(text)
-        text
-      })
-      println("v10: " + v10) // > v10: "SALUT"
-    }
-
   }
 
   object ObjectStructure {
@@ -367,6 +289,49 @@ object s1Basics {
       }
 
     }
+
+  }
+
+  object Tuple {
+    val tu: (String, Int) = ("a", 1)
+
+    val v1: String = tu._1
+    val v2: Int = tu._2
+
+    val (t1, t2) = tu
+
+    val tri: (Int, String, Boolean) = (1, "b", false)
+
+    val u1: Int = tri._1
+    val u2: String = tri._2
+    val u3: Boolean = tri._3
+
+    val (s1, s2, s3) = tri
+  }
+
+  object PatternMatching {
+
+    object Match {
+
+      case class Point(x: Int, y: Int)
+
+      val value: Any = "test"
+
+      val res: String = value match {
+        case "a" => "exact match"
+        case v@"b" => "exact match: " + v
+        case 5 => "exact match"
+        case (2, true) => "exact match"
+        case i: Int => "type match: " + i
+        case _: Boolean => "type match"
+        case (false, s) => "extract tuple: " + s
+        case Point(0, y) => "extract case class: " + y
+        case x: Int if x > 0 => "condition"
+        case (true, Point(x, 3)) if x < 0 => "complex"
+        case _ => "default"
+      }
+    }
+
   }
 
 }

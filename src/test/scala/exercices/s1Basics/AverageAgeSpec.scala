@@ -6,12 +6,12 @@ class AverageAgeSpec extends FunSpec with Matchers {
   describe("AverageAge") {
     import AverageAge._
 
-    val employees = Seq(
+    val employees: Seq[Employee] = Seq(
       Employee("Jean", 22),
       Employee("Corinne", 54),
       Employee("Fanny", 32),
       Employee("Claude", 40),
       Employee("Cécile", 25))
-    val RnD = Team(employees.take(3))
+    val RnD: Team = Team(employees.take(3))
   }
 }

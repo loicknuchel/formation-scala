@@ -287,10 +287,8 @@ object s4FunctionalProg {
     }
 
     object Step4 {
-      type Predicate[T] = T => Boolean
-
       def averageAge(employees: Seq[Employee],
-                     predicate: Predicate[Employee]
+                     predicate: Employee => Boolean
                     ): Try[Int] =
         average(employees.filter(predicate).map(_.age))
 
@@ -303,18 +301,16 @@ object s4FunctionalProg {
     }
 
     object Step5 {
-      type Predicate[T] = T => Boolean
-
       def averageAge(employees: Seq[Employee],
-                     predicate: Predicate[Employee]
+                     predicate: Employee => Boolean
                     ): Try[Int] =
         average(employees.filter(predicate).map(_.age))
 
-      def gt(v: Int): Predicate[Employee] = (e: Employee) => e.age >= v
+      def gt(v: Int): Employee => Boolean = (e: Employee) => e.age >= v
 
-      def in(team: Team): Predicate[Employee] = (e: Employee) => team.has(e)
+      def in(team: Team): Employee => Boolean = (e: Employee) => team.has(e)
 
-      def and[T](ps: Predicate[T]*): Predicate[T] = (e: T) => ps.forall(_ (e))
+      def and[T](ps: (T => Boolean)*): T => Boolean = (e: T) => ps.forall(_ (e))
 
       def average(nums: Seq[Int]): Try[Int] =
         if (nums.isEmpty) Failure(new Exception("Can't average an empty Seq"))
@@ -330,11 +326,11 @@ object s4FunctionalProg {
 
       import Step5._
 
-      def or[T](predicates: Predicate[T]*): Predicate[T] = (e: T) => predicates.exists(_ (e))
+      def or[T](predicates: (T => Boolean)*): T => Boolean = (e: T) => predicates.exists(_ (e))
 
-      def not[T](predicate: Predicate[T]): Predicate[T] = (e: T) => !predicate(e)
+      def not[T](predicate: T => Boolean): T => Boolean = (e: T) => !predicate(e)
 
-      def in(min: Int, max: Int): Predicate[Employee] =
+      def in(min: Int, max: Int): Employee => Boolean =
         and(gt(min), not(gt(max)))
 
       averageAge(employees, or(in(30, 50), not(Step5.in(sales))))
