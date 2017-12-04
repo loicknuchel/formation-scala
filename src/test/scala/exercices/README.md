@@ -1,0 +1,1 @@
+Ce package de test sert à écrire les tests correspondant aux exerices lors des workshops.

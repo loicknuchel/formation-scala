@@ -1,0 +1,1 @@
+Ce package contient le code utile pour démarrer le projet.
