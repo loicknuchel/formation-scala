@@ -1,8 +1,14 @@
 package corrections
 
+import java.util.concurrent.{ScheduledExecutorService, ScheduledFuture}
+
 import org.scalatest.{FunSpec, Matchers}
 
+import scala.concurrent.Promise
+import scala.concurrent.duration.FiniteDuration
+import scala.io.Source
 import scala.util.control.NonFatal
+import scala.util.{Failure, Try}
 
 class Correction20171204 extends FunSpec with Matchers {
   describe("FizzBuzz") {
@@ -59,6 +65,7 @@ class Correction20171204 extends FunSpec with Matchers {
 
   describe("Devoxx") {
     import java.util.Date
+
     import exercices.s2Collections.Devoxx
     import exercices.s2Collections.Devoxx._
 
@@ -136,15 +143,25 @@ class Correction20171204 extends FunSpec with Matchers {
   describe("CustomTry") {
     sealed abstract class MyTry[+A] {
       def isSuccess: Boolean
+
       def isFailure: Boolean
+
       def get: A
+
       def getOrElse[B >: A](default: => B): B
+
       def map[B](f: A => B): MyTry[B]
+
       def flatMap[B](f: A => MyTry[B]): MyTry[B]
+
       def filter(p: A => Boolean): MyTry[A]
+
       def foldLeft[B](z: B)(op: (B, A) => B): B
+
       def exists(p: A => Boolean): Boolean
+
       def toOption: Option[A]
+
       def toList: List[A]
     }
 
@@ -157,30 +174,114 @@ class Correction20171204 extends FunSpec with Matchers {
 
     case class MySuccess[+A](value: A) extends MyTry[A] {
       def isSuccess: Boolean = true
+
       def isFailure: Boolean = false
+
       def get: A = value
+
       def getOrElse[B >: A](default: => B): B = value
+
       def map[B](f: A => B): MyTry[B] = MyTry(f(value))
+
       def flatMap[B](f: A => MyTry[B]): MyTry[B] = f(value)
-      def filter(p: A => Boolean): MyTry[A] = if(p(value)) this else MyFailure(new Exception)
+
+      def filter(p: A => Boolean): MyTry[A] = if (p(value)) this else MyFailure(new Exception)
+
       def foldLeft[B](z: B)(op: (B, A) => B): B = op(z, value)
+
       def exists(p: A => Boolean): Boolean = p(value)
+
       def toOption: Option[A] = Some(value)
+
       def toList: List[A] = List(value)
     }
 
     case class MyFailure[+A](error: Throwable) extends MyTry[A] {
       def isSuccess: Boolean = false
+
       def isFailure: Boolean = true
+
       def get: A = throw error
+
       def getOrElse[B >: A](default: => B): B = default
+
       def map[B](f: A => B): MyTry[B] = MyFailure(error)
+
       def flatMap[B](f: A => MyTry[B]): MyTry[B] = MyFailure(error)
+
       def filter(p: A => Boolean): MyTry[A] = this
+
       def foldLeft[B](z: B)(op: (B, A) => B): B = z
+
       def exists(p: A => Boolean): Boolean = false
+
       def toOption: Option[A] = None
+
       def toList: List[A] = List.empty
+    }
+  }
+
+  describe("ReadFile") {
+    type Header = String
+
+    def readFile(path: String): Try[Seq[String]] =
+      Try(Source.fromFile(path).getLines().toList) // .map(s => s.getLines().toSeq)
+
+    def parseFile(path: String): Try[Seq[Map[Header, String]]] =
+      readFile(path).map {
+        case head +: tail => {
+          val header = head.split(",")
+          tail.map { line =>
+            header.zip(line.split(",")).toMap
+          }
+        }
+      }
+
+    case class User(id: Int, firstName: String, lastName: String, email: String, gender: String, ip: Option[String])
+
+    def formatLine(line: Map[Header, String]): Try[User] = {
+      Try(User(line("id").toInt, line("first_name"), line("last_name"), line("email"), line("gender"), line.get("ip_address").filter(_.nonEmpty)))
+    }
+
+    def formatFile(path: String): (Seq[User], Seq[(Int, Throwable)]) = {
+      parseFile(path).map { lines =>
+        val parsedLines: Seq[Try[User]] = lines
+          .map(formatLine)
+
+        val indexedParsedLined: Seq[(Try[User], Int)] = parsedLines
+          .zipWithIndex
+
+        val (users: Seq[(Try[User], Int)], errors: Seq[(Try[User], Int)]) =
+          indexedParsedLined
+            .partition { case (t, _) => t.isSuccess }
+        users.map(_._1.get) -> errors.map { case (Failure(t), i) => (i + 1) -> t }
+      }.getOrElse(Nil -> Nil)
+    }
+  }
+
+  describe("SchedulerRefactoring") {
+    class CancelableFuture[T](promise: Promise[T], cancelMethod: Boolean => Boolean) {
+      def cancel(mayInterruptIfRunning: Boolean = false): Boolean =
+        cancelMethod(mayInterruptIfRunning)
+    }
+
+    class Scheduler(underlying: ScheduledExecutorService) {
+      def scheduleOnce[T](delay: FiniteDuration)(operation: => T): CancelableFuture[T] = {
+        scheduleGeneric(operation, r => underlying.schedule(r, delay.length, delay.unit))
+      }
+
+      def scheduleAtFixedRate(interval: FiniteDuration, delay: Long = 0)(operation: => Unit): CancelableFuture[Unit] = {
+        scheduleGeneric[Unit](operation, r => underlying.scheduleAtFixedRate(r, delay, interval.length, interval.unit))
+      }
+
+      def scheduleGeneric[T](operation: => T, schedule: Runnable => ScheduledFuture[_]): CancelableFuture[T] = {
+        val promise = Promise[T]()
+        val scheduledFuture = schedule(() => promise.complete(Try(operation)))
+        new CancelableFuture(promise, scheduledFuture.cancel)
+      }
+
+      def shutdown(): Unit =
+        underlying.shutdown()
     }
   }
 }
