@@ -11,7 +11,6 @@ object CustomTry {
     def map[B](f: A => B): MyTry[B]
     def flatMap[B](f: A => MyTry[B]): MyTry[B]
     def filter(p: A => Boolean): MyTry[A]
-    def foldLeft[B](z: B)(op: (B, A) => B): B
     def exists(p: A => Boolean): Boolean
     def toOption: Option[A]
     def toList: List[A]
@@ -32,7 +31,6 @@ object CustomTry {
     def map[B](f: A => B): MyTry[B] = ???
     def flatMap[B](f: A => MyTry[B]): MyTry[B] = ???
     def filter(p: A => Boolean): MyTry[A] = ???
-    def foldLeft[B](z: B)(op: (B, A) => B): B = ???
     def exists(p: A => Boolean): Boolean = ???
     def toOption: Option[A] = ???
     def toList: List[A] = ???
@@ -46,7 +44,6 @@ object CustomTry {
     def map[B](f: A => B): MyTry[B] = ???
     def flatMap[B](f: A => MyTry[B]): MyTry[B] = ???
     def filter(p: A => Boolean): MyTry[A] = ???
-    def foldLeft[B](z: B)(op: (B, A) => B): B = ???
     def exists(p: A => Boolean): Boolean = ???
     def toOption: Option[A] = ???
     def toList: List[A] = ???

@@ -21,7 +21,7 @@ object Devoxx {
 
   def frenchTalkPercentage(talks: Seq[Talk]): Double = ???
 
-  def talksOfSpeaker(speakers: Seq[Speaker], talks: Seq[Talk], id: SpeakerId): Seq[Talk] = ???
+  def talksOfSpeaker(talks: Seq[Talk], id: SpeakerId): Seq[Talk] = ???
 
   def roomSchedule(slots: Seq[Slot], talks: Seq[Talk], id: RoomId): Seq[(Date, Date, Talk)] = ???
 
