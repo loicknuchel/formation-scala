@@ -8,7 +8,7 @@ import scala.concurrent.Promise
 import scala.concurrent.duration.FiniteDuration
 import scala.io.Source
 import scala.util.control.NonFatal
-import scala.util.{Failure, Try}
+import scala.util.{Failure, Success, Try}
 
 class Correction20171204 extends FunSpec with Matchers {
   describe("FizzBuzz") {
@@ -282,6 +282,55 @@ class Correction20171204 extends FunSpec with Matchers {
 
       def shutdown(): Unit =
         underlying.shutdown()
+    }
+  }
+
+  describe("FunctionalRefactoring") {
+    import exercices.s1Basics.AverageAge.{Employee, Team}
+
+    val employees: Seq[Employee] = Seq(
+      Employee("Jean", 22),
+      Employee("Corinne", 54),
+      Employee("Fanny", 32),
+      Employee("Claude", 40),
+      Employee("Cécile", 25))
+    val RnD: Team = Team(employees.take(3))
+
+    def meanAge(employees: Seq[Employee], minAge: Int = 0, team: Team = null): Int = {
+      var total = 0
+      var count = 0
+      for (e <- employees) {
+        if (e.age > minAge && (team == null || team.has(e))) {
+          total += e.age
+          count += 1
+        }
+      }
+      total / count
+    }
+
+    type Predicate[T] = T => Boolean
+
+    def meanAgeFun(employees: Seq[Employee], predicate: Predicate[Employee]): Try[Int] =
+      average(employees.filter(predicate).map(_.age))
+
+    def average(s: Seq[Int]): Try[Int] =
+      Try(s.sum / s.length)
+
+    def ageIsGreatherThan(threshold: Int): Predicate[Employee] =
+      e => e.age > threshold
+
+    def isInTeam(team: Team): Predicate[Employee] =
+      e => team.has(e)
+
+    def and[T](predicates: Predicate[T]*): Predicate[T] =
+      e => predicates.forall(predicate => predicate(e))
+
+    it("should be valid") {
+      meanAge(employees, 30) shouldBe 42
+      meanAge(employees, 30, RnD) shouldBe 43
+
+      meanAgeFun(employees, ageIsGreatherThan(30)) shouldBe Success(42)
+      meanAgeFun(employees, and(ageIsGreatherThan(30), isInTeam(RnD))) shouldBe Success(43)
     }
   }
 }
