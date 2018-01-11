@@ -20,7 +20,7 @@ class DevoxxSpec extends FunSpec with Matchers {
     }
     describe("talksOfSpeaker") {
       it("should list talks for a speaker") {
-        talksOfSpeaker(speakers, talks, speakerId).map(_.id) shouldBe Seq(talkId)
+        talksOfSpeaker(talks, speakerId).map(_.id) shouldBe Seq(talkId)
       }
     }
     describe("roomSchedule") {

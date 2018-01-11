@@ -322,11 +322,11 @@ object s1Basics {
         case v@"b" => "exact match: " + v
         case 5 => "exact match"
         case (2, true) => "exact match"
-        case i: Int => "type match: " + i
+        case i: String => "type match: " + i
         case _: Boolean => "type match"
         case (false, s) => "extract tuple: " + s
         case Point(0, y) => "extract case class: " + y
-        case x: Int if x > 0 => "condition"
+        case x: Int if x > 1 => "condition"
         case (true, Point(x, 3)) if x < 0 => "complex"
         case _ => "default"
       }

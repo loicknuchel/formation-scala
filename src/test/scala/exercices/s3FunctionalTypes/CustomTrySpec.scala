@@ -89,14 +89,6 @@ class CustomTrySpec extends FunSpec with Matchers {
         MyFailure(error).filter(_ => false) shouldBe MyFailure(error)
       }
     }
-    describe("foldLeft") {
-      it("should agregate value with initial value for MySuccess") {
-        MySuccess(1).foldLeft("0")((acc, cur) => acc + cur) shouldBe "01"
-      }
-      it("should return initial value for MyFailure") {
-        MyFailure(error).foldLeft("0")((acc, cur) => acc + cur) shouldBe "0"
-      }
-    }
     describe("exists") {
       it("should return true if predicate is true for MySuccess") {
         MySuccess(1).exists(_ => true) shouldBe true
