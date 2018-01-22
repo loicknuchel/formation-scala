@@ -19,11 +19,21 @@ object Devoxx {
 
   case class Room(id: RoomId, name: String)
 
-  def frenchTalkPercentage(talks: Seq[Talk]): Double = ???
+  def frenchTalkPercentage(talks: Seq[Talk]): Double =
+    (talks.count(_.lang == "fr"): Double) / talks.length
 
-  def talksOfSpeaker(talks: Seq[Talk], id: SpeakerId): Seq[Talk] = ???
+  def talksOfSpeaker(talks: Seq[Talk], id: SpeakerId): Seq[Talk] =
+    talks.filter(talk => talk.speakers.contains(id))
 
-  def roomSchedule(slots: Seq[Slot], talks: Seq[Talk], id: RoomId): Seq[(Date, Date, Talk)] = ???
+  def roomSchedule(slots: Seq[Slot], talks: Seq[Talk], id: RoomId): Seq[(Date, Date, Talk)] =
+    slots
+      .filter(_.room == id)
+      .flatMap(slot => talks.find(_.id == slot.talk).map(talk => (slot.start, slot.end, talk)))
+      //.map(slot => (slot.start, slot.end, talks.find(_.id == slot.talk)))
+      //.collect { case (start, end, Some(talk)) => (start, end, talk) }
+
+      //.filter(_._3.isDefined)
+      //.map { case (start, end, talkOpt) => (start, end, talkOpt.get) }
 
   def isSpeaking(slots: Seq[Slot], talks: Seq[Talk], rooms: Seq[Room], id: SpeakerId, time: Date): Option[Room] = ???
 
