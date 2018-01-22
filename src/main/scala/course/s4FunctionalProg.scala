@@ -28,6 +28,18 @@ object s4FunctionalProg {
       if (nums.isEmpty) 0 else sumFun(nums.tail, acc + nums.head)
   }
 
+  object ReferentialTransparency {
+    def sum(s: Seq[Int]): Int = {
+      println(s"sum of $s")
+      s.sum
+    }
+
+    val s = Seq(1, 2, 3)
+    val r1: Int = sum(Seq(1, 2, 3)) + sum(Seq(1, 2, 3))
+    val r2: Int = sum(Seq(1, 2, 3)) * 2
+    r1 == r2
+  }
+
   object ContainSideEffects {
     val path = "src/main/resources/file.txt"
 

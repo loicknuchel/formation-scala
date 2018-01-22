@@ -129,11 +129,46 @@ object s2Collections {
   }
 
   object ListCollect {
-    // ???
+    // sélectionner et transformer des éléments
+    List(1, 2, 3).filter(_ % 2 == 0).map(_.toString)
+    // List("2")
+    List(1, 2, 3).collect {
+      case i if i % 2 == 0 => i.toString
+    }
+    // List("2")
+
+    // List[A].collect(A => B): List[B]
+
+    sealed trait Value
+    case class Meter(value: Int) extends Value
+    case class Kilo(value: Int) extends Value
+    case class Liter(value: Int) extends Value
+
+    List(Meter(2), Kilo(3), Meter(1)).collect {
+      case Meter(m) => m
+    }
+    // List(2, 1)
+
+    // List[Value].collect(Value => Int): List[Int]
   }
 
   object ListFind {
-    // ???
+    // chercher un élément
+    List(1, 2, 3).find(n => n % 2 == 1) // Some(1)
+
+    // List[A].find(A => Boolean): Option[A]
+
+    case class User(name: String, age: Int)
+
+    val users = List(
+      User("Jean", 24),
+      User("Anna", 28),
+      User("Loïc", 29))
+
+    users.find(_.age > 25)
+    // Some(User("Anna", 28))
+
+    // List[User].find(User => Boolean): Option[User]
   }
 
   object OptionDefinition {
@@ -173,12 +208,12 @@ object s2Collections {
     val some: Option[Int] = Some(1)
 
     // API fonctionnelle
-    some.map(n => n + 1)           // Some(2)
-    some.map(n => Some(3))         // Some(Some(3))
+    some.map(n => n + 1) // Some(2)
+    some.map(n => Some(3)) // Some(Some(3))
     some.map(n => Some(3)).flatten // Some(3)
-    some.flatMap(n => Some(3))     // Some(3)
-    some.filter(n => n > 0)        // Some(1)
-    some.filter(n => n < 0)        // None
+    some.flatMap(n => Some(3)) // Some(3)
+    some.filter(n => n > 0) // Some(1)
+    some.filter(n => n < 0) // None
   }
 
   object MapUsage {
@@ -226,7 +261,7 @@ object s2Collections {
     // Map[A,B].filter((A,B) => Boolean): Map[A,B]
 
     val f1 = abv.filter(_._2.contains("r"))
-    val f2 = abv.filter {case (_, v) => v.contains("r")}
+    val f2 = abv.filter { case (_, v) => v.contains("r") }
     // Map("fr" -> "France", "en" -> "Angleterre")
   }
 
@@ -239,7 +274,7 @@ object s2Collections {
     // Map[A,B].find((A,B) => Boolean): Option[(A,B)]
 
     val f1 = abv.find(_._2.contains("r"))
-    val f2 = abv.find {case (_, v) => v.contains("r")}
+    val f2 = abv.find { case (_, v) => v.contains("r") }
     // Some(("fr", "France"))
   }
 
