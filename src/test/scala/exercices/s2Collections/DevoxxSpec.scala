@@ -15,7 +15,7 @@ class DevoxxSpec extends FunSpec with Matchers {
 
     describe("frenchTalkPercentage") {
       it("should calculate the percentage of french talks") {
-        math.round(frenchTalkPercentage(talks) * 100) shouldBe 90
+        math.round(frenchTalkPercentage(talks)) shouldBe 90
       }
     }
     describe("talksOfSpeaker") {

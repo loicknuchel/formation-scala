@@ -3,6 +3,10 @@ package exercices.s3FunctionalTypes
 import scala.util.control.NonFatal
 
 object CustomTry {
+  /**
+    * Complète les fonctions avec ??? dans MySuccess et MyFailure pour faire passer les tests
+    */
+
   sealed abstract class MyTry[+A] {
     def isSuccess: Boolean
     def isFailure: Boolean

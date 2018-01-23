@@ -13,5 +13,12 @@ class AverageAgeSpec extends FunSpec with Matchers {
       Employee("Claude", 40),
       Employee("Cécile", 25))
     val RnD: Team = Team(employees.take(3))
+
+    /**
+      * Ecris les tests pour la fonction averageAge, voici quelques exemples :
+      *   - averageAge(employees) => 34.6
+      *   - averageAge(employees, 25) => 42
+      *   - averageAge(employees, 25, RnD) => 43
+      */
   }
 }

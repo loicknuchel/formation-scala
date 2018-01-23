@@ -3,11 +3,22 @@ package project.searchengine
 import scala.util.Try
 
 object SearchEngine {
-
   /**
-    * Utility for later...
+    * Code ici le moteur un moteur de recherche.
+    *   - étape 1: code un simple fonction qui cherche une requête dans un ensemble de documents
+    *       def search(db: Seq[String], query: String): Seq[String]
+    *   - étape 2: permet une recherche multi-mots, c'est à dire chercher les mots de la requête indépendemment les uns des autres
+    *   - étape 3: crée une fonction de tokenization pour comparer les tokens présents dans la requête et les documents
+    *   - étape 4: implémente une recherche pour un type générique A en utilisant un adapteur
+    *       def search[A](db: Seq[A], query: String, adapter: A => Seq[String]): Seq[A]
+    *   - étape 5: améliore la pertinence de la recherche en utilisant l'algorithme TFIDF
+    *   - étape 6: attention aux performances !!!
     */
 
+  /**
+    *     ---------- Ne pas modifier ----------
+    * Fonction utilitaire pour charger les données.
+    */
   type UserId = Long
   type UserType = String
   type QuestionId = Long

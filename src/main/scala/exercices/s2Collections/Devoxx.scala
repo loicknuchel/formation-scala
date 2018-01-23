@@ -6,31 +6,35 @@ import scala.util.Try
 
 // cf http://cfp.devoxx.fr/api
 object Devoxx {
+  /**
+    * Complète les quatre fonctions avec des ??? pour faire passer les tests
+    */
+
   type TalkId = String
   type SpeakerId = String
   type SlotId = String
   type RoomId = String
-
   case class Talk(id: TalkId, lang: String, title: String, summary: String, speakers: Seq[SpeakerId])
-
   case class Speaker(id: SpeakerId, name: String, bio: String, lang: String, talks: Seq[TalkId])
-
   case class Slot(id: SlotId, room: RoomId, start: Date, end: Date, talk: TalkId)
-
   case class Room(id: RoomId, name: String)
 
+  // calcule le pourcentage de talks en français (chiffre entre 0 et 100)
   def frenchTalkPercentage(talks: Seq[Talk]): Double = ???
 
+  // trouve les talks du speaker indiqué
   def talksOfSpeaker(talks: Seq[Talk], id: SpeakerId): Seq[Talk] = ???
 
+  // extrait le programme d'une salle avec les horaires (début & fin) et le talk associé
   def roomSchedule(slots: Seq[Slot], talks: Seq[Talk], id: RoomId): Seq[(Date, Date, Talk)] = ???
 
+  // si le speaker est en train de présenter à la date donnée, renvoi la salle où il présente, sinon rien
   def isSpeaking(slots: Seq[Slot], talks: Seq[Talk], rooms: Seq[Room], id: SpeakerId, time: Date): Option[Room] = ???
 
   /**
-    * Utilities
+    *     ---------- Ne pas modifier ----------
+    * Fonction utilitaire pour charger les données.
     */
-
   def loadData(): Try[(Seq[Talk], Seq[Speaker], Seq[Slot], Seq[Room])] = {
     import java.io.File
 
