@@ -2,6 +2,8 @@ package exercices.s3FunctionalTypes
 
 import org.scalatest.{FunSpec, Matchers}
 
+import scala.util.{Failure, Try}
+
 class CustomTrySpec extends FunSpec with Matchers {
   describe("CustomTry") {
     import CustomTry._

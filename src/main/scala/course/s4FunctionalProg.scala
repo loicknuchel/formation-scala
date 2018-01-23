@@ -308,8 +308,12 @@ object s4FunctionalProg {
         if (nums.isEmpty) Failure(new Exception("Can't average an empty Seq"))
         else Success(nums.sum / nums.length)
 
+      def gt(v: Int): Employee => Boolean =
+        (e: Employee) => e.age >= v
+
       averageAge(employees, e => e.age >= 30 && sales.has(e))
-      averageAge(employees, _.age >= 30)
+      averageAge(employees, e => e.age >= 30)
+      averageAge(employees, gt(30))
     }
 
     object Step5 {
