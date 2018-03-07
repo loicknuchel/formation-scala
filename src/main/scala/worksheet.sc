@@ -5,4 +5,12 @@
   *
   * Have fun !
   */
-val ex = "example"
+// val ex = "example"
+
+val s: Iterator[Seq[Int]] = Seq(1, 2, 3, 4).sliding(2, 1)
+
+s.foreach{println}
+
+val s2: Iterator[Seq[Int]] = Seq(1, 2, 3, 4).sliding(2, 2)
+
+s2.foreach{println}

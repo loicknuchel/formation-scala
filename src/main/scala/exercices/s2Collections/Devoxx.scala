@@ -14,25 +14,51 @@ object Devoxx {
   type SpeakerId = String
   type SlotId = String
   type RoomId = String
+
   case class Talk(id: TalkId, lang: String, title: String, summary: String, speakers: Seq[SpeakerId])
+
   case class Speaker(id: SpeakerId, name: String, bio: String, lang: String, talks: Seq[TalkId])
+
   case class Slot(id: SlotId, room: RoomId, start: Date, end: Date, talk: TalkId)
+
   case class Room(id: RoomId, name: String)
 
   // calcule le pourcentage de talks en français (chiffre entre 0 et 100)
-  def frenchTalkPercentage(talks: Seq[Talk]): Double = ???
+  def frenchTalkPercentage(talks: Seq[Talk]): Double =
+    100 * talks.count(_.lang == "fr").toDouble / talks.length
 
   // trouve les talks du speaker indiqué
-  def talksOfSpeaker(talks: Seq[Talk], id: SpeakerId): Seq[Talk] = ???
+  def talksOfSpeaker(talks: Seq[Talk], id: SpeakerId): Seq[Talk] = {
+    talks.filter(talk => talk.speakers.contains(id))
+  }
 
   // extrait le programme d'une salle avec les horaires (début & fin) et le talk associé
-  def roomSchedule(slots: Seq[Slot], talks: Seq[Talk], id: RoomId): Seq[(Date, Date, Talk)] = ???
+  def roomSchedule(slots: Seq[Slot], talks: Seq[Talk], id: RoomId): Seq[(Date, Date, Talk)] = {
+    val talkMap = talks.groupBy(_.id).mapValues(_.head)
+
+    def slotToTuple(s: Slot, talkMap: Map[TalkId, Talk]): (Date, Date, Option[Talk]) = {
+      val talkOpt = talkMap.get(s.talk)
+      (s.start, s.end, talkOpt)
+    }
+
+    slots
+      .filter(s => s.room == id)
+      //.flatMap(s => talkMap.get(s.talk).map(talk => (s.start, s.end, talk)))
+      .map(s => (s.start, s.end, talkMap.get(s.talk)))
+      .collect { case (start, end, Some(talk)) => (start, end, talk) }
+  }
 
   // si le speaker est en train de présenter à la date donnée, renvoi la salle où il présente, sinon rien
-  def isSpeaking(slots: Seq[Slot], talks: Seq[Talk], rooms: Seq[Room], id: SpeakerId, time: Date): Option[Room] = ???
+  def isSpeaking(slots: Seq[Slot], talks: Seq[Talk], rooms: Seq[Room], id: SpeakerId, time: Date): Option[Room] = {
+    slots
+      .filter(s => s.start.before(time) && s.end.after(time))
+      .filter(s => talks.exists(t => t.id == s.talk && t.speakers.contains(id)))
+      .flatMap(s => rooms.find(_.id == s.room))
+      .headOption
+  }
 
   /**
-    *     ---------- Ne pas modifier ----------
+    * ---------- Ne pas modifier ----------
     * Fonction utilitaire pour charger les données.
     */
   def loadData(): Try[(Seq[Talk], Seq[Speaker], Seq[Slot], Seq[Room])] = {
