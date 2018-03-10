@@ -18,7 +18,76 @@ class UserControllerTest extends FeatureTest {
   private val mapper = FinatraObjectMapper.create()
   override val server = new EmbeddedHttpServer(new AppServer(conf, store, mapper))
 
-  test("CRUD behaviour") {
+  test("should create a user") {
+    store.clear()
+    val user = UserNoId("a", "a")
+    val res = server.httpPost(path = "/api/users", postBody = asJson(user), andExpect = Ok)
+    val idTry = parse[User.Id](res)
+    idTry shouldBe a[Success[_]]
+  }
+
+  test("should retrieve the created user") {
+    store.clear()
+    val user = UserNoId("b", "b")
+    val res = server.httpPost(path = "/api/users", postBody = asJson(user), andExpect = Ok)
+    val idTry = parse[User.Id](res)
+    idTry shouldBe a[Success[_]]
+    val id = idTry.get
+
+    val res2 = server.httpGet(path = s"/api/users/${id.value}", andExpect = Ok)
+    val user2 = parse[User](res2)
+    user2 shouldBe Success(user.withId(id))
+  }
+
+  test("should retrieve an empty list of users") {
+    store.clear()
+    server.httpGet(path = "/api/users", andExpect = Ok, withBody = "[]")
+  }
+
+  test("should retrieve a list of users with the created one") {
+    store.clear()
+    val user = UserNoId("c", "c")
+    val res = server.httpPost(path = "/api/users", postBody = asJson(user), andExpect = Ok)
+    val idTry = parse[User.Id](res)
+    idTry shouldBe a[Success[_]]
+    val id = idTry.get
+
+    val res2 = server.httpGet(path = "/api/users", andExpect = Ok)
+    val users = parse[Seq[User]](res2)
+    users shouldBe Success(Seq(user.withId(id)))
+  }
+
+  test("should update an existing user") {
+    store.clear()
+    val user = UserNoId("d", "d")
+    val res = server.httpPost(path = "/api/users", postBody = asJson(user), andExpect = Ok)
+    val idTry = parse[User.Id](res)
+    idTry shouldBe a[Success[_]]
+    val id = idTry.get
+
+    val updatedUser = user.copy(lastName = "e")
+    server.httpPut(path = s"/api/users/${id.value}", putBody = asJson(updatedUser), andExpect = Ok)
+
+    val res2 = server.httpGet(path = s"/api/users/${id.value}", andExpect = Ok)
+    val user2 = parse[User](res2)
+    user2 shouldBe Success(updatedUser.withId(id))
+  }
+
+  test("should delete an existing user") {
+    store.clear()
+    val user = UserNoId("e", "e")
+    val res = server.httpPost(path = "/api/users", postBody = asJson(user), andExpect = Ok)
+    val idTry = parse[User.Id](res)
+    idTry shouldBe a[Success[_]]
+    val id = idTry.get
+
+    server.httpDelete(path = s"/api/users/${id.value}", andExpect = Ok)
+
+    server.httpGet(path = s"/api/users/${id.value}", andExpect = NotFound)
+  }
+
+  test("handle a compex scenario") {
+    store.clear()
     // should return an empty list
     server.httpGet(path = "/api/users", andExpect = Ok, withBody = "[]")
 
@@ -59,6 +128,7 @@ class UserControllerTest extends FeatureTest {
   }
 
   test("wrong payload when create user") {
+    store.clear()
     val res = server.httpPost(path = "/api/users", postBody = """{}""", andExpect = InternalServerError)
     val err = parse[ApiError](res)
     err.isSuccess shouldBe true
@@ -66,6 +136,7 @@ class UserControllerTest extends FeatureTest {
   }
 
   test("wrong id when get user") {
+    store.clear()
     val res = server.httpGet(path = s"/api/users/abc", andExpect = InternalServerError)
     val err = parse[ApiError](res)
     err.isSuccess shouldBe true
@@ -73,6 +144,7 @@ class UserControllerTest extends FeatureTest {
   }
 
   test("invalid id when updating user") {
+    store.clear()
     val user = UserNoId("a", "a")
     val res = server.httpPut(path = s"/api/users/1ff5380f-58db-41f9-a8a3-df48ef8625e3", putBody = asJson(user), andExpect = InternalServerError)
     val err = parse[ApiError](res)

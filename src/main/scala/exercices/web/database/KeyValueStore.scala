@@ -45,15 +45,6 @@ trait KeyValueStore[K, V] {
     * @return if the key were present or not
     */
   def delete(key: K): Future[Boolean]
-
-  /**
-    * Set a value in the store. It will always work
-    *
-    * @param key
-    * @param value
-    * @return if the value was previously in the store
-    */
-  def createOrUpdate(key: K, value: V): Future[Boolean]
 }
 
 /**
@@ -98,9 +89,8 @@ class InMemoryKeyValueStore[K, V](failureRate: Double) extends KeyValueStore[K, 
     simulateNetwork(res)
   }
 
-  def createOrUpdate(key: K, value: V): Future[Boolean] = {
-    val res = store.contains(key)
-    store.update(key, value)
-    simulateNetwork(res)
+  private[web] def clear(): Future[Unit] = {
+    store.clear()
+    simulateNetwork()
   }
 }

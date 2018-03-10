@@ -13,17 +13,7 @@ import scala.util.Try
 
 class UserController(store: KeyValueStore[User.Id, User], mapper: FinatraObjectMapper) extends Controller {
   /**
-    * Endpoint to retrieve all users
-    *
-    * Tip: look at 'store' available methods
-    * Tip2: finatra controllers want twitter Future instead of scala Future, you should transform them (see utils.Extensions)
-    */
-  get("/api/users") { _: Request =>
-    ???
-  }
-
-  /**
-    * Endpoint to create a new user
+    * Endpoint to create a new user and return a User.Id
     *
     * Tip: FinatraObjectMapper is able to parse String into case classes
     */
@@ -41,14 +31,25 @@ class UserController(store: KeyValueStore[User.Id, User], mapper: FinatraObjectM
   }
 
   /**
-    * Endpoint to update an existing user
+    * Endpoint to retrieve all users
+    *
+    * Tip: look at 'store' available methods
+    * Tip2: you may need Future.sequence somewhere...
+    * Tip3: finatra controllers want twitter Future instead of scala Future, you should transform them (see utils.Extensions)
+    */
+  get("/api/users") { _: Request =>
+    ???
+  }
+
+  /**
+    * Endpoint to update an existing user and return the User.Id
     */
   put("/api/users/:id") { req: Request =>
     ???
   }
 
   /**
-    * Endpoint to delete a user
+    * Endpoint to delete a user and return a boolean
     */
   delete("/api/users/:id") { req: Request =>
     ???
