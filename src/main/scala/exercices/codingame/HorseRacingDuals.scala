@@ -10,6 +10,13 @@ object HorseRacingDuals {
   }
 
   def getNearestPowerDiff(horses: Seq[Int]): Try[Int] = {
-    ???
+    if (horses.length < 2) {
+      Failure(new Exception("Unable to get diff on list with less than two elements"))
+    } else {
+      val sortedHorses: Seq[Int] = horses.sorted
+      val slidingHorses: Iterator[Seq[Int]] = sortedHorses.sliding(2, 1)
+      val horseDiffs: Iterator[Int] = slidingHorses.map { case Seq(a, b) => b - a }
+      Success(horseDiffs.min)
+    }
   }
 }
