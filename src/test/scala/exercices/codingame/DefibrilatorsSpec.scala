@@ -1,11 +1,13 @@
 package exercices.codingame
 
+import exercices.codingame.Defibrilators.Defib
 import org.scalatest.{FunSpec, Matchers}
 
-import scala.util.Success
+import scala.util.{Failure, Success, Try}
 
 // from https://www.codingame.com/ide/puzzle/defibrillators
 class DefibrilatorsSpec extends FunSpec with Matchers {
+
   describe("Defibrilators") {
     import Defibrilators._
     describe("getClosestDefibName") {
@@ -177,6 +179,12 @@ class DefibrilatorsSpec extends FunSpec with Matchers {
         "187;Cirad;Avenue agropolis 34398 MONTPELLIER;;3,868430789818;43,6504884118088",
         "188;Mornay;26 allee jules milhau 34965 MONTPELLIER;;3,88335468006384;43,6090204423773",
         "189;Boulodrome Bernard Gasset;122 avenue Maurice Planes 34070 MONTPELLIER;;3,84329169898554;43,5967806501323")
+
+
+      it("should parse the defib") {
+        parseDefib("1;Maison de la Prevention Sante;6 rue Maguelone 340000 Montpellier;;3,87952263361082;43,6071285339217") shouldBe Success(Defib(1,"Maison de la Prevention Sante","6 rue Maguelone 340000 Montpellier","",Point(3.87952263361082,43.6071285339217)))
+      }
+
       it("should work with exemple") {
         getClosestDefibName(Point(3.879483, 43.608177), Seq(
           "1;Maison de la Prevention Sante;6 rue Maguelone 340000 Montpellier;;3,87952263361082;43,6071285339217",

@@ -55,8 +55,8 @@ class ReadFileSpec extends FunSpec with Matchers {
         users.length shouldBe 98
         errors.length shouldBe 2
         errors.map { case (i, e) => (i, e.getMessage) } shouldBe Seq(
-          (19, "For input string: \"19a\""),
-          (20, "For input string: \"\""))
+          (20, "For input string: \"19a\""),
+          (21, "For input string: \"\""))
       }
     }
   }
