@@ -10,6 +10,8 @@ import exercices.web.domain.api.ApiError
 import exercices.web.domain.{User, UserNoId}
 import exercices.web.{AppConf, AppServer, HelloConf}
 
+import scala.concurrent.Await
+import scala.concurrent.duration.Duration
 import scala.util.{Success, Try}
 
 class UserControllerTest extends FeatureTest {
@@ -24,6 +26,9 @@ class UserControllerTest extends FeatureTest {
     val res = server.httpPost(path = "/api/users", postBody = asJson(user), andExpect = Ok)
     val idTry = parse[User.Id](res)
     idTry shouldBe a[Success[_]]
+
+    val oUser: Option[User] = Await.result(store.read(idTry.get), Duration("1 second"))
+    oUser shouldBe (Some(User(idTry.get,"a","a")))
   }
 
   test("should retrieve the created user") {
